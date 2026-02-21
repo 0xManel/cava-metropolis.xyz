@@ -3724,17 +3724,6 @@
     "planta": -1
   },
   {
-    "nome": "Rossignol-Trapet Latriciéres-Cham-",
-    "tipo": "TINTO",
-    "regiao": "Latricières-Chambertin",
-    "precoBotella": 402,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "localizacao": "2 E A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
     "nome": "Trapet Latricières-Chambertin",
     "tipo": "TINTO",
     "regiao": "Latricières-Chambertin",
@@ -5912,15 +5901,6 @@
     "planta": -1
   },
   {
-    "nome": "Bosque de Matasnos Edición Limita-",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 79,
-    "precoCopa": null,
-    "uvas": "Malbec, Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Calogía Doble M 2020",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
@@ -7464,15 +7444,6 @@
     "planta": -1
   },
   {
-    "nome": "Remírez de Ganuza Gran Reserva",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 920,
-    "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Remírez de Ganuza Olagar Gran",
     "tipo": "BRANCO",
     "regiao": "Rioja",
@@ -7832,15 +7803,6 @@
     "regiao": "Rueda",
     "precoBotella": 48,
     "precoCopa": 9,
-    "uvas": "Verdejo",
-    "planta": -1
-  },
-  {
-    "nome": "Menade La Misión 2023",
-    "tipo": "BRANCO",
-    "regiao": "Rueda",
-    "precoBotella": 9,
-    "precoCopa": null,
     "uvas": "Verdejo",
     "planta": -1
   },
@@ -9493,15 +9455,6 @@
     "planta": -1
   },
   {
-    "nome": "de Béze Bèze Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 18,
-    "precoCopa": null,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
     "nome": "de Béze Béze Grand Cru 2",
     "tipo": "TINTO",
     "regiao": "Francia",
@@ -9631,15 +9584,6 @@
   },
   {
     "nome": "rrières 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "rriéres 2",
     "tipo": "BRANCO",
     "regiao": "Francia",
     "precoBotella": 22,
