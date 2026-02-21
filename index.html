@@ -977,7 +977,8 @@
 
             const filtrados = vinhos.filter(vinho =>
                 removeAccents(vinho.nome.toLowerCase()).includes(query) ||
-                removeAccents(vinho.regiao.toLowerCase()).includes(query)
+                removeAccents(vinho.regiao.toLowerCase()).includes(query) ||
+                removeAccents((vinho.uvas || '').toLowerCase()).includes(query)
             ).sort((a, b) => a.nome.localeCompare(b.nome));
 
             if (filtrados.length > 0) {

@@ -1,56 +1,11 @@
 [
   {
-    "nome": "1er Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "1er Cru Aux Murgers 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "1er Grand Cru Classé 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Abazzia di Novacella Praepositus 2022",
-    "tipo": "BRANCO",
-    "regiao": "Alto Adige",
-    "precoBotella": 77,
-    "precoCopa": null,
-    "uvas": "Riesling",
-    "planta": -1
-  },
-  {
-    "nome": "Alba 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Pera Manca 2014 Arinto, Antao Vaz, Pedro Baptista",
+    "nome": "Pera Manca 2014",
     "tipo": "BRANCO",
     "regiao": "Alentejo",
     "precoBotella": 429,
     "precoCopa": null,
-    "uvas": "Arinto",
+    "uvas": "Arinto, Antão Vaz, Roupeiro",
     "planta": -1
   },
   {
@@ -63,28 +18,19 @@
     "planta": -1
   },
   {
-    "nome": "Aligoté 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Aligoté",
-    "planta": -1
-  },
-  {
-    "nome": "Aligoté Vignes 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Aligoté",
-    "planta": -1
-  },
-  {
     "nome": "Trimbach Frederic Emile 2017",
     "tipo": "BRANCO",
     "regiao": "Alsace",
     "precoBotella": 125,
+    "precoCopa": null,
+    "uvas": "Riesling",
+    "planta": -1
+  },
+  {
+    "nome": "Abazzia di Novacella Praepositus 2022",
+    "tipo": "BRANCO",
+    "regiao": "Alto Adige",
+    "precoBotella": 77,
     "precoCopa": null,
     "uvas": "Riesling",
     "planta": -1
@@ -99,12 +45,12 @@
     "planta": -1
   },
   {
-    "nome": "Annunziata 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 21,
+    "nome": "Tramin 2024 Pinot Grigio",
+    "tipo": "BRANCO",
+    "regiao": "Alto Adige",
+    "precoBotella": 39,
     "precoCopa": null,
-    "uvas": "Sangiovese",
+    "uvas": "Pinot Grigio",
     "planta": -1
   },
   {
@@ -127,15 +73,6 @@
     "uvas": "Doña Blanca",
     "localizacao": "2 D A",
     "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Arvelets 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
@@ -162,6 +99,15 @@
     "regiao": "Auckland",
     "precoBotella": 193,
     "precoCopa": null,
+    "uvas": "Chardonnay",
+    "planta": -1
+  },
+  {
+    "nome": "Mate´s 2023",
+    "tipo": "BRANCO",
+    "regiao": "Auckland",
+    "precoBotella": 193,
+    "precoCopa": 35,
     "uvas": "Chardonnay",
     "planta": -1
   },
@@ -260,15 +206,6 @@
     "tipo": "TINTO",
     "regiao": "Barbera d'Alba",
     "precoBotella": 55,
-    "precoCopa": null,
-    "uvas": "Barbera",
-    "planta": -1
-  },
-  {
-    "nome": "Superiore 2",
-    "tipo": "TINTO",
-    "regiao": "Barbera d'Alba",
-    "precoBotella": 22,
     "precoCopa": null,
     "uvas": "Barbera",
     "planta": -1
@@ -445,33 +382,6 @@
     "planta": -1
   },
   {
-    "nome": "Barre 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Bazin 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Folettes 2",
-    "tipo": "BRANCO",
-    "regiao": "Beaune",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Joseph Drouhin 1er Cru Clos",
     "tipo": "BRANCO",
     "regiao": "Beaune",
@@ -481,7 +391,7 @@
     "planta": -1
   },
   {
-    "nome": "Louis Jadot Bienvenues-Bâtard-",
+    "nome": "Louis Jadot Bienvenues-Bâtard",
     "tipo": "BRANCO",
     "regiao": "Bienvenues-Bâtard-Montrachet",
     "precoBotella": 661,
@@ -490,7 +400,7 @@
     "planta": -1
   },
   {
-    "nome": "Pierre Girardin Bienvenue-Bâ-",
+    "nome": "Pierre Girardin Bienvenue-Bâ",
     "tipo": "BRANCO",
     "regiao": "Bienvenues-Bâtard-Montrachet",
     "precoBotella": 579,
@@ -755,39 +665,10 @@
     "planta": -1
   },
   {
-    "nome": "Bizkaiko-Txakolina Marko Terleguiz 2023",
-    "tipo": "BRANCO",
-    "regiao": "País Vasco",
-    "precoBotella": 94,
-    "precoCopa": null,
-    "uvas": "Hondarrabi Zuri",
-    "localizacao": "2 B D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Blagny Comtesse de Cherisey Blagny 1er",
+    "nome": "Comtesse de Cherisey Blagny 1er Cru",
     "tipo": "TINTO",
     "regiao": "Blagny",
     "precoBotella": 336,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Blanco 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Blanco",
-    "planta": -1
-  },
-  {
-    "nome": "Bois de Blagny 2",
-    "tipo": "TINTO",
-    "regiao": "Blagny",
-    "precoBotella": 22,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -808,15 +689,6 @@
     "precoBotella": 770,
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon, Cabernet Franc",
-    "planta": -1
-  },
-  {
-    "nome": "Comtes Georges de Vogüé Bon-",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 898,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
@@ -847,37 +719,19 @@
     "planta": -1
   },
   {
-    "nome": "Boschis 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Bouchet 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 18,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Hudelot-Noellat Bourgogne 2022",
-    "tipo": "TINTO",
-    "regiao": "Bourgogne Rouge",
-    "precoBotella": 109,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Antoine Lepetit Aligote Jeunes",
     "tipo": "BRANCO",
     "regiao": "Bourgogne",
     "precoBotella": 106,
+    "precoCopa": null,
+    "uvas": "Aligoté",
+    "planta": -1
+  },
+  {
+    "nome": "Hudelot Noellat Bourgogne Aligote",
+    "tipo": "BRANCO",
+    "regiao": "Bourgogne",
+    "precoBotella": 74,
     "precoCopa": null,
     "uvas": "Aligoté",
     "planta": -1
@@ -919,15 +773,6 @@
     "planta": -1
   },
   {
-    "nome": "Hudelot Noellat Bourgogne Aligote",
-    "tipo": "BRANCO",
-    "regiao": "Bourgogne",
-    "precoBotella": 74,
-    "precoCopa": null,
-    "uvas": "Aligoté",
-    "planta": -1
-  },
-  {
     "nome": "Arnaud Ente 2019",
     "tipo": "TINTO",
     "regiao": "Bourgogne Rouge",
@@ -941,6 +786,15 @@
     "tipo": "TINTO",
     "regiao": "Bourgogne Rouge",
     "precoBotella": 138,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Hudelot-Noellat Bourgogne 2022",
+    "tipo": "TINTO",
+    "regiao": "Bourgogne Rouge",
+    "precoBotella": 109,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -1000,33 +854,6 @@
     "planta": -1
   },
   {
-    "nome": "Brut 2",
-    "tipo": "CHAMPAGNE",
-    "regiao": "Francia",
-    "precoBotella": 15,
-    "precoCopa": null,
-    "uvas": "Chardonnay, Pinot Noir, Pinot Meunier",
-    "planta": -1
-  },
-  {
-    "nome": "Buradón 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Butteaux 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Clos du Temple 2023",
     "tipo": "ROSADO",
     "regiao": "Cabrières",
@@ -1036,12 +863,21 @@
     "planta": -1
   },
   {
-    "nome": "Castiglione 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 18,
+    "nome": "Quintidecimo Exultet 2021",
+    "tipo": "BRANCO",
+    "regiao": "Campania",
+    "precoBotella": 106,
     "precoCopa": null,
-    "uvas": "Moscato",
+    "uvas": "Fiano di Avellino",
+    "planta": -1
+  },
+  {
+    "nome": "Terredora Loggia della Serra 2024",
+    "tipo": "BRANCO",
+    "regiao": "Campania",
+    "precoBotella": 40,
+    "precoCopa": null,
+    "uvas": "Greco di Tufo",
     "planta": -1
   },
   {
@@ -1073,11 +909,11 @@
   },
   {
     "nome": "Flor de Albihar 2021",
-    "tipo": "TINTO",
+    "tipo": "BRANCO",
     "regiao": "Cebreros",
     "precoBotella": 44,
     "precoCopa": null,
-    "uvas": "Albillo",
+    "uvas": "Albillo Real",
     "localizacao": "3 D D",
     "cava": "3",
     "planta": -1
@@ -1119,7 +955,7 @@
     "planta": -1
   },
   {
-    "nome": "Billaud Simon 1er Cru Four-",
+    "nome": "Billaud Simon 1er Cru Four",
     "tipo": "BRANCO",
     "regiao": "Chablis",
     "precoBotella": 107,
@@ -1128,7 +964,7 @@
     "planta": -1
   },
   {
-    "nome": "Billaud Simon 1er Cru Mon-",
+    "nome": "Billaud Simon 1er Cru Mon",
     "tipo": "BRANCO",
     "regiao": "Chablis",
     "precoBotella": 123,
@@ -1236,151 +1072,7 @@
     "planta": -1
   },
   {
-    "nome": "1er Cru Les Clos des Varoilles 2",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "2",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Armand Rousseau Chambertin",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 950,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Combe Moines 2",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Jean-Marie Fourrier Chambertin",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 903,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "La Combe Aux Moines 2",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Perrot-Minot Chambertin Grand Cru",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 120,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Philipe Charlopin Chambertin Grand",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 210,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Rossignol-Trapet Chambertin Grand",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 331,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Trapet Chambertin Grand Cru 2019",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 118,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Trapet Chambertin Grand Cru 2020",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 90,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Trapet Chambertin Grand Cru 2021",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 79,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Trapet Chambertin Grand Cru 2022",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 35,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "tin 2",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Louis Jadot Chambertin-Clos de",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 557,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Pierre Damoy Chambertin Clos de",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 716,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Comte Georges Vogüé Chambo-",
+    "nome": "Comte Georges Vogüé Chambo",
     "tipo": "TINTO",
     "regiao": "Chambolle-Musigny",
     "precoBotella": 726,
@@ -1389,7 +1081,16 @@
     "planta": -1
   },
   {
-    "nome": "Comtes Georges de Vogüé Chambo-",
+    "nome": "Comtes Georges de Vogüé Bon",
+    "tipo": "TINTO",
+    "regiao": "Chambolle-Musigny",
+    "precoBotella": 898,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Comtes Georges de Vogüé Chambo",
     "tipo": "TINTO",
     "regiao": "Chambolle-Musigny",
     "precoBotella": 726,
@@ -1407,7 +1108,7 @@
     "planta": -1
   },
   {
-    "nome": "Hudelot-Noellat Chambolle-Musig-",
+    "nome": "Hudelot-Noellat Chambolle-Musig",
     "tipo": "TINTO",
     "regiao": "Chambolle-Musigny",
     "precoBotella": 254,
@@ -1416,7 +1117,7 @@
     "planta": -1
   },
   {
-    "nome": "Jacques-Frédéric Mugnier Chambo-",
+    "nome": "Jacques-Frédéric Mugnier Chambo",
     "tipo": "TINTO",
     "regiao": "Chambolle-Musigny",
     "precoBotella": 705,
@@ -1425,7 +1126,7 @@
     "planta": -1
   },
   {
-    "nome": "Lucien Le Moine Chambolle-Musig-",
+    "nome": "Lucien Le Moine Chambolle-Musig",
     "tipo": "TINTO",
     "regiao": "Chambolle-Musigny",
     "precoBotella": 594,
@@ -1638,12 +1339,12 @@
     "planta": -1
   },
   {
-    "nome": "Georges Laval 1er Cru Les Hautes",
+    "nome": "Georges Laval 1er Cru Les Hautes Chevres",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 446,
     "precoCopa": null,
-    "uvas": "",
+    "uvas": "Pinot Meunier, Chardonnay, Pinot Noir",
     "planta": -1
   },
   {
@@ -1665,20 +1366,20 @@
     "planta": -1
   },
   {
-    "nome": "Gosset Grande Reserve Brut",
-    "tipo": "CHAMPAGNE",
-    "regiao": "Champagne",
-    "precoBotella": 142,
-    "precoCopa": null,
-    "uvas": "Chardonnay, Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Gosset Grande Reserve",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 142,
     "precoCopa": 26,
+    "uvas": "Chardonnay, Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Gosset Grande Reserve Brut",
+    "tipo": "CHAMPAGNE",
+    "regiao": "Champagne",
+    "precoBotella": 142,
+    "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
     "planta": -1
   },
@@ -1714,7 +1415,7 @@
     "planta": -1
   },
   {
-    "nome": "Jacques Lassaigne Vignes de Mont-",
+    "nome": "Jacques Lassaigne Vignes de Mont",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 154,
@@ -1723,7 +1424,7 @@
     "planta": -1
   },
   {
-    "nome": "Jacques Selosse Lieux-Dits Les Care-",
+    "nome": "Jacques Selosse Lieux-Dits Les Care",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 45,
@@ -1801,21 +1502,21 @@
     "planta": -1
   },
   {
-    "nome": "Laherte Frères Petit Meslier Ex-",
+    "nome": "Laherte Frères Petit Meslier Extra Brut",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 220,
     "precoCopa": null,
-    "uvas": "",
+    "uvas": "Petit Meslier",
     "planta": -1
   },
   {
-    "nome": "Laherte Frères Rose de",
+    "nome": "Laherte Frères Rose de Meunier",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 105,
     "precoCopa": null,
-    "uvas": "",
+    "uvas": "Pinot Meunier",
     "planta": -1
   },
   {
@@ -1864,12 +1565,12 @@
     "planta": -1
   },
   {
-    "nome": "Leclerc-Briant Blanc de",
+    "nome": "Leclerc-Briant Blanc de Blancs",
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 270,
     "precoCopa": null,
-    "uvas": "",
+    "uvas": "Chardonnay",
     "planta": -1
   },
   {
@@ -2046,25 +1747,7 @@
     "planta": -1
   },
   {
-    "nome": "Champs Cloux 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Chapelle 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Rossignol-Trapet Chapelle-Cham-",
+    "nome": "Rossignol-Trapet Chapelle-Cham",
     "tipo": "TINTO",
     "regiao": "Chapelle-Chambertin",
     "precoBotella": 743,
@@ -2082,34 +1765,7 @@
     "planta": -1
   },
   {
-    "nome": "Charlemagne Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Charlemagne magne Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Charmes 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "David Duband Charmes-Chamber-",
+    "nome": "David Duband Charmes-Chamber",
     "tipo": "TINTO",
     "regiao": "Charmes-Chambertin",
     "precoBotella": 550,
@@ -2145,7 +1801,7 @@
     "planta": -1
   },
   {
-    "nome": "Mark Haisma Chassagne-Montra-",
+    "nome": "Mark Haisma Chassagne-Montra",
     "tipo": "BRANCO",
     "regiao": "Chevalier-Montrachet",
     "precoBotella": 182,
@@ -2172,24 +1828,6 @@
     "planta": -1
   },
   {
-    "nome": "Clos des Papes Châteauneuf-du-Pa-",
-    "tipo": "BRANCO",
-    "regiao": "Châteauneuf-du-Pape",
-    "precoBotella": 182,
-    "precoCopa": null,
-    "uvas": "Cinsault",
-    "planta": -1
-  },
-  {
-    "nome": "Mont-Olivet 2023",
-    "tipo": "TINTO",
-    "regiao": "Châteauneuf-du-Pape",
-    "precoBotella": 17,
-    "precoCopa": 17,
-    "uvas": "Syrah, Garnacha",
-    "planta": -1
-  },
-  {
     "nome": "Chateau Rayas 2011",
     "tipo": "TINTO",
     "regiao": "Châteauneuf-du-Pape",
@@ -2199,7 +1837,16 @@
     "planta": -1
   },
   {
-    "nome": "Clos des Papes Châteauneuf-du-Pa-",
+    "nome": "Clos des Papes Châteauneuf-du-Pa",
+    "tipo": "BRANCO",
+    "regiao": "Châteauneuf-du-Pape",
+    "precoBotella": 182,
+    "precoCopa": null,
+    "uvas": "Cinsault",
+    "planta": -1
+  },
+  {
+    "nome": "Clos des Papes Châteauneuf-du-Pa",
     "tipo": "TINTO",
     "regiao": "Châteauneuf-du-Pape",
     "precoBotella": 217,
@@ -2235,6 +1882,15 @@
     "planta": -1
   },
   {
+    "nome": "Mont-Olivet 2023",
+    "tipo": "TINTO",
+    "regiao": "Châteauneuf-du-Pape",
+    "precoBotella": 17,
+    "precoCopa": 17,
+    "uvas": "Syrah, Garnacha",
+    "planta": -1
+  },
+  {
     "nome": "Pierre Usseglio 2007",
     "tipo": "TINTO",
     "regiao": "Châteauneuf-du-Pape",
@@ -2253,37 +1909,10 @@
     "planta": -1
   },
   {
-    "nome": "Chèvres Brut Nature 2",
-    "tipo": "CHAMPAGNE",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Chardonnay, Pinot Noir, Pinot Meunier",
-    "planta": -1
-  },
-  {
-    "nome": "Ciauria 2",
+    "nome": "Domaine d´Eugénie Clos-Vougeot",
     "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Classico 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Classé A 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 17,
+    "regiao": "Clos de Vougeot",
+    "precoBotella": 62,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -2298,6 +1927,15 @@
     "planta": -1
   },
   {
+    "nome": "Grivot Clos de Vougeot Grand Cru",
+    "tipo": "TINTO",
+    "regiao": "Clos de Vougeot",
+    "precoBotella": 968,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
     "nome": "Hubert Lignier Clos-Vougeot Grand",
     "tipo": "TINTO",
     "regiao": "Clos de Vougeot",
@@ -2307,7 +1945,16 @@
     "planta": -1
   },
   {
-    "nome": "Jean-Jacques Confuron Clos Vou-",
+    "nome": "Jean-Jacques Confuron Clos Vou",
+    "tipo": "TINTO",
+    "regiao": "Clos de Vougeot",
+    "precoBotella": 451,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Jean-Jacques Confuron Clos-Vou",
     "tipo": "TINTO",
     "regiao": "Clos de Vougeot",
     "precoBotella": 451,
@@ -2325,84 +1972,12 @@
     "planta": -1
   },
   {
-    "nome": "Domaine Ponsot Clos de la Roche",
-    "tipo": "TINTO",
-    "regiao": "Morey-Saint-Denis",
-    "precoBotella": 555,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Louis Jadot Clos Saint Denis Grand",
-    "tipo": "TINTO",
-    "regiao": "Morey-Saint-Denis",
-    "precoBotella": 95,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Lucien Le Moine Clos de la Roche",
-    "tipo": "TINTO",
-    "regiao": "Morey-Saint-Denis",
-    "precoBotella": 902,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Domaine d´Eugénie Clos-Vougeot",
-    "tipo": "TINTO",
-    "regiao": "Clos de Vougeot",
-    "precoBotella": 62,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Grivot Clos de Vougeot Grand Cru",
-    "tipo": "TINTO",
-    "regiao": "Clos de Vougeot",
-    "precoBotella": 968,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Jean-Jacques Confuron Clos-Vou-",
-    "tipo": "TINTO",
-    "regiao": "Clos de Vougeot",
-    "precoBotella": 451,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Cloud 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Vietti 2023",
     "tipo": "BRANCO",
     "regiao": "Colli Tortonesi",
     "precoBotella": 88,
     "precoCopa": null,
     "uvas": "Timorasso",
-    "planta": -1
-  },
-  {
-    "nome": "Combe Moines 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
     "planta": -1
   },
   {
@@ -2469,7 +2044,7 @@
     "planta": -1
   },
   {
-    "nome": "Chandon de Briailles Corton Bres-",
+    "nome": "Chandon de Briailles Corton Bres",
     "tipo": "TINTO",
     "regiao": "Corton",
     "precoBotella": 341,
@@ -2505,7 +2080,7 @@
     "planta": -1
   },
   {
-    "nome": "Bonneau du Martray Corton Charle-",
+    "nome": "Bonneau du Martray Corton Charle",
     "tipo": "BRANCO",
     "regiao": "Corton-Charlemagne",
     "precoBotella": 174,
@@ -2514,7 +2089,7 @@
     "planta": -1
   },
   {
-    "nome": "Bonneau du Martray Corton-Charle-",
+    "nome": "Bonneau du Martray Corton-Charle",
     "tipo": "BRANCO",
     "regiao": "Corton-Charlemagne",
     "precoBotella": 396,
@@ -2532,7 +2107,7 @@
     "planta": -1
   },
   {
-    "nome": "Lucien Le Moine Corton-Charle-",
+    "nome": "Lucien Le Moine Corton-Charle",
     "tipo": "BRANCO",
     "regiao": "Corton-Charlemagne",
     "precoBotella": 869,
@@ -2559,7 +2134,7 @@
     "planta": -1
   },
   {
-    "nome": "Vincent Girardin Corton-Charle-",
+    "nome": "Vincent Girardin Corton-Charle",
     "tipo": "BRANCO",
     "regiao": "Corton-Charlemagne",
     "precoBotella": 677,
@@ -2574,60 +2149,6 @@
     "precoBotella": 81,
     "precoCopa": null,
     "uvas": "Falanghina, Biancolella",
-    "planta": -1
-  },
-  {
-    "nome": "Cromin 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Cru 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 16,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Cru Classé A 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 16,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Cru La Genelotte 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Cru Lolières 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Cru Marquis de Laguiche 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
     "planta": -1
   },
   {
@@ -2649,7 +2170,7 @@
     "planta": -1
   },
   {
-    "nome": "Henri Magnien Côte-de-Nuits Thu-",
+    "nome": "Henri Magnien Côte-de-Nuits Thu",
     "tipo": "TINTO",
     "regiao": "Côte-de-Nuits",
     "precoBotella": 89,
@@ -2714,44 +2235,6 @@
     "cava": "2"
   },
   {
-    "nome": "Abadía Retuerta Le Domaine 2023",
-    "tipo": "BRANCO",
-    "regiao": "D.O.P. Abadía Retuerta",
-    "precoBotella": 77,
-    "precoCopa": null,
-    "uvas": "Verdejo, Sauvignon Blanc",
-    "localizacao": "2 E D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Mustiguillo Finca El Terrerazo 2022",
-    "tipo": "TINTO",
-    "regiao": "D.O.P. El Terrerazo",
-    "precoBotella": 50,
-    "precoCopa": null,
-    "uvas": "Bobal",
-    "planta": -1
-  },
-  {
-    "nome": "Mustiguillo Finca Calvestra 2022",
-    "tipo": "BRANCO",
-    "regiao": "D.O.P. El Terrerazo",
-    "precoBotella": 44,
-    "precoCopa": null,
-    "uvas": "Verdejo",
-    "planta": -1
-  },
-  {
-    "nome": "Mustiguillo Quincha Corral 2019",
-    "tipo": "TINTO",
-    "regiao": "D.O.P. El Terrerazo",
-    "precoBotella": 206,
-    "precoCopa": null,
-    "uvas": "Bobal",
-    "planta": -1
-  },
-  {
     "nome": "Abadía Retuerta Cuvée Palomar",
     "tipo": "TINTO",
     "regiao": "D.O.P. Abadía Retuerta",
@@ -2770,6 +2253,17 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 I A",
+    "cava": "2",
+    "planta": -1
+  },
+  {
+    "nome": "Abadía Retuerta Le Domaine 2023",
+    "tipo": "BRANCO",
+    "regiao": "D.O.P. Abadía Retuerta",
+    "precoBotella": 77,
+    "precoCopa": null,
+    "uvas": "Verdejo, Sauvignon Blanc",
+    "localizacao": "2 E D",
     "cava": "2",
     "planta": -1
   },
@@ -2840,6 +2334,33 @@
     "planta": -1
   },
   {
+    "nome": "Mustiguillo Finca Calvestra 2022",
+    "tipo": "BRANCO",
+    "regiao": "D.O.P. El Terrerazo",
+    "precoBotella": 44,
+    "precoCopa": null,
+    "uvas": "Verdejo",
+    "planta": -1
+  },
+  {
+    "nome": "Mustiguillo Finca El Terrerazo 2022",
+    "tipo": "TINTO",
+    "regiao": "D.O.P. El Terrerazo",
+    "precoBotella": 50,
+    "precoCopa": null,
+    "uvas": "Bobal",
+    "planta": -1
+  },
+  {
+    "nome": "Mustiguillo Quincha Corral 2019",
+    "tipo": "TINTO",
+    "regiao": "D.O.P. El Terrerazo",
+    "precoBotella": 206,
+    "precoCopa": null,
+    "uvas": "Bobal",
+    "planta": -1
+  },
+  {
     "nome": "Savage Follow the line 2023",
     "tipo": "TINTO",
     "regiao": "Darling",
@@ -2849,39 +2370,12 @@
     "planta": -1
   },
   {
-    "nome": "De Morgenzon De Morgenzon 2022 Chenin Blanc",
-    "tipo": "BRANCO",
-    "regiao": "Stellenbosch",
-    "precoBotella": 130,
-    "precoCopa": 24,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
-    "nome": "Denis 1er Cru Baulet 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
-    "nome": "Denis 1er Cru Clos Sorbe 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
     "nome": "Coche",
     "tipo": "BRANCO",
     "regiao": "Douro",
     "precoBotella": 215,
     "precoCopa": null,
-    "uvas": "Touriga Franca",
+    "uvas": "Arinto, Códega, Rabigato",
     "localizacao": "2 I A",
     "cava": "2",
     "planta": -1
@@ -2909,33 +2403,6 @@
     "planta": -1
   },
   {
-    "nome": "Grivot Echézèaux Grand Cru 2022",
-    "tipo": "TINTO",
-    "regiao": "Vosne-Romanée",
-    "precoBotella": 210,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Louis Jadot Echézèaux Grand Cru",
-    "tipo": "TINTO",
-    "regiao": "Vosne-Romanée",
-    "precoBotella": 839,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Philip Pacalet Echézèaux Grand Cru",
-    "tipo": "TINTO",
-    "regiao": "Vosne-Romanée",
-    "precoBotella": 131,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Lothian 2021",
     "tipo": "TINTO",
     "regiao": "Elgin Valley",
@@ -2960,33 +2427,6 @@
     "precoBotella": 157,
     "precoCopa": 29,
     "uvas": "Merlot",
-    "planta": -1
-  },
-  {
-    "nome": "M. Chapoutier Ermitage De L´Oree",
-    "tipo": "BRANCO",
-    "regiao": "Hermitage",
-    "precoBotella": 523,
-    "precoCopa": null,
-    "uvas": "Marsanne",
-    "planta": -1
-  },
-  {
-    "nome": "M. Chapoutier Ermitage Le Meal",
-    "tipo": "BRANCO",
-    "regiao": "Hermitage",
-    "precoBotella": 506,
-    "precoCopa": null,
-    "uvas": "Marsanne",
-    "planta": -1
-  },
-  {
-    "nome": "Michel Chapoutier Le Méal 2022",
-    "tipo": "TINTO",
-    "regiao": "Hermitage",
-    "precoBotella": 594,
-    "precoCopa": null,
-    "uvas": "Syrah",
     "planta": -1
   },
   {
@@ -3053,15 +2493,6 @@
     "planta": -1
   },
   {
-    "nome": "Terre Nere Santo Espirito 2023",
-    "tipo": "BRANCO",
-    "regiao": "Etna",
-    "precoBotella": 88,
-    "precoCopa": null,
-    "uvas": "Carricante",
-    "planta": -1
-  },
-  {
     "nome": "Terre Nere Santo Espirito",
     "tipo": "TINTO",
     "regiao": "Etna",
@@ -3071,30 +2502,32 @@
     "planta": -1
   },
   {
-    "nome": "Falletto 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Fiano di Avellino Quintidecimo Exultet 2021 Fiano di Avellino",
+    "nome": "Terre Nere Santo Espirito 2023",
     "tipo": "BRANCO",
-    "regiao": "Campania",
-    "precoBotella": 106,
+    "regiao": "Etna",
+    "precoBotella": 88,
     "precoCopa": null,
-    "uvas": "Fiano",
+    "uvas": "Carricante",
     "planta": -1
   },
   {
-    "nome": "Fiasc 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 20,
+    "nome": "Alunado 2023",
+    "tipo": "BRANCO",
+    "regiao": "Extremadura",
+    "precoBotella": 50,
     "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
+    "uvas": "Chardonnay",
+    "localizacao": "2 B D",
+    "cava": "2",
+    "planta": -1
+  },
+  {
+    "nome": "Viña La Forajida 2017",
+    "tipo": "TINTO",
+    "regiao": "Extremadura",
+    "precoBotella": 266,
+    "precoCopa": null,
+    "uvas": "Garnacha",
     "planta": -1
   },
   {
@@ -3116,33 +2549,6 @@
     "planta": -1
   },
   {
-    "nome": "Foret 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Fortune 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Fourchaume 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Pio Cesare 2024",
     "tipo": "BRANCO",
     "regiao": "Gavi di Gavi",
@@ -3152,52 +2558,25 @@
     "planta": -1
   },
   {
-    "nome": "Genevrières 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Georges 1er Cru Aux Perdrix 2",
+    "nome": "2",
     "tipo": "TINTO",
-    "regiao": "Francia",
+    "regiao": "Gevrey-Chambertin",
     "precoBotella": 22,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
   },
   {
-    "nome": "Georges 1er Cru Clos de Forets 2",
+    "nome": "Armand Rousseau Chambertin",
     "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 950,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
   },
   {
-    "nome": "Georges Georges 1er Cru Aux Perdrix 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Doniene Gorrondona2023 Hondarrabi Zuri, Hondarrabi",
-    "tipo": "BRANCO",
-    "regiao": "País Vasco",
-    "precoBotella": 34,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Armand Rousseau Gevrey-Cham-",
+    "nome": "Armand Rousseau Gevrey-Cham",
     "tipo": "TINTO",
     "regiao": "Gevrey-Chambertin",
     "precoBotella": 564,
@@ -3233,10 +2612,55 @@
     "planta": -1
   },
   {
+    "nome": "Jean-Marie Fourrier Chambertin",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 903,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Louis Jadot Chambertin-Clos de",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 557,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
     "nome": "Pascal Pernot Gevrey-Chambertin",
     "tipo": "TINTO",
     "regiao": "Gevrey-Chambertin",
     "precoBotella": 110,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Perrot-Minot Chambertin Grand Cru",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 120,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Philipe Charlopin Chambertin Grand",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 210,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Pierre Damoy Chambertin Clos de",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 716,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -3251,7 +2675,16 @@
     "planta": -1
   },
   {
-    "nome": "Rossignol-Trapet Gevrey-Chamber-",
+    "nome": "Rossignol-Trapet Chambertin Grand",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 331,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Rossignol-Trapet Gevrey-Chamber",
     "tipo": "TINTO",
     "regiao": "Gevrey-Chambertin",
     "precoBotella": 149,
@@ -3260,10 +2693,37 @@
     "planta": -1
   },
   {
-    "nome": "Gippsland Bass Phillip Estate 2021",
+    "nome": "Trapet Chambertin Grand Cru 2019",
     "tipo": "TINTO",
-    "regiao": "South Australia",
-    "precoBotella": 172,
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 118,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Trapet Chambertin Grand Cru 2020",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 90,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Trapet Chambertin Grand Cru 2021",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 79,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Trapet Chambertin Grand Cru 2022",
+    "tipo": "TINTO",
+    "regiao": "Gevrey-Chambertin",
+    "precoBotella": 35,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -3278,24 +2738,6 @@
     "planta": -1
   },
   {
-    "nome": "Giuseppe 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 18,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Goudelet 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Tamerán Vijariego 2024",
     "tipo": "BRANCO",
     "regiao": "Gran Canaria",
@@ -3305,57 +2747,39 @@
     "planta": -1
   },
   {
-    "nome": "Gran Reserva 2",
-    "tipo": "ROSADO",
-    "regiao": "Francia",
-    "precoBotella": 18,
-    "precoCopa": null,
-    "uvas": "Malvasía",
-    "planta": -1
-  },
-  {
-    "nome": "Grand Cru 2",
+    "nome": "Jean-Louis Chave Hermitage 2017",
     "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
+    "regiao": "Hermitage",
+    "precoBotella": 506,
     "precoCopa": null,
-    "uvas": "Malvasía",
+    "uvas": "Marsanne, Roussanne",
     "planta": -1
   },
   {
-    "nome": "Grand cru Classé 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 15,
-    "precoCopa": null,
-    "uvas": "Malvasía",
-    "planta": -1
-  },
-  {
-    "nome": "Grand cru Classé A 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 11,
-    "precoCopa": null,
-    "uvas": "Malvasía",
-    "planta": -1
-  },
-  {
-    "nome": "Greco di Tufo Terredora Loggia della Serra 2024 Greco di Tufo",
+    "nome": "M. Chapoutier Ermitage De L´Oree",
     "tipo": "BRANCO",
-    "regiao": "Campania",
-    "precoBotella": 40,
+    "regiao": "Hermitage",
+    "precoBotella": 523,
     "precoCopa": null,
-    "uvas": "Greco",
+    "uvas": "Marsanne",
     "planta": -1
   },
   {
-    "nome": "Jean-Louis Chave Hermitage 2017 Marsanne, Roussane",
+    "nome": "M. Chapoutier Ermitage Le Meal",
     "tipo": "BRANCO",
     "regiao": "Hermitage",
     "precoBotella": 506,
     "precoCopa": null,
     "uvas": "Marsanne",
+    "planta": -1
+  },
+  {
+    "nome": "Michel Chapoutier Le Méal 2022",
+    "tipo": "TINTO",
+    "regiao": "Hermitage",
+    "precoBotella": 594,
+    "precoCopa": null,
+    "uvas": "Syrah",
     "planta": -1
   },
   {
@@ -3476,7 +2900,7 @@
     "planta": -1
   },
   {
-    "nome": "Emilio Hidalgo Palo Cortado Mar-",
+    "nome": "Emilio Hidalgo Palo Cortado Mar",
     "tipo": "TINTO",
     "regiao": "Jerez",
     "precoBotella": 83,
@@ -3539,32 +2963,23 @@
     "planta": -1
   },
   {
-    "nome": "Mate´s 2023",
-    "tipo": "BRANCO",
-    "regiao": "Auckland",
-    "precoBotella": 193,
-    "precoCopa": 35,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Ponce Blanco2024 Albilla",
+    "nome": "Ponce Blanco 2024",
     "tipo": "BRANCO",
     "regiao": "La Manchuela",
     "precoBotella": 96,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Albilla Real",
     "localizacao": "2 E A",
     "cava": "2",
     "planta": -1
   },
   {
-    "nome": "Sin Título 22/23 Albillo Criollo, Listán",
+    "nome": "Sin Título 22/23",
     "tipo": "BRANCO",
     "regiao": "La Palma",
     "precoBotella": 81,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Albillo Criollo, Listán Blanco",
     "localizacao": "2 E A",
     "cava": "2",
     "planta": -1
@@ -3576,28 +2991,6 @@
     "precoBotella": 219,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "localizacao": "2 E A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Laguiche 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Blanco",
-    "localizacao": "2 E A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Henri Bonneau Rouliers NV",
-    "tipo": "TINTO",
-    "regiao": "Languedoc-Roussillon",
-    "precoBotella": 149,
-    "precoCopa": null,
-    "uvas": "Garnacha",
     "localizacao": "2 E A",
     "cava": "2",
     "planta": -1
@@ -3669,12 +3062,23 @@
     "planta": -1
   },
   {
+    "nome": "Henri Bonneau Rouliers NV",
+    "tipo": "TINTO",
+    "regiao": "Languedoc-Roussillon",
+    "precoBotella": 149,
+    "precoCopa": null,
+    "uvas": "Garnacha",
+    "localizacao": "2 E A",
+    "cava": "2",
+    "planta": -1
+  },
+  {
     "nome": "Morro La Virgen 2023",
     "tipo": "BRANCO",
     "regiao": "Lanzarote",
     "precoBotella": 108,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco",
     "localizacao": "2 E A",
     "cava": "2",
     "planta": -1
@@ -3685,7 +3089,7 @@
     "regiao": "Lanzarote",
     "precoBotella": 65,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco",
     "localizacao": "2 E A",
     "cava": "2",
     "planta": -1
@@ -3696,13 +3100,13 @@
     "regiao": "Lanzarote",
     "precoBotella": 108,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco",
     "localizacao": "2 E A",
     "cava": "2",
     "planta": -1
   },
   {
-    "nome": "Jean-Marie Fourrier Latricie-",
+    "nome": "Jean-Marie Fourrier Latricie",
     "tipo": "TINTO",
     "regiao": "Latricières-Chambertin",
     "precoBotella": 320,
@@ -3713,7 +3117,7 @@
     "planta": -1
   },
   {
-    "nome": "Rossignol-Trapet Latricières-Cham-",
+    "nome": "Rossignol-Trapet Latricières-Cham",
     "tipo": "TINTO",
     "regiao": "Latricières-Chambertin",
     "precoBotella": 748,
@@ -3732,66 +3136,6 @@
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
     "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Les Belle Fils 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "localizacao": "2 E D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Les Perrières 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "localizacao": "2 E D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Liebres 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Liebres 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 18,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "4 Monos Albillo 2023",
-    "tipo": "BRANCO",
-    "regiao": "Vinos de Madrid",
-    "precoBotella": 44,
-    "precoCopa": null,
-    "uvas": "Albillo",
-    "planta": -1
-  },
-  {
-    "nome": "Cantocuerdas 2021",
-    "tipo": "BRANCO",
-    "regiao": "Vinos de Madrid",
-    "precoBotella": 50,
-    "precoCopa": null,
-    "uvas": "Albillo",
-    "localizacao": "3 D D",
-    "cava": "3",
     "planta": -1
   },
   {
@@ -3957,16 +3301,7 @@
     "planta": -1
   },
   {
-    "nome": "Cheval des Andes 2021",
-    "tipo": "TINTO",
-    "regiao": "Valle de Uco",
-    "precoBotella": 224,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon, Malbec",
-    "planta": -1
-  },
-  {
-    "nome": "Château Chamirey 1er Cru La Mis-",
+    "nome": "Château Chamirey 1er Cru La Mis",
     "tipo": "BRANCO",
     "regiao": "Mercurey",
     "precoBotella": 143,
@@ -3993,7 +3328,7 @@
     "planta": -1
   },
   {
-    "nome": "Arnaud Ente Petits Cha-",
+    "nome": "Arnaud Ente Petits Cha",
     "tipo": "BRANCO",
     "regiao": "Meursault",
     "precoBotella": 850,
@@ -4038,15 +3373,6 @@
     "planta": -1
   },
   {
-    "nome": "Comtesse de Cherisey 1er",
-    "tipo": "BRANCO",
-    "regiao": "Meursault",
-    "precoBotella": 336,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Comtesse de Cherisey",
     "tipo": "BRANCO",
     "regiao": "Meursault",
@@ -4056,19 +3382,19 @@
     "planta": -1
   },
   {
-    "nome": "Hudelot-Noellat Clos de",
+    "nome": "Comtesse de Cherisey 1er",
     "tipo": "BRANCO",
     "regiao": "Meursault",
-    "precoBotella": 246,
+    "precoBotella": 336,
     "precoCopa": null,
     "uvas": "Chardonnay",
     "planta": -1
   },
   {
-    "nome": "Leroy Mersault 1er Cru Genevrières",
+    "nome": "Hudelot-Noellat Clos de",
     "tipo": "BRANCO",
     "regiao": "Meursault",
-    "precoBotella": 80,
+    "precoBotella": 246,
     "precoCopa": null,
     "uvas": "Chardonnay",
     "planta": -1
@@ -4092,7 +3418,16 @@
     "planta": -1
   },
   {
-    "nome": "Louis Jadot 1er Cru Gene-",
+    "nome": "Leroy Mersault 1er Cru Genevrières",
+    "tipo": "BRANCO",
+    "regiao": "Meursault",
+    "precoBotella": 80,
+    "precoCopa": null,
+    "uvas": "Chardonnay",
+    "planta": -1
+  },
+  {
+    "nome": "Louis Jadot 1er Cru Gene",
     "tipo": "BRANCO",
     "regiao": "Meursault",
     "precoBotella": 660,
@@ -4101,7 +3436,7 @@
     "planta": -1
   },
   {
-    "nome": "Louis Jadot 1er Cru Perrié-",
+    "nome": "Louis Jadot 1er Cru Perrié",
     "tipo": "BRANCO",
     "regiao": "Meursault",
     "precoBotella": 330,
@@ -4146,7 +3481,7 @@
     "planta": -1
   },
   {
-    "nome": "Pierre Morey 1er Cru Pe-",
+    "nome": "Pierre Morey 1er Cru Pe",
     "tipo": "BRANCO",
     "regiao": "Meursault",
     "precoBotella": 524,
@@ -4182,42 +3517,6 @@
     "planta": -1
   },
   {
-    "nome": "Monprivato 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Montalcino Montalcino 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Montmains 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Grand Cru Les Demoiselles 2",
-    "tipo": "BRANCO",
-    "regiao": "Montrachet",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Joseph Drouhin Montrachet Grand",
     "tipo": "BRANCO",
     "regiao": "Montrachet",
@@ -4231,33 +3530,6 @@
     "tipo": "BRANCO",
     "regiao": "Montrachet",
     "precoBotella": 7,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "chet 1er Cru Les Combettes 2",
-    "tipo": "BRANCO",
-    "regiao": "Montrachet",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "chet 2",
-    "tipo": "BRANCO",
-    "regiao": "Montrachet",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "la Truffiere 2",
-    "tipo": "BRANCO",
-    "regiao": "Montrachet",
-    "precoBotella": 22,
     "precoCopa": null,
     "uvas": "Chardonnay",
     "planta": -1
@@ -4341,19 +3613,19 @@
     "planta": -1
   },
   {
-    "nome": "Montée de Tonnerre 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Clos de Tart Morey Saint Denis 2022",
     "tipo": "TINTO",
     "regiao": "Morey-Saint-Denis",
     "precoBotella": 308,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Domaine Ponsot Clos de la Roche",
+    "tipo": "TINTO",
+    "regiao": "Morey-Saint-Denis",
+    "precoBotella": 555,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -4377,6 +3649,24 @@
     "planta": -1
   },
   {
+    "nome": "Louis Jadot Clos Saint Denis Grand",
+    "tipo": "TINTO",
+    "regiao": "Morey-Saint-Denis",
+    "precoBotella": 95,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Lucien Le Moine Clos de la Roche",
+    "tipo": "TINTO",
+    "regiao": "Morey-Saint-Denis",
+    "precoBotella": 902,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
     "nome": "Perrot-Minot Morey-Saint Denis Rue",
     "tipo": "TINTO",
     "regiao": "Morey-Saint-Denis",
@@ -4392,78 +3682,6 @@
     "precoBotella": 94,
     "precoCopa": null,
     "uvas": "Riesling",
-    "planta": -1
-  },
-  {
-    "nome": "1er Cru Les Feusselottes 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Musigny 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "La Combe d´Orveau 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "lle-Musigny 1er Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "lle-Musigny 1er Cru Les Fuées 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "lle-Musigny 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "ny 1er Cru Baudes 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "ny 2",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
@@ -4503,21 +3721,23 @@
     "planta": -1
   },
   {
+    "nome": "Señora de las Alturas 2023",
+    "tipo": "BRANCO",
+    "regiao": "Navarra",
+    "precoBotella": 65,
+    "precoCopa": null,
+    "uvas": "Viura, Garnacha Blanca",
+    "localizacao": "3 G A",
+    "cava": "3",
+    "planta": -1
+  },
+  {
     "nome": "Unzu de Julián Chivite 2024",
     "tipo": "TINTO",
     "regiao": "Navarra",
     "precoBotella": 33,
     "precoCopa": null,
     "uvas": "Garnacha",
-    "planta": -1
-  },
-  {
-    "nome": "Nebbiolo 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
     "planta": -1
   },
   {
@@ -4539,12 +3759,12 @@
     "planta": -1
   },
   {
-    "nome": "Nivacella 2",
-    "tipo": "BRANCO",
-    "regiao": "Italia",
-    "precoBotella": 22,
+    "nome": "Domaine de l´Arlot Nuits-Saint",
+    "tipo": "TINTO",
+    "regiao": "Nuits-Saint-Georges",
+    "precoBotella": 248,
     "precoCopa": null,
-    "uvas": "Pinot Grigio",
+    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
@@ -4553,15 +3773,6 @@
     "regiao": "Nuits-Saint-Georges",
     "precoBotella": 251,
     "precoCopa": 46,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Domaine de l´Arlot Nuits-Saint",
-    "tipo": "TINTO",
-    "regiao": "Nuits-Saint-Georges",
-    "precoBotella": 248,
-    "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
   },
@@ -4581,24 +3792,6 @@
     "precoBotella": 363,
     "precoCopa": null,
     "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Olagar 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 15,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Mandolas 2022",
-    "tipo": "BRANCO",
-    "regiao": "Tokaj",
-    "precoBotella": 44,
-    "precoCopa": null,
-    "uvas": "Furmint",
     "planta": -1
   },
   {
@@ -4701,6 +3894,26 @@
     "planta": -1
   },
   {
+    "nome": "Bizkaiko-Txakolina Marko Terleguiz 2023",
+    "tipo": "BRANCO",
+    "regiao": "País Vasco",
+    "precoBotella": 94,
+    "precoCopa": null,
+    "uvas": "Hondarrabi Zuri",
+    "localizacao": "2 B D",
+    "cava": "2",
+    "planta": -1
+  },
+  {
+    "nome": "Doniene Gorrondona 2023",
+    "tipo": "BRANCO",
+    "regiao": "País Vasco",
+    "precoBotella": 34,
+    "precoCopa": null,
+    "uvas": "Hondarrabi Zuri, Hondarrabi Beltza",
+    "planta": -1
+  },
+  {
     "nome": "Abadía de Poblet",
     "tipo": "BRANCO",
     "regiao": "Penedés",
@@ -4741,17 +3954,6 @@
     "planta": -1
   },
   {
-    "nome": "Señora de las Alturas 2023",
-    "tipo": "BRANCO",
-    "regiao": "Navarra",
-    "precoBotella": 65,
-    "precoCopa": null,
-    "uvas": "Viura, Garnacha Blanca",
-    "localizacao": "3 G A",
-    "cava": "3",
-    "planta": -1
-  },
-  {
     "nome": "Taleia 2021",
     "tipo": "BRANCO",
     "regiao": "Penedés",
@@ -4763,30 +3965,21 @@
     "planta": -1
   },
   {
-    "nome": "Chandon de Briailles Pernand-Ver-",
-    "tipo": "BRANCO",
-    "regiao": "Pernand-Vergelesses",
-    "precoBotella": 281,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Skyaasen Pernand-Vergelesses 2022",
-    "tipo": "BRANCO",
-    "regiao": "Pernand-Vergelesses",
-    "precoBotella": 143,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Chandon de Briailles Pernand-",
+    "nome": "Chandon de Briailles Pernand",
     "tipo": "TINTO",
     "regiao": "Pernand-Vergelesses",
     "precoBotella": 187,
     "precoCopa": null,
     "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Chandon de Briailles Pernand-Ver",
+    "tipo": "BRANCO",
+    "regiao": "Pernand-Vergelesses",
+    "precoBotella": 281,
+    "precoCopa": null,
+    "uvas": "Chardonnay",
     "planta": -1
   },
   {
@@ -4799,10 +3992,10 @@
     "planta": -1
   },
   {
-    "nome": "Perrières 2",
+    "nome": "Skyaasen Pernand-Vergelesses 2022",
     "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 23,
+    "regiao": "Pernand-Vergelesses",
+    "precoBotella": 143,
     "precoCopa": null,
     "uvas": "Chardonnay",
     "planta": -1
@@ -4835,12 +4028,12 @@
     "planta": -1
   },
   {
-    "nome": "Château Les Carmes Cabernet Franc, Merlot, Cabernet Sau-",
+    "nome": "Château Les Carmes Haut-Brion",
     "tipo": "TINTO",
     "regiao": "Pessac-Léognan",
     "precoBotella": 358,
     "precoCopa": null,
-    "uvas": "Cabernet Franc",
+    "uvas": "Cabernet Franc, Merlot, Cabernet Sauvignon",
     "planta": -1
   },
   {
@@ -4947,6 +4140,15 @@
     "tipo": "TINTO",
     "regiao": "Piamonte",
     "precoBotella": 630,
+    "precoCopa": null,
+    "uvas": "Nebbiolo",
+    "planta": -1
+  },
+  {
+    "nome": "Rosso di Piamonte Vaira Aurelj Contracorrente",
+    "tipo": "TINTO",
+    "regiao": "Piamonte",
+    "precoBotella": 94,
     "precoCopa": null,
     "uvas": "Nebbiolo",
     "planta": -1
@@ -5159,21 +4361,12 @@
     "planta": -1
   },
   {
-    "nome": "Porto Niepoort Vintage 2022 Touriga Franca, Uva Cao",
+    "nome": "Niepoort Vintage 2022",
     "tipo": "TINTO",
     "regiao": "Porto",
     "precoBotella": 165,
     "precoCopa": 30,
-    "uvas": "Touriga Nacional",
-    "planta": -1
-  },
-  {
-    "nome": "Porusots 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
+    "uvas": "Touriga Nacional, Touriga Franca, Tinta Cão",
     "planta": -1
   },
   {
@@ -5330,21 +4523,21 @@
     "planta": -1
   },
   {
-    "nome": "Finca Dofí 2022 Garmacha",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 836,
-    "precoCopa": null,
-    "uvas": "Cariñena",
-    "planta": -1
-  },
-  {
     "nome": "Finca Dofí 2022",
     "tipo": "TINTO",
     "regiao": "Priorat",
     "precoBotella": 347,
     "precoCopa": null,
     "uvas": "Garnacha, Cariñena",
+    "planta": -1
+  },
+  {
+    "nome": "Finca Dofí 2022 Garmacha",
+    "tipo": "TINTO",
+    "regiao": "Priorat",
+    "precoBotella": 836,
+    "precoCopa": null,
+    "uvas": "Cariñena",
     "planta": -1
   },
   {
@@ -5366,21 +4559,21 @@
     "planta": -1
   },
   {
-    "nome": "Gratallops 2022 Garmacha",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 505,
-    "precoCopa": null,
-    "uvas": "Cariñena",
-    "planta": -1
-  },
-  {
     "nome": "Gratallops 2022",
     "tipo": "TINTO",
     "regiao": "Priorat",
     "precoBotella": 127,
     "precoCopa": null,
     "uvas": "Garnacha, Cariñena",
+    "planta": -1
+  },
+  {
+    "nome": "Gratallops 2022 Garmacha",
+    "tipo": "TINTO",
+    "regiao": "Priorat",
+    "precoBotella": 505,
+    "precoCopa": null,
+    "uvas": "Cariñena",
     "planta": -1
   },
   {
@@ -5393,21 +4586,21 @@
     "planta": -1
   },
   {
-    "nome": "La Baixada 2022 Garmacha",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 178,
-    "precoCopa": null,
-    "uvas": "Cariñena",
-    "planta": -1
-  },
-  {
     "nome": "La Baixada 2022",
     "tipo": "TINTO",
     "regiao": "Priorat",
     "precoBotella": 908,
     "precoCopa": null,
     "uvas": "Garnacha, Cariñena",
+    "planta": -1
+  },
+  {
+    "nome": "La Baixada 2022 Garmacha",
+    "tipo": "TINTO",
+    "regiao": "Priorat",
+    "precoBotella": 178,
+    "precoCopa": null,
+    "uvas": "Cariñena",
     "planta": -1
   },
   {
@@ -5465,12 +4658,12 @@
     "planta": -1
   },
   {
-    "nome": "Mas Doix Salix Garnacha Blanca, Macabeo, P.X.",
+    "nome": "Mas Doix Salix",
     "tipo": "TINTO",
     "regiao": "Priorat",
     "precoBotella": 94,
     "precoCopa": null,
-    "uvas": "Macabeo, Garnacha",
+    "uvas": "Garnacha Blanca, Macabeo, Pedro Ximénez",
     "localizacao": "2 A A",
     "cava": "2",
     "planta": -1
@@ -5512,7 +4705,7 @@
     "planta": -1
   },
   {
-    "nome": "Comtesse de Cherisey Puligny-",
+    "nome": "Comtesse de Cherisey Puligny",
     "tipo": "BRANCO",
     "regiao": "Puligny-Montrachet",
     "precoBotella": 275,
@@ -5521,30 +4714,12 @@
     "planta": -1
   },
   {
-    "nome": "Vincent Girardin Puligny-Montra-",
+    "nome": "Vincent Girardin Puligny-Montra",
     "tipo": "BRANCO",
     "regiao": "Puligny-Montrachet",
     "precoBotella": 409,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Reserva 2",
-    "tipo": "ESPUMANTE",
-    "regiao": "España",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Retuerta 2",
-    "tipo": "ROSADO",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
     "planta": -1
   },
   {
@@ -5577,22 +4752,22 @@
     "planta": -1
   },
   {
-    "nome": "Attis Embaixador 2022",
+    "nome": "Attis Embaixador",
     "tipo": "BRANCO",
     "regiao": "Rias Baixas",
     "precoBotella": 72,
-    "precoCopa": 13,
+    "precoCopa": null,
     "uvas": "Albariño",
     "localizacao": "2 — CP",
     "cava": "2",
     "planta": -1
   },
   {
-    "nome": "Attis Embaixador",
+    "nome": "Attis Embaixador 2022",
     "tipo": "BRANCO",
     "regiao": "Rias Baixas",
     "precoBotella": 72,
-    "precoCopa": null,
+    "precoCopa": 13,
     "uvas": "Albariño",
     "localizacao": "2 — CP",
     "cava": "2",
@@ -5617,10 +4792,10 @@
     "planta": -1
   },
   {
-    "nome": "Attis Mar 2021",
+    "nome": "Attis Mar",
     "tipo": "BRANCO",
     "regiao": "Rias Baixas",
-    "precoBotella": 341,
+    "precoBotella": 165,
     "precoCopa": null,
     "uvas": "Albariño",
     "localizacao": "2 I A",
@@ -5628,10 +4803,10 @@
     "planta": -1
   },
   {
-    "nome": "Attis Mar",
+    "nome": "Attis Mar 2021",
     "tipo": "BRANCO",
     "regiao": "Rias Baixas",
-    "precoBotella": 165,
+    "precoBotella": 341,
     "precoCopa": null,
     "uvas": "Albariño",
     "localizacao": "2 I A",
@@ -5718,7 +4893,7 @@
   },
   {
     "nome": "Sitta Pereiras 2023",
-    "tipo": "BRANCO",
+    "tipo": "DULCE",
     "regiao": "Rias Baixas",
     "precoBotella": 48,
     "precoCopa": null,
@@ -5874,29 +5049,20 @@
     "planta": -1
   },
   {
-    "nome": "Bosque Matasnos Et Blanca 2022",
+    "nome": "Bosque de Matasnos Edición Limitada",
+    "tipo": "TINTO",
+    "regiao": "Ribera del Duero",
+    "precoBotella": 79,
+    "precoCopa": 14,
+    "uvas": "Malbec, Tempranillo",
+    "planta": -1
+  },
+  {
+    "nome": "Bosque de Matasnos Et Blanca 2022",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
     "precoBotella": 62,
     "precoCopa": null,
-    "uvas": "Malbec, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Bosque de Matasnos Edicion Limita-",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 79,
-    "precoCopa": null,
-    "uvas": "Malbec, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Bosque de Matasnos Edición Limi-",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 14,
-    "precoCopa": 14,
     "uvas": "Malbec, Tempranillo",
     "planta": -1
   },
@@ -5928,12 +5094,12 @@
     "planta": -1
   },
   {
-    "nome": "Carmelo Rodero TSM 2021 Tempranillo, Merlot, Cabernet Sauvig-",
+    "nome": "Carmelo Rodero TSM 2021",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
     "precoBotella": 160,
     "precoCopa": null,
-    "uvas": "Tempranillo",
+    "uvas": "Tempranillo, Merlot, Cabernet Sauvignon",
     "planta": -1
   },
   {
@@ -6057,7 +5223,7 @@
     "nome": "Dominio de Es La Mata 2021",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
-    "precoBotella": 79,
+    "precoBotella": 781,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -6066,7 +5232,7 @@
     "nome": "Dominio de Es La Mata 2022",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
-    "precoBotella": 621,
+    "precoBotella": 811,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -6085,33 +5251,6 @@
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
     "precoBotella": 319,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Dominio de de Es La Mata 2021",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 781,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Dominio de de Es La Mata 2022",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 811,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Dominio del Aguila Peñas Aladas Tempranillo, Albillo Mayor, Bruñal",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 411,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -6140,7 +5279,7 @@
     "regiao": "Ribera del Duero",
     "precoBotella": 506,
     "precoCopa": null,
-    "uvas": "Bobal, Garnacha, Tempranillo",
+    "uvas": "Tempranillo, Albillo Mayor, Bruñal, Garnacha, Bobal, Cariñena",
     "planta": -1
   },
   {
@@ -6270,12 +5409,12 @@
     "planta": -1
   },
   {
-    "nome": "Le Rose 2023 Tinto Fino",
-    "tipo": "TINTO",
+    "nome": "Le Rose 2023",
+    "tipo": "ROSADO",
     "regiao": "Ribera del Duero",
     "precoBotella": 121,
     "precoCopa": null,
-    "uvas": "Tempranillo",
+    "uvas": "Tinto Fino, Albillo",
     "planta": -1
   },
   {
@@ -6351,12 +5490,12 @@
     "planta": -1
   },
   {
-    "nome": "Palito V Clarete 2024 Tinta del País, Albillo Mayor",
+    "nome": "Palito V Clarete 2024",
     "tipo": "ROSADO",
     "regiao": "Ribera del Duero",
     "precoBotella": 33,
     "precoCopa": null,
-    "uvas": "Tempranillo",
+    "uvas": "Tinta del País, Albillo Mayor",
     "planta": -1
   },
   {
@@ -6369,12 +5508,12 @@
     "planta": -1
   },
   {
-    "nome": "Peñas Aldas Clarete 2020 Tempranillo, Albillo Mayor, Bruñal",
+    "nome": "Peñas Aldas Clarete 2020",
     "tipo": "ROSADO",
     "regiao": "Ribera del Duero",
     "precoBotella": 411,
     "precoCopa": null,
-    "uvas": "Tempranillo",
+    "uvas": "Tempranillo, Albillo Mayor, Bruñal, Garnacha, Bobal, Cariñena",
     "planta": -1
   },
   {
@@ -6414,12 +5553,12 @@
     "planta": -1
   },
   {
-    "nome": "Pícaro del Águila Clarete 2023 Tempranillo, Blanca del País",
+    "nome": "Pícaro del Águila Clarete 2023",
     "tipo": "ROSADO",
     "regiao": "Ribera del Duero",
     "precoBotella": 81,
     "precoCopa": null,
-    "uvas": "Garnacha, Tempranillo",
+    "uvas": "Tempranillo, Blanca del País, Garnacha, Bobal",
     "planta": -1
   },
   {
@@ -6576,33 +5715,6 @@
     "planta": -1
   },
   {
-    "nome": "Grivot Richebourg Grand Cru 2022",
-    "tipo": "TINTO",
-    "regiao": "Vosne-Romanée",
-    "precoBotella": 389,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Thibault Liger-Belair Richebourg",
-    "tipo": "TINTO",
-    "regiao": "Vosne-Romanée",
-    "precoBotella": 147,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "\"Telmo Rodríguez Las Beatas 2021",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 630,
-    "precoCopa": null,
-    "uvas": "Garnacha, Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "890 Gran Reserva 2010",
     "tipo": "TINTO",
     "regiao": "Rioja",
@@ -6720,12 +5832,23 @@
     "planta": -1
   },
   {
-    "nome": "Barón de Chirel 2019 Tempranillo, otras variedades",
+    "nome": "Barón de Chirel 2019",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 205,
     "precoCopa": null,
-    "uvas": "Tempranillo",
+    "uvas": "Tempranillo, Graciano, Mazuelo, Garnacha",
+    "planta": -1
+  },
+  {
+    "nome": "Baynos",
+    "tipo": "TINTO",
+    "regiao": "Rioja",
+    "precoBotella": 121,
+    "precoCopa": null,
+    "uvas": "Graciano, Tempranillo",
+    "localizacao": "2 C A",
+    "cava": "2",
     "planta": -1
   },
   {
@@ -6746,17 +5869,6 @@
     "precoBotella": 314,
     "precoCopa": null,
     "uvas": "Viura",
-    "localizacao": "2 C A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Baynos",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 121,
-    "precoCopa": null,
-    "uvas": "Mazuelo",
     "localizacao": "2 C A",
     "cava": "2",
     "planta": -1
@@ -6798,7 +5910,7 @@
     "planta": -1
   },
   {
-    "nome": "Capellania Reserva",
+    "nome": "Capellanía Reserva",
     "tipo": "BRANCO",
     "regiao": "Rioja",
     "precoBotella": 171,
@@ -6861,12 +5973,12 @@
     "planta": -1
   },
   {
-    "nome": "Contino Reserva 2021 Tempranillo, Graciano, Mazuelo, Gar-",
+    "nome": "Contino Reserva 2021",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 55,
     "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
+    "uvas": "Graciano, Mazuelo, Garnacha, Tempranillo",
     "planta": -1
   },
   {
@@ -6962,12 +6074,12 @@
     "planta": -1
   },
   {
-    "nome": "El Espinal 2022 Maturana Tinta",
+    "nome": "El Espinal 2022",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 72,
     "precoCopa": null,
-    "uvas": "Mazuelo",
+    "uvas": "Maturana Tinta",
     "planta": -1
   },
   {
@@ -6980,23 +6092,23 @@
     "planta": -1
   },
   {
-    "nome": "Finca La Emperatriz 2018",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 85,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "localizacao": "2 C D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
     "nome": "Finca La Emperatriz",
     "tipo": "BRANCO",
     "regiao": "Rioja",
     "precoBotella": 85,
     "precoCopa": null,
     "uvas": "Viura",
+    "localizacao": "2 C D",
+    "cava": "2",
+    "planta": -1
+  },
+  {
+    "nome": "Finca La Emperatriz 2018",
+    "tipo": "TINTO",
+    "regiao": "Rioja",
+    "precoBotella": 85,
+    "precoCopa": null,
+    "uvas": "Tempranillo",
     "localizacao": "2 C D",
     "cava": "2",
     "planta": -1
@@ -7022,28 +6134,6 @@
     "planta": -1
   },
   {
-    "nome": "Flor de Muga Rosado 2024",
-    "tipo": "ROSADO",
-    "regiao": "Rioja",
-    "precoBotella": 72,
-    "precoCopa": null,
-    "uvas": "Garnacha",
-    "localizacao": "2 C D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Flor de Muga",
-    "tipo": "ROSADO",
-    "regiao": "Rioja",
-    "precoBotella": 72,
-    "precoCopa": null,
-    "uvas": "Garnacha",
-    "localizacao": "2 C D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
     "nome": "Hacienda Pradolagar 2017",
     "tipo": "TINTO",
     "regiao": "Rioja",
@@ -7053,12 +6143,12 @@
     "planta": -1
   },
   {
-    "nome": "Izadi Selección Reserva 2020 Tempranillo, Graciano, Mazuelo, Gar-",
+    "nome": "Izadi Selección Reserva 2020",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 33,
     "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
+    "uvas": "Graciano, Mazuelo, Garnacha, Tempranillo",
     "planta": -1
   },
   {
@@ -7188,21 +6278,12 @@
     "planta": -1
   },
   {
-    "nome": "Marqués de Murrieta Primer Rosé",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 81,
-    "precoCopa": null,
-    "uvas": "Mazuelo",
-    "planta": -1
-  },
-  {
-    "nome": "Marqués de Murrieta Reserva 2021 Tempranillo, Graciano, Mazuelo, Gar-",
+    "nome": "Marqués de Murrieta Reserva 2021",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 62,
     "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
+    "uvas": "Graciano, Mazuelo, Garnacha, Tempranillo",
     "planta": -1
   },
   {
@@ -7296,12 +6377,12 @@
     "planta": -1
   },
   {
-    "nome": "Otto 2024 Tempranillo, Garnacha, Graciano, Viu-",
+    "nome": "Otto 2024",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 83,
     "precoCopa": null,
-    "uvas": "Garnacha, Graciano, Tempranillo",
+    "uvas": "Tempranillo, Garnacha, Graciano, Viura, Mazuelo",
     "planta": -1
   },
   {
@@ -7343,28 +6424,10 @@
     "planta": -1
   },
   {
-    "nome": "Quiñón de Valmira 2021",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 331,
-    "precoCopa": null,
-    "uvas": "Garnacha",
-    "planta": -1
-  },
-  {
     "nome": "Quiñón de Valmira 2022",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 878,
-    "precoCopa": null,
-    "uvas": "Garnacha",
-    "planta": -1
-  },
-  {
-    "nome": "Quiñón de Valmira 2022",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 672,
     "precoCopa": null,
     "uvas": "Garnacha",
     "planta": -1
@@ -7444,12 +6507,12 @@
     "planta": -1
   },
   {
-    "nome": "Remírez de Ganuza Olagar Gran",
+    "nome": "Remírez de Ganuza Olagar Gran Reserva",
     "tipo": "BRANCO",
     "regiao": "Rioja",
     "precoBotella": 135,
     "precoCopa": null,
-    "uvas": "Viura",
+    "uvas": "Viura, Malvasía",
     "localizacao": "2 B A",
     "cava": "2",
     "planta": -1
@@ -7493,6 +6556,15 @@
     "planta": -1
   },
   {
+    "nome": "Sierra Cantabria Colección Privada",
+    "tipo": "TINTO",
+    "regiao": "Rioja",
+    "precoBotella": 74,
+    "precoCopa": null,
+    "uvas": "Tempranillo",
+    "planta": -1
+  },
+  {
     "nome": "Sierra Cantabria Gran Vino",
     "tipo": "BRANCO",
     "regiao": "Rioja",
@@ -7504,39 +6576,30 @@
     "planta": -1
   },
   {
-    "nome": "Sierra Cantabria Magico 2022 Tempranillo, Garnacha, Graciano, Petit",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 897,
-    "precoCopa": null,
-    "uvas": "Garnacha, Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Sierra Cantabria Mágico 2019 Tempranillo, Garnacha, Graciano, Petit",
+    "nome": "Sierra Cantabria Mágico 2019",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 180,
     "precoCopa": null,
-    "uvas": "Garnacha, Graciano, Tempranillo",
+    "uvas": "Tempranillo, Garnacha, Graciano, Petit Verdot",
     "planta": -1
   },
   {
-    "nome": "Sierra Cantabria Mágico 2020 Tempranillo, Garnacha, Graciano, Petit",
+    "nome": "Sierra Cantabria Mágico 2020",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 210,
     "precoCopa": null,
-    "uvas": "Garnacha, Graciano, Tempranillo",
+    "uvas": "Tempranillo, Garnacha, Graciano, Petit Verdot",
     "planta": -1
   },
   {
-    "nome": "Sierra cantabria Colección Privada",
+    "nome": "Sierra Cantabria Mágico 2022",
     "tipo": "TINTO",
     "regiao": "Rioja",
-    "precoBotella": 74,
+    "precoBotella": 897,
     "precoCopa": null,
-    "uvas": "Tempranillo",
+    "uvas": "Tempranillo, Garnacha, Graciano, Petit Verdot",
     "planta": -1
   },
   {
@@ -7594,21 +6657,30 @@
     "planta": -1
   },
   {
-    "nome": "Telmo Rodríguez Tabuerniga 2020 Tempranillo, Graciano, Mazuelo, Gar-",
+    "nome": "Telmo Rodríguez Las Beatas 2021",
+    "tipo": "TINTO",
+    "regiao": "Rioja",
+    "precoBotella": 630,
+    "precoCopa": null,
+    "uvas": "Garnacha, Tempranillo",
+    "planta": -1
+  },
+  {
+    "nome": "Telmo Rodríguez Tabuerniga 2020",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 182,
     "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
+    "uvas": "Tempranillo, Graciano, Mazuelo, Garnacha",
     "planta": -1
   },
   {
-    "nome": "Telmo Rodríguez Tabuerniga 2022 Tempranillo, Graciano, Mazuelo, Gar-",
+    "nome": "Telmo Rodríguez Tabuerniga 2022",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 200,
     "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
+    "uvas": "Tempranillo, Graciano, Mazuelo, Garnacha",
     "planta": -1
   },
   {
@@ -7698,7 +6770,7 @@
     "regiao": "Rioja",
     "precoBotella": 44,
     "precoCopa": null,
-    "uvas": "Garnacha, Sauvignon Blanc",
+    "uvas": "Garnacha, Sauvignon Blanc, Viura, Maturana, Tempranillo",
     "planta": -1
   },
   {
@@ -7708,15 +6780,6 @@
     "precoBotella": 64,
     "precoCopa": null,
     "uvas": "Arneis",
-    "planta": -1
-  },
-  {
-    "nome": "Rosso 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
     "planta": -1
   },
   {
@@ -7738,16 +6801,7 @@
     "planta": -1
   },
   {
-    "nome": "Rosso di Piamonte Vaira Aurelj Contracorrente",
-    "tipo": "TINTO",
-    "regiao": "Piamonte",
-    "precoBotella": 94,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Armand Rousseau Ruchot-",
+    "nome": "Armand Rousseau Ruchot",
     "tipo": "TINTO",
     "regiao": "Ruchottes-Chambertin",
     "precoBotella": 440,
@@ -7756,7 +6810,7 @@
     "planta": -1
   },
   {
-    "nome": "Henri Magnien Ruchottes-Chamber-",
+    "nome": "Henri Magnien Ruchottes-Chamber",
     "tipo": "TINTO",
     "regiao": "Ruchottes-Chambertin",
     "precoBotella": 572,
@@ -7863,33 +6917,6 @@
     "planta": -1
   },
   {
-    "nome": "Herve Souhaut Clos de Cessieux",
-    "tipo": "TINTO",
-    "regiao": "Saint-Joseph",
-    "precoBotella": 95,
-    "precoCopa": null,
-    "uvas": "Syrah",
-    "planta": -1
-  },
-  {
-    "nome": "Michel Chapoutier Les Granits 2022",
-    "tipo": "TINTO",
-    "regiao": "Saint-Joseph",
-    "precoBotella": 160,
-    "precoCopa": null,
-    "uvas": "Syrah",
-    "planta": -1
-  },
-  {
-    "nome": "Rougeot Saint Romain La Combe",
-    "tipo": "BRANCO",
-    "regiao": "Saint-Romain",
-    "precoBotella": 97,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Château Calon Ségur 2016",
     "tipo": "TINTO",
     "regiao": "Saint-Estèphe",
@@ -7980,6 +7007,24 @@
     "planta": -1
   },
   {
+    "nome": "Herve Souhaut Clos de Cessieux",
+    "tipo": "TINTO",
+    "regiao": "Saint-Joseph",
+    "precoBotella": 95,
+    "precoCopa": null,
+    "uvas": "Syrah",
+    "planta": -1
+  },
+  {
+    "nome": "Michel Chapoutier Les Granits 2022",
+    "tipo": "TINTO",
+    "regiao": "Saint-Joseph",
+    "precoBotella": 160,
+    "precoCopa": null,
+    "uvas": "Syrah",
+    "planta": -1
+  },
+  {
     "nome": "Château Ducru Beaucaillou",
     "tipo": "TINTO",
     "regiao": "Saint-Julien",
@@ -7995,6 +7040,15 @@
     "precoBotella": 561,
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
+    "planta": -1
+  },
+  {
+    "nome": "Rougeot Saint Romain La Combe",
+    "tipo": "BRANCO",
+    "regiao": "Saint-Romain",
+    "precoBotella": 97,
+    "precoCopa": null,
+    "uvas": "Chardonnay",
     "planta": -1
   },
   {
@@ -8061,6 +7115,15 @@
     "planta": -1
   },
   {
+    "nome": "Château Cheval Blanc 1er",
+    "tipo": "TINTO",
+    "regiao": "Saint-Émilion",
+    "precoBotella": 430,
+    "precoCopa": null,
+    "uvas": "Cabernet Franc",
+    "planta": -1
+  },
+  {
     "nome": "Château Cheval Blanc 1er Grand",
     "tipo": "TINTO",
     "regiao": "Saint-Émilion",
@@ -8074,15 +7137,6 @@
     "tipo": "TINTO",
     "regiao": "Saint-Émilion",
     "precoBotella": 650,
-    "precoCopa": null,
-    "uvas": "Cabernet Franc",
-    "planta": -1
-  },
-  {
-    "nome": "Château Cheval Blanc 1er",
-    "tipo": "TINTO",
-    "regiao": "Saint-Émilion",
-    "precoBotella": 430,
     "precoCopa": null,
     "uvas": "Cabernet Franc",
     "planta": -1
@@ -8106,21 +7160,21 @@
     "planta": -1
   },
   {
-    "nome": "Château Peby-Faugueres 2018 Merlot, Cabernet Franc, Cabernet",
+    "nome": "Château Peby-Faugueres 2018",
     "tipo": "TINTO",
     "regiao": "Saint-Émilion",
     "precoBotella": 220,
     "precoCopa": null,
-    "uvas": "Cabernet Franc",
+    "uvas": "Merlot, Cabernet Franc, Cabernet Sauvignon",
     "planta": -1
   },
   {
-    "nome": "Château Peby-Faugueres 2021 Merlot, Cabernet Franc, Cabernet",
+    "nome": "Château Peby-Faugueres 2021",
     "tipo": "TINTO",
     "regiao": "Saint-Émilion",
     "precoBotella": 248,
     "precoCopa": null,
-    "uvas": "Cabernet Franc",
+    "uvas": "Merlot, Cabernet Franc, Cabernet Sauvignon",
     "planta": -1
   },
   {
@@ -8133,12 +7187,12 @@
     "planta": -1
   },
   {
-    "nome": "Château Valandraud 2019 Merlot, Cabernet Franc, Cabernet",
+    "nome": "Château Valandraud 2019",
     "tipo": "TINTO",
     "regiao": "Saint-Émilion",
     "precoBotella": 308,
     "precoCopa": null,
-    "uvas": "Cabernet Franc",
+    "uvas": "Merlot, Cabernet Franc, Cabernet Sauvignon",
     "planta": -1
   },
   {
@@ -8348,7 +7402,7 @@
     "planta": -1
   },
   {
-    "nome": "Puy de L´Ours Savigny-les-",
+    "nome": "Puy de L´Ours Savigny-les",
     "tipo": "TINTO",
     "regiao": "Savigny-lès-Beaune",
     "precoBotella": 146,
@@ -8370,26 +7424,6 @@
     "tipo": "TINTO",
     "regiao": "Savigny-lès-Beaune",
     "precoBotella": 116,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Selectionées 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "localizacao": "2 A D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Serpentieres 1C 22- 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -8501,75 +7535,66 @@
     "planta": -1
   },
   {
-    "nome": "Sottana 2",
+    "nome": "Gippsland Bass Phillip Estate 2021",
     "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 22,
+    "regiao": "South Australia",
+    "precoBotella": 172,
     "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
+    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
-    "nome": "Tramin 2024 Pinot Grigio",
+    "nome": "De Morgenzon De Morgenzon 2022 Chenin Blanc",
     "tipo": "BRANCO",
-    "regiao": "Alto Adige",
-    "precoBotella": 39,
-    "precoCopa": null,
-    "uvas": "Pinot Grigio",
+    "regiao": "Stellenbosch",
+    "precoBotella": 130,
+    "precoCopa": 24,
+    "uvas": "Chenin Blanc",
     "planta": -1
   },
   {
-    "nome": "Swartland Boekenhoutskloof Chocolate Block Syrah, Garnacha, Cinsault, Cabernet",
+    "nome": "Boekenhoutskloof Chocolate Block",
     "tipo": "TINTO",
     "regiao": "Swartland",
     "precoBotella": 130,
     "precoCopa": null,
-    "uvas": "Syrah, Garnacha",
+    "uvas": "Syrah, Garnacha, Cinsault, Cabernet Sauvignon, Viognier",
     "planta": -1
   },
   {
-    "nome": "Terrae 2",
-    "tipo": "TINTO",
-    "regiao": "Valle de Uco",
-    "precoBotella": 19,
+    "nome": "Oremus Mandolas 2022",
+    "tipo": "BRANCO",
+    "regiao": "Tokaj",
+    "precoBotella": 44,
     "precoCopa": null,
-    "uvas": "Malbec",
+    "uvas": "Furmint",
     "planta": -1
   },
   {
-    "nome": "Oremus 5 Puttonyos 2017 Furmint, Hárslevelü, Zéta",
-    "tipo": "TINTO",
+    "nome": "Oremus 5 Puttonyos 2017",
+    "tipo": "DULCE",
     "regiao": "Tokaj",
     "precoBotella": 100,
     "precoCopa": null,
-    "uvas": "Furmint",
+    "uvas": "Furmint, Hárslevelü, Zéta, Sárgamuskotály",
     "planta": -1
   },
   {
-    "nome": "Oremus 6 Puttonyos 2014 Furmint, Hárslevelü, Zéta",
-    "tipo": "TINTO",
+    "nome": "Oremus 6 Puttonyos 2014",
+    "tipo": "DULCE",
     "regiao": "Tokaj",
     "precoBotella": 138,
     "precoCopa": null,
-    "uvas": "Furmint",
+    "uvas": "Furmint, Hárslevelü, Zéta, Sárgamuskotály",
     "planta": -1
   },
   {
-    "nome": "Oremus Eszencia 2014 Furmint, Hárslevelü, Zéta",
-    "tipo": "TINTO",
+    "nome": "Oremus Eszencia 2014",
+    "tipo": "DULCE",
     "regiao": "Tokaj",
     "precoBotella": 804,
     "precoCopa": null,
-    "uvas": "Furmint",
-    "planta": -1
-  },
-  {
-    "nome": "Tonnerre 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
+    "uvas": "Furmint, Hárslevelü, Zéta, Sárgamuskotály",
     "planta": -1
   },
   {
@@ -8710,24 +7735,6 @@
     "planta": -1
   },
   {
-    "nome": "Cervaro della Sala 2022",
-    "tipo": "BRANCO",
-    "regiao": "Umbria",
-    "precoBotella": 154,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Valentini 2020",
-    "tipo": "BRANCO",
-    "regiao": "Trebbiano d'Abruzzo",
-    "precoBotella": 429,
-    "precoCopa": null,
-    "uvas": "Trebbiano",
-    "planta": -1
-  },
-  {
     "nome": "Rijk's Touch 2021 Pinotage",
     "tipo": "TINTO",
     "regiao": "Tulbagh",
@@ -8737,21 +7744,12 @@
     "planta": -1
   },
   {
-    "nome": "El Enemigo 2021",
-    "tipo": "TINTO",
-    "regiao": "Valle de Uco",
-    "precoBotella": 62,
+    "nome": "Cervaro della Sala 2022",
+    "tipo": "BRANCO",
+    "regiao": "Umbria",
+    "precoBotella": 429,
     "precoCopa": null,
-    "uvas": "Cabernet Franc",
-    "planta": -1
-  },
-  {
-    "nome": "Gran Enemigo Gualtallary 2020",
-    "tipo": "TINTO",
-    "regiao": "Valle de Uco",
-    "precoBotella": 242,
-    "precoCopa": null,
-    "uvas": "Cabernet Franc",
+    "uvas": "Chardonnay",
     "planta": -1
   },
   {
@@ -8846,23 +7844,14 @@
     "planta": -1
   },
   {
-    "nome": "Alunado 2023",
+    "nome": "Motor 2024 Malvasía de Banyalbufar",
     "tipo": "BRANCO",
-    "regiao": "Extremadura",
-    "precoBotella": 50,
+    "regiao": "VT Mallorca",
+    "precoBotella": 41,
     "precoCopa": null,
-    "uvas": "Chardonnay",
-    "localizacao": "2 B D",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Viña La Forajida 2017",
-    "tipo": "TINTO",
-    "regiao": "Extremadura",
-    "precoBotella": 266,
-    "precoCopa": null,
-    "uvas": "Garnacha",
+    "uvas": "Malvasía de Banyalbufar, Prensal Blanco",
+    "localizacao": "3 F D",
+    "cava": "3",
     "planta": -1
   },
   {
@@ -8872,17 +7861,6 @@
     "precoBotella": 85,
     "precoCopa": null,
     "uvas": "Callet",
-    "planta": -1
-  },
-  {
-    "nome": "Motor 2024 Malvasía de Banyalbufar",
-    "tipo": "BRANCO",
-    "regiao": "VT Mallorca",
-    "precoBotella": 41,
-    "precoCopa": null,
-    "uvas": "Malvasía de Banyalbufar, Prensal Blanco",
-    "localizacao": "3 F D",
-    "cava": "3",
     "planta": -1
   },
   {
@@ -9024,12 +8002,39 @@
     "planta": -1
   },
   {
+    "nome": "Cheval des Andes 2021",
+    "tipo": "TINTO",
+    "regiao": "Valle de Uco",
+    "precoBotella": 224,
+    "precoCopa": null,
+    "uvas": "Cabernet Sauvignon, Malbec",
+    "planta": -1
+  },
+  {
+    "nome": "El Enemigo 2021",
+    "tipo": "TINTO",
+    "regiao": "Valle de Uco",
+    "precoBotella": 62,
+    "precoCopa": null,
+    "uvas": "Cabernet Franc",
+    "planta": -1
+  },
+  {
     "nome": "Escala Humana Credo 2021",
     "tipo": "BRANCO",
     "regiao": "Valle de Uco",
     "precoBotella": 116,
     "precoCopa": null,
     "uvas": "Semillon",
+    "planta": -1
+  },
+  {
+    "nome": "Gran Enemigo Gualtallary 2020",
+    "tipo": "TINTO",
+    "regiao": "Valle de Uco",
+    "precoBotella": 242,
+    "precoCopa": null,
+    "uvas": "Cabernet Franc",
     "planta": -1
   },
   {
@@ -9146,18 +8151,18 @@
     "regiao": "Valle de la Orotava",
     "precoBotella": 83,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco",
     "localizacao": "3 E A",
     "cava": "3",
     "planta": -1
   },
   {
-    "nome": "Trenzado 2024 Listán Blanco, P.X.",
+    "nome": "Trenzado 2024",
     "tipo": "BRANCO",
     "regiao": "Valle de la Orotava",
     "precoBotella": 39,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco, Pedro Ximénez",
     "localizacao": "3 E A",
     "cava": "3",
     "planta": -1
@@ -9168,18 +8173,18 @@
     "regiao": "Valle de la Orotava",
     "precoBotella": 81,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco",
     "localizacao": "3 E D",
     "cava": "3",
     "planta": -1
   },
   {
-    "nome": "Vergelesses 2",
+    "nome": "Dal Forno Romano Amarone",
     "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
+    "regiao": "Valpolicella",
+    "precoBotella": 491,
     "precoCopa": null,
-    "uvas": "Pinot Noir",
+    "uvas": "Corvina, Corvinone, Rondinella",
     "planta": -1
   },
   {
@@ -9192,15 +8197,6 @@
     "planta": -1
   },
   {
-    "nome": "Vieilles Vignes 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Fontanasanta Nosiola 2021",
     "tipo": "BRANCO",
     "regiao": "Vigneti delle Dolomiti",
@@ -9210,21 +8206,21 @@
     "planta": -1
   },
   {
-    "nome": "Vignolo 2",
-    "tipo": "TINTO",
-    "regiao": "Italia",
-    "precoBotella": 18,
-    "precoCopa": null,
-    "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
     "nome": "Prieure-Roch Vin de France Le",
     "tipo": "TINTO",
     "regiao": "Vin de France",
     "precoBotella": 220,
     "precoCopa": null,
     "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "4 Monos Albillo 2023",
+    "tipo": "BRANCO",
+    "regiao": "Vinos de Madrid",
+    "precoBotella": 44,
+    "precoCopa": null,
+    "uvas": "Albillo Real",
     "planta": -1
   },
   {
@@ -9246,6 +8242,17 @@
     "planta": -1
   },
   {
+    "nome": "Cantocuerdas 2021",
+    "tipo": "BRANCO",
+    "regiao": "Vinos de Madrid",
+    "precoBotella": 50,
+    "precoCopa": null,
+    "uvas": "Albillo Real",
+    "localizacao": "3 D D",
+    "cava": "3",
+    "planta": -1
+  },
+  {
     "nome": "Cien Lanzas 2022",
     "tipo": "TINTO",
     "regiao": "Vinos de Madrid",
@@ -9264,7 +8271,7 @@
     "planta": -1
   },
   {
-    "nome": "La Danza del Viento Molino Quema-",
+    "nome": "La Danza del Viento Molino Quema",
     "tipo": "TINTO",
     "regiao": "Vinos de Madrid",
     "precoBotella": 73,
@@ -9273,7 +8280,7 @@
     "planta": -1
   },
   {
-    "nome": "De Montille 1er Cru Cham-",
+    "nome": "De Montille 1er Cru Cham",
     "tipo": "TINTO",
     "regiao": "Volnay",
     "precoBotella": 255,
@@ -9318,12 +8325,48 @@
     "planta": -1
   },
   {
-    "nome": "Dal Forno Romano Amarone",
+    "nome": "Grivot Echézèaux Grand Cru 2022",
     "tipo": "TINTO",
-    "regiao": "Valpolicella",
-    "precoBotella": 491,
+    "regiao": "Vosne-Romanée",
+    "precoBotella": 210,
     "precoCopa": null,
-    "uvas": "Corvina, Corvinone, Rondinella",
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Grivot Richebourg Grand Cru 2022",
+    "tipo": "TINTO",
+    "regiao": "Vosne-Romanée",
+    "precoBotella": 389,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Louis Jadot Echézèaux Grand Cru",
+    "tipo": "TINTO",
+    "regiao": "Vosne-Romanée",
+    "precoBotella": 839,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Philip Pacalet Echézèaux Grand Cru",
+    "tipo": "TINTO",
+    "regiao": "Vosne-Romanée",
+    "precoBotella": 131,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
+    "planta": -1
+  },
+  {
+    "nome": "Thibault Liger-Belair Richebourg",
+    "tipo": "TINTO",
+    "regiao": "Vosne-Romanée",
+    "precoBotella": 147,
+    "precoCopa": null,
+    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
@@ -9363,315 +8406,14 @@
     "planta": -1
   },
   {
-    "nome": "Ycoden-Daute- Envínate Benje 2024 Listán",
+    "nome": "Envínate Benje 2024",
     "tipo": "BRANCO",
-    "regiao": "Canarias",
+    "regiao": "Ycoden-Daute-Isora",
     "precoBotella": 52,
     "precoCopa": null,
-    "uvas": "Blanco",
+    "uvas": "Listán Blanco",
     "localizacao": "3 E D",
     "cava": "3",
-    "planta": -1
-  },
-  {
-    "nome": "bertin Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "bertin Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "bertin bertin Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "bertin res-Chambertin Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "bertin tes-Chambertin Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 8,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "bertin tin Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "chaume 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "da 2",
-    "tipo": "TINTO",
-    "regiao": "España",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "da 2",
-    "tipo": "ROSADO",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Sauvignon Blanc",
-    "planta": -1
-  },
-  {
-    "nome": "de Béze Béze Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
-    "nome": "de Mouches Blanc 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
-    "nome": "de Vergy 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 21,
-    "precoCopa": null,
-    "uvas": "Chenin Blanc",
-    "planta": -1
-  },
-  {
-    "nome": "do 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "localizacao": "2 I A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "du-Pape 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "du-Pape Reserve Cuvée des Celestins 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 16,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "du-Pape neuf-du-Pape Cuvée Especial 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "du-Pape pe 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "geot Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "l´Ecole 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "nes-Mares Gran Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "pans 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "res 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "rot 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "rrières 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "rrons 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "sandes Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 20,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "localizacao": "2 E A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "sion 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "tada 2",
-    "tipo": "TINTO",
-    "regiao": "España",
-    "precoBotella": 19,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "tard-Montrachet Montrachet Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "tard-Montrachet tard-Montrachet Grand Cru 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 23,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "tée de Tonnerre 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "vrières Cuvée Baudot 2",
-    "tipo": "BRANCO",
-    "regiao": "Francia",
-    "precoBotella": 16,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Ánimas 2",
-    "tipo": "TINTO",
-    "regiao": "Francia",
-    "precoBotella": 22,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
     "planta": -1
   }
 ]
