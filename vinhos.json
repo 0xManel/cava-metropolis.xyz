@@ -60,9 +60,9 @@
     "precoBotella": 100,
     "precoCopa": null,
     "uvas": "Doña Blanca",
-    "localizacao": "2 E D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "E"
   },
   {
     "nome": "Vagüera 2022",
@@ -71,9 +71,9 @@
     "precoBotella": 55,
     "precoCopa": null,
     "uvas": "Doña Blanca",
-    "localizacao": "2 D A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "D"
   },
   {
     "nome": "Tara Sauvignon Blanc 2022",
@@ -469,9 +469,9 @@
     "precoBotella": 96,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 E A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "E"
   },
   {
     "nome": "La Faraona 2016",
@@ -516,9 +516,9 @@
     "precoBotella": 72,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 E D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "E"
   },
   {
     "nome": "La Vizcaína El Rapolao 2023",
@@ -914,9 +914,9 @@
     "precoBotella": 44,
     "precoCopa": null,
     "uvas": "Albillo Real",
-    "localizacao": "3 D D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "D"
   },
   {
     "nome": "Jirón de Niebla 2020",
@@ -1168,9 +1168,9 @@
     "precoBotella": 77,
     "precoCopa": null,
     "uvas": "Meunier",
-    "localizacao": "5 D D",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 5",
+    "planta": "D"
   },
   {
     "nome": "Andre Heucq H60 Brut Nature 2016",
@@ -1179,9 +1179,9 @@
     "precoBotella": 259,
     "precoCopa": null,
     "uvas": "Meunier",
-    "localizacao": "5 D A",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 5",
+    "planta": "D"
   },
   {
     "nome": "Benoit Lahaye Blanc de Noirs",
@@ -1199,7 +1199,9 @@
     "precoBotella": 105,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "planta": -1
+    "planta": "D",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Bereche et Fils Brut Reserve",
@@ -1217,7 +1219,9 @@
     "precoBotella": 197,
     "precoCopa": null,
     "uvas": "Meunier",
-    "planta": -1
+    "planta": "D",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Billecart-Salmon Le Reserve",
@@ -1235,7 +1239,9 @@
     "precoBotella": 143,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "planta": -1
+    "planta": "F",
+    "cava": "Cava 5",
+    "localizacao": "Delante"
   },
   {
     "nome": "Bollinger La Grande Année 2015",
@@ -1280,9 +1286,9 @@
     "precoBotella": 721,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "localizacao": "5 E D",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 5",
+    "planta": "E"
   },
   {
     "nome": "Dom Perignon Vintage 2015",
@@ -1390,9 +1396,9 @@
     "precoBotella": 394,
     "precoCopa": null,
     "uvas": "Pinot Noir",
-    "localizacao": "5 E A",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 5",
+    "planta": "E"
   },
   {
     "nome": "Jacques Lassaigne Colline Inspiree",
@@ -1401,9 +1407,9 @@
     "precoBotella": 261,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "localizacao": "5 A D",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 5",
+    "planta": "A"
   },
   {
     "nome": "Jacques Lassaigne Millésime Brut",
@@ -1448,9 +1454,9 @@
     "precoBotella": 386,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "localizacao": "5 F A",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 5",
+    "planta": "F"
   },
   {
     "nome": "Jacques Selosse V.O. Extra Brut",
@@ -1459,9 +1465,9 @@
     "precoBotella": 622,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "localizacao": "5 C D",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 5",
+    "planta": "C"
   },
   {
     "nome": "Jacquesson 747 Extra-Brut",
@@ -1488,9 +1494,9 @@
     "precoBotella": 880,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "localizacao": "5 F D",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 5",
+    "planta": "F"
   },
   {
     "nome": "Laherte Frères Blanc de Noirs Brut",
@@ -1499,7 +1505,9 @@
     "precoBotella": 99,
     "precoCopa": null,
     "uvas": "Pinot Noir",
-    "planta": -1
+    "planta": "C",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Laherte Frères Petit Meslier Extra Brut",
@@ -1535,7 +1543,9 @@
     "precoBotella": 319,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "planta": -1
+    "planta": "B",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Larmandier-Bernier Longitude 1er",
@@ -1544,7 +1554,9 @@
     "precoBotella": 135,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "planta": -1
+    "planta": "B",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Leclerc-Briant 1er Cru Le Clos des",
@@ -1598,7 +1610,9 @@
     "precoBotella": 116,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "planta": -1
+    "planta": "A",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Louis Roederer Cristal 2016",
@@ -1643,7 +1657,9 @@
     "precoBotella": 275,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "planta": -1
+    "planta": "A",
+    "cava": "Cava 5",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Philipponnat Clos des Goisses Extra",
@@ -1706,9 +1722,9 @@
     "precoBotella": 523,
     "precoCopa": null,
     "uvas": "Chardonnay, Pinot Noir",
-    "localizacao": "5 A D",
-    "cava": "5",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 5",
+    "planta": "A"
   },
   {
     "nome": "Suenen C+C Grand Cru",
@@ -2232,7 +2248,7 @@
     "uvas": "Tempranillo",
     "planta": -1,
     "localizacao": "2 I A",
-    "cava": "2"
+    "cava": "Cava 2"
   },
   {
     "nome": "Abadía Retuerta Cuvée Palomar",
@@ -2242,7 +2258,7 @@
     "precoCopa": null,
     "uvas": "Garnacha, Graciano, Tempranillo, Merlot, Syrah, Malbec",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2253,7 +2269,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2263,9 +2279,9 @@
     "precoBotella": 77,
     "precoCopa": null,
     "uvas": "Verdejo, Sauvignon Blanc",
-    "localizacao": "2 E D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "E"
   },
   {
     "nome": "Abadía Retuerta Pago Garduña 2020",
@@ -2275,7 +2291,7 @@
     "precoCopa": null,
     "uvas": "Syrah",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2286,7 +2302,7 @@
     "precoCopa": null,
     "uvas": "Tempranillo",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2297,7 +2313,7 @@
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2308,7 +2324,7 @@
     "precoCopa": null,
     "uvas": "Petit Verdot",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2319,7 +2335,7 @@
     "precoCopa": null,
     "uvas": "Tempranillo, Cabernet Sauvignon, Syrah, Merlot, Petit Verdot",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2330,7 +2346,7 @@
     "precoCopa": null,
     "uvas": "Tempranillo, Syrah, Cabernet Sauvignon, Petit Verdot, Merlot, Touriga Nacional",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2340,7 +2356,9 @@
     "precoBotella": 44,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "planta": -1
+    "planta": "F",
+    "cava": "Cava 3",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Mustiguillo Finca El Terrerazo 2022",
@@ -2377,7 +2395,7 @@
     "precoCopa": null,
     "uvas": "Arinto, Códega, Rabigato",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2388,7 +2406,7 @@
     "precoCopa": null,
     "uvas": "Touriga Franca",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2399,7 +2417,7 @@
     "precoCopa": null,
     "uvas": "Touriga Franca",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2517,9 +2535,9 @@
     "precoBotella": 50,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "localizacao": "2 B D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Viña La Forajida 2017",
@@ -2969,9 +2987,9 @@
     "precoBotella": 96,
     "precoCopa": null,
     "uvas": "Albilla Real",
-    "localizacao": "2 E A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Sin Título 22/23",
@@ -2981,7 +2999,7 @@
     "precoCopa": null,
     "uvas": "Albillo Criollo, Listán Blanco",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -2992,7 +3010,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3003,7 +3021,7 @@
     "precoCopa": null,
     "uvas": "Nebbiolo",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3014,7 +3032,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3025,7 +3043,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay, Sauvignon Blanc",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3036,7 +3054,7 @@
     "precoCopa": null,
     "uvas": "Nebbiolo",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3047,7 +3065,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3058,7 +3076,7 @@
     "precoCopa": null,
     "uvas": "Syrah, Garnacha",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3069,7 +3087,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3080,7 +3098,7 @@
     "precoCopa": null,
     "uvas": "Listán Blanco",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3091,7 +3109,7 @@
     "precoCopa": null,
     "uvas": "Listán Blanco",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3102,7 +3120,7 @@
     "precoCopa": null,
     "uvas": "Listán Blanco",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3113,7 +3131,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3124,7 +3142,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3135,7 +3153,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -3154,7 +3172,9 @@
     "precoBotella": 22,
     "precoCopa": null,
     "uvas": "Sauvignon Blanc",
-    "planta": -1
+    "planta": "E",
+    "cava": "Cava 3",
+    "localizacao": "Delante"
   },
   {
     "nome": "Château Margaux 1er Grand Cru",
@@ -3541,7 +3561,9 @@
     "precoBotella": 77,
     "precoCopa": null,
     "uvas": "Xarel.lo",
-    "planta": -1
+    "planta": "A",
+    "cava": "",
+    "localizacao": "Delante"
   },
   {
     "nome": "Dido Blanco",
@@ -3568,9 +3590,9 @@
     "precoBotella": 68,
     "precoCopa": null,
     "uvas": "Xarel.lo",
-    "localizacao": "2 A D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "A"
   },
   {
     "nome": "Joan D´Anguera Finca l´Argata",
@@ -3588,9 +3610,9 @@
     "precoBotella": 53,
     "precoCopa": null,
     "uvas": "Garnacha",
-    "localizacao": "2 A A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "A"
   },
   {
     "nome": "Pardas",
@@ -3599,7 +3621,9 @@
     "precoBotella": 58,
     "precoCopa": null,
     "uvas": "Xarel.lo",
-    "planta": -1
+    "planta": "A",
+    "cava": "Cava 2",
+    "localizacao": "Delante"
   },
   {
     "nome": "Ratpenat",
@@ -3608,9 +3632,9 @@
     "precoBotella": 52,
     "precoCopa": null,
     "uvas": "Macabeo",
-    "localizacao": "3 H A",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 3",
+    "planta": "H"
   },
   {
     "nome": "Clos de Tart Morey Saint Denis 2022",
@@ -3727,9 +3751,9 @@
     "precoBotella": 65,
     "precoCopa": null,
     "uvas": "Viura, Garnacha Blanca",
-    "localizacao": "3 G A",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 3",
+    "planta": "G"
   },
   {
     "nome": "Unzu de Julián Chivite 2024",
@@ -3900,9 +3924,9 @@
     "precoBotella": 94,
     "precoCopa": null,
     "uvas": "Hondarrabi Zuri",
-    "localizacao": "2 B D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Doniene Gorrondona 2023",
@@ -3929,9 +3953,9 @@
     "precoBotella": 105,
     "precoCopa": null,
     "uvas": "Chardonnay, Macabeo",
-    "localizacao": "3 H D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "H"
   },
   {
     "nome": "Chivite Fermentado en Barrica 2023",
@@ -3940,7 +3964,9 @@
     "precoBotella": 127,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "planta": -1
+    "planta": "G",
+    "cava": "Cava 3",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Milmanda 2021",
@@ -3949,9 +3975,9 @@
     "precoBotella": 121,
     "precoCopa": null,
     "uvas": "Chardonnay",
-    "localizacao": "3 H A",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 3",
+    "planta": "H"
   },
   {
     "nome": "Taleia 2021",
@@ -3960,9 +3986,9 @@
     "precoBotella": 52,
     "precoCopa": null,
     "uvas": "Sauvignon Blanc",
-    "localizacao": "3 H D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "H"
   },
   {
     "nome": "Chandon de Briailles Pernand",
@@ -4664,9 +4690,9 @@
     "precoBotella": 94,
     "precoCopa": null,
     "uvas": "Garnacha Blanca, Macabeo, Pedro Ximénez",
-    "localizacao": "2 A A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "A"
   },
   {
     "nome": "Salanques 2021",
@@ -4684,7 +4710,9 @@
     "precoBotella": 156,
     "precoCopa": null,
     "uvas": "Macabeo, Garnacha",
-    "planta": -1
+    "planta": "A",
+    "cava": "Cava 2",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Benoit Ente Puligny 1er Cru Clos de",
@@ -4747,9 +4775,9 @@
     "precoBotella": 62,
     "precoCopa": null,
     "uvas": "Albariño, Caiño Blanco, Godello",
-    "localizacao": "2 I D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "I"
   },
   {
     "nome": "Attis Embaixador",
@@ -4758,9 +4786,9 @@
     "precoBotella": 72,
     "precoCopa": null,
     "uvas": "Albariño",
-    "localizacao": "2 — CP",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Por copas",
+    "cava": "Cava 2",
+    "planta": "—"
   },
   {
     "nome": "Attis Embaixador 2022",
@@ -4770,7 +4798,7 @@
     "precoCopa": 13,
     "uvas": "Albariño",
     "localizacao": "2 — CP",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -4789,7 +4817,9 @@
     "precoBotella": 39,
     "precoCopa": null,
     "uvas": "Albariño",
-    "planta": -1
+    "planta": "I",
+    "cava": "Cava 2",
+    "localizacao": "Delante"
   },
   {
     "nome": "Attis Mar",
@@ -4798,9 +4828,9 @@
     "precoBotella": 165,
     "precoCopa": null,
     "uvas": "Albariño",
-    "localizacao": "2 I A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "I"
   },
   {
     "nome": "Attis Mar 2021",
@@ -4810,7 +4840,7 @@
     "precoCopa": null,
     "uvas": "Albariño",
     "localizacao": "2 I A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -4820,9 +4850,9 @@
     "precoBotella": 80,
     "precoCopa": null,
     "uvas": "Albariño",
-    "localizacao": "2 I A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "I"
   },
   {
     "nome": "Goliardo A Telleira",
@@ -4858,9 +4888,9 @@
     "precoBotella": 54,
     "precoCopa": null,
     "uvas": "Albariño",
-    "localizacao": "2 H D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "H"
   },
   {
     "nome": "Monte Pío Malabesta 2021",
@@ -4878,7 +4908,9 @@
     "precoBotella": 79,
     "precoCopa": null,
     "uvas": "Albariño",
-    "planta": -1
+    "planta": "—",
+    "cava": "Cava 2",
+    "localizacao": "De pie"
   },
   {
     "nome": "Pazo Señorans Selección",
@@ -4887,9 +4919,9 @@
     "precoBotella": 116,
     "precoCopa": null,
     "uvas": "Albariño",
-    "localizacao": "2 H A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "H"
   },
   {
     "nome": "Sitta Pereiras 2023",
@@ -4907,9 +4939,9 @@
     "precoBotella": 83,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 H A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "H"
   },
   {
     "nome": "Dominio do Bibei 2021",
@@ -4945,7 +4977,9 @@
     "precoBotella": 50,
     "precoCopa": null,
     "uvas": "Godello, Doña Blanca",
-    "planta": -1
+    "planta": "H",
+    "cava": "Cava 2",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Armán Finca Misenhora 2023",
@@ -4963,9 +4997,9 @@
     "precoBotella": 65,
     "precoCopa": null,
     "uvas": "Treixadura, Albariño, Godello, Loureira",
-    "localizacao": "2 G A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "G"
   },
   {
     "nome": "Aalto PS 2006",
@@ -5847,9 +5881,9 @@
     "precoBotella": 121,
     "precoCopa": null,
     "uvas": "Graciano, Tempranillo",
-    "localizacao": "2 C A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "C"
   },
   {
     "nome": "Baynos 2020",
@@ -5859,7 +5893,7 @@
     "precoCopa": null,
     "uvas": "Graciano, Tempranillo",
     "localizacao": "2 C A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -5870,7 +5904,7 @@
     "precoCopa": null,
     "uvas": "Viura",
     "localizacao": "2 C A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -5916,7 +5950,9 @@
     "precoBotella": 171,
     "precoCopa": null,
     "uvas": "Viura",
-    "planta": -1
+    "planta": "C",
+    "cava": "Cava 2",
+    "localizacao": "Detrás"
   },
   {
     "nome": "Castillo Ygay Gran Reserva Especial",
@@ -5997,9 +6033,9 @@
     "precoBotella": 105,
     "precoCopa": null,
     "uvas": "Garnacha Blanca, Tempranillo, Viura",
-    "localizacao": "2 C A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "C"
   },
   {
     "nome": "Cuentaviñas El Tiznado 2022",
@@ -6098,9 +6134,9 @@
     "precoBotella": 85,
     "precoCopa": null,
     "uvas": "Viura",
-    "localizacao": "2 C D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "C"
   },
   {
     "nome": "Finca La Emperatriz 2018",
@@ -6110,7 +6146,7 @@
     "precoCopa": null,
     "uvas": "Tempranillo",
     "localizacao": "2 C D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -6129,9 +6165,9 @@
     "precoBotella": 72,
     "precoCopa": null,
     "uvas": "Garnacha Tinta",
-    "localizacao": "2 C D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "C"
   },
   {
     "nome": "Hacienda Pradolagar 2017",
@@ -6392,9 +6428,9 @@
     "precoBotella": 51,
     "precoCopa": null,
     "uvas": "Viura",
-    "localizacao": "2 C D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "C"
   },
   {
     "nome": "Prado Enea 2016",
@@ -6439,9 +6475,9 @@
     "precoBotella": 132,
     "precoCopa": null,
     "uvas": "Garnacha Blanca, Viognier, Sauvignon Blanc, Chardonnay, Roussanne, Marsanne",
-    "localizacao": "2 B A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Remelluri Gran Reserva 2016",
@@ -6513,9 +6549,9 @@
     "precoBotella": 135,
     "precoCopa": null,
     "uvas": "Viura, Malvasía",
-    "localizacao": "2 B A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Remírez de Ganuza Trasnocho 2018",
@@ -6533,9 +6569,9 @@
     "precoBotella": 127,
     "precoCopa": null,
     "uvas": "Viura, Malvasía, Garnacha Blanca",
-    "localizacao": "2 B A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Roda I Reserva 2019",
@@ -6571,9 +6607,9 @@
     "precoBotella": 908,
     "precoCopa": null,
     "uvas": "Viura",
-    "localizacao": "2 B D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "B"
   },
   {
     "nome": "Sierra Cantabria Mágico 2019",
@@ -6825,9 +6861,9 @@
     "precoBotella": 567,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "localizacao": "2 F A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "F"
   },
   {
     "nome": "Belondrade y Lurton 2023",
@@ -6836,9 +6872,9 @@
     "precoBotella": 97,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "localizacao": "2 F A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "F"
   },
   {
     "nome": "José Pariente La Medina 2023",
@@ -6847,9 +6883,9 @@
     "precoBotella": 78,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "localizacao": "2 — P",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "De pie",
+    "cava": "Cava 2",
+    "planta": "—"
   },
   {
     "nome": "Menade La Mision 2023",
@@ -6858,7 +6894,9 @@
     "precoBotella": 48,
     "precoCopa": 9,
     "uvas": "Verdejo",
-    "planta": -1
+    "planta": "—",
+    "cava": "Cava 2",
+    "localizacao": "Por copas"
   },
   {
     "nome": "Menade Verdejo 2024",
@@ -6867,7 +6905,9 @@
     "precoBotella": 33,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "planta": -1
+    "planta": "F",
+    "cava": "Cava 2",
+    "localizacao": "Delante"
   },
   {
     "nome": "Nisia Las Suertes 2024",
@@ -6876,9 +6916,9 @@
     "precoBotella": 50,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "localizacao": "2 F D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "F"
   },
   {
     "nome": "De Villaine Rully 1er Cru Les",
@@ -7230,7 +7270,7 @@
     "precoCopa": null,
     "uvas": "Sauvignon Blanc",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7241,7 +7281,7 @@
     "precoCopa": null,
     "uvas": "Sauvignon Blanc",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7252,7 +7292,7 @@
     "precoCopa": null,
     "uvas": "Sauvignon Blanc",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7263,7 +7303,7 @@
     "precoCopa": null,
     "uvas": "Sauvignon Blanc",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7274,7 +7314,7 @@
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7285,7 +7325,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7296,7 +7336,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7307,7 +7347,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7318,7 +7358,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7329,7 +7369,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7340,7 +7380,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7351,7 +7391,7 @@
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7362,7 +7402,7 @@
     "precoCopa": null,
     "uvas": "Chardonnay",
     "localizacao": "2 E A",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7436,7 +7476,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7447,7 +7487,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7458,7 +7498,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7469,7 +7509,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7480,7 +7520,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7491,7 +7531,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7502,7 +7542,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7513,7 +7553,7 @@
     "precoCopa": null,
     "uvas": "Garnacha",
     "localizacao": "2 B D",
-    "cava": "2",
+    "cava": "Cava 2",
     "planta": -1
   },
   {
@@ -7622,9 +7662,9 @@
     "precoBotella": 198,
     "precoCopa": null,
     "uvas": "Malvasía",
-    "localizacao": "2 D A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "D"
   },
   {
     "nome": "Oxer Bastegieta Kuusu 2023",
@@ -7687,7 +7727,9 @@
     "precoBotella": 80,
     "precoCopa": null,
     "uvas": "Malvasia",
-    "planta": -1
+    "planta": "E",
+    "cava": "Cava 2",
+    "localizacao": "Detrás"
   },
   {
     "nome": "San Román 2021",
@@ -7759,9 +7801,9 @@
     "precoBotella": 48,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "localizacao": "2 D A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "D"
   },
   {
     "nome": "La Faraona 2022",
@@ -7797,9 +7839,9 @@
     "precoBotella": 94,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 D D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "D"
   },
   {
     "nome": "Mauro VS 2022",
@@ -7817,9 +7859,9 @@
     "precoBotella": 193,
     "precoCopa": null,
     "uvas": "Verdejo",
-    "localizacao": "2 D D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "D"
   },
   {
     "nome": "Atlántida 2019 Vijiriega",
@@ -7829,7 +7871,7 @@
     "precoCopa": null,
     "uvas": "Vijiriega",
     "localizacao": "3 F D",
-    "cava": "3",
+    "cava": "Cava 3",
     "planta": -1
   },
   {
@@ -7839,9 +7881,9 @@
     "precoBotella": 39,
     "precoCopa": null,
     "uvas": "Palomino",
-    "localizacao": "3 F D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "F"
   },
   {
     "nome": "Motor 2024 Malvasía de Banyalbufar",
@@ -7851,7 +7893,7 @@
     "precoCopa": null,
     "uvas": "Malvasía de Banyalbufar, Prensal Blanco",
     "localizacao": "3 F D",
-    "cava": "3",
+    "cava": "Cava 3",
     "planta": -1
   },
   {
@@ -7879,9 +7921,9 @@
     "precoBotella": 352,
     "precoCopa": null,
     "uvas": "Macabeo",
-    "localizacao": "3 G D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "G"
   },
   {
     "nome": "La Loma & Los Santos 2022",
@@ -7890,7 +7932,9 @@
     "precoBotella": 105,
     "precoCopa": null,
     "uvas": "Macabeo",
-    "planta": -1
+    "planta": "G",
+    "cava": "Cava 3",
+    "localizacao": "Delante"
   },
   {
     "nome": "As Sortes 2024",
@@ -7899,9 +7943,9 @@
     "precoBotella": 116,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 G A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "G"
   },
   {
     "nome": "Avancia Nobleza 2023",
@@ -7910,9 +7954,9 @@
     "precoBotella": 97,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 G D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "G"
   },
   {
     "nome": "Pezas da Portela 2023",
@@ -7921,9 +7965,9 @@
     "precoBotella": 84,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 G D",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 2",
+    "planta": "G"
   },
   {
     "nome": "Rafael Palacios Sorte O Soro 2022",
@@ -7932,9 +7976,9 @@
     "precoBotella": 770,
     "precoCopa": null,
     "uvas": "Godello",
-    "localizacao": "2 F A",
-    "cava": "2",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 2",
+    "planta": "F"
   },
   {
     "nome": "Telmo Rodríguez Falcoeira A Capilla",
@@ -7961,9 +8005,9 @@
     "precoBotella": 81,
     "precoCopa": null,
     "uvas": "Monastrell",
-    "localizacao": "3 F A",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 3",
+    "planta": "F"
   },
   {
     "nome": "Simeta 2023",
@@ -8152,9 +8196,9 @@
     "precoBotella": 83,
     "precoCopa": null,
     "uvas": "Listán Blanco",
-    "localizacao": "3 E A",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 3",
+    "planta": "E"
   },
   {
     "nome": "Trenzado 2024",
@@ -8163,9 +8207,9 @@
     "precoBotella": 39,
     "precoCopa": null,
     "uvas": "Listán Blanco, Pedro Ximénez",
-    "localizacao": "3 E A",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Detrás",
+    "cava": "Cava 3",
+    "planta": "E"
   },
   {
     "nome": "Vidonia 2024 Listán",
@@ -8175,7 +8219,7 @@
     "precoCopa": null,
     "uvas": "Listán Blanco",
     "localizacao": "3 E D",
-    "cava": "3",
+    "cava": "Cava 3",
     "planta": -1
   },
   {
@@ -8248,9 +8292,9 @@
     "precoBotella": 50,
     "precoCopa": null,
     "uvas": "Albillo Real",
-    "localizacao": "3 D D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "D"
   },
   {
     "nome": "Cien Lanzas 2022",
@@ -8412,8 +8456,8 @@
     "precoBotella": 52,
     "precoCopa": null,
     "uvas": "Listán Blanco",
-    "localizacao": "3 E D",
-    "cava": "3",
-    "planta": -1
+    "localizacao": "Delante",
+    "cava": "Cava 3",
+    "planta": "E"
   }
 ]
