@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cava Metropolis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* --- PALETA HIGH-CLASS --- */
+        :root {
+            /* Modo Escuro (Padrão e Mais Elegante para Vinhos) */
+            --bg-color: #141417;
+            --glass-bg: rgba(35, 35, 40, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.25);
+            --text-main: #FDFBF7;
+            --text-muted: #B8B0A0;
+            --gold-accent: #D4AF37; /* Ouro Clássico */
+            --gold-light: #F3E5AB;
+            --price-bg: rgba(46, 125, 50, 0.15);
+            --price-color: #57C25B; /* Verde Esmeralda Vibrante */
+            --minicard-bg: rgba(255, 255, 255, 0.05);
+            
+            --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            --transition-smooth: all 0.4s ease;
+        }
+
+        body.light-mode {
+            /* Modo Claro (Vintage Cream) */
+            --bg-color: #FDFBF7;
+            --glass-bg: rgba(255, 255, 255, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.4);
+            --text-main: #1A1A1A;
+            --text-muted: #666156;
+            --gold-accent: #B8860B; /* Ouro Velho para contraste */
+            --gold-light: #D4AF37;
+            --price-bg: rgba(46, 125, 50, 0.1);
+            --price-color: #2E7D32;
+            --minicard-bg: rgba(0, 0, 0, 0.02);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            transition: background-color 0.8s ease, color 0.8s ease;
+            min-height: 100dvh; /* Ajusta melhor ao teclado mobile */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Centraliza verticalmente */
+            overflow-x: hidden;
+        }
+
+        /* --- PARTÍCULAS DOURADAS (CANVAS) --- */
+        #particleCanvas {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* --- HEADER & TITULO --- */
+        header {
+            margin-top: 0;
+            margin-bottom: 2rem;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .title-cava {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 2.5rem;
+            color: var(--gold-accent);
+            line-height: 0.8;
+            font-weight: 700;
+            text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+            transition: var(--transition-smooth);
+        }
+
+        .title-metropolis {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10vw; /* Reduzido para garantir margem */
+            letter-spacing: 0.5vw;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-left: 0;
+            padding: 0 5vw; /* Margem lateral segura e proporcional */
+            text-shadow: 
+                0 0 5px rgba(255, 255, 255, 0.6),
+                0 0 15px var(--gold-accent),
+                0 0 30px rgba(212, 175, 55, 0.4);
+        }
+
+        /* --- SEARCH BAR (GLASSMORPHISM) --- */
+        .search-container {
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            z-index: 20;
+            padding: 2rem 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .search-input-wrapper {
+            position: relative;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Ícone de Lupa */
+        .search-icon {
+            position: absolute;
+            left: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px; height: 20px;
+            fill: var(--text-muted);
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 1.2rem 1rem 1.2rem 2rem;
+            font-size: 1.3rem;
+            font-family: 'Montserrat', sans-serif;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 30px;
+            color: var(--text-main);
+            outline: none;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: var(--transition-smooth);
+            margin: 0;
+            display: block;
+        }
+
+        #searchInput:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+
+        #searchInput::placeholder { color: var(--text-muted); font-weight: 300; }
+
+        /* Contagem de referências */
+        .ref-count {
+            text-align: center;
+            margin-bottom: 0.8rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            font-weight: 300;
+            order: -1;
+        }
+        .ref-count span { color: var(--gold-accent); font-weight: 700; }
+
+        /* --- DROPDOWN RESULTS --- */
+        #searchResults {
+            position: absolute;
+            top: 100%;
+            left: 0; right: 0;
+            background: transparent;
+            max-height: 60vh;
+            overflow-y: auto;
+            display: none;
+            z-index: 9999;
+            margin: 0;
+            padding: 0;
+            margin-top: 0;
+        }
+
+
+        .search-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 1.5rem;
+            margin: 0;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            cursor: pointer;
+        }
+        .search-item:first-child {
+            margin-top: 2mm;
+        }
+
+        .search-item:hover {
+            background: rgba(212, 175, 55, 0.12);
+            border-color: var(--gold-accent);
+        }
+
+        .item-info { display: flex; flex-direction: column; gap: 0.4rem; }
+
+        .item-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .item-title-grape {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-left: 0.5rem;
+        }
+
+        /* --- CARDS DE UVAS POR FAMÍLIA --- */
+        .grape-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-top: 0.5rem;
+        }
+
+        .grape-tag {
+            display: inline-block;
+            padding: 0.35rem 0.65rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            cursor: default;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .grape-tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Família: Ibérica Tinta (Vermelho/Laranja) */
+        .grape-tag.ibenca-tinta { background: linear-gradient(135deg, #E53935 0%, #D32626 100%); }
+        .grape-tag.ibenca-tinta.shade2 { background: linear-gradient(135deg, #F44336 0%, #E53935 100%); }
+        .grape-tag.ibenca-tinta.shade3 { background: linear-gradient(135deg, #FF6F6F 0%, #F44336 100%); }
+
+        /* Família: Burgundy (Roxo/Lavanda) */
+        .grape-tag.burgundy { background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); }
+        .grape-tag.burgundy.shade2 { background: linear-gradient(135deg, #9333EA 0%, #7C3AED 100%); }
+        .grape-tag.burgundy.shade3 { background: linear-gradient(135deg, #A855F7 0%, #9333EA 100%); }
+
+        /* Família: Italiana (Vinho/Rubi) */
+        .grape-tag.italiana { background: linear-gradient(135deg, #C23030 0%, #B71C1C 100%); }
+        .grape-tag.italiana.shade2 { background: linear-gradient(135deg, #D32626 0%, #C23030 100%); }
+        .grape-tag.italiana.shade3 { background: linear-gradient(135deg, #E53935 0%, #D32626 100%); }
+
+        /* Família: Brancos Aromáticos (Ouro/Âmbar) */
+        .grape-tag.aromatico { background: linear-gradient(135deg, #F9A825 0%, #F57F17 100%); }
+        .grape-tag.aromatico.shade2 { background: linear-gradient(135deg, #FBC02D 0%, #F9A825 100%); }
+        .grape-tag.aromatico.shade3 { background: linear-gradient(135deg, #FDD835 0%, #FBC02D 100%); }
+
+        /* Família: Nova Mundo (Bordô/Cereja) */
+        .grape-tag.novamundo { background: linear-gradient(135deg, #8B1538 0%, #5F0F1D 100%); }
+        .grape-tag.novamundo.shade2 { background: linear-gradient(135deg, #A91D3A 0%, #8B1538 100%); }
+        .grape-tag.novamundo.shade3 { background: linear-gradient(135deg, #C81E4E 0%, #A91D3A 100%); }
+
+        /* Família: Espumosos (Rosa/Coral) */
+        .grape-tag.espumoso { background: linear-gradient(135deg, #EC407A 0%, #D81B60 100%); }
+        .grape-tag.espumoso.shade2 { background: linear-gradient(135deg, #F06292 0%, #EC407A 100%); }
+        .grape-tag.espumoso.shade3 { background: linear-gradient(135deg, #F48FB1 0%, #F06292 100%); }
+
+        .badge-row { display: flex; gap: 0.5rem; align-items: center; }
+
+        .badge {
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            color: #111;
+        }
+
+        .item-region { font-size: 0.8rem; color: var(--text-muted); }
+
+        .item-price {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            color: var(--price-color);
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-location {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 0.2rem;
+            font-family: 'Montserrat', monospace;
+        }
+
+        /* --- MODAL (CARD DE DETALHES) --- */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .modal-overlay.active { display: flex; opacity: 1; }
+
+        .modal-card {
+            width: 90%;
+            max-width: 500px;
+            background: var(--bg-color);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 2rem;
+            position: relative;
+            transform: translateY(30px) scale(0.95);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        .modal-overlay.active .modal-card { transform: translateY(0) scale(1); }
+
+        .btn-close {
+            position: absolute;
+            top: 1.5rem; right: 1.5rem;
+            background: none; border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+        .btn-close:hover { color: var(--gold-accent); transform: scale(1.1); }
+
+        .modal-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            line-height: 1.3;
+            color: var(--text-main);
+            margin: 1rem 0 1.5rem 0;
+            padding-right: 20px;
+        }
+
+        /* Grid de Mini-cards internos */
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .detail-box {
+            background: var(--minicard-bg);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .detail-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 0.3rem;
+        }
+
+        .detail-value {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        /* Ajuste para modalUva com grape-tags */
+        #modalUva .grape-tags {
+            gap: 0.5rem;
+            justify-content: flex-start;
+            margin-top: 0.3rem;
+        }
+
+        #modalUva .grape-tag {
+            font-size: 0.7rem;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .price-box {
+            background: var(--glass-bg);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            border: 1px solid rgba(87, 194, 91, 0.2);
+        }
+
+        .price-big {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--price-color);
+        }
+
+        /* Card de Localização */
+        .location-card {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .location-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+
+        .location-value {
+            font-family: 'Montserrat', monospace;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--gold-accent);
+            letter-spacing: 2px;
+        }
+
+        /* --- NOVO BOTÃO TOGGLE (CANVAS) --- */
+        .theme-toggle {
+            position: fixed;
+            top: 20px; left: 20px;
+            width: 80px; height: 40px; /* Formato Pílula */
+            border-radius: 20px;
+            background: transparent;
+            border: 1px solid var(--glass-border);
+            cursor: pointer;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            overflow: hidden;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+            transform: scale(1.05);
+        }
+
+        #toggleCanvas {
+            width: 100%; height: 100%;
+            display: block;
+        }
+
+        /* --- SELETOR DE IDIOMA (CASCATA) --- */
+        .lang-container {
+            position: fixed;
+            top: 20px; right: 20px;
+            z-index: 99;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .lang-btn {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            width: 80px; height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: center; gap: 4px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .lang-btn:hover {
+            border-color: var(--gold-accent);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 120%; right: 0;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            overflow: hidden;
+            opacity: 0; visibility: hidden;
+            transform: translateY(-10px);
+            transition: var(--transition-smooth);
+            backdrop-filter: blur(15px);
+            min-width: 100px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .lang-container:hover .lang-dropdown {
+            opacity: 1; visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: flex; align-items: center; gap: 10px;
+            padding: 12px 20px;
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+        .lang-option:hover { background: rgba(212, 175, 55, 0.1); }
+        .lang-option span { font-size: 1.2rem; } /* Bandeira */
+
+/* Ajuste Mobile */
+        @media (max-width: 600px) {
+            .lang-container { top: 15px; right: 15px; }
+        }
+
+        /* Cores das Badges */
+        .b-tinto { background: #800020; color: #FFF;}
+        .b-branco { background: #E5C158; }
+        .b-rosado { background: #E08D79; }
+        .b-champagne { background: #D4AF37; }
+
+        @media (max-width: 600px) {
+            .title-cava { font-size: 2rem; }
+            .title-metropolis { font-size: 11vw; letter-spacing: 1px; padding: 0 20px; }
+            .modal-card { padding: 1.5rem; }
+            .modal-title { font-size: 1.5rem; }
+
+            /* Ajuste para frases longas caberem no mobile */
+            #searchInput {
+                font-size: 1.1rem; /* Reduz fonte para evitar cortes */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Seletor de Idioma -->
+    <div class="lang-container">
+        <button class="lang-btn" id="currentLangBtn">🇪🇸 ES</button>
+        <div class="lang-dropdown">
+            <a href="#" class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> ES</a>
+            <a href="#" class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> EN</a>
+            <a href="#" class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> PT</a>
+        </div>
+    </div>
+
+    <!-- Novo Toggle Canvas -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar Tema">
+        <canvas id="toggleCanvas"></canvas>
+    </button>
+
+    <header>
+        <div class="title-cava">Cava</div>
+        <div class="title-metropolis">METROPOLIS</div>
+    </header>
+
+    <div class="search-container">
+        <div class="ref-count"><span id="totalRef">0</span> <span data-translate="refs">referencias disponibles</span></div>
+        
+        <div class="search-input-wrapper">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="text" id="searchInput" placeholder="" autocomplete="off">
+        </div>
+        
+        <div id="searchResults"></div>
+    </div>
+
+    <div class="modal-overlay" id="wineModal">
+        <div class="modal-card">
+            <button class="btn-close" onclick="fecharModal()">✕</button>
+            
+            <span class="badge" id="modalBadge">TINTO</span>
+            <h2 class="modal-title" id="modalName">Dom Perignon Rose 2009</h2>
+            
+            <div class="details-grid">
+                <div class="detail-box">
+                    <div class="detail-label" data-translate="glass">Copa</div>
+                    <div class="detail-value" id="modalCopa">—</div>
+                </div>
+                <div class="detail-box">
+                    <div class="detail-label" data-translate="bottle">Botella</div>
+                    <div class="detail-value" id="modalBotellaSmall">721€</div>
+                </div>
+                <div class="detail-box">
+                    <div class="detail-label">D.O.</div>
+                    <div class="detail-value" id="modalDO" style="font-size:0.9rem;">Champagne</div>
+                </div>
+                <div class="detail-box">
+                    <div class="detail-label" data-translate="grape">Uva</div>
+                    <div class="detail-value" id="modalUva" style="font-size:0.8rem;">Chardonnay, Pinot Noir</div>
+                </div>
+            </div>
+
+            <div class="price-box">
+                <div class="detail-label" style="color: var(--price-color);" data-translate="price_bottle">Precio Botella</div>
+                <div class="price-big" id="modalPrice">721€</div>
+            </div>
+
+            <div class="location-card" id="modalLocation" style="display: none;">
+                <div class="location-label">📍 Ubicación en Cava</div>
+                <div class="location-value" id="modalLocationValue">—</div>
+            </div>
+
+            <!-- Edit button moved to bottom-right of modal -->
+            <div style="display:flex;justify-content:flex-end;margin-top:1rem;">
+                <button id="btnEditWine" style="padding:0.6rem 0.9rem;border-radius:10px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-main);cursor:pointer;">Editar</button>
+            </div>
+            
+            <!-- Edit form (hidden by default) -->
+            <div id="editForm" style="display:none;margin-top:1rem;">
+                <div style="display:flex;flex-direction:column;gap:0.6rem;">
+                    <input id="editNome" type="text" placeholder="Nombre" style="padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
+                    <input id="editRegiao" type="text" placeholder="Região / D.O." style="padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
+                    <input id="editUvas" type="text" placeholder="Uvas (coma-separadas)" style="padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
+                    <div style="display:flex;gap:0.6rem;">
+                        <input id="editCopa" type="number" placeholder="Precio Copa" style="flex:1;padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
+                        <input id="editBotella" type="number" placeholder="Precio Botella" style="flex:1;padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
+                    </div>
+                    <div style="display:flex;gap:0.6rem;justify-content:flex-end;">
+                        <button id="btnCancelEdit" style="padding:0.6rem 0.9rem;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:var(--text-muted);cursor:pointer;">Cancelar</button>
+                        <button id="btnSaveEdit" style="padding:0.6rem 0.9rem;border-radius:8px;border:none;background:var(--gold-accent);color:#111;font-weight:700;cursor:pointer;">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- 1. CARREGAR DADOS DO JSON ---
+        let vinhos = [];
+        let currentEditIndex = null;
+        
+        // Carregar vinhos do arquivo JSON
+        fetch('vinhos.json')
+            .then(response => response.json())
+            .then(data => {
+                vinhos = data;
+                // If there are local edits stored, restore them (non-destructive override)
+                try {
+                    const edited = localStorage.getItem('vinhos_edited');
+                    if (edited) {
+                        const parsed = JSON.parse(edited);
+                        if (Array.isArray(parsed) && parsed.length === data.length) {
+                            vinhos = parsed;
+                            console.log('✓ Restored edited vinhos from localStorage');
+                        }
+                    }
+                } catch (e) { /* ignore parse errors */ }
+                document.getElementById('totalRef').textContent = vinhos.length;
+                console.log(`✓ Carregados ${vinhos.length} vinhos`);
+            })
+            .catch(error => {
+                console.error('Erro ao carregar vinhos.json:', error);
+                // Fallback para dados padrão
+                vinhos = [
+                    { nome: "Champagne Dom Perignon Rose 2009", tipo: "CHAMPAGNE", regiao: "Champagne", uvas: "Chardonnay, Pinot Noir", precoBotella: 721, precoCopa: null, planta: -1 },
+                    { nome: "Champagne Dom Perignon Vintage 2015", tipo: "CHAMPAGNE", regiao: "Champagne", uvas: "Pinot Noir, Chardonnay", precoBotella: 424, precoCopa: null, planta: -1 },
+                ];
+                document.getElementById('totalRef').textContent = vinhos.length;
+            });
+
+        const typeClasses = {
+            "TINTO": "b-tinto",
+            "BRANCO": "b-branco",
+            "ROSADO": "b-rosado",
+            "CHAMPAGNE": "b-champagne",
+            "ESPUMOSO": "b-champagne"
+        };
+
+        // Traducir tipos de vino según idioma
+        function getWineTypeDisplay(tipo) {
+            const translations = {
+                es: { "TINTO": "TINTO", "BRANCO": "BLANCO", "ROSADO": "ROSADO", "CHAMPAGNE": "CHAMPAGNE", "ESPUMOSO": "ESPUMOSO" },
+                en: { "TINTO": "RED", "BRANCO": "WHITE", "ROSADO": "ROSÉ", "CHAMPAGNE": "CHAMPAGNE", "ESPUMOSO": "SPARKLING" },
+                pt: { "TINTO": "TINTO", "BRANCO": "BRANCO", "ROSADO": "ROSADO", "CHAMPAGNE": "CHAMPAGNE", "ESPUMOSO": "ESPUMOSO" }
+            };
+            return translations[currentLang]?.[tipo] || tipo;
+        }
+
+        /* --- FAMÍLIAS DE UVAS COM CORES --- */
+        const GRAPE_FAMILIES = {
+            // Ibérica Tinta (Vermelho)
+            'Tempranillo': 'ibenca-tinta',
+            'Garnacha': 'ibenca-tinta shade2',
+            'Monastrell': 'ibenca-tinta shade3',
+            'Bobal': 'ibenca-tinta',
+            'Mencía': 'ibenca-tinta shade2',
+            'Cariñena': 'ibenca-tinta shade3',
+            'Graciano': 'ibenca-tinta',
+            'Carignan': 'ibenca-tinta shade2',
+            'Prieto Picudo': 'ibenca-tinta shade3',
+            
+            // Burgundy (Roxo)
+            'Pinot Noir': 'burgundy',
+            'Pinot Meunier': 'burgundy shade2',
+            'Chardonnay': 'burgundy shade3',
+            'Sauvignon Blanc': 'burgundy',
+            'Aligoté': 'burgundy shade2',
+            'Gamay': 'burgundy shade3',
+            
+            // Italiana (Vinho)
+            'Sangiovese': 'italiana',
+            'Nebbiolo': 'italiana shade2',
+            'Barbera': 'italiana shade3',
+            'Dolcetto': 'italiana',
+            'Montepulciano': 'italiana shade2',
+            'Aglianico': 'italiana shade3',
+            'Nero d\'Avola': 'italiana',
+            
+            // Brancos Aromáticos (Ouro)
+            'Riesling': 'aromatico',
+            'Albariño': 'aromatico shade2',
+            'Verdejo': 'aromatico shade3',
+            'Moscato': 'aromatico',
+            'Moscato d\'Asti': 'aromatico shade2',
+            'Gewürztraminer': 'aromatico shade3',
+            'Viognier': 'aromatico',
+            'Vermentino': 'aromatico shade2',
+            'Godello': 'aromatico shade3',
+            'Fiano': 'aromatico',
+            'Greco': 'aromatico shade2',
+            'Catarratto': 'aromatico shade3',
+            'Verdicchio': 'aromatico',
+            'Soave': 'aromatico shade2',
+            'Frascati': 'aromatico shade3',
+            'Falanghina': 'aromatico',
+            'Biancolella': 'aromatico shade2',
+            'Nuragus': 'aromatico shade3',
+            'Verduzzo': 'aromatico',
+            'Malvasia': 'aromatico shade2',
+            'Tokay': 'aromatico shade3',
+            'Furmint': 'aromatico',
+            'Savagnin': 'aromatico shade2',
+            'Timorasso': 'aromatico shade3',
+            
+            // Nova Mundo (Bordô)
+            'Carmenère': 'novamundo',
+            'Malbec': 'novamundo shade2',
+            'Cabernet Sauvignon': 'novamundo shade3',
+            'Cabernet Franc': 'novamundo',
+            'Syrah': 'novamundo shade2',
+            'Shiraz': 'novamundo shade3',
+            'Petit Verdot': 'novamundo',
+            'Zinfandel': 'novamundo shade2',
+            'Tannat': 'novamundo shade3',
+            'Negroamaro': 'novamundo',
+            'Pinotage': 'novamundo shade2',
+            
+            // Espumosos (Rosa/Coral)
+            'Prosecco': 'espumoso',
+            'Lambrusco': 'espumoso shade2',
+            'Cava': 'espumoso shade3',
+            'Champagne': 'espumoso',
+            'Xarel.lo': 'espumoso shade2',
+            'Macabeo': 'espumoso shade3',
+            'Parellada': 'espumoso',
+        };
+
+        function getGrapeColor(grapeName) {
+            // Procura o nome exato da uva
+            if (GRAPE_FAMILIES[grapeName]) {
+                return GRAPE_FAMILIES[grapeName];
+            }
+            // Se não encontrar, retorna uma cor padrão (roxo neutro)
+            return 'burgundy shade3';
+        }
+
+        function renderGrapeTags(grapesString) {
+            if (!grapesString) return '';
+            
+            const grapes = grapesString.split(',').map(g => g.trim()).filter(g => g);
+            const tagsHtml = grapes.map((grape, index) => {
+                const colorClass = getGrapeColor(grape);
+                return `<span class="grape-tag ${colorClass}">${grape}</span>`;
+            }).join('');
+            
+            return `<div class="grape-tags">${tagsHtml}</div>`;
+        }
+
+        // --- 1.1 SISTEMA DE IDIOMAS ---
+        const translations = {
+            es: {
+                placeholders: [
+                    "Encuentra la botella",
+                    "¿Una copa? ¿Una Botella?",
+                    "Tempranillo, Garnacha, Mencía",
+                    "Albariño, Godello, Verdejo",
+                    "Tinto, Blanco, Rosado, Espumoso",
+                    "¿Qué tal la cata de hoy?",
+                    "¿Cliente muy Especial?",
+                    "Buscar vino...",
+                    "¿Rioja, Ribeira, Rueda?",
+                    "¿Alguno internacional?",
+                    "Quizás un vino francés"
+                ],
+                refs: "referencias disponibles",
+                glass: "Copa",
+                bottle: "Botella",
+                grape: "Uva",
+                price_bottle: "Precio Botella",
+                btnLabel: "🇪🇸 ES"
+            },
+            en: {
+                placeholders: [
+                    "Find the bottle",
+                    "A glass? A bottle?",
+                    "Tempranillo, Garnacha, Mencía",
+                    "Albariño, Godello, Verdejo",
+                    "Red, White, Rosé, Sparkling",
+                    "How's the tasting today?",
+                    "Very Special Client?",
+                    "Search wine...",
+                    "Rioja, Ribeira, Rueda?",
+                    "Any international one?",
+                    "Maybe a French wine"
+                ],
+                refs: "references available",
+                glass: "Glass",
+                bottle: "Bottle",
+                grape: "Grape",
+                price_bottle: "Bottle Price",
+                btnLabel: "🇬🇧 EN"
+            },
+            pt: {
+                placeholders: [
+                    "Encontre a garrafa",
+                    "Uma taça? Uma garrafa?",
+                    "Tempranillo, Garnacha, Mencía",
+                    "Albariño, Godello, Verdejo",
+                    "Tinto, Branco, Rosé, Espumante",
+                    "Que tal a degustação hoje?",
+                    "Cliente muito especial?",
+                    "Buscar vinho...",
+                    "Rioja, Ribeira, Rueda?",
+                    "Algum internacional?",
+                    "Talvez um vinho francês"
+                ],
+                refs: "referências disponíveis",
+                glass: "Taça",
+                bottle: "Garrafa",
+                grape: "Uva",
+                price_bottle: "Preço Garrafa",
+                btnLabel: "🇧🇷 PT"
+            }
+        };
+
+        let currentLang = 'es';
+        
+        // Variáveis do efeito Typewriter
+        let typeWriterTimeout;
+        let charIndex = 0;
+        let isDeleting = false;
+        let currentPhrase = "";
+        let phraseQueue = [];
+
+        function getNextPhrase() {
+            // Se a fila estiver vazia, recria e embaralha (Shuffle)
+            if (phraseQueue.length === 0) {
+                phraseQueue = [...translations[currentLang].placeholders];
+                // Algoritmo Fisher-Yates para embaralhar
+                for (let i = phraseQueue.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [phraseQueue[i], phraseQueue[j]] = [phraseQueue[j], phraseQueue[i]];
+                }
+                // Evita que a primeira do novo ciclo seja igual à última do anterior
+                if (phraseQueue[0] === currentPhrase && phraseQueue.length > 1) {
+                    phraseQueue.push(phraseQueue.shift());
+                }
+            }
+            return phraseQueue.pop();
+        }
+
+        function startTypeWriter() {
+            const input = document.getElementById('searchInput');
+            if (!input) return;
+            
+            // Inicializa a primeira frase se necessário
+            if (!currentPhrase) {
+                currentPhrase = getNextPhrase();
+            }
+            
+            if (isDeleting) {
+                input.placeholder = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                input.placeholder = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            let typeSpeed = isDeleting ? 20 : 50; // Más rápido al escribir y borrar
+            
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                typeSpeed = 2000; // Pausa ao terminar de escrever
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                currentPhrase = getNextPhrase(); // Pega a próxima da fila sem repetir
+                typeSpeed = 500; // Pausa antes da próxima frase
+            }
+            
+            clearTimeout(typeWriterTimeout);
+            typeWriterTimeout = setTimeout(startTypeWriter, typeSpeed);
+        }
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            const t = translations[lang];
+            
+            // Atualizar textos estáticos
+            document.getElementById('currentLangBtn').innerText = t.btnLabel;
+            
+            // Atualizar elementos com data-translate
+            document.querySelectorAll('[data-translate]').forEach(el => {
+                const key = el.getAttribute('data-translate');
+                if (t[key] && el.tagName !== 'INPUT') {
+                    el.innerText = t[key];
+                }
+            });
+
+            // Reiniciar Typewriter com o novo idioma
+            phraseQueue = []; // Limpa a fila para gerar novas frases no novo idioma
+            currentPhrase = "";
+            charIndex = 0;
+            isDeleting = false;
+            clearTimeout(typeWriterTimeout);
+            startTypeWriter();
+        }
+
+        // --- 2. LÓGICA DE BUSCA ---
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        const wineModal = document.getElementById('wineModal');
+
+        // Função para remover acentos
+        function removeAccents(str) {
+            return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
+
+        searchInput.addEventListener('input', function() {
+            const query = removeAccents(this.value.toLowerCase().trim());
+            searchResults.innerHTML = '';
+
+            if (query.length === 0) {
+                searchResults.style.display = 'none';
+                document.body.classList.remove('search-active');
+                return;
+            }
+
+            const filtrados = vinhos.filter(vinho =>
+                removeAccents(vinho.nome.toLowerCase()).includes(query) ||
+                removeAccents(vinho.regiao.toLowerCase()).includes(query)
+            ).sort((a, b) => a.nome.localeCompare(b.nome));
+
+            if (filtrados.length > 0) {
+                document.body.classList.add('search-active');
+                filtrados.forEach(vinho => {
+                    const item = document.createElement('div');
+                    item.className = 'search-item';
+                    const badgeClass = typeClasses[vinho.tipo] || "b-tinto";
+                    
+                    item.innerHTML = `
+                        <div class="item-info">
+                            <div class="item-title">
+                                ${vinho.nome}
+                            </div>
+                            ${vinho.uvas ? renderGrapeTags(vinho.uvas) : ''}
+                            <div class="badge-row">
+                                <span class="badge ${badgeClass}">${getWineTypeDisplay(vinho.tipo)}</span>
+                                <span class="item-region">${vinho.regiao}</span>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.3rem;">
+                            <div class="item-price">
+                                ${vinho.precoCopa ? `<span style="font-size: 0.8rem; opacity: 0.8;">Copa ${vinho.precoCopa}€ |</span> ` : ''}${vinho.precoBotella}€
+                            </div>
+                            ${vinho.localizacao ? `<div class="item-location">${vinho.localizacao}</div>` : ''}
+                        </div>
+                    `;
+                    
+                    const idx = vinhos.indexOf(vinho);
+                    item.addEventListener('click', () => abrirModal(vinho, badgeClass, idx));
+                    searchResults.appendChild(item);
+                });
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.style.display = 'none';
+                document.body.classList.remove('search-active');
+            }
+        });
+
+        // --- 3. MODAL ---
+        function abrirModal(vinho, badgeClass, index) {
+            currentEditIndex = (typeof index === 'number') ? index : vinhos.indexOf(vinho);
+            document.getElementById('modalBadge').innerText = getWineTypeDisplay(vinho.tipo);
+            document.getElementById('modalBadge').className = `badge ${badgeClass}`;
+            document.getElementById('modalName').innerText = vinho.nome;
+
+            document.getElementById('modalCopa').innerText = vinho.precoCopa ? `${vinho.precoCopa}€` : "—";
+            document.getElementById('modalBotellaSmall').innerText = `${vinho.precoBotella}€`;
+            document.getElementById('modalDO').innerText = vinho.regiao;
+            document.getElementById('modalUva').innerHTML = vinho.uvas ? renderGrapeTags(vinho.uvas) : "—";
+            document.getElementById('modalPrice').innerText = `${vinho.precoBotella}€`;
+
+            // Mostrar localização se existir
+            if (vinho.localizacao) {
+                document.getElementById('modalLocation').style.display = 'block';
+                document.getElementById('modalLocationValue').innerText = vinho.localizacao;
+            } else {
+                document.getElementById('modalLocation').style.display = 'none';
+            }
+
+            searchResults.style.display = 'none';
+            document.body.classList.remove('search-active');
+            searchInput.blur();
+            wineModal.classList.add('active');
+
+            // Reset any edit form state
+            document.getElementById('editForm').style.display = 'none';
+            document.getElementById('btnEditWine').style.display = 'inline-block';
+        }
+
+        window.fecharModal = function() {
+            wineModal.classList.remove('active');
+            searchInput.value = '';
+            document.body.classList.remove('search-active');
+        }
+
+        wineModal.addEventListener('click', (e) => {
+            if (e.target === wineModal) fecharModal();
+        });
+
+        // --- 3.1 EDIT HANDLERS ---
+        function abrirEdit() {
+            const form = document.getElementById('editForm');
+            const btnEdit = document.getElementById('btnEditWine');
+            if (currentEditIndex === null) return;
+            const vinho = vinhos[currentEditIndex];
+            preencherForm(vinho);
+            form.style.display = 'block';
+            btnEdit.style.display = 'none';
+        }
+
+        function preencherForm(vinho) {
+            document.getElementById('editNome').value = vinho.nome || '';
+            document.getElementById('editRegiao').value = vinho.regiao || '';
+            document.getElementById('editUvas').value = vinho.uvas || '';
+            document.getElementById('editCopa').value = vinho.precoCopa != null ? vinho.precoCopa : '';
+            document.getElementById('editBotella').value = vinho.precoBotella != null ? vinho.precoBotella : '';
+        }
+
+        function salvarEdicao() {
+            if (currentEditIndex === null) return;
+            const nome = document.getElementById('editNome').value.trim();
+            const regiao = document.getElementById('editRegiao').value.trim();
+            const uvas = document.getElementById('editUvas').value.trim();
+            const copa = document.getElementById('editCopa').value;
+            const botella = document.getElementById('editBotella').value;
+
+            // Apply to data
+            const vinho = vinhos[currentEditIndex];
+            if (nome) vinho.nome = nome;
+            vinho.regiao = regiao || vinho.regiao;
+            vinho.uvas = uvas || vinho.uvas;
+            vinho.precoCopa = copa !== '' ? Number(copa) : (vinho.precoCopa || null);
+            vinho.precoBotella = botella !== '' ? Number(botella) : (vinho.precoBotella || null);
+
+            // Persist to localStorage so edits survive reloads (non-destructive)
+            try { localStorage.setItem('vinhos_edited', JSON.stringify(vinhos)); } catch (e) { /* ignore */ }
+
+            // Update modal display
+            document.getElementById('modalName').innerText = vinho.nome;
+            document.getElementById('modalCopa').innerText = vinho.precoCopa ? `${vinho.precoCopa}€` : '—';
+            document.getElementById('modalBotellaSmall').innerText = `${vinho.precoBotella}€`;
+            document.getElementById('modalDO').innerText = vinho.regiao;
+            document.getElementById('modalUva').innerHTML = vinho.uvas ? renderGrapeTags(vinho.uvas) : '—';
+            document.getElementById('modalPrice').innerText = `${vinho.precoBotella}€`;
+
+            // Hide form
+            document.getElementById('editForm').style.display = 'none';
+            document.getElementById('btnEditWine').style.display = 'inline-block';
+
+            // If searchResults visible, refresh them to reflect new price/name
+            if (searchResults.style.display === 'block' && searchInput.value.trim().length > 0) {
+                const ev = new Event('input');
+                searchInput.dispatchEvent(ev);
+            }
+        }
+
+        function cancelarEdicao() {
+            document.getElementById('editForm').style.display = 'none';
+            document.getElementById('btnEditWine').style.display = 'inline-block';
+        }
+
+        // Attach edit button listeners
+        document.getElementById('btnEditWine').addEventListener('click', abrirEdit);
+        document.getElementById('btnCancelEdit').addEventListener('click', cancelarEdicao);
+        document.getElementById('btnSaveEdit').addEventListener('click', salvarEdicao);
+
+        // --- 4. DARK/LIGHT MODE TOGGLE (CANVAS ANIMADO) ---
+        const themeToggle = document.getElementById('themeToggle');
+        const toggleCanvas = document.getElementById('toggleCanvas');
+        const tCtx = toggleCanvas.getContext('2d');
+        
+        // Configuração do Canvas Toggle
+        toggleCanvas.width = 80;
+        toggleCanvas.height = 40;
+        
+        let isDark = true; // Começa no modo escuro
+        let toggleProgress = 0; // 0 = Sol (Light), 1 = Lua (Dark)
+        // Como o site começa Dark, vamos setar o progresso inicial para 1
+        toggleProgress = 1;
+
+        // Função de interpolação linear
+        const lerp = (a, b, t) => a + (b - a) * t;
+
+        function drawToggle() {
+            const width = toggleCanvas.width;
+            const height = toggleCanvas.height;
+            
+            tCtx.clearRect(0, 0, width, height);
+
+            // 1. Fundo (Céu)
+            // Dia: Azul Claro (#60A5FA), Noite: Azul Escuro (#1e1b4b)
+            const r = lerp(96, 30, toggleProgress);
+            const g = lerp(165, 27, toggleProgress);
+            const b = lerp(250, 75, toggleProgress);
+            
+            tCtx.fillStyle = `rgb(${r}, ${g}, ${b})`;
+            tCtx.beginPath();
+            tCtx.roundRect(0, 0, width, height, 20);
+            tCtx.fill();
+
+            // 2. Estrelas (aparecem no escuro)
+            if (toggleProgress > 0.1) {
+                tCtx.fillStyle = `rgba(255, 255, 255, ${toggleProgress})`;
+                // Estrelas fixas
+                const stars = [{x: 20, y: 10}, {x: 40, y: 30}, {x: 15, y: 30}, {x: 50, y: 10}];
+                stars.forEach(star => {
+                    tCtx.beginPath();
+                    tCtx.arc(star.x, star.y, 1.5, 0, Math.PI * 2);
+                    tCtx.fill();
+                });
+            }
+
+            // 3. Nuvens (desaparecem no escuro)
+            const cloudOpacity = Math.max(0, 1 - toggleProgress * 2);
+            if (cloudOpacity > 0) {
+                tCtx.fillStyle = `rgba(255, 255, 255, ${cloudOpacity * 0.8})`;
+                tCtx.beginPath();
+                tCtx.arc(50, 30, 8, 0, Math.PI * 2);
+                tCtx.arc(60, 35, 10, 0, Math.PI * 2);
+                tCtx.arc(70, 30, 8, 0, Math.PI * 2);
+                tCtx.fill();
+            }
+
+            // 4. Astro (Sol -> Lua)
+            // Posição: Esquerda (20) -> Direita (60)
+            const circleX = lerp(20, width - 20, toggleProgress);
+            const circleY = height / 2;
+            const radius = 14;
+
+            // Cor: Amarelo -> Branco/Cinza
+            const ar = lerp(251, 226, toggleProgress);
+            const ag = lerp(191, 232, toggleProgress);
+            const ab = lerp(36, 240, toggleProgress);
+
+            tCtx.fillStyle = `rgb(${ar}, ${ag}, ${ab})`;
+            tCtx.shadowBlur = 10;
+            tCtx.shadowColor = `rgba(${ar}, ${ag}, ${ab}, 0.5)`;
+            
+            tCtx.beginPath();
+            tCtx.arc(circleX, circleY, radius, 0, Math.PI * 2);
+            tCtx.fill();
+            tCtx.shadowBlur = 0; // Reset shadow
+
+            // 5. Máscara da Lua (Crescente)
+            if (toggleProgress > 0.1) {
+                const maskOffset = lerp(radius * 2, 6, toggleProgress);
+                tCtx.fillStyle = `rgb(${r}, ${g}, ${b})`; // Mesma cor do fundo
+                tCtx.beginPath();
+                tCtx.arc(circleX - maskOffset, circleY - 2, radius, 0, Math.PI * 2);
+                tCtx.fill();
+            }
+
+            // 6. Raios do Sol
+            const rayOpacity = Math.max(0, 1 - toggleProgress * 3);
+            if (rayOpacity > 0) {
+                tCtx.strokeStyle = `rgba(251, 191, 36, ${rayOpacity})`;
+                tCtx.lineWidth = 2;
+                tCtx.lineCap = 'round';
+                const rayCount = 6;
+                for (let i = 0; i < rayCount; i++) {
+                    const angle = (i * Math.PI * 2) / rayCount + (toggleProgress * 2);
+                    const startX = circleX + Math.cos(angle) * (radius + 3);
+                    const startY = circleY + Math.sin(angle) * (radius + 3);
+                    const endX = circleX + Math.cos(angle) * (radius + 7);
+                    const endY = circleY + Math.sin(angle) * (radius + 7);
+                    tCtx.beginPath();
+                    tCtx.moveTo(startX, startY);
+                    tCtx.lineTo(endX, endY);
+                    tCtx.stroke();
+                }
+            }
+
+            // Loop de animação suave
+            const target = isDark ? 1 : 0;
+            if (Math.abs(toggleProgress - target) > 0.001) {
+                toggleProgress += (target - toggleProgress) * 0.1;
+                requestAnimationFrame(drawToggle);
+            }
+        }
+
+        themeToggle.addEventListener('click', () => {
+            isDark = !isDark;
+            document.body.classList.toggle('light-mode');
+            drawToggle(); // Inicia animação
+        });
+
+        // --- 5. PARTÍCULAS DE OURO (CANVAS) ---
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        let particlesArray = [];
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            initParticles();
+        });
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 0.5; // Tamanho de 0.5 a 2.5
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.opacity = Math.random() * 0.5 + 0.1;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y -= this.speedY; // Sobem levemente
+
+                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+                if (this.y < 0) this.y = canvas.height;
+                if (this.y > canvas.height) this.y = 0;
+            }
+            draw() {
+                ctx.fillStyle = `rgba(212, 175, 55, ${this.opacity})`; // Dourado
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            particlesArray = [];
+            let numberOfParticles = (canvas.width * canvas.height) / 9000; // Densidade
+            for (let i = 0; i < numberOfParticles; i++) {
+                particlesArray.push(new Particle());
+            }
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < particlesArray.length; i++) {
+                particlesArray[i].update();
+                particlesArray[i].draw();
+            }
+            requestAnimationFrame(animateParticles);
+        }
+
+        initParticles();
+        animateParticles();
+        drawToggle(); // Desenho inicial do toggle
+        startTypeWriter(); // Inicia o efeito de digitação
+    </script>
+</body>
+</html>

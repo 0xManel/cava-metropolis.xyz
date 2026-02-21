@@ -1,0 +1,15 @@
+# Servidor local
+server.py
+
+# Arquivos temporários e de processamento
+tmp_pdf_sample.txt
+menu_matching_report.json
+vinhos.json.bak.*
+vinhos_corrected_prices.json
+vinhos_with_menu_prices.json
+
+# Referências (PDFs, planilhas)
+Referencias/
+
+# macOS
+.DS_Store
