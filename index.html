@@ -293,18 +293,28 @@
             font-family: 'Montserrat', sans-serif;
             font-weight: 900;
             color: var(--price-color);
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             letter-spacing: 0.5px;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .item-location {
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            font-weight: 600;
-            letter-spacing: 1px;
-            margin-top: 0.2rem;
+            font-size: 0.75rem;
+            color: var(--text-main);
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            margin-top: 0.3rem;
             font-family: 'Montserrat', monospace;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(180, 135, 25, 0.2));
+            border: 1px solid var(--gold-accent);
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            display: inline-block;
+            box-shadow: 0 2px 6px rgba(212, 175, 55, 0.15);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
         }
 
         /* --- MODAL (CARD DE DETALHES) --- */
@@ -419,34 +429,37 @@
 
         /* Card de Localização */
         .location-card {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
-            border: 1px solid rgba(212, 175, 55, 0.3);
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(180, 135, 25, 0.15));
+            border: 2px solid var(--gold-accent);
             border-radius: 12px;
-            padding: 1rem;
+            padding: 1.2rem 1rem;
             text-align: center;
             margin-top: 1.5rem;
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
         }
 
         .location-label {
-            font-size: 0.65rem;
-            color: var(--text-muted);
+            font-size: 0.75rem;
+            color: var(--gold-accent);
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-bottom: 0.5rem;
+            font-weight: 700;
         }
 
         .location-value {
             font-family: 'Montserrat', monospace;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            color: var(--gold-accent);
+            color: var(--text-main);
             letter-spacing: 2px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         /* --- NOVO BOTÃO TOGGLE (CANVAS) --- */
         .theme-toggle {
             position: fixed;
-            top: 20px; left: 20px;
+            top: 20px; right: 20px;
             width: 80px; height: 40px; /* Formato Pílula */
             border-radius: 20px;
             background: transparent;
@@ -555,15 +568,7 @@
 
     <canvas id="particleCanvas"></canvas>
 
-    <!-- Seletor de Idioma -->
-    <div class="lang-container">
-        <button class="lang-btn" id="currentLangBtn">🇪🇸 ES</button>
-        <div class="lang-dropdown">
-            <a href="#" class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> ES</a>
-            <a href="#" class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> EN</a>
-            <a href="#" class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> PT</a>
-        </div>
-    </div>
+    <!-- (Removed duplicate top-right button) -->
 
     <!-- Novo Toggle Canvas -->
     <button class="theme-toggle" id="themeToggle" aria-label="Alternar Tema">
@@ -1278,7 +1283,9 @@
 
         function initParticles() {
             particlesArray = [];
-            let numberOfParticles = (canvas.width * canvas.height) / 9000; // Densidade
+            // Base de densidade, aumentado em 40% conforme solicitado
+            const baseNumber = (canvas.width * canvas.height) / 9000; // densidade original
+            const numberOfParticles = Math.round(baseNumber * 1.4); // +40%
             for (let i = 0; i < numberOfParticles; i++) {
                 particlesArray.push(new Particle());
             }
