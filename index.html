@@ -2,7 +2,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Cava Metropolis">
+    <meta name="theme-color" content="#08080b">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
     <title>Cava Metropolis</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <style>
@@ -50,14 +56,25 @@
             background-color: var(--bg-color);
             color: var(--text-main);
             transition: background-color 0.8s ease, color 0.8s ease;
-            min-height: 100dvh; /* Ajusta melhor ao teclado mobile */
+            min-height: 100dvh;
+            height: 100dvh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
             padding-top: 22dvh;
             overflow-x: hidden;
+            overflow-y: auto;
         }
+
+        /* Entrance animation */
+        @keyframes fadeSlideUp {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        header { animation: fadeSlideUp 0.8s ease-out both; }
+        .search-container { animation: fadeSlideUp 0.8s ease-out 0.15s both; }
+        .theme-toggle { animation: fadeSlideUp 0.5s ease-out 0.3s both; }
 
         /* --- PARTÍCULAS DOURADAS (CANVAS) --- */
         #particleCanvas {
@@ -191,6 +208,7 @@
             border: 1px solid var(--glass-border);
             border-radius: 12px;
             cursor: pointer;
+            transition: transform 0.15s ease, background 0.2s ease;
         }
         .search-item:first-child {
             margin-top: 2mm;
@@ -199,9 +217,15 @@
             margin-bottom: 0;
         }
 
-        .search-item:hover {
-            background: rgba(212, 175, 55, 0.12);
-            border-color: var(--gold-accent);
+        @media (hover: hover) {
+            .search-item:hover {
+                background: rgba(212, 175, 55, 0.12);
+                border-color: var(--gold-accent);
+            }
+        }
+        .search-item:active {
+            background: rgba(212, 175, 55, 0.18);
+            transform: scale(0.98);
         }
 
         .item-info { display: flex; flex-direction: column; gap: 0.18rem; }
@@ -245,9 +269,11 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
 
-        .grape-tag:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        @media (hover: hover) {
+            .grape-tag:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            }
         }
 
         /* Família: Ibérica Tinta (Vermelho/Laranja) */
@@ -338,6 +364,7 @@
         }
 
         .modal-overlay.active { display: flex; opacity: 1; }
+        .modal-overlay { will-change: opacity; }
 
         .modal-card {
             width: 90%;
@@ -559,13 +586,18 @@
         @media (max-width: 600px) {
             .title-cava { font-size: 2rem; }
             .title-metropolis { font-size: 11vw; letter-spacing: 1px; padding: 0 20px; }
-            .modal-card { padding: 1.5rem; }
+            .modal-card { padding: 1.5rem; max-height: 85dvh; overflow-y: auto; }
             .modal-title { font-size: 1.5rem; }
+            #searchInput { font-size: 1rem; padding: 1rem 1rem 1rem 2rem; }
+            body { padding-top: 18dvh; }
+        }
 
-            /* Ajuste para frases longas caberem no mobile */
-            #searchInput {
-                font-size: 1.1rem; /* Reduz fonte para evitar cortes */
-            }
+        /* When keyboard is open on mobile, shift content up */
+        body.keyboard-open {
+            padding-top: 2dvh;
+        }
+        body.keyboard-open header {
+            display: none;
         }
     </style>
 </head>
@@ -647,6 +679,7 @@
                         <input id="editCopa" type="number" placeholder="Precio Copa" style="flex:1;padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
                         <input id="editBotella" type="number" placeholder="Precio Botella" style="flex:1;padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
                     </div>
+                    <input id="editLocation" type="text" placeholder="Ubicación (ej: 2 H A)" style="padding:0.7rem;border-radius:8px;border:1px solid var(--gold-accent);background:linear-gradient(135deg,rgba(212,175,55,0.1),rgba(180,135,25,0.05));color:var(--text-main);font-family:'Montserrat',monospace;font-weight:700;letter-spacing:2px;text-transform:uppercase;">
                     <div style="display:flex;gap:0.6rem;justify-content:flex-end;">
                         <button id="btnCancelEdit" style="padding:0.6rem 0.9rem;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:var(--text-muted);cursor:pointer;">Cancelar</button>
                         <button id="btnSaveEdit" style="padding:0.6rem 0.9rem;border-radius:8px;border:none;background:var(--gold-accent);color:#111;font-weight:700;cursor:pointer;">Salvar</button>
@@ -1078,6 +1111,7 @@
             document.getElementById('editUvas').value = vinho.uvas || '';
             document.getElementById('editCopa').value = vinho.precoCopa != null ? vinho.precoCopa : '';
             document.getElementById('editBotella').value = vinho.precoBotella != null ? vinho.precoBotella : '';
+            document.getElementById('editLocation').value = vinho.localizacao || '';
         }
 
         function salvarEdicao() {
@@ -1087,6 +1121,7 @@
             const uvas = document.getElementById('editUvas').value.trim();
             const copa = document.getElementById('editCopa').value;
             const botella = document.getElementById('editBotella').value;
+            const location = document.getElementById('editLocation').value.trim().toUpperCase();
 
             // Apply to data
             const vinho = vinhos[currentEditIndex];
@@ -1095,6 +1130,7 @@
             vinho.uvas = uvas || vinho.uvas;
             vinho.precoCopa = copa !== '' ? Number(copa) : (vinho.precoCopa || null);
             vinho.precoBotella = botella !== '' ? Number(botella) : (vinho.precoBotella || null);
+            vinho.localizacao = location || '';
 
             // Persist to localStorage so edits survive reloads (non-destructive)
             try { localStorage.setItem('vinhos_edited', JSON.stringify(vinhos)); } catch (e) { /* ignore */ }
@@ -1106,6 +1142,14 @@
             document.getElementById('modalDO').innerText = vinho.regiao;
             document.getElementById('modalUva').innerHTML = vinho.uvas ? renderGrapeTags(vinho.uvas) : '—';
             document.getElementById('modalPrice').innerText = `${vinho.precoBotella}€`;
+
+            // Update location
+            if (vinho.localizacao) {
+                document.getElementById('modalLocation').style.display = 'block';
+                document.getElementById('modalLocationValue').innerText = vinho.localizacao;
+            } else {
+                document.getElementById('modalLocation').style.display = 'none';
+            }
 
             // Hide form
             document.getElementById('editForm').style.display = 'none';
@@ -1308,8 +1352,34 @@
 
         initParticles();
         animateParticles();
-        drawToggle(); // Desenho inicial do toggle
-        startTypeWriter(); // Inicia o efeito de digitação
+        drawToggle();
+        startTypeWriter();
+
+        // --- MOBILE KEYBOARD DETECTION ---
+        const initialVH = window.innerHeight;
+        if ('visualViewport' in window) {
+            window.visualViewport.addEventListener('resize', () => {
+                const ratio = window.visualViewport.height / initialVH;
+                if (ratio < 0.75) {
+                    document.body.classList.add('keyboard-open');
+                } else {
+                    document.body.classList.remove('keyboard-open');
+                }
+            });
+        }
+
+        // Prevent iOS zoom on double-tap
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', (e) => {
+            const now = Date.now();
+            if (now - lastTouchEnd <= 300) e.preventDefault();
+            lastTouchEnd = now;
+        }, false);
+
+        // --- PWA SERVICE WORKER ---
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(() => {});
+        }
     </script>
 </body>
 </html>
