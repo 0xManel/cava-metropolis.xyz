@@ -535,15 +535,6 @@
     "planta": -1
   },
   {
-    "nome": "Corullón 2022",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 424,
-    "precoCopa": null,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
     "nome": "César Márquez Sufreiral 2023",
     "tipo": "TINTO",
     "regiao": "Bierzo",
@@ -586,15 +577,6 @@
     "tipo": "TINTO",
     "regiao": "Bierzo",
     "precoBotella": 860,
-    "precoCopa": null,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
-    "nome": "La Faraona 2022",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 186,
     "precoCopa": null,
     "uvas": "Mencía",
     "planta": -1
@@ -665,24 +647,6 @@
     "planta": -1
   },
   {
-    "nome": "Las Lamas 2022",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 484,
-    "precoCopa": null,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
-    "nome": "Las Lamas 2022",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 12,
-    "precoCopa": null,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
     "nome": "Moncerbal 2020",
     "tipo": "TINTO",
     "regiao": "Bierzo",
@@ -696,24 +660,6 @@
     "tipo": "TINTO",
     "regiao": "Bierzo",
     "precoBotella": 495,
-    "precoCopa": null,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
-    "nome": "Moncerbal 2021",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 495,
-    "precoCopa": null,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
-    "nome": "Moncerbal 2022",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 484,
     "precoCopa": null,
     "uvas": "Mencía",
     "planta": -1
@@ -746,29 +692,11 @@
     "planta": -1
   },
   {
-    "nome": "Sangarida La Guiana 2022",
-    "tipo": "BRANCO",
-    "regiao": "Bierzo",
-    "precoBotella": 63,
-    "precoCopa": null,
-    "uvas": "Godello",
-    "planta": -1
-  },
-  {
     "nome": "Sangarida Pico Tuerto 2021",
     "tipo": "TINTO",
     "regiao": "Bierzo",
     "precoBotella": 45,
     "precoCopa": 8,
-    "uvas": "Mencía",
-    "planta": -1
-  },
-  {
-    "nome": "Sangarida Pico Tuerto 2021",
-    "tipo": "TINTO",
-    "regiao": "Bierzo",
-    "precoBotella": 45,
-    "precoCopa": null,
     "uvas": "Mencía",
     "planta": -1
   },
@@ -1272,28 +1200,10 @@
     "planta": -1
   },
   {
-    "nome": "Raveneau 1er Cru Les",
-    "tipo": "BRANCO",
-    "regiao": "Chablis",
-    "precoBotella": 29,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
     "nome": "Raveneau 1er Cru Montée de",
     "tipo": "BRANCO",
     "regiao": "Chablis",
     "precoBotella": 572,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
-    "planta": -1
-  },
-  {
-    "nome": "Raveneau 1er Cru Montée de",
-    "tipo": "BRANCO",
-    "regiao": "Chablis",
-    "precoBotella": 18,
     "precoCopa": null,
     "uvas": "Chardonnay",
     "planta": -1
@@ -1483,15 +1393,6 @@
     "tipo": "TINTO",
     "regiao": "Chambolle-Musigny",
     "precoBotella": 726,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Comtes Georges de Vogüé Chambo-",
-    "tipo": "TINTO",
-    "regiao": "Chambolle-Musigny",
-    "precoBotella": 530,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -1759,7 +1660,7 @@
     "tipo": "CHAMPAGNE",
     "regiao": "Champagne",
     "precoBotella": 184,
-    "precoCopa": null,
+    "precoCopa": 33,
     "uvas": "Chardonnay, Pinot Noir",
     "planta": -1
   },
@@ -2469,15 +2370,6 @@
     "planta": -1
   },
   {
-    "nome": "Jean-Jacques Confuron Clos Vou-",
-    "tipo": "TINTO",
-    "regiao": "Clos de Vougeot",
-    "precoBotella": 451,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Jean-Jacques Confuron Clos-Vou-",
     "tipo": "TINTO",
     "regiao": "Clos de Vougeot",
@@ -2788,7 +2680,7 @@
     "tipo": "ROSADO",
     "regiao": "Côtes de Provence",
     "precoBotella": 54,
-    "precoCopa": null,
+    "precoCopa": 10,
     "uvas": "Garnacha",
     "planta": -1
   },
@@ -2817,7 +2709,9 @@
     "precoBotella": 83,
     "precoCopa": null,
     "uvas": "Tempranillo",
-    "planta": -1
+    "planta": -1,
+    "localizacao": "2 I A",
+    "cava": "2"
   },
   {
     "nome": "Abadía Retuerta Le Domaine 2023",
@@ -2858,17 +2752,6 @@
     "planta": -1
   },
   {
-    "nome": "Abadía Retuerta Clarete 2021",
-    "tipo": "ROSADO",
-    "regiao": "D.O.P. Abadía Retuerta",
-    "precoBotella": 83,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "localizacao": "2 I A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
     "nome": "Abadía Retuerta Cuvée Palomar",
     "tipo": "TINTO",
     "regiao": "D.O.P. Abadía Retuerta",
@@ -2886,17 +2769,6 @@
     "precoBotella": 110,
     "precoCopa": null,
     "uvas": "Garnacha",
-    "localizacao": "2 I A",
-    "cava": "2",
-    "planta": -1
-  },
-  {
-    "nome": "Abadía Retuerta Le Domaine 2023",
-    "tipo": "BRANCO",
-    "regiao": "D.O.P. Abadía Retuerta",
-    "precoBotella": 77,
-    "precoCopa": null,
-    "uvas": "Verdejo, Sauvignon Blanc",
     "localizacao": "2 I A",
     "cava": "2",
     "planta": -1
@@ -3412,15 +3284,6 @@
     "precoBotella": 18,
     "precoCopa": null,
     "uvas": "Sangiovese, Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Gosset Grand Rose",
-    "tipo": "CHAMPAGNE",
-    "regiao": "Champagne",
-    "precoBotella": 184,
-    "precoCopa": 33,
-    "uvas": "Pinot Noir, Chardonnay",
     "planta": -1
   },
   {
@@ -3970,15 +3833,6 @@
     "planta": -1
   },
   {
-    "nome": "Château Margaux 1er Grand Cru",
-    "tipo": "TINTO",
-    "regiao": "Margaux",
-    "precoBotella": 320,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
-    "planta": -1
-  },
-  {
     "nome": "Château Palmer 2016",
     "tipo": "TINTO",
     "regiao": "Margaux",
@@ -4081,17 +3935,8 @@
     "nome": "Ata Rangi 2021",
     "tipo": "TINTO",
     "regiao": "Martinborough",
-    "precoBotella": 35,
-    "precoCopa": 35,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Ata Rangi 2021",
-    "tipo": "TINTO",
-    "regiao": "Martinborough",
     "precoBotella": 193,
-    "precoCopa": null,
+    "precoCopa": 35,
     "uvas": "Pinot Noir",
     "planta": -1
   },
@@ -4717,7 +4562,7 @@
     "nome": "Domaine des Perdrix Nuits-Saint",
     "tipo": "TINTO",
     "regiao": "Nuits-Saint-Georges",
-    "precoBotella": 46,
+    "precoBotella": 251,
     "precoCopa": 46,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -4732,28 +4577,10 @@
     "planta": -1
   },
   {
-    "nome": "Domaine des Perdrix Nuits-Saint",
-    "tipo": "TINTO",
-    "regiao": "Nuits-Saint-Georges",
-    "precoBotella": 251,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
     "nome": "Leroy 2017",
     "tipo": "TINTO",
     "regiao": "Nuits-Saint-Georges",
     "precoBotella": 208,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
-    "planta": -1
-  },
-  {
-    "nome": "Méo-Camuzet",
-    "tipo": "TINTO",
-    "regiao": "Nuits-Saint-Georges",
-    "precoBotella": 184,
     "precoCopa": null,
     "uvas": "Pinot Noir",
     "planta": -1
@@ -4871,15 +4698,6 @@
     "tipo": "TINTO",
     "regiao": "Pauillac",
     "precoBotella": 596,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
-    "planta": -1
-  },
-  {
-    "nome": "Les Forts de Latour 2016",
-    "tipo": "TINTO",
-    "regiao": "Pauillac",
-    "precoBotella": 320,
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
     "planta": -1
@@ -5013,15 +4831,6 @@
     "nome": "Château Haut-Brion 1er Grand Cru",
     "tipo": "TINTO",
     "regiao": "Pessac-Léognan",
-    "precoBotella": 265,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
-    "planta": -1
-  },
-  {
-    "nome": "Château Haut-Brion 1er Grand Cru",
-    "tipo": "TINTO",
-    "regiao": "Pessac-Léognan",
     "precoBotella": 420,
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
@@ -5032,15 +4841,6 @@
     "tipo": "TINTO",
     "regiao": "Pessac-Léognan",
     "precoBotella": 990,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
-    "planta": -1
-  },
-  {
-    "nome": "Château La Mission",
-    "tipo": "TINTO",
-    "regiao": "Pessac-Léognan",
-    "precoBotella": 45,
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
     "planta": -1
@@ -5131,24 +4931,6 @@
     "tipo": "TINTO",
     "regiao": "Piamonte",
     "precoBotella": 630,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Roagna Barbaresco Gallina 2018",
-    "tipo": "TINTO",
-    "regiao": "Piamonte",
-    "precoBotella": 233,
-    "precoCopa": null,
-    "uvas": "Nebbiolo",
-    "planta": -1
-  },
-  {
-    "nome": "Roagna Barolo Pira 2006",
-    "tipo": "TINTO",
-    "regiao": "Piamonte",
-    "precoBotella": 10,
     "precoCopa": null,
     "uvas": "Nebbiolo",
     "planta": -1
@@ -5320,15 +5102,6 @@
     "tipo": "TINTO",
     "regiao": "Pomerol",
     "precoBotella": 415,
-    "precoCopa": null,
-    "uvas": "Cabernet Franc",
-    "planta": -1
-  },
-  {
-    "nome": "Pétrus 2011",
-    "tipo": "TINTO",
-    "regiao": "Pomerol",
-    "precoBotella": 130,
     "precoCopa": null,
     "uvas": "Cabernet Franc",
     "planta": -1
@@ -5586,24 +5359,6 @@
     "planta": -1
   },
   {
-    "nome": "Finca Dofí 2022",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 347,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
-    "planta": -1
-  },
-  {
-    "nome": "Finca Dofí 2022",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 221,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
-    "planta": -1
-  },
-  {
     "nome": "Gralton Coster del Crivi 2019",
     "tipo": "TINTO",
     "regiao": "Priorat",
@@ -5649,30 +5404,12 @@
     "planta": -1
   },
   {
-    "nome": "La Baixada 2021",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 7,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
-    "planta": -1
-  },
-  {
     "nome": "La Baixada 2022 Garmacha",
     "tipo": "TINTO",
     "regiao": "Priorat",
     "precoBotella": 178,
     "precoCopa": null,
     "uvas": "Cariñena",
-    "planta": -1
-  },
-  {
-    "nome": "La Baixada 2022",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 908,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
     "planta": -1
   },
   {
@@ -5712,28 +5449,10 @@
     "planta": -1
   },
   {
-    "nome": "Les Aubaguetes 2021",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 474,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
-    "planta": -1
-  },
-  {
     "nome": "Les Aubaguetes 2022",
     "tipo": "TINTO",
     "regiao": "Priorat",
     "precoBotella": 737,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
-    "planta": -1
-  },
-  {
-    "nome": "Les Aubaguetes 2022",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 667,
     "precoCopa": null,
     "uvas": "Garnacha, Cariñena",
     "planta": -1
@@ -5745,15 +5464,6 @@
     "precoBotella": 528,
     "precoCopa": null,
     "uvas": "Garnacha",
-    "planta": -1
-  },
-  {
-    "nome": "L´Ermita 2022",
-    "tipo": "TINTO",
-    "regiao": "Priorat",
-    "precoBotella": 145,
-    "precoCopa": null,
-    "uvas": "Garnacha, Cariñena",
     "planta": -1
   },
   {
@@ -5792,15 +5502,6 @@
     "precoBotella": 156,
     "precoCopa": null,
     "uvas": "Macabeo, Garnacha",
-    "planta": -1
-  },
-  {
-    "nome": "Peyrassol 2024",
-    "tipo": "ROSADO",
-    "regiao": "Côtes de Provence",
-    "precoBotella": 54,
-    "precoCopa": 10,
-    "uvas": "Garnacha",
     "planta": -1
   },
   {
@@ -6157,15 +5858,6 @@
     "planta": -1
   },
   {
-    "nome": "Alonso del Yerro 2020",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 45,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Arrocal Finca Casablanca 2023",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
@@ -6283,29 +5975,11 @@
     "planta": -1
   },
   {
-    "nome": "Cepa 21 2022",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 33,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Conde de San Cristóbal 2022",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
     "precoBotella": 44,
     "precoCopa": 8,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Conde de San Cristóbal 2022",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 44,
-    "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
   },
@@ -6373,15 +6047,6 @@
     "planta": -1
   },
   {
-    "nome": "Dominio de Es Carravilla 2022",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 258,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Dominio de Es La Diva 2020",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
@@ -6395,15 +6060,6 @@
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
     "precoBotella": 546,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Dominio de Es La Diva 2022",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 452,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -6502,15 +6158,6 @@
     "nome": "Dominio del Águila Peñas Aladas",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
-    "precoBotella": 418,
-    "precoCopa": null,
-    "uvas": "Bobal, Garnacha, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Dominio del Águila Peñas Aladas",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
     "precoBotella": 506,
     "precoCopa": null,
     "uvas": "Bobal, Garnacha, Tempranillo",
@@ -6594,15 +6241,6 @@
     "regiao": "Ribera del Duero",
     "precoBotella": 78,
     "precoCopa": 14,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Garmon 2021",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 78,
-    "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
   },
@@ -6764,15 +6402,6 @@
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
     "precoBotella": 850,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Pingus 2021",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 178,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -6949,15 +6578,6 @@
     "planta": -1
   },
   {
-    "nome": "Vega Sicilia Único 2011",
-    "tipo": "TINTO",
-    "regiao": "Ribera del Duero",
-    "precoBotella": 390,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon, Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Vega Sicilia Único 2012",
     "tipo": "TINTO",
     "regiao": "Ribera del Duero",
@@ -7102,15 +6722,6 @@
     "planta": -1
   },
   {
-    "nome": "Artadi La Poza de Ballesteros 2022",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 424,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Artadi San Lázaro 2021",
     "tipo": "TINTO",
     "regiao": "Rioja",
@@ -7219,25 +6830,7 @@
     "nome": "Castillo Ygay Gran Reserva Especial",
     "tipo": "TINTO",
     "regiao": "Rioja",
-    "precoBotella": 220,
-    "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Castillo Ygay Gran Reserva Especial",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
     "precoBotella": 935,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Castillo Ygay Gran Reserva Especial",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 210,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -7261,28 +6854,10 @@
     "planta": -1
   },
   {
-    "nome": "Cirsion 2019",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 671,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Contador 2022",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 429,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Contador 2022",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 404,
     "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
@@ -7552,15 +7127,6 @@
     "planta": -1
   },
   {
-    "nome": "La Nieta 2022",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 492,
-    "precoCopa": null,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "La Rioja Alta 890 Gran Reserva 2010",
     "tipo": "TINTO",
     "regiao": "Rioja",
@@ -7732,29 +7298,11 @@
     "planta": -1
   },
   {
-    "nome": "Muga Selección Especial 2020",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 77,
-    "precoCopa": null,
-    "uvas": "Garnacha, Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Orben 2021",
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 40,
     "precoCopa": 7,
-    "uvas": "Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Orben 2021",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 40,
-    "precoCopa": null,
     "uvas": "Tempranillo",
     "planta": -1
   },
@@ -7880,15 +7428,6 @@
     "planta": -1
   },
   {
-    "nome": "Remirez de Ganuza Gran Reserva",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 925,
-    "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
     "nome": "Remirez de Ganuza Reserva 2008",
     "tipo": "TINTO",
     "regiao": "Rioja",
@@ -7922,24 +7461,6 @@
     "precoBotella": 61,
     "precoCopa": null,
     "uvas": "Garnacha, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Remírez de Ganuza Gran Reserva",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 325,
-    "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Remírez de Ganuza Gran Reserva",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 35,
-    "precoCopa": null,
-    "uvas": "Graciano, Tempranillo",
     "planta": -1
   },
   {
@@ -7998,15 +7519,6 @@
     "precoBotella": 55,
     "precoCopa": 10,
     "uvas": "Graciano, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Roda Reserva 2022",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 55,
-    "precoCopa": null,
-    "uvas": "Garnacha, Graciano, Tempranillo",
     "planta": -1
   },
   {
@@ -8169,15 +7681,6 @@
     "tipo": "TINTO",
     "regiao": "Rioja",
     "precoBotella": 220,
-    "precoCopa": null,
-    "uvas": "Garnacha, Tempranillo",
-    "planta": -1
-  },
-  {
-    "nome": "Viña Ardanza Reserva 2005",
-    "tipo": "TINTO",
-    "regiao": "Rioja",
-    "precoBotella": 479,
     "precoCopa": null,
     "uvas": "Garnacha, Tempranillo",
     "planta": -1
@@ -8524,15 +8027,6 @@
     "planta": -1
   },
   {
-    "nome": "Château Ducru Beaucaillou",
-    "tipo": "TINTO",
-    "regiao": "Saint-Julien",
-    "precoBotella": 100,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
-    "planta": -1
-  },
-  {
     "nome": "Gran Vin de Léoville du Marquis",
     "tipo": "TINTO",
     "regiao": "Saint-Julien",
@@ -8632,28 +8126,10 @@
     "planta": -1
   },
   {
-    "nome": "Château Cheval Blanc 1er",
-    "tipo": "TINTO",
-    "regiao": "Saint-Émilion",
-    "precoBotella": 90,
-    "precoCopa": null,
-    "uvas": "Cabernet Franc",
-    "planta": -1
-  },
-  {
     "nome": "Château Figeac 1er Grand Cru Classé",
     "tipo": "TINTO",
     "regiao": "Saint-Émilion",
     "precoBotella": 693,
-    "precoCopa": null,
-    "uvas": "Cabernet Sauvignon",
-    "planta": -1
-  },
-  {
-    "nome": "Château Figeac 1er Grand Cru Classé",
-    "tipo": "TINTO",
-    "regiao": "Saint-Émilion",
-    "precoBotella": 528,
     "precoCopa": null,
     "uvas": "Cabernet Sauvignon",
     "planta": -1
@@ -9144,24 +8620,6 @@
     "planta": -1
   },
   {
-    "nome": "Alabaster 2022",
-    "tipo": "BRANCO",
-    "regiao": "Toro",
-    "precoBotella": 737,
-    "precoCopa": null,
-    "uvas": "Malvasía",
-    "planta": -1
-  },
-  {
-    "nome": "Alabaster 2022",
-    "tipo": "BRANCO",
-    "regiao": "Toro",
-    "precoBotella": 370,
-    "precoCopa": null,
-    "uvas": "Malvasía",
-    "planta": -1
-  },
-  {
     "nome": "Cartago 2019",
     "tipo": "BRANCO",
     "regiao": "Toro",
@@ -9257,15 +8715,6 @@
     "nome": "Teso La Monja 2019",
     "tipo": "BRANCO",
     "regiao": "Toro",
-    "precoBotella": 217,
-    "precoCopa": null,
-    "uvas": "Malvasía",
-    "planta": -1
-  },
-  {
-    "nome": "Teso La Monja 2019",
-    "tipo": "BRANCO",
-    "regiao": "Toro",
     "precoBotella": 835,
     "precoCopa": null,
     "uvas": "Malvasía",
@@ -9341,15 +8790,6 @@
     "precoBotella": 242,
     "precoCopa": null,
     "uvas": "Cabernet Franc",
-    "planta": -1
-  },
-  {
-    "nome": "Cervaro della Sala 2022",
-    "tipo": "BRANCO",
-    "regiao": "Umbria",
-    "precoBotella": 154,
-    "precoCopa": null,
-    "uvas": "Chardonnay",
     "planta": -1
   },
   {
@@ -9817,15 +9257,6 @@
     "planta": -1
   },
   {
-    "nome": "Henri Bonneau Rouliers NV",
-    "tipo": "TINTO",
-    "regiao": "Languedoc-Roussillon",
-    "precoBotella": 149,
-    "precoCopa": null,
-    "uvas": "Garnacha",
-    "planta": -1
-  },
-  {
     "nome": "Prieure-Roch Vin de France Le",
     "tipo": "TINTO",
     "regiao": "Vin de France",
@@ -9931,15 +9362,6 @@
     "precoBotella": 491,
     "precoCopa": null,
     "uvas": "Corvina, Corvinone, Rondinella",
-    "planta": -1
-  },
-  {
-    "nome": "Duroché Gevrey-Chambertin",
-    "tipo": "TINTO",
-    "regiao": "Gevrey-Chambertin",
-    "precoBotella": 1,
-    "precoCopa": null,
-    "uvas": "Pinot Noir",
     "planta": -1
   },
   {
