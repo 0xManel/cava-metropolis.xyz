@@ -5992,11 +5992,11 @@
   },
   {
     "nome": "Cuentaviñas Arriscado",
-    "tipo": "TINTO",
+    "tipo": "BRANCO",
     "regiao": "Rioja",
     "precoBotella": 105,
     "precoCopa": null,
-    "uvas": "Garnacha, Tempranillo",
+    "uvas": "Garnacha Blanca, Tempranillo, Viura",
     "localizacao": "2 C A",
     "cava": "2",
     "planta": -1
@@ -6128,7 +6128,7 @@
     "regiao": "Rioja",
     "precoBotella": 72,
     "precoCopa": null,
-    "uvas": "Garnacha",
+    "uvas": "Garnacha Tinta",
     "localizacao": "2 C D",
     "cava": "2",
     "planta": -1
@@ -6355,7 +6355,7 @@
     "regiao": "Rioja",
     "precoBotella": 77,
     "precoCopa": 14,
-    "uvas": "Garnacha, Tempranillo",
+    "uvas": "Tempranillo, Garnacha, Graciano, Mazuelo",
     "planta": -1
   },
   {
@@ -6552,7 +6552,7 @@
     "regiao": "Rioja",
     "precoBotella": 55,
     "precoCopa": 10,
-    "uvas": "Graciano, Tempranillo",
+    "uvas": "Tempranillo, Graciano, Garnacha",
     "planta": -1
   },
   {
@@ -7691,11 +7691,11 @@
   },
   {
     "nome": "San Román 2021",
-    "tipo": "BRANCO",
+    "tipo": "TINTO",
     "regiao": "Toro",
     "precoBotella": 66,
     "precoCopa": null,
-    "uvas": "Malvasía",
+    "uvas": "Tinta de Toro",
     "planta": -1
   },
   {
