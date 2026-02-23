@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "cava-metropolis",
+  "name": "stock-cava",
   "builds": [
     {
       "src": "index.html",
