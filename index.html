@@ -365,6 +365,14 @@
             white-space: nowrap;
         }
 
+        .item-pod {
+            font-size: 0.55rem;
+            color: var(--text-muted);
+            font-family: 'Montserrat', monospace;
+            opacity: 0.6;
+            letter-spacing: 0.5px;
+        }
+
         .item-format {
             font-size: 0.6rem;
             color: var(--text-muted);
@@ -1136,6 +1144,7 @@
                             <div class="badge-row">
                                 <span class="badge ${badge.cls}">${badge.label}</span>
                                 <span class="item-region">${fmt(ref.region)}</span>
+                                <span class="item-pod">${ref.pod}</span>
                                 ${formatLabel ? `<span class="item-format">${formatLabel}</span>` : ''}
                             </div>
                         </div>
@@ -1179,8 +1188,8 @@
             document.getElementById('modalBadge').textContent = badge.label;
             document.getElementById('modalName').textContent = ref.descripcion || '—';
 
-            // Subtitle: Bodega | Year | Format
-            const parts = [ref.bodega, ref.ano, ref.formato?.etiqueta].filter(Boolean);
+            // Subtitle: Bodega | Year | Format | POD
+            const parts = [ref.bodega, ref.ano, ref.formato?.etiqueta, ref.pod].filter(Boolean);
             document.getElementById('modalSubtitle').textContent = parts.join(' · ') || '—';
 
             // Grapes
