@@ -983,8 +983,8 @@
         fetch('data/bodega_webapp.json')
             .then(r => r.json())
             .then(data => {
-                // Filter out garbage entries (no pod or no descripcion)
-                refs = data.filter(r => r.pod && r.descripcion);
+                // Filter out garbage entries (no pod, no descripcion, or Excel errors like #N/D)
+                refs = data.filter(r => r.pod && r.descripcion && !r.descripcion.startsWith('#'));
                 applyLocalEdits();
                 preProcess();
                 updateRefCount();
