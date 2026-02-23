@@ -1,0 +1,29 @@
+{
+  "version": "2026-02-23-STOCK-CAVA-FINAL",
+  "build_time": "2026-02-23T23:00:00Z",
+  "features": {
+    "stock_cava_logo": true,
+    "pwa_icons": true,
+    "service_worker": "stock-cava-2026-02-23-final",
+    "manifest_updated": true
+  },
+  "files": {
+    "icons": [
+      "imgs/icon-72.png",
+      "imgs/icon-96.png",
+      "imgs/icon-128.png",
+      "imgs/icon-144.png",
+      "imgs/icon-152.png",
+      "imgs/icon-192.png",
+      "imgs/icon-384.png",
+      "imgs/icon-512.png",
+      "imgs/apple-touch-icon.png",
+      "imgs/apple-touch-icon-ipad.png",
+      "imgs/favicon-16x16.png",
+      "imgs/favicon-32x32.png"
+    ],
+    "favicon": "favicon.ico"
+  },
+  "expected_html": "Should contain: <span class=\"stock-text\">STOCK</span>",
+  "test_url": "https://www.stockcava.com/version.json"
+}
