@@ -46,7 +46,17 @@
       "dest": "/$1"
     },
     {
+      "src": "/index.html",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "dest": "/index.html"
+    },
+    {
       "src": "/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
       "dest": "/index.html"
     }
   ],

@@ -1,4 +1,4 @@
-const CACHE = 'cm-v2';
+const CACHE = 'cm-v3-stock-cava';
 const ASSETS = ['/', '/index.html', '/data/bodega_webapp.json'];
 
 self.addEventListener('install', e => {
