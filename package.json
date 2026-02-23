@@ -1,0 +1,22 @@
+{
+  "name": "cava-metropolis",
+  "version": "1.0.0",
+  "description": "PWA para gestión de carta de vinos multi-establecimiento",
+  "private": true,
+  "scripts": {
+    "dev": "python3 scripts/server.py",
+    "serve": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "check": "python3 scripts/check_deployment.py",
+    "verify": "python3 scripts/verify_pwa.py",
+    "icons": "python3 scripts/generate_icons.py"
+  },
+  "keywords": [
+    "pwa",
+    "wine",
+    "catalog",
+    "restaurant"
+  ],
+  "author": "Cava Metropolis",
+  "license": "UNLICENSED"
+}

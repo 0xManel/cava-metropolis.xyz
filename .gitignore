@@ -1,16 +1,35 @@
-# Servidor local
-server.py
+# Python
+*.py[cod]
+__pycache__/
+*.so
+.Python
+.venv/
+venv/
+ENV/
+*.egg-info/
 
-# Arquivos temporários e de processamento
-tmp_pdf_sample.txt
-menu_matching_report.json
-vinhos.json.bak.*
-vinhos_corrected_prices.json
-vinhos_with_menu_prices.json
-bodega_webapp.json.bak
+# Carpeta de archivos temporales
+temp/
 
 # Referências (PDFs, planilhas)
 Referencias/
 
+# Node (si usas alguna herramienta)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Vercel
+.vercel

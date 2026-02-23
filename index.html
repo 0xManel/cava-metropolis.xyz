@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+    
+    <!-- PWA Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Cava Metropolis">
+    <meta name="apple-mobile-web-app-title" content="STOCK Cava">
     <meta name="theme-color" content="#08080b">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="Carta de vinos premium — STOCK Cava Metropolis. Descubre nuestra selección exclusiva de vinos de alta gama.">
+    <meta name="keywords" content="vinos, cava, stock cava, carta de vinos, metropolis, vinos premium, bodega">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stockcava.com/">
+    <meta property="og:title" content="STOCK Cava Metropolis">
+    <meta property="og:description" content="Carta de vinos premium — Descubre nuestra selección exclusiva.">
+    <meta property="og:image" content="https://stockcava.com/imgs/icon-512.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://stockcava.com/">
+    <meta property="twitter:title" content="STOCK Cava Metropolis">
+    <meta property="twitter:description" content="Carta de vinos premium — Descubre nuestra selección exclusiva.">
+    <meta property="twitter:image" content="https://stockcava.com/imgs/icon-512.png">
+    
+    <!-- Manifest -->
     <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="icon-192.png">
-    <title>Cava Metropolis</title>
+    <link rel="canonical" href="https://stockcava.com/">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="imgs/apple-touch-icon-ipad.png">
+    
+    <title>STOCK Cava Metropolis — Carta de Vinos Premium</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <style>
         /* --- PALETA HIGH-CLASS --- */
@@ -90,14 +122,30 @@
         }
 
         .title-cava {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 2.5rem;
             color: var(--gold-accent);
-            line-height: 0.8;
-            font-weight: 700;
+            line-height: 1;
             text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
             transition: var(--transition-smooth);
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 0.8vw;
+            margin-bottom: -0.5rem;
+        }
+
+        .stock-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 7vw;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cava-text {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 7vw;
         }
 
         .title-metropolis {
@@ -688,7 +736,9 @@
         }
 
         @media (max-width: 600px) {
-            .title-cava { font-size: 2rem; }
+            .title-cava { gap: 1vw; margin-bottom: -0.3rem; }
+            .stock-text { font-size: 7.5vw; letter-spacing: 0.05em; }
+            .cava-text { font-size: 7.5vw; }
             .title-metropolis { font-size: 11vw; letter-spacing: 1px; padding: 0 20px; }
             .modal-card { padding: 1.5rem; max-height: 85dvh; }
             .modal-title { font-size: 1.5rem; }
@@ -721,7 +771,10 @@
     </div>
 
     <header>
-        <div class="title-cava">Cava</div>
+        <div class="title-cava">
+            <span class="stock-text">STOCK</span>
+            <span class="cava-text">Cava</span>
+        </div>
         <div class="title-metropolis">METROPOLIS</div>
     </header>
 
