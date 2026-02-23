@@ -975,11 +975,12 @@
         fetch('data/bodega_webapp.json')
             .then(r => r.json())
             .then(data => {
-                refs = data;
+                // Filter out garbage entries (no pod or no descripcion)
+                refs = data.filter(r => r.pod && r.descripcion);
                 applyLocalEdits();
                 preProcess();
                 updateRefCount();
-                console.log(`✓ Loaded ${refs.length} references`);
+                console.log(`✓ Loaded ${refs.length} references (filtered ${data.length - refs.length} incomplete)`);
             })
             .catch(err => {
                 console.error('Error loading data:', err);
@@ -1107,7 +1108,7 @@
 
             // Apply sort
             if (currentSort === 'abc') {
-                results.sort((a, b) => refs[a.idx].descripcion.localeCompare(refs[b.idx].descripcion));
+                results.sort((a, b) => (refs[a.idx].descripcion || '').localeCompare(refs[b.idx].descripcion || ''));
             } else {
                 results.sort((a, b) => {
                     const pa = getDisplayPrice(refs[a.idx]);
