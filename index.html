@@ -14,30 +14,27 @@
     <style>
         /* --- PALETA HIGH-CLASS --- */
         :root {
-            /* Modo Escuro (Padrão e Mais Elegante para Vinhos) */
             --bg-color: #08080b;
             --glass-bg: rgba(35, 35, 40, 0.8);
             --glass-border: rgba(212, 175, 55, 0.25);
             --text-main: #FDFBF7;
             --text-muted: #B8B0A0;
-            --gold-accent: #D4AF37; /* Ouro Clássico */
+            --gold-accent: #D4AF37;
             --gold-light: #F3E5AB;
             --price-bg: rgba(46, 125, 50, 0.15);
-            --price-color: #57C25B; /* Verde Esmeralda Vibrante */
+            --price-color: #57C25B;
             --minicard-bg: rgba(255, 255, 255, 0.05);
-            
             --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             --transition-smooth: all 0.4s ease;
         }
 
         body.light-mode {
-            /* Modo Claro (Vintage Cream) */
             --bg-color: #FDFBF7;
             --glass-bg: rgba(255, 255, 255, 0.8);
             --glass-border: rgba(212, 175, 55, 0.4);
             --text-main: #1A1A1A;
             --text-muted: #666156;
-            --gold-accent: #B8860B; /* Ouro Velho para contraste */
+            --gold-accent: #B8860B;
             --gold-light: #D4AF37;
             --price-bg: rgba(46, 125, 50, 0.1);
             --price-color: #2E7D32;
@@ -76,7 +73,7 @@
         .search-container { animation: fadeSlideUp 0.8s ease-out 0.15s both; }
         .theme-toggle { animation: fadeSlideUp 0.5s ease-out 0.3s both; }
 
-        /* --- PARTÍCULAS DOURADAS (CANVAS) --- */
+        /* --- GOLDEN PARTICLES (CANVAS) --- */
         #particleCanvas {
             position: fixed;
             top: 0; left: 0; width: 100vw; height: 100vh;
@@ -84,7 +81,7 @@
             pointer-events: none;
         }
 
-        /* --- HEADER & TITULO --- */
+        /* --- HEADER --- */
         header {
             margin-top: 0;
             margin-bottom: 2rem;
@@ -105,13 +102,12 @@
 
         .title-metropolis {
             font-family: 'Montserrat', sans-serif;
-            font-size: 10vw; /* Reduzido para garantir margem */
+            font-size: 10vw;
             letter-spacing: 0.5vw;
             font-weight: 600;
             color: var(--text-main);
-            margin-left: 0;
-            padding: 0 5vw; /* Margem lateral segura e proporcional */
-            text-shadow: 
+            padding: 0 5vw;
+            text-shadow:
                 0 0 5px rgba(255, 255, 255, 0.6),
                 0 0 15px var(--gold-accent),
                 0 0 30px rgba(212, 175, 55, 0.4);
@@ -131,11 +127,8 @@
         .search-input-wrapper {
             position: relative;
             width: 100%;
-            margin: 0;
-            padding: 0;
         }
 
-        /* Ícone de Lupa */
         .search-icon {
             position: absolute;
             left: 0.5rem;
@@ -159,8 +152,6 @@
             -webkit-backdrop-filter: blur(10px);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             transition: var(--transition-smooth);
-            margin: 0;
-            display: block;
         }
 
         #searchInput:focus {
@@ -170,7 +161,6 @@
 
         #searchInput::placeholder { color: var(--text-muted); font-weight: 300; }
 
-        /* Contagem de referências */
         .ref-count {
             text-align: center;
             margin-bottom: 0.8rem;
@@ -182,6 +172,58 @@
         }
         .ref-count span { color: var(--gold-accent); font-weight: 700; }
 
+        /* --- FILTER BAR --- */
+        .filter-bar {
+            display: flex;
+            gap: 0.4rem;
+            align-items: center;
+            margin-top: 0.6rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-pill {
+            padding: 0.35rem 0.7rem;
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-muted);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            white-space: nowrap;
+        }
+
+        .filter-pill:active { transform: scale(0.95); }
+
+        .filter-pill.active {
+            background: var(--gold-accent);
+            color: #111;
+            border-color: var(--gold-accent);
+            box-shadow: 0 2px 10px rgba(212, 175, 55, 0.3);
+        }
+
+        .sort-toggle {
+            padding: 0.35rem 0.7rem;
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            background: transparent;
+            color: var(--gold-accent);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            margin-left: auto;
+        }
+        .sort-toggle:active { transform: scale(0.95); }
+
         /* --- DROPDOWN RESULTS --- */
         #searchResults {
             position: absolute;
@@ -192,11 +234,7 @@
             overflow-y: auto;
             display: none;
             z-index: 9999;
-            margin: 0;
-            padding: 0;
-            margin-top: 0;
         }
-
 
         .search-item {
             display: flex;
@@ -210,12 +248,7 @@
             cursor: pointer;
             transition: transform 0.15s ease, background 0.2s ease;
         }
-        .search-item:first-child {
-            margin-top: 2mm;
-        }
-        .search-item:last-child {
-            margin-bottom: 0;
-        }
+        .search-item:first-child { margin-top: 2mm; }
 
         @media (hover: hover) {
             .search-item:hover {
@@ -228,7 +261,7 @@
             transform: scale(0.98);
         }
 
-        .item-info { display: flex; flex-direction: column; gap: 0.18rem; }
+        .item-info { display: flex; flex-direction: column; gap: 0.18rem; flex: 1; min-width: 0; }
 
         .item-title {
             font-family: 'Montserrat', sans-serif;
@@ -236,18 +269,12 @@
             font-weight: 600;
             color: var(--text-main);
             line-height: 1.2;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        .item-title-grape {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.85rem;
-            font-style: italic;
-            color: var(--text-muted);
-            font-weight: 400;
-            margin-left: 0.5rem;
-        }
-
-        /* --- CARDS DE UVAS POR FAMÍLIA --- */
+        /* --- GRAPE TAG FAMILIES --- */
         .grape-tags {
             display: flex;
             flex-wrap: wrap;
@@ -263,48 +290,34 @@
             font-weight: 600;
             color: white;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-            transition: all 0.3s ease;
             cursor: default;
             white-space: nowrap;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
 
-        @media (hover: hover) {
-            .grape-tag:hover {
-                transform: translateY(-1px);
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-            }
-        }
+        .grape-tag.iberica-tinta { background: linear-gradient(135deg, #E53935 0%, #D32626 100%); }
+        .grape-tag.iberica-tinta.s2 { background: linear-gradient(135deg, #F44336 0%, #E53935 100%); }
+        .grape-tag.iberica-tinta.s3 { background: linear-gradient(135deg, #FF6F6F 0%, #F44336 100%); }
 
-        /* Família: Ibérica Tinta (Vermelho/Laranja) */
-        .grape-tag.ibenca-tinta { background: linear-gradient(135deg, #E53935 0%, #D32626 100%); }
-        .grape-tag.ibenca-tinta.shade2 { background: linear-gradient(135deg, #F44336 0%, #E53935 100%); }
-        .grape-tag.ibenca-tinta.shade3 { background: linear-gradient(135deg, #FF6F6F 0%, #F44336 100%); }
-
-        /* Família: Burgundy (Roxo/Lavanda) */
         .grape-tag.burgundy { background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); }
-        .grape-tag.burgundy.shade2 { background: linear-gradient(135deg, #9333EA 0%, #7C3AED 100%); }
-        .grape-tag.burgundy.shade3 { background: linear-gradient(135deg, #A855F7 0%, #9333EA 100%); }
+        .grape-tag.burgundy.s2 { background: linear-gradient(135deg, #9333EA 0%, #7C3AED 100%); }
+        .grape-tag.burgundy.s3 { background: linear-gradient(135deg, #A855F7 0%, #9333EA 100%); }
 
-        /* Família: Italiana (Vinho/Rubi) */
         .grape-tag.italiana { background: linear-gradient(135deg, #C23030 0%, #B71C1C 100%); }
-        .grape-tag.italiana.shade2 { background: linear-gradient(135deg, #D32626 0%, #C23030 100%); }
-        .grape-tag.italiana.shade3 { background: linear-gradient(135deg, #E53935 0%, #D32626 100%); }
+        .grape-tag.italiana.s2 { background: linear-gradient(135deg, #D32626 0%, #C23030 100%); }
+        .grape-tag.italiana.s3 { background: linear-gradient(135deg, #E53935 0%, #D32626 100%); }
 
-        /* Família: Brancos Aromáticos (Ouro/Âmbar) */
         .grape-tag.aromatico { background: linear-gradient(135deg, #F9A825 0%, #F57F17 100%); }
-        .grape-tag.aromatico.shade2 { background: linear-gradient(135deg, #FBC02D 0%, #F9A825 100%); }
-        .grape-tag.aromatico.shade3 { background: linear-gradient(135deg, #FDD835 0%, #FBC02D 100%); }
+        .grape-tag.aromatico.s2 { background: linear-gradient(135deg, #FBC02D 0%, #F9A825 100%); }
+        .grape-tag.aromatico.s3 { background: linear-gradient(135deg, #FDD835 0%, #FBC02D 100%); }
 
-        /* Família: Nova Mundo (Bordô/Cereja) */
         .grape-tag.novamundo { background: linear-gradient(135deg, #8B1538 0%, #5F0F1D 100%); }
-        .grape-tag.novamundo.shade2 { background: linear-gradient(135deg, #A91D3A 0%, #8B1538 100%); }
-        .grape-tag.novamundo.shade3 { background: linear-gradient(135deg, #C81E4E 0%, #A91D3A 100%); }
+        .grape-tag.novamundo.s2 { background: linear-gradient(135deg, #A91D3A 0%, #8B1538 100%); }
+        .grape-tag.novamundo.s3 { background: linear-gradient(135deg, #C81E4E 0%, #A91D3A 100%); }
 
-        /* Família: Espumosos (Rosa/Coral) */
         .grape-tag.espumoso { background: linear-gradient(135deg, #EC407A 0%, #D81B60 100%); }
-        .grape-tag.espumoso.shade2 { background: linear-gradient(135deg, #F06292 0%, #EC407A 100%); }
-        .grape-tag.espumoso.shade3 { background: linear-gradient(135deg, #F48FB1 0%, #F06292 100%); }
+        .grape-tag.espumoso.s2 { background: linear-gradient(135deg, #F06292 0%, #EC407A 100%); }
+        .grape-tag.espumoso.s3 { background: linear-gradient(135deg, #F48FB1 0%, #F06292 100%); }
 
         .badge-row { display: flex; gap: 0.35rem; align-items: center; margin-top: 0.05rem; }
 
@@ -320,13 +333,21 @@
 
         .item-region { font-size: 0.72rem; color: var(--text-muted); }
 
+        .item-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.3rem;
+            flex-shrink: 0;
+            margin-left: 0.5rem;
+        }
+
         .item-price {
             font-family: 'Montserrat', sans-serif;
             font-weight: 900;
             color: var(--price-color);
             font-size: 1.05rem;
             letter-spacing: 0.5px;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .item-location {
@@ -334,21 +355,23 @@
             color: var(--text-main);
             font-weight: 700;
             letter-spacing: 1.5px;
-            margin-top: 0.3rem;
             font-family: 'Montserrat', monospace;
             background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(180, 135, 25, 0.2));
             border: 1px solid var(--gold-accent);
-            padding: 0.3rem 0.6rem;
+            padding: 0.2rem 0.5rem;
             border-radius: 6px;
             display: inline-block;
             box-shadow: 0 2px 6px rgba(212, 175, 55, 0.15);
             white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: 100%;
         }
 
-        /* --- MODAL (CARD DE DETALHES) --- */
+        .item-format {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        /* --- MODAL --- */
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; width: 100vw; height: 100vh;
@@ -364,7 +387,6 @@
         }
 
         .modal-overlay.active { display: flex; opacity: 1; }
-        .modal-overlay { will-change: opacity; }
 
         .modal-card {
             width: 90%;
@@ -377,6 +399,8 @@
             transform: translateY(30px) scale(0.95);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            max-height: 90dvh;
+            overflow-y: auto;
         }
 
         .modal-overlay.active .modal-card { transform: translateY(0) scale(1); }
@@ -397,102 +421,108 @@
             font-size: 1.8rem;
             line-height: 1.3;
             color: var(--text-main);
-            margin: 1rem 0 1.5rem 0;
+            margin: 1rem 0 0.5rem 0;
             padding-right: 20px;
         }
 
-        /* Grid de Mini-cards internos */
+        .modal-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .modal-grapes {
+            margin-bottom: 1rem;
+        }
+        .modal-grapes .grape-tag {
+            font-size: 0.7rem;
+            padding: 0.3rem 0.5rem;
+        }
+
+        /* Details grid for D.O., Country, Year, Format */
         .details-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            margin-bottom: 2rem;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
         }
 
         .detail-box {
             background: var(--minicard-bg);
             border: 1px solid rgba(212, 175, 55, 0.1);
             border-radius: 12px;
-            padding: 1rem;
+            padding: 0.8rem;
             text-align: center;
         }
 
         .detail-label {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.2rem;
         }
 
         .detail-value {
             font-family: 'Montserrat', sans-serif;
-            font-size: 1.1rem;
+            font-size: 0.95rem;
             color: var(--text-main);
             font-weight: 600;
         }
 
-        /* Ajuste para modalUva com grape-tags */
-        #modalUva .grape-tags {
-            gap: 0.5rem;
-            justify-content: flex-start;
-            margin-top: 0.3rem;
+        /* Establishment pricing table */
+        .est-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.2rem;
         }
 
-        #modalUva .grape-tag {
-            font-size: 0.7rem;
-            padding: 0.3rem 0.5rem;
-        }
-
-        .price-box {
-            background: var(--glass-bg);
-            border-radius: 16px;
-            padding: 1.5rem;
-            text-align: center;
-            border: 1px solid rgba(87, 194, 91, 0.2);
-        }
-
-        .price-big {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
+        .est-table th {
+            font-size: 0.6rem;
             font-weight: 700;
-            color: var(--price-color);
-        }
-
-        /* Card de Localização */
-        .location-card {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(180, 135, 25, 0.15));
-            border: 2px solid var(--gold-accent);
-            border-radius: 12px;
-            padding: 1.2rem 1rem;
-            text-align: center;
-            margin-top: 1.5rem;
-            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
-        }
-
-        .location-label {
-            font-size: 0.75rem;
-            color: var(--gold-accent);
             text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--gold-accent);
+            padding: 0.5rem 0.3rem;
+            border-bottom: 1px solid var(--glass-border);
+            text-align: center;
         }
 
-        .location-value {
-            font-family: 'Montserrat', monospace;
-            font-size: 1.5rem;
-            font-weight: 700;
+        .est-table td {
+            font-size: 0.85rem;
             color: var(--text-main);
-            letter-spacing: 2px;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            padding: 0.4rem 0.3rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.08);
         }
 
-        /* --- NOVO BOTÃO TOGGLE (CANVAS) --- */
+        .est-table .row-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .est-table .pvp-cell {
+            font-weight: 900;
+            color: var(--price-color);
+            font-size: 1rem;
+        }
+
+        .est-table .loc-cell {
+            font-family: 'Montserrat', monospace;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+        }
+
+        /* --- THEME TOGGLE --- */
         .theme-toggle {
             position: fixed;
             top: 20px; right: 20px;
-            width: 80px; height: 40px; /* Formato Pílula */
+            width: 80px; height: 40px;
             border-radius: 20px;
             background: transparent;
             border: 1px solid var(--glass-border);
@@ -509,15 +539,12 @@
             transform: scale(1.05);
         }
 
-        #toggleCanvas {
-            width: 100%; height: 100%;
-            display: block;
-        }
+        #toggleCanvas { width: 100%; height: 100%; display: block; }
 
-        /* --- SELETOR DE IDIOMA (CASCATA) --- */
+        /* --- LANGUAGE SELECTOR --- */
         .lang-container {
             position: fixed;
-            top: 20px; right: 20px;
+            top: 20px; left: 20px;
             z-index: 99;
             font-family: 'Montserrat', sans-serif;
         }
@@ -543,7 +570,7 @@
 
         .lang-dropdown {
             position: absolute;
-            top: 120%; right: 0;
+            top: 120%; left: 0;
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             border-radius: 15px;
@@ -568,49 +595,122 @@
             text-decoration: none;
             font-size: 0.9rem;
             transition: background 0.3s;
+            cursor: pointer;
         }
         .lang-option:hover { background: rgba(212, 175, 55, 0.1); }
-        .lang-option span { font-size: 1.2rem; } /* Bandeira */
 
-/* Ajuste Mobile */
-        @media (max-width: 600px) {
-            .lang-container { top: 15px; right: 15px; }
-        }
-
-        /* Cores das Badges */
-        .b-tinto { background: #800020; color: #FFF;}
+        /* Badge colors */
+        .b-tinto { background: #800020; color: #FFF; }
         .b-branco { background: #E5C158; }
         .b-rosado { background: #E08D79; }
-        .b-champagne { background: #D4AF37; }
+        .b-espumoso { background: #D4AF37; }
+        .b-generoso { background: #C97B1A; color: #FFF; }
+        .b-dulce { background: #8B6914; color: #FFF; }
+
+        /* Edit form */
+        .edit-form { display: none; margin-top: 1rem; }
+        .edit-form.visible { display: block; }
+
+        .edit-field {
+            padding: 0.7rem;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: var(--minicard-bg);
+            color: var(--text-main);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            width: 100%;
+        }
+        .edit-field:focus { outline: none; border-color: var(--gold-accent); }
+
+        .edit-section-title {
+            font-size: 0.65rem;
+            color: var(--gold-accent);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 0.8rem;
+            margin-bottom: 0.3rem;
+            font-weight: 700;
+        }
+
+        .edit-row {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .edit-row .edit-field { flex: 1; }
+
+        .edit-actions {
+            display: flex;
+            gap: 0.6rem;
+            justify-content: flex-end;
+            margin-top: 0.8rem;
+        }
+
+        .btn-cancel {
+            padding: 0.6rem 0.9rem;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: transparent;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn-save {
+            padding: 0.6rem 0.9rem;
+            border-radius: 8px;
+            border: none;
+            background: var(--gold-accent);
+            color: #111;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn-edit {
+            padding: 0.6rem 0.9rem;
+            border-radius: 10px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+        }
 
         @media (max-width: 600px) {
             .title-cava { font-size: 2rem; }
             .title-metropolis { font-size: 11vw; letter-spacing: 1px; padding: 0 20px; }
-            .modal-card { padding: 1.5rem; max-height: 85dvh; overflow-y: auto; }
+            .modal-card { padding: 1.5rem; max-height: 85dvh; }
             .modal-title { font-size: 1.5rem; }
             #searchInput { font-size: 1rem; padding: 1rem 1rem 1rem 2rem; }
             body { padding-top: 18dvh; }
+            .lang-container { top: 15px; left: 15px; }
         }
 
-        /* When keyboard is open on mobile, shift content up */
-        body.keyboard-open {
-            padding-top: 2dvh;
-        }
-        body.keyboard-open header {
-            display: none;
-        }
+        body.keyboard-open { padding-top: 2dvh; }
+        body.keyboard-open header { display: none; }
     </style>
 </head>
 <body>
 
     <canvas id="particleCanvas"></canvas>
 
-    <!-- (Removed duplicate top-right button) -->
-
-    <!-- Novo Toggle Canvas -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Alternar Tema">
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
         <canvas id="toggleCanvas"></canvas>
     </button>
+
+    <!-- Language Selector -->
+    <div class="lang-container">
+        <button class="lang-btn" id="currentLangBtn">ES</button>
+        <div class="lang-dropdown">
+            <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
+            <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
+            <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
+        </div>
+    </div>
 
     <header>
         <div class="title-cava">Cava</div>
@@ -619,70 +719,122 @@
 
     <div class="search-container">
         <div class="ref-count"><span id="totalRef">0</span> <span data-translate="refs">referencias disponibles</span></div>
-        
+
         <div class="search-input-wrapper">
             <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
             <input type="text" id="searchInput" placeholder="" autocomplete="off">
         </div>
-        
+
+        <!-- Filter Pills + Sort Toggle -->
+        <div class="filter-bar">
+            <button class="filter-pill active" data-filter="todos">TODOS</button>
+            <button class="filter-pill" data-filter="spa">SPA</button>
+            <button class="filter-pill" data-filter="tasca_fina">TASCA FINA</button>
+            <button class="filter-pill" data-filter="victoria">VICTORIA</button>
+            <button class="sort-toggle" id="sortToggle">ABC</button>
+        </div>
+
         <div id="searchResults"></div>
     </div>
 
+    <!-- Modal -->
     <div class="modal-overlay" id="wineModal">
         <div class="modal-card">
-            <button class="btn-close" onclick="fecharModal()">✕</button>
-            
+            <button class="btn-close" id="btnClose">✕</button>
+
             <span class="badge" id="modalBadge">TINTO</span>
-            <h2 class="modal-title" id="modalName">Dom Perignon Rose 2009</h2>
-            
+            <h2 class="modal-title" id="modalName">—</h2>
+            <div class="modal-subtitle" id="modalSubtitle">—</div>
+
+            <div class="modal-grapes" id="modalGrapes"></div>
+
             <div class="details-grid">
                 <div class="detail-box">
-                    <div class="detail-label" data-translate="glass">Copa</div>
-                    <div class="detail-value" id="modalCopa">—</div>
+                    <div class="detail-label">D.O. / <span data-translate="region">Región</span></div>
+                    <div class="detail-value" id="modalRegion">—</div>
                 </div>
                 <div class="detail-box">
-                    <div class="detail-label" data-translate="bottle">Botella</div>
-                    <div class="detail-value" id="modalBotellaSmall">721€</div>
+                    <div class="detail-label" data-translate="country">País</div>
+                    <div class="detail-value" id="modalCountry">—</div>
                 </div>
                 <div class="detail-box">
-                    <div class="detail-label">D.O.</div>
-                    <div class="detail-value" id="modalDO" style="font-size:0.9rem;">Champagne</div>
+                    <div class="detail-label" data-translate="year">Año</div>
+                    <div class="detail-value" id="modalYear">—</div>
                 </div>
                 <div class="detail-box">
-                    <div class="detail-label" data-translate="grape">Uva</div>
-                    <div class="detail-value" id="modalUva" style="font-size:0.8rem;">Chardonnay, Pinot Noir</div>
+                    <div class="detail-label" data-translate="format">Formato</div>
+                    <div class="detail-value" id="modalFormat" style="font-size:0.8rem;">—</div>
                 </div>
             </div>
 
-            <div class="price-box">
-                <div class="detail-label" style="color: var(--price-color);" data-translate="price_bottle">Precio Botella</div>
-                <div class="price-big" id="modalPrice">721€</div>
+            <!-- Establishment Pricing Table -->
+            <table class="est-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>SPA</th>
+                        <th>TASCA FINA</th>
+                        <th>VICTORIA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="row-label">PVP</td>
+                        <td class="pvp-cell" id="estSpaPvp">—</td>
+                        <td class="pvp-cell" id="estTascaPvp">—</td>
+                        <td class="pvp-cell" id="estVictoriaPvp">—</td>
+                    </tr>
+                    <tr>
+                        <td class="row-label">Stock</td>
+                        <td id="estSpaStock">—</td>
+                        <td id="estTascaStock">—</td>
+                        <td id="estVictoriaStock">—</td>
+                    </tr>
+                    <tr>
+                        <td class="row-label loc-cell">Ubic.</td>
+                        <td class="loc-cell" id="estSpaLoc">—</td>
+                        <td class="loc-cell" id="estTascaLoc">—</td>
+                        <td class="loc-cell" id="estVictoriaLoc">—</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Edit button -->
+            <div style="display:flex;justify-content:flex-end;">
+                <button class="btn-edit" id="btnEditWine">Editar</button>
             </div>
 
-            <div class="location-card" id="modalLocation" style="display: none;">
-                <div class="location-label">📍 Ubicación en Cava</div>
-                <div class="location-value" id="modalLocationValue">—</div>
-            </div>
+            <!-- Edit form -->
+            <div class="edit-form" id="editForm">
+                <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                    <input class="edit-field" id="editDesc" type="text" placeholder="Nombre / Descripción">
+                    <input class="edit-field" id="editRegion" type="text" placeholder="Región / D.O.">
+                    <input class="edit-field" id="editUvas" type="text" placeholder="Uvas (separadas por coma)">
 
-            <!-- Edit button moved to bottom-right of modal -->
-            <div style="display:flex;justify-content:flex-end;margin-top:1rem;">
-                <button id="btnEditWine" style="padding:0.6rem 0.9rem;border-radius:10px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-main);cursor:pointer;">Editar</button>
-            </div>
-            
-            <!-- Edit form (hidden by default) -->
-            <div id="editForm" style="display:none;margin-top:1rem;">
-                <div style="display:flex;flex-direction:column;gap:0.6rem;">
-                    <input id="editNome" type="text" placeholder="Nombre" style="padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
-                    <input id="editRegiao" type="text" placeholder="Región / D.O." style="padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
-                    <input id="editUvas" type="text" placeholder="Uvas (separadas por coma)" style="padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
-                    <div style="display:flex;gap:0.6rem;">
-                        <input id="editCopa" type="number" placeholder="Precio Copa" style="flex:1;padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
-                        <input id="editBotella" type="number" placeholder="Precio Botella" style="flex:1;padding:0.7rem;border-radius:8px;border:1px solid var(--glass-border);background:var(--minicard-bg);color:var(--text-main);">
+                    <div class="edit-section-title">SPA</div>
+                    <div class="edit-row">
+                        <input class="edit-field" id="editSpaPvp" type="number" placeholder="PVP">
+                        <input class="edit-field" id="editSpaStock" type="number" placeholder="Stock">
+                        <input class="edit-field" id="editSpaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
                     </div>
-                    <input id="editLocation" type="text" placeholder="Ubicación (ej: 2 H A)" style="padding:0.7rem;border-radius:8px;border:1px solid var(--gold-accent);background:linear-gradient(135deg,rgba(212,175,55,0.1),rgba(180,135,25,0.05));color:var(--text-main);font-family:'Montserrat',monospace;font-weight:700;letter-spacing:2px;text-transform:uppercase;">
-                    <div style="display:flex;gap:0.6rem;justify-content:flex-end;">
-                        <button id="btnCancelEdit" style="padding:0.6rem 0.9rem;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:var(--text-muted);cursor:pointer;">Cancelar</button>
-                        <button id="btnSaveEdit" style="padding:0.6rem 0.9rem;border-radius:8px;border:none;background:var(--gold-accent);color:#111;font-weight:700;cursor:pointer;">Salvar</button>
+
+                    <div class="edit-section-title">TASCA FINA</div>
+                    <div class="edit-row">
+                        <input class="edit-field" id="editTascaPvp" type="number" placeholder="PVP">
+                        <input class="edit-field" id="editTascaStock" type="number" placeholder="Stock">
+                        <input class="edit-field" id="editTascaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                    </div>
+
+                    <div class="edit-section-title">VICTORIA</div>
+                    <div class="edit-row">
+                        <input class="edit-field" id="editVictoriaPvp" type="number" placeholder="PVP">
+                        <input class="edit-field" id="editVictoriaStock" type="number" placeholder="Stock">
+                        <input class="edit-field" id="editVictoriaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                    </div>
+
+                    <div class="edit-actions">
+                        <button class="btn-cancel" id="btnCancelEdit">Cancelar</button>
+                        <button class="btn-save" id="btnSaveEdit">Salvar</button>
                     </div>
                 </div>
             </div>
@@ -690,243 +842,468 @@
     </div>
 
     <script>
-        // --- 1. CARREGAR DADOS DO JSON ---
-        let vinhos = [];
-        let currentEditIndex = null;
-        
-        // Carregar vinhos do arquivo JSON
-        fetch('vinhos.json')
-            .then(response => response.json())
-            .then(data => {
-                vinhos = data;
-                // If there are local edits stored, restore them (non-destructive override)
-                try {
-                    const edited = localStorage.getItem('vinhos_edited');
-                    if (edited) {
-                        const parsed = JSON.parse(edited);
-                        if (Array.isArray(parsed) && parsed.length === data.length) {
-                            vinhos = parsed;
-                            console.log('✓ Restored edited vinhos from localStorage');
-                        }
-                    }
-                } catch (e) { /* ignore parse errors */ }
-                document.getElementById('totalRef').textContent = vinhos.length;
-                console.log(`✓ Carregados ${vinhos.length} vinhos`);
-            })
-            .catch(error => {
-                console.error('Erro ao carregar vinhos.json:', error);
-                // Fallback para dados padrão
-                vinhos = [
-                    { nome: "Champagne Dom Perignon Rose 2009", tipo: "CHAMPAGNE", regiao: "Champagne", uvas: "Chardonnay, Pinot Noir", precoBotella: 721, precoCopa: null, planta: -1 },
-                    { nome: "Champagne Dom Perignon Vintage 2015", tipo: "CHAMPAGNE", regiao: "Champagne", uvas: "Pinot Noir, Chardonnay", precoBotella: 424, precoCopa: null, planta: -1 },
-                ];
-                document.getElementById('totalRef').textContent = vinhos.length;
-            });
+        /* ==========================================================
+           CAVA METROPOLIS — Multi-Establishment Wine Management
+           ========================================================== */
 
-        const typeClasses = {
-            "TINTO": "b-tinto",
-            "BRANCO": "b-branco",
-            "ROSADO": "b-rosado",
-            "CHAMPAGNE": "b-champagne",
-            "ESPUMOSO": "b-champagne"
+        // --- CONSTANTS ---
+        const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+        // galeria exists in data but is NOT rendered (Phase 3)
+        const EST_LABELS = { spa: 'SPA', tasca_fina: 'TASCA FINA', victoria: 'VICTORIA' };
+
+        const TIPO_MAP = {
+            'TO':  { cls: 'b-tinto',    es: 'TINTO',    en: 'RED',       pt: 'TINTO' },
+            'BL':  { cls: 'b-branco',   es: 'BLANCO',   en: 'WHITE',     pt: 'BRANCO' },
+            'ROS': { cls: 'b-rosado',   es: 'ROSADO',   en: 'ROSÉ',      pt: 'ROSADO' },
+            'ESP': { cls: 'b-espumoso', es: 'ESPUMOSO', en: 'SPARKLING', pt: 'ESPUMOSO' },
+            'GEN': { cls: 'b-generoso', es: 'GENEROSO', en: 'FORTIFIED', pt: 'GENEROSO' },
+            'DU':  { cls: 'b-dulce',    es: 'DULCE',    en: 'SWEET',     pt: 'DOCE' }
         };
 
-        // Traducir tipos de vino según idioma
-        function getWineTypeDisplay(tipo) {
-            const translations = {
-                es: { "TINTO": "TINTO", "BRANCO": "BLANCO", "ROSADO": "ROSADO", "CHAMPAGNE": "CHAMPAGNE", "ESPUMOSO": "ESPUMOSO" },
-                en: { "TINTO": "RED", "BRANCO": "WHITE", "ROSADO": "ROSÉ", "CHAMPAGNE": "CHAMPAGNE", "ESPUMOSO": "SPARKLING" },
-                pt: { "TINTO": "TINTO", "BRANCO": "BRANCO", "ROSADO": "ROSADO", "CHAMPAGNE": "CHAMPAGNE", "ESPUMOSO": "ESPUMOSO" }
-            };
-            return translations[currentLang]?.[tipo] || tipo;
-        }
-
-        /* --- FAMÍLIAS DE UVAS COM CORES --- */
         const GRAPE_FAMILIES = {
-            // Ibérica Tinta (Vermelho)
-            'Tempranillo': 'ibenca-tinta',
-            'Garnacha': 'ibenca-tinta shade2',
-            'Monastrell': 'ibenca-tinta shade3',
-            'Bobal': 'ibenca-tinta',
-            'Mencía': 'ibenca-tinta shade2',
-            'Cariñena': 'ibenca-tinta shade3',
-            'Graciano': 'ibenca-tinta',
-            'Carignan': 'ibenca-tinta shade2',
-            'Prieto Picudo': 'ibenca-tinta shade3',
-            
-            // Burgundy (Roxo)
-            'Pinot Noir': 'burgundy',
-            'Pinot Meunier': 'burgundy shade2',
-            'Chardonnay': 'burgundy shade3',
-            'Sauvignon Blanc': 'burgundy',
-            'Aligoté': 'burgundy shade2',
-            'Gamay': 'burgundy shade3',
-            
-            // Italiana (Vinho)
-            'Sangiovese': 'italiana',
-            'Nebbiolo': 'italiana shade2',
-            'Barbera': 'italiana shade3',
-            'Dolcetto': 'italiana',
-            'Montepulciano': 'italiana shade2',
-            'Aglianico': 'italiana shade3',
-            'Nero d\'Avola': 'italiana',
-            
-            // Brancos Aromáticos (Ouro)
-            'Riesling': 'aromatico',
-            'Albariño': 'aromatico shade2',
-            'Verdejo': 'aromatico shade3',
-            'Moscato': 'aromatico',
-            'Moscato d\'Asti': 'aromatico shade2',
-            'Gewürztraminer': 'aromatico shade3',
-            'Viognier': 'aromatico',
-            'Vermentino': 'aromatico shade2',
-            'Godello': 'aromatico shade3',
-            'Fiano': 'aromatico',
-            'Greco': 'aromatico shade2',
-            'Catarratto': 'aromatico shade3',
-            'Verdicchio': 'aromatico',
-            'Soave': 'aromatico shade2',
-            'Frascati': 'aromatico shade3',
-            'Falanghina': 'aromatico',
-            'Biancolella': 'aromatico shade2',
-            'Nuragus': 'aromatico shade3',
-            'Verduzzo': 'aromatico',
-            'Malvasia': 'aromatico shade2',
-            'Tokay': 'aromatico shade3',
-            'Furmint': 'aromatico',
-            'Savagnin': 'aromatico shade2',
-            'Timorasso': 'aromatico shade3',
-            
-            // Nova Mundo (Bordô)
-            'Carmenère': 'novamundo',
-            'Malbec': 'novamundo shade2',
-            'Cabernet Sauvignon': 'novamundo shade3',
-            'Cabernet Franc': 'novamundo',
-            'Syrah': 'novamundo shade2',
-            'Shiraz': 'novamundo shade3',
-            'Petit Verdot': 'novamundo',
-            'Zinfandel': 'novamundo shade2',
-            'Tannat': 'novamundo shade3',
-            'Negroamaro': 'novamundo',
-            'Pinotage': 'novamundo shade2',
-            
-            // Espumosos (Rosa/Coral)
-            'Prosecco': 'espumoso',
-            'Lambrusco': 'espumoso shade2',
-            'Cava': 'espumoso shade3',
-            'Champagne': 'espumoso',
-            'Xarel.lo': 'espumoso shade2',
-            'Macabeo': 'espumoso shade3',
-            'Parellada': 'espumoso',
+            'Tempranillo': 'iberica-tinta', 'Garnacha': 'iberica-tinta s2', 'Monastrell': 'iberica-tinta s3',
+            'Bobal': 'iberica-tinta', 'Mencía': 'iberica-tinta s2', 'Cariñena': 'iberica-tinta s3',
+            'Graciano': 'iberica-tinta', 'Carignan': 'iberica-tinta s2', 'Prieto Picudo': 'iberica-tinta s3',
+            'Tinta de Toro': 'iberica-tinta', 'Garnacha Tintorera': 'iberica-tinta s2',
+            'Pinot Noir': 'burgundy', 'Pinot Meunier': 'burgundy s2', 'Chardonnay': 'burgundy s3',
+            'Sauvignon Blanc': 'burgundy', 'Aligoté': 'burgundy s2', 'Gamay': 'burgundy s3',
+            'Sangiovese': 'italiana', 'Nebbiolo': 'italiana s2', 'Barbera': 'italiana s3',
+            'Dolcetto': 'italiana', 'Montepulciano': 'italiana s2', 'Aglianico': 'italiana s3',
+            "Nero d'Avola": 'italiana', 'Corvina': 'italiana s2', 'Primitivo': 'italiana s3',
+            'Riesling': 'aromatico', 'Albariño': 'aromatico s2', 'Verdejo': 'aromatico s3',
+            'Moscato': 'aromatico', 'Gewürztraminer': 'aromatico s2', 'Viognier': 'aromatico s3',
+            'Vermentino': 'aromatico', 'Godello': 'aromatico s2', 'Fiano': 'aromatico s3',
+            'Greco': 'aromatico', 'Falanghina': 'aromatico s2', 'Malvasia': 'aromatico s3',
+            'Furmint': 'aromatico', 'Savagnin': 'aromatico s2', 'Timorasso': 'aromatico s3',
+            'Verdicchio': 'aromatico', 'Chenin Blanc': 'aromatico s2', 'Grüner Veltliner': 'aromatico s3',
+            'Garnacha Blanca': 'aromatico', 'Viura': 'aromatico s2', 'Macabeo': 'aromatico s3',
+            'Carmenère': 'novamundo', 'Malbec': 'novamundo s2', 'Cabernet Sauvignon': 'novamundo s3',
+            'Cabernet Franc': 'novamundo', 'Syrah': 'novamundo s2', 'Shiraz': 'novamundo s3',
+            'Petit Verdot': 'novamundo', 'Zinfandel': 'novamundo s2', 'Tannat': 'novamundo s3',
+            'Negroamaro': 'novamundo', 'Pinotage': 'novamundo s2', 'Merlot': 'novamundo s3',
+            'Touriga Nacional': 'novamundo', 'Tinta Roriz': 'novamundo s2',
+            'Prosecco': 'espumoso', 'Lambrusco': 'espumoso s2', 'Cava': 'espumoso s3',
+            'Champagne': 'espumoso', 'Xarel.lo': 'espumoso s2', 'Parellada': 'espumoso s3',
+            'Glera': 'espumoso',
         };
 
-        function getGrapeColor(grapeName) {
-            // Procura o nome exato da uva
-            if (GRAPE_FAMILIES[grapeName]) {
-                return GRAPE_FAMILIES[grapeName];
-            }
-            // Se não encontrar, retorna uma cor padrão (roxo neutro)
-            return 'burgundy shade3';
-        }
+        // --- STATE ---
+        let refs = [];            // Full dataset from JSON
+        let searchIndex = [];     // Pre-computed search strings
+        let pvpMedio = {};        // Average PVP per pod
+        let subsets = {};         // Indices per establishment
+        let currentFilter = 'todos';
+        let currentSort = 'abc';
+        let currentEditPod = null;
+        let currentLang = 'es';
 
-        function renderGrapeTags(grapesString) {
-            if (!grapesString) return '';
-            
-            const grapes = grapesString.split(',').map(g => g.trim()).filter(g => g);
-            const tagsHtml = grapes.map((grape, index) => {
-                const colorClass = getGrapeColor(grape);
-                return `<span class="grape-tag ${colorClass}">${grape}</span>`;
-            }).join('');
-            
-            return `<div class="grape-tags">${tagsHtml}</div>`;
-        }
+        // Typewriter state
+        let typeWriterTimeout, charIndex = 0, isDeleting = false, currentPhrase = '', phraseQueue = [];
 
-        // --- 1.1 SISTEMA DE IDIOMAS ---
+        // --- TRANSLATIONS ---
         const translations = {
             es: {
                 placeholders: [
-                    "Encuentra la botella",
-                    "¿Una copa? ¿Una Botella?",
-                    "Tempranillo, Garnacha, Mencía",
-                    "Albariño, Godello, Verdejo",
-                    "Tinto, Blanco, Rosado, Espumoso",
-                    "¿Qué tal la cata de hoy?",
-                    "¿Cliente muy Especial?",
-                    "Buscar vino...",
-                    "¿Rioja, Ribeira, Rueda?",
-                    "¿Alguno internacional?",
+                    "Encuentra la botella", "¿Una copa? ¿Una Botella?",
+                    "Tempranillo, Garnacha, Mencía", "Albariño, Godello, Verdejo",
+                    "Tinto, Blanco, Rosado, Espumoso", "¿Qué tal la cata de hoy?",
+                    "¿Cliente muy Especial?", "Buscar vino...",
+                    "¿Rioja, Ribeira, Rueda?", "¿Alguno internacional?",
                     "Quizás un vino francés"
                 ],
-                refs: "referencias disponibles",
-                glass: "Copa",
-                bottle: "Botella",
-                grape: "Uva",
-                price_bottle: "Precio Botella",
-                btnLabel: "🇪🇸 ES"
+                refs: "referencias disponibles", region: "Región", country: "País",
+                year: "Año", format: "Formato", btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
-                    "Find the bottle",
-                    "A glass? A bottle?",
-                    "Tempranillo, Garnacha, Mencía",
-                    "Albariño, Godello, Verdejo",
-                    "Red, White, Rosé, Sparkling",
-                    "How's the tasting today?",
-                    "Very Special Client?",
-                    "Search wine...",
-                    "Rioja, Ribeira, Rueda?",
-                    "Any international one?",
+                    "Find the bottle", "A glass? A bottle?",
+                    "Tempranillo, Garnacha, Mencía", "Albariño, Godello, Verdejo",
+                    "Red, White, Rosé, Sparkling", "How's the tasting today?",
+                    "Very Special Client?", "Search wine...",
+                    "Rioja, Ribeira, Rueda?", "Any international one?",
                     "Maybe a French wine"
                 ],
-                refs: "references available",
-                glass: "Glass",
-                bottle: "Bottle",
-                grape: "Grape",
-                price_bottle: "Bottle Price",
-                btnLabel: "🇬🇧 EN"
+                refs: "references available", region: "Region", country: "Country",
+                year: "Year", format: "Format", btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
-                    "Encontre a garrafa",
-                    "Uma taça? Uma garrafa?",
-                    "Tempranillo, Garnacha, Mencía",
-                    "Albariño, Godello, Verdejo",
-                    "Tinto, Branco, Rosé, Espumante",
-                    "Que tal a degustação hoje?",
-                    "Cliente muito especial?",
-                    "Buscar vinho...",
-                    "Rioja, Ribeira, Rueda?",
-                    "Algum internacional?",
+                    "Encontre a garrafa", "Uma taça? Uma garrafa?",
+                    "Tempranillo, Garnacha, Mencía", "Albariño, Godello, Verdejo",
+                    "Tinto, Branco, Rosé, Espumante", "Que tal a degustação hoje?",
+                    "Cliente muito especial?", "Buscar vinho...",
+                    "Rioja, Ribeira, Rueda?", "Algum internacional?",
                     "Talvez um vinho francês"
                 ],
-                refs: "referências disponíveis",
-                glass: "Taça",
-                bottle: "Garrafa",
-                grape: "Uva",
-                price_bottle: "Preço Garrafa",
-                btnLabel: "🇧🇷 PT"
+                refs: "referências disponíveis", region: "Região", country: "País",
+                year: "Ano", format: "Formato", btnLabel: "🇧🇷 PT"
             }
         };
 
-        let currentLang = 'es';
-        
-        // Variáveis do efeito Typewriter
-        let typeWriterTimeout;
-        let charIndex = 0;
-        let isDeleting = false;
-        let currentPhrase = "";
-        let phraseQueue = [];
+        // --- UTILITY ---
+        function removeAccents(str) {
+            return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
 
+        function fmt(val) {
+            return val != null ? val : '—';
+        }
+
+        function fmtPrice(val) {
+            return val != null ? val + '€' : '—';
+        }
+
+        function getGrapeColor(name) {
+            return GRAPE_FAMILIES[name] || 'burgundy s3';
+        }
+
+        function renderGrapeTags(uvasArr) {
+            if (!uvasArr || !uvasArr.length) return '';
+            return '<div class="grape-tags">' +
+                uvasArr.map(g => `<span class="grape-tag ${getGrapeColor(g)}">${g}</span>`).join('') +
+                '</div>';
+        }
+
+        function getTipoBadge(tipo) {
+            const code = tipo?.codigo || '';
+            const info = TIPO_MAP[code] || TIPO_MAP['TO'];
+            return { cls: info.cls, label: info[currentLang] || info.es };
+        }
+
+        // --- DATA LOADING ---
+        // TODO: [SYNC] Replace fetch with real-time API subscription
+        fetch('data/bodega_webapp.json')
+            .then(r => r.json())
+            .then(data => {
+                refs = data;
+                applyLocalEdits();
+                preProcess();
+                updateRefCount();
+                console.log(`✓ Loaded ${refs.length} references`);
+            })
+            .catch(err => {
+                console.error('Error loading data:', err);
+                refs = [];
+            });
+
+        // --- LOCAL EDIT PERSISTENCE ---
+        // TODO: [SYNC] Replace localStorage with API POST for edits
+        function applyLocalEdits() {
+            try {
+                const edits = JSON.parse(localStorage.getItem('cava_edits') || '[]');
+                edits.forEach(edit => {
+                    const ref = refs.find(r => r.pod === edit.pod);
+                    if (!ref) return;
+                    setNestedValue(ref, edit.path, edit.value);
+                });
+                if (edits.length) console.log(`✓ Applied ${edits.length} local edits`);
+            } catch (e) { /* ignore parse errors */ }
+        }
+
+        function setNestedValue(obj, path, value) {
+            const keys = path.split('.');
+            let cur = obj;
+            for (let i = 0; i < keys.length - 1; i++) {
+                if (!cur[keys[i]]) cur[keys[i]] = {};
+                cur = cur[keys[i]];
+            }
+            cur[keys[keys.length - 1]] = value;
+        }
+
+        function saveEdit(pod, path, value) {
+            try {
+                const edits = JSON.parse(localStorage.getItem('cava_edits') || '[]');
+                // Upsert: replace existing edit for same pod+path
+                const idx = edits.findIndex(e => e.pod === pod && e.path === path);
+                if (idx >= 0) edits[idx].value = value;
+                else edits.push({ pod, path, value });
+                localStorage.setItem('cava_edits', JSON.stringify(edits));
+                // TODO: [SYNC] Send edit to server via WebSocket/API
+            } catch (e) { /* ignore */ }
+        }
+
+        // --- PRE-PROCESSING ---
+        function preProcess() {
+            searchIndex = [];
+            pvpMedio = {};
+            subsets = { spa: new Set(), tasca_fina: new Set(), victoria: new Set() };
+
+            refs.forEach((ref, i) => {
+                // Build searchable string
+                const parts = [
+                    ref.descripcion, ref.region, ref.pais, ref.bodega,
+                    ref.tipo?.nombre, ...(ref.uvas || []),
+                    ref.ano ? String(ref.ano) : '', ref.pod
+                ].filter(Boolean).join(' ');
+
+                searchIndex.push({ idx: i, str: removeAccents(parts.toLowerCase()) });
+
+                // Compute average PVP across visible establishments
+                let prices = [];
+                EST_KEYS.forEach(k => {
+                    const est = ref.establecimientos?.[k];
+                    if (est && est.pvp != null) {
+                        prices.push(est.pvp);
+                        subsets[k].add(i);
+                    }
+                });
+                pvpMedio[ref.pod] = prices.length > 0
+                    ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length)
+                    : null;
+            });
+        }
+
+        function updateRefCount() {
+            let count = refs.length;
+            if (currentFilter !== 'todos') {
+                count = subsets[currentFilter]?.size || 0;
+            }
+            document.getElementById('totalRef').textContent = count;
+        }
+
+        // --- FILTER & SORT ---
+        document.querySelectorAll('.filter-pill').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelector('.filter-pill.active').classList.remove('active');
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                updateRefCount();
+                triggerSearch();
+            });
+        });
+
+        document.getElementById('sortToggle').addEventListener('click', function() {
+            currentSort = currentSort === 'abc' ? 'pvp' : 'abc';
+            this.textContent = currentSort.toUpperCase();
+            triggerSearch();
+        });
+
+        // --- SEARCH ---
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+
+        let debounceTimer;
+        searchInput.addEventListener('input', function() {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => triggerSearch(), 150);
+        });
+
+        function triggerSearch() {
+            const query = removeAccents(searchInput.value.toLowerCase().trim());
+            searchResults.innerHTML = '';
+
+            if (!query) {
+                searchResults.style.display = 'none';
+                return;
+            }
+
+            // Filter by search query
+            let results = searchIndex.filter(item => item.str.includes(query));
+
+            // Apply establishment filter
+            if (currentFilter !== 'todos') {
+                results = results.filter(item => subsets[currentFilter].has(item.idx));
+            }
+
+            // Apply sort
+            if (currentSort === 'abc') {
+                results.sort((a, b) => refs[a.idx].descripcion.localeCompare(refs[b.idx].descripcion));
+            } else {
+                results.sort((a, b) => {
+                    const pa = getDisplayPrice(refs[a.idx]);
+                    const pb = getDisplayPrice(refs[b.idx]);
+                    return (pa ?? Infinity) - (pb ?? Infinity);
+                });
+            }
+
+            if (results.length > 0) {
+                results.forEach(item => {
+                    const ref = refs[item.idx];
+                    const el = document.createElement('div');
+                    el.className = 'search-item';
+
+                    const badge = getTipoBadge(ref.tipo);
+                    const price = getDisplayPrice(ref);
+                    const loc = getDisplayLocation(ref);
+                    const formatLabel = ref.formato?.etiqueta && ref.formato.etiqueta !== 'Botella (75cl)'
+                        ? ref.formato.etiqueta : '';
+
+                    el.innerHTML = `
+                        <div class="item-info">
+                            <div class="item-title">${ref.descripcion || '—'}</div>
+                            ${renderGrapeTags(ref.uvas)}
+                            <div class="badge-row">
+                                <span class="badge ${badge.cls}">${badge.label}</span>
+                                <span class="item-region">${fmt(ref.region)}</span>
+                                ${formatLabel ? `<span class="item-format">${formatLabel}</span>` : ''}
+                            </div>
+                        </div>
+                        <div class="item-right">
+                            <div class="item-price">${fmtPrice(price)}</div>
+                            ${loc ? `<div class="item-location">${loc}</div>` : ''}
+                        </div>
+                    `;
+
+                    el.addEventListener('click', () => openModal(ref));
+                    searchResults.appendChild(el);
+                });
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.style.display = 'none';
+            }
+        }
+
+        function getDisplayPrice(ref) {
+            if (currentFilter !== 'todos') {
+                return ref.establecimientos?.[currentFilter]?.pvp ?? null;
+            }
+            return pvpMedio[ref.pod] ?? null;
+        }
+
+        function getDisplayLocation(ref) {
+            if (currentFilter !== 'todos') {
+                return ref.establecimientos?.[currentFilter]?.localizacion || null;
+            }
+            return null; // No location in TODOS mode (varies by establishment)
+        }
+
+        // --- MODAL ---
+        const wineModal = document.getElementById('wineModal');
+
+        function openModal(ref) {
+            currentEditPod = ref.pod;
+            const badge = getTipoBadge(ref.tipo);
+
+            document.getElementById('modalBadge').className = `badge ${badge.cls}`;
+            document.getElementById('modalBadge').textContent = badge.label;
+            document.getElementById('modalName').textContent = ref.descripcion || '—';
+
+            // Subtitle: Bodega | Year | Format
+            const parts = [ref.bodega, ref.ano, ref.formato?.etiqueta].filter(Boolean);
+            document.getElementById('modalSubtitle').textContent = parts.join(' · ') || '—';
+
+            // Grapes
+            document.getElementById('modalGrapes').innerHTML = renderGrapeTags(ref.uvas);
+
+            // Detail boxes
+            document.getElementById('modalRegion').textContent = fmt(ref.region);
+            document.getElementById('modalCountry').textContent = fmt(ref.pais);
+            document.getElementById('modalYear').textContent = fmt(ref.ano);
+            document.getElementById('modalFormat').textContent = fmt(ref.formato?.etiqueta);
+
+            // Establishment table
+            EST_KEYS.forEach(k => {
+                const est = ref.establecimientos?.[k];
+                const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
+                document.getElementById(`est${prefix}Pvp`).textContent = fmtPrice(est?.pvp);
+                document.getElementById(`est${prefix}Stock`).textContent = fmt(est?.unidades);
+                document.getElementById(`est${prefix}Loc`).textContent = fmt(est?.localizacion);
+            });
+
+            // Reset edit form
+            document.getElementById('editForm').classList.remove('visible');
+            document.getElementById('btnEditWine').style.display = 'inline-block';
+
+            searchResults.style.display = 'none';
+            searchInput.blur();
+            wineModal.classList.add('active');
+        }
+
+        function closeModal() {
+            wineModal.classList.remove('active');
+            searchInput.value = '';
+        }
+
+        document.getElementById('btnClose').addEventListener('click', closeModal);
+        wineModal.addEventListener('click', e => { if (e.target === wineModal) closeModal(); });
+
+        // --- EDIT ---
+        document.getElementById('btnEditWine').addEventListener('click', () => {
+            if (!currentEditPod) return;
+            const ref = refs.find(r => r.pod === currentEditPod);
+            if (!ref) return;
+
+            document.getElementById('editDesc').value = ref.descripcion || '';
+            document.getElementById('editRegion').value = ref.region || '';
+            document.getElementById('editUvas').value = (ref.uvas || []).join(', ');
+
+            EST_KEYS.forEach(k => {
+                const est = ref.establecimientos?.[k] || {};
+                const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
+                document.getElementById(`edit${prefix}Pvp`).value = est.pvp != null ? est.pvp : '';
+                document.getElementById(`edit${prefix}Stock`).value = est.unidades != null ? est.unidades : '';
+                document.getElementById(`edit${prefix}Loc`).value = est.localizacion || '';
+            });
+
+            document.getElementById('editForm').classList.add('visible');
+            document.getElementById('btnEditWine').style.display = 'none';
+        });
+
+        document.getElementById('btnCancelEdit').addEventListener('click', () => {
+            document.getElementById('editForm').classList.remove('visible');
+            document.getElementById('btnEditWine').style.display = 'inline-block';
+        });
+
+        document.getElementById('btnSaveEdit').addEventListener('click', () => {
+            if (!currentEditPod) return;
+            const ref = refs.find(r => r.pod === currentEditPod);
+            if (!ref) return;
+
+            // Save descripcion
+            const desc = document.getElementById('editDesc').value.trim();
+            if (desc && desc !== ref.descripcion) {
+                ref.descripcion = desc;
+                saveEdit(currentEditPod, 'descripcion', desc);
+            }
+
+            // Save region
+            const region = document.getElementById('editRegion').value.trim();
+            if (region !== (ref.region || '')) {
+                ref.region = region || null;
+                saveEdit(currentEditPod, 'region', region || null);
+            }
+
+            // Save uvas
+            const uvasStr = document.getElementById('editUvas').value.trim();
+            const uvasArr = uvasStr ? uvasStr.split(',').map(u => u.trim()).filter(Boolean) : [];
+            ref.uvas = uvasArr;
+            saveEdit(currentEditPod, 'uvas', uvasArr);
+
+            // Save per-establishment fields
+            EST_KEYS.forEach(k => {
+                if (!ref.establecimientos) ref.establecimientos = {};
+                if (!ref.establecimientos[k]) ref.establecimientos[k] = { pvp: null, unidades: null, localizacion: null };
+                const est = ref.establecimientos[k];
+                const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
+
+                const pvpVal = document.getElementById(`edit${prefix}Pvp`).value;
+                const pvp = pvpVal !== '' ? Number(pvpVal) : null;
+                if (pvp !== est.pvp) { est.pvp = pvp; saveEdit(currentEditPod, `establecimientos.${k}.pvp`, pvp); }
+
+                const stockVal = document.getElementById(`edit${prefix}Stock`).value;
+                const stock = stockVal !== '' ? Number(stockVal) : null;
+                if (stock !== est.unidades) { est.unidades = stock; saveEdit(currentEditPod, `establecimientos.${k}.unidades`, stock); }
+
+                const loc = document.getElementById(`edit${prefix}Loc`).value.trim().toUpperCase() || null;
+                if (loc !== est.localizacion) { est.localizacion = loc; saveEdit(currentEditPod, `establecimientos.${k}.localizacion`, loc); }
+            });
+
+            // Recompute indexes
+            preProcess();
+            updateRefCount();
+
+            // Refresh modal
+            openModal(ref);
+        });
+
+        // --- LANGUAGE ---
         function getNextPhrase() {
-            // Se a fila estiver vazia, recria e embaralha (Shuffle)
             if (phraseQueue.length === 0) {
                 phraseQueue = [...translations[currentLang].placeholders];
-                // Algoritmo Fisher-Yates para embaralhar
                 for (let i = phraseQueue.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
                     [phraseQueue[i], phraseQueue[j]] = [phraseQueue[j], phraseQueue[i]];
                 }
-                // Evita que a primeira do novo ciclo seja igual à última do anterior
                 if (phraseQueue[0] === currentPhrase && phraseQueue.length > 1) {
                     phraseQueue.push(phraseQueue.shift());
                 }
@@ -937,12 +1314,9 @@
         function startTypeWriter() {
             const input = document.getElementById('searchInput');
             if (!input) return;
-            
-            // Inicializa a primeira frase se necessário
-            if (!currentPhrase) {
-                currentPhrase = getNextPhrase();
-            }
-            
+
+            if (!currentPhrase) currentPhrase = getNextPhrase();
+
             if (isDeleting) {
                 input.placeholder = currentPhrase.substring(0, charIndex - 1);
                 charIndex--;
@@ -950,335 +1324,108 @@
                 input.placeholder = currentPhrase.substring(0, charIndex + 1);
                 charIndex++;
             }
-            
-            let typeSpeed = isDeleting ? 20 : 50; // Más rápido al escribir y borrar
-            
+
+            let speed = isDeleting ? 20 : 50;
+
             if (!isDeleting && charIndex === currentPhrase.length) {
-                typeSpeed = 2000; // Pausa ao terminar de escrever
+                speed = 2000;
                 isDeleting = true;
             } else if (isDeleting && charIndex === 0) {
                 isDeleting = false;
-                currentPhrase = getNextPhrase(); // Pega a próxima da fila sem repetir
-                typeSpeed = 500; // Pausa antes da próxima frase
+                currentPhrase = getNextPhrase();
+                speed = 500;
             }
-            
+
             clearTimeout(typeWriterTimeout);
-            typeWriterTimeout = setTimeout(startTypeWriter, typeSpeed);
+            typeWriterTimeout = setTimeout(startTypeWriter, speed);
         }
 
         function setLanguage(lang) {
             currentLang = lang;
             const t = translations[lang];
-            
-            // Atualizar textos estáticos
-            document.getElementById('currentLangBtn').innerText = t.btnLabel;
-            
-            // Atualizar elementos com data-translate
+            document.getElementById('currentLangBtn').textContent = t.btnLabel;
+
             document.querySelectorAll('[data-translate]').forEach(el => {
                 const key = el.getAttribute('data-translate');
-                if (t[key] && el.tagName !== 'INPUT') {
-                    el.innerText = t[key];
-                }
+                if (t[key] && el.tagName !== 'INPUT') el.textContent = t[key];
             });
 
-            // Reiniciar Typewriter com o novo idioma
-            phraseQueue = []; // Limpa a fila para gerar novas frases no novo idioma
-            currentPhrase = "";
+            phraseQueue = [];
+            currentPhrase = '';
             charIndex = 0;
             isDeleting = false;
             clearTimeout(typeWriterTimeout);
             startTypeWriter();
+
+            // Refresh search results if visible
+            triggerSearch();
         }
 
-        // --- 2. LÓGICA DE BUSCA ---
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-        const wineModal = document.getElementById('wineModal');
-
-        // Função para remover acentos
-        function removeAccents(str) {
-            return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-        }
-
-        searchInput.addEventListener('input', function() {
-            const query = removeAccents(this.value.toLowerCase().trim());
-            searchResults.innerHTML = '';
-
-            if (query.length === 0) {
-                searchResults.style.display = 'none';
-                document.body.classList.remove('search-active');
-                return;
-            }
-
-            const filtrados = vinhos.filter(vinho =>
-                removeAccents(vinho.nome.toLowerCase()).includes(query) ||
-                removeAccents(vinho.regiao.toLowerCase()).includes(query) ||
-                removeAccents((vinho.uvas || '').toLowerCase()).includes(query)
-            ).sort((a, b) => a.nome.localeCompare(b.nome));
-
-            if (filtrados.length > 0) {
-                document.body.classList.add('search-active');
-                filtrados.forEach(vinho => {
-                    const item = document.createElement('div');
-                    item.className = 'search-item';
-                    const badgeClass = typeClasses[vinho.tipo] || "b-tinto";
-                    
-                    item.innerHTML = `
-                        <div class="item-info">
-                            <div class="item-title">
-                                ${vinho.nome}
-                            </div>
-                            ${vinho.uvas ? renderGrapeTags(vinho.uvas) : ''}
-                            <div class="badge-row">
-                                <span class="badge ${badgeClass}">${getWineTypeDisplay(vinho.tipo)}</span>
-                                <span class="item-region">${vinho.regiao}</span>
-                            </div>
-                        </div>
-                        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.3rem;">
-                            <div class="item-price">
-                                ${vinho.precoCopa ? `<span style="font-size: 0.8rem; opacity: 0.8;">Copa ${vinho.precoCopa}€ |</span> ` : ''}${vinho.precoBotella}€
-                            </div>
-                            ${vinho.localizacao ? `<div class="item-location">${vinho.localizacao}</div>` : ''}
-                        </div>
-                    `;
-                    
-                    const idx = vinhos.indexOf(vinho);
-                    item.addEventListener('click', () => abrirModal(vinho, badgeClass, idx));
-                    searchResults.appendChild(item);
-                });
-                searchResults.style.display = 'block';
-            } else {
-                searchResults.style.display = 'none';
-                document.body.classList.remove('search-active');
-            }
-        });
-
-        // --- 3. MODAL ---
-        function abrirModal(vinho, badgeClass, index) {
-            currentEditIndex = (typeof index === 'number') ? index : vinhos.indexOf(vinho);
-            document.getElementById('modalBadge').innerText = getWineTypeDisplay(vinho.tipo);
-            document.getElementById('modalBadge').className = `badge ${badgeClass}`;
-            document.getElementById('modalName').innerText = vinho.nome;
-
-            document.getElementById('modalCopa').innerText = vinho.precoCopa ? `${vinho.precoCopa}€` : "—";
-            document.getElementById('modalBotellaSmall').innerText = `${vinho.precoBotella}€`;
-            document.getElementById('modalDO').innerText = vinho.regiao;
-            document.getElementById('modalUva').innerHTML = vinho.uvas ? renderGrapeTags(vinho.uvas) : "—";
-            document.getElementById('modalPrice').innerText = `${vinho.precoBotella}€`;
-
-            // Mostrar localização se existir
-            if (vinho.localizacao) {
-                document.getElementById('modalLocation').style.display = 'block';
-                document.getElementById('modalLocationValue').innerText = vinho.localizacao;
-            } else {
-                document.getElementById('modalLocation').style.display = 'none';
-            }
-
-            searchResults.style.display = 'none';
-            document.body.classList.remove('search-active');
-            searchInput.blur();
-            wineModal.classList.add('active');
-
-            // Reset any edit form state
-            document.getElementById('editForm').style.display = 'none';
-            document.getElementById('btnEditWine').style.display = 'inline-block';
-        }
-
-        window.fecharModal = function() {
-            wineModal.classList.remove('active');
-            searchInput.value = '';
-            document.body.classList.remove('search-active');
-        }
-
-        wineModal.addEventListener('click', (e) => {
-            if (e.target === wineModal) fecharModal();
-        });
-
-        // --- 3.1 EDIT HANDLERS ---
-        function abrirEdit() {
-            const form = document.getElementById('editForm');
-            const btnEdit = document.getElementById('btnEditWine');
-            if (currentEditIndex === null) return;
-            const vinho = vinhos[currentEditIndex];
-            preencherForm(vinho);
-            form.style.display = 'block';
-            btnEdit.style.display = 'none';
-        }
-
-        function preencherForm(vinho) {
-            document.getElementById('editNome').value = vinho.nome || '';
-            document.getElementById('editRegiao').value = vinho.regiao || '';
-            document.getElementById('editUvas').value = vinho.uvas || '';
-            document.getElementById('editCopa').value = vinho.precoCopa != null ? vinho.precoCopa : '';
-            document.getElementById('editBotella').value = vinho.precoBotella != null ? vinho.precoBotella : '';
-            document.getElementById('editLocation').value = vinho.localizacao || '';
-        }
-
-        function salvarEdicao() {
-            if (currentEditIndex === null) return;
-            const nome = document.getElementById('editNome').value.trim();
-            const regiao = document.getElementById('editRegiao').value.trim();
-            const uvas = document.getElementById('editUvas').value.trim();
-            const copa = document.getElementById('editCopa').value;
-            const botella = document.getElementById('editBotella').value;
-            const location = document.getElementById('editLocation').value.trim().toUpperCase();
-
-            // Apply to data
-            const vinho = vinhos[currentEditIndex];
-            if (nome) vinho.nome = nome;
-            vinho.regiao = regiao || vinho.regiao;
-            vinho.uvas = uvas || vinho.uvas;
-            vinho.precoCopa = copa !== '' ? Number(copa) : (vinho.precoCopa || null);
-            vinho.precoBotella = botella !== '' ? Number(botella) : (vinho.precoBotella || null);
-            vinho.localizacao = location || '';
-
-            // Persist to localStorage so edits survive reloads (non-destructive)
-            try { localStorage.setItem('vinhos_edited', JSON.stringify(vinhos)); } catch (e) { /* ignore */ }
-
-            // Update modal display
-            document.getElementById('modalName').innerText = vinho.nome;
-            document.getElementById('modalCopa').innerText = vinho.precoCopa ? `${vinho.precoCopa}€` : '—';
-            document.getElementById('modalBotellaSmall').innerText = `${vinho.precoBotella}€`;
-            document.getElementById('modalDO').innerText = vinho.regiao;
-            document.getElementById('modalUva').innerHTML = vinho.uvas ? renderGrapeTags(vinho.uvas) : '—';
-            document.getElementById('modalPrice').innerText = `${vinho.precoBotella}€`;
-
-            // Update location
-            if (vinho.localizacao) {
-                document.getElementById('modalLocation').style.display = 'block';
-                document.getElementById('modalLocationValue').innerText = vinho.localizacao;
-            } else {
-                document.getElementById('modalLocation').style.display = 'none';
-            }
-
-            // Hide form
-            document.getElementById('editForm').style.display = 'none';
-            document.getElementById('btnEditWine').style.display = 'inline-block';
-
-            // If searchResults visible, refresh them to reflect new price/name
-            if (searchResults.style.display === 'block' && searchInput.value.trim().length > 0) {
-                const ev = new Event('input');
-                searchInput.dispatchEvent(ev);
-            }
-        }
-
-        function cancelarEdicao() {
-            document.getElementById('editForm').style.display = 'none';
-            document.getElementById('btnEditWine').style.display = 'inline-block';
-        }
-
-        // Attach edit button listeners
-        document.getElementById('btnEditWine').addEventListener('click', abrirEdit);
-        document.getElementById('btnCancelEdit').addEventListener('click', cancelarEdicao);
-        document.getElementById('btnSaveEdit').addEventListener('click', salvarEdicao);
-
-        // --- 4. DARK/LIGHT MODE TOGGLE (CANVAS ANIMADO) ---
+        // --- DARK/LIGHT MODE TOGGLE (CANVAS) ---
         const themeToggle = document.getElementById('themeToggle');
         const toggleCanvas = document.getElementById('toggleCanvas');
         const tCtx = toggleCanvas.getContext('2d');
-        
-        // Configuração do Canvas Toggle
         toggleCanvas.width = 80;
         toggleCanvas.height = 40;
-        
-        let isDark = true; // Começa no modo escuro
-        let toggleProgress = 0; // 0 = Sol (Light), 1 = Lua (Dark)
-        // Como o site começa Dark, vamos setar o progresso inicial para 1
-        toggleProgress = 1;
 
-        // Função de interpolação linear
+        let isDark = true;
+        let toggleProgress = 1;
         const lerp = (a, b, t) => a + (b - a) * t;
 
         function drawToggle() {
-            const width = toggleCanvas.width;
-            const height = toggleCanvas.height;
-            
-            tCtx.clearRect(0, 0, width, height);
+            const w = toggleCanvas.width, h = toggleCanvas.height;
+            tCtx.clearRect(0, 0, w, h);
 
-            // 1. Fundo (Céu)
-            // Dia: Azul Claro (#60A5FA), Noite: Azul Escuro (#1e1b4b)
             const r = lerp(96, 30, toggleProgress);
             const g = lerp(165, 27, toggleProgress);
             const b = lerp(250, 75, toggleProgress);
-            
-            tCtx.fillStyle = `rgb(${r}, ${g}, ${b})`;
+            tCtx.fillStyle = `rgb(${r},${g},${b})`;
             tCtx.beginPath();
-            tCtx.roundRect(0, 0, width, height, 20);
+            tCtx.roundRect(0, 0, w, h, 20);
             tCtx.fill();
 
-            // 2. Estrelas (aparecem no escuro)
             if (toggleProgress > 0.1) {
-                tCtx.fillStyle = `rgba(255, 255, 255, ${toggleProgress})`;
-                // Estrelas fixas
-                const stars = [{x: 20, y: 10}, {x: 40, y: 30}, {x: 15, y: 30}, {x: 50, y: 10}];
-                stars.forEach(star => {
-                    tCtx.beginPath();
-                    tCtx.arc(star.x, star.y, 1.5, 0, Math.PI * 2);
-                    tCtx.fill();
+                tCtx.fillStyle = `rgba(255,255,255,${toggleProgress})`;
+                [{x:20,y:10},{x:40,y:30},{x:15,y:30},{x:50,y:10}].forEach(s => {
+                    tCtx.beginPath(); tCtx.arc(s.x, s.y, 1.5, 0, Math.PI*2); tCtx.fill();
                 });
             }
 
-            // 3. Nuvens (desaparecem no escuro)
-            const cloudOpacity = Math.max(0, 1 - toggleProgress * 2);
-            if (cloudOpacity > 0) {
-                tCtx.fillStyle = `rgba(255, 255, 255, ${cloudOpacity * 0.8})`;
+            const cloudOp = Math.max(0, 1 - toggleProgress * 2);
+            if (cloudOp > 0) {
+                tCtx.fillStyle = `rgba(255,255,255,${cloudOp * 0.8})`;
                 tCtx.beginPath();
-                tCtx.arc(50, 30, 8, 0, Math.PI * 2);
-                tCtx.arc(60, 35, 10, 0, Math.PI * 2);
-                tCtx.arc(70, 30, 8, 0, Math.PI * 2);
+                tCtx.arc(50,30,8,0,Math.PI*2); tCtx.arc(60,35,10,0,Math.PI*2); tCtx.arc(70,30,8,0,Math.PI*2);
                 tCtx.fill();
             }
 
-            // 4. Astro (Sol -> Lua)
-            // Posição: Esquerda (20) -> Direita (60)
-            const circleX = lerp(20, width - 20, toggleProgress);
-            const circleY = height / 2;
-            const radius = 14;
-
-            // Cor: Amarelo -> Branco/Cinza
-            const ar = lerp(251, 226, toggleProgress);
-            const ag = lerp(191, 232, toggleProgress);
-            const ab = lerp(36, 240, toggleProgress);
-
-            tCtx.fillStyle = `rgb(${ar}, ${ag}, ${ab})`;
+            const cx = lerp(20, w-20, toggleProgress), cy = h/2, rad = 14;
+            const ar = lerp(251,226,toggleProgress), ag = lerp(191,232,toggleProgress), ab = lerp(36,240,toggleProgress);
+            tCtx.fillStyle = `rgb(${ar},${ag},${ab})`;
             tCtx.shadowBlur = 10;
-            tCtx.shadowColor = `rgba(${ar}, ${ag}, ${ab}, 0.5)`;
-            
-            tCtx.beginPath();
-            tCtx.arc(circleX, circleY, radius, 0, Math.PI * 2);
-            tCtx.fill();
-            tCtx.shadowBlur = 0; // Reset shadow
+            tCtx.shadowColor = `rgba(${ar},${ag},${ab},0.5)`;
+            tCtx.beginPath(); tCtx.arc(cx, cy, rad, 0, Math.PI*2); tCtx.fill();
+            tCtx.shadowBlur = 0;
 
-            // 5. Máscara da Lua (Crescente)
             if (toggleProgress > 0.1) {
-                const maskOffset = lerp(radius * 2, 6, toggleProgress);
-                tCtx.fillStyle = `rgb(${r}, ${g}, ${b})`; // Mesma cor do fundo
-                tCtx.beginPath();
-                tCtx.arc(circleX - maskOffset, circleY - 2, radius, 0, Math.PI * 2);
-                tCtx.fill();
+                const maskOff = lerp(rad*2, 6, toggleProgress);
+                tCtx.fillStyle = `rgb(${r},${g},${b})`;
+                tCtx.beginPath(); tCtx.arc(cx - maskOff, cy - 2, rad, 0, Math.PI*2); tCtx.fill();
             }
 
-            // 6. Raios do Sol
-            const rayOpacity = Math.max(0, 1 - toggleProgress * 3);
-            if (rayOpacity > 0) {
-                tCtx.strokeStyle = `rgba(251, 191, 36, ${rayOpacity})`;
-                tCtx.lineWidth = 2;
-                tCtx.lineCap = 'round';
-                const rayCount = 6;
-                for (let i = 0; i < rayCount; i++) {
-                    const angle = (i * Math.PI * 2) / rayCount + (toggleProgress * 2);
-                    const startX = circleX + Math.cos(angle) * (radius + 3);
-                    const startY = circleY + Math.sin(angle) * (radius + 3);
-                    const endX = circleX + Math.cos(angle) * (radius + 7);
-                    const endY = circleY + Math.sin(angle) * (radius + 7);
+            const rayOp = Math.max(0, 1 - toggleProgress * 3);
+            if (rayOp > 0) {
+                tCtx.strokeStyle = `rgba(251,191,36,${rayOp})`;
+                tCtx.lineWidth = 2; tCtx.lineCap = 'round';
+                for (let i = 0; i < 6; i++) {
+                    const angle = (i * Math.PI * 2) / 6 + (toggleProgress * 2);
                     tCtx.beginPath();
-                    tCtx.moveTo(startX, startY);
-                    tCtx.lineTo(endX, endY);
+                    tCtx.moveTo(cx + Math.cos(angle)*(rad+3), cy + Math.sin(angle)*(rad+3));
+                    tCtx.lineTo(cx + Math.cos(angle)*(rad+7), cy + Math.sin(angle)*(rad+7));
                     tCtx.stroke();
                 }
             }
 
-            // Loop de animação suave
             const target = isDark ? 1 : 0;
             if (Math.abs(toggleProgress - target) > 0.001) {
                 toggleProgress += (target - toggleProgress) * 0.1;
@@ -1289,10 +1436,10 @@
         themeToggle.addEventListener('click', () => {
             isDark = !isDark;
             document.body.classList.toggle('light-mode');
-            drawToggle(); // Inicia animação
+            drawToggle();
         });
 
-        // --- 5. PARTÍCULAS DE OURO (CANVAS) ---
+        // --- GOLD PARTICLES ---
         const canvas = document.getElementById('particleCanvas');
         const ctx = canvas.getContext('2d');
         let particlesArray = [];
@@ -1310,21 +1457,20 @@
             constructor() {
                 this.x = Math.random() * canvas.width;
                 this.y = Math.random() * canvas.height;
-                this.size = Math.random() * 2 + 0.5; // Tamanho de 0.5 a 2.5
+                this.size = Math.random() * 2 + 0.5;
                 this.speedX = Math.random() * 0.5 - 0.25;
                 this.speedY = Math.random() * 0.5 - 0.25;
                 this.opacity = Math.random() * 0.5 + 0.1;
             }
             update() {
                 this.x += this.speedX;
-                this.y -= this.speedY; // Sobem levemente
-
+                this.y -= this.speedY;
                 if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
                 if (this.y < 0) this.y = canvas.height;
                 if (this.y > canvas.height) this.y = 0;
             }
             draw() {
-                ctx.fillStyle = `rgba(212, 175, 55, ${this.opacity})`; // Dourado
+                ctx.fillStyle = `rgba(212,175,55,${this.opacity})`;
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
@@ -1333,20 +1479,13 @@
 
         function initParticles() {
             particlesArray = [];
-            // Base de densidade, aumentado em 40% conforme solicitado
-            const baseNumber = (canvas.width * canvas.height) / 5500;
-            const numberOfParticles = Math.round(baseNumber * 2.0);
-            for (let i = 0; i < numberOfParticles; i++) {
-                particlesArray.push(new Particle());
-            }
+            const n = Math.round((canvas.width * canvas.height) / 5500 * 2.0);
+            for (let i = 0; i < n; i++) particlesArray.push(new Particle());
         }
 
         function animateParticles() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            for (let i = 0; i < particlesArray.length; i++) {
-                particlesArray[i].update();
-                particlesArray[i].draw();
-            }
+            particlesArray.forEach(p => { p.update(); p.draw(); });
             requestAnimationFrame(animateParticles);
         }
 
@@ -1355,12 +1494,11 @@
         drawToggle();
         startTypeWriter();
 
-        // --- MOBILE KEYBOARD DETECTION ---
+        // --- MOBILE KEYBOARD ---
         const initialVH = window.innerHeight;
         if ('visualViewport' in window) {
             window.visualViewport.addEventListener('resize', () => {
-                const ratio = window.visualViewport.height / initialVH;
-                if (ratio < 0.75) {
+                if (window.visualViewport.height / initialVH < 0.75) {
                     document.body.classList.add('keyboard-open');
                 } else {
                     document.body.classList.remove('keyboard-open');
@@ -1368,18 +1506,22 @@
             });
         }
 
-        // Prevent iOS zoom on double-tap
+        // Prevent iOS double-tap zoom
         let lastTouchEnd = 0;
-        document.addEventListener('touchend', (e) => {
+        document.addEventListener('touchend', e => {
             const now = Date.now();
             if (now - lastTouchEnd <= 300) e.preventDefault();
             lastTouchEnd = now;
         }, false);
 
-        // --- PWA SERVICE WORKER ---
+        // --- PWA ---
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').catch(() => {});
         }
+
+        // TODO: [SYNC] Add WebSocket connection for real-time data updates
+        // TODO: [SYNC] Implement optimistic UI updates with server reconciliation
+        // TODO: [SYNC] Add conflict resolution for concurrent edits across devices
     </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
-const CACHE = 'cm-v1';
-const ASSETS = ['/', '/index.html', '/vinhos.json'];
+const CACHE = 'cm-v2';
+const ASSETS = ['/', '/index.html', '/data/bodega_webapp.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
