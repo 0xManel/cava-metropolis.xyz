@@ -4300,7 +4300,7 @@
     "pod": "POD012953",
     "descripcion": "A da Cova Pedras Líquidas 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Adegas Moure",
     "ano": 2022,
     "tipo": {
@@ -4347,7 +4347,7 @@
     "pod": "POD016497",
     "descripcion": "A Teixa Luis Anxo Rodríguez 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Luis Anxo Rodríguez",
     "ano": 2021,
     "tipo": {
@@ -4384,7 +4384,7 @@
     "pod": "POD018553",
     "descripcion": "Abadia Da Cova Loia BL 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Adegas Moure",
     "ano": 2024,
     "tipo": {
@@ -4421,7 +4421,7 @@
     "pod": "POD013185",
     "descripcion": "Albamar 69 Arrobas 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Albamar",
     "ano": 2022,
     "tipo": {
@@ -4458,7 +4458,7 @@
     "pod": "POD013184",
     "descripcion": "Alma de Mar 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Albamar",
     "ano": 2022,
     "tipo": {
@@ -4495,7 +4495,7 @@
     "pod": "POD019463",
     "descripcion": "Areas de Arra 20-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Forjas del Salnés",
     "ano": 2020,
     "tipo": {
@@ -4532,7 +4532,7 @@
     "pod": "POD018494",
     "descripcion": "Arman Finca Misenhora 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeiro",
     "bodega": "Casal de Armán",
     "ano": 2023,
     "tipo": {
@@ -4545,6 +4545,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Treixadura",
+      "Godello",
       "Albariño"
     ],
     "uvas_confianza": "alta",
@@ -4574,7 +4576,7 @@
     "pod": "POD015846",
     "descripcion": "As Sortes 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Rafael Palacios",
     "ano": 2023,
     "tipo": {
@@ -4611,7 +4613,7 @@
     "pod": "POD018997",
     "descripcion": "As Sortes 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Rafael Palacios",
     "ano": 2024,
     "tipo": {
@@ -4653,7 +4655,7 @@
     "pod": "POD016565",
     "descripcion": "Attis Atalante Caiño BL 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2023,
     "tipo": {
@@ -4690,7 +4692,7 @@
     "pod": "POD016566",
     "descripcion": "Attis Coribante 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2022,
     "tipo": {
@@ -4729,7 +4731,7 @@
     "pod": "POD015306",
     "descripcion": "Attis Embaixador 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2022,
     "tipo": {
@@ -4771,7 +4773,7 @@
     "pod": "POD017771",
     "descripcion": "Attis Lias Finas 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2024,
     "tipo": {
@@ -4813,7 +4815,7 @@
     "pod": "POD018753",
     "descripcion": "Attis Mar 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2024,
     "tipo": {
@@ -4860,7 +4862,7 @@
     "pod": "POD018301",
     "descripcion": "Attis Nana Old Vines 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2023,
     "tipo": {
@@ -4897,7 +4899,7 @@
     "pod": "POD019665",
     "descripcion": "Augalevada Areas de Rei 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeiro",
     "bodega": "Augalevada",
     "ano": 2023,
     "tipo": {
@@ -4937,7 +4939,7 @@
     "pod": "POD018578",
     "descripcion": "Avancia Godello 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Avancia",
     "ano": 2024,
     "tipo": {
@@ -4974,7 +4976,7 @@
     "pod": "POD019160",
     "descripcion": "Avancia Nobleza 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Avancia",
     "ano": 2024,
     "tipo": {
@@ -5016,7 +5018,7 @@
     "pod": "POD017756",
     "descripcion": "Branco de Sta Cruz 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Ladeiras do Sil",
     "ano": 2022,
     "tipo": {
@@ -5055,7 +5057,7 @@
     "pod": "POD018878",
     "descripcion": "Do Ferreiro Cepas Vellas 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Do Ferreiro",
     "ano": 2024,
     "tipo": {
@@ -5102,7 +5104,7 @@
     "pod": "POD018377",
     "descripcion": "Dominio do Bibei Lalume 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2023,
     "tipo": {
@@ -5140,7 +5142,7 @@
     "pod": "POD018101",
     "descripcion": "Dominio do Bibei Lapola 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2022,
     "tipo": {
@@ -5179,7 +5181,7 @@
     "pod": "POD019143",
     "descripcion": "Dominio do Bibei Lapola 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2023,
     "tipo": {
@@ -5223,7 +5225,7 @@
     "pod": "POD018921",
     "descripcion": "Emilio Rojo 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeiro",
     "bodega": "Emilio Rojo",
     "ano": 2022,
     "tipo": {
@@ -5264,7 +5266,7 @@
     "pod": "POD012368",
     "descripcion": "Eulogio Pomares Parcela Aios 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Eulogio Pomares",
     "ano": 2022,
     "tipo": {
@@ -5301,7 +5303,7 @@
     "pod": "POD018449",
     "descripcion": "Falcoeira Branco 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Telmo Rodríguez",
     "ano": 2022,
     "tipo": {
@@ -5340,7 +5342,7 @@
     "pod": "POD019664",
     "descripcion": "Fedellos Testoiro 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Fedellos do Couto",
     "ano": 2024,
     "tipo": {
@@ -5378,7 +5380,7 @@
     "pod": "POD017871",
     "descripcion": "Fulcro Finca Pedreira 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Fulcro",
     "ano": 2024,
     "tipo": {
@@ -5415,7 +5417,7 @@
     "pod": "POD019086",
     "descripcion": "Fulcro Nas Dunas 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Fulcro",
     "ano": 2022,
     "tipo": {
@@ -5452,7 +5454,7 @@
     "pod": "POD019085",
     "descripcion": "Fulcro O Equilibrio 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Fulcro",
     "ano": 2023,
     "tipo": {
@@ -5489,7 +5491,7 @@
     "pod": "POD017033",
     "descripcion": "Goliardo A Telleira 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Forjas del Salnés",
     "ano": 2023,
     "tipo": {
@@ -5526,7 +5528,7 @@
     "pod": "POD019158",
     "descripcion": "Goliardo A Telleira 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Forjas del Salnés",
     "ano": 2024,
     "tipo": {
@@ -5563,7 +5565,7 @@
     "pod": "POD017057",
     "descripcion": "Gomariz Finca O Figueiral 20-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeiro",
     "bodega": "Coto de Gomariz",
     "ano": 2020,
     "tipo": {
@@ -5608,7 +5610,7 @@
     "pod": "POD019458",
     "descripcion": "Guimaro Cepas Vellas 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Guímaro",
     "ano": 2024,
     "tipo": {
@@ -5647,7 +5649,7 @@
     "pod": "POD018412",
     "descripcion": "Joaquin Rebolledo Trasdairelas BL 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Joaquín Rebolledo",
     "ano": 2024,
     "tipo": {
@@ -5684,7 +5686,7 @@
     "pod": "POD018497",
     "descripcion": "La Caña Navia 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "La Caña",
     "ano": 2024,
     "tipo": {
@@ -5726,7 +5728,7 @@
     "pod": "POD018333",
     "descripcion": "La Comtesse 20-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Marqués de Murrieta",
     "ano": 2020,
     "tipo": {
@@ -5768,7 +5770,7 @@
     "pod": "POD018382",
     "descripcion": "Leirana O Pradiño 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Forjas del Salnés",
     "ano": 2022,
     "tipo": {
@@ -5805,7 +5807,7 @@
     "pod": "POD018026",
     "descripcion": "Louro 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Rafael Palacios",
     "ano": 2024,
     "tipo": {
@@ -5842,7 +5844,7 @@
     "pod": "POD008791",
     "descripcion": "Mg. Attis Mar 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2021,
     "tipo": {
@@ -5889,7 +5891,7 @@
     "pod": "POD016099",
     "descripcion": "Monte Alto Fillaboa 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Fillaboa",
     "ano": 2022,
     "tipo": {
@@ -5926,7 +5928,7 @@
     "pod": "POD017538",
     "descripcion": "O Luar do Sil 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "O Luar do Sil ",
     "ano": 2024,
     "tipo": {
@@ -5963,7 +5965,7 @@
     "pod": "POD012742",
     "descripcion": "O Luar Do Sil V Corgomo 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "O Luar do Sil",
     "ano": 2022,
     "tipo": {
@@ -6000,7 +6002,7 @@
     "pod": "POD019667",
     "descripcion": "O Morto A Via 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeiro",
     "bodega": "O Morto Wines",
     "ano": 2022,
     "tipo": {
@@ -6039,7 +6041,7 @@
     "pod": "POD018331",
     "descripcion": "Pazo Barrantes 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Marqués de Murrieta",
     "ano": 2022,
     "tipo": {
@@ -6081,7 +6083,7 @@
     "pod": "POD019461",
     "descripcion": "Pazo da Sinsela 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Rodrigo Mendez y Raúl Pérez",
     "ano": 2021,
     "tipo": {
@@ -6118,7 +6120,7 @@
     "pod": "POD019462",
     "descripcion": "Pazo da Sinsela San Clemente 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Rodrigo Mendez y Raúl Pérez",
     "ano": 2021,
     "tipo": {
@@ -6155,7 +6157,7 @@
     "pod": "POD018100",
     "descripcion": "Pazo San Mauro 24-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Pazo de San Mauro",
     "ano": 2024,
     "tipo": {
@@ -6192,7 +6194,7 @@
     "pod": "POD017626",
     "descripcion": "Pazo Señorans Selección 15-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Pazo de Señorans",
     "ano": 2015,
     "tipo": {
@@ -6239,7 +6241,7 @@
     "pod": "POD016926",
     "descripcion": "Pezas da Portela 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Valdesil",
     "ano": 2023,
     "tipo": {
@@ -6252,9 +6254,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Touriga Nacional",
-      "Touriga Franca",
-      "Tinta Roriz"
+      "Godello"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -6278,7 +6278,7 @@
     "pod": "POD016572",
     "descripcion": "Sitta Ancestros 16-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2016,
     "tipo": {
@@ -6291,11 +6291,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Treixadura",
-      "Torrontés",
-      "Albariño",
-      "Loureiro",
-      "Godello"
+      "Albariño"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -6319,7 +6315,7 @@
     "pod": "POD012359",
     "descripcion": "Sorte Antiga 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Rafael Palacios",
     "ano": 2022,
     "tipo": {
@@ -6356,7 +6352,7 @@
     "pod": "POD010576",
     "descripcion": "Sorte O Soro 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Rafael Palacios",
     "ano": 2021,
     "tipo": {
@@ -6393,7 +6389,7 @@
     "pod": "POD012358",
     "descripcion": "Sorte O Soro 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Rafael Palacios",
     "ano": 2022,
     "tipo": {
@@ -6440,7 +6436,7 @@
     "pod": "POD019150",
     "descripcion": "Ventoleiro Blanco 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "A Barouta",
     "ano": 2023,
     "tipo": {
@@ -6477,7 +6473,7 @@
     "pod": "POD017212",
     "descripcion": "Xesteiriña 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Acios da Xesteiriña",
     "ano": 2023,
     "tipo": {
@@ -6490,7 +6486,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Godello"
+      "Albariño"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -22567,7 +22563,7 @@
     "pod": "POD016563",
     "descripcion": "Sitta Pereiras 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2023,
     "tipo": {
@@ -42800,7 +42796,7 @@
     "pod": "POD017519",
     "descripcion": "Algueira Risco Merenzao 20-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Algueira",
     "ano": 2020,
     "tipo": {
@@ -42837,7 +42833,7 @@
     "pod": "POD018450",
     "descripcion": "As Caborcas 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Telmo Rodríguez",
     "ano": 2022,
     "tipo": {
@@ -42875,7 +42871,7 @@
     "pod": "POD016564",
     "descripcion": "Attis Caiño 18-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2018,
     "tipo": {
@@ -42917,7 +42913,7 @@
     "pod": "POD011907",
     "descripcion": "Attis Espadeiro 18-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Attis",
     "ano": 2018,
     "tipo": {
@@ -42959,7 +42955,7 @@
     "pod": "POD016342",
     "descripcion": "Dominio do Bibei 20-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2020,
     "tipo": {
@@ -42997,7 +42993,7 @@
     "pod": "POD016437",
     "descripcion": "Dominio do Bibei 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2021,
     "tipo": {
@@ -43040,7 +43036,7 @@
     "pod": "POD016344",
     "descripcion": "Dominio do Bibei Confidoncial 19-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2019,
     "tipo": {
@@ -43078,7 +43074,7 @@
     "pod": "POD016340",
     "descripcion": "Dominio do Bibei Lacima 20-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2020,
     "tipo": {
@@ -43126,7 +43122,7 @@
     "pod": "POD018448",
     "descripcion": "Falcoeira A Capilla 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Ladeiras do Xil",
     "ano": 2022,
     "tipo": {
@@ -43164,7 +43160,7 @@
     "pod": "POD019662",
     "descripcion": "Fedellos Bastarda 23-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Fedellos do Couto",
     "ano": 2023,
     "tipo": {
@@ -43201,7 +43197,7 @@
     "pod": "POD019761",
     "descripcion": "Goliardo Caiño 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Rías Baixas",
     "bodega": "Forjas del Salnés",
     "ano": 2022,
     "tipo": {
@@ -43238,7 +43234,7 @@
     "pod": "POD015541",
     "descripcion": "Guimaro A Ponte 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Guímaro",
     "ano": 2021,
     "tipo": {
@@ -43276,7 +43272,7 @@
     "pod": "POD001798",
     "descripcion": "La Lama",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Dominio do Bibei",
     "ano": 2021,
     "tipo": {
@@ -43319,7 +43315,7 @@
     "pod": "POD016869",
     "descripcion": "Monte Pio Malabesta 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Ribeira Sacra",
     "bodega": "Monte Pío",
     "ano": 2021,
     "tipo": {
@@ -43362,7 +43358,7 @@
     "pod": "POD018451",
     "descripcion": "O Diviso 22-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Ladeiras do Xil",
     "ano": 2022,
     "tipo": {
@@ -43400,7 +43396,7 @@
     "pod": "POD012034",
     "descripcion": "Telmo Rodriguez Falcoeira A Capilla 21-",
     "pais": "España",
-    "region": "Galicia",
+    "region": "Valdeorras",
     "bodega": "Telmo Rodríguez",
     "ano": 2021,
     "tipo": {
