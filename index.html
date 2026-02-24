@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
     
-    <!-- Build: 2026-02-23-STOCK-CAVA -->
+    <!-- Build: 2026-02-24-TERROIR -->
     
     <!-- PWA Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -528,6 +528,40 @@
             font-weight: 600;
         }
 
+        /* Terroir section (Clima & Suelo) */
+        .terroir-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .terroir-label {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--gold-accent);
+            opacity: 0.7;
+            margin-bottom: 0.6rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .terroir-box {
+            background: linear-gradient(135deg, rgba(100,180,255,0.04), var(--minicard-bg));
+            border: 1px solid rgba(100, 180, 255, 0.12);
+            border-radius: 12px;
+            padding: 0.8rem;
+            text-align: center;
+        }
+
+        .terroir-box .detail-value {
+            font-size: 0.82rem;
+            line-height: 1.3;
+        }
+
         /* Establishment pricing table */
         .est-table {
             width: 100%;
@@ -830,6 +864,19 @@
                 </div>
             </div>
 
+            <!-- Terroir: Clima & Suelo -->
+            <div class="terroir-label">☁ <span data-translate="terroir">Terroir</span></div>
+            <div class="terroir-grid">
+                <div class="terroir-box">
+                    <div class="detail-label">☁ <span data-translate="climate">Clima</span></div>
+                    <div class="detail-value" id="modalClima">—</div>
+                </div>
+                <div class="terroir-box">
+                    <div class="detail-label">⛰ <span data-translate="soil">Suelo</span></div>
+                    <div class="detail-value" id="modalSuelo">—</div>
+                </div>
+            </div>
+
             <!-- Establishment Pricing Table -->
             <table class="est-table">
                 <thead>
@@ -975,7 +1022,7 @@
                     "Quizás un vino francés"
                 ],
                 refs: "referencias disponibles", region: "Región", country: "País",
-                year: "Año", format: "Formato", btnLabel: "🇪🇸 ES"
+                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
@@ -987,7 +1034,7 @@
                     "Maybe a French wine"
                 ],
                 refs: "references available", region: "Region", country: "Country",
-                year: "Year", format: "Format", btnLabel: "🇬🇧 EN"
+                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
@@ -999,7 +1046,7 @@
                     "Talvez um vinho francês"
                 ],
                 refs: "referências disponíveis", region: "Região", country: "País",
-                year: "Ano", format: "Formato", btnLabel: "🇧🇷 PT"
+                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", btnLabel: "🇧🇷 PT"
             }
         };
 
@@ -1232,6 +1279,104 @@
             return null; // No location in TODOS mode (varies by establishment)
         }
 
+        // --- TERROIR LOOKUP ---
+        function getTerroirInfo(region, pais) {
+            const r = (region || '').toLowerCase();
+            const p = (pais || '').toLowerCase();
+            // ── ESPAÑA ──
+            if (r.includes('ribera del duero')) return { clima: 'Continental extremo', suelo: 'Caliza y arcilla' };
+            if (r.includes('rioja alta')) return { clima: 'Mediterráneo-atlántico', suelo: 'Arcilla y caliza' };
+            if (r.includes('rioja alavesa')) return { clima: 'Atlántico-mediterráneo', suelo: 'Arcilla caliza' };
+            if (r.includes('rioja baja') || r.includes('rioja oriental')) return { clima: 'Mediterráneo cálido', suelo: 'Arcillo-ferroso' };
+            if (r.includes('rioja')) return { clima: 'Mediterráneo-atlántico', suelo: 'Arcilla, caliza y arena' };
+            if (r.includes('priorat') || r.includes('priorato')) return { clima: 'Mediterráneo seco', suelo: 'Llicorella (pizarra)' };
+            if (r.includes('rías baixas')) return { clima: 'Oceánico húmedo', suelo: 'Granítico' };
+            if (r.includes('ribeira sacra')) return { clima: 'Oceánico-continental', suelo: 'Pizarra y granito' };
+            if (r.includes('valdeorras')) return { clima: 'Oceánico-continental', suelo: 'Pizarra y arcilla' };
+            if (r.includes('rueda')) return { clima: 'Continental seco', suelo: 'Arenas y limos' };
+            if (r.includes('toro')) return { clima: 'Continental extremo', suelo: 'Arenas finas' };
+            if (r.includes('bierzo')) return { clima: 'Oceánico-continental', suelo: 'Pizarra y arcilla' };
+            if (r.includes('galicia')) return { clima: 'Oceánico húmedo', suelo: 'Granítico y pizarroso' };
+            if (r.includes('madrid') || r.includes('gredos')) return { clima: 'Continental de montaña', suelo: 'Granítico' };
+            if (r.includes('jerez') || r.includes('sherry') || r.includes('manzanilla') || r.includes('sanlúcar')) return { clima: 'Mediterráneo cálido', suelo: 'Albariza (caliza)' };
+            if (r.includes('penedès') || r.includes('penedes')) return { clima: 'Mediterráneo', suelo: 'Caliza y arenas' };
+            if (r.includes('somontano')) return { clima: 'Continental mediterráneo', suelo: 'Caliza y arcilla' };
+            if (r.includes('navarra')) return { clima: 'Continental-mediterráneo', suelo: 'Caliza y arcilla' };
+            if (r.includes('aragón') || r.includes('aragon') || r.includes('campo de borja') || r.includes('cariñena') || r.includes('calatayud')) return { clima: 'Continental mediterráneo', suelo: 'Caliza y arcilla' };
+            if (r.includes('la mancha') || r.includes('valdepeñas') || r.includes('castilla-la mancha')) return { clima: 'Continental extremo', suelo: 'Arcilla y caliza' };
+            if (r.includes('jumilla') || r.includes('yecla') || r.includes('alicante') || r.includes('murcia')) return { clima: 'Mediterráneo semiárido', suelo: 'Caliza y arcilla' };
+            if (r.includes('comunidad valenciana') || r.includes('utiel') || r.includes('valencia')) return { clima: 'Mediterráneo', suelo: 'Caliza y arcilla' };
+            if (r.includes('montsant') || r.includes('terra alta')) return { clima: 'Mediterráneo seco', suelo: 'Caliza y arcilla' };
+            if (r.includes('empordà')) return { clima: 'Mediterráneo ventoso', suelo: 'Granito y pizarra' };
+            if (r.includes('cataluña') || r.includes('cataluna') || r.includes('catalunya')) return { clima: 'Mediterráneo', suelo: 'Caliza y arcilla' };
+            if (r.includes('txakoli') || r.includes('getariako') || r.includes('bizkaiko')) return { clima: 'Oceánico-atlántico', suelo: 'Caliza y arenisca' };
+            if (r.includes('país vasco') || r.includes('pais vasco') || r.includes('euskadi')) return { clima: 'Oceánico-atlántico', suelo: 'Caliza y arenisca' };
+            if (r.includes('canarias') || r.includes('lanzarote') || r.includes('tenerife') || r.includes('gran canaria') || r.includes('la palma')) return { clima: 'Subtropical oceánico', suelo: 'Volcánico (lapilli/picón)' };
+            if (r.includes('baleares') || r.includes('mallorca') || r.includes('binissalem')) return { clima: 'Mediterráneo', suelo: 'Caliza y arcilla roja' };
+            if (r.includes('extremadura') || r.includes('ribera del guadiana')) return { clima: 'Mediterráneo continental', suelo: 'Arcilla y granito' };
+            if (r.includes('castilla y león') || r.includes('castilla leon')) return { clima: 'Continental', suelo: 'Caliza, arcilla y arena' };
+            if (r.includes('andaluc') || r.includes('málaga') || r.includes('condado de huelva')) return { clima: 'Mediterráneo cálido', suelo: 'Caliza y arcilla' };
+            if (r.includes('cava')) return { clima: 'Mediterráneo', suelo: 'Caliza y arenas' };
+            // ── FRANCIA ──
+            if (r.includes('burdeos') || r.includes('bordeaux') || r.includes('médoc') || r.includes('medoc') || r.includes('pomerol') || r.includes('saint-émilion') || r.includes('saint-emilion') || r.includes('graves') || r.includes('sauternes') || r.includes('pessac')) return { clima: 'Oceánico templado', suelo: 'Gravas y arcilla' };
+            if (r.includes('borgoña') || r.includes('bourgogne') || r.includes('burgundy') || r.includes('chablis') || r.includes('gevrey') || r.includes('chambolle') || r.includes('vosne') || r.includes('nuits-saint') || r.includes('pommard') || r.includes('puligny') || r.includes('meursault') || r.includes('montrachet') || r.includes('beaune') || r.includes('santenay') || r.includes('mâcon') || r.includes('macon') || r.includes('pouilly-fuissé') || r.includes('chassagne')) return { clima: 'Continental', suelo: 'Caliza y marga' };
+            if (r.includes('champagne') || r.includes('reims') || r.includes('épernay') || r.includes('epernay')) return { clima: 'Oceánico frío', suelo: 'Creta y caliza' };
+            if (r.includes('alsace') || r.includes('alsacia')) return { clima: 'Continental semiárido', suelo: 'Granito, caliza y pizarra' };
+            if (r.includes('côte-rôtie') || r.includes('cote rotie') || r.includes('condrieu') || r.includes('hermitage') || r.includes('crozes') || r.includes('saint-joseph') || r.includes('cornas') || r.includes('saint-péray')) return { clima: 'Continental-mediterráneo', suelo: 'Granito y gneis' };
+            if (r.includes('châteauneuf') || r.includes('chateauneuf') || r.includes('gigondas') || r.includes('vacqueyras') || r.includes('tavel') || r.includes('lirac')) return { clima: 'Mediterráneo cálido', suelo: 'Cantos rodados (galets)' };
+            if (r.includes('ródano') || r.includes('rodano') || r.includes('rhône') || r.includes('rhone')) return { clima: 'Mediterráneo-continental', suelo: 'Granito, caliza y galets' };
+            if (r.includes('loira') || r.includes('loire') || r.includes('pouilly-fumé') || r.includes('sancerre') || r.includes('chinon') || r.includes('vouvray') || r.includes('bourgueil') || r.includes('saumur') || r.includes('anjou') || r.includes('muscadet')) return { clima: 'Oceánico', suelo: 'Sílex, tuffeau y granito' };
+            if (r.includes('provence') || r.includes('provenza') || r.includes('bandol')) return { clima: 'Mediterráneo', suelo: 'Caliza y esquisto' };
+            if (r.includes('languedoc') || r.includes('lenguadoc') || r.includes('roussillon') || r.includes('fitou') || r.includes('corbières') || r.includes('minervois')) return { clima: 'Mediterráneo cálido', suelo: 'Caliza, pizarra y gneis' };
+            if (r.includes('beaujolais') || r.includes('moulin-à-vent') || r.includes('fleurie') || r.includes('morgon')) return { clima: 'Continental-templado', suelo: 'Granito y arcilla' };
+            if (r.includes('jura')) return { clima: 'Continental frío', suelo: 'Marga y caliza azul' };
+            if (r.includes('savoie') || r.includes('saboya')) return { clima: 'Alpino-continental', suelo: 'Caliza y morrena glaciar' };
+            if (r.includes('gascogne') || r.includes('gascuña') || r.includes('jurançon') || r.includes('irouléguy')) return { clima: 'Oceánico-pirenaico', suelo: 'Arcilla, caliza y gravas' };
+            // ── ITALIA ──
+            if (r.includes('piamonte') || r.includes('piemonte') || r.includes('piedmont') || r.includes('barolo') || r.includes('barbaresco') || r.includes('barbera') || r.includes('dolcetto') || r.includes('langhe') || r.includes('monferrato') || r.includes('asti')) return { clima: 'Continental-mediterráneo', suelo: 'Marga calcárea (tufo)' };
+            if (r.includes('toscana') || r.includes('tuscany') || r.includes('chianti') || r.includes('brunello') || r.includes('montalcino') || r.includes('montepulciano') || r.includes('maremma') || r.includes('bolgheri')) return { clima: 'Mediterráneo continental', suelo: 'Caliza, arcilla y galestro' };
+            if (r.includes('véneto') || r.includes('veneto') || r.includes('amarone') || r.includes('valpolicella') || r.includes('soave') || r.includes('prosecco')) return { clima: 'Continental-mediterráneo', suelo: 'Caliza y arcilla' };
+            if (r.includes('friuli') || r.includes('friaul')) return { clima: 'Continental', suelo: 'Ponca (marga y arenisca)' };
+            if (r.includes('etna') || r.includes('sicilia') || r.includes('sicily')) return { clima: 'Mediterráneo cálido', suelo: 'Volcánico (basalto) / Caliza' };
+            if (r.includes('alto adige') || r.includes('südtirol') || r.includes('trentino')) return { clima: 'Alpino-mediterráneo', suelo: 'Caliza, pizarra y pórfido' };
+            if (r.includes('campania')) return { clima: 'Mediterráneo', suelo: 'Volcánico y caliza' };
+            if (r.includes('puglia') || r.includes('apulia')) return { clima: 'Mediterráneo árido', suelo: 'Caliza y arcilla roja' };
+            if (r.includes('umbria') || r.includes('umbría')) return { clima: 'Mediterráneo continental', suelo: 'Arcilla y tiza' };
+            if (r.includes('abruzzo') || r.includes('abruzos')) return { clima: 'Mediterráneo-continental', suelo: 'Arcilla y caliza' };
+            if (r.includes('lombardia') || r.includes('lombardía') || r.includes('franciacorta')) return { clima: 'Continental', suelo: 'Morrena glaciar y arcilla' };
+            // ── PORTUGAL ──
+            if (r.includes('douro') || r.includes('oporto')) return { clima: 'Continental seco', suelo: 'Xisto (pizarra)' };
+            if (r.includes('alentejo')) return { clima: 'Mediterráneo árido', suelo: 'Granito y esquisto' };
+            if (r.includes('vinho verde') || r.includes('minho')) return { clima: 'Oceánico húmedo', suelo: 'Granítico' };
+            if (r.includes('dão') || r.includes('dao')) return { clima: 'Continental', suelo: 'Granito y pizarroso' };
+            if (r.includes('bairrada')) return { clima: 'Oceánico', suelo: 'Arcilla y caliza' };
+            if (r.includes('madeira') || r.includes('madera')) return { clima: 'Oceánico subtropical', suelo: 'Volcánico (basalto)' };
+            if (r.includes('azores') || r.includes('açores')) return { clima: 'Oceánico subtropical', suelo: 'Volcánico (basalto)' };
+            if (r.includes('norte') || r.includes('centro') || r.includes('tejo') || r.includes('lisboa')) return { clima: 'Mediterráneo-atlántico', suelo: 'Arcilla, granito y caliza' };
+            // ── ALEMANIA / AUSTRIA ──
+            if (r.includes('mosel') || r.includes('moselle')) return { clima: 'Continental frío', suelo: 'Pizarra azul (devónica)' };
+            if (r.includes('rheingau') || r.includes('rheinhessen') || r.includes('hesse') || r.includes('nahe') || r.includes('ahr') || r.includes('renania') || r.includes('pfalz') || r.includes('palatinado') || r.includes('württemberg') || r.includes('franken') || r.includes('franconia')) return { clima: 'Continental frío', suelo: 'Pizarra, cuarzo y caliza' };
+            if (r.includes('wachau') || r.includes('kamptal') || r.includes('kremstal') || r.includes('burgenland') || p.includes('austria') || p.includes('österreich')) return { clima: 'Continental-panónico', suelo: 'Loess, gneis y pizarra' };
+            if (p.includes('alemania') || p.includes('germany') || p.includes('deutschland')) return { clima: 'Continental frío', suelo: 'Pizarra y caliza' };
+            // ── HUNGRÍA / OTROS EUROPEOS ──
+            if (r.includes('tokaj') || r.includes('tokay') || r.includes('hegyalja') || p.includes('hungría') || p.includes('hungria') || p.includes('hungary')) return { clima: 'Continental panónico', suelo: 'Arcilla volcánica y caliza' };
+            if (p.includes('georgia') || r.includes('kakheti')) return { clima: 'Continental cálido', suelo: 'Arcilla y suelo aluvial' };
+            if (p.includes('grecia') || p.includes('greece')) return { clima: 'Mediterráneo', suelo: 'Caliza y arcilla' };
+            // ── AMÉRICAS ──
+            if (r.includes('napa') || r.includes('sonoma') || r.includes('paso robles') || r.includes('santa barbara') || r.includes('california')) return { clima: 'Mediterráneo', suelo: 'Variable (volcánico, arcilla)' };
+            if (r.includes('willamette') || r.includes('oregón') || r.includes('oregon')) return { clima: 'Oceánico templado', suelo: 'Arcilla volcánica (Jory)' };
+            if (r.includes('washington') || r.includes('columbia valley') || r.includes('walla walla')) return { clima: 'Continental semiárido', suelo: 'Limo eólico y basalto' };
+            if (r.includes('mendoza') || r.includes('luján de cuyo') || r.includes('maipú') || r.includes('valle de uco')) return { clima: 'Continental árido', suelo: 'Aluvial y arenoso' };
+            if (r.includes('salta') || r.includes('cafayate') || r.includes('patagonia') || r.includes('neuquén') || r.includes('río negro')) return { clima: 'Continental de altitud', suelo: 'Arenoso y pedregoso' };
+            if (r.includes('maipo') || r.includes('colchagua') || r.includes('casablanca') || r.includes('aconcagua') || r.includes('cachapoal') || r.includes('itata') || p.includes('chile')) return { clima: 'Mediterráneo', suelo: 'Aluvial y arcillo-granítico' };
+            // ── AUSTRALIA / NZ / SUDÁFRICA ──
+            if (r.includes('barossa') || r.includes('mclaren vale') || r.includes('coonawarra') || r.includes('eden valley') || r.includes('south australia') || r.includes('australia meridional')) return { clima: 'Mediterráneo', suelo: 'Terra rossa y arcilla' };
+            if (r.includes('yarra') || r.includes('mornington') || r.includes('margaret river') || p.includes('australia')) return { clima: 'Oceánico-mediterráneo', suelo: 'Arcilla y arenisca' };
+            if (r.includes('marlborough') || r.includes('central otago') || r.includes('hawke') || r.includes('isla norte') || r.includes('isla sur') || r.includes('auckland') || p.includes('nueva zelanda') || p.includes('new zealand')) return { clima: 'Oceánico frío', suelo: 'Gravas, limo y arcilla' };
+            if (r.includes('stellenbosch') || r.includes('franschhoek') || r.includes('hemel') || r.includes('swartland') || r.includes('cape') || r.includes('western cape') || r.includes('coastal') || p.includes('sudáfrica') || p.includes('south africa')) return { clima: 'Mediterráneo', suelo: 'Granito y esquisto' };
+            return { clima: '—', suelo: '—' };
+        }
+
         // --- MODAL ---
         const wineModal = document.getElementById('wineModal');
 
@@ -1255,6 +1400,11 @@
             document.getElementById('modalCountry').textContent = fmt(ref.pais);
             document.getElementById('modalYear').textContent = fmt(ref.ano);
             document.getElementById('modalFormat').textContent = fmt(ref.formato?.etiqueta);
+
+            // Terroir cards
+            const terroir = getTerroirInfo(ref.region, ref.pais);
+            document.getElementById('modalClima').textContent = terroir.clima;
+            document.getElementById('modalSuelo').textContent = terroir.suelo;
 
             // Establishment table
             EST_KEYS.forEach(k => {

@@ -591,10 +591,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Viognier"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -634,10 +633,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Viognier"
+      "Torrontés"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -675,7 +673,7 @@
       "Chardonnay",
       "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -888,10 +886,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
       "Riesling"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -931,10 +928,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Palomino",
-      "Pedro Ximénez"
+      "Palomino Fino"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -974,10 +970,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Palomino",
-      "Pedro Ximénez"
+      "Palomino Fino"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1017,10 +1012,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha Blanca",
-      "Macabeo"
+      "Garnacha Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1065,7 +1059,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Garnacha Blanca"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -1139,10 +1133,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha Blanca",
-      "Macabeo"
+      "Garnacha Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1344,11 +1337,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Listán Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1383,11 +1374,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Listán Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1427,11 +1416,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Listán Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1471,11 +1458,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Diego"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1511,10 +1496,10 @@
     },
     "uvas": [
       "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Marmajuelo",
+      "Vijariego Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1554,11 +1539,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Listán Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1635,11 +1618,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
       "Marmajuelo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1674,11 +1655,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Listán Blanco",
-      "Malvasía",
-      "Marmajuelo"
+      "Vijariego Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1714,10 +1693,9 @@
     },
     "uvas": [
       "Listán Blanco",
-      "Malvasía",
       "Marmajuelo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1805,10 +1783,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Doña Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1848,10 +1825,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Doña Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1891,10 +1867,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1929,10 +1904,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -1972,10 +1946,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2015,10 +1988,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2058,10 +2030,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2096,10 +2067,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2134,10 +2104,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2172,10 +2141,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2210,10 +2178,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2240,7 +2207,7 @@
     "pod": "POD019725",
     "descripcion": "Cuarto Lagar 21-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Ribera del Duero",
     "bodega": "Cuarto Lagar",
     "ano": 2021,
     "tipo": {
@@ -2253,10 +2220,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2292,9 +2258,9 @@
     },
     "uvas": [
       "Verdejo",
-      "Sauvignon Blanc"
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2334,10 +2300,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2372,10 +2337,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2410,10 +2374,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2448,10 +2411,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2491,10 +2453,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2529,10 +2490,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2614,10 +2574,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2736,10 +2695,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2779,10 +2737,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2817,10 +2774,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2860,10 +2816,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2898,10 +2853,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2928,7 +2882,7 @@
     "pod": "POD016116",
     "descripcion": "San Roman Malvasia 22-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Toro",
     "bodega": "San Román",
     "ano": 2022,
     "tipo": {
@@ -2941,10 +2895,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -2976,7 +2929,7 @@
     "pod": "POD017772",
     "descripcion": "Sangarida La Guiana BL 22-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Sangarida",
     "ano": 2022,
     "tipo": {
@@ -2989,10 +2942,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3019,7 +2971,7 @@
     "pod": "POD017773",
     "descripcion": "Sangarida La Yegua 22-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Sangarida",
     "ano": 2022,
     "tipo": {
@@ -3032,10 +2984,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Godello",
+      "Doña Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3075,10 +3027,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3113,10 +3064,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3151,10 +3101,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Verdejo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3176,7 +3125,7 @@
     "pod": "POD017677",
     "descripcion": "Territorio Luthier 2021-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Ribera del Duero",
     "bodega": "Territorio Luthier",
     "ano": 2021,
     "tipo": {
@@ -3189,10 +3138,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3264,10 +3212,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3302,10 +3249,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Verdejo",
-      "Sauvignon Blanc"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3340,10 +3286,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Airén",
-      "Macabeo"
+      "Airén"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3378,10 +3323,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Airén",
-      "Macabeo"
+      "Albillo Real"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3422,10 +3366,9 @@
     },
     "uvas": [
       "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3497,11 +3440,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Sauvignon Blanc",
+      "Sémillon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3541,11 +3483,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
       "Macabeo",
-      "Xarel·lo"
+      "Chardonnay",
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3585,11 +3527,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca",
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3629,11 +3570,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3673,11 +3612,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3717,11 +3654,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
+      "Garnacha Blanca",
       "Macabeo",
-      "Xarel·lo"
+      "Pedro Ximénez"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3761,11 +3698,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3805,11 +3740,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca",
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3849,11 +3783,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca",
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3893,11 +3826,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca",
+      "Pedro Ximénez",
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3932,11 +3865,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -3976,11 +3907,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
+      "Garnacha Blanca",
       "Macabeo",
-      "Xarel·lo"
+      "Pedro Ximénez"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4020,11 +3951,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4064,11 +3993,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4103,11 +4030,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4142,11 +4067,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Macabeo",
-      "Xarel·lo"
+      "Garnacha Blanca",
+      "Pedro Ximénez"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4186,11 +4110,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
+      "Garnacha Blanca",
       "Macabeo",
-      "Xarel·lo"
+      "Pedro Ximénez"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4267,10 +4191,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Merseguera",
-      "Macabeo"
+      "Merseguera"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4311,9 +4234,9 @@
     },
     "uvas": [
       "Merseguera",
-      "Macabeo"
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4390,11 +4313,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4439,11 +4360,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4478,11 +4397,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4517,11 +4434,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4556,11 +4471,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4595,11 +4508,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4634,11 +4545,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4678,11 +4587,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4717,11 +4624,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4761,11 +4666,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Caiño Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4800,11 +4703,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Loureiro",
       "Albariño",
-      "Godello",
-      "Treixadura"
+      "Caiño Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4839,11 +4742,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4883,11 +4784,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4927,11 +4826,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -4976,11 +4873,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5015,11 +4910,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
+      "Treixadura",
+      "Torrontés",
       "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5091,11 +4987,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5135,11 +5029,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
+      "Treixadura",
       "Godello",
-      "Treixadura"
+      "Torrontés"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5174,11 +5068,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5223,11 +5115,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
       "Godello",
       "Treixadura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5262,11 +5153,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
       "Godello",
+      "Lado",
       "Treixadura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5301,11 +5192,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
       "Godello",
+      "Lado",
       "Treixadura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5345,11 +5236,13 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Treixadura",
+      "Torrontés",
+      "Lado",
+      "Loureiro",
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5384,11 +5277,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5423,11 +5314,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
+      "Treixadura",
       "Godello",
-      "Treixadura"
+      "Torrontés"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5462,11 +5353,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
       "Godello",
-      "Treixadura"
+      "Doña Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5501,11 +5391,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5540,11 +5428,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5579,11 +5465,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5618,11 +5502,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Caiño Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5657,11 +5539,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Caiño Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5696,11 +5576,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
+      "Treixadura",
       "Godello",
-      "Treixadura"
+      "Loureiro",
+      "Torrontés"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5740,11 +5621,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
       "Godello",
-      "Treixadura"
+      "Treixadura",
+      "Doña Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5779,11 +5660,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5818,11 +5697,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5862,11 +5739,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5906,11 +5781,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5945,11 +5818,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -5984,11 +5855,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6033,11 +5902,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6072,11 +5939,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6111,11 +5976,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6150,11 +6013,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Treixadura",
+      "Torrontés",
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6189,11 +6052,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6233,11 +6094,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6272,11 +6131,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6311,11 +6168,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6350,11 +6205,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6438,11 +6291,13 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Treixadura",
+      "Torrontés",
       "Albariño",
-      "Godello",
-      "Treixadura"
+      "Loureiro",
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6477,11 +6332,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6516,11 +6369,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6555,11 +6406,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6604,11 +6453,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Albariño"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6643,11 +6490,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Albariño",
-      "Godello",
-      "Treixadura"
+      "Godello"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -6993,10 +6838,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Macabeo",
-      "Airén"
+      "Merseguera",
+      "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7073,10 +6918,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
+      "Garnacha Blanca",
       "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7111,10 +6956,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Viura"
+      "Garnacha Blanca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7238,11 +7082,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7319,11 +7161,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7368,7 +7208,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Viura",
+      "Malvasia Riojana"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -7415,11 +7256,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7454,11 +7293,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7499,10 +7336,10 @@
     },
     "uvas": [
       "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Garnacha Blanca",
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7544,9 +7381,10 @@
     "uvas": [
       "Viura",
       "Malvasía",
-      "Garnacha Blanca"
+      "Garnacha Blanca",
+      "Tempranillo Blanco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7581,11 +7419,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7626,10 +7462,9 @@
     },
     "uvas": [
       "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7675,10 +7510,9 @@
     },
     "uvas": [
       "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7718,11 +7552,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7757,11 +7589,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7796,11 +7626,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7836,10 +7664,14 @@
     },
     "uvas": [
       "Viura",
+      "Garnacha Blanca",
       "Malvasía",
-      "Garnacha Blanca"
+      "Roussanne",
+      "Marsanne",
+      "Sauvignon Blanc",
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7885,10 +7717,9 @@
     },
     "uvas": [
       "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7928,11 +7759,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -7972,11 +7801,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8021,11 +7848,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Viura"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8061,10 +7886,9 @@
     },
     "uvas": [
       "Viura",
-      "Malvasía",
-      "Garnacha Blanca"
+      "Malvasía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8136,10 +7960,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
       "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8174,10 +7997,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Sauvignon Blanc"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8523,10 +8345,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Sauvignon Blanc"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8598,10 +8419,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Roussanne",
       "Chardonnay",
-      "Sauvignon Blanc"
+      "Viognier",
+      "Grenache Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8786,7 +8609,7 @@
     "uvas": [
       "Riesling"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8823,7 +8646,7 @@
     "uvas": [
       "Riesling"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8860,7 +8683,7 @@
     "uvas": [
       "Riesling"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -8907,7 +8730,7 @@
     "uvas": [
       "Riesling"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -16870,10 +16693,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
       "Savagnin"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -16908,10 +16730,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
       "Savagnin"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -16949,7 +16770,7 @@
       "Chardonnay",
       "Savagnin"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17063,10 +16884,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
       "Savagnin"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17111,11 +16931,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache Blanc",
-      "Roussanne",
-      "Marsanne"
+      "Chardonnay",
+      "Viognier",
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17151,10 +16971,10 @@
     },
     "uvas": [
       "Grenache Blanc",
-      "Roussanne",
-      "Marsanne"
+      "Vermentino",
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17226,9 +17046,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17302,7 +17122,7 @@
     "uvas": [
       "Chenin Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17339,7 +17159,7 @@
     "uvas": [
       "Chenin Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17374,9 +17194,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17416,9 +17236,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17458,9 +17278,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17500,9 +17320,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17542,9 +17362,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17584,9 +17404,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17626,9 +17446,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17673,9 +17493,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17710,9 +17530,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17823,7 +17643,7 @@
     "uvas": [
       "Chenin Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17865,7 +17685,7 @@
     "uvas": [
       "Chenin Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17947,9 +17767,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -17989,9 +17809,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18073,11 +17893,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Marsanne"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18431,11 +18249,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Marsanne"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18470,11 +18286,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Marsanne"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18597,11 +18411,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Grenache Blanc",
+      "Clairette",
+      "Bourboulenc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18636,11 +18450,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
       "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18675,11 +18487,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
       "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18837,11 +18647,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
+      "Grenache Blanc",
+      "Clairette",
       "Roussanne",
-      "Viognier"
+      "Bourboulenc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18876,11 +18687,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Grenache",
+      "Mourvèdre",
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18915,11 +18726,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Grenache Blanc",
+      "Clairette",
+      "Roussanne"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -18955,10 +18766,9 @@
     },
     "uvas": [
       "Marsanne",
-      "Roussanne",
-      "Viognier"
+      "Roussanne"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19249,10 +19059,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Fiano",
-      "Greco di Tufo"
+      "Fiano"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19292,10 +19101,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Fiano",
-      "Greco di Tufo"
+      "Fiano"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19330,10 +19138,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Fiano",
-      "Greco di Tufo"
+      "Greco"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19415,10 +19222,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Arneis",
-      "Cortese"
+      "Nascetta"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19495,10 +19301,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Arneis",
-      "Cortese"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19538,10 +19343,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Arneis",
-      "Cortese"
+      "Chardonnay",
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19618,10 +19423,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Arneis",
-      "Cortese"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19782,10 +19586,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grillo",
-      "Catarratto"
+      "Carricante"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19820,10 +19623,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grillo",
-      "Catarratto"
+      "Carricante"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19863,10 +19665,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grillo",
-      "Catarratto"
+      "Carricante"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19906,10 +19707,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grillo",
-      "Catarratto"
+      "Carricante"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -19992,10 +19792,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Trebbiano",
-      "Malvasia"
+      "Vermentino",
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -20035,10 +19835,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Trebbiano",
-      "Malvasia"
+      "Vernaccia"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -20125,11 +19924,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Grigio",
-      "Gewürztraminer",
-      "Riesling"
+      "Kerner"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -20164,11 +19961,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Grigio",
-      "Gewürztraminer",
-      "Riesling"
+      "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -20289,7 +20084,7 @@
     "uvas": [
       "Garganega"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -20966,9 +20761,10 @@
     "uvas": [
       "Rabigato",
       "Viosinho",
-      "Gouveio"
+      "Gouveio",
+      "Arinto"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21055,9 +20851,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chenin Blanc"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21225,7 +21021,7 @@
     "uvas": [
       "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21321,7 +21117,7 @@
       "Verdejo",
       "Sauvignon Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21359,7 +21155,7 @@
       "Sauvignon Blanc",
       "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21481,7 +21277,7 @@
       "Albillo Real",
       "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21516,9 +21312,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Monastrell"
+      "Albillo Real"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21792,10 +21588,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Vernaccia",
-      "Trebbiano"
+      "Vernaccia"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21830,10 +21625,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
       "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -21979,10 +21773,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
       "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -22180,10 +21973,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
       "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -22292,10 +22084,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Chardonnay",
-      "Pinot Noir"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -22330,9 +22121,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo",
-      "Garnacha",
-      "Graciano"
+      "Viura"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -22450,7 +22239,7 @@
     "uvas": [
       "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -22561,7 +22350,7 @@
       "Pedro Ximénez",
       "Moscatel"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -22749,10 +22538,9 @@
       "etiqueta": "Media botella (50cl)"
     },
     "uvas": [
-      "Pedro Ximénez",
-      "Moscatel"
+      "Moscatel de Alejandría"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -24245,8 +24033,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Macabeo",
       "Xarel·lo",
+      "Macabeo",
       "Parellada"
     ],
     "uvas_confianza": "alta",
@@ -28783,9 +28571,9 @@
       "etiqueta": "Media botella (50cl)"
     },
     "uvas": [
-      "Palomino"
+      "Palomino Fino"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -29729,7 +29517,7 @@
       "Tempranillo",
       "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -29770,9 +29558,10 @@
     },
     "uvas": [
       "Tempranillo",
+      "Albillo Mayor",
       "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -29817,10 +29606,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo",
-      "Garnacha"
+      "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -29852,7 +29640,7 @@
     "pod": "POD019724",
     "descripcion": "Palito V Clarete 24-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Ribera del Duero",
     "bodega": "Cuarto Lagar",
     "ano": 2024,
     "tipo": {
@@ -29866,9 +29654,9 @@
     },
     "uvas": [
       "Tempranillo",
-      "Garnacha"
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -29904,9 +29692,9 @@
     },
     "uvas": [
       "Tempranillo",
-      "Garnacha"
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -29938,7 +29726,7 @@
     "pod": "POD014990",
     "descripcion": "Territorio Luthier Clarete 2020-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Ribera del Duero",
     "bodega": "Territorio Luthier",
     "ano": 2020,
     "tipo": {
@@ -29952,9 +29740,9 @@
     },
     "uvas": [
       "Tempranillo",
-      "Garnacha"
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30000,9 +29788,9 @@
     },
     "uvas": [
       "Garnacha",
-      "Cariñena"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30045,7 +29833,7 @@
       "Callet",
       "Mantonegro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30356,11 +30144,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cinsault",
       "Grenache",
-      "Syrah"
+      "Cinsault",
+      "Syrah",
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30400,11 +30189,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cinsault",
       "Grenache",
-      "Syrah"
+      "Cinsault",
+      "Vermentino"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30493,11 +30282,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Cinsault"
+      "Grenache",
+      "Cinsault",
+      "Rolle"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30664,11 +30453,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Cinsault",
+      "Grenache",
       "Syrah",
-      "Cinsault"
+      "Rolle"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30708,11 +30498,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Cinsault"
+      "Grenache",
+      "Cinsault",
+      "Cabernet Sauvignon",
+      "Tibouren"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30883,7 +30674,7 @@
     "uvas": [
       "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30919,9 +30710,9 @@
     },
     "uvas": [
       "Malbec",
-      "Cabernet Sauvignon"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30956,10 +30747,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Cabernet Sauvignon",
       "Malbec",
-      "Cabernet Sauvignon"
+      "Petit Verdot",
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -30999,10 +30792,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31089,10 +30881,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31138,9 +30929,9 @@
     },
     "uvas": [
       "Malbec",
-      "Cabernet Sauvignon"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31180,10 +30971,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31209,8 +30999,8 @@
     "bodega": "PerSe",
     "ano": 2022,
     "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
+      "codigo": "BL",
+      "nombre": "Blanco"
     },
     "formato": {
       "cl": 75,
@@ -31218,10 +31008,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Chardonnay"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31257,9 +31046,10 @@
     },
     "uvas": [
       "Malbec",
-      "Cabernet Sauvignon"
+      "Cabernet Sauvignon",
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31294,10 +31084,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31338,9 +31127,10 @@
     },
     "uvas": [
       "Malbec",
+      "Cabernet Franc",
       "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31376,9 +31166,9 @@
     },
     "uvas": [
       "Malbec",
-      "Cabernet Sauvignon"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31418,10 +31208,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31498,10 +31287,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31536,10 +31324,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31584,10 +31371,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31627,10 +31413,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Malbec",
-      "Cabernet Sauvignon"
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31801,6 +31586,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Cabernet Sauvignon",
       "Shiraz"
     ],
     "uvas_confianza": "alta",
@@ -31838,10 +31624,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
       "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31876,10 +31661,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Shiraz"
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -31956,10 +31740,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Shiraz"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32002,7 +31785,7 @@
       "Shiraz",
       "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32037,10 +31820,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Grenache",
       "Shiraz",
-      "Cabernet Sauvignon"
+      "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32076,9 +31860,9 @@
     },
     "uvas": [
       "Shiraz",
-      "Cabernet Sauvignon"
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32113,10 +31897,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Shiraz"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32152,9 +31935,9 @@
     },
     "uvas": [
       "Shiraz",
-      "Cabernet Sauvignon"
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32194,10 +31977,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32237,10 +32019,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32275,10 +32056,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32319,9 +32099,9 @@
     },
     "uvas": [
       "Shiraz",
-      "Cabernet Sauvignon"
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32362,9 +32142,9 @@
     },
     "uvas": [
       "Shiraz",
-      "Cabernet Sauvignon"
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32409,10 +32189,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Shiraz"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32447,10 +32226,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Shiraz",
-      "Cabernet Sauvignon"
+      "Shiraz"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32610,11 +32388,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32649,11 +32425,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32688,11 +32462,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32727,11 +32499,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32767,10 +32537,10 @@
     },
     "uvas": [
       "Callet",
-      "Mantonegro",
-      "Merlot"
+      "Fogoneu",
+      "Mantonegro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32806,10 +32576,9 @@
     },
     "uvas": [
       "Callet",
-      "Mantonegro",
-      "Merlot"
+      "Mantonegro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32849,9 +32618,9 @@
       "etiqueta": "Media botella (37,5cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32896,9 +32665,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon",
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32945,7 +32716,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -32990,9 +32761,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33039,7 +32813,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33133,7 +32907,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33178,9 +32952,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33225,9 +32999,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33272,9 +33046,11 @@
       "etiqueta": "Media botella (37,5cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon",
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33319,9 +33095,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon",
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33361,9 +33139,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33398,9 +33176,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33489,7 +33267,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33516,7 +33294,7 @@
     "pod": "POD019640",
     "descripcion": "Alvar de Dios Aciano 21-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Toro",
     "bodega": "Alvar de Dios",
     "ano": 2021,
     "tipo": {
@@ -33529,9 +33307,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33568,7 +33346,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33610,7 +33388,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33652,7 +33430,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33694,7 +33472,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33741,7 +33519,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33778,7 +33556,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33813,9 +33591,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33860,9 +33639,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -33996,9 +33776,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Syrah",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34040,7 +33822,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34082,7 +33864,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34124,7 +33906,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34169,9 +33951,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34216,9 +33998,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34258,9 +34040,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Merlot",
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34307,7 +34091,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34354,7 +34138,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34399,9 +34183,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34441,9 +34225,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34480,7 +34264,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34527,7 +34311,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34572,9 +34356,9 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34666,9 +34450,9 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34750,9 +34534,9 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34797,9 +34581,9 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -34938,9 +34722,9 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -35051,7 +34835,7 @@
     "pod": "POD019658",
     "descripcion": "Dominio de Anza El Rapolao 24-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Dominio de Anza",
     "ano": 2024,
     "tipo": {
@@ -35064,7 +34848,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -35093,7 +34877,7 @@
     "pod": "POD019647",
     "descripcion": "Dominio de Anza Parcelas 23-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Dominio de Anza",
     "ano": 2023,
     "tipo": {
@@ -35106,7 +34890,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -35135,7 +34919,7 @@
     "pod": "POD019753",
     "descripcion": "Dominio de Anza Parcelas 24-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Dominio de Anza",
     "ano": 2024,
     "tipo": {
@@ -35148,7 +34932,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -35172,7 +34956,7 @@
     "pod": "POD019660",
     "descripcion": "Dominio de Anza Valdehorta 24-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Dominio de Anza",
     "ano": 2024,
     "tipo": {
@@ -35185,7 +34969,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -35669,7 +35453,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -35706,7 +35490,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -35746,9 +35530,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -35978,7 +35764,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36018,9 +35804,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36052,7 +35841,7 @@
     "pod": "POD015343",
     "descripcion": "Hispania Territorio Luthier TO 21-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Ribera del Duero",
     "bodega": "Territorio Luthier",
     "ano": 2021,
     "tipo": {
@@ -36067,7 +35856,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36102,9 +35891,9 @@
       "etiqueta": "Jeroboam (500cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36243,9 +36032,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36290,9 +36079,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36337,9 +36126,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36384,9 +36173,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36458,9 +36247,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36579,9 +36368,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36621,9 +36410,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36658,9 +36447,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36700,9 +36489,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36742,9 +36531,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36786,7 +36575,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36833,7 +36622,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36865,7 +36654,7 @@
     "pod": "POD017301",
     "descripcion": "Massuria 20-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Mas Asturias",
     "ano": 2020,
     "tipo": {
@@ -36878,9 +36667,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36922,7 +36711,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -36969,7 +36758,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37016,7 +36805,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37061,9 +36850,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37155,9 +36944,10 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37204,7 +36994,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37484,9 +37274,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37578,9 +37368,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37625,9 +37415,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37674,7 +37464,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37719,9 +37509,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37766,9 +37556,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37862,7 +37652,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37907,9 +37697,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -37991,9 +37781,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38117,9 +37907,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38159,9 +37949,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38201,9 +37991,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38250,7 +38040,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38290,9 +38080,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38319,7 +38109,7 @@
     "pod": "POD018763",
     "descripcion": "Oxer B Kuusu 23-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Toro",
     "bodega": "Oxer Bastegieta",
     "ano": 2023,
     "tipo": {
@@ -38332,9 +38122,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro",
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38371,7 +38162,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38505,9 +38296,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38554,7 +38346,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38735,9 +38527,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38782,9 +38574,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38829,9 +38621,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38863,7 +38655,7 @@
     "pod": "POD018743",
     "descripcion": "Pradio 22-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Ribeira Sacra",
     "bodega": "Familia Seoane Novelle",
     "ano": 2022,
     "tipo": {
@@ -38876,9 +38668,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38913,9 +38705,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Garnacha",
+      "Albillo Mayor"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38955,9 +38749,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -38979,7 +38773,7 @@
     "pod": "POD019144",
     "descripcion": "Raul Perez La Muria 23-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Raúl Pérez",
     "ano": 2023,
     "tipo": {
@@ -38992,9 +38786,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39034,9 +38828,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39071,9 +38865,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39095,7 +38889,7 @@
     "pod": "POD019145",
     "descripcion": "Raul Perez Viariz La Muria 23-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Raúl Pérez",
     "ano": 2023,
     "tipo": {
@@ -39108,9 +38902,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39152,7 +38946,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39199,7 +38993,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39246,7 +39040,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39293,7 +39087,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39333,9 +39127,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39370,9 +39164,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39456,7 +39250,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39488,7 +39282,7 @@
     "pod": "POD016570",
     "descripcion": "Sangarida El Morredero TO 22-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Sangarida",
     "ano": 2022,
     "tipo": {
@@ -39501,9 +39295,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39525,7 +39319,7 @@
     "pod": "POD016562",
     "descripcion": "Sangarida Pico Tuerto TO 21-",
     "pais": "España",
-    "region": "Castilla y León",
+    "region": "Bierzo",
     "bodega": "Sangarida",
     "ano": 2021,
     "tipo": {
@@ -39538,9 +39332,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39582,7 +39376,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39617,9 +39411,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tinta de Toro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39664,9 +39458,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39701,9 +39496,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Tempranillo",
+      "Merlot",
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39743,9 +39540,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39834,7 +39631,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39881,7 +39678,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -39923,7 +39720,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40203,9 +40000,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40245,9 +40042,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo"
+      "Mencía"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40284,7 +40081,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40324,11 +40121,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo",
-      "Garnacha",
-      "Cabernet Sauvignon"
+      "Bobal",
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40451,9 +40247,11 @@
     "uvas": [
       "Garnacha",
       "Cariñena",
-      "Syrah"
+      "Syrah",
+      "Cabernet Sauvignon",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40694,7 +40492,7 @@
       "Cariñena",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -40729,11 +40527,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41036,11 +40832,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Cariñena",
-      "Syrah"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41701,11 +41496,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41789,10 +41582,9 @@
     },
     "uvas": [
       "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41831,7 +41623,7 @@
       "Cariñena",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41871,11 +41663,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Cariñena",
-      "Syrah"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41920,11 +41711,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Cariñena",
-      "Syrah"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -41960,10 +41750,9 @@
     },
     "uvas": [
       "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42004,10 +41793,9 @@
     },
     "uvas": [
       "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42531,10 +42319,9 @@
     },
     "uvas": [
       "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42573,7 +42360,7 @@
       "Cariñena",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42619,10 +42406,10 @@
     },
     "uvas": [
       "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Syrah",
+      "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42657,11 +42444,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Cariñena",
-      "Syrah"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42696,11 +42481,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Monastrell",
-      "Garnacha",
-      "Tempranillo"
+      "Mandó",
+      "Garnacha Tintorera",
+      "Monastrell"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42735,11 +42520,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Monastrell",
-      "Garnacha",
-      "Tempranillo"
+      "Bobal"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42779,11 +42562,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Monastrell",
-      "Garnacha",
-      "Tempranillo"
+      "Bobal"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42823,11 +42604,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Monastrell",
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha Tintorera"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42867,11 +42646,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Monastrell",
-      "Garnacha",
-      "Tempranillo"
+      "Bobal"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42912,10 +42689,9 @@
     },
     "uvas": [
       "Tempranillo",
-      "Garnacha",
-      "Cabernet Sauvignon"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42951,10 +42727,9 @@
     },
     "uvas": [
       "Tempranillo",
-      "Garnacha",
-      "Cabernet Sauvignon"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -42993,7 +42768,7 @@
       "Garnacha",
       "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43078,7 +42853,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43113,10 +42888,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Mencía",
-      "Brancellao"
+      "Caiño Tinto"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43156,10 +42930,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Mencía",
-      "Brancellao"
+      "Espadeiro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43202,7 +42975,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43240,7 +43013,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43283,7 +43056,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43321,7 +43094,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43369,7 +43142,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43404,10 +43177,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Mencía",
-      "Brancellao"
+      "Merenzao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43442,10 +43214,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Mencía",
-      "Brancellao"
+      "Caiño Tinto"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43483,7 +43254,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43521,7 +43292,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43564,7 +43335,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43607,7 +43378,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43645,7 +43416,7 @@
       "Mencía",
       "Brancellao"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43685,10 +43456,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43728,10 +43498,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43771,10 +43540,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43814,10 +43582,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43862,10 +43629,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43905,10 +43671,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43948,10 +43713,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -43991,10 +43755,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44039,10 +43802,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44087,10 +43849,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44130,10 +43891,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44173,10 +43933,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44211,10 +43970,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44254,10 +44012,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44292,10 +44049,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44340,10 +44096,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44378,10 +44133,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44426,10 +44180,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44469,10 +44222,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Tempranillo"
+      "Garnacha"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44507,7 +44259,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Monastrell"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44549,7 +44301,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Monastrell"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44595,7 +44347,7 @@
       "Cabernet Sauvignon",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44634,7 +44386,7 @@
       "Cabernet Sauvignon",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44675,10 +44427,10 @@
     },
     "uvas": [
       "Monastrell",
-      "Cabernet Sauvignon",
+      "Garnacha Tintorera",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44717,7 +44469,7 @@
       "Cabernet Sauvignon",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -44761,7 +44513,7 @@
       "Cabernet Sauvignon",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -46761,7 +46513,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Tempranillo",
+      "Graciano",
+      "Mazuelo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -46808,7 +46562,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Tempranillo",
+      "Graciano",
+      "Mazuelo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -46855,7 +46611,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Tempranillo",
+      "Graciano",
+      "Mazuelo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -47477,7 +47235,9 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Tempranillo",
+      "Graciano",
+      "Mazuelo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -49568,7 +49328,9 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Moscato Bianco"
+      "Tempranillo",
+      "Graciano",
+      "Mazuelo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -52276,9 +52038,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tempranillo",
-      "Garnacha",
-      "Graciano"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -52723,10 +52483,11 @@
     },
     "uvas": [
       "Cabernet Sauvignon",
+      "Cabernet Franc",
       "Merlot",
-      "Syrah"
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -52761,11 +52522,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -52800,11 +52559,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -52891,11 +52648,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -52940,11 +52695,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -52979,11 +52733,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53019,10 +52771,10 @@
     },
     "uvas": [
       "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53059,9 +52811,10 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53098,9 +52851,10 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53135,11 +52889,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53248,11 +53000,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53289,9 +53039,10 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53326,11 +53077,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53367,9 +53117,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53406,9 +53156,11 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot",
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53445,9 +53197,11 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot",
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53484,9 +53238,11 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot",
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53522,10 +53278,11 @@
     },
     "uvas": [
       "Cabernet Sauvignon",
+      "Cabernet Franc",
       "Merlot",
-      "Syrah"
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53561,10 +53318,11 @@
     },
     "uvas": [
       "Cabernet Sauvignon",
+      "Cabernet Franc",
       "Merlot",
-      "Syrah"
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53600,10 +53358,11 @@
     },
     "uvas": [
       "Cabernet Sauvignon",
+      "Cabernet Franc",
       "Merlot",
-      "Syrah"
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53796,11 +53555,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53837,9 +53594,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53876,9 +53633,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53915,9 +53672,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53954,9 +53711,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -53993,9 +53750,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54032,9 +53789,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54071,9 +53828,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54110,9 +53867,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54149,9 +53906,9 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54186,11 +53943,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54489,11 +54247,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54528,11 +54284,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
+      "Grenache",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -54715,11 +54470,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -55050,11 +54803,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Syrah",
+      "Grenache",
+      "Roussanne"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -55089,11 +54842,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Syrah"
+      "Syrah",
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -55276,11 +55028,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Merlot",
+      "Grenache",
       "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -55316,10 +55067,11 @@
     },
     "uvas": [
       "Cabernet Sauvignon",
+      "Cabernet Franc",
       "Merlot",
-      "Syrah"
+      "Petit Verdot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76605,11 +76357,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
-      "Poulsard",
-      "Trousseau"
+      "Poulsard"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76649,11 +76399,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
-      "Poulsard",
-      "Trousseau"
+      "Poulsard"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76688,11 +76436,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache",
+      "Carignan"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76727,11 +76474,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache",
+      "Carignan",
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76766,11 +76513,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Syrah",
-      "Mourvèdre"
+      "Mourvèdre",
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76805,11 +76552,12 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
-      "Mourvèdre"
+      "Mourvèdre",
+      "Carignan"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76844,11 +76592,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76885,7 +76633,7 @@
     "uvas": [
       "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76920,10 +76668,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76958,10 +76705,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -76996,10 +76742,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77036,7 +76781,7 @@
     "uvas": [
       "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77071,10 +76816,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77109,10 +76853,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77147,10 +76890,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77185,10 +76927,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Franc",
-      "Gamay"
+      "Cabernet Franc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77272,11 +77013,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77385,11 +77126,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77434,11 +77175,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77483,11 +77222,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77522,11 +77259,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77571,11 +77306,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77615,11 +77350,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache Blanc",
+      "Marsanne",
+      "Clairette"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77654,11 +77389,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77732,11 +77467,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77771,11 +77504,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77810,11 +77541,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77849,11 +77578,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -77935,11 +77662,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78018,11 +77744,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78057,11 +77783,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78096,11 +77822,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Syrah",
-      "Mourvèdre"
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78172,11 +77897,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78211,11 +77934,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78326,11 +78047,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78375,11 +78094,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78424,11 +78141,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78468,11 +78183,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
-      "Syrah",
-      "Mourvèdre"
+      "Syrah"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -78752,11 +78465,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79349,9 +79062,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nebbiolo"
+      "Barbera"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79386,9 +79099,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nebbiolo"
+      "Barbera"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79423,9 +79136,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nebbiolo"
+      "Barbera"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79509,7 +79222,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79803,7 +79516,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79919,7 +79632,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -79956,7 +79669,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -80613,7 +80326,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -80650,7 +80363,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -80917,7 +80630,7 @@
     "uvas": [
       "Nebbiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81036,9 +80749,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nebbiolo"
+      "Riesling"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81150,7 +80863,7 @@
       "Nero d'Avola",
       "Nerello Mascalese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81185,9 +80898,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nero d'Avola"
+      "Frappato"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81264,9 +80977,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nero d'Avola"
+      "Nerello Mascalese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81301,9 +81014,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nero d'Avola"
+      "Nerello Mascalese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81343,9 +81056,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nero d'Avola"
+      "Nerello Mascalese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81385,9 +81098,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Nero d'Avola"
+      "Nerello Mascalese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81509,7 +81222,7 @@
     "uvas": [
       "Sangiovese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -81744,9 +81457,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Sangiovese"
+      "Sangiovese Grosso"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -82054,9 +81767,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Sangiovese"
+      "Sangiovese",
+      "Canaiolo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -82138,9 +81852,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Sangiovese"
+      "Sangiovese",
+      "Canaiolo",
+      "Colorino"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -82307,9 +82023,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Sangiovese"
+      "Sangiovese Grosso"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -82862,9 +82578,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Sangiovese"
+      "Cabernet Sauvignon",
+      "Merlot"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -82904,8 +82621,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
+      "Sangiovese",
       "Cabernet Sauvignon",
-      "Sangiovese"
+      "Cabernet Franc"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -83235,7 +82953,7 @@
     "uvas": [
       "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83275,9 +82993,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir"
+      "Chenin Blanc"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83351,9 +83069,10 @@
     },
     "uvas": [
       "Baga",
-      "Touriga Nacional"
+      "Bical",
+      "Maria Gomes"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83388,10 +83107,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Baga",
-      "Touriga Nacional"
+      "Baga"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83426,10 +83144,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Baga",
-      "Touriga Nacional"
+      "Baga"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83466,9 +83183,10 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Barroca"
+      "Tinta Barroca",
+      "Tinta Roriz"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83505,9 +83223,10 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
+      "Tinta Roriz",
       "Tinta Barroca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83544,9 +83263,9 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Barroca"
+      "Tinta Roriz"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83582,10 +83301,11 @@
     },
     "uvas": [
       "Touriga Nacional",
-      "Touriga Franca",
-      "Tinta Barroca"
+      "Tinta Roriz",
+      "Tinta Amarela",
+      "Touriga Franca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83622,9 +83342,10 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Barroca"
+      "Tinta Roriz",
+      "Tinta Amarela"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83671,9 +83392,11 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Barroca"
+      "Tinta Roriz",
+      "Tinta Barroca",
+      "Tinta Amarela"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83719,10 +83442,10 @@
     },
     "uvas": [
       "Touriga Nacional",
-      "Touriga Franca",
-      "Tinta Barroca"
+      "Tinta Roriz",
+      "Touriga Franca"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -83851,11 +83574,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Shiraz",
-      "Merlot"
+      "Syrah",
+      "Grenache",
+      "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -84152,11 +83875,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Cabernet Sauvignon",
-      "Shiraz",
-      "Merlot"
+      "Syrah",
+      "Cinsault",
+      "Grenache"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -84285,11 +84008,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
+      "Grenache",
       "Syrah",
       "Mourvèdre"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -84324,11 +84047,11 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Syrah",
-      "Mourvèdre"
+      "Mourvèdre",
+      "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -84704,10 +84427,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
-      "Chardonnay"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -84747,10 +84469,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
-      "Chardonnay"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -84829,10 +84550,9 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Pinot Noir",
-      "Chardonnay"
+      "Pinot Noir"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85240,9 +84960,10 @@
     },
     "uvas": [
       "Callet",
+      "Fogoneu",
       "Mantonegro"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85427,7 +85148,7 @@
       "Shiraz",
       "Cabernet Sauvignon"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85464,7 +85185,7 @@
     "uvas": [
       "Tempranillo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85540,7 +85261,7 @@
       "Syrah",
       "Cariñena"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85578,7 +85299,7 @@
       "Xarel·lo",
       "Macabeo"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85659,9 +85380,11 @@
     "uvas": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Syrah"
+      "Cabernet Franc",
+      "Petit Verdot",
+      "Malbec"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85892,7 +85615,7 @@
       "Chardonnay",
       "Savagnin"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -85927,11 +85650,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Garnacha",
       "Syrah",
-      "Mourvèdre"
+      "Viognier"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
@@ -86006,7 +85728,7 @@
       "Arneis",
       "Cortese"
     ],
-    "uvas_confianza": "estimada",
+    "uvas_confianza": "alta",
     "bodega_general": {
       "unidades": null,
       "localizacion": null
