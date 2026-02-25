@@ -14,7 +14,15 @@
             --text-muted: #B8B0A0;
             --gold-accent: #D4AF37;
             --gold-light: #F3E5AB;
+            --field-bg: rgba(255, 255, 255, 0.1);
+            --field-border: rgba(255, 255, 255, 0.22);
+            --field-border-strong: rgba(255, 255, 255, 0.34);
+            --field-focus-ring: rgba(212, 175, 55, 0.28);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
             --transition-smooth: all 0.35s ease;
+            --ui-entry-duration: 700ms;
+            --ui-entry-delay: 120ms;
+            --ui-entry-ease: cubic-bezier(0.22, 0.78, 0.28, 1);
         }
 
         body.light-mode {
@@ -25,6 +33,11 @@
             --text-muted: #666156;
             --gold-accent: #B8860B;
             --gold-light: #D4AF37;
+            --field-bg: rgba(244, 239, 228, 0.95);
+            --field-border: rgba(131, 99, 24, 0.38);
+            --field-border-strong: rgba(131, 99, 24, 0.55);
+            --field-focus-ring: rgba(184, 134, 11, 0.26);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
@@ -94,14 +107,29 @@
             width: 100%;
             min-height: 280px;
             border-radius: 12px;
-            border: 1px solid var(--glass-border);
-            background: rgba(0,0,0,0.14);
+            border: 1px solid var(--field-border);
+            background: var(--field-bg);
             color: var(--text-main);
             padding: 14px;
             font-family: 'Montserrat', sans-serif;
             font-size: 0.88rem;
             line-height: 1.5;
             resize: vertical;
+            outline: none;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+        }
+
+        .admin-text:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .admin-text:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+
+        .admin-text:focus-visible {
             outline: none;
         }
 
@@ -268,11 +296,26 @@
             width: 100%;
             height: 36px;
             border-radius: 8px;
-            border: 1px solid var(--glass-border);
-            background: rgba(0,0,0,0.15);
+            border: 1px solid var(--field-border);
+            background: var(--field-bg);
             color: var(--text-main);
             padding: 0 10px;
             font-size: 0.82rem;
+            outline: none;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+        }
+
+        .um-field:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .um-field:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+
+        .um-field:focus-visible {
             outline: none;
         }
 
@@ -335,6 +378,30 @@
             align-items: flex-start;
         }
 
+        @keyframes adminSlideFromLeft {
+            0% { opacity: 0; transform: translateX(-28px) scale(0.97); }
+            70% { opacity: 1; transform: translateX(1px) scale(1.002); }
+            100% { opacity: 1; transform: translateX(0) scale(1); }
+        }
+
+        @keyframes adminSlideFromRight {
+            0% { opacity: 0; transform: translateX(28px) scale(0.97); }
+            70% { opacity: 1; transform: translateX(-1px) scale(1.002); }
+            100% { opacity: 1; transform: translateX(0) scale(1); }
+        }
+
+        @keyframes adminRiseFromBottom {
+            0% { opacity: 0; transform: translateY(16px) scale(0.97); }
+            65% { opacity: 1; transform: translateY(-1px) scale(1.002); }
+            100% { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        @keyframes adminDropFromTop {
+            0% { opacity: 0; transform: translate(-50%, -26px) scale(0.97); }
+            70% { opacity: 1; transform: translate(-50%, 1px) scale(1.002); }
+            100% { opacity: 1; transform: translate(-50%, 0) scale(1); }
+        }
+
         .action-btn {
             width: 60px;
             height: 30px;
@@ -347,6 +414,22 @@
             font-weight: 600;
             letter-spacing: 0.02em;
             backdrop-filter: blur(10px);
+            transition: var(--transition-smooth);
+        }
+
+        #logoutBtn {
+            animation: adminSlideFromLeft var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        #backBtn {
+            animation: adminSlideFromRight var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        .scope-btn,
+        .report-action-btn,
+        .copy-btn,
+        .btn-admin {
+            animation: adminRiseFromBottom var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
 
         .app-signature {
@@ -374,8 +457,9 @@
             left: 50%;
             transform: translateX(-50%);
             z-index: 11;
-            min-width: 160px;
-            max-width: min(76vw, 420px);
+            width: max-content;
+            min-width: 0;
+            max-width: min(88vw, 420px);
             padding: 8px 14px;
             border-radius: 14px;
             border: 1px solid var(--glass-border);
@@ -392,6 +476,19 @@
             backdrop-filter: blur(10px);
             box-shadow: 0 5px 16px rgba(0,0,0,0.24);
             pointer-events: none;
+            animation: adminDropFromTop var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            #logoutBtn,
+            #backBtn,
+            .scope-btn,
+            .report-action-btn,
+            .copy-btn,
+            .btn-admin,
+            .session-user-card {
+                animation: none !important;
+            }
         }
 
         @media (max-width: 820px) {
@@ -409,7 +506,6 @@
 <body>
     <script>
         (() => {
-            const normalizeUsername = (value) => (value || '').trim().toLowerCase();
             const normalizeRole = (value) => {
                 const normalized = (value || '').trim().toLowerCase();
                 return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
@@ -418,55 +514,98 @@
                 const normalized = (value || '').trim().toLowerCase();
                 return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
             };
-            const userRegistryKey = 'cava_user_registry_v1';
-
-            const inferRole = () => {
-                const user = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
-                const normalized = normalizeUsername(user);
-                if (normalized === '0xmanel') {
-                    sessionStorage.setItem('cava_login_role', 'adminmaster');
-                    sessionStorage.setItem('cava_login_scope', 'all');
-                    if (localStorage.getItem('cava_login_persistent_access') === '1') {
-                        localStorage.setItem('cava_login_persistent_role', 'adminmaster');
-                        localStorage.setItem('cava_login_persistent_scope', 'all');
-                    }
-                    return 'adminmaster';
-                }
-
-                try {
-                    const raw = localStorage.getItem(userRegistryKey);
-                    const parsed = raw ? JSON.parse(raw) : [];
-                    if (Array.isArray(parsed)) {
-                        const match = parsed.find((entry) => normalizeUsername(entry.username) === normalized);
-                        const matchRole = normalizeRole(match?.role);
-                        const matchScope = normalizeScope(match?.scope);
-                        if (matchRole) {
-                            const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
-                            sessionStorage.setItem('cava_login_role', safeRole);
-                            sessionStorage.setItem('cava_login_scope', safeRole === 'adminmaster' ? 'all' : (matchScope === 'all' ? 'spa' : (matchScope || 'spa')));
-                            if (!localStorage.getItem('cava_login_persistent_role')) {
-                                localStorage.setItem('cava_login_persistent_role', safeRole);
-                            }
-                            if (localStorage.getItem('cava_login_persistent_access') === '1') {
-                                localStorage.setItem('cava_login_persistent_scope', safeRole === 'adminmaster' ? 'all' : (matchScope === 'all' ? 'spa' : (matchScope || 'spa')));
-                            }
-                            return safeRole;
-                        }
-                    }
-                } catch {}
-
-                return 'user';
+            const normalizeEstablishment = (value) => {
+                const normalized = (value || '').trim().toLowerCase();
+                return ['spa', 'tasca_fina', 'victoria'].includes(normalized) ? normalized : null;
+            };
+            const authKeys = {
+                sessionFlag: 'cava_login_demo',
+                sessionUser: 'cava_login_user',
+                sessionEstablishment: 'cava_login_establishment',
+                sessionRole: 'cava_login_role',
+                sessionScope: 'cava_login_scope',
+                persistentFlag: 'cava_login_persistent_access',
+                persistentUser: 'cava_login_persistent_user',
+                persistentEstablishment: 'cava_login_persistent_establishment',
+                persistentRole: 'cava_login_persistent_role',
+                persistentScope: 'cava_login_persistent_scope'
+            };
+            const clearAuthState = () => {
+                sessionStorage.removeItem(authKeys.sessionFlag);
+                sessionStorage.removeItem(authKeys.sessionUser);
+                sessionStorage.removeItem(authKeys.sessionEstablishment);
+                sessionStorage.removeItem(authKeys.sessionRole);
+                sessionStorage.removeItem(authKeys.sessionScope);
+                localStorage.removeItem(authKeys.persistentFlag);
+                localStorage.removeItem(authKeys.persistentUser);
+                localStorage.removeItem(authKeys.persistentEstablishment);
+                localStorage.removeItem(authKeys.persistentRole);
+                localStorage.removeItem(authKeys.persistentScope);
+            };
+            const hasLocalSession = () => {
+                const sessionUser = String(sessionStorage.getItem(authKeys.sessionUser) || '').trim();
+                const sessionFlag = sessionStorage.getItem(authKeys.sessionFlag) === 'ok';
+                if (sessionFlag && sessionUser) return true;
+                const persistentFlag = localStorage.getItem(authKeys.persistentFlag) === '1';
+                const persistentUser = String(localStorage.getItem(authKeys.persistentUser) || '').trim();
+                return persistentFlag && Boolean(persistentUser);
             };
 
-            const role = inferRole();
-            const hasSession = sessionStorage.getItem('cava_login_demo') === 'ok';
-            const hasPersistent = localStorage.getItem('cava_login_persistent_access') === '1';
-            if (!hasSession && !hasPersistent) {
+            try {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', '/api/auth-session', false);
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.send(null);
+                if (xhr.status !== 200) {
+                    const unauthorized = xhr.status === 401 || xhr.status === 403;
+                    if (unauthorized || !hasLocalSession()) {
+                        clearAuthState();
+                        window.location.replace('login.html');
+                    }
+                    return;
+                }
+
+                const payload = JSON.parse(xhr.responseText || '{}');
+                if (!payload?.ok || !payload?.user) {
+                    if (!hasLocalSession()) {
+                        clearAuthState();
+                        window.location.replace('login.html');
+                    }
+                    return;
+                }
+
+                const user = payload.user;
+                const username = String(user.username || '').trim();
+                const role = normalizeRole(user.role) || 'user';
+                const scope = normalizeScope(user.scope) || 'spa';
+                const savedEstablishment = normalizeEstablishment(localStorage.getItem(authKeys.persistentEstablishment)) || 'spa';
+                const establishment = scope === 'all'
+                    ? 'spa'
+                    : (normalizeEstablishment(scope) || savedEstablishment);
+
+                sessionStorage.setItem(authKeys.sessionFlag, 'ok');
+                sessionStorage.setItem(authKeys.sessionUser, username);
+                sessionStorage.setItem(authKeys.sessionEstablishment, establishment);
+                sessionStorage.setItem(authKeys.sessionRole, role);
+                sessionStorage.setItem(authKeys.sessionScope, scope);
+
+                if (localStorage.getItem(authKeys.persistentFlag) === '1') {
+                    localStorage.setItem(authKeys.persistentUser, username);
+                    localStorage.setItem(authKeys.persistentEstablishment, establishment);
+                    localStorage.setItem(authKeys.persistentRole, role);
+                    localStorage.setItem(authKeys.persistentScope, scope);
+                }
+
+                if (role !== 'admin' && role !== 'adminmaster') {
+                    window.location.replace('index.html');
+                    return;
+                }
+            } catch {
+                if (hasLocalSession()) {
+                    return;
+                }
+                clearAuthState();
                 window.location.replace('login.html');
-                return;
-            }
-            if (role !== 'admin' && role !== 'adminmaster') {
-                window.location.replace('index.html');
             }
         })();
     </script>
@@ -554,15 +693,17 @@
             return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
         };
         const normalizeUsername = (value) => (value || '').trim().toLowerCase();
-        const currentUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || 'unknown';
-        const currentUserNormalized = normalizeUsername(currentUser);
-        const isOwner = currentUserNormalized === '0xmanel';
+        const currentUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
         const storedRole = normalizeRole(sessionStorage.getItem('cava_login_role'))
             || normalizeRole(localStorage.getItem('cava_login_persistent_role'));
         const storedScope = normalizeScope(sessionStorage.getItem('cava_login_scope'))
             || normalizeScope(localStorage.getItem('cava_login_persistent_scope'));
-        const role = isOwner ? 'adminmaster' : ((storedRole === 'adminmaster' ? 'admin' : storedRole) || 'user');
-        const scope = isOwner ? 'all' : ((storedScope === 'all' ? 'spa' : storedScope) || 'spa');
+        const role = storedRole || 'user';
+        const scope = storedScope || 'spa';
+        if (role !== 'admin' && role !== 'adminmaster') {
+            window.location.replace('index.html');
+        }
+        const isOwner = role === 'adminmaster';
         const movementLogKey = 'cava_daily_movements_v1';
         const movementArchiveKey = 'cava_movement_archive_v1';
         const madridResetMarkerKey = 'cava_madrid_service_day_marker_v1';
@@ -571,6 +712,10 @@
         const SYNC_REVISION_KEY = 'cava_sync_revision_v1';
         const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
         const ADMIN_SYNC_PENDING_KEY = 'cava_admin_pending_mutations_v1';
+        const USERS_ENDPOINT = '/api/users';
+        const LOCAL_USER_REGISTRY_KEY = 'cava_user_registry_local_v1';
+        const OWNER_USERNAME = '0xmanel';
+        const OWNER_HASH_SHA256 = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
         const textarea = document.getElementById('dailyText');
         const zoneTitle = document.getElementById('zoneTitle');
         const sessionUserCard = document.getElementById('sessionUserCard');
@@ -586,8 +731,6 @@
         const umRole = document.getElementById('umRole');
         const umScope = document.getElementById('umScope');
         const umStatus = document.getElementById('umStatus');
-        const userRegistryKey = 'cava_user_registry_v1';
-        const OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
         const authKeys = {
             sessionFlag: 'cava_login_demo',
             sessionUser: 'cava_login_user',
@@ -601,6 +744,8 @@
             persistentScope: 'cava_login_persistent_scope'
         };
         let selectedUser = null;
+        let userRegistryCache = [];
+        let usersDataSource = 'remote';
         let syncTimer = null;
         let syncInFlight = false;
         let syncDisabled = false;
@@ -609,16 +754,6 @@
         if (!syncClientId) {
             syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
             sessionStorage.setItem(SYNC_CLIENT_KEY, syncClientId);
-        }
-
-        function isPasswordHash(value) {
-            return typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value.trim());
-        }
-
-        async function hashPassword(value) {
-            const input = String(value || '');
-            const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));
-            return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
         }
 
         if (zoneTitle) {
@@ -693,67 +828,95 @@
             localStorage.setItem(movementArchiveKey, JSON.stringify(safeList));
         }
 
-        function defaultRegistry() {
-            return [{ username: '0xManel', password_hash: OWNER_PASSWORD_HASH, role: 'adminmaster', scope: 'all' }];
+        function isSha256Hex(value) {
+            return /^[a-f0-9]{64}$/i.test(String(value || '').trim());
+        }
+
+        async function sha256Hex(value) {
+            const input = String(value || '');
+            if (window.crypto && window.crypto.subtle) {
+                const digest = await window.crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));
+                return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+            }
+            return '';
+        }
+
+        function ensureOwnerInUsers(list) {
+            const users = Array.isArray(list) ? list.filter(Boolean) : [];
+            const ownerIndex = users.findIndex((entry) => normalizeUsername(entry.username) === OWNER_USERNAME);
+            const ownerHash = isSha256Hex(users[ownerIndex]?.password_hash)
+                ? String(users[ownerIndex].password_hash).toLowerCase()
+                : OWNER_HASH_SHA256;
+            const owner = {
+                username: '0xManel',
+                role: 'adminmaster',
+                scope: 'all',
+                password_hash: ownerHash
+            };
+            if (ownerIndex >= 0) {
+                users[ownerIndex] = { ...users[ownerIndex], ...owner };
+            } else {
+                users.unshift(owner);
+            }
+            return users;
+        }
+
+        function readLocalUserRegistry() {
+            try {
+                const raw = localStorage.getItem(LOCAL_USER_REGISTRY_KEY);
+                const parsed = raw ? JSON.parse(raw) : [];
+                const list = Array.isArray(parsed) ? parsed : [];
+                const sanitized = [];
+                const seen = new Set();
+                list.forEach((entry) => {
+                    if (!entry || typeof entry !== 'object') return;
+                    const username = String(entry.username || '').trim();
+                    const normalized = normalizeUsername(username);
+                    if (!normalized || seen.has(normalized)) return;
+                    seen.add(normalized);
+                    const roleValue = normalizeRole(entry.role) || 'user';
+                    const scopeValue = normalizeScope(entry.scope) || 'spa';
+                    const hash = String(entry.password_hash || entry.passwordHash || '').trim();
+                    sanitized.push({
+                        username,
+                        role: normalized === OWNER_USERNAME ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                        scope: normalized === OWNER_USERNAME ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
+                        password_hash: isSha256Hex(hash) ? hash.toLowerCase() : ''
+                    });
+                });
+                return ensureOwnerInUsers(sanitized);
+            } catch {
+                return ensureOwnerInUsers([]);
+            }
+        }
+
+        function writeLocalUserRegistry(list) {
+            const safe = ensureOwnerInUsers(list).map((entry) => ({
+                username: String(entry.username || '').trim(),
+                role: normalizeRole(entry.role) || 'user',
+                scope: normalizeScope(entry.scope) || 'spa',
+                password_hash: isSha256Hex(entry.password_hash) ? String(entry.password_hash).toLowerCase() : ''
+            }));
+            localStorage.setItem(LOCAL_USER_REGISTRY_KEY, JSON.stringify(safe));
+            return safe;
         }
 
         function getUserRegistry() {
-            try {
-                const raw = localStorage.getItem(userRegistryKey);
-                const parsed = raw ? JSON.parse(raw) : [];
-                if (Array.isArray(parsed) && parsed.length > 0) {
-                    const sanitized = parsed
-                        .filter((entry) => entry && typeof entry.username === 'string' && entry.username.trim())
-                        .map((entry) => {
-                            const username = entry.username.trim();
-                            const normalized = normalizeUsername(username);
-                            const entryRole = normalizeRole(entry.role) || 'user';
-                            const entryScope = normalizeScope(entry.scope) || 'spa';
-                            const roleValue = normalized === '0xmanel'
-                                ? 'adminmaster'
-                                : (entryRole === 'adminmaster' ? 'admin' : entryRole);
-                            const scopeValue = normalized === '0xmanel'
-                                ? 'all'
-                                : (entryScope === 'all' ? 'spa' : entryScope);
-                            const hashFromField = isPasswordHash(entry.password_hash) ? entry.password_hash.trim().toLowerCase() : '';
-                            const hashFromLegacyPassword = isPasswordHash(entry.password) ? entry.password.trim().toLowerCase() : '';
-                            const passwordHash = normalized === '0xmanel'
-                                ? (hashFromField || hashFromLegacyPassword || OWNER_PASSWORD_HASH)
-                                : (hashFromField || hashFromLegacyPassword || '');
-
-                            return {
-                                username,
-                                password_hash: passwordHash,
-                                password: typeof entry.password === 'string' && !isPasswordHash(entry.password) ? entry.password : undefined,
-                                role: roleValue,
-                                scope: scopeValue
-                            };
-                        });
-                    const dedupByUser = [];
-                    const seen = new Set();
-                    sanitized.forEach((entry) => {
-                        const key = normalizeUsername(entry.username);
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            dedupByUser.push(entry);
-                        }
-                    });
-
-                    if (!seen.has('0xmanel')) {
-                        dedupByUser.unshift(defaultRegistry()[0]);
-                    }
-                    localStorage.setItem(userRegistryKey, JSON.stringify(dedupByUser));
-                    return dedupByUser;
-                }
-            } catch {}
-
-            const fallback = defaultRegistry();
-            localStorage.setItem(userRegistryKey, JSON.stringify(fallback));
-            return fallback;
+            return Array.isArray(userRegistryCache) ? userRegistryCache : [];
         }
 
         function saveUserRegistry(list) {
-            localStorage.setItem(userRegistryKey, JSON.stringify(list));
+            userRegistryCache = Array.isArray(list) ? list : [];
+            const existing = readLocalUserRegistry();
+            const merged = userRegistryCache.map((entry) => {
+                const key = normalizeUsername(entry.username);
+                const currentHash = String(entry.password_hash || '').trim();
+                if (isSha256Hex(currentHash)) return entry;
+                const existingEntry = existing.find((item) => normalizeUsername(item.username) === key);
+                if (!existingEntry || !isSha256Hex(existingEntry.password_hash)) return entry;
+                return { ...entry, password_hash: existingEntry.password_hash };
+            });
+            writeLocalUserRegistry(merged);
         }
 
         function mapRoleLabel(value) {
@@ -769,16 +932,135 @@
             if (type) umStatus.classList.add(type);
         }
 
-        function syncCurrentSessionIfNeeded(updatedUser) {
-            const updatedNormalized = normalizeUsername(updatedUser.username);
-            if (updatedNormalized === currentUserNormalized) {
-                sessionStorage.setItem('cava_login_role', updatedUser.role);
-                sessionStorage.setItem('cava_login_scope', updatedUser.scope);
-                if (localStorage.getItem('cava_login_persistent_access') === '1') {
-                    localStorage.setItem('cava_login_persistent_role', updatedUser.role);
-                    localStorage.setItem('cava_login_persistent_scope', updatedUser.scope);
-                }
+        function mapUsersApiError(errorCode) {
+            const code = String(errorCode || '');
+            if (code === 'admin_scope_conflict') return 'Ya existe un admin asignado en esta planta.';
+            if (code === 'only_owner_adminmaster') return 'Solo el owner puede ser adminmaster.';
+            if (code === 'password_required') return 'Password obligatorio para usuarios nuevos.';
+            if (code === 'cannot_delete_owner') return 'No se puede eliminar el owner.';
+            if (code === 'forbidden') return 'Permiso denegado.';
+            if (code === 'username_required') return 'Usuario obligatorio.';
+            return 'No fue posible guardar los cambios.';
+        }
+
+        async function requestUsersLocal(method = 'GET', payload = null) {
+            const users = readLocalUserRegistry();
+            if (method === 'GET') {
+                return { ok: true, users };
             }
+
+            if (method === 'POST') {
+                const username = String(payload?.username || '').trim();
+                const normalized = normalizeUsername(username);
+                const roleInput = normalizeRole(payload?.role) || 'user';
+                const scopeInput = normalizeScope(payload?.scope) || 'spa';
+                const plainPassword = String(payload?.password || '').trim();
+
+                if (!normalized) throw new Error('username_required');
+
+                const isOwnerTarget = normalized === OWNER_USERNAME;
+                const roleValue = isOwnerTarget ? 'adminmaster' : (roleInput === 'adminmaster' ? 'admin' : roleInput);
+                const scopeValue = isOwnerTarget ? 'all' : (scopeInput === 'all' ? 'spa' : scopeInput);
+
+                if (!isOwnerTarget && roleInput === 'adminmaster') throw new Error('only_owner_adminmaster');
+
+                const existingIndex = users.findIndex((entry) => normalizeUsername(entry.username) === normalized);
+                if (roleValue === 'admin') {
+                    const conflict = users.find((entry, idx) => {
+                        if (idx === existingIndex) return false;
+                        return entry.role === 'admin' && entry.scope === scopeValue;
+                    });
+                    if (conflict) throw new Error('admin_scope_conflict');
+                }
+
+                let passwordHash = existingIndex >= 0 ? String(users[existingIndex].password_hash || '') : '';
+                if (plainPassword) {
+                    const hashed = await sha256Hex(plainPassword);
+                    passwordHash = isSha256Hex(hashed) ? hashed.toLowerCase() : '';
+                }
+                if (existingIndex < 0 && !passwordHash) throw new Error('password_required');
+
+                const nextEntry = {
+                    username,
+                    role: roleValue,
+                    scope: scopeValue,
+                    password_hash: passwordHash
+                };
+                if (existingIndex >= 0) users[existingIndex] = { ...users[existingIndex], ...nextEntry };
+                else users.push(nextEntry);
+
+                const saved = writeLocalUserRegistry(users);
+                return { ok: true, users: saved };
+            }
+
+            if (method === 'DELETE') {
+                const username = String(payload?.username || '').trim();
+                const normalized = normalizeUsername(username);
+                if (!normalized) throw new Error('username_required');
+                if (normalized === OWNER_USERNAME) throw new Error('cannot_delete_owner');
+                const nextUsers = users.filter((entry) => normalizeUsername(entry.username) !== normalized);
+                const saved = writeLocalUserRegistry(nextUsers);
+                return { ok: true, users: saved };
+            }
+
+            throw new Error('method_not_allowed');
+        }
+
+        async function requestUsers(method = 'GET', payload = null) {
+            try {
+                const response = await fetch(USERS_ENDPOINT, {
+                    method,
+                    cache: 'no-store',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: payload ? JSON.stringify(payload) : undefined
+                });
+                const contentType = String(response.headers.get('content-type') || '').toLowerCase();
+                const isJson = contentType.includes('application/json');
+                const data = isJson ? await response.json().catch(() => ({})) : {};
+
+                if (response.ok && data?.ok === true) {
+                    usersDataSource = 'remote';
+                    return data;
+                }
+
+                const shouldFallbackLocal = response.status === 404
+                    || response.status === 405
+                    || response.status === 408
+                    || response.status === 501
+                    || response.status >= 500
+                    || !isJson;
+                if (shouldFallbackLocal) {
+                    usersDataSource = 'local';
+                    return await requestUsersLocal(method, payload);
+                }
+
+                throw new Error(data?.error || `request_failed_${response.status}`);
+            } catch (error) {
+                const code = String(error?.message || '');
+                const nonFallbackCodes = new Set([
+                    'forbidden',
+                    'unauthorized',
+                    'username_required',
+                    'password_required',
+                    'admin_scope_conflict',
+                    'only_owner_adminmaster',
+                    'cannot_delete_owner',
+                    'method_not_allowed'
+                ]);
+                if (code.startsWith('request_failed_') || nonFallbackCodes.has(code)) {
+                    throw error;
+                }
+                usersDataSource = 'local';
+                return await requestUsersLocal(method, payload);
+            }
+        }
+
+        async function refreshUserRegistry() {
+            const payload = await requestUsers('GET');
+            saveUserRegistry(payload.users || []);
         }
 
         function renderUserRegistry() {
@@ -833,67 +1115,27 @@
                 setUmStatus('0xManel es el único adminmaster.', 'error');
                 return;
             }
-
-            const users = getUserRegistry();
-            const existingIndex = users.findIndex((user) => normalizeUsername(user.username) === normalizedTarget);
-
-            if (roleValue === 'admin') {
-                const conflictAdmin = users.find((user, index) => {
-                    if (index === existingIndex) return false;
-                    const userRole = normalizeRole(user.role) || 'user';
-                    const userScope = normalizeScope(user.scope) || 'spa';
-                    return userRole === 'admin' && userScope === scopeValue;
+            try {
+                const payload = await requestUsers('POST', {
+                    username,
+                    password,
+                    role: roleValue,
+                    scope: scopeValue
                 });
-                if (conflictAdmin) {
-                    setUmStatus(`Ya existe admin en ${mapEstLabel(scopeValue)}: ${conflictAdmin.username}.`, 'error');
-                    return;
+                saveUserRegistry(payload.users || []);
+                selectedUser = username;
+                if (normalizedTarget === '0xmanel') {
+                    umRole.value = 'adminmaster';
+                    umScope.value = 'all';
                 }
+                setUmStatus('Guardado con éxito.', 'success');
+                renderUserRegistry();
+            } catch (error) {
+                setUmStatus(mapUsersApiError(error?.message), 'error');
             }
-            const newPasswordHash = password ? await hashPassword(password) : '';
-
-            if (existingIndex < 0 && normalizedTarget !== '0xmanel' && !newPasswordHash) {
-                setUmStatus('Password obligatorio para usuarios nuevos.', 'error');
-                return;
-            }
-
-            if (existingIndex >= 0) {
-                const current = users[existingIndex];
-                const currentHash = isPasswordHash(current.password_hash)
-                    ? current.password_hash.trim().toLowerCase()
-                    : (isPasswordHash(current.password) ? current.password.trim().toLowerCase() : '');
-                const passwordHash = normalizedTarget === '0xmanel'
-                    ? (newPasswordHash || currentHash || OWNER_PASSWORD_HASH)
-                    : (newPasswordHash || currentHash);
-                users[existingIndex] = {
-                    username,
-                    password_hash: passwordHash,
-                    role: roleValue,
-                    scope: scopeValue
-                };
-                syncCurrentSessionIfNeeded(users[existingIndex]);
-            } else {
-                const passwordHash = normalizedTarget === '0xmanel'
-                    ? (newPasswordHash || OWNER_PASSWORD_HASH)
-                    : newPasswordHash;
-                users.push({
-                    username,
-                    password_hash: passwordHash,
-                    role: roleValue,
-                    scope: scopeValue
-                });
-            }
-
-            saveUserRegistry(users);
-            selectedUser = username;
-            if (normalizedTarget === '0xmanel') {
-                umRole.value = 'adminmaster';
-                umScope.value = 'all';
-            }
-            setUmStatus('Guardado con éxito.', 'success');
-            renderUserRegistry();
         }
 
-        function deleteUser() {
+        async function deleteUser() {
             if (!isOwner) {
                 setUmStatus('Solo owner puede gestionar usuarios.', 'error');
                 return;
@@ -908,18 +1150,20 @@
                 setUmStatus('No se puede eliminar el owner 0xManel.', 'error');
                 return;
             }
+            try {
+                const payload = await requestUsers('DELETE', { username });
+                saveUserRegistry(payload.users || []);
 
-            const users = getUserRegistry();
-            const filtered = users.filter((user) => normalizeUsername(user.username) !== normalizeUsername(username));
-            saveUserRegistry(filtered);
-
-            selectedUser = null;
-            umUsername.value = '';
-            umPassword.value = '';
-            umRole.value = 'user';
-            umScope.value = 'spa';
-            setUmStatus('Usuario eliminado.', 'success');
-            renderUserRegistry();
+                selectedUser = null;
+                umUsername.value = '';
+                umPassword.value = '';
+                umRole.value = 'user';
+                umScope.value = 'spa';
+                setUmStatus('Usuario eliminado.', 'success');
+                renderUserRegistry();
+            } catch (error) {
+                setUmStatus(mapUsersApiError(error?.message), 'error');
+            }
         }
 
         function mapEstLabel(key) {
@@ -1129,8 +1373,10 @@
                 const wineName = (entry.wine || '').toString().trim() || '—';
                 const yearText = entry.year != null ? String(entry.year).trim() : '';
                 const sizeText = (entry.size || entry.format || '').toString().trim();
+                const sourceRaw = String(entry.source || '').trim().toLowerCase();
+                const sourceLabel = sourceRaw === 'bodega' ? '(bodega)' : '(cava)';
                 const details = [yearText, sizeText].filter(Boolean).join(' · ');
-                lines.push(details ? `${qtyLabel} ${wineName} · ${details}` : `${qtyLabel} ${wineName}`);
+                lines.push(details ? `${qtyLabel} ${wineName} · ${details} ${sourceLabel}` : `${qtyLabel} ${wineName} ${sourceLabel}`);
             });
             return lines.join('\n');
         }
@@ -1193,6 +1439,20 @@
                     syncDisabled = true;
                     return;
                 }
+                if (response.status === 401) {
+                    sessionStorage.removeItem(authKeys.sessionFlag);
+                    sessionStorage.removeItem(authKeys.sessionUser);
+                    sessionStorage.removeItem(authKeys.sessionEstablishment);
+                    sessionStorage.removeItem(authKeys.sessionRole);
+                    sessionStorage.removeItem(authKeys.sessionScope);
+                    localStorage.removeItem(authKeys.persistentFlag);
+                    localStorage.removeItem(authKeys.persistentUser);
+                    localStorage.removeItem(authKeys.persistentEstablishment);
+                    localStorage.removeItem(authKeys.persistentRole);
+                    localStorage.removeItem(authKeys.persistentScope);
+                    window.location.replace('login.html');
+                    return;
+                }
                 if (!response.ok) return;
                 const payload = await response.json();
                 if (!payload || payload.ok !== true) return;
@@ -1200,13 +1460,16 @@
                 const acknowledgedIds = Array.isArray(payload.acknowledgedMutationIds)
                     ? payload.acknowledgedMutationIds.filter((id) => typeof id === 'string' && id)
                     : [];
+                const rejectedIds = Array.isArray(payload.rejectedMutationIds)
+                    ? payload.rejectedMutationIds.filter((id) => typeof id === 'string' && id)
+                    : [];
                 let remainingQueue = pendingMutations;
-                if (acknowledgedIds.length > 0) {
+                if (acknowledgedIds.length > 0 || rejectedIds.length > 0) {
                     const currentQueue = readAdminPendingMutations();
-                    const ackSet = new Set(acknowledgedIds);
+                    const completedSet = new Set([...acknowledgedIds, ...rejectedIds]);
                     remainingQueue = currentQueue.filter((mutation) => {
                         const mutationId = typeof mutation?.id === 'string' ? mutation.id : '';
-                        return !ackSet.has(mutationId);
+                        return !completedSet.has(mutationId);
                     });
                     writeAdminPendingMutations(remainingQueue);
                     shouldRunAgain = remainingQueue.length > 0;
@@ -1251,11 +1514,12 @@
             const at = entry?.at || '';
             const pod = entry?.pod || '';
             const est = entry?.establishment || '';
+            const source = entry?.source || '';
             const qty = entry?.qty ?? '';
             const wine = entry?.wine || '';
             const year = entry?.year ?? '';
             const size = entry?.size || entry?.format || '';
-            return `${at}|${pod}|${est}|${qty}|${wine}|${year}|${size}`;
+            return `${at}|${pod}|${est}|${source}|${qty}|${wine}|${year}|${size}`;
         }
 
         function clearVisibleReport() {
@@ -1404,7 +1668,10 @@
 
         const logoutBtn = document.getElementById('logoutBtn');
         if (logoutBtn) {
-            logoutBtn.addEventListener('click', () => {
+            logoutBtn.addEventListener('click', async () => {
+                try {
+                    await fetch('/api/auth-logout', { method: 'POST', cache: 'no-store' });
+                } catch {}
                 sessionStorage.removeItem(authKeys.sessionFlag);
                 sessionStorage.removeItem(authKeys.sessionUser);
                 sessionStorage.removeItem(authKeys.sessionEstablishment);
@@ -1420,7 +1687,18 @@
         }
 
         if (isOwner) {
-            renderUserRegistry();
+            void refreshUserRegistry()
+                .then(() => {
+                    renderUserRegistry();
+                    if (usersDataSource === 'local') {
+                        setUmStatus('Modo local activo (sin API). Cambios guardados en este navegador.', 'success');
+                    }
+                })
+                .catch(() => {
+                    saveUserRegistry(readLocalUserRegistry());
+                    renderUserRegistry();
+                    setUmStatus('No fue posible cargar API. Modo local activo.', 'error');
+                });
             umRole.value = 'user';
             umScope.value = 'spa';
             umRole.addEventListener('change', () => {

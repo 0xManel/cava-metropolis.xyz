@@ -58,8 +58,16 @@
             --price-bg: rgba(46, 125, 50, 0.15);
             --price-color: #57C25B;
             --minicard-bg: rgba(255, 255, 255, 0.05);
+            --field-bg: rgba(255, 255, 255, 0.1);
+            --field-border: rgba(255, 255, 255, 0.22);
+            --field-border-strong: rgba(255, 255, 255, 0.34);
+            --field-focus-ring: rgba(212, 175, 55, 0.28);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
             --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             --transition-smooth: all 0.4s ease;
+            --ui-entry-duration: 700ms;
+            --ui-entry-delay: 120ms;
+            --ui-entry-ease: cubic-bezier(0.22, 0.78, 0.28, 1);
         }
 
         body.light-mode {
@@ -73,6 +81,11 @@
             --price-bg: rgba(46, 125, 50, 0.1);
             --price-color: #2E7D32;
             --minicard-bg: rgba(0, 0, 0, 0.02);
+            --field-bg: rgba(244, 239, 228, 0.95);
+            --field-border: rgba(131, 99, 24, 0.38);
+            --field-border-strong: rgba(131, 99, 24, 0.55);
+            --field-focus-ring: rgba(184, 134, 11, 0.26);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
         }
 
         * {
@@ -80,6 +93,10 @@
             margin: 0;
             padding: 0;
             -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scrollbar-gutter: stable both-edges;
         }
 
         body {
@@ -95,7 +112,7 @@
             justify-content: flex-start;
             padding-top: 22dvh;
             overflow-x: hidden;
-            overflow-y: auto;
+            overflow-y: scroll;
         }
 
         /* Entrance animation */
@@ -193,20 +210,28 @@
             padding: 1.2rem 1rem 1.2rem 2rem;
             font-size: 1.3rem;
             font-family: 'Montserrat', sans-serif;
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
+            background: var(--field-bg);
+            border: 1px solid var(--field-border);
             border-radius: 30px;
             color: var(--text-main);
             outline: none;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), var(--field-shadow);
             transition: var(--transition-smooth);
+        }
+
+        #searchInput:hover {
+            border-color: var(--field-border-strong);
         }
 
         #searchInput:focus {
             border-color: var(--gold-accent);
-            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), 0 0 20px rgba(212, 175, 55, 0.18), var(--field-shadow);
+        }
+
+        #searchInput:focus-visible {
+            outline: none;
         }
 
         #searchInput::placeholder { color: var(--text-muted); font-weight: 300; }
@@ -436,15 +461,22 @@
             background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
             -webkit-backdrop-filter: blur(5px);
-            display: none;
+            display: flex;
             align-items: center;
             justify-content: center;
             z-index: 1000;
             opacity: 0;
-            transition: opacity 0.4s ease;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.25s ease, visibility 0s linear 0.25s;
         }
 
-        .modal-overlay.active { display: flex; opacity: 1; }
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transition: opacity 0.25s ease;
+        }
 
         .modal-card {
             width: 90%;
@@ -454,14 +486,18 @@
             border-radius: 24px;
             padding: 2rem;
             position: relative;
-            transform: translateY(30px) scale(0.95);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transform: translateY(18px) scale(0.985);
+            opacity: 0;
+            transition: transform 0.26s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.22s ease;
             box-shadow: 0 20px 50px rgba(0,0,0,0.5);
             max-height: 90dvh;
             overflow-y: auto;
         }
 
-        .modal-overlay.active .modal-card { transform: translateY(0) scale(1); }
+        .modal-overlay.active .modal-card {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
 
         .btn-close {
             position: absolute;
@@ -559,7 +595,9 @@
 
         .terroir-box .detail-value {
             font-size: 0.82rem;
-            line-height: 1.3;
+            line-height: 1.42;
+            white-space: pre-line;
+            text-align: left;
         }
 
         /* Establishment pricing table */
@@ -645,10 +683,22 @@
             100% { transform: translateX(0) scale(1); }
         }
 
+        @keyframes slideFromLeft {
+            0% { opacity: 0; transform: translateX(-28px) scale(0.97); }
+            70% { opacity: 1; transform: translateX(1px) scale(1.002); }
+            100% { opacity: 1; transform: translateX(0) scale(1); }
+        }
+
         @keyframes riseFromBottom {
             0% { transform: translateY(18px) scale(0.965); }
             65% { transform: translateY(-1px) scale(1.002); }
             100% { transform: translateY(0) scale(1); }
+        }
+
+        @keyframes dropFromTopCard {
+            0% { opacity: 0; transform: translate(-50%, -26px) scale(0.97); }
+            70% { opacity: 1; transform: translate(-50%, 1px) scale(1.002); }
+            100% { opacity: 1; transform: translate(-50%, 0) scale(1); }
         }
 
         .theme-toggle {
@@ -661,8 +711,8 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             overflow: hidden;
             padding: 0;
-            transition: all 0.3s ease;
-            animation: dropToPlace 730ms cubic-bezier(0.22, 0.78, 0.28, 1) both;
+            transition: all 0.28s ease;
+            animation: dropToPlace var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
 
         .theme-toggle:hover {
@@ -677,7 +727,7 @@
             position: relative;
             z-index: 2;
             font-family: 'Montserrat', sans-serif;
-            animation: slideFromRight 700ms cubic-bezier(0.22, 0.78, 0.28, 1) 125ms both;
+            animation: slideFromRight var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
 
         .app-signature {
@@ -705,8 +755,9 @@
             left: 50%;
             transform: translateX(-50%);
             z-index: 110;
-            min-width: 160px;
-            max-width: min(76vw, 420px);
+            width: max-content;
+            min-width: 0;
+            max-width: min(88vw, 420px);
             padding: 8px 14px;
             border-radius: 14px;
             border: 1px solid var(--glass-border);
@@ -723,6 +774,7 @@
             backdrop-filter: blur(10px);
             box-shadow: 0 5px 16px rgba(0,0,0,0.24);
             pointer-events: none;
+            animation: dropFromTopCard var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
         .logout-btn,
         .admin-btn {
@@ -749,10 +801,10 @@
             font-family: 'Montserrat', sans-serif;
         }
         .admin-btn {
-            animation: riseFromBottom 700ms cubic-bezier(0.22, 0.78, 0.28, 1) 190ms both;
+            animation: riseFromBottom var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
         .logout-btn {
-            animation: riseFromBottom 700ms cubic-bezier(0.22, 0.78, 0.28, 1) 250ms both;
+            animation: slideFromLeft var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
         .logout-btn:hover,
         .admin-btn:hover {
@@ -810,6 +862,16 @@
         }
         .lang-option:hover { background: rgba(212, 175, 55, 0.1); }
 
+        @media (prefers-reduced-motion: reduce) {
+            .theme-toggle,
+            .lang-container,
+            .admin-btn,
+            .logout-btn,
+            .session-user-card {
+                animation: none !important;
+            }
+        }
+
         /* Badge colors */
         .b-tinto { background: #800020; color: #FFF; }
         .b-branco { background: #E5C158; }
@@ -825,14 +887,21 @@
         .edit-field {
             padding: 0.7rem;
             border-radius: 8px;
-            border: 1px solid var(--glass-border);
-            background: var(--minicard-bg);
+            border: 1px solid var(--field-border);
+            background: var(--field-bg);
             color: var(--text-main);
             font-family: 'Montserrat', sans-serif;
             font-size: 0.85rem;
             width: 100%;
+            box-shadow: var(--field-shadow);
         }
-        .edit-field:focus { outline: none; border-color: var(--gold-accent); }
+        .edit-field:hover { border-color: var(--field-border-strong); }
+        .edit-field:focus {
+            outline: none;
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+        .edit-field:focus-visible { outline: none; }
 
         .edit-section-title {
             font-size: 0.65rem;
@@ -902,14 +971,15 @@
             display: flex;
             align-items: center;
             gap: 0.45rem;
+            flex-wrap: wrap;
         }
 
         .consume-qty {
             height: 36px;
             min-width: 62px;
             border-radius: 10px;
-            border: 1px solid var(--glass-border);
-            background: var(--glass-bg);
+            border: 1px solid var(--field-border);
+            background: var(--field-bg);
             color: var(--text-main);
             font-family: 'Montserrat', sans-serif;
             font-size: 0.9rem;
@@ -918,26 +988,57 @@
             padding: 0 8px;
             outline: none;
             cursor: pointer;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+        }
+
+        .consume-qty:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .consume-qty:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+
+        .consume-qty:focus-visible {
+            outline: none;
         }
 
         .btn-consume {
-            width: 44px;
+            min-width: 78px;
             height: 36px;
             border-radius: 10px;
             border: 1px solid rgba(255, 84, 84, 0.45);
             background: rgba(168, 19, 19, 0.22);
             color: #ff5d5d;
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 0.84rem;
             font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            padding: 0 10px;
             transition: all 0.25s ease;
             box-shadow: 0 4px 14px rgba(120, 10, 10, 0.28);
         }
 
-        .btn-consume:hover {
+        .btn-consume.btn-consume-cava:hover {
             background: rgba(186, 27, 27, 0.36);
             border-color: rgba(255, 111, 111, 0.55);
             box-shadow: 0 6px 18px rgba(120, 10, 10, 0.38);
+        }
+
+        .btn-consume.btn-consume-bodega {
+            border-color: rgba(240, 178, 42, 0.52);
+            background: rgba(181, 116, 15, 0.26);
+            color: #f8c04f;
+            box-shadow: 0 4px 14px rgba(126, 79, 8, 0.3);
+        }
+
+        .btn-consume.btn-consume-bodega:hover {
+            background: rgba(201, 133, 20, 0.37);
+            border-color: rgba(255, 201, 88, 0.62);
+            box-shadow: 0 6px 18px rgba(126, 79, 8, 0.4);
         }
 
         .consume-feedback {
@@ -1000,8 +1101,19 @@
     <script>
         (() => {
             try {
-                const userRegistryKey = 'cava_user_registry_v1';
                 const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+                const AUTH_KEYS = {
+                    sessionFlag: 'cava_login_demo',
+                    sessionUser: 'cava_login_user',
+                    sessionEstablishment: 'cava_login_establishment',
+                    sessionRole: 'cava_login_role',
+                    sessionScope: 'cava_login_scope',
+                    persistentFlag: 'cava_login_persistent_access',
+                    persistentUser: 'cava_login_persistent_user',
+                    persistentEstablishment: 'cava_login_persistent_establishment',
+                    persistentRole: 'cava_login_persistent_role',
+                    persistentScope: 'cava_login_persistent_scope'
+                };
                 const normalizeUsername = (value) => (value || '').trim().toLowerCase();
                 const normalizeEstablishment = (value) => {
                     const normalized = (value || '').trim().toLowerCase();
@@ -1015,106 +1127,88 @@
                     const normalized = (value || '').trim().toLowerCase();
                     return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
                 };
-                const inferProfile = (username, establishment) => {
-                    const normalized = normalizeUsername(username);
-                    if (normalized === '0xmanel') {
-                        return { role: 'adminmaster', scope: 'all' };
-                    }
-
-                    try {
-                        const raw = localStorage.getItem(userRegistryKey);
-                        const parsed = raw ? JSON.parse(raw) : [];
-                        if (Array.isArray(parsed)) {
-                            const match = parsed.find((user) => normalizeUsername(user.username) === normalized);
-                            if (match) {
-                                const matchRole = normalizeRole(match.role) || 'user';
-                                const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
-                                const matchScope = normalizeScope(match.scope) || normalizeEstablishment(establishment) || 'spa';
-                                return {
-                                    role: safeRole,
-                                    scope: matchScope === 'all' ? (normalizeEstablishment(establishment) || 'spa') : matchScope
-                                };
-                            }
-                        }
-                    } catch {
-                        // ignore parse failures and fallback to user
-                    }
-
-                    return null;
+                const clearAuthState = () => {
+                    sessionStorage.removeItem(AUTH_KEYS.sessionFlag);
+                    sessionStorage.removeItem(AUTH_KEYS.sessionUser);
+                    sessionStorage.removeItem(AUTH_KEYS.sessionEstablishment);
+                    sessionStorage.removeItem(AUTH_KEYS.sessionRole);
+                    sessionStorage.removeItem(AUTH_KEYS.sessionScope);
+                    localStorage.removeItem(AUTH_KEYS.persistentFlag);
+                    localStorage.removeItem(AUTH_KEYS.persistentUser);
+                    localStorage.removeItem(AUTH_KEYS.persistentEstablishment);
+                    localStorage.removeItem(AUTH_KEYS.persistentRole);
+                    localStorage.removeItem(AUTH_KEYS.persistentScope);
+                };
+                const hasLocalSession = () => {
+                    const sessionUser = String(sessionStorage.getItem(AUTH_KEYS.sessionUser) || '').trim();
+                    const sessionFlag = sessionStorage.getItem(AUTH_KEYS.sessionFlag) === 'ok';
+                    if (sessionFlag && sessionUser) return true;
+                    const persistentFlag = localStorage.getItem(AUTH_KEYS.persistentFlag) === '1';
+                    const persistentUser = String(localStorage.getItem(AUTH_KEYS.persistentUser) || '').trim();
+                    return persistentFlag && Boolean(persistentUser);
                 };
 
-                const sessionFlag = sessionStorage.getItem('cava_login_demo') === 'ok';
-                const persistentFlag = localStorage.getItem('cava_login_persistent_access') === '1';
-
-                if (!sessionFlag && !persistentFlag) {
-                    window.location.replace('login.html');
-                    return;
-                }
-
-                if (!sessionFlag && persistentFlag) {
-                    const persistentUser = localStorage.getItem('cava_login_persistent_user') || '';
-                    const persistentIsOwner = normalizeUsername(persistentUser) === '0xmanel';
-                    const persistentEstablishment = normalizeEstablishment(localStorage.getItem('cava_login_persistent_establishment')) || 'spa';
-                    const inferred = inferProfile(persistentUser, persistentEstablishment);
-                    if (!inferred && !persistentIsOwner) {
-                        localStorage.removeItem('cava_login_persistent_access');
-                        localStorage.removeItem('cava_login_persistent_user');
-                        localStorage.removeItem('cava_login_persistent_establishment');
-                        localStorage.removeItem('cava_login_persistent_role');
-                        localStorage.removeItem('cava_login_persistent_scope');
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', '/api/auth-session', false);
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.send(null);
+                if (xhr.status !== 200) {
+                    const unauthorized = xhr.status === 401 || xhr.status === 403;
+                    if (unauthorized || !hasLocalSession()) {
+                        clearAuthState();
                         window.location.replace('login.html');
-                        return;
                     }
-                    const persistentRole = persistentIsOwner ? 'adminmaster' : inferred.role;
-                    const persistentScope = persistentIsOwner ? 'all' : inferred.scope;
-                    const establishmentToUse = persistentIsOwner
-                        ? 'spa'
-                        : (EST_KEYS.includes(persistentScope) ? persistentScope : persistentEstablishment);
-
-                    localStorage.setItem('cava_login_persistent_role', persistentRole);
-                    localStorage.setItem('cava_login_persistent_scope', persistentScope);
-
-                    if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
-                        localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
-                    }
-
-                    sessionStorage.setItem('cava_login_demo', 'ok');
-                    sessionStorage.setItem('cava_login_user', persistentUser);
-                    sessionStorage.setItem('cava_login_establishment', establishmentToUse);
-                    sessionStorage.setItem('cava_login_role', persistentRole);
-                    sessionStorage.setItem('cava_login_scope', persistentScope);
-                }
-
-                const sessionUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
-                const isOwner = normalizeUsername(sessionUser) === '0xmanel';
-                const sessionEstablishment = normalizeEstablishment(
-                    sessionStorage.getItem('cava_login_establishment') || localStorage.getItem('cava_login_persistent_establishment')
-                ) || 'spa';
-                const inferred = inferProfile(sessionUser, sessionEstablishment);
-                if (!inferred && !isOwner) {
-                    sessionStorage.removeItem('cava_login_demo');
-                    sessionStorage.removeItem('cava_login_user');
-                    sessionStorage.removeItem('cava_login_establishment');
-                    sessionStorage.removeItem('cava_login_role');
-                    sessionStorage.removeItem('cava_login_scope');
-                    window.location.replace('login.html');
                     return;
                 }
-                const roleToUse = isOwner ? 'adminmaster' : inferred.role;
-                const scopeToUse = isOwner ? 'all' : inferred.scope;
-                const establishmentToUse = isOwner ? 'spa' : (EST_KEYS.includes(scopeToUse) ? scopeToUse : sessionEstablishment);
-                sessionStorage.setItem('cava_login_role', roleToUse);
-                sessionStorage.setItem('cava_login_scope', scopeToUse);
-                sessionStorage.setItem('cava_login_establishment', establishmentToUse);
 
-                if (persistentFlag) {
-                    localStorage.setItem('cava_login_persistent_role', roleToUse);
-                    localStorage.setItem('cava_login_persistent_scope', scopeToUse);
-                    if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
-                        localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
+                const payload = JSON.parse(xhr.responseText || '{}');
+                if (!payload?.ok || !payload?.user) {
+                    if (!hasLocalSession()) {
+                        clearAuthState();
+                        window.location.replace('login.html');
                     }
+                    return;
+                }
+
+                const user = payload.user;
+                const username = String(user.username || '').trim();
+                const role = normalizeRole(user.role) || 'user';
+                const scope = normalizeScope(user.scope) || 'spa';
+                const savedEstablishment = normalizeEstablishment(localStorage.getItem(AUTH_KEYS.persistentEstablishment)) || 'spa';
+                const establishment = scope === 'all'
+                    ? 'spa'
+                    : (EST_KEYS.includes(scope) ? scope : savedEstablishment);
+
+                sessionStorage.setItem(AUTH_KEYS.sessionFlag, 'ok');
+                sessionStorage.setItem(AUTH_KEYS.sessionUser, username);
+                sessionStorage.setItem(AUTH_KEYS.sessionEstablishment, establishment);
+                sessionStorage.setItem(AUTH_KEYS.sessionRole, role);
+                sessionStorage.setItem(AUTH_KEYS.sessionScope, scope);
+
+                if (localStorage.getItem(AUTH_KEYS.persistentFlag) === '1') {
+                    localStorage.setItem(AUTH_KEYS.persistentUser, username);
+                    localStorage.setItem(AUTH_KEYS.persistentEstablishment, establishment);
+                    localStorage.setItem(AUTH_KEYS.persistentRole, role);
+                    localStorage.setItem(AUTH_KEYS.persistentScope, scope);
                 }
             } catch {
+                const sessionUser = String(sessionStorage.getItem('cava_login_user') || '').trim();
+                const sessionFlag = sessionStorage.getItem('cava_login_demo') === 'ok';
+                const persistentFlag = localStorage.getItem('cava_login_persistent_access') === '1';
+                const persistentUser = String(localStorage.getItem('cava_login_persistent_user') || '').trim();
+                if ((sessionFlag && sessionUser) || (persistentFlag && persistentUser)) {
+                    return;
+                }
+                sessionStorage.removeItem('cava_login_demo');
+                sessionStorage.removeItem('cava_login_user');
+                sessionStorage.removeItem('cava_login_establishment');
+                sessionStorage.removeItem('cava_login_role');
+                sessionStorage.removeItem('cava_login_scope');
+                localStorage.removeItem('cava_login_persistent_access');
+                localStorage.removeItem('cava_login_persistent_user');
+                localStorage.removeItem('cava_login_persistent_establishment');
+                localStorage.removeItem('cava_login_persistent_role');
+                localStorage.removeItem('cava_login_persistent_scope');
                 window.location.replace('login.html');
             }
         })();
@@ -1229,19 +1323,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="row-label">PVP</td>
+                        <td class="row-label" data-translate="pvpLabel">PVP</td>
                         <td class="pvp-cell" id="estSpaPvp">—</td>
                         <td class="pvp-cell" id="estTascaPvp">—</td>
                         <td class="pvp-cell" id="estVictoriaPvp">—</td>
                     </tr>
                     <tr>
-                        <td class="row-label">Stock</td>
+                        <td class="row-label" data-translate="stockLabel">Stock</td>
                         <td id="estSpaStock">—</td>
                         <td id="estTascaStock">—</td>
                         <td id="estVictoriaStock">—</td>
                     </tr>
                     <tr>
-                        <td class="row-label loc-cell">Ubic.</td>
+                        <td class="row-label loc-cell" data-translate="locationShort">Ubic.</td>
                         <td class="loc-cell" id="estSpaLoc">—</td>
                         <td class="loc-cell" id="estTascaLoc">—</td>
                         <td class="loc-cell" id="estVictoriaLoc">—</td>
@@ -1251,17 +1345,23 @@
 
             <div class="modal-actions">
                 <div class="consume-actions">
-                    <button class="btn-consume" id="btnConsume" aria-label="Registrar salida">➜</button>
                     <select class="consume-qty" id="consumeQty" aria-label="Cantidad">
                         <option value="1" selected>1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
                     </select>
+                    <button class="btn-consume btn-consume-cava" id="btnConsumeCava" aria-label="Registrar salida de cava">Cava</button>
+                    <button class="btn-consume btn-consume-bodega" id="btnConsumeBodega" aria-label="Registrar salida de bodega">Bodega</button>
                 </div>
 
-                <button class="btn-edit" id="btnEditWine">Editar</button>
+                <button class="btn-edit" id="btnEditWine" data-translate="editBtn">Editar</button>
             </div>
 
             <div class="consume-feedback" id="consumeFeedback"></div>
@@ -1291,8 +1391,8 @@
                     </div>
 
                     <div class="edit-actions">
-                        <button class="btn-cancel" id="btnCancelEdit">Cancelar</button>
-                        <button class="btn-save" id="btnSaveEdit">Salvar</button>
+                        <button class="btn-cancel" id="btnCancelEdit" data-translate="cancelBtn">Cancelar</button>
+                        <button class="btn-save" id="btnSaveEdit" data-translate="saveBtn">Salvar</button>
                     </div>
                 </div>
             </div>
@@ -1383,8 +1483,7 @@
             syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
             sessionStorage.setItem(SYNC_CLIENT_KEY, syncClientId);
         }
-        const currentUserName = sessionStorage.getItem(AUTH_KEYS.sessionUser) || localStorage.getItem(AUTH_KEYS.persistentUser) || 'unknown';
-        const currentUserNormalized = (currentUserName || '').trim().toLowerCase();
+        const currentUserName = sessionStorage.getItem(AUTH_KEYS.sessionUser) || localStorage.getItem(AUTH_KEYS.persistentUser) || '';
         const sessionUserCard = document.getElementById('sessionUserCard');
         const normalizeEstablishment = (value) => {
             const normalized = (value || '').trim().toLowerCase();
@@ -1405,16 +1504,11 @@
         const baseEstablishment = normalizeEstablishment(sessionStorage.getItem(AUTH_KEYS.sessionEstablishment))
             || normalizeEstablishment(localStorage.getItem(AUTH_KEYS.persistentEstablishment))
             || 'spa';
-        const isOwnerUser = currentUserNormalized === '0xmanel';
-        const currentUserRole = isOwnerUser
-            ? 'adminmaster'
-            : ((storedRole === 'adminmaster' ? 'admin' : storedRole) || 'user');
-        const currentUserScope = isOwnerUser
-            ? 'all'
-            : ((storedScope === 'all' ? baseEstablishment : storedScope) || baseEstablishment);
-        const currentUserEstablishment = isOwnerUser
-            ? 'spa'
-            : (baseEstablishment || (EST_KEYS.includes(currentUserScope) ? currentUserScope : 'spa'));
+        const currentUserRole = storedRole || 'user';
+        const currentUserScope = storedScope || baseEstablishment;
+        const currentUserEstablishment = currentUserScope === 'all'
+            ? (baseEstablishment || 'spa')
+            : (EST_KEYS.includes(currentUserScope) ? currentUserScope : (baseEstablishment || 'spa'));
 
         if (sessionUserCard) {
             const cardUser = (currentUserName || '').trim() || 'No logado';
@@ -1449,39 +1543,63 @@
         const translations = {
             es: {
                 placeholders: [
-                    "Encuentra la botella", "¿Una copa? ¿Una Botella?",
-                    "Tempranillo, Garnacha, Mencía", "Albariño, Godello, Verdejo",
-                    "Tinto, Blanco, Rosado, Espumoso", "¿Qué tal la cata de hoy?",
-                    "¿Cliente muy Especial?", "Buscar vino...",
-                    "¿Rioja, Ribeira, Rueda?", "¿Alguno internacional?",
-                    "Quizás un vino francés"
+                    "¿Hoy tinto o blanco?",
+                    "¿Algo para maridar?",
+                    "Busca por uva o región",
+                    "¿Rioja o Ribera?",
+                    "¿Una copa más?",
+                    "Burbuja para celebrar",
+                    "¿Fruta, madera o mineral?",
+                    "¿Ligero o con cuerpo?",
+                    "¿Qué abrimos hoy?",
+                    "Sugerencia del sumiller",
+                    "Tu vino ideal está aquí",
+                    "Prueba algo nuevo"
                 ],
                 refs: "referencias disponibles", region: "Región", country: "País",
-                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada", btnLabel: "🇪🇸 ES"
+                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin",
+                pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Ubic.", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
+                consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada", btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
-                    "Find the bottle", "A glass? A bottle?",
-                    "Tempranillo, Garnacha, Mencía", "Albariño, Godello, Verdejo",
-                    "Red, White, Rosé, Sparkling", "How's the tasting today?",
-                    "Very Special Client?", "Search wine...",
-                    "Rioja, Ribeira, Rueda?", "Any international one?",
-                    "Maybe a French wine"
+                    "Red or white today?",
+                    "Need a food pairing?",
+                    "Search grape or region",
+                    "Rioja or Ribera?",
+                    "One more glass?",
+                    "Bubbles for today",
+                    "Fruit, oak or mineral?",
+                    "Light or full-bodied?",
+                    "What shall we open?",
+                    "Sommelier picks",
+                    "Your next wine is here",
+                    "Try something new"
                 ],
                 refs: "references available", region: "Region", country: "Country",
-                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated", btnLabel: "🇬🇧 EN"
+                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin",
+                pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Loc.", editBtn: "Edit", cancelBtn: "Cancel", saveBtn: "Save",
+                consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated", btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
-                    "Encontre a garrafa", "Uma taça? Uma garrafa?",
-                    "Tempranillo, Garnacha, Mencía", "Albariño, Godello, Verdejo",
-                    "Tinto, Branco, Rosé, Espumante", "Que tal a degustação hoje?",
-                    "Cliente muito especial?", "Buscar vinho...",
-                    "Rioja, Ribeira, Rueda?", "Algum internacional?",
-                    "Talvez um vinho francês"
+                    "Tinto ou branco hoje?",
+                    "Quer algo para harmonizar?",
+                    "Busque uva ou região",
+                    "Rioja ou Ribera?",
+                    "Mais uma taça?",
+                    "Bolhas para celebrar",
+                    "Fruta, madeira ou mineral?",
+                    "Leve ou encorpado?",
+                    "O que abrimos hoje?",
+                    "Dica do sommelier",
+                    "Seu próximo vinho está aqui",
+                    "Prove algo novo"
                 ],
                 refs: "referências disponíveis", region: "Região", country: "País",
-                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
+                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin",
+                pvpLabel: "PVP", stockLabel: "Estoque", locationShort: "Local", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
+                consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
             }
         };
 
@@ -1670,23 +1788,63 @@
             return { cls: info.cls, label: info[currentLang] || info.es };
         }
 
+        function initCatalogData(data) {
+            if (!Array.isArray(data)) return false;
+            baseRefs = data.filter((r) => r.pod && r.descripcion && !r.descripcion.startsWith('#'));
+            refs = JSON.parse(JSON.stringify(baseRefs));
+            applyLocalEdits();
+            preProcess();
+            updateRefCount();
+            startRealtimeSync();
+            console.log(`✓ Loaded ${refs.length} references (filtered ${data.length - baseRefs.length} incomplete)`);
+            return true;
+        }
+
+        function loadCatalogFromStaticFile() {
+            return fetch('/data/bodega_webapp.json', { cache: 'no-store' })
+                .then((r) => {
+                    if (!r.ok) throw new Error(`catalog_static_failed_${r.status}`);
+                    return r.json();
+                });
+        }
+
         // --- DATA LOADING ---
-        fetch('data/bodega_webapp.json', { cache: 'no-store' })
-            .then(r => r.json())
-            .then(data => {
-                // Filter out garbage entries (no pod, no descripcion, or Excel errors like #N/D)
-                baseRefs = data.filter(r => r.pod && r.descripcion && !r.descripcion.startsWith('#'));
-                refs = JSON.parse(JSON.stringify(baseRefs));
-                applyLocalEdits();
-                preProcess();
-                updateRefCount();
-                startRealtimeSync();
-                console.log(`✓ Loaded ${refs.length} references (filtered ${data.length - baseRefs.length} incomplete)`);
+        fetch('/api/wines', { cache: 'no-store' })
+            .then((r) => {
+                if (r.status === 401) {
+                    clearAuthState();
+                    window.location.replace('login.html');
+                    return null;
+                }
+                if (!r.ok) {
+                    if (r.status === 404 || r.status === 405 || r.status === 501 || r.status >= 500) {
+                        return loadCatalogFromStaticFile();
+                    }
+                    throw new Error(`catalog_request_failed_${r.status}`);
+                }
+                return r.json();
             })
-            .catch(err => {
+            .then((data) => {
+                if (data === null) return;
+                if (initCatalogData(data)) return;
+                return loadCatalogFromStaticFile().then((fallbackData) => {
+                    initCatalogData(fallbackData);
+                });
+            })
+            .catch((err) => {
                 console.error('Error loading data:', err);
-                baseRefs = [];
-                refs = [];
+                loadCatalogFromStaticFile()
+                    .then((fallbackData) => {
+                        if (!initCatalogData(fallbackData)) {
+                            baseRefs = [];
+                            refs = [];
+                        }
+                    })
+                    .catch((fallbackErr) => {
+                        console.error('Error loading fallback catalog:', fallbackErr);
+                        baseRefs = [];
+                        refs = [];
+                    });
             });
 
         // --- LOCAL EDIT PERSISTENCE ---
@@ -2268,9 +2426,17 @@
         }
 
         function mergeTerroirText(base, extra) {
-            if (!base || base === '—') return extra || '—';
-            if (!extra) return base;
-            return `${base} · ${extra}`;
+            const parts = [];
+            if (base && base !== '—') parts.push(base);
+            if (extra) parts.push(extra);
+            if (!parts.length) return '—';
+            return parts
+                .flatMap((part) => String(part)
+                    .split(/\s*[;·]\s*/)
+                    .map((chunk) => chunk.trim())
+                    .filter(Boolean))
+                .map((chunk) => `· ${chunk}`)
+                .join('\n');
         }
 
         function getTerroirInfo(region, pais, uvasArr) {
@@ -2294,14 +2460,18 @@
         const editButton = document.getElementById('btnEditWine');
         const adminButton = document.getElementById('adminBtn');
         const logoutButton = document.getElementById('logoutBtn');
-        const consumeButton = document.getElementById('btnConsume');
+        const consumeCavaButton = document.getElementById('btnConsumeCava');
+        const consumeBodegaButton = document.getElementById('btnConsumeBodega');
         const consumeQtySelect = document.getElementById('consumeQty');
         const consumeFeedback = document.getElementById('consumeFeedback');
         const syncToast = document.getElementById('syncToast');
         let syncToastTimer = null;
 
         if (logoutButton) {
-            logoutButton.addEventListener('click', () => {
+            logoutButton.addEventListener('click', async () => {
+                try {
+                    await fetch('/api/auth-logout', { method: 'POST', cache: 'no-store' });
+                } catch {}
                 clearAuthState();
                 window.location.replace('login.html');
             });
@@ -2393,8 +2563,7 @@
             }
         }
 
-        if (consumeButton) {
-            consumeButton.addEventListener('click', () => {
+        function registerConsume(sourceType = 'cava') {
                 if (!currentEditPod) return;
                 const ref = refs.find(r => r.pod === currentEditPod);
                 if (!ref) return;
@@ -2426,6 +2595,7 @@
                     user: currentUserName,
                     role: currentUserRole,
                     scope: currentUserScope,
+                    source: sourceType === 'bodega' ? 'bodega' : 'cava',
                     establishment: estKey,
                     pod: ref.pod,
                     wine: ref.descripcion || '—',
@@ -2442,6 +2612,17 @@
                 updateRefCount();
                 openModal(ref);
                 showSyncToast(translations[currentLang].consumeToastUpdated || 'Cava Atualizada');
+        }
+
+        if (consumeCavaButton) {
+            consumeCavaButton.addEventListener('click', () => {
+                registerConsume('cava');
+            });
+        }
+
+        if (consumeBodegaButton) {
+            consumeBodegaButton.addEventListener('click', () => {
+                registerConsume('bodega');
             });
         }
 
@@ -2657,6 +2838,11 @@
                     syncDisabled = true;
                     return;
                 }
+                if (response.status === 401) {
+                    clearAuthState();
+                    window.location.replace('login.html');
+                    return;
+                }
                 if (!response.ok) return;
                 const payload = await response.json();
                 if (!payload || payload.ok !== true) return;
@@ -2664,14 +2850,17 @@
                 const acknowledgedIds = Array.isArray(payload.acknowledgedMutationIds)
                     ? payload.acknowledgedMutationIds.filter((id) => typeof id === 'string' && id)
                     : [];
+                const rejectedIds = Array.isArray(payload.rejectedMutationIds)
+                    ? payload.rejectedMutationIds.filter((id) => typeof id === 'string' && id)
+                    : [];
                 let remainingQueue = pendingMutations;
 
-                if (acknowledgedIds.length > 0) {
+                if (acknowledgedIds.length > 0 || rejectedIds.length > 0) {
                     const currentQueue = readPendingMutations();
-                    const ackSet = new Set(acknowledgedIds);
+                    const completedSet = new Set([...acknowledgedIds, ...rejectedIds]);
                     remainingQueue = currentQueue.filter((mutation) => {
                         const mutationId = typeof mutation?.id === 'string' ? mutation.id : '';
-                        return !ackSet.has(mutationId);
+                        return !completedSet.has(mutationId);
                     });
                     writePendingMutations(remainingQueue);
                     shouldRunAgain = remainingQueue.length > 0;
@@ -2795,6 +2984,14 @@
 
             // Refresh search results if visible
             triggerSearch();
+
+            // If modal is open, re-render it with the selected language labels/badges.
+            if (wineModal.classList.contains('active') && currentEditPod) {
+                const liveRef = refs.find((item) => item.pod === currentEditPod);
+                if (liveRef) {
+                    openModal(liveRef);
+                }
+            }
         }
 
         // --- DARK/LIGHT MODE TOGGLE (CANVAS) ---
@@ -2870,9 +3067,14 @@
         }
 
         themeToggle.addEventListener('click', () => {
+            const scrollX = window.scrollX;
+            const scrollY = window.scrollY;
             isDark = !isDark;
             document.body.classList.toggle('light-mode');
             drawToggle();
+            requestAnimationFrame(() => {
+                window.scrollTo(scrollX, scrollY);
+            });
         });
 
         // --- GOLD PARTICLES ---

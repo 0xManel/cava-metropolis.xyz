@@ -1,5 +1,5 @@
-const CACHE = 'stock-cava-2026-02-25-realtime-sync';
-const ASSETS = ['/', '/index.html', '/data/bodega_webapp.json'];
+const CACHE = 'stock-cava-2026-02-25-security-v2';
+const ASSETS = ['/', '/index.html', '/login.html', '/admin.html', '/manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
@@ -16,7 +16,7 @@ self.addEventListener('fetch', e => {
   }
 
   const url = new URL(e.request.url);
-  if (url.pathname.startsWith('/api/')) {
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/data/')) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }

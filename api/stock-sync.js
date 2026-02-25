@@ -1,5 +1,16 @@
 const STATE_KEY = 'cava:stock:sync:v1';
 const APPLIED_IDS_LIMIT = 5000;
+const MAX_MUTATIONS_PER_REQUEST = 500;
+const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+
+const {
+  getSessionFromRequest,
+  isAdminRole,
+  isAdminMasterRole,
+  normalizeScope,
+  isPlainObject,
+  rejectIfCrossOrigin
+} = require('./_auth');
 
 const fallbackState = {
   revision: 0,
@@ -11,10 +22,6 @@ const fallbackState = {
 
 if (!globalThis.__cavaSyncMemoryState) {
   globalThis.__cavaSyncMemoryState = { ...fallbackState };
-}
-
-function isPlainObject(value) {
-  return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
 }
 
 function sanitizeEdits(value) {
@@ -102,38 +109,139 @@ async function saveState(state) {
   return sanitized;
 }
 
-function applyEditMutation(state, payload) {
+function canMutateEstablishment(user, establishment) {
+  if (!user || !establishment) return false;
+  if (isAdminMasterRole(user.role)) return true;
+  return user.scope === establishment;
+}
+
+function parseEditPath(path) {
+  const match = String(path || '').match(/^establecimientos\.(spa|tasca_fina|victoria)\.(pvp|unidades|localizacion)$/);
+  if (!match) return null;
+  return { establishment: match[1], field: match[2] };
+}
+
+function sanitizeMovementEntry(payload, user) {
+  if (!isPlainObject(payload)) return null;
+  const establishment = normalizeScope(payload.establishment);
+  if (!EST_KEYS.includes(establishment)) return null;
+  if (!canMutateEstablishment(user, establishment)) return null;
+  const qtyRaw = Number(payload.qty);
+  const qty = Number.isFinite(qtyRaw) && qtyRaw > 0 ? Math.min(Math.trunc(qtyRaw), 999) : 1;
+  const at = typeof payload.at === 'string' && payload.at.trim() ? payload.at.trim() : new Date().toISOString();
+  const pod = typeof payload.pod === 'string' ? payload.pod.trim() : '';
+  if (!pod) return null;
+
+  const wine = typeof payload.wine === 'string' ? payload.wine.slice(0, 200) : '';
+  const size = typeof payload.size === 'string' ? payload.size.slice(0, 80) : null;
+  const sourceRaw = typeof payload.source === 'string' ? payload.source.trim().toLowerCase() : '';
+  const source = sourceRaw === 'bodega' ? 'bodega' : 'cava';
+  const yearRaw = Number(payload.year);
+  const year = Number.isFinite(yearRaw) ? Math.trunc(yearRaw) : null;
+  const beforeRaw = Number(payload.before);
+  const afterRaw = Number(payload.after);
+  const storageDayKey = typeof payload.storageDayKey === 'string' && payload.storageDayKey.trim()
+    ? payload.storageDayKey.trim()
+    : String(at).slice(0, 10);
+  const serviceDayKey = typeof payload.serviceDayKey === 'string' && payload.serviceDayKey.trim()
+    ? payload.serviceDayKey.trim()
+    : storageDayKey;
+
+  return {
+    at,
+    user: user.username,
+    role: user.role,
+    scope: user.scope,
+    source,
+    establishment,
+    pod,
+    wine: wine || '—',
+    year,
+    size,
+    qty,
+    before: Number.isFinite(beforeRaw) ? beforeRaw : null,
+    after: Number.isFinite(afterRaw) ? afterRaw : null,
+    storageDayKey,
+    serviceDayKey
+  };
+}
+
+function applyEditMutation(state, payload, user) {
   if (!isPlainObject(payload)) return false;
+  if (!isAdminRole(user.role)) return false;
   if (typeof payload.pod !== 'string' || typeof payload.path !== 'string') return false;
+  const pathInfo = parseEditPath(payload.path);
+  if (!pathInfo) return false;
+  if (!canMutateEstablishment(user, pathInfo.establishment)) return false;
+
   const nextEdit = {
-    pod: payload.pod,
-    path: payload.path,
+    pod: payload.pod.trim(),
+    path: payload.path.trim(),
     value: payload.value,
     updatedAt: typeof payload.updatedAt === 'string' ? payload.updatedAt : new Date().toISOString(),
-    updatedBy: typeof payload.updatedBy === 'string' ? payload.updatedBy : null
+    updatedBy: user.username
   };
+  if (!nextEdit.pod || !nextEdit.path) return false;
+
   const idx = state.edits.findIndex((edit) => edit.pod === nextEdit.pod && edit.path === nextEdit.path);
   if (idx >= 0) state.edits[idx] = nextEdit;
   else state.edits.push(nextEdit);
   return true;
 }
 
-function applyMovementMutation(state, mutation) {
+function applyMovementMutation(state, mutation, user) {
   if (!isPlainObject(mutation) || !isPlainObject(mutation.payload)) return false;
+  const safeEntry = sanitizeMovementEntry(mutation.payload, user);
+  if (!safeEntry) return false;
   const dayKey = typeof mutation.dateKey === 'string' && mutation.dateKey
     ? mutation.dateKey
     : new Date().toISOString().slice(0, 10);
   if (!Array.isArray(state.movementLog[dayKey])) {
     state.movementLog[dayKey] = [];
   }
-  state.movementLog[dayKey].push(mutation.payload);
+  state.movementLog[dayKey].push(safeEntry);
   return true;
 }
 
-function applyMovementLogReplaceMutation(state, payload) {
+function applyScopedMovementLogReplace(state, replacementStore, scope) {
+  const sanitizedReplacement = sanitizeMovementLog(replacementStore);
+  const nextStore = sanitizeMovementLog(state.movementLog);
+  Object.keys(nextStore).forEach((dayKey) => {
+    const filtered = nextStore[dayKey].filter((entry) => entry?.establishment !== scope);
+    if (filtered.length > 0) nextStore[dayKey] = filtered;
+    else delete nextStore[dayKey];
+  });
+
+  Object.keys(sanitizedReplacement).forEach((dayKey) => {
+    sanitizedReplacement[dayKey].forEach((entry) => {
+      if (!isPlainObject(entry)) return;
+      if (entry.establishment !== scope) return;
+      if (!Array.isArray(nextStore[dayKey])) nextStore[dayKey] = [];
+      nextStore[dayKey].push({
+        ...entry,
+        user: typeof entry.user === 'string' ? entry.user : null,
+        role: typeof entry.role === 'string' ? entry.role : null,
+        scope: typeof entry.scope === 'string' ? entry.scope : null,
+        source: entry.source === 'bodega' ? 'bodega' : 'cava'
+      });
+    });
+  });
+
+  state.movementLog = nextStore;
+}
+
+function applyMovementLogReplaceMutation(state, payload, user) {
   if (!isPlainObject(payload)) return false;
   if (!isPlainObject(payload.movementLog)) return false;
-  state.movementLog = sanitizeMovementLog(payload.movementLog);
+  if (!isAdminRole(user.role)) return false;
+
+  if (isAdminMasterRole(user.role)) {
+    state.movementLog = sanitizeMovementLog(payload.movementLog);
+    return true;
+  }
+
+  if (!EST_KEYS.includes(user.scope)) return false;
+  applyScopedMovementLogReplace(state, payload.movementLog, user.scope);
   return true;
 }
 
@@ -156,14 +264,24 @@ module.exports = async (req, res) => {
     res.status(405).json({ ok: false, error: 'method_not_allowed' });
     return;
   }
+  if (req.method === 'POST' && rejectIfCrossOrigin(req, res)) return;
+
+  const sessionUser = await getSessionFromRequest(req);
+  if (!sessionUser) {
+    res.status(401).json({ ok: false, error: 'unauthorized' });
+    return;
+  }
 
   const incoming = readRequestBody(req);
   const knownRevision = Number(incoming.knownRevision || 0);
-  const incomingMutations = Array.isArray(incoming.mutations) ? incoming.mutations : [];
+  const incomingMutations = Array.isArray(incoming.mutations)
+    ? incoming.mutations.slice(0, MAX_MUTATIONS_PER_REQUEST)
+    : [];
   const state = await loadState();
 
   const appliedIds = new Set(state.appliedMutationIds);
   const acknowledgedMutationIds = [];
+  const rejectedMutationIds = [];
   let changed = false;
 
   incomingMutations.forEach((mutation) => {
@@ -176,11 +294,11 @@ module.exports = async (req, res) => {
 
     let applied = false;
     if (mutation.type === 'edit') {
-      applied = applyEditMutation(state, mutation.payload);
+      applied = applyEditMutation(state, mutation.payload, sessionUser);
     } else if (mutation.type === 'movement') {
-      applied = applyMovementMutation(state, mutation);
+      applied = applyMovementMutation(state, mutation, sessionUser);
     } else if (mutation.type === 'replace_movement_log') {
-      applied = applyMovementLogReplaceMutation(state, mutation.payload);
+      applied = applyMovementLogReplaceMutation(state, mutation.payload, sessionUser);
     }
 
     if (applied) {
@@ -189,6 +307,8 @@ module.exports = async (req, res) => {
         appliedIds.add(mutationId);
         acknowledgedMutationIds.push(mutationId);
       }
+    } else if (mutationId) {
+      rejectedMutationIds.push(mutationId);
     }
   });
 
@@ -205,6 +325,7 @@ module.exports = async (req, res) => {
     changed,
     hasUpdate: savedState.revision > knownRevision,
     acknowledgedMutationIds,
+    rejectedMutationIds,
     state: {
       edits: savedState.edits,
       movementLog: savedState.movementLog,
