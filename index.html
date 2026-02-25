@@ -971,7 +971,9 @@
             display: flex;
             align-items: center;
             gap: 0.45rem;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
+            flex: 1 1 auto;
+            min-width: 0;
         }
 
         .consume-qty {
@@ -990,6 +992,7 @@
             cursor: pointer;
             box-shadow: var(--field-shadow);
             transition: var(--transition-smooth);
+            flex: 0 0 auto;
         }
 
         .consume-qty:hover {
@@ -1020,6 +1023,7 @@
             padding: 0 10px;
             transition: all 0.25s ease;
             box-shadow: 0 4px 14px rgba(120, 10, 10, 0.28);
+            flex: 0 0 auto;
         }
 
         .btn-consume.btn-consume-cava:hover {
@@ -1090,6 +1094,65 @@
             .top-left-actions { top: 15px; left: 15px; gap: 7px; }
             .top-actions { top: 15px; right: 15px; gap: 7px; }
             .session-user-card { top: max(8px, env(safe-area-inset-top)); }
+
+            .modal-actions {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.55rem;
+            }
+
+            .consume-actions {
+                width: 100%;
+                justify-content: space-between;
+                gap: 0.35rem;
+            }
+
+            .btn-edit {
+                align-self: flex-end;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .modal-card {
+                width: 94%;
+                padding: 1.25rem;
+            }
+
+            .consume-qty {
+                min-width: 58px;
+                height: 34px;
+                font-size: 0.84rem;
+                padding: 0 6px;
+            }
+
+            .btn-consume {
+                min-width: 72px;
+                height: 34px;
+                font-size: 0.78rem;
+                padding: 0 8px;
+                letter-spacing: 0.03em;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .modal-card {
+                padding: 1.1rem;
+            }
+
+            .consume-actions {
+                gap: 0.28rem;
+            }
+
+            .consume-qty {
+                min-width: 54px;
+                font-size: 0.8rem;
+            }
+
+            .btn-consume {
+                min-width: 67px;
+                font-size: 0.74rem;
+                padding: 0 7px;
+            }
         }
 
         body.keyboard-open { padding-top: 2dvh; }
