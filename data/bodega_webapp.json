@@ -21256,8 +21256,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Madrid",
     "bodega": "4 Monos",
     "ano": 2023,
     "tipo": {
@@ -21294,8 +21294,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Castilla y León",
     "bodega": "Rico Nuevo",
     "ano": 2022,
     "tipo": {
@@ -21331,8 +21331,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Madrid",
     "bodega": "Bernabeleva",
     "ano": 2022,
     "tipo": {
@@ -21491,8 +21491,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Pierre Morey",
     "ano": 2022,
     "tipo": {
@@ -21533,13 +21533,13 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Beaujolais",
     "bodega": "Domaine Les Deux Fleches",
     "ano": 2022,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -21570,8 +21570,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Italia",
+    "region": "Toscana",
     "bodega": "Guicciardini Strozzi",
     "ano": 2020,
     "tipo": {
@@ -21607,8 +21607,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Maison Louis Jadot",
     "ano": 2022,
     "tipo": {
@@ -21644,8 +21644,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Rías Baixas",
     "bodega": "Bodegas Attis",
     "ano": 2022,
     "tipo": {
@@ -21681,8 +21681,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Castilla y León",
     "bodega": "Naia",
     "ano": 2023,
     "tipo": {
@@ -21718,8 +21718,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Domaine Arnaud Ente",
     "ano": 2020,
     "tipo": {
@@ -21755,8 +21755,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Estados Unidos",
+    "region": "California",
     "bodega": "Racines Wine",
     "ano": 2022,
     "tipo": {
@@ -21797,13 +21797,13 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Hudelot-Noellat",
     "ano": 2022,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -21834,8 +21834,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Domaine Arnaud Ente",
     "ano": 2019,
     "tipo": {
@@ -21871,13 +21871,13 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Michel Lafarge",
     "ano": 2022,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -21913,13 +21913,13 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Michel Lafarge",
     "ano": 2022,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -21955,8 +21955,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Maison Lucien Le Moine",
     "ano": 2022,
     "tipo": {
@@ -21992,8 +21992,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Rías Baixas",
     "bodega": "Pazo Barrantes",
     "ano": 2022,
     "tipo": {
@@ -22029,8 +22029,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Rías Baixas",
     "bodega": "Pazo Barrantes",
     "ano": 2020,
     "tipo": {
@@ -22066,8 +22066,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Vincent Girardin",
     "ano": 2023,
     "tipo": {
@@ -22103,8 +22103,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Rioja",
     "bodega": "Muga",
     "ano": 2022,
     "tipo": {
@@ -22145,8 +22145,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Loira",
     "bodega": "Domaine Paul Cherrier",
     "ano": 2023,
     "tipo": {
@@ -22182,8 +22182,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Alemania",
+    "region": "Renania-Palatinado",
     "bodega": "Battenfeld Spanier",
     "ano": 2024,
     "tipo": {
@@ -22219,8 +22219,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Pierre Vincent",
     "ano": 2023,
     "tipo": {
@@ -22243,79 +22243,6 @@
     "establecimientos": {
       "tasca_fina": {
         "pvp": 197,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": "Bernaveleba",
-    "ano": 2022,
-    "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [
-      "Garnacha",
-      "Albillo Mayor"
-    ],
-    "uvas_confianza": "alta",
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "victoria": {
-        "pvp": 45,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": 2024,
-    "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "tasca_fina": {
-        "pvp": 45,
         "unidades": null,
         "localizacion": null
       },
@@ -28108,78 +28035,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": "NV",
-    "tipo": {
-      "codigo": "ESP",
-      "nombre": "Espumoso"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "tasca_fina": {
-        "pvp": 245,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": "(en blanco)",
-    "tipo": {
-      "codigo": "ESP",
-      "nombre": "Espumoso"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "victoria": {
-        "pvp": 245,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Champagne",
     "bodega": "Leclerc-Briant",
     "ano": 2018,
     "tipo": {
@@ -84220,8 +84077,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Domaine Pierre Damoy",
     "ano": 2018,
     "tipo": {
@@ -84257,8 +84114,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Burdeos",
     "bodega": "Château La Fleur-Petrus",
     "ano": 2020,
     "tipo": {
@@ -84295,8 +84152,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Italia",
+    "region": "Toscana",
     "bodega": "Tenutta Ornellaia",
     "ano": 2021,
     "tipo": {
@@ -84339,8 +84196,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Italia",
+    "region": "Piamonte",
     "bodega": "Fratelli Cavallotto",
     "ano": 2020,
     "tipo": {
@@ -84376,43 +84233,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": 2022,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "spa": {
-        "pvp": 66,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Maison Louis Jadot",
     "ano": 2021,
     "tipo": {
@@ -84453,8 +84275,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Maison Louis Jadot",
     "ano": 2022,
     "tipo": {
@@ -84495,8 +84317,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Burdeos",
     "bodega": "Château Léoville-Poyferré",
     "ano": 2009,
     "tipo": {
@@ -84534,8 +84356,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Estados Unidos",
+    "region": "California",
     "bodega": "Racines Wine",
     "ano": 2022,
     "tipo": {
@@ -84571,8 +84393,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Australia",
+    "region": "South Australia",
     "bodega": "The Standish",
     "ano": 2022,
     "tipo": {
@@ -84608,43 +84430,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": 2021,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "spa": {
-        "pvp": 45,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Comtes Georges de Vogüé",
     "ano": 2022,
     "tipo": {
@@ -84685,8 +84472,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Borgoña",
     "bodega": "Comtes Georges de Vogüé",
     "ano": 2022,
     "tipo": {
@@ -84722,78 +84509,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": "(en blanco)",
-    "ano": 2021,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "victoria": {
-        "pvp": 60,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": null,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "victoria": {
-        "pvp": 175,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Castilla y León",
     "bodega": "Mauro",
     "ano": 2023,
     "tipo": {
@@ -84829,8 +84546,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Rioja",
     "bodega": "Marqués de Murrieta",
     "ano": 2020,
     "tipo": {
@@ -84873,78 +84590,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": null,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "tasca_fina": {
-        "pvp": 206,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": 2023,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "tasca_fina": {
-        "pvp": 55,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Baleares",
     "bodega": "4 Kilos",
     "ano": 2023,
     "tipo": {
@@ -84969,116 +84616,6 @@
     "establecimientos": {
       "tasca_fina": {
         "pvp": 79,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": 2022,
-    "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "spa": {
-        "pvp": 787,
-        "unidades": null,
-        "localizacion": null
-      },
-      "victoria": {
-        "pvp": 715,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": null,
-    "tipo": {
-      "codigo": null,
-      "nombre": null
-    },
-    "formato": {
-      "cl": 75,
-      "ml": 750,
-      "etiqueta": "Botella (75cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "victoria": {
-        "pvp": 50,
-        "unidades": null,
-        "localizacion": null
-      },
-      "galeria": {
-        "pvp": null,
-        "unidades": null,
-        "localizacion": null
-      }
-    }
-  },
-  {
-    "pod": null,
-    "descripcion": null,
-    "pais": null,
-    "region": null,
-    "bodega": null,
-    "ano": null,
-    "tipo": {
-      "codigo": null,
-      "nombre": null
-    },
-    "formato": {
-      "cl": 150,
-      "ml": 1500,
-      "etiqueta": "Magnum (150cl)"
-    },
-    "uvas": [],
-    "uvas_confianza": null,
-    "bodega_general": {
-      "unidades": null,
-      "localizacion": null
-    },
-    "establecimientos": {
-      "victoria": {
-        "pvp": 50,
         "unidades": null,
         "localizacion": null
       },
@@ -85204,8 +84741,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Castilla y León",
     "bodega": "Dominio de Atauta",
     "ano": "(en blanco)",
     "tipo": {
@@ -85280,8 +84817,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Penedès",
     "bodega": "Pardas",
     "ano": 2022,
     "tipo": {
@@ -85323,8 +84860,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Cava",
     "bodega": "Pepe Raventós",
     "ano": 2012,
     "tipo": {
@@ -85479,8 +85016,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Burdeos",
     "bodega": "Château Figeac",
     "ano": 2022,
     "tipo": {
@@ -85518,8 +85055,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Burdeos",
     "bodega": "Château Haut-Brion",
     "ano": 2022,
     "tipo": {
@@ -85557,8 +85094,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Francia",
+    "region": "Burdeos",
     "bodega": "Château Pavie",
     "ano": 2022,
     "tipo": {
@@ -85672,8 +85209,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "España",
+    "region": "Murcia",
     "bodega": "Isabel Ferrando",
     "ano": 2023,
     "tipo": {
@@ -85784,8 +85321,8 @@
   {
     "pod": null,
     "descripcion": null,
-    "pais": null,
-    "region": null,
+    "pais": "Italia",
+    "region": "Toscana",
     "bodega": "Le Macchiole",
     "ano": 2022,
     "tipo": {
