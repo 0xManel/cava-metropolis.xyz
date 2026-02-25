@@ -1080,7 +1080,6 @@
         </div>
 
         <button class="admin-btn" id="adminBtn" data-translate="admin">Admin</button>
-        <button class="logout-btn" id="logoutBtn" data-translate="logout">Salir</button>
     </div>
 
     <header>
@@ -1364,7 +1363,7 @@
                     "Quizás un vino francés"
                 ],
                 refs: "referencias disponibles", region: "Región", country: "País",
-                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", logout: "Salir", admin: "Admin", consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", btnLabel: "🇪🇸 ES"
+                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
@@ -1376,7 +1375,7 @@
                     "Maybe a French wine"
                 ],
                 refs: "references available", region: "Region", country: "Country",
-                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", logout: "Sign out", admin: "Admin", consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", btnLabel: "🇬🇧 EN"
+                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
@@ -1388,7 +1387,7 @@
                     "Talvez um vinho francês"
                 ],
                 refs: "referências disponíveis", region: "Região", country: "País",
-                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", logout: "Sair", admin: "Admin", consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", btnLabel: "🇧🇷 PT"
+                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", btnLabel: "🇧🇷 PT"
             }
         };
 
@@ -2009,25 +2008,6 @@
 
             // Refresh search results if visible
             triggerSearch();
-        }
-
-        const logoutBtn = document.getElementById('logoutBtn');
-        if (logoutBtn) {
-            logoutBtn.addEventListener('click', () => {
-                sessionStorage.removeItem(AUTH_KEYS.sessionFlag);
-                sessionStorage.removeItem(AUTH_KEYS.sessionUser);
-                sessionStorage.removeItem(AUTH_KEYS.sessionEstablishment);
-                sessionStorage.removeItem(AUTH_KEYS.sessionRole);
-                sessionStorage.removeItem(AUTH_KEYS.sessionScope);
-
-                localStorage.removeItem(AUTH_KEYS.persistentFlag);
-                localStorage.removeItem(AUTH_KEYS.persistentUser);
-                localStorage.removeItem(AUTH_KEYS.persistentEstablishment);
-                localStorage.removeItem(AUTH_KEYS.persistentRole);
-                localStorage.removeItem(AUTH_KEYS.persistentScope);
-
-                window.location.replace('login.html');
-            });
         }
 
         // --- DARK/LIGHT MODE TOGGLE (CANVAS) ---

@@ -350,7 +350,6 @@
 
     <div class="top-actions">
         <button class="action-btn" id="backBtn">Volver</button>
-        <button class="action-btn" id="logoutBtn">Salir</button>
     </div>
 
     <div class="admin-wrap">
@@ -652,20 +651,6 @@
 
         document.getElementById('backBtn').addEventListener('click', () => {
             window.location.href = 'index.html';
-        });
-
-        document.getElementById('logoutBtn').addEventListener('click', () => {
-            sessionStorage.removeItem('cava_login_demo');
-            sessionStorage.removeItem('cava_login_user');
-            sessionStorage.removeItem('cava_login_establishment');
-            sessionStorage.removeItem('cava_login_role');
-            sessionStorage.removeItem('cava_login_scope');
-            localStorage.removeItem('cava_login_persistent_access');
-            localStorage.removeItem('cava_login_persistent_user');
-            localStorage.removeItem('cava_login_persistent_establishment');
-            localStorage.removeItem('cava_login_persistent_role');
-            localStorage.removeItem('cava_login_persistent_scope');
-            window.location.replace('login.html');
         });
 
         if (isOwner) {
