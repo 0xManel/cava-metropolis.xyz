@@ -1722,7 +1722,7 @@
     "pod": "POD015923",
     "descripcion": "Abadía Retuerta Le Domaine 23-",
     "pais": "España",
-    "region": "Ribera del Duero",
+    "region": "Castilla y León",
     "bodega": "Abadía Retuerta",
     "ano": 2023,
     "tipo": {
@@ -2207,7 +2207,7 @@
     "pod": "POD019725",
     "descripcion": "Cuarto Lagar 21-",
     "pais": "España",
-    "region": "Ribera del Duero",
+    "region": "Rueda",
     "bodega": "Cuarto Lagar",
     "ano": 2021,
     "tipo": {
@@ -3125,7 +3125,7 @@
     "pod": "POD017677",
     "descripcion": "Territorio Luthier 2021-",
     "pais": "España",
-    "region": "Ribera del Duero",
+    "region": "Rueda",
     "bodega": "Territorio Luthier",
     "ano": 2021,
     "tipo": {
@@ -4655,7 +4655,7 @@
     "pod": "POD016565",
     "descripcion": "Attis Atalante Caiño BL 23-",
     "pais": "España",
-    "region": "Rías Baixas",
+    "region": "Valdeorras",
     "bodega": "Attis",
     "ano": 2023,
     "tipo": {
@@ -5491,7 +5491,7 @@
     "pod": "POD017033",
     "descripcion": "Goliardo A Telleira 23-",
     "pais": "España",
-    "region": "Rías Baixas",
+    "region": "Valdeorras",
     "bodega": "Forjas del Salnés",
     "ano": 2023,
     "tipo": {
@@ -5528,7 +5528,7 @@
     "pod": "POD019158",
     "descripcion": "Goliardo A Telleira 24-",
     "pais": "España",
-    "region": "Rías Baixas",
+    "region": "Valdeorras",
     "bodega": "Forjas del Salnés",
     "ano": 2024,
     "tipo": {
@@ -32841,7 +32841,7 @@
     "pod": "POD017935",
     "descripcion": "Abadía Retuerta Garnacha 22-",
     "pais": "España",
-    "region": "Ribera del Duero",
+    "region": "Castilla y León",
     "bodega": "Abadía Retuerta",
     "ano": 2022,
     "tipo": {
@@ -32935,7 +32935,7 @@
     "pod": "POD016582",
     "descripcion": "Abadía Retuerta Pago Valdebellón 20-",
     "pais": "España",
-    "region": "Ribera del Duero",
+    "region": "Castilla y León",
     "bodega": "Abadía Retuerta",
     "ano": 2020,
     "tipo": {
@@ -32982,7 +32982,7 @@
     "pod": "POD015880",
     "descripcion": "Abadía Retuerta Petit Verdot 20-",
     "pais": "España",
-    "region": "Ribera del Duero",
+    "region": "Castilla y León",
     "bodega": "Abadía Retuerta",
     "ano": 2020,
     "tipo": {
@@ -42809,7 +42809,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Merenzao"
+      "Merenzao",
+      "Mencía"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -42871,7 +42872,7 @@
     "pod": "POD016564",
     "descripcion": "Attis Caiño 18-",
     "pais": "España",
-    "region": "Rías Baixas",
+    "region": "Bierzo",
     "bodega": "Attis",
     "ano": 2018,
     "tipo": {
@@ -42913,7 +42914,7 @@
     "pod": "POD011907",
     "descripcion": "Attis Espadeiro 18-",
     "pais": "España",
-    "region": "Rías Baixas",
+    "region": "Bierzo",
     "bodega": "Attis",
     "ano": 2018,
     "tipo": {
@@ -43173,7 +43174,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Merenzao"
+      "Merenzao",
+      "Mencía"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -43197,7 +43199,7 @@
     "pod": "POD019761",
     "descripcion": "Goliardo Caiño 22-",
     "pais": "España",
-    "region": "Rías Baixas",
+    "region": "Bierzo",
     "bodega": "Forjas del Salnés",
     "ano": 2022,
     "tipo": {
