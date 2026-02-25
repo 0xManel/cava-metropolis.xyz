@@ -181,7 +181,7 @@
 
         .report-footer {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
             align-items: center;
             gap: 8px;
             margin-top: 8px;
@@ -190,20 +190,6 @@
             overflow-y: hidden;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none;
-        }
-
-        .report-footer .report-status {
-            flex: 0 0 auto;
-            min-width: 110px;
-            text-align: center;
-            white-space: nowrap;
-        }
-
-        .report-actions-right {
-            display: flex;
-            gap: 8px;
-            flex-wrap: nowrap;
-            flex: 0 0 auto;
         }
 
         .report-action-btn {
@@ -238,8 +224,8 @@
         }
 
         .copy-btn {
-            align-self: flex-end;
-            height: 32px;
+            align-self: auto;
+            height: 34px;
             border-radius: 8px;
             border: 1px solid var(--glass-border);
             background: var(--gold-accent);
@@ -269,6 +255,7 @@
             min-height: 1rem;
             font-size: 0.74rem;
             color: var(--text-muted);
+            margin-top: 4px;
         }
 
         .report-status.error { color: #ff9d9d; }
@@ -531,7 +518,6 @@
         @media (max-width: 820px) {
             .user-grid { grid-template-columns: 1fr; }
             .report-footer { flex-wrap: nowrap; }
-            .report-actions-right { margin-left: 0; }
             .top-left-actions { top: 15px; left: 15px; }
             .top-actions { top: 15px; right: 15px; }
             .session-user-card { top: max(8px, env(safe-area-inset-top)); }
@@ -680,13 +666,11 @@
                 </div>
                 <textarea id="dailyText" class="admin-text" readonly></textarea>
                 <div class="report-footer">
-                    <button id="copyBtn" class="copy-btn">Copiar Reporte</button>
-                    <div id="reportStatus" class="report-status"></div>
-                    <div class="report-actions-right">
-                        <button id="clearReportBtn" class="report-action-btn danger">Limpar Lista</button>
-                        <button id="restoreReportBtn" class="report-action-btn success">Recuperar</button>
-                    </div>
+                    <button id="copyBtn" class="copy-btn">Copiar</button>
+                    <button id="clearReportBtn" class="report-action-btn danger">Borrar</button>
+                    <button id="restoreReportBtn" class="report-action-btn success">Recuperar</button>
                 </div>
+                <div id="reportStatus" class="report-status"></div>
             </div>
         </div>
 
@@ -1448,17 +1432,64 @@
                 return '';
             }
 
+            function escapeRegExp(value) {
+                return String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            }
+
+            function normalizeSizeForReport(value) {
+                const raw = String(value || '').trim();
+                if (!raw) return '';
+                return raw
+                    .replace(/\b(botella|bottle|garrafa)\b/gi, 'Bot.')
+                    .replace(/\s+/g, ' ')
+                    .trim();
+            }
+
+            function normalizeWineForReport(value) {
+                const raw = String(value || '').replace(/\s+/g, ' ').trim();
+                if (!raw) return '—';
+                return raw.replace(/\s*[-–—]+\s*$/, '').trim() || '—';
+            }
+
+            function getFullYearToken(value) {
+                const raw = String(value || '').trim();
+                if (!raw) return '';
+                const digits = raw.replace(/[^\d]/g, '');
+                if (!digits) return '';
+                if (digits.length >= 4) return digits.slice(-4);
+                return '';
+            }
+
+            function getShortYearToken(value) {
+                const raw = String(value || '').trim();
+                if (!raw) return '';
+                const digits = raw.replace(/[^\d]/g, '');
+                if (!digits) return '';
+                return digits.slice(-2);
+            }
+
+            function wineHasYearToken(wine, token) {
+                if (!wine || !token) return false;
+                const escaped = escapeRegExp(token);
+                const pattern = new RegExp(`(?:^|[\\s\\-_/()\\[\\]])${escaped}(?=$|[\\s\\-_/()\\[\\]])`, 'i');
+                return pattern.test(wine);
+            }
+
             const lines = [];
             visibleEntries.forEach((entry) => {
                 const qtyNumber = Number(entry.qty);
                 const qtyLabel = Number.isFinite(qtyNumber) && qtyNumber > 0 ? `${qtyNumber}x` : '1x';
-                const wineName = (entry.wine || '').toString().trim() || '—';
-                const yearText = entry.year != null ? String(entry.year).trim() : '';
-                const sizeText = (entry.size || entry.format || '').toString().trim();
+                const wineName = normalizeWineForReport(entry.wine || '');
+                const fullYearToken = getFullYearToken(entry.year);
+                const shortYearToken = getShortYearToken(entry.year);
+                const sizeText = normalizeSizeForReport(entry.size || entry.format || '');
                 const podText = (entry.pod || '').toString().trim();
                 const sourceRaw = String(entry.source || '').trim().toLowerCase();
                 const sourceTag = sourceRaw === 'bodega' ? ' (bodega)' : '';
-                const parts = [qtyLabel, sizeText, wineName, yearText, podText].filter(Boolean);
+                const shouldAppendYear = Boolean(shortYearToken)
+                    && !wineHasYearToken(wineName, shortYearToken)
+                    && !wineHasYearToken(wineName, fullYearToken);
+                const parts = [qtyLabel, sizeText, wineName, shouldAppendYear ? shortYearToken : '', podText].filter(Boolean);
                 lines.push(parts.join(' ') + sourceTag);
             });
             return lines.join('\n');
