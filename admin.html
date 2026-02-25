@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+    <title>STOCK Cava — Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #08080b;
+            --glass-bg: rgba(35, 35, 40, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.25);
+            --text-main: #FDFBF7;
+            --text-muted: #B8B0A0;
+            --gold-accent: #D4AF37;
+            --gold-light: #F3E5AB;
+            --transition-smooth: all 0.35s ease;
+        }
+
+        body.light-mode {
+            --bg-color: #FDFBF7;
+            --glass-bg: rgba(255, 255, 255, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.4);
+            --text-main: #1A1A1A;
+            --text-muted: #666156;
+            --gold-accent: #B8860B;
+            --gold-light: #D4AF37;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100dvh;
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 18px;
+        }
+
+        #particleCanvas {
+            position: fixed;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .admin-wrap {
+            position: relative;
+            z-index: 2;
+            width: min(900px, 100%);
+            margin-top: 62px;
+        }
+
+        .admin-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 14px;
+            text-align: center;
+        }
+
+        .admin-title {
+            color: var(--gold-accent);
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.35rem, 3.2vw, 1.9rem);
+            letter-spacing: 0.01em;
+        }
+
+        .admin-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 18px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.24);
+        }
+
+        .admin-card + .admin-card {
+            margin-top: 12px;
+        }
+
+        .admin-subtitle {
+            color: var(--text-muted);
+            font-size: 0.84rem;
+            margin-top: 4px;
+        }
+
+        .admin-text {
+            width: 100%;
+            min-height: 280px;
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            background: rgba(0,0,0,0.14);
+            color: var(--text-main);
+            padding: 14px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.88rem;
+            line-height: 1.5;
+            resize: vertical;
+            outline: none;
+        }
+
+        .daily-report-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .copy-btn {
+            align-self: flex-end;
+            height: 32px;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: var(--gold-accent);
+            color: #111;
+            padding: 0 12px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 600;
+            transition: var(--transition-smooth);
+        }
+
+        .copy-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+        }
+
+        .copy-btn.copied {
+            background: #b2e4a5;
+            color: #111;
+        }
+
+        .user-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 6px;
+        }
+
+        .user-list {
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            overflow: hidden;
+            max-height: 290px;
+            overflow-y: auto;
+            background: rgba(0,0,0,0.12);
+        }
+
+        .user-row {
+            display: grid;
+            grid-template-columns: 1.3fr 0.95fr 1fr;
+            gap: 8px;
+            padding: 9px 10px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+            font-size: 0.78rem;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .user-row.header {
+            position: sticky;
+            top: 0;
+            background: rgba(0,0,0,0.24);
+            font-weight: 700;
+            cursor: default;
+            z-index: 1;
+        }
+
+        .user-row.active {
+            background: rgba(212, 175, 55, 0.15);
+        }
+
+        .user-form {
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 10px;
+            background: rgba(0,0,0,0.12);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .um-field {
+            width: 100%;
+            height: 36px;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: rgba(0,0,0,0.15);
+            color: var(--text-main);
+            padding: 0 10px;
+            font-size: 0.82rem;
+            outline: none;
+        }
+
+        .admin-actions {
+            margin-top: 2px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 8px;
+        }
+
+        .btn-admin {
+            height: 36px;
+            border-radius: 10px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            padding: 0 14px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-admin.primary {
+            background: var(--gold-accent);
+            color: #111;
+            border: none;
+        }
+
+        .btn-admin:hover { transform: translateY(-1px); }
+
+        .um-status {
+            min-height: 1rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .um-status.error { color: #ff7777; }
+        .um-status.success { color: #b2e4a5; }
+
+        .top-actions {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: flex-end;
+        }
+
+        .action-btn {
+            width: 60px;
+            height: 30px;
+            border-radius: 15px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            cursor: pointer;
+            font-size: 0.62rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            backdrop-filter: blur(10px);
+        }
+
+        .app-signature {
+            position: fixed;
+            left: 50%;
+            bottom: max(10px, env(safe-area-inset-bottom));
+            transform: translateX(-50%);
+            z-index: 1;
+            pointer-events: none;
+            user-select: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: clamp(0.62rem, 1.6vw, 0.78rem);
+            letter-spacing: 0.16em;
+            color: var(--text-muted);
+            opacity: 0.24;
+            text-transform: lowercase;
+            white-space: nowrap;
+            text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
+        }
+
+        @media (max-width: 820px) {
+            .user-grid { grid-template-columns: 1fr; }
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        (() => {
+            const normalizeUsername = (value) => (value || '').trim().toLowerCase();
+            const normalizeRole = (value) => {
+                const normalized = (value || '').trim().toLowerCase();
+                return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+            };
+            const userRegistryKey = 'cava_user_registry_v1';
+
+            const inferRole = () => {
+                const user = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
+                const normalized = normalizeUsername(user);
+                if (normalized === '0xmanel') {
+                    sessionStorage.setItem('cava_login_role', 'adminmaster');
+                    sessionStorage.setItem('cava_login_scope', 'all');
+                    if (localStorage.getItem('cava_login_persistent_access') === '1') {
+                        localStorage.setItem('cava_login_persistent_role', 'adminmaster');
+                        localStorage.setItem('cava_login_persistent_scope', 'all');
+                    }
+                    return 'adminmaster';
+                }
+
+                const rawRole = normalizeRole(sessionStorage.getItem('cava_login_role'))
+                    || normalizeRole(localStorage.getItem('cava_login_persistent_role'));
+                if (rawRole) {
+                    return rawRole === 'adminmaster' ? 'admin' : rawRole;
+                }
+
+                try {
+                    const raw = localStorage.getItem(userRegistryKey);
+                    const parsed = raw ? JSON.parse(raw) : [];
+                    if (Array.isArray(parsed)) {
+                        const match = parsed.find((entry) => normalizeUsername(entry.username) === normalized);
+                        const matchRole = normalizeRole(match?.role);
+                        if (matchRole) {
+                            const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
+                            sessionStorage.setItem('cava_login_role', safeRole);
+                            if (!localStorage.getItem('cava_login_persistent_role')) {
+                                localStorage.setItem('cava_login_persistent_role', safeRole);
+                            }
+                            return safeRole;
+                        }
+                    }
+                } catch {}
+
+                return 'user';
+            };
+
+            const role = inferRole();
+            const hasSession = sessionStorage.getItem('cava_login_demo') === 'ok';
+            const hasPersistent = localStorage.getItem('cava_login_persistent_access') === '1';
+            if (!hasSession && !hasPersistent) {
+                window.location.replace('login.html');
+                return;
+            }
+            if (role !== 'admin' && role !== 'adminmaster') {
+                window.location.replace('index.html');
+            }
+        })();
+    </script>
+
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="top-actions">
+        <button class="action-btn" id="backBtn">Volver</button>
+        <button class="action-btn" id="logoutBtn">Salir</button>
+    </div>
+
+    <div class="admin-wrap">
+        <div class="admin-header">
+            <h1 class="admin-title" id="zoneTitle">Admin Zone</h1>
+        </div>
+
+        <div class="admin-card">
+            <div class="daily-report-wrapper">
+                <textarea id="dailyText" class="admin-text" readonly></textarea>
+                <button id="copyBtn" class="copy-btn">Copiar Reporte</button>
+            </div>
+        </div>
+
+        <div class="admin-card" id="userManagementCard">
+            <div class="admin-subtitle" style="margin-top:0; margin-bottom:8px;">Gestión de usuarios (solo owner)</div>
+            <div class="user-grid">
+                <div class="user-list" id="userList">
+                    <div class="user-row header">
+                        <div>Usuario</div>
+                        <div>Rol</div>
+                        <div>Planta</div>
+                    </div>
+                    <div id="userListBody"></div>
+                </div>
+
+                <div class="user-form">
+                    <input id="umUsername" class="um-field" type="text" placeholder="Usuario">
+                    <input id="umPassword" class="um-field" type="text" placeholder="Password (dejar vacío para mantener)">
+                    <select id="umRole" class="um-field">
+                        <option value="user">user</option>
+                        <option value="admin">admin</option>
+                        <option value="adminmaster">adminmaster</option>
+                    </select>
+                    <select id="umScope" class="um-field">
+                        <option value="spa">spa</option>
+                        <option value="tasca_fina">tasca_fina</option>
+                        <option value="victoria">victoria</option>
+                        <option value="all">all</option>
+                    </select>
+                    <div class="admin-actions">
+                        <button class="btn-admin primary" id="umSaveBtn">Guardar</button>
+                        <button class="btn-admin" id="umDeleteBtn">Eliminar</button>
+                    </div>
+                    <div class="um-status" id="umStatus"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-signature" aria-hidden="true">stockcava@2026</div>
+
+    <script>
+        const normalizeRole = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+        };
+        const normalizeScope = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
+        };
+        const normalizeUsername = (value) => (value || '').trim().toLowerCase();
+        const currentUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || 'unknown';
+        const currentUserNormalized = normalizeUsername(currentUser);
+        const isOwner = currentUserNormalized === '0xmanel';
+        const storedRole = normalizeRole(sessionStorage.getItem('cava_login_role'))
+            || normalizeRole(localStorage.getItem('cava_login_persistent_role'));
+        const storedScope = normalizeScope(sessionStorage.getItem('cava_login_scope'))
+            || normalizeScope(localStorage.getItem('cava_login_persistent_scope'));
+        const role = isOwner ? 'adminmaster' : ((storedRole === 'adminmaster' ? 'admin' : storedRole) || 'user');
+        const scope = isOwner ? 'all' : ((storedScope === 'all' ? 'spa' : storedScope) || 'spa');
+        const movementLogKey = 'cava_daily_movements_v1';
+        const textarea = document.getElementById('dailyText');
+        const zoneTitle = document.getElementById('zoneTitle');
+        const userManagementCard = document.getElementById('userManagementCard');
+        const userListBody = document.getElementById('userListBody');
+        const umUsername = document.getElementById('umUsername');
+        const umPassword = document.getElementById('umPassword');
+        const umRole = document.getElementById('umRole');
+        const umScope = document.getElementById('umScope');
+        const umStatus = document.getElementById('umStatus');
+        const userRegistryKey = 'cava_user_registry_v1';
+        let selectedUser = null;
+
+        if (zoneTitle) {
+            zoneTitle.textContent = role === 'adminmaster' ? 'Adminmaster Zone' : 'Admin Zone';
+        }
+
+        function defaultRegistry() {
+            return [{ username: '0xManel', password: 'Tqne1501', role: 'adminmaster', scope: 'all' }];
+        }
+
+        function getUserRegistry() {
+            try {
+                const raw = localStorage.getItem(userRegistryKey);
+                const parsed = raw ? JSON.parse(raw) : [];
+                if (Array.isArray(parsed) && parsed.length > 0) {
+                    const hasOwner = parsed.some((entry) => normalizeUsername(entry.username) === '0xmanel');
+                    if (!hasOwner) {
+                        parsed.unshift(defaultRegistry()[0]);
+                        localStorage.setItem(userRegistryKey, JSON.stringify(parsed));
+                    }
+                    return parsed;
+                }
+            } catch {}
+
+            const fallback = defaultRegistry();
+            localStorage.setItem(userRegistryKey, JSON.stringify(fallback));
+            return fallback;
+        }
+
+        function saveUserRegistry(list) {
+            localStorage.setItem(userRegistryKey, JSON.stringify(list));
+        }
+
+        function mapRoleLabel(value) {
+            if (value === 'adminmaster') return 'adminmaster';
+            if (value === 'admin') return 'admin';
+            return 'user';
+        }
+
+        function setUmStatus(message, type = '') {
+            if (!umStatus) return;
+            umStatus.textContent = message;
+            umStatus.className = 'um-status';
+            if (type) umStatus.classList.add(type);
+        }
+
+        function syncCurrentSessionIfNeeded(updatedUser) {
+            const updatedNormalized = normalizeUsername(updatedUser.username);
+            if (updatedNormalized === currentUserNormalized) {
+                sessionStorage.setItem('cava_login_role', updatedUser.role);
+                sessionStorage.setItem('cava_login_scope', updatedUser.scope);
+                if (localStorage.getItem('cava_login_persistent_access') === '1') {
+                    localStorage.setItem('cava_login_persistent_role', updatedUser.role);
+                    localStorage.setItem('cava_login_persistent_scope', updatedUser.scope);
+                }
+            }
+        }
+
+        function renderUserRegistry() {
+            if (!userListBody) return;
+            const users = getUserRegistry();
+            userListBody.innerHTML = '';
+
+            users.forEach((user) => {
+                const row = document.createElement('div');
+                row.className = 'user-row';
+                if (selectedUser && normalizeUsername(selectedUser) === normalizeUsername(user.username)) {
+                    row.classList.add('active');
+                }
+
+                row.innerHTML = `<div>${user.username}</div><div>${mapRoleLabel(user.role)}</div><div>${mapEstLabel(user.scope || 'spa')}</div>`;
+                row.addEventListener('click', () => {
+                    selectedUser = user.username;
+                    umUsername.value = user.username || '';
+                    umPassword.value = '';
+                    umRole.value = user.role || 'user';
+                    umScope.value = user.scope || 'spa';
+                    setUmStatus(`Editando ${user.username}`);
+                    renderUserRegistry();
+                });
+
+                userListBody.appendChild(row);
+            });
+        }
+
+        function saveUser() {
+            const username = umUsername.value.trim();
+            const password = umPassword.value.trim();
+            const normalizedTarget = normalizeUsername(username);
+            const roleValue = normalizedTarget === '0xmanel' ? 'adminmaster' : (normalizeRole(umRole.value) || 'user');
+            const scopeValue = roleValue === 'adminmaster' ? 'all' : (normalizeScope(umScope.value) || 'spa');
+
+            if (!username) {
+                setUmStatus('Usuario obligatorio.', 'error');
+                return;
+            }
+
+            if (roleValue !== 'adminmaster' && scopeValue === 'all') {
+                setUmStatus('Solo adminmaster puede tener scope "all".', 'error');
+                return;
+            }
+
+            if (normalizedTarget !== '0xmanel' && roleValue === 'adminmaster') {
+                setUmStatus('0xManel es el único adminmaster.', 'error');
+                return;
+            }
+
+            const users = getUserRegistry();
+            const existingIndex = users.findIndex((user) => normalizeUsername(user.username) === normalizedTarget);
+
+            if (existingIndex >= 0) {
+                const current = users[existingIndex];
+                users[existingIndex] = {
+                    username,
+                    password: password || current.password || '',
+                    role: roleValue,
+                    scope: scopeValue
+                };
+                syncCurrentSessionIfNeeded(users[existingIndex]);
+            } else {
+                users.push({
+                    username,
+                    password,
+                    role: roleValue,
+                    scope: scopeValue
+                });
+            }
+
+            saveUserRegistry(users);
+            selectedUser = username;
+            if (normalizedTarget === '0xmanel') {
+                umRole.value = 'adminmaster';
+                umScope.value = 'all';
+            }
+            setUmStatus('Guardado con éxito.', 'success');
+            renderUserRegistry();
+        }
+
+        function deleteUser() {
+            const username = umUsername.value.trim();
+            if (!username) {
+                setUmStatus('Selecciona un usuario para eliminar.', 'error');
+                return;
+            }
+
+            if (normalizeUsername(username) === '0xmanel') {
+                setUmStatus('No se puede eliminar el owner 0xManel.', 'error');
+                return;
+            }
+
+            const users = getUserRegistry();
+            const filtered = users.filter((user) => normalizeUsername(user.username) !== normalizeUsername(username));
+            saveUserRegistry(filtered);
+
+            selectedUser = null;
+            umUsername.value = '';
+            umPassword.value = '';
+            umRole.value = 'user';
+            umScope.value = 'spa';
+            setUmStatus('Usuario eliminado.', 'success');
+            renderUserRegistry();
+        }
+
+        function mapEstLabel(key) {
+            if (key === 'spa') return 'SPA';
+            if (key === 'tasca_fina') return 'TASCA FINA';
+            if (key === 'victoria') return 'VICTORIA';
+            return key || '—';
+        }
+
+        function buildReport() {
+            const today = new Date().toISOString().slice(0, 10);
+            const raw = localStorage.getItem(movementLogKey);
+            const parsed = raw ? JSON.parse(raw) : {};
+            const entries = Array.isArray(parsed[today]) ? parsed[today] : [];
+
+            const visibleEntries = entries.filter((entry) => {
+                if (role === 'adminmaster') return true;
+                if (scope === 'all') return true;
+                return entry.establishment === scope;
+            });
+
+            if (visibleEntries.length === 0) {
+                return '';
+            }
+
+            const lines = [];
+            visibleEntries.forEach((entry, index) => {
+                const time = entry.at ? new Date(entry.at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '--:--';
+                lines.push(
+                    `${index + 1}. [${time}] ${entry.user || '—'} retirou ${entry.qty ?? 1} x ${entry.wine || '—'} (${entry.pod || '—'}) · ${mapEstLabel(entry.establishment)}`
+                );
+            });
+            return lines.join('\n');
+        }
+
+        function renderReport() {
+            textarea.value = buildReport();
+        }
+
+        function copyReport() {
+            const copyBtn = document.getElementById('copyBtn');
+            navigator.clipboard.writeText(textarea.value).then(() => {
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '✓ Copiado';
+                copyBtn.classList.add('copied');
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            }).catch(() => {
+                alert('Error al copiar al portapapeles');
+            });
+        }
+
+        document.getElementById('copyBtn').addEventListener('click', copyReport);
+
+        document.getElementById('backBtn').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+            sessionStorage.removeItem('cava_login_demo');
+            sessionStorage.removeItem('cava_login_user');
+            sessionStorage.removeItem('cava_login_establishment');
+            sessionStorage.removeItem('cava_login_role');
+            sessionStorage.removeItem('cava_login_scope');
+            localStorage.removeItem('cava_login_persistent_access');
+            localStorage.removeItem('cava_login_persistent_user');
+            localStorage.removeItem('cava_login_persistent_establishment');
+            localStorage.removeItem('cava_login_persistent_role');
+            localStorage.removeItem('cava_login_persistent_scope');
+            window.location.replace('login.html');
+        });
+
+        if (isOwner) {
+            renderUserRegistry();
+            umRole.value = 'user';
+            umScope.value = 'spa';
+            umRole.addEventListener('change', () => {
+                if (umRole.value !== 'adminmaster' && umScope.value === 'all') {
+                    umScope.value = 'spa';
+                }
+            });
+            document.getElementById('umSaveBtn').addEventListener('click', saveUser);
+            document.getElementById('umDeleteBtn').addEventListener('click', deleteUser);
+        } else if (userManagementCard) {
+            userManagementCard.style.display = 'none';
+        }
+
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.color = 'rgba(212, 175, 55, ' + (Math.random() * 0.5 + 0.2) + ')';
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.size > 0.2) this.size -= 0.01;
+            }
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < 100; i++) particles.push(new Particle());
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+                if (particles[i].size <= 0.2) {
+                    particles.splice(i, 1);
+                    particles.push(new Particle());
+                    i--;
+                }
+            }
+            requestAnimationFrame(animateParticles);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+        initParticles();
+        animateParticles();
+
+        renderReport();
+    </script>
+</body>
+</html>
