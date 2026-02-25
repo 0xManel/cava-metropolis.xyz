@@ -3,7 +3,8 @@
     "allow": [
       "Bash(/tmp/fix_uvas.py:*)",
       "Bash(/tmp/audit_wines.py:*)",
-      "Bash(/tmp/fix_all_wines.py:*)"
+      "Bash(/tmp/fix_all_wines.py:*)",
+      "WebFetch(domain:territorioluthier.com)"
     ],
     "additionalDirectories": [
       "/tmp"

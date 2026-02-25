@@ -3,7 +3,8 @@
     "allow": [
       "Bash(brew install:*)",
       "Bash(curl:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(node -c /Users/0xmanel/cava-metropolis/index.html)"
     ]
   }
 }

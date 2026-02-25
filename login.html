@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - STOCK Cava</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #08080b;
+            --glass-bg: rgba(35, 35, 40, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.25);
+            --text-main: #FDFBF7;
+            --text-muted: #B8B0A0;
+            --gold-accent: #D4AF37;
+            --gold-light: #F3E5AB;
+            --transition-smooth: all 0.4s ease;
+            --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        body.light-mode {
+            --bg-color: #FDFBF7;
+            --glass-bg: rgba(255, 255, 255, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.4);
+            --text-main: #1A1A1A;
+            --text-muted: #666156;
+            --gold-accent: #B8860B;
+            --gold-light: #D4AF37;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            transition: background-color 0.8s ease, color 0.8s ease;
+            min-height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        @keyframes fadeSlideUp {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes neonPulse {
+            0%, 100% {
+                box-shadow:
+                    0 0 10px rgba(212, 175, 55, 0.35),
+                    0 0 24px rgba(212, 175, 55, 0.28),
+                    0 0 44px rgba(184, 134, 11, 0.18);
+            }
+            50% {
+                box-shadow:
+                    0 0 14px rgba(243, 229, 171, 0.45),
+                    0 0 34px rgba(212, 175, 55, 0.4),
+                    0 0 58px rgba(184, 134, 11, 0.3);
+            }
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px; right: 20px;
+            width: 80px; height: 40px;
+            border-radius: 20px;
+            background: transparent;
+            border: 1px solid var(--glass-border);
+            cursor: pointer;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            overflow: hidden;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+            transform: scale(1.05);
+        }
+
+        #toggleCanvas { width: 100%; height: 100%; display: block; }
+
+        .lang-container {
+            position: fixed;
+            top: 20px; left: 20px;
+            z-index: 99;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .lang-btn {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            width: 80px; height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: center; gap: 4px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .lang-btn:hover {
+            border-color: var(--gold-accent);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 120%; left: 0;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            overflow: hidden;
+            opacity: 0; visibility: hidden;
+            transform: translateY(-10px);
+            transition: var(--transition-smooth);
+            backdrop-filter: blur(15px);
+            min-width: 100px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .lang-container:hover .lang-dropdown {
+            opacity: 1; visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: flex; align-items: center; gap: 10px;
+            padding: 12px 20px;
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+            cursor: pointer;
+        }
+
+        .lang-option:hover { background: rgba(212, 175, 55, 0.1); }
+
+        .login-container {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            animation: fadeSlideUp 0.8s ease-out both;
+            z-index: 10;
+        }
+
+        .brand {
+            margin-bottom: 1.2rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .brand-logo-wrap {
+            position: relative;
+            width: 108px;
+            height: 108px;
+            border-radius: 24px;
+            padding: 6px;
+            isolation: isolate;
+            animation: neonPulse 2.2s ease-in-out infinite;
+        }
+
+        .brand-logo-wrap::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 26px;
+            background: conic-gradient(
+                from 0deg,
+                rgba(212, 175, 55, 0.08),
+                rgba(243, 229, 171, 0.5),
+                rgba(212, 175, 55, 0.15),
+                rgba(184, 134, 11, 0.45),
+                rgba(212, 175, 55, 0.08)
+            );
+            padding: 2px;
+            z-index: -1;
+            -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+            -webkit-mask-composite: xor;
+            mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+            mask-composite: exclude;
+        }
+
+        .brand-logo-wrap::after {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 25px;
+            border: 1px solid rgba(243, 229, 171, 0.28);
+            box-shadow:
+                0 0 12px rgba(212, 175, 55, 0.35),
+                0 0 24px rgba(212, 175, 55, 0.2);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .brand-logo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 18px;
+            border: 1px solid rgba(212, 175, 55, 0.45);
+            background: rgba(8, 8, 11, 0.65);
+        }
+
+        .login-subtitle {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .input-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            color: var(--text-main);
+            font-size: 1rem;
+            outline: none;
+            transition: var(--transition-smooth);
+        }
+
+        .input-group input:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+        }
+
+        .establishment-picker {
+            margin-bottom: 1.2rem;
+            text-align: left;
+        }
+
+        .establishment-toggle {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            color: var(--text-main);
+            font-size: 1rem;
+            text-align: left;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .establishment-toggle:focus,
+        .establishment-toggle.active {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+            outline: none;
+        }
+
+        .establishment-arrow {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            transition: transform 0.25s ease;
+        }
+
+        .establishment-toggle.active .establishment-arrow {
+            transform: rotate(180deg);
+        }
+
+        .establishment-options {
+            margin-top: 0.45rem;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 10px;
+            background: rgba(20, 20, 24, 0.95);
+            overflow: hidden;
+        }
+
+        .establishment-option {
+            width: 100%;
+            border: none;
+            background: transparent;
+            color: var(--text-main);
+            padding: 0.75rem 1rem;
+            text-align: left;
+            cursor: pointer;
+            transition: background 0.2s ease;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.95rem;
+        }
+
+        .establishment-option:hover {
+            background: rgba(212, 175, 55, 0.16);
+        }
+
+        .login-button {
+            background: var(--gold-accent);
+            color: var(--bg-color);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-bounce);
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .login-button:hover {
+            background: var(--gold-light);
+            transform: translateY(-3px);
+        }
+
+        .login-button:active {
+            transform: translateY(0);
+        }
+
+        .remember-access {
+            margin: 0.6rem 0 0.2rem;
+            text-align: left;
+        }
+
+        .remember-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: var(--text-muted);
+            font-size: 0.87rem;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .remember-label input {
+            width: 16px;
+            height: 16px;
+            accent-color: var(--gold-accent);
+            cursor: pointer;
+        }
+
+        .login-feedback {
+            min-height: 1.2rem;
+            margin-top: 0.85rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .login-feedback.error {
+            color: #ff7f7f;
+        }
+
+        .login-feedback.success {
+            color: #57C25B;
+        }
+
+        #particleCanvas {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .app-signature {
+            position: fixed;
+            left: 50%;
+            bottom: max(10px, env(safe-area-inset-bottom));
+            transform: translateX(-50%);
+            z-index: 1;
+            pointer-events: none;
+            user-select: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: clamp(0.62rem, 1.6vw, 0.78rem);
+            letter-spacing: 0.16em;
+            color: var(--text-muted);
+            opacity: 0.24;
+            text-transform: lowercase;
+            white-space: nowrap;
+            text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
+        }
+
+        @media (max-width: 700px) {
+            .theme-toggle { top: 15px; right: 15px; }
+            .lang-container { top: 15px; left: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+        <canvas id="toggleCanvas"></canvas>
+    </button>
+
+    <div class="lang-container">
+        <button class="lang-btn" id="currentLangBtn">ES</button>
+        <div class="lang-dropdown">
+            <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
+            <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
+            <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
+        </div>
+    </div>
+
+    <div class="login-container">
+        <div class="brand" aria-label="Marca">
+            <div class="brand-logo-wrap">
+                <img class="brand-logo" src="imgs/icon-512.png" alt="Stock Cava" width="108" height="108">
+            </div>
+        </div>
+        <p class="login-subtitle" data-translate="subtitle">Prova local antes da integração com a busca</p>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username" data-translate="userLabel">Usuário</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password" data-translate="passLabel">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="establishment-picker">
+                <button type="button" id="establishmentToggle" class="establishment-toggle" aria-expanded="false" aria-controls="establishmentOptions">
+                    <span id="establishmentLabel" data-default-key="establishmentPlaceholder">Restaurante</span>
+                    <span class="establishment-arrow">▾</span>
+                </button>
+                <div id="establishmentOptions" class="establishment-options" hidden>
+                    <button type="button" class="establishment-option" data-value="spa">SPA</button>
+                    <button type="button" class="establishment-option" data-value="tasca_fina">TASCA FINA</button>
+                    <button type="button" class="establishment-option" data-value="victoria">VICTORIA</button>
+                </div>
+                <input type="hidden" id="establishmentValue" name="establishment">
+            </div>
+            <div class="remember-access">
+                <label class="remember-label" for="rememberAccess">
+                    <input type="checkbox" id="rememberAccess" name="rememberAccess">
+                    <span data-translate="rememberLabel">Manter acesso neste dispositivo</span>
+                </label>
+            </div>
+            <button type="submit" class="login-button" data-translate="loginBtn">Entrar</button>
+            <p id="loginFeedback" class="login-feedback"></p>
+        </form>
+    </div>
+
+    <div class="app-signature" aria-hidden="true">stockcava@2026</div>
+
+    <script>
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.color = 'rgba(212, 175, 55, ' + (Math.random() * 0.5 + 0.2) + ')';
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                if (this.size > 0.2) this.size -= 0.01;
+            }
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            particles = [];
+            for (let i = 0; i < 100; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+
+                if (particles[i].size <= 0.2) {
+                    particles.splice(i, 1);
+                    particles.push(new Particle());
+                    i--;
+                }
+            }
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+        init();
+        animate();
+
+        const translations = {
+            es: {
+                btnLabel: 'ES',
+                subtitle: 'Prueba local antes de la integración con la búsqueda',
+                userLabel: 'Usuario',
+                passLabel: 'Contraseña',
+                establishmentPlaceholder: 'Restaurante',
+                rememberLabel: 'Mantener acceso en este dispositivo',
+                loginBtn: 'Entrar',
+                feedbackMissingCredentials: 'Completa usuario y contraseña para continuar.',
+                feedbackMissingEstablishment: 'Selecciona un restaurante para continuar.',
+                feedbackInvalidCredentials: 'Usuário ou senha inválidos. Solicita cadastro ao Admin Master.',
+                feedbackSuccess: 'Login realizado. Redirigiendo…'
+            },
+            en: {
+                btnLabel: 'EN',
+                subtitle: 'Local preview before integrating with search',
+                userLabel: 'Username',
+                passLabel: 'Password',
+                establishmentPlaceholder: 'Restaurant',
+                rememberLabel: 'Keep me signed in on this device',
+                loginBtn: 'Enter',
+                feedbackMissingCredentials: 'Fill in username and password to continue.',
+                feedbackMissingEstablishment: 'Select a restaurant to continue.',
+                feedbackInvalidCredentials: 'Invalid username or password. Ask Admin Master to register your account.',
+                feedbackSuccess: 'Login successful. Redirecting…'
+            },
+            pt: {
+                btnLabel: 'PT',
+                subtitle: 'Prova local antes da integração com a busca',
+                userLabel: 'Usuário',
+                passLabel: 'Senha',
+                establishmentPlaceholder: 'Restaurante',
+                rememberLabel: 'Manter acesso neste dispositivo',
+                loginBtn: 'Entrar',
+                feedbackMissingCredentials: 'Preenche usuário e senha para continuar.',
+                feedbackMissingEstablishment: 'Seleciona um restaurante para continuar.',
+                feedbackInvalidCredentials: 'Usuário ou senha inválidos. Solicita cadastro ao Admin Master.',
+                feedbackSuccess: 'Login efetuado. A redirecionar…'
+            }
+        };
+
+        let currentLang = 'es';
+
+        function setLanguage(lang) {
+            if (!translations[lang]) return;
+            currentLang = lang;
+            const t = translations[lang];
+            document.documentElement.lang = lang;
+            document.getElementById('currentLangBtn').textContent = t.btnLabel;
+
+            document.querySelectorAll('[data-translate]').forEach((element) => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    element.textContent = t[key];
+                }
+            });
+
+            const currentEstablishmentValue = document.getElementById('establishmentValue');
+            const currentEstablishmentLabel = document.getElementById('establishmentLabel');
+            if (currentEstablishmentValue && currentEstablishmentLabel && !currentEstablishmentValue.value) {
+                currentEstablishmentLabel.textContent = t.establishmentPlaceholder;
+            }
+
+            localStorage.setItem('cava_login_lang', lang);
+        }
+
+        window.setLanguage = setLanguage;
+
+        const preferredLang = localStorage.getItem('cava_login_lang');
+        if (preferredLang && translations[preferredLang]) {
+            setLanguage(preferredLang);
+        } else {
+            setLanguage('es');
+        }
+
+        const themeToggle = document.getElementById('themeToggle');
+        const toggleCanvas = document.getElementById('toggleCanvas');
+        const tCtx = toggleCanvas.getContext('2d');
+        toggleCanvas.width = 80;
+        toggleCanvas.height = 40;
+
+        let isDark = true;
+        let toggleProgress = 1;
+        const lerp = (a, b, t) => a + (b - a) * t;
+
+        function drawToggle() {
+            const w = toggleCanvas.width, h = toggleCanvas.height;
+            tCtx.clearRect(0, 0, w, h);
+
+            const r = lerp(96, 30, toggleProgress);
+            const g = lerp(165, 27, toggleProgress);
+            const b = lerp(250, 75, toggleProgress);
+            tCtx.fillStyle = `rgb(${r},${g},${b})`;
+            tCtx.beginPath();
+            tCtx.roundRect(0, 0, w, h, 20);
+            tCtx.fill();
+
+            if (toggleProgress > 0.1) {
+                tCtx.fillStyle = `rgba(255,255,255,${toggleProgress})`;
+                [{x:20,y:10},{x:40,y:30},{x:15,y:30},{x:50,y:10}].forEach(s => {
+                    tCtx.beginPath(); tCtx.arc(s.x, s.y, 1.5, 0, Math.PI*2); tCtx.fill();
+                });
+            }
+
+            const cloudOp = Math.max(0, 1 - toggleProgress * 2);
+            if (cloudOp > 0) {
+                tCtx.fillStyle = `rgba(255,255,255,${cloudOp * 0.8})`;
+                tCtx.beginPath();
+                tCtx.arc(50,30,8,0,Math.PI*2); tCtx.arc(60,35,10,0,Math.PI*2); tCtx.arc(70,30,8,0,Math.PI*2);
+                tCtx.fill();
+            }
+
+            const cx = lerp(20, w-20, toggleProgress), cy = h/2, rad = 14;
+            const ar = lerp(251,226,toggleProgress), ag = lerp(191,232,toggleProgress), ab = lerp(36,240,toggleProgress);
+            tCtx.fillStyle = `rgb(${ar},${ag},${ab})`;
+            tCtx.shadowBlur = 10;
+            tCtx.shadowColor = `rgba(${ar},${ag},${ab},0.5)`;
+            tCtx.beginPath(); tCtx.arc(cx, cy, rad, 0, Math.PI*2); tCtx.fill();
+            tCtx.shadowBlur = 0;
+
+            if (toggleProgress > 0.1) {
+                const maskOff = lerp(rad*2, 6, toggleProgress);
+                tCtx.fillStyle = `rgb(${r},${g},${b})`;
+                tCtx.beginPath(); tCtx.arc(cx - maskOff, cy - 2, rad, 0, Math.PI*2); tCtx.fill();
+            }
+
+            const rayOp = Math.max(0, 1 - toggleProgress * 3);
+            if (rayOp > 0) {
+                tCtx.strokeStyle = `rgba(251,191,36,${rayOp})`;
+                tCtx.lineWidth = 2; tCtx.lineCap = 'round';
+                for (let i = 0; i < 6; i++) {
+                    const angle = (i * Math.PI * 2) / 6 + (toggleProgress * 2);
+                    tCtx.beginPath();
+                    tCtx.moveTo(cx + Math.cos(angle)*(rad+3), cy + Math.sin(angle)*(rad+3));
+                    tCtx.lineTo(cx + Math.cos(angle)*(rad+7), cy + Math.sin(angle)*(rad+7));
+                    tCtx.stroke();
+                }
+            }
+
+            const target = isDark ? 1 : 0;
+            if (Math.abs(toggleProgress - target) > 0.001) {
+                toggleProgress += (target - toggleProgress) * 0.1;
+                requestAnimationFrame(drawToggle);
+            }
+        }
+
+        themeToggle.addEventListener('click', () => {
+            isDark = !isDark;
+            document.body.classList.toggle('light-mode');
+            drawToggle();
+        });
+
+        drawToggle();
+
+        const loginForm = document.getElementById('loginForm');
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        const rememberAccessInput = document.getElementById('rememberAccess');
+        const establishmentToggle = document.getElementById('establishmentToggle');
+        const establishmentOptions = document.getElementById('establishmentOptions');
+        const establishmentLabel = document.getElementById('establishmentLabel');
+        const establishmentValue = document.getElementById('establishmentValue');
+        const establishmentButtons = document.querySelectorAll('.establishment-option');
+        const loginFeedback = document.getElementById('loginFeedback');
+
+        const persistentAccessKey = 'cava_login_persistent_access';
+        const persistentUserKey = 'cava_login_persistent_user';
+        const persistentEstablishmentKey = 'cava_login_persistent_establishment';
+        const persistentRoleKey = 'cava_login_persistent_role';
+        const persistentScopeKey = 'cava_login_persistent_scope';
+
+        const sessionAuthFlagKey = 'cava_login_demo';
+        const sessionUserKey = 'cava_login_user';
+        const sessionEstablishmentKey = 'cava_login_establishment';
+        const sessionRoleKey = 'cava_login_role';
+        const sessionScopeKey = 'cava_login_scope';
+
+        const userRegistryKey = 'cava_user_registry_v1';
+        const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+        const OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+
+        function isPasswordHash(value) {
+            return typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value.trim());
+        }
+
+        async function hashPassword(value) {
+            const input = String(value || '');
+            const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));
+            return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        function getDefaultRegistry() {
+            return [
+                {
+                    username: '0xManel',
+                    password_hash: OWNER_PASSWORD_HASH,
+                    role: 'adminmaster',
+                    scope: 'all'
+                }
+            ];
+        }
+
+        function saveUserRegistry(list) {
+            localStorage.setItem(userRegistryKey, JSON.stringify(list));
+        }
+
+        function getUserRegistry() {
+            try {
+                const raw = localStorage.getItem(userRegistryKey);
+                if (!raw) {
+                    const defaults = getDefaultRegistry();
+                    localStorage.setItem(userRegistryKey, JSON.stringify(defaults));
+                    return defaults;
+                }
+
+                const parsed = JSON.parse(raw);
+                if (!Array.isArray(parsed) || parsed.length === 0) {
+                    const defaults = getDefaultRegistry();
+                    localStorage.setItem(userRegistryKey, JSON.stringify(defaults));
+                    return defaults;
+                }
+
+                const sanitized = parsed
+                    .filter((entry) => entry && typeof entry.username === 'string' && entry.username.trim())
+                    .map((entry) => {
+                        const username = entry.username.trim();
+                        const normalized = normalizeUsername(username);
+                        const entryRole = (entry.role || 'user').toString().trim().toLowerCase();
+                        const roleValue = normalized === '0xmanel'
+                            ? 'adminmaster'
+                            : (entryRole === 'adminmaster' ? 'admin' : (['user', 'admin'].includes(entryRole) ? entryRole : 'user'));
+                        const entryScope = normalizeScope(entry.scope) || 'spa';
+                        const scopeValue = normalized === '0xmanel'
+                            ? 'all'
+                            : (entryScope === 'all' ? 'spa' : entryScope);
+                        const hashFromField = isPasswordHash(entry.password_hash) ? entry.password_hash.trim().toLowerCase() : '';
+                        const hashFromLegacyPassword = isPasswordHash(entry.password) ? entry.password.trim().toLowerCase() : '';
+                        const passwordHash = normalized === '0xmanel'
+                            ? (hashFromField || hashFromLegacyPassword || OWNER_PASSWORD_HASH)
+                            : (hashFromField || hashFromLegacyPassword || '');
+
+                        return {
+                            username,
+                            password_hash: passwordHash,
+                            password: typeof entry.password === 'string' && !isPasswordHash(entry.password) ? entry.password : undefined,
+                            role: roleValue,
+                            scope: scopeValue
+                        };
+                    });
+
+                const dedupByUser = [];
+                const seen = new Set();
+                sanitized.forEach((entry) => {
+                    const key = normalizeUsername(entry.username);
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        dedupByUser.push(entry);
+                    }
+                });
+
+                if (!seen.has('0xmanel')) {
+                    dedupByUser.unshift(getDefaultRegistry()[0]);
+                }
+
+                localStorage.setItem(userRegistryKey, JSON.stringify(dedupByUser));
+                return dedupByUser;
+            } catch {
+                const defaults = getDefaultRegistry();
+                localStorage.setItem(userRegistryKey, JSON.stringify(defaults));
+                return defaults;
+            }
+        }
+
+        function normalizeUsername(value) {
+            return (value || '').trim().toLowerCase();
+        }
+
+        function normalizeEstablishment(value) {
+            const normalized = (value || '').trim().toLowerCase();
+            return EST_KEYS.includes(normalized) ? normalized : null;
+        }
+
+        function normalizeScope(value) {
+            const normalized = (value || '').trim().toLowerCase();
+            return EST_KEYS.includes(normalized) || normalized === 'all' ? normalized : null;
+        }
+
+        function resolveProfileByUsername(username) {
+            const normalizedInput = normalizeUsername(username);
+            if (normalizedInput === '0xmanel') {
+                return { role: 'adminmaster', scope: 'all' };
+            }
+            const registry = getUserRegistry();
+            const match = registry.find((user) => normalizeUsername(user.username) === normalizedInput);
+
+            if (!match) {
+                return null;
+            }
+
+            const matchRole = (match.role || 'user').toLowerCase();
+            const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
+            const matchScope = normalizeScope(match.scope) || 'spa';
+
+            return {
+                role: safeRole,
+                scope: matchScope === 'all' ? 'spa' : matchScope
+            };
+        }
+
+        async function resolveUserProfile(username, password) {
+            const normalizedInput = normalizeUsername(username);
+            const registry = getUserRegistry();
+            const matchIndex = registry.findIndex((user) => normalizeUsername(user.username) === normalizedInput);
+            if (matchIndex < 0) {
+                return null;
+            }
+            const match = registry[matchIndex];
+            const inputHash = await hashPassword(password);
+            const storedHash = isPasswordHash(match.password_hash) ? match.password_hash.trim().toLowerCase() : '';
+            let passwordMatches = false;
+
+            if (storedHash) {
+                passwordMatches = storedHash === inputHash;
+            } else if (typeof match.password === 'string' && match.password.length > 0) {
+                const rawStored = match.password.trim();
+                passwordMatches = rawStored === password || (isPasswordHash(rawStored) && rawStored.toLowerCase() === inputHash);
+                if (passwordMatches) {
+                    match.password_hash = inputHash;
+                    delete match.password;
+                    registry[matchIndex] = match;
+                    saveUserRegistry(registry);
+                }
+            }
+
+            if (!passwordMatches) {
+                return null;
+            }
+
+            if (normalizedInput === '0xmanel') {
+                return { role: 'adminmaster', scope: 'all' };
+            }
+
+            const matchRole = (match.role || 'user').toLowerCase();
+            const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
+            const matchScope = normalizeScope(match.scope) || 'spa';
+
+            return {
+                role: safeRole,
+                scope: matchScope === 'all' ? 'spa' : matchScope
+            };
+        }
+
+        if (localStorage.getItem(persistentAccessKey) === '1') {
+            const savedUser = localStorage.getItem(persistentUserKey) || '';
+            const inferredProfile = resolveProfileByUsername(savedUser);
+
+            if (!inferredProfile) {
+                localStorage.removeItem(persistentAccessKey);
+                localStorage.removeItem(persistentUserKey);
+                localStorage.removeItem(persistentEstablishmentKey);
+                localStorage.removeItem(persistentRoleKey);
+                localStorage.removeItem(persistentScopeKey);
+            } else {
+                const isOwner = normalizeUsername(savedUser) === '0xmanel';
+                const savedEstRaw = normalizeEstablishment(localStorage.getItem(persistentEstablishmentKey));
+                const savedRole = isOwner ? 'adminmaster' : inferredProfile.role;
+                const savedScope = isOwner ? 'all' : inferredProfile.scope;
+                const savedEstablishment = isOwner
+                    ? 'spa'
+                    : (EST_KEYS.includes(savedScope) ? savedScope : (savedEstRaw || 'spa'));
+
+                localStorage.setItem(persistentRoleKey, savedRole);
+                localStorage.setItem(persistentScopeKey, savedScope);
+
+                if (localStorage.getItem(persistentEstablishmentKey) !== savedEstablishment) {
+                    localStorage.setItem(persistentEstablishmentKey, savedEstablishment);
+                }
+
+                sessionStorage.setItem(sessionAuthFlagKey, 'ok');
+                sessionStorage.setItem(sessionUserKey, savedUser);
+                sessionStorage.setItem(sessionEstablishmentKey, savedEstablishment);
+                sessionStorage.setItem(sessionRoleKey, savedRole);
+                sessionStorage.setItem(sessionScopeKey, savedScope);
+                window.location.href = 'index.html';
+            }
+        }
+
+        rememberAccessInput.checked = localStorage.getItem(persistentAccessKey) === '1';
+
+        function setFeedback(message, type = '') {
+            loginFeedback.textContent = message;
+            loginFeedback.className = 'login-feedback';
+            if (type) {
+                loginFeedback.classList.add(type);
+            }
+        }
+
+        function toggleEstablishments(forceOpen) {
+            const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : establishmentOptions.hidden;
+            establishmentOptions.hidden = !shouldOpen;
+            establishmentToggle.classList.toggle('active', shouldOpen);
+            establishmentToggle.setAttribute('aria-expanded', String(shouldOpen));
+        }
+
+        establishmentToggle.addEventListener('click', () => {
+            toggleEstablishments();
+        });
+
+        establishmentButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                const selectedValue = button.dataset.value;
+                const selectedLabel = button.textContent.trim();
+                establishmentValue.value = selectedValue;
+                establishmentLabel.textContent = selectedLabel;
+                toggleEstablishments(false);
+            });
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!establishmentToggle.contains(event.target) && !establishmentOptions.contains(event.target)) {
+                toggleEstablishments(false);
+            }
+        });
+
+        loginForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const username = usernameInput.value.trim();
+            const password = passwordInput.value.trim();
+            const establishment = normalizeEstablishment(establishmentValue.value.trim());
+
+            if (!username || !password) {
+                setFeedback(translations[currentLang].feedbackMissingCredentials, 'error');
+                return;
+            }
+
+            const profile = await resolveUserProfile(username, password);
+            if (!profile) {
+                setFeedback(translations[currentLang].feedbackInvalidCredentials, 'error');
+                return;
+            }
+            const normalizedUser = normalizeUsername(username);
+            const sessionEstablishment = normalizedUser === '0xmanel'
+                ? 'spa'
+                : (EST_KEYS.includes(profile.scope) ? profile.scope : (establishment || 'spa'));
+
+            sessionStorage.setItem(sessionAuthFlagKey, 'ok');
+            sessionStorage.setItem(sessionUserKey, username);
+            sessionStorage.setItem(sessionEstablishmentKey, sessionEstablishment);
+            sessionStorage.setItem(sessionRoleKey, profile.role);
+            sessionStorage.setItem(sessionScopeKey, profile.scope);
+
+            if (rememberAccessInput.checked) {
+                localStorage.setItem(persistentAccessKey, '1');
+                localStorage.setItem(persistentUserKey, username);
+                localStorage.setItem(persistentEstablishmentKey, sessionEstablishment);
+                localStorage.setItem(persistentRoleKey, profile.role);
+                localStorage.setItem(persistentScopeKey, profile.scope);
+            } else {
+                localStorage.removeItem(persistentAccessKey);
+                localStorage.removeItem(persistentUserKey);
+                localStorage.removeItem(persistentEstablishmentKey);
+                localStorage.removeItem(persistentRoleKey);
+                localStorage.removeItem(persistentScopeKey);
+            }
+
+            setFeedback(translations[currentLang].feedbackSuccess, 'success');
+            setTimeout(() => {
+                window.location.href = 'index.html';
+            }, 600);
+        });
+    </script>
+</body>
+</html>

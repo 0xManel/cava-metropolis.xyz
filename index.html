@@ -971,10 +971,7 @@
                         // ignore parse failures and fallback to user
                     }
 
-                    return {
-                        role: 'user',
-                        scope: normalizeEstablishment(establishment) || 'spa'
-                    };
+                    return null;
                 };
 
                 const sessionFlag = sessionStorage.getItem('cava_login_demo') === 'ok';
@@ -990,27 +987,23 @@
                     const persistentIsOwner = normalizeUsername(persistentUser) === '0xmanel';
                     const persistentEstablishment = normalizeEstablishment(localStorage.getItem('cava_login_persistent_establishment')) || 'spa';
                     const inferred = inferProfile(persistentUser, persistentEstablishment);
-                    const persistentRoleRaw = normalizeRole(localStorage.getItem('cava_login_persistent_role'));
-                    const persistentScopeRaw = normalizeScope(localStorage.getItem('cava_login_persistent_scope'));
-                    const normalizedPersistentRole = persistentRoleRaw === 'adminmaster' && !persistentIsOwner
-                        ? 'admin'
-                        : persistentRoleRaw;
-                    const normalizedPersistentScope = persistentScopeRaw === 'all' && !persistentIsOwner
-                        ? persistentEstablishment
-                        : persistentScopeRaw;
-                    const persistentRole = persistentIsOwner ? 'adminmaster' : (normalizedPersistentRole || inferred.role);
-                    const persistentScope = persistentIsOwner ? 'all' : (normalizedPersistentScope || inferred.scope);
+                    if (!inferred && !persistentIsOwner) {
+                        localStorage.removeItem('cava_login_persistent_access');
+                        localStorage.removeItem('cava_login_persistent_user');
+                        localStorage.removeItem('cava_login_persistent_establishment');
+                        localStorage.removeItem('cava_login_persistent_role');
+                        localStorage.removeItem('cava_login_persistent_scope');
+                        window.location.replace('login.html');
+                        return;
+                    }
+                    const persistentRole = persistentIsOwner ? 'adminmaster' : inferred.role;
+                    const persistentScope = persistentIsOwner ? 'all' : inferred.scope;
                     const establishmentToUse = persistentIsOwner
                         ? 'spa'
                         : (EST_KEYS.includes(persistentScope) ? persistentScope : persistentEstablishment);
 
-                    if (!persistentRoleRaw || persistentIsOwner) {
-                        localStorage.setItem('cava_login_persistent_role', persistentRole);
-                    }
-
-                    if (!persistentScopeRaw || persistentIsOwner) {
-                        localStorage.setItem('cava_login_persistent_scope', persistentScope);
-                    }
+                    localStorage.setItem('cava_login_persistent_role', persistentRole);
+                    localStorage.setItem('cava_login_persistent_scope', persistentScope);
 
                     if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
                         localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
@@ -1028,31 +1021,28 @@
                 const sessionEstablishment = normalizeEstablishment(
                     sessionStorage.getItem('cava_login_establishment') || localStorage.getItem('cava_login_persistent_establishment')
                 ) || 'spa';
-                const sessionRole = normalizeRole(sessionStorage.getItem('cava_login_role'));
-                const sessionScope = normalizeScope(sessionStorage.getItem('cava_login_scope'));
-                const needsNonOwnerNormalization = !isOwner && (sessionRole === 'adminmaster' || sessionScope === 'all');
+                const inferred = inferProfile(sessionUser, sessionEstablishment);
+                if (!inferred && !isOwner) {
+                    sessionStorage.removeItem('cava_login_demo');
+                    sessionStorage.removeItem('cava_login_user');
+                    sessionStorage.removeItem('cava_login_establishment');
+                    sessionStorage.removeItem('cava_login_role');
+                    sessionStorage.removeItem('cava_login_scope');
+                    window.location.replace('login.html');
+                    return;
+                }
+                const roleToUse = isOwner ? 'adminmaster' : inferred.role;
+                const scopeToUse = isOwner ? 'all' : inferred.scope;
+                const establishmentToUse = isOwner ? 'spa' : (EST_KEYS.includes(scopeToUse) ? scopeToUse : sessionEstablishment);
+                sessionStorage.setItem('cava_login_role', roleToUse);
+                sessionStorage.setItem('cava_login_scope', scopeToUse);
+                sessionStorage.setItem('cava_login_establishment', establishmentToUse);
 
-                if (isOwner || !sessionRole || !sessionScope || needsNonOwnerNormalization) {
-                    const inferred = inferProfile(sessionUser, sessionEstablishment);
-                    const safeSessionRole = needsNonOwnerNormalization && sessionRole === 'adminmaster' ? 'admin' : sessionRole;
-                    const safeSessionScope = needsNonOwnerNormalization && sessionScope === 'all' ? sessionEstablishment : sessionScope;
-                    const roleToUse = isOwner ? 'adminmaster' : (safeSessionRole || inferred.role);
-                    const scopeToUse = isOwner ? 'all' : (safeSessionScope || inferred.scope);
-                    const establishmentToUse = isOwner ? 'spa' : (EST_KEYS.includes(scopeToUse) ? scopeToUse : sessionEstablishment);
-                    sessionStorage.setItem('cava_login_role', roleToUse);
-                    sessionStorage.setItem('cava_login_scope', scopeToUse);
-                    sessionStorage.setItem('cava_login_establishment', establishmentToUse);
-
-                    if (persistentFlag) {
-                        if (!normalizeRole(localStorage.getItem('cava_login_persistent_role'))) {
-                            localStorage.setItem('cava_login_persistent_role', roleToUse);
-                        }
-                        if (!normalizeScope(localStorage.getItem('cava_login_persistent_scope'))) {
-                            localStorage.setItem('cava_login_persistent_scope', scopeToUse);
-                        }
-                        if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
-                            localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
-                        }
+                if (persistentFlag) {
+                    localStorage.setItem('cava_login_persistent_role', roleToUse);
+                    localStorage.setItem('cava_login_persistent_scope', scopeToUse);
+                    if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
+                        localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
                     }
                 }
             } catch {
@@ -1340,8 +1330,7 @@
             : (baseEstablishment || (EST_KEYS.includes(currentUserScope) ? currentUserScope : 'spa'));
 
         function hasAdminAccess() {
-            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-            return currentUserRole === 'admin' || currentUserRole === 'adminmaster' || isLocal;
+            return currentUserRole === 'admin' || currentUserRole === 'adminmaster';
         }
 
         function hasEditAccess() {
@@ -1410,8 +1399,28 @@
 
         function renderGrapeTags(uvasArr) {
             if (!uvasArr || !uvasArr.length) return '';
+
+            // Suporta novo formato com proporções: {nome, pct, confianza}
+            // E formato antigo: string simples
+            const processedUvas = uvasArr.map(u => {
+                if (typeof u === 'string') {
+                    return { nome: u, pct: null };
+                }
+                return u;
+            });
+
+            // Ordenar por percentual descrescente (se disponível)
+            processedUvas.sort((a, b) => {
+                const pctA = a.pct || 0;
+                const pctB = b.pct || 0;
+                return pctB - pctA;
+            });
+
             return '<div class="grape-tags">' +
-                uvasArr.map(g => `<span class="grape-tag ${getGrapeColor(g)}">${g}</span>`).join('') +
+                processedUvas.map(g => {
+                    const label = g.pct ? `${g.pct}% ${g.nome}` : g.nome;
+                    return `<span class="grape-tag ${getGrapeColor(g.nome)}">${label}</span>`;
+                }).join('') +
                 '</div>';
         }
 

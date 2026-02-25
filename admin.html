@@ -292,6 +292,10 @@
                 const normalized = (value || '').trim().toLowerCase();
                 return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
             };
+            const normalizeScope = (value) => {
+                const normalized = (value || '').trim().toLowerCase();
+                return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
+            };
             const userRegistryKey = 'cava_user_registry_v1';
 
             const inferRole = () => {
@@ -307,23 +311,22 @@
                     return 'adminmaster';
                 }
 
-                const rawRole = normalizeRole(sessionStorage.getItem('cava_login_role'))
-                    || normalizeRole(localStorage.getItem('cava_login_persistent_role'));
-                if (rawRole) {
-                    return rawRole === 'adminmaster' ? 'admin' : rawRole;
-                }
-
                 try {
                     const raw = localStorage.getItem(userRegistryKey);
                     const parsed = raw ? JSON.parse(raw) : [];
                     if (Array.isArray(parsed)) {
                         const match = parsed.find((entry) => normalizeUsername(entry.username) === normalized);
                         const matchRole = normalizeRole(match?.role);
+                        const matchScope = normalizeScope(match?.scope);
                         if (matchRole) {
                             const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
                             sessionStorage.setItem('cava_login_role', safeRole);
+                            sessionStorage.setItem('cava_login_scope', safeRole === 'adminmaster' ? 'all' : (matchScope === 'all' ? 'spa' : (matchScope || 'spa')));
                             if (!localStorage.getItem('cava_login_persistent_role')) {
                                 localStorage.setItem('cava_login_persistent_role', safeRole);
+                            }
+                            if (localStorage.getItem('cava_login_persistent_access') === '1') {
+                                localStorage.setItem('cava_login_persistent_scope', safeRole === 'adminmaster' ? 'all' : (matchScope === 'all' ? 'spa' : (matchScope || 'spa')));
                             }
                             return safeRole;
                         }
@@ -378,7 +381,7 @@
 
                 <div class="user-form">
                     <input id="umUsername" class="um-field" type="text" placeholder="Usuario">
-                    <input id="umPassword" class="um-field" type="text" placeholder="Password (dejar vacío para mantener)">
+                    <input id="umPassword" class="um-field" type="password" placeholder="Password (dejar vacío para mantener)">
                     <select id="umRole" class="um-field">
                         <option value="user">user</option>
                         <option value="admin">admin</option>
@@ -432,14 +435,25 @@
         const umScope = document.getElementById('umScope');
         const umStatus = document.getElementById('umStatus');
         const userRegistryKey = 'cava_user_registry_v1';
+        const OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
         let selectedUser = null;
+
+        function isPasswordHash(value) {
+            return typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value.trim());
+        }
+
+        async function hashPassword(value) {
+            const input = String(value || '');
+            const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));
+            return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+        }
 
         if (zoneTitle) {
             zoneTitle.textContent = role === 'adminmaster' ? 'Adminmaster Zone' : 'Admin Zone';
         }
 
         function defaultRegistry() {
-            return [{ username: '0xManel', password: 'Tqne1501', role: 'adminmaster', scope: 'all' }];
+            return [{ username: '0xManel', password_hash: OWNER_PASSWORD_HASH, role: 'adminmaster', scope: 'all' }];
         }
 
         function getUserRegistry() {
@@ -447,12 +461,48 @@
                 const raw = localStorage.getItem(userRegistryKey);
                 const parsed = raw ? JSON.parse(raw) : [];
                 if (Array.isArray(parsed) && parsed.length > 0) {
-                    const hasOwner = parsed.some((entry) => normalizeUsername(entry.username) === '0xmanel');
-                    if (!hasOwner) {
-                        parsed.unshift(defaultRegistry()[0]);
-                        localStorage.setItem(userRegistryKey, JSON.stringify(parsed));
+                    const sanitized = parsed
+                        .filter((entry) => entry && typeof entry.username === 'string' && entry.username.trim())
+                        .map((entry) => {
+                            const username = entry.username.trim();
+                            const normalized = normalizeUsername(username);
+                            const entryRole = normalizeRole(entry.role) || 'user';
+                            const entryScope = normalizeScope(entry.scope) || 'spa';
+                            const roleValue = normalized === '0xmanel'
+                                ? 'adminmaster'
+                                : (entryRole === 'adminmaster' ? 'admin' : entryRole);
+                            const scopeValue = normalized === '0xmanel'
+                                ? 'all'
+                                : (entryScope === 'all' ? 'spa' : entryScope);
+                            const hashFromField = isPasswordHash(entry.password_hash) ? entry.password_hash.trim().toLowerCase() : '';
+                            const hashFromLegacyPassword = isPasswordHash(entry.password) ? entry.password.trim().toLowerCase() : '';
+                            const passwordHash = normalized === '0xmanel'
+                                ? (hashFromField || hashFromLegacyPassword || OWNER_PASSWORD_HASH)
+                                : (hashFromField || hashFromLegacyPassword || '');
+
+                            return {
+                                username,
+                                password_hash: passwordHash,
+                                password: typeof entry.password === 'string' && !isPasswordHash(entry.password) ? entry.password : undefined,
+                                role: roleValue,
+                                scope: scopeValue
+                            };
+                        });
+                    const dedupByUser = [];
+                    const seen = new Set();
+                    sanitized.forEach((entry) => {
+                        const key = normalizeUsername(entry.username);
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            dedupByUser.push(entry);
+                        }
+                    });
+
+                    if (!seen.has('0xmanel')) {
+                        dedupByUser.unshift(defaultRegistry()[0]);
                     }
-                    return parsed;
+                    localStorage.setItem(userRegistryKey, JSON.stringify(dedupByUser));
+                    return dedupByUser;
                 }
             } catch {}
 
@@ -517,7 +567,7 @@
             });
         }
 
-        function saveUser() {
+        async function saveUser() {
             const username = umUsername.value.trim();
             const password = umPassword.value.trim();
             const normalizedTarget = normalizeUsername(username);
@@ -541,20 +591,35 @@
 
             const users = getUserRegistry();
             const existingIndex = users.findIndex((user) => normalizeUsername(user.username) === normalizedTarget);
+            const newPasswordHash = password ? await hashPassword(password) : '';
+
+            if (existingIndex < 0 && normalizedTarget !== '0xmanel' && !newPasswordHash) {
+                setUmStatus('Password obligatorio para usuarios nuevos.', 'error');
+                return;
+            }
 
             if (existingIndex >= 0) {
                 const current = users[existingIndex];
+                const currentHash = isPasswordHash(current.password_hash)
+                    ? current.password_hash.trim().toLowerCase()
+                    : (isPasswordHash(current.password) ? current.password.trim().toLowerCase() : '');
+                const passwordHash = normalizedTarget === '0xmanel'
+                    ? (newPasswordHash || currentHash || OWNER_PASSWORD_HASH)
+                    : (newPasswordHash || currentHash);
                 users[existingIndex] = {
                     username,
-                    password: password || current.password || '',
+                    password_hash: passwordHash,
                     role: roleValue,
                     scope: scopeValue
                 };
                 syncCurrentSessionIfNeeded(users[existingIndex]);
             } else {
+                const passwordHash = normalizedTarget === '0xmanel'
+                    ? (newPasswordHash || OWNER_PASSWORD_HASH)
+                    : newPasswordHash;
                 users.push({
                     username,
-                    password,
+                    password_hash: passwordHash,
                     role: roleValue,
                     scope: scopeValue
                 });
