@@ -83,6 +83,41 @@
             transition: all 0.3s ease;
         }
 
+        .top-left-actions {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: flex-start;
+        }
+
+        .logout-btn {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            width: 80px;
+            height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .logout-btn:hover {
+            border-color: var(--gold-accent);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+        }
+
         .theme-toggle:hover {
             box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
             transform: scale(1.05);
@@ -91,9 +126,8 @@
         #toggleCanvas { width: 100%; height: 100%; display: block; }
 
         .lang-container {
-            position: fixed;
-            top: 20px; left: 20px;
-            z-index: 99;
+            position: relative;
+            z-index: 1;
             font-family: 'Montserrat', sans-serif;
         }
 
@@ -407,27 +441,57 @@
             text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
         }
 
+        .session-user-card {
+            position: fixed;
+            top: max(10px, env(safe-area-inset-top));
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 4;
+            min-width: 160px;
+            max-width: min(76vw, 420px);
+            padding: 8px 14px;
+            border-radius: 14px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 16px rgba(0,0,0,0.24);
+            pointer-events: none;
+        }
+
         @media (max-width: 700px) {
             .theme-toggle { top: 15px; right: 15px; }
-            .lang-container { top: 15px; left: 15px; }
+            .top-left-actions { top: 15px; left: 15px; }
+            .session-user-card { top: max(8px, env(safe-area-inset-top)); }
         }
     </style>
 </head>
 <body>
     <canvas id="particleCanvas"></canvas>
+    <div class="session-user-card" id="sessionUserCard">--</div>
+    <div class="top-left-actions">
+        <button class="logout-btn" id="logoutBtn">Logout</button>
+        <div class="lang-container">
+            <button class="lang-btn" id="currentLangBtn">ES</button>
+            <div class="lang-dropdown">
+                <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
+                <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
+                <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
+            </div>
+        </div>
+    </div>
 
     <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
         <canvas id="toggleCanvas"></canvas>
     </button>
-
-    <div class="lang-container">
-        <button class="lang-btn" id="currentLangBtn">ES</button>
-        <div class="lang-dropdown">
-            <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
-            <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
-            <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
-        </div>
-    </div>
 
     <div class="login-container">
         <div class="brand" aria-label="Marca">
@@ -688,7 +752,9 @@
         const loginForm = document.getElementById('loginForm');
         const usernameInput = document.getElementById('username');
         const passwordInput = document.getElementById('password');
+        const sessionUserCard = document.getElementById('sessionUserCard');
         const rememberAccessInput = document.getElementById('rememberAccess');
+        const logoutBtn = document.getElementById('logoutBtn');
         const establishmentToggle = document.getElementById('establishmentToggle');
         const establishmentOptions = document.getElementById('establishmentOptions');
         const establishmentLabel = document.getElementById('establishmentLabel');
@@ -711,6 +777,19 @@
         const userRegistryKey = 'cava_user_registry_v1';
         const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
         const OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+
+        function clearAuthState() {
+            sessionStorage.removeItem(sessionAuthFlagKey);
+            sessionStorage.removeItem(sessionUserKey);
+            sessionStorage.removeItem(sessionEstablishmentKey);
+            sessionStorage.removeItem(sessionRoleKey);
+            sessionStorage.removeItem(sessionScopeKey);
+            localStorage.removeItem(persistentAccessKey);
+            localStorage.removeItem(persistentUserKey);
+            localStorage.removeItem(persistentEstablishmentKey);
+            localStorage.removeItem(persistentRoleKey);
+            localStorage.removeItem(persistentScopeKey);
+        }
 
         function isPasswordHash(value) {
             return typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value.trim());
@@ -806,6 +885,22 @@
 
         function normalizeUsername(value) {
             return (value || '').trim().toLowerCase();
+        }
+
+        function updateSessionUserCard() {
+            if (!sessionUserCard) return;
+            const rawUser = sessionStorage.getItem(sessionUserKey) || localStorage.getItem(persistentUserKey) || '';
+            const cardUser = rawUser.trim() || 'No logado';
+            sessionUserCard.textContent = cardUser;
+        }
+
+        updateSessionUserCard();
+
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', () => {
+                clearAuthState();
+                window.location.replace('login.html');
+            });
         }
 
         function normalizeEstablishment(value) {
@@ -914,6 +1009,7 @@
                 sessionStorage.setItem(sessionEstablishmentKey, savedEstablishment);
                 sessionStorage.setItem(sessionRoleKey, savedRole);
                 sessionStorage.setItem(sessionScopeKey, savedScope);
+                updateSessionUserCard();
                 window.location.href = 'index.html';
             }
         }
@@ -982,6 +1078,7 @@
             sessionStorage.setItem(sessionEstablishmentKey, sessionEstablishment);
             sessionStorage.setItem(sessionRoleKey, profile.role);
             sessionStorage.setItem(sessionScopeKey, profile.scope);
+            updateSessionUserCard();
 
             if (rememberAccessInput.checked) {
                 localStorage.setItem(persistentAccessKey, '1');

@@ -130,6 +130,13 @@ function applyMovementMutation(state, mutation) {
   return true;
 }
 
+function applyMovementLogReplaceMutation(state, payload) {
+  if (!isPlainObject(payload)) return false;
+  if (!isPlainObject(payload.movementLog)) return false;
+  state.movementLog = sanitizeMovementLog(payload.movementLog);
+  return true;
+}
+
 function readRequestBody(req) {
   if (!req.body) return {};
   if (typeof req.body === 'string') {
@@ -156,24 +163,31 @@ module.exports = async (req, res) => {
   const state = await loadState();
 
   const appliedIds = new Set(state.appliedMutationIds);
+  const acknowledgedMutationIds = [];
   let changed = false;
 
   incomingMutations.forEach((mutation) => {
     if (!isPlainObject(mutation) || typeof mutation.type !== 'string') return;
     const mutationId = typeof mutation.id === 'string' ? mutation.id : null;
-    if (mutationId && appliedIds.has(mutationId)) return;
+    if (mutationId && appliedIds.has(mutationId)) {
+      acknowledgedMutationIds.push(mutationId);
+      return;
+    }
 
     let applied = false;
     if (mutation.type === 'edit') {
       applied = applyEditMutation(state, mutation.payload);
     } else if (mutation.type === 'movement') {
       applied = applyMovementMutation(state, mutation);
+    } else if (mutation.type === 'replace_movement_log') {
+      applied = applyMovementLogReplaceMutation(state, mutation.payload);
     }
 
     if (applied) {
       changed = true;
       if (mutationId) {
         appliedIds.add(mutationId);
+        acknowledgedMutationIds.push(mutationId);
       }
     }
   });
@@ -190,6 +204,7 @@ module.exports = async (req, res) => {
     revision: savedState.revision,
     changed,
     hasUpdate: savedState.revision > knownRevision,
+    acknowledgedMutationIds,
     state: {
       edits: savedState.edits,
       movementLog: savedState.movementLog,

@@ -947,6 +947,36 @@
             color: var(--text-muted);
         }
 
+        .sync-toast {
+            position: fixed;
+            left: 50%;
+            bottom: max(18px, env(safe-area-inset-bottom));
+            transform: translate(-50%, 120%);
+            z-index: 1300;
+            min-width: 200px;
+            max-width: min(92vw, 420px);
+            padding: 11px 16px;
+            border-radius: 12px;
+            border: 1px solid rgba(95, 218, 134, 0.5);
+            background: rgba(20, 112, 53, 0.95);
+            color: #e9fff1;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.84rem;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: 0.02em;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+            backdrop-filter: blur(8px);
+            opacity: 0;
+            pointer-events: none;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .sync-toast.show {
+            transform: translate(-50%, 0);
+            opacity: 1;
+        }
+
         @media (max-width: 600px) {
             .title-cava { gap: 1vw; margin-bottom: -0.3rem; }
             .stock-text { font-size: 7.5vw; letter-spacing: 0.05em; }
@@ -1094,6 +1124,7 @@
 
     <div class="app-signature" aria-hidden="true">stockcava@2026</div>
     <div class="session-user-card" id="sessionUserCard">--</div>
+    <div class="sync-toast" id="syncToast">Cava Atualizada</div>
     <div class="top-left-actions">
         <button class="logout-btn" id="logoutBtn">Logout</button>
     </div>
@@ -1238,10 +1269,6 @@
             <!-- Edit form -->
             <div class="edit-form" id="editForm">
                 <div style="display:flex;flex-direction:column;gap:0.4rem;">
-                    <input class="edit-field" id="editDesc" type="text" placeholder="Nombre / Descripción">
-                    <input class="edit-field" id="editRegion" type="text" placeholder="Región / D.O.">
-                    <input class="edit-field" id="editUvas" type="text" placeholder="Uvas (separadas por coma)">
-
                     <div class="edit-section-title">SPA</div>
                     <div class="edit-row">
                         <input class="edit-field" id="editSpaPvp" type="number" placeholder="PVP">
@@ -1430,7 +1457,7 @@
                     "Quizás un vino francés"
                 ],
                 refs: "referencias disponibles", region: "Región", country: "País",
-                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", btnLabel: "🇪🇸 ES"
+                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada", btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
@@ -1442,7 +1469,7 @@
                     "Maybe a French wine"
                 ],
                 refs: "references available", region: "Region", country: "Country",
-                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", btnLabel: "🇬🇧 EN"
+                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated", btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
@@ -1454,13 +1481,13 @@
                     "Talvez um vinho francês"
                 ],
                 refs: "referências disponíveis", region: "Região", country: "País",
-                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", btnLabel: "🇧🇷 PT"
+                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin", consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
             }
         };
 
         // --- UTILITY ---
         function removeAccents(str) {
-            return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            return String(str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
         }
 
         function fmt(val) {
@@ -1471,33 +1498,168 @@
             return val != null ? val + '€' : '—';
         }
 
-        function getGrapeColor(name) {
-            return GRAPE_FAMILIES[name] || 'burgundy s3';
+        function normalizeToken(value) {
+            return removeAccents(String(value || '').trim().toLowerCase());
         }
 
-        function renderGrapeTags(uvasArr) {
-            if (!uvasArr || !uvasArr.length) return '';
+        function escapeHtml(value) {
+            return String(value ?? '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
 
-            // Suporta novo formato com proporções: {nome, pct, confianza}
-            // E formato antigo: string simples
-            const processedUvas = uvasArr.map(u => {
-                if (typeof u === 'string') {
-                    return { nome: u, pct: null };
+        function extractTextValue(value) {
+            if (typeof value === 'string') return value.trim();
+            if (typeof value === 'number') return String(value);
+            if (Array.isArray(value)) {
+                for (const item of value) {
+                    const found = extractTextValue(item);
+                    if (found) return found;
                 }
-                return u;
-            });
+                return '';
+            }
+            if (value && typeof value === 'object') {
+                const preferredKeys = ['nome', 'name', 'grape', 'variety', 'uva', 'label', 'value', 'text'];
+                for (const key of preferredKeys) {
+                    if (Object.prototype.hasOwnProperty.call(value, key)) {
+                        const found = extractTextValue(value[key]);
+                        if (found) return found;
+                    }
+                }
+                for (const candidate of Object.values(value)) {
+                    const found = extractTextValue(candidate);
+                    if (found) return found;
+                }
+            }
+            return '';
+        }
 
-            // Ordenar por percentual descrescente (se disponível)
+        function normalizeGrapeItem(raw) {
+            const nome = extractTextValue(raw);
+            if (!nome || nome === '[object Object]') return null;
+            const pctNumber = Number(raw && typeof raw === 'object' ? (raw.pct ?? raw.percent ?? raw.porcentaje) : NaN);
+            return {
+                nome,
+                pct: Number.isFinite(pctNumber) ? pctNumber : null
+            };
+        }
+
+        function extractGrapeItems(uvasArr) {
+            if (!Array.isArray(uvasArr)) return [];
+            return uvasArr.map(normalizeGrapeItem).filter(Boolean);
+        }
+
+        function getGrapeSearchTokens(uvasArr) {
+            return extractGrapeItems(uvasArr).map((item) => item.nome);
+        }
+
+        function getTipoSearchTokens(tipo) {
+            const code = String(tipo?.codigo || '').trim().toUpperCase();
+            const name = String(tipo?.nombre || '').trim();
+            const byCode = {
+                TO: ['tinto', 'red', 'rouge'],
+                BL: ['blanco', 'white', 'branco'],
+                ROS: ['rosado', 'rose', 'rosé'],
+                ESP: ['espumoso', 'sparkling', 'espumante', 'cava', 'champagne'],
+                GEN: ['generoso', 'fortified', 'jerez', 'sherry'],
+                DU: ['dulce', 'sweet', 'doce', 'dessert']
+            };
+            const extra = byCode[code] || [];
+            return [code, name, ...extra].filter(Boolean);
+        }
+
+        const GRAPE_FAMILY_NORMALIZED = Object.fromEntries(
+            Object.entries(GRAPE_FAMILIES).map(([name, family]) => [normalizeToken(name), family])
+        );
+
+        function getGrapeColor(name) {
+            const direct = GRAPE_FAMILIES[name];
+            if (direct) return direct;
+            return GRAPE_FAMILY_NORMALIZED[normalizeToken(name)] || 'burgundy s3';
+        }
+
+        const GRAPE_PRIMARY_PALETTE = {
+            tempranillo: ['#64061f', '#9d1237'],
+            garnacha: ['#7a0d2a', '#b41e45'],
+            monastrell: ['#4f0818', '#7a1431'],
+            bobal: ['#5e0a22', '#902045'],
+            mencia: ['#6d1734', '#a52951'],
+            pinotnoir: ['#702133', '#ab3d59'],
+            syrah: ['#420817', '#6f1530'],
+            shiraz: ['#4a0b1b', '#7b1a39'],
+            nebbiolo: ['#8c2d2d', '#bf4f48'],
+            sangiovese: ['#6e1119', '#a61f2c'],
+            barbera: ['#5f1322', '#92304a'],
+            riesling: ['#b39d2f', '#ddc85f'],
+            albarino: ['#c79d29', '#efd06a'],
+            verdejo: ['#5f8f27', '#8ebf46'],
+            godello: ['#a89945', '#d2c36f'],
+            chardonnay: ['#b2983d', '#dbc26d'],
+            sauvignonblanc: ['#6f9b34', '#9fca5b'],
+            gewurztraminer: ['#b17f38', '#d9a565'],
+            viognier: ['#bf9a3f', '#e5bf70'],
+            glera: ['#d8b85b', '#f0d787'],
+            'xarel.lo': ['#c39e45', '#dfbe73'],
+            xarello: ['#c39e45', '#dfbe73'],
+            parellada: ['#d2b467', '#ead28f'],
+            macabeo: ['#c6a44a', '#e2c676'],
+            champagne: ['#dac27a', '#efddb0'],
+            prosecco: ['#e0c16f', '#f2db9f']
+        };
+
+        const WINE_TYPE_PALETTE = {
+            TO: ['#6a1329', '#932542'],
+            BL: ['#bda660', '#d9c37f'],
+            ROS: ['#b64d67', '#d77793'],
+            ESP: ['#d5b66a', '#ecd69a'],
+            GEN: ['#a76e34', '#c78c48'],
+            DU: ['#6f375f', '#965083']
+        };
+
+        function pickGrapePalette(name, tipoCode, isPrimary, index) {
+            const key = normalizeToken(name).replace(/\s+/g, '').replace(/[^a-z0-9.]/g, '');
+            const primary = GRAPE_PRIMARY_PALETTE[key];
+            if (primary) return primary;
+            const typeBase = WINE_TYPE_PALETTE[String(tipoCode || '').toUpperCase()] || WINE_TYPE_PALETTE.TO;
+            if (isPrimary) return typeBase;
+            const shift = Math.min(index, 3) * 9;
+            return [lightenHex(typeBase[0], shift), lightenHex(typeBase[1], shift + 6)];
+        }
+
+        function lightenHex(hex, amount) {
+            const value = String(hex || '').replace('#', '');
+            if (!/^[0-9a-fA-F]{6}$/.test(value)) return hex;
+            const toChannel = (start) => {
+                const channel = parseInt(value.slice(start, start + 2), 16);
+                return Math.max(0, Math.min(255, channel + amount));
+            };
+            const r = toChannel(0).toString(16).padStart(2, '0');
+            const g = toChannel(2).toString(16).padStart(2, '0');
+            const b = toChannel(4).toString(16).padStart(2, '0');
+            return `#${r}${g}${b}`;
+        }
+
+        function renderGrapeTags(uvasArr, tipoCode = '') {
+            const processedUvas = extractGrapeItems(uvasArr);
+            if (!processedUvas.length) return '';
+
             processedUvas.sort((a, b) => {
-                const pctA = a.pct || 0;
-                const pctB = b.pct || 0;
+                const pctA = Number.isFinite(Number(a.pct)) ? Number(a.pct) : -1;
+                const pctB = Number.isFinite(Number(b.pct)) ? Number(b.pct) : -1;
                 return pctB - pctA;
             });
 
             return '<div class="grape-tags">' +
-                processedUvas.map(g => {
-                    const label = g.pct ? `${g.pct}% ${g.nome}` : g.nome;
-                    return `<span class="grape-tag ${getGrapeColor(g.nome)}">${label}</span>`;
+                processedUvas.map((g, index) => {
+                    const label = g.nome;
+                    const [start, end] = pickGrapePalette(g.nome, tipoCode, index === 0, index);
+                    const ribColor = lightenHex(start, 30);
+                    const shadowColor = lightenHex(end, -35);
+                    const style = `background:linear-gradient(135deg, ${start} 0%, ${end} 100%);border:1px solid ${ribColor};box-shadow:0 0 0 1px rgba(255,255,255,0.09) inset,0 2px 9px ${shadowColor};`;
+                    return `<span class="grape-tag ${getGrapeColor(g.nome)}" style="${style}">${escapeHtml(label)}</span>`;
                 }).join('') +
                 '</div>';
         }
@@ -1561,6 +1723,17 @@
             localStorage.setItem(SYNC_PENDING_KEY, JSON.stringify(Array.isArray(list) ? list : []));
         }
 
+        function isSupportedEditPath(path) {
+            const root = String(path || '').split('.')[0];
+            const blockedRoots = new Set(['descripcion', 'region', 'uvas']);
+            return root && !blockedRoots.has(root);
+        }
+
+        function sanitizeEditsForCurrentUi(editList) {
+            if (!Array.isArray(editList)) return [];
+            return editList.filter((edit) => edit && edit.pod && edit.path && isSupportedEditPath(edit.path));
+        }
+
         function queuePendingMutation(mutation) {
             const queue = readPendingMutations();
             if (mutation.type === 'edit' && mutation.payload?.pod && mutation.payload?.path) {
@@ -1580,8 +1753,13 @@
         }
 
         function readStoredEdits() {
-            return parseJsonArray(localStorage.getItem(EDITS_KEY))
+            const rawEdits = parseJsonArray(localStorage.getItem(EDITS_KEY))
                 .filter((edit) => edit && edit.pod && edit.path);
+            const sanitized = sanitizeEditsForCurrentUi(rawEdits);
+            if (sanitized.length !== rawEdits.length) {
+                localStorage.setItem(EDITS_KEY, JSON.stringify(sanitized));
+            }
+            return sanitized;
         }
 
         function applyEditsToRefs(editList) {
@@ -1657,11 +1835,16 @@
             subsets = { todos: new Set(), spa: new Set(), tasca_fina: new Set(), victoria: new Set() };
 
             refs.forEach((ref, i) => {
-                // Build searchable string
+                // Build searchable string (nome, uva, região, tipo, etc.)
+                const grapeTokens = getGrapeSearchTokens(ref.uvas);
+                const tipoTokens = getTipoSearchTokens(ref.tipo);
                 const parts = [
                     ref.descripcion, ref.region, ref.pais, ref.bodega,
-                    ref.tipo?.nombre, ...(ref.uvas || []),
-                    ref.ano ? String(ref.ano) : '', ref.pod
+                    ...tipoTokens,
+                    ...grapeTokens,
+                    ref.formato?.etiqueta,
+                    ref.ano ? String(ref.ano) : '',
+                    ref.pod
                 ].filter(Boolean).join(' ');
 
                 searchIndex.push({ idx: i, str: removeAccents(parts.toLowerCase()) });
@@ -1760,7 +1943,7 @@
                     el.innerHTML = `
                         <div class="item-info">
                             <div class="item-title">${ref.descripcion || '—'}</div>
-                            ${renderGrapeTags(ref.uvas)}
+                            ${renderGrapeTags(ref.uvas, ref.tipo?.codigo)}
                             <div class="badge-row">
                                 <span class="badge ${badge.cls}">${badge.label}</span>
                                 <span class="item-region">${fmt(ref.region)}</span>
@@ -1798,7 +1981,7 @@
         }
 
         // --- TERROIR LOOKUP ---
-        function getTerroirInfo(region, pais) {
+        function getTerroirInfoLegacy(region, pais) {
             const r = (region || '').toLowerCase();
             const p = (pais || '').toLowerCase();
             // ── ESPAÑA ──
@@ -1895,6 +2078,217 @@
             return { clima: '—', suelo: '—' };
         }
 
+        const REGION_TERRIOR_PRECISE = {
+            'abruzzo': { clima: 'Mediterráneo con influencia de Apeninos y Adriático; veranos cálidos e inviernos suaves.', suelo: 'Arcillo-calcáreo, marga y focos volcánicos.' },
+            'alentejo': { clima: 'Mediterráneo continental muy cálido y seco; noches relativamente frescas.', suelo: 'Xisto, arcilla, mármol, granito y caliza.' },
+            'alsacia': { clima: 'Continental seco por efecto de sombra de lluvia de los Vosgos.', suelo: 'Granito, caliza, marga, pizarra, arenisca y suelos volcánicos.' },
+            'aragon': { clima: 'Continental extremo con viento Cierzo y baja pluviometría.', suelo: 'Caliza, arcilla, pedregoso y aluvial del valle del Ebro.' },
+            'atacama': { clima: 'Desértico hiperárido con gran amplitud térmica.', suelo: 'Calcáreo salino, arenoso y muy mineral.' },
+            'auckland': { clima: 'Marítimo templado cálido y húmedo.', suelo: 'Volcánico-arcilloso y arcillas densas.' },
+            'azores': { clima: 'Oceánico subtropical húmedo, ventoso y estable.', suelo: 'Basalto y ceniza volcánica, muy pobre en materia orgánica.' },
+            'baleares': { clima: 'Mediterráneo subtropical con fuerte influencia marítima.', suelo: 'Caliza y arcilla de baja fertilidad.' },
+            'beaujolais': { clima: 'Semicontinental con influencia mediterránea.', suelo: 'Granito en el norte; arcilla, arenisca y caliza en el sur.' },
+            'bierzo': { clima: 'Transición atlántico-continental, húmedo y fresco.', suelo: 'Pizarra, arcilla, cuarzo y arena.' },
+            'bizkaiko txakolina': { clima: 'Atlántico muy húmedo con veranos suaves.', suelo: 'Caliza, marga y arcillas ácidas de poca profundidad.' },
+            'borgona': { clima: 'Continental con variaciones por ladera y exposición.', suelo: 'Caliza y marga con fósiles marinos.' },
+            'burdeos': { clima: 'Oceánico templado con clara influencia atlántica.', suelo: 'Gravas en margen izquierda; arcilla-caliza en margen derecha.' },
+            'california': { clima: 'Mediterráneo con fuerte modulación marítima.', suelo: 'Muy diverso: volcánico, aluvial, arcilloso y calcáreo.' },
+            'campania': { clima: 'Mediterráneo cálido con brisas marinas.', suelo: 'Volcánico, toba, arcilla y aluvial.' },
+            'canarias': { clima: 'Subtropical con alisios y gran variación por altitud.', suelo: 'Volcánico (basalto, ceniza y lapilli).' },
+            'cape south coast': { clima: 'Marítimo fresco por influencia de dos océanos.', suelo: 'Granito descompuesto, esquisto y arcilla.' },
+            'castilla y leon': { clima: 'Continental extremo con elevada amplitud térmica.', suelo: 'Caliza, arcilla, arena y cantos rodados.' },
+            'castilla-la mancha': { clima: 'Continental árido extremo con insolación muy alta.', suelo: 'Arcillo-arenoso calcáreo y pedregoso.' },
+            'cava': { clima: 'Mediterráneo con gradiente térmico por altitud.', suelo: 'Caliza, arcilla y arena bien drenada.' },
+            'central coast': { clima: 'Marítimo fresco con niebla y viento del Pacífico.', suelo: 'Calcáreo, aluvial y arcilloso.' },
+            'centro': { clima: 'Mixto: más fresco en montaña y más cálido en llanura.', suelo: 'Granito, xisto y arcillas.' },
+            'champagne': { clima: 'Frío continental-oceánico con maduración lenta.', suelo: 'Giz (chalk), marga y caliza.' },
+            'coastal region': { clima: 'Mediterráneo con importante influencia oceánica.', suelo: 'Granito antiguo, arcilla y esquisto.' },
+            'comunidad valenciana': { clima: 'Mediterráneo en costa y más continental en interior.', suelo: 'Arcilla, caliza y arena.' },
+            'conca de barbera': { clima: 'Mediterráneo continental con noches frescas.', suelo: 'Caliza oscura, arcilla y terrazas fluviales.' },
+            'conca del riu anoia': { clima: 'Mediterráneo con componente continental.', suelo: 'Caliza fosilizada de antiguo lecho marino.' },
+            'costers del segre': { clima: 'Continental semiárido con alta amplitud térmica.', suelo: 'Arenoso-calcáreo.' },
+            'douro': { clima: 'Continental extremo con veranos muy cálidos y secos.', suelo: 'Xisto dominante y granito periférico.' },
+            'extremadura': { clima: 'Mediterráneo continental con veranos calurosos.', suelo: 'Arcillo-calcáreo, aluvial arenoso y pedregoso.' },
+            'franschhoek': { clima: 'Mediterráneo cálido moderado por montaña.', suelo: 'Granito descompuesto y arcilla.' },
+            'friuli-venezia-giulia': { clima: 'Continental-alpino con influencia adriática.', suelo: 'Grava, caliza y depósitos aluviales.' },
+            'getariako txakolina': { clima: 'Atlántico muy húmedo y fresco.', suelo: 'Arcillo-calcáreo en laderas costeras.' },
+            'hemel-en-aarde': { clima: 'Marítimo fresco con gran influencia oceánica.', suelo: 'Esquisto y arcilla.' },
+            'hesse': { clima: 'Continental templado.', suelo: 'Loess, caliza y arcilla.' },
+            'isla norte': { clima: 'Marítimo templado cálido.', suelo: 'Volcánico y arcilloso.' },
+            'isla sur': { clima: 'Marítimo fresco a continental frío.', suelo: 'Esquisto, grava y aluvial.' },
+            'jerez': { clima: 'Mediterráneo cálido y soleado.', suelo: 'Albariza calcárea de alta retención hídrica.' },
+            'jura': { clima: 'Continental fresco.', suelo: 'Marga y caliza con presencia de esquisto.' },
+            'languedoc-roussillon': { clima: 'Mediterráneo cálido y seco.', suelo: 'Arcilla, caliza y gravas.' },
+            'loira': { clima: 'Oceánico en oeste y más continental en este.', suelo: 'Sílex, toba calcárea y arcilla.' },
+            'madrid': { clima: 'Continental mediterráneo de altitud con noches frescas.', suelo: 'Granítico y calcáreo.' },
+            'manzanilla': { clima: 'Mediterráneo más húmedo por influencia marina.', suelo: 'Albariza calcárea.' },
+            'mendoza': { clima: 'Desértico de altitud con noches muy frías.', suelo: 'Aluvial pedregoso.' },
+            'montilla-moriles': { clima: 'Continental cálido extremo.', suelo: 'Albariza calcárea.' },
+            'montsant': { clima: 'Mediterráneo seco.', suelo: 'Pizarra (llicorella), caliza y arcilla.' },
+            'mosela': { clima: 'Continental frío.', suelo: 'Pizarra en laderas pronunciadas.' },
+            'murcia': { clima: 'Mediterráneo continental cálido.', suelo: 'Calcáreo pedregoso.' },
+            'malaga': { clima: 'Mediterráneo cálido.', suelo: 'Caliza y arcilla.' },
+            'navarra': { clima: 'Continental mediterráneo.', suelo: 'Caliza, arcilla y gravas.' },
+            'norte': { clima: 'Atlántico fresco y húmedo.', suelo: 'Granítico.' },
+            'oregon': { clima: 'Marítimo fresco de influencia pacífica.', suelo: 'Volcánico (Jory), aluvial y sedimentario.' },
+            'patagonia': { clima: 'Continental frío y seco.', suelo: 'Aluvial y pedregoso.' },
+            'penedes': { clima: 'Mediterráneo escalonado por altitud.', suelo: 'Calcáreo y arcilloso.' },
+            'piamonte': { clima: 'Continental con nieblas otoñales.', suelo: 'Marga calcárea.' },
+            'priorat': { clima: 'Mediterráneo seco y de fuerte estrés hídrico.', suelo: 'Llicorella (pizarra roja y negra).' },
+            'provenza': { clima: 'Mediterráneo soleado con influencia del Mistral.', suelo: 'Caliza, arcilla y gravas.' },
+            'puglia': { clima: 'Mediterráneo cálido.', suelo: 'Caliza y terra rossa.' },
+            'renania-palatinado': { clima: 'Continental templado.', suelo: 'Pizarra, loess y caliza.' },
+            'ribeira sacra': { clima: 'Atlántico fresco con componente continental.', suelo: 'Pizarra en bancales.' },
+            'ribeiro': { clima: 'Atlántico húmedo.', suelo: 'Granito y arcilla.' },
+            'ribera del duero': { clima: 'Continental extremo con alta oscilación térmica.', suelo: 'Caliza, arcilla y arena.' },
+            'rioja': { clima: 'Continental con influencias atlántica y mediterránea.', suelo: 'Arcillo-calcáreo, arcillo-ferroso y aluvial.' },
+            'rioja alavesa': { clima: 'Más atlántico y fresco que Rioja Oriental.', suelo: 'Arcillo-calcáreo.' },
+            'rueda': { clima: 'Continental.', suelo: 'Cascajoso (pedregoso) y arenas calcáreas.' },
+            'rias baixas': { clima: 'Atlántico húmedo y templado.', suelo: 'Granítico, arenoso y ácido.' },
+            'rodano': { clima: 'Continental en norte y mediterráneo en sur.', suelo: 'Granito (norte) y galets/cantos rodados (sur).' },
+            'sicilia': { clima: 'Mediterráneo; más fresco en altitud del Etna.', suelo: 'Volcánico en Etna y calcáreo en zonas bajas.' },
+            'somontano': { clima: 'Continental de altitud.', suelo: 'Caliza y gravas.' },
+            'south australia': { clima: 'Mediterráneo variable según subzona.', suelo: 'Terra rossa, caliza y arcilla roja.' },
+            'stellenbosch': { clima: 'Mediterráneo cálido moderado por brisa oceánica.', suelo: 'Granito antiguo descompuesto y arcilla.' },
+            'tokaji-hegyalja': { clima: 'Continental con nieblas favorables a botrytis.', suelo: 'Volcánico, loess y arcilla.' },
+            'toro': { clima: 'Continental cálido.', suelo: 'Arenoso con base calcárea.' },
+            'toscana': { clima: 'Mediterráneo.', suelo: 'Galestro (arcilla esquistosa) y albarese (caliza).' },
+            'traiguen': { clima: 'Fresco y húmedo del sur chileno.', suelo: 'Volcánico y aluvial.' },
+            'trentino-alto adige': { clima: 'Alpino continental con gran amplitud térmica.', suelo: 'Grava, caliza y origen volcánico.' },
+            'valdeorras': { clima: 'Atlántico de transición.', suelo: 'Pizarra dominante.' },
+            'valle central': { clima: 'Mediterráneo clásico.', suelo: 'Aluvial y gravas.' },
+            'valle de maipo': { clima: 'Mediterráneo con influencia andina.', suelo: 'Grava aluvial de origen andino.' },
+            'victoria': { clima: 'Variable; de fresco a templado-cálido según subzona.', suelo: 'Terra rossa, volcánico y aluvial.' },
+            'veneto': { clima: 'Variable entre alpino y mediterráneo.', suelo: 'Volcánico, aluvial y calcáreo.' },
+            'western cape': { clima: 'Mediterráneo con brisas oceánicas.', suelo: 'Granito, esquisto y arcilla.' }
+        };
+
+        const GRAPE_TERRIOR_PROFILE = {
+            tempranillo: { clima: 'madura bien en continental con amplitud térmica.', suelo: 'destaca en arcillo-calcáreo y aluvial pedregoso.' },
+            garnacha: { clima: 'tolera calor y sequía mediterránea.', suelo: 'rinde mejor en pizarra, canto rodado y caliza pobre.' },
+            monastrell: { clima: 'requiere calor y maduración larga.', suelo: 'encaja en calcáreo pedregoso de baja fertilidad.' },
+            bobal: { clima: 'resiste clima continental seco.', suelo: 'funciona en arcilla calcárea con grava.' },
+            mencia: { clima: 'expresa frescura en atlántico-continental.', suelo: 'gana finura en pizarra y granito.' },
+            pinotnoir: { clima: 'prefiere zonas frescas y maduración lenta.', suelo: 'brilla en caliza/marga y suelos de buen drenaje.' },
+            syrah: { clima: 'equilibrio ideal entre calor diurno y noches frescas.', suelo: 'granito, esquisto y cantos rodados aumentan complejidad.' },
+            shiraz: { clima: 'admite climas cálidos manteniendo especia.', suelo: 'arcilla roja y terra rossa aportan potencia.' },
+            nebbiolo: { clima: 'necesita continental fresco con otoño largo.', suelo: 'marga calcárea para tanino noble.' },
+            sangiovese: { clima: 'mediterráneo con amplitud térmica moderada.', suelo: 'galestro y albarese afinan acidez y estructura.' },
+            barbera: { clima: 'adapta bien a continental templado.', suelo: 'marga y arcilla conservan su acidez natural.' },
+            riesling: { clima: 'excelente en climas fríos a frescos.', suelo: 'pizarra, granito o caliza elevan mineralidad.' },
+            albarino: { clima: 'atlántico húmedo y fresco.', suelo: 'granito arenoso mejora perfil salino y cítrico.' },
+            verdejo: { clima: 'continental con noches frescas.', suelo: 'cascajoso-calcáreo favorece tensión y aromas herbales.' },
+            godello: { clima: 'atlántico de transición.', suelo: 'pizarra y suelos pobres aumentan textura mineral.' },
+            chardonnay: { clima: 'muy sensible al mesoclima; ideal en fresco-templado.', suelo: 'caliza y marga definen precisión y longitud.' },
+            sauvignonblanc: { clima: 'mejor en climas frescos con buena ventilación.', suelo: 'sílex, caliza y granito acentúan verticalidad.' },
+            viognier: { clima: 'prefiere cálido moderado sin exceso térmico.', suelo: 'granito y arcilla drenada preservan perfume.' },
+            xarello: { clima: 'mediterráneo con amplitud térmica moderada.', suelo: 'caliza aporta estructura y acidez estable.' },
+            macabeo: { clima: 'mediterráneo templado.', suelo: 'caliza y arcilla ligera mantienen frescura.' },
+            parellada: { clima: 'mejor en cotas altas y frescas.', suelo: 'calcáreo pobre para tensión ácida.' },
+            glera: { clima: 'templado-fresco con influencia montañosa.', suelo: 'margas y arcillas livianas favorecen delicadeza.' },
+            furmint: { clima: 'continental con niebla otoñal.', suelo: 'volcánico y loess sostienen acidez y longevidad.' },
+            harslevelu: { clima: 'continental con botrytis controlada.', suelo: 'volcánico y arcilloso para concentración aromática.' },
+            cabernetsauvignon: { clima: 'mejor en templado-cálido de ciclo largo.', suelo: 'grava/cascajo para drenaje y maduración fenólica.' },
+            cabernetfranc: { clima: 'funciona muy bien en fresco-templado.', suelo: 'caliza y arcilla para tanino fino y perfume.' },
+            merlot: { clima: 'maduración precoz en templado.', suelo: 'arcilla y caliza favorecen textura redonda.' },
+            graciano: { clima: 'requiere insolación alta con noches frescas.', suelo: 'arcillo-calcáreo para color y acidez.' },
+            carinena: { clima: 'tolera sequía y calor.', suelo: 'pizarra y caliza pobre generan concentración.' },
+            touriganacional: { clima: 'continental cálido con buen contraste térmico.', suelo: 'xisto potencia estructura y aromaticidad floral.' },
+            tourigafranca: { clima: 'adaptada a calor seco.', suelo: 'xisto y pendientes bien drenadas.' },
+            cheninblanc: { clima: 'muy versátil, destaca en fresco a templado.', suelo: 'esquisto y caliza elevan tensión y guarda.' },
+            semillon: { clima: 'oceánico templado.', suelo: 'gravas y arcillas para volumen y textura cerosa.' },
+            malbec: { clima: 'óptimo en altura con noches frías.', suelo: 'aluvial pedregoso para concentración con frescura.' },
+            carmenere: { clima: 'templado-cálido con otoño largo.', suelo: 'aluvial y arcilla drenada para madurez completa.' },
+            nerellomascalese: { clima: 'mediterráneo de altitud.', suelo: 'volcánico para perfil ferrosomineral.' },
+            aglianico: { clima: 'prefiere maduración lenta en zonas elevadas.', suelo: 'volcánico y calcáreo para tanino y acidez.' }
+        };
+
+        const GRAPE_FAMILY_TERRIOR_PROFILE = {
+            'iberica-tinta': { clima: 'suele rendir mejor con días cálidos y noches frescas.', suelo: 'prefiere caliza, arcilla pobre o pizarra de buen drenaje.' },
+            'burgundy': { clima: 'normalmente necesita clima fresco o templado fresco.', suelo: 'caliza, marga o suelos pedregosos bien drenados elevan precisión.' },
+            'italiana': { clima: 'se expresa bien en mediterráneo con contraste térmico.', suelo: 'marga, caliza y suelos volcánicos moderan estructura.' },
+            'aromatico': { clima: 'requiere conservar acidez y fragancia en zonas frescas.', suelo: 'granito, pizarra o calcáreo ligero aportan tensión aromática.' },
+            'novamundo': { clima: 'admite mayor insolación sin perder equilibrio si hay ventilación.', suelo: 'aluvial, grava y arcilla drenada ayudan a madurez fenólica.' },
+            'espumoso': { clima: 'busca maduración lenta para retener acidez.', suelo: 'calcáreo y margoso favorecen finura y persistencia.' }
+        };
+
+        const GRAPE_KEY_ALIASES = {
+            aragonez: 'tempranillo',
+            tintadetoro: 'tempranillo',
+            viura: 'macabeo',
+            rolle: 'vermentino',
+            gouveio: 'godello',
+            mourvedre: 'monastrell',
+            shiraz: 'syrah',
+            ploussard: 'poulsard',
+            xarello: 'xarello',
+            xarelolo: 'xarello',
+            sargamuskotaly: 'moscatel'
+        };
+
+        function canonicalRegionKey(value) {
+            return normalizeToken(value).replace(/\s+/g, ' ').trim();
+        }
+
+        function canonicalGrapeKey(value) {
+            const normalized = normalizeToken(value).replace(/[^a-z0-9]/g, '');
+            return GRAPE_KEY_ALIASES[normalized] || normalized;
+        }
+
+        function getPredominantGrape(uvasArr) {
+            const grapes = extractGrapeItems(uvasArr);
+            if (!grapes.length) return null;
+            let best = grapes[0];
+            let bestPct = Number.isFinite(Number(best.pct)) ? Number(best.pct) : -1;
+            for (let i = 1; i < grapes.length; i++) {
+                const candidate = grapes[i];
+                const candidatePct = Number.isFinite(Number(candidate.pct)) ? Number(candidate.pct) : -1;
+                if (candidatePct > bestPct) {
+                    best = candidate;
+                    bestPct = candidatePct;
+                }
+            }
+            return best;
+        }
+
+        function getPreciseRegionTerroir(region) {
+            const key = canonicalRegionKey(region);
+            if (!key) return null;
+            if (REGION_TERRIOR_PRECISE[key]) return REGION_TERRIOR_PRECISE[key];
+            const fuzzyMatch = Object.keys(REGION_TERRIOR_PRECISE).find((known) => key.includes(known) || known.includes(key));
+            return fuzzyMatch ? REGION_TERRIOR_PRECISE[fuzzyMatch] : null;
+        }
+
+        function getGrapeTerroirProfile(grapeName) {
+            const key = canonicalGrapeKey(grapeName);
+            if (!key) return null;
+            if (GRAPE_TERRIOR_PROFILE[key]) return GRAPE_TERRIOR_PROFILE[key];
+            const familyClass = String(getGrapeColor(grapeName || '') || '').split(' ')[0];
+            return GRAPE_FAMILY_TERRIOR_PROFILE[familyClass] || null;
+        }
+
+        function mergeTerroirText(base, extra) {
+            if (!base || base === '—') return extra || '—';
+            if (!extra) return base;
+            return `${base} · ${extra}`;
+        }
+
+        function getTerroirInfo(region, pais, uvasArr) {
+            const regionBase = getPreciseRegionTerroir(region) || getTerroirInfoLegacy(region, pais);
+            const dominant = getPredominantGrape(uvasArr);
+            if (!dominant || !dominant.nome) {
+                return regionBase;
+            }
+            const grapeProfile = getGrapeTerroirProfile(dominant.nome);
+            if (!grapeProfile) {
+                return regionBase;
+            }
+            return {
+                clima: mergeTerroirText(regionBase.clima, `Uva dominante (${dominant.nome}): ${grapeProfile.clima}`),
+                suelo: mergeTerroirText(regionBase.suelo, `Afinidad de ${dominant.nome}: ${grapeProfile.suelo}`)
+            };
+        }
+
         // --- MODAL ---
         const wineModal = document.getElementById('wineModal');
         const editButton = document.getElementById('btnEditWine');
@@ -1903,6 +2297,8 @@
         const consumeButton = document.getElementById('btnConsume');
         const consumeQtySelect = document.getElementById('consumeQty');
         const consumeFeedback = document.getElementById('consumeFeedback');
+        const syncToast = document.getElementById('syncToast');
+        let syncToastTimer = null;
 
         if (logoutButton) {
             logoutButton.addEventListener('click', () => {
@@ -1929,6 +2325,29 @@
             return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
         }
 
+        function getMadridServiceDayKey(dateInput = new Date()) {
+            const date = new Date(dateInput);
+            const formatter = new Intl.DateTimeFormat('en-GB', {
+                timeZone: 'Europe/Madrid',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                hour12: false
+            });
+            const parts = formatter.formatToParts(date);
+            const read = (type) => Number(parts.find((part) => part.type === type)?.value || '0');
+            const year = read('year');
+            const month = read('month');
+            const day = read('day');
+            const hour = read('hour');
+            const baseUtc = new Date(Date.UTC(year, month - 1, day));
+            if (hour < 6) {
+                baseUtc.setUTCDate(baseUtc.getUTCDate() - 1);
+            }
+            return `${baseUtc.getUTCFullYear()}-${String(baseUtc.getUTCMonth() + 1).padStart(2, '0')}-${String(baseUtc.getUTCDate()).padStart(2, '0')}`;
+        }
+
         function readMovementLogStore() {
             return parseJsonObject(localStorage.getItem(movementLogKey));
         }
@@ -1936,6 +2355,16 @@
         function setConsumeFeedback(message) {
             if (!consumeFeedback) return;
             consumeFeedback.textContent = message || '';
+        }
+
+        function showSyncToast(message) {
+            if (!syncToast) return;
+            syncToast.textContent = message || 'Cava Atualizada';
+            syncToast.classList.add('show');
+            if (syncToastTimer) clearTimeout(syncToastTimer);
+            syncToastTimer = window.setTimeout(() => {
+                syncToast.classList.remove('show');
+            }, 1700);
         }
 
         function resolveMovementEstablishment() {
@@ -1987,9 +2416,9 @@
                     const nextValue = Math.max(est.unidades - quantity, 0);
                     est.unidades = nextValue;
                     saveEdit(currentEditPod, `establecimientos.${estKey}.unidades`, nextValue);
-                    setConsumeFeedback(translations[currentLang].consumeDone || 'Retirada registrada.');
+                    setConsumeFeedback('');
                 } else {
-                    setConsumeFeedback(translations[currentLang].consumeNoStock || 'Sem estoque numérico para baixar, mas retirada anotada.');
+                    setConsumeFeedback('');
                 }
 
                 appendMovementLog({
@@ -2000,14 +2429,19 @@
                     establishment: estKey,
                     pod: ref.pod,
                     wine: ref.descripcion || '—',
+                    year: ref.ano ?? null,
+                    size: ref.formato?.etiqueta || null,
                     qty: quantity,
                     before,
-                    after: typeof ref.establecimientos[estKey].unidades === 'number' ? ref.establecimientos[estKey].unidades : null
+                    after: typeof ref.establecimientos[estKey].unidades === 'number' ? ref.establecimientos[estKey].unidades : null,
+                    storageDayKey: getLocalDateKey(),
+                    serviceDayKey: getMadridServiceDayKey()
                 });
 
                 preProcess();
                 updateRefCount();
                 openModal(ref);
+                showSyncToast(translations[currentLang].consumeToastUpdated || 'Cava Atualizada');
             });
         }
 
@@ -2024,7 +2458,7 @@
             document.getElementById('modalSubtitle').textContent = parts.join(' · ') || '—';
 
             // Grapes
-            document.getElementById('modalGrapes').innerHTML = renderGrapeTags(ref.uvas);
+            document.getElementById('modalGrapes').innerHTML = renderGrapeTags(ref.uvas, ref.tipo?.codigo);
 
             // Detail boxes
             document.getElementById('modalRegion').textContent = fmt(ref.region);
@@ -2033,7 +2467,7 @@
             document.getElementById('modalFormat').textContent = fmt(ref.formato?.etiqueta);
 
             // Terroir cards
-            const terroir = getTerroirInfo(ref.region, ref.pais);
+            const terroir = getTerroirInfo(ref.region, ref.pais, ref.uvas);
             document.getElementById('modalClima').textContent = terroir.clima;
             document.getElementById('modalSuelo').textContent = terroir.suelo;
 
@@ -2074,10 +2508,6 @@
             const ref = refs.find(r => r.pod === currentEditPod);
             if (!ref) return;
 
-            document.getElementById('editDesc').value = ref.descripcion || '';
-            document.getElementById('editRegion').value = ref.region || '';
-            document.getElementById('editUvas').value = (ref.uvas || []).join(', ');
-
             EST_KEYS.forEach(k => {
                 const est = ref.establecimientos?.[k] || {};
                 const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
@@ -2100,26 +2530,7 @@
             if (!currentEditPod) return;
             const ref = refs.find(r => r.pod === currentEditPod);
             if (!ref) return;
-
-            // Save descripcion
-            const desc = document.getElementById('editDesc').value.trim();
-            if (desc && desc !== ref.descripcion) {
-                ref.descripcion = desc;
-                saveEdit(currentEditPod, 'descripcion', desc);
-            }
-
-            // Save region
-            const region = document.getElementById('editRegion').value.trim();
-            if (region !== (ref.region || '')) {
-                ref.region = region || null;
-                saveEdit(currentEditPod, 'region', region || null);
-            }
-
-            // Save uvas
-            const uvasStr = document.getElementById('editUvas').value.trim();
-            const uvasArr = uvasStr ? uvasStr.split(',').map(u => u.trim()).filter(Boolean) : [];
-            ref.uvas = uvasArr;
-            saveEdit(currentEditPod, 'uvas', uvasArr);
+            let hasChanges = false;
 
             // Save per-establishment fields
             EST_KEYS.forEach(k => {
@@ -2130,14 +2541,26 @@
 
                 const pvpVal = document.getElementById(`edit${prefix}Pvp`).value;
                 const pvp = pvpVal !== '' ? Number(pvpVal) : null;
-                if (pvp !== est.pvp) { est.pvp = pvp; saveEdit(currentEditPod, `establecimientos.${k}.pvp`, pvp); }
+                if (pvp !== est.pvp) {
+                    est.pvp = pvp;
+                    saveEdit(currentEditPod, `establecimientos.${k}.pvp`, pvp);
+                    hasChanges = true;
+                }
 
                 const stockVal = document.getElementById(`edit${prefix}Stock`).value;
                 const stock = stockVal !== '' ? Number(stockVal) : null;
-                if (stock !== est.unidades) { est.unidades = stock; saveEdit(currentEditPod, `establecimientos.${k}.unidades`, stock); }
+                if (stock !== est.unidades) {
+                    est.unidades = stock;
+                    saveEdit(currentEditPod, `establecimientos.${k}.unidades`, stock);
+                    hasChanges = true;
+                }
 
                 const loc = document.getElementById(`edit${prefix}Loc`).value.trim().toUpperCase() || null;
-                if (loc !== est.localizacion) { est.localizacion = loc; saveEdit(currentEditPod, `establecimientos.${k}.localizacion`, loc); }
+                if (loc !== est.localizacion) {
+                    est.localizacion = loc;
+                    saveEdit(currentEditPod, `establecimientos.${k}.localizacion`, loc);
+                    hasChanges = true;
+                }
             });
 
             // Recompute indexes
@@ -2146,6 +2569,9 @@
 
             // Refresh modal
             openModal(ref);
+            if (hasChanges) {
+                showSyncToast(translations[currentLang].consumeToastUpdated || 'Cava Atualizada');
+            }
         });
 
         function isPlainObject(value) {
@@ -2155,7 +2581,7 @@
         function applyRemoteState(state) {
             if (!isPlainObject(state)) return;
             if (Array.isArray(state.edits)) {
-                localStorage.setItem(EDITS_KEY, JSON.stringify(state.edits));
+                localStorage.setItem(EDITS_KEY, JSON.stringify(sanitizeEditsForCurrentUi(state.edits)));
             }
             if (isPlainObject(state.movementLog)) {
                 localStorage.setItem(MOVEMENTS_KEY, JSON.stringify(state.movementLog));
@@ -2163,11 +2589,55 @@
             rebuildRefsFromLocalSnapshot();
         }
 
+        function mergeRemoteStateWithPending(state, pendingMutations) {
+            const mergedEdits = Array.isArray(state?.edits) ? state.edits.map((edit) => ({ ...edit })) : [];
+            const mergedMovementLog = isPlainObject(state?.movementLog)
+                ? Object.fromEntries(
+                    Object.entries(state.movementLog).map(([key, value]) => [key, Array.isArray(value) ? [...value] : []])
+                )
+                : {};
+
+            if (!Array.isArray(pendingMutations) || pendingMutations.length === 0) {
+                return { edits: mergedEdits, movementLog: mergedMovementLog };
+            }
+
+            pendingMutations.forEach((mutation) => {
+                if (!mutation || typeof mutation !== 'object' || typeof mutation.type !== 'string') return;
+
+                if (mutation.type === 'edit') {
+                    const payload = mutation.payload;
+                    if (!payload || typeof payload.pod !== 'string' || typeof payload.path !== 'string') return;
+                    const nextEdit = {
+                        pod: payload.pod,
+                        path: payload.path,
+                        value: payload.value,
+                        updatedAt: payload.updatedAt || new Date().toISOString(),
+                        updatedBy: payload.updatedBy || currentUserName
+                    };
+                    const idx = mergedEdits.findIndex((edit) => edit.pod === nextEdit.pod && edit.path === nextEdit.path);
+                    if (idx >= 0) mergedEdits[idx] = nextEdit;
+                    else mergedEdits.push(nextEdit);
+                    return;
+                }
+
+                if (mutation.type === 'movement') {
+                    const payload = mutation.payload;
+                    if (!payload || typeof payload !== 'object') return;
+                    const dateKey = typeof mutation.dateKey === 'string' && mutation.dateKey ? mutation.dateKey : getLocalDateKey(payload.at || new Date());
+                    if (!Array.isArray(mergedMovementLog[dateKey])) mergedMovementLog[dateKey] = [];
+                    mergedMovementLog[dateKey].push(payload);
+                }
+            });
+
+            return { edits: mergedEdits, movementLog: mergedMovementLog };
+        }
+
         async function runRealtimeSyncCycle() {
             if (syncInFlight || !baseRefs.length) return;
             if (syncDisabled) return;
             if (!navigator.onLine) return;
             syncInFlight = true;
+            let shouldRunAgain = false;
             try {
                 const pendingMutations = readPendingMutations();
                 const knownRevision = Number(localStorage.getItem(SYNC_REVISION_KEY) || '0');
@@ -2191,8 +2661,20 @@
                 const payload = await response.json();
                 if (!payload || payload.ok !== true) return;
 
-                if (Array.isArray(pendingMutations) && pendingMutations.length > 0) {
-                    writePendingMutations([]);
+                const acknowledgedIds = Array.isArray(payload.acknowledgedMutationIds)
+                    ? payload.acknowledgedMutationIds.filter((id) => typeof id === 'string' && id)
+                    : [];
+                let remainingQueue = pendingMutations;
+
+                if (acknowledgedIds.length > 0) {
+                    const currentQueue = readPendingMutations();
+                    const ackSet = new Set(acknowledgedIds);
+                    remainingQueue = currentQueue.filter((mutation) => {
+                        const mutationId = typeof mutation?.id === 'string' ? mutation.id : '';
+                        return !ackSet.has(mutationId);
+                    });
+                    writePendingMutations(remainingQueue);
+                    shouldRunAgain = remainingQueue.length > 0;
                 }
 
                 const revisionValue = Number(payload.revision);
@@ -2201,16 +2683,23 @@
                 }
 
                 if (isPlainObject(payload.state)) {
-                    const hasPending = Array.isArray(pendingMutations) && pendingMutations.length > 0;
-                    const shouldApply = hasPending || (Number.isFinite(revisionValue) && revisionValue > knownRevision);
+                    const shouldApply = acknowledgedIds.length > 0
+                        || payload.hasUpdate === true
+                        || (Number.isFinite(revisionValue) && revisionValue > knownRevision);
                     if (shouldApply) {
-                        applyRemoteState(payload.state);
+                        const mergedState = mergeRemoteStateWithPending(payload.state, remainingQueue);
+                        applyRemoteState(mergedState);
                     }
                 }
             } catch {
                 return;
             } finally {
                 syncInFlight = false;
+                if (shouldRunAgain && !syncDisabled) {
+                    window.setTimeout(() => {
+                        void runRealtimeSyncCycle();
+                    }, 120);
+                }
             }
         }
 

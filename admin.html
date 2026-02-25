@@ -111,6 +111,76 @@
             gap: 10px;
         }
 
+        .report-scope-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .scope-btn {
+            height: 30px;
+            border-radius: 999px;
+            border: 1px solid var(--glass-border);
+            background: rgba(0,0,0,0.12);
+            color: var(--text-main);
+            padding: 0 12px;
+            cursor: pointer;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            transition: var(--transition-smooth);
+            text-transform: uppercase;
+        }
+
+        .scope-btn.active {
+            background: var(--gold-accent);
+            color: #111;
+            border-color: transparent;
+        }
+
+        .report-main {
+            display: flex;
+            gap: 10px;
+            align-items: stretch;
+        }
+
+        .report-actions {
+            width: 132px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .report-action-btn {
+            min-height: 34px;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: rgba(0,0,0,0.12);
+            color: var(--text-main);
+            padding: 0 10px;
+            cursor: pointer;
+            font-size: 0.74rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            transition: var(--transition-smooth);
+        }
+
+        .report-action-btn:hover {
+            transform: translateY(-1px);
+        }
+
+        .report-action-btn.danger {
+            border-color: rgba(255, 112, 112, 0.5);
+            color: #ffd4d4;
+            background: rgba(120, 20, 20, 0.28);
+        }
+
+        .report-action-btn.success {
+            border-color: rgba(126, 224, 154, 0.45);
+            color: #daffe4;
+            background: rgba(23, 90, 43, 0.33);
+        }
+
         .copy-btn {
             align-self: flex-end;
             height: 32px;
@@ -134,6 +204,15 @@
             background: #b2e4a5;
             color: #111;
         }
+
+        .report-status {
+            min-height: 1rem;
+            font-size: 0.74rem;
+            color: var(--text-muted);
+        }
+
+        .report-status.error { color: #ff9d9d; }
+        .report-status.success { color: #b9f0c5; }
 
         .user-grid {
             display: grid;
@@ -317,6 +396,9 @@
 
         @media (max-width: 820px) {
             .user-grid { grid-template-columns: 1fr; }
+            .report-main { flex-direction: column; }
+            .report-actions { width: 100%; flex-direction: row; flex-wrap: wrap; }
+            .report-action-btn { flex: 1 1 120px; min-height: 32px; }
             .top-left-actions { top: 15px; left: 15px; }
             .top-actions { top: 15px; right: 15px; }
             .session-user-card { top: max(8px, env(safe-area-inset-top)); }
@@ -406,7 +488,20 @@
 
         <div class="admin-card">
             <div class="daily-report-wrapper">
-                <textarea id="dailyText" class="admin-text" readonly></textarea>
+                <div class="report-scope-row" id="reportScopeRow">
+                    <button class="scope-btn active" data-scope="all">Todas</button>
+                    <button class="scope-btn" data-scope="spa">SPA</button>
+                    <button class="scope-btn" data-scope="tasca_fina">Tasca</button>
+                    <button class="scope-btn" data-scope="victoria">Victoria</button>
+                </div>
+                <div class="report-main">
+                    <div class="report-actions">
+                        <button id="clearReportBtn" class="report-action-btn danger">Limpar Lista</button>
+                        <button id="restoreReportBtn" class="report-action-btn success">Recuperar</button>
+                    </div>
+                    <textarea id="dailyText" class="admin-text" readonly></textarea>
+                </div>
+                <div id="reportStatus" class="report-status"></div>
                 <button id="copyBtn" class="copy-btn">Copiar Reporte</button>
             </div>
         </div>
@@ -469,13 +564,21 @@
         const role = isOwner ? 'adminmaster' : ((storedRole === 'adminmaster' ? 'admin' : storedRole) || 'user');
         const scope = isOwner ? 'all' : ((storedScope === 'all' ? 'spa' : storedScope) || 'spa');
         const movementLogKey = 'cava_daily_movements_v1';
+        const movementArchiveKey = 'cava_movement_archive_v1';
+        const madridResetMarkerKey = 'cava_madrid_service_day_marker_v1';
         const SYNC_ENDPOINT = '/api/stock-sync';
         const SYNC_INTERVAL_MS = 30000;
         const SYNC_REVISION_KEY = 'cava_sync_revision_v1';
         const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
+        const ADMIN_SYNC_PENDING_KEY = 'cava_admin_pending_mutations_v1';
         const textarea = document.getElementById('dailyText');
         const zoneTitle = document.getElementById('zoneTitle');
         const sessionUserCard = document.getElementById('sessionUserCard');
+        const reportScopeRow = document.getElementById('reportScopeRow');
+        const scopeButtons = Array.from(document.querySelectorAll('.scope-btn'));
+        const clearReportBtn = document.getElementById('clearReportBtn');
+        const restoreReportBtn = document.getElementById('restoreReportBtn');
+        const reportStatus = document.getElementById('reportStatus');
         const userManagementCard = document.getElementById('userManagementCard');
         const userListBody = document.getElementById('userListBody');
         const umUsername = document.getElementById('umUsername');
@@ -501,6 +604,7 @@
         let syncTimer = null;
         let syncInFlight = false;
         let syncDisabled = false;
+        let reportViewScope = role === 'adminmaster' ? 'all' : scope;
         let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
         if (!syncClientId) {
             syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
@@ -523,6 +627,70 @@
         if (sessionUserCard) {
             const cardUser = (currentUser || '').trim() || 'No logado';
             sessionUserCard.textContent = cardUser;
+        }
+
+        function setReportStatus(message, type = '') {
+            if (!reportStatus) return;
+            reportStatus.textContent = message || '';
+            reportStatus.className = 'report-status';
+            if (type) reportStatus.classList.add(type);
+        }
+
+        function parseJsonArray(rawValue) {
+            if (!rawValue) return [];
+            try {
+                const parsed = JSON.parse(rawValue);
+                return Array.isArray(parsed) ? parsed : [];
+            } catch {
+                return [];
+            }
+        }
+
+        function parseJsonObject(rawValue) {
+            if (!rawValue) return {};
+            try {
+                const parsed = JSON.parse(rawValue);
+                return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+            } catch {
+                return {};
+            }
+        }
+
+        function createMutationId() {
+            return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+        }
+
+        function readAdminPendingMutations() {
+            return parseJsonArray(localStorage.getItem(ADMIN_SYNC_PENDING_KEY));
+        }
+
+        function writeAdminPendingMutations(list) {
+            localStorage.setItem(ADMIN_SYNC_PENDING_KEY, JSON.stringify(Array.isArray(list) ? list : []));
+        }
+
+        function queueMovementLogReplace(nextStore, reason = 'manual') {
+            const queue = readAdminPendingMutations();
+            const sanitizedStore = isPlainObject(nextStore) ? nextStore : {};
+            const mutation = {
+                id: createMutationId(),
+                type: 'replace_movement_log',
+                payload: {
+                    movementLog: sanitizedStore,
+                    reason
+                }
+            };
+            const filtered = queue.filter((item) => item?.type !== 'replace_movement_log');
+            filtered.push(mutation);
+            writeAdminPendingMutations(filtered);
+        }
+
+        function readMovementArchive() {
+            return parseJsonArray(localStorage.getItem(movementArchiveKey));
+        }
+
+        function writeMovementArchive(list) {
+            const safeList = Array.isArray(list) ? list.slice(-120) : [];
+            localStorage.setItem(movementArchiveKey, JSON.stringify(safeList));
         }
 
         function defaultRegistry() {
@@ -641,6 +809,10 @@
         }
 
         async function saveUser() {
+            if (!isOwner) {
+                setUmStatus('Solo owner puede gestionar usuarios.', 'error');
+                return;
+            }
             const username = umUsername.value.trim();
             const password = umPassword.value.trim();
             const normalizedTarget = normalizeUsername(username);
@@ -664,6 +836,19 @@
 
             const users = getUserRegistry();
             const existingIndex = users.findIndex((user) => normalizeUsername(user.username) === normalizedTarget);
+
+            if (roleValue === 'admin') {
+                const conflictAdmin = users.find((user, index) => {
+                    if (index === existingIndex) return false;
+                    const userRole = normalizeRole(user.role) || 'user';
+                    const userScope = normalizeScope(user.scope) || 'spa';
+                    return userRole === 'admin' && userScope === scopeValue;
+                });
+                if (conflictAdmin) {
+                    setUmStatus(`Ya existe admin en ${mapEstLabel(scopeValue)}: ${conflictAdmin.username}.`, 'error');
+                    return;
+                }
+            }
             const newPasswordHash = password ? await hashPassword(password) : '';
 
             if (existingIndex < 0 && normalizedTarget !== '0xmanel' && !newPasswordHash) {
@@ -709,6 +894,10 @@
         }
 
         function deleteUser() {
+            if (!isOwner) {
+                setUmStatus('Solo owner puede gestionar usuarios.', 'error');
+                return;
+            }
             const username = umUsername.value.trim();
             if (!username) {
                 setUmStatus('Selecciona un usuario para eliminar.', 'error');
@@ -753,64 +942,232 @@
             return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
         }
 
-        function readMovementLogStore() {
-            try {
-                const raw = localStorage.getItem(movementLogKey);
-                if (!raw) return {};
-                const parsed = JSON.parse(raw);
-                if (!isPlainObject(parsed)) return {};
-                return parsed;
-            } catch {
-                return {};
-            }
+        function getMadridParts(dateInput = new Date()) {
+            const date = new Date(dateInput);
+            const formatter = new Intl.DateTimeFormat('en-GB', {
+                timeZone: 'Europe/Madrid',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            const parts = formatter.formatToParts(date);
+            const read = (type) => Number(parts.find((part) => part.type === type)?.value || '0');
+            return {
+                year: read('year'),
+                month: read('month'),
+                day: read('day'),
+                hour: read('hour'),
+                minute: read('minute')
+            };
         }
 
-        function buildReport() {
-            const today = getLocalDateKey();
-            const parsed = readMovementLogStore();
-            const entries = [];
+        function formatDayKey(year, month, day) {
+            return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        }
+
+        function shiftDayKey(dayKey, deltaDays) {
+            const [y, m, d] = String(dayKey).split('-').map((value) => Number(value));
+            if (!Number.isFinite(y) || !Number.isFinite(m) || !Number.isFinite(d)) return dayKey;
+            const base = new Date(Date.UTC(y, m - 1, d));
+            base.setUTCDate(base.getUTCDate() + deltaDays);
+            return `${base.getUTCFullYear()}-${String(base.getUTCMonth() + 1).padStart(2, '0')}-${String(base.getUTCDate()).padStart(2, '0')}`;
+        }
+
+        function getMadridServiceDayKey(dateInput = new Date()) {
+            const parts = getMadridParts(dateInput);
+            const baseKey = formatDayKey(parts.year, parts.month, parts.day);
+            if (parts.hour < 6) {
+                return shiftDayKey(baseKey, -1);
+            }
+            return baseKey;
+        }
+
+        function resolveEntryServiceDayKey(entry, fallbackDateKey = '') {
+            if (entry && typeof entry.serviceDayKey === 'string' && entry.serviceDayKey.trim()) {
+                return entry.serviceDayKey.trim();
+            }
+            if (entry && entry.at) {
+                return getMadridServiceDayKey(entry.at);
+            }
+            if (typeof fallbackDateKey === 'string' && fallbackDateKey.trim()) {
+                return fallbackDateKey.trim();
+            }
+            return getMadridServiceDayKey();
+        }
+
+        function getStorageDayKeyFromEntry(entry, fallbackDateKey = '') {
+            if (entry && typeof entry.storageDayKey === 'string' && entry.storageDayKey.trim()) {
+                return entry.storageDayKey.trim();
+            }
+            if (typeof fallbackDateKey === 'string' && fallbackDateKey.trim()) {
+                return fallbackDateKey.trim();
+            }
+            if (entry && entry.at) {
+                const date = new Date(entry.at);
+                if (!Number.isNaN(date.getTime())) {
+                    return date.toISOString().slice(0, 10);
+                }
+            }
+            return getLocalDateKey();
+        }
+
+        function readMovementLogStore() {
+            return parseJsonObject(localStorage.getItem(movementLogKey));
+        }
+
+        function writeMovementLogStore(store) {
+            localStorage.setItem(movementLogKey, JSON.stringify(isPlainObject(store) ? store : {}));
+        }
+
+        function flattenMovementEntries(store) {
+            const parsed = isPlainObject(store) ? store : {};
+            const rows = [];
             Object.keys(parsed).forEach((dateKey) => {
                 const list = parsed[dateKey];
                 if (!Array.isArray(list)) return;
                 list.forEach((entry) => {
                     if (!entry || typeof entry !== 'object') return;
-                    const entryDay = entry.at ? getLocalDateKey(entry.at) : dateKey;
-                    if (entryDay === today) {
-                        entries.push(entry);
-                    }
+                    rows.push({
+                        entry,
+                        dateKey,
+                        serviceDayKey: resolveEntryServiceDayKey(entry, dateKey)
+                    });
                 });
             });
+            return rows;
+        }
 
-            const visibleEntries = entries.filter((entry) => {
-                if (role === 'adminmaster') return true;
-                if (scope === 'all') return true;
-                return entry.establishment === scope;
+        function cloneMovementStore(store) {
+            const out = {};
+            if (!isPlainObject(store)) return out;
+            Object.keys(store).forEach((dateKey) => {
+                const list = store[dateKey];
+                if (!Array.isArray(list)) return;
+                out[dateKey] = list.map((entry) => ({ ...entry }));
             });
+            return out;
+        }
+
+        function getEffectiveReportScope() {
+            if (role === 'adminmaster') {
+                return reportViewScope || 'all';
+            }
+            return scope;
+        }
+
+        function updateScopeButtons() {
+            const activeScope = getEffectiveReportScope();
+            scopeButtons.forEach((button) => {
+                const btnScope = button.dataset.scope || '';
+                button.classList.toggle('active', btnScope === activeScope);
+            });
+        }
+
+        function archiveEntries(entries, reason, targetScope, serviceDayKey) {
+            if (!Array.isArray(entries) || entries.length === 0) return;
+            const archive = readMovementArchive();
+            archive.push({
+                id: createMutationId(),
+                createdAt: new Date().toISOString(),
+                reason: reason || 'manual',
+                scope: targetScope || 'all',
+                serviceDayKey: serviceDayKey || getMadridServiceDayKey(),
+                entries: entries.map((entry) => ({ ...entry }))
+            });
+            writeMovementArchive(archive);
+        }
+
+        function ensureDailyReset() {
+            const currentServiceDay = getMadridServiceDayKey();
+            const lastMarker = localStorage.getItem(madridResetMarkerKey) || '';
+            if (lastMarker === currentServiceDay) return;
+
+            const store = readMovementLogStore();
+            const rows = flattenMovementEntries(store);
+            if (rows.length === 0) {
+                localStorage.setItem(madridResetMarkerKey, currentServiceDay);
+                return;
+            }
+
+            const oldRows = rows.filter((row) => row.serviceDayKey !== currentServiceDay);
+            if (oldRows.length > 0) {
+                const nextStore = {};
+                rows.forEach((row) => {
+                    if (row.serviceDayKey !== currentServiceDay) return;
+                    if (!Array.isArray(nextStore[row.dateKey])) nextStore[row.dateKey] = [];
+                    nextStore[row.dateKey].push(row.entry);
+                });
+                archiveEntries(oldRows.map((row) => ({ ...row.entry, storageDayKey: row.dateKey, serviceDayKey: row.serviceDayKey })), 'auto_reset', 'all', lastMarker || currentServiceDay);
+                writeMovementLogStore(nextStore);
+                queueMovementLogReplace(nextStore, 'auto_reset');
+                void runRealtimeSyncCycle();
+            }
+
+            localStorage.setItem(madridResetMarkerKey, currentServiceDay);
+        }
+
+        function buildReport() {
+            const currentServiceDay = getMadridServiceDayKey();
+            const targetScope = getEffectiveReportScope();
+            const rows = flattenMovementEntries(readMovementLogStore());
+            const visibleEntries = rows
+                .filter((row) => row.serviceDayKey === currentServiceDay)
+                .map((row) => row.entry)
+                .filter((entry) => (targetScope === 'all' ? true : entry.establishment === targetScope));
 
             if (visibleEntries.length === 0) {
                 return '';
             }
 
             const lines = [];
-            visibleEntries.forEach((entry, index) => {
-                const time = entry.at ? new Date(entry.at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '--:--';
-                lines.push(
-                    `${index + 1}. [${time}] ${entry.user || '—'} retirou ${entry.qty ?? 1} x ${entry.wine || '—'} (${entry.pod || '—'}) · ${mapEstLabel(entry.establishment)}`
-                );
+            visibleEntries.forEach((entry) => {
+                const qtyNumber = Number(entry.qty);
+                const qtyLabel = Number.isFinite(qtyNumber) && qtyNumber > 0 ? `${qtyNumber}x` : '1x';
+                const wineName = (entry.wine || '').toString().trim() || '—';
+                const yearText = entry.year != null ? String(entry.year).trim() : '';
+                const sizeText = (entry.size || entry.format || '').toString().trim();
+                const details = [yearText, sizeText].filter(Boolean).join(' · ');
+                lines.push(details ? `${qtyLabel} ${wineName} · ${details}` : `${qtyLabel} ${wineName}`);
             });
             return lines.join('\n');
         }
 
         function renderReport() {
+            ensureDailyReset();
             textarea.value = buildReport();
+            updateScopeButtons();
         }
 
-        function applyRemoteState(state) {
-            if (!isPlainObject(state)) return;
-            if (isPlainObject(state.movementLog)) {
-                localStorage.setItem(movementLogKey, JSON.stringify(state.movementLog));
-                renderReport();
+        function mergeMovementStateWithPending(state, pendingMutations) {
+            const mergedStore = isPlainObject(state?.movementLog)
+                ? cloneMovementStore(state.movementLog)
+                : readMovementLogStore();
+            if (!Array.isArray(pendingMutations) || pendingMutations.length === 0) {
+                return mergedStore;
             }
+
+            pendingMutations.forEach((mutation) => {
+                if (!mutation || mutation.type !== 'replace_movement_log') return;
+                const replacement = mutation.payload?.movementLog;
+                if (isPlainObject(replacement)) {
+                    Object.keys(mergedStore).forEach((key) => delete mergedStore[key]);
+                    const cloned = cloneMovementStore(replacement);
+                    Object.keys(cloned).forEach((key) => {
+                        mergedStore[key] = cloned[key];
+                    });
+                }
+            });
+            return mergedStore;
+        }
+
+        function applyRemoteState(state, pendingMutations = []) {
+            if (!isPlainObject(state)) return;
+            const mergedStore = mergeMovementStateWithPending(state, pendingMutations);
+            writeMovementLogStore(mergedStore);
+            renderReport();
         }
 
         async function runRealtimeSyncCycle() {
@@ -818,7 +1175,9 @@
             if (syncDisabled) return;
             if (!navigator.onLine) return;
             syncInFlight = true;
+            let shouldRunAgain = false;
             try {
+                const pendingMutations = readAdminPendingMutations();
                 const knownRevision = Number(localStorage.getItem(SYNC_REVISION_KEY) || '0');
                 const response = await fetch(SYNC_ENDPOINT, {
                     method: 'POST',
@@ -827,7 +1186,7 @@
                     body: JSON.stringify({
                         clientId: syncClientId,
                         knownRevision,
-                        mutations: []
+                        mutations: pendingMutations
                     })
                 });
                 if (response.status === 404) {
@@ -838,18 +1197,43 @@
                 const payload = await response.json();
                 if (!payload || payload.ok !== true) return;
 
+                const acknowledgedIds = Array.isArray(payload.acknowledgedMutationIds)
+                    ? payload.acknowledgedMutationIds.filter((id) => typeof id === 'string' && id)
+                    : [];
+                let remainingQueue = pendingMutations;
+                if (acknowledgedIds.length > 0) {
+                    const currentQueue = readAdminPendingMutations();
+                    const ackSet = new Set(acknowledgedIds);
+                    remainingQueue = currentQueue.filter((mutation) => {
+                        const mutationId = typeof mutation?.id === 'string' ? mutation.id : '';
+                        return !ackSet.has(mutationId);
+                    });
+                    writeAdminPendingMutations(remainingQueue);
+                    shouldRunAgain = remainingQueue.length > 0;
+                }
+
                 const revisionValue = Number(payload.revision);
                 if (Number.isFinite(revisionValue) && revisionValue >= 0) {
                     localStorage.setItem(SYNC_REVISION_KEY, String(revisionValue));
                 }
 
-                if (isPlainObject(payload.state) && payload.hasUpdate) {
-                    applyRemoteState(payload.state);
+                if (isPlainObject(payload.state)) {
+                    const shouldApply = acknowledgedIds.length > 0
+                        || payload.hasUpdate === true
+                        || (Number.isFinite(revisionValue) && revisionValue > knownRevision);
+                    if (shouldApply) {
+                        applyRemoteState(payload.state, remainingQueue);
+                    }
                 }
             } catch {
                 return;
             } finally {
                 syncInFlight = false;
+                if (shouldRunAgain && !syncDisabled) {
+                    window.setTimeout(() => {
+                        void runRealtimeSyncCycle();
+                    }, 120);
+                }
             }
         }
 
@@ -861,6 +1245,122 @@
             syncTimer = window.setInterval(() => {
                 void runRealtimeSyncCycle();
             }, SYNC_INTERVAL_MS);
+        }
+
+        function entrySignature(entry) {
+            const at = entry?.at || '';
+            const pod = entry?.pod || '';
+            const est = entry?.establishment || '';
+            const qty = entry?.qty ?? '';
+            const wine = entry?.wine || '';
+            const year = entry?.year ?? '';
+            const size = entry?.size || entry?.format || '';
+            return `${at}|${pod}|${est}|${qty}|${wine}|${year}|${size}`;
+        }
+
+        function clearVisibleReport() {
+            ensureDailyReset();
+            const currentServiceDay = getMadridServiceDayKey();
+            const targetScope = getEffectiveReportScope();
+            const store = readMovementLogStore();
+            const rows = flattenMovementEntries(store);
+            const removedRows = rows.filter((row) => {
+                if (row.serviceDayKey !== currentServiceDay) return false;
+                if (targetScope === 'all') return true;
+                return row.entry.establishment === targetScope;
+            });
+
+            if (removedRows.length === 0) {
+                setReportStatus('No hay registros para limpiar.', 'error');
+                return;
+            }
+
+            const nextStore = {};
+            rows.forEach((row) => {
+                const shouldRemove = removedRows.includes(row);
+                if (shouldRemove) return;
+                if (!Array.isArray(nextStore[row.dateKey])) nextStore[row.dateKey] = [];
+                nextStore[row.dateKey].push(row.entry);
+            });
+
+            const archivedEntries = removedRows.map((row) => ({ ...row.entry, storageDayKey: row.dateKey, serviceDayKey: row.serviceDayKey }));
+            archiveEntries(archivedEntries, 'manual_clear', targetScope, currentServiceDay);
+            writeMovementLogStore(nextStore);
+            queueMovementLogReplace(nextStore, 'manual_clear');
+            setReportStatus(`Lista limpa (${removedRows.length}).`, 'success');
+            renderReport();
+            void runRealtimeSyncCycle();
+        }
+
+        function recoverLastSnapshot() {
+            if (role !== 'adminmaster') {
+                setReportStatus('Solo adminmaster puede recuperar.', 'error');
+                return;
+            }
+            const targetScope = getEffectiveReportScope();
+            const currentServiceDay = getMadridServiceDayKey();
+            const archive = readMovementArchive();
+            let snapshotIndex = -1;
+
+            for (let i = archive.length - 1; i >= 0; i--) {
+                const snapshot = archive[i];
+                if (!snapshot || !Array.isArray(snapshot.entries)) continue;
+                if (snapshot.serviceDayKey !== currentServiceDay) continue;
+                if (targetScope !== 'all' && snapshot.scope !== targetScope) continue;
+                snapshotIndex = i;
+                break;
+            }
+
+            if (snapshotIndex < 0) {
+                setReportStatus('No hay respaldo para recuperar.', 'error');
+                return;
+            }
+
+            const snapshot = archive[snapshotIndex];
+            const store = readMovementLogStore();
+            const existingRows = flattenMovementEntries(store);
+            const seen = new Set(existingRows.map((row) => entrySignature(row.entry)));
+            let restoredCount = 0;
+
+            snapshot.entries.forEach((rawEntry) => {
+                const restoredEntry = rawEntry && typeof rawEntry === 'object' ? { ...rawEntry } : null;
+                if (!restoredEntry) return;
+                if (targetScope !== 'all' && restoredEntry.establishment !== targetScope) return;
+                const signature = entrySignature(restoredEntry);
+                if (seen.has(signature)) return;
+                seen.add(signature);
+                const dateKey = getStorageDayKeyFromEntry(restoredEntry, getLocalDateKey());
+                restoredEntry.serviceDayKey = resolveEntryServiceDayKey(restoredEntry, dateKey);
+                restoredEntry.storageDayKey = dateKey;
+                if (!Array.isArray(store[dateKey])) store[dateKey] = [];
+                store[dateKey].push(restoredEntry);
+                restoredCount += 1;
+            });
+
+            if (restoredCount === 0) {
+                setReportStatus('Respaldo ya aplicado.', 'error');
+                return;
+            }
+
+            archive.splice(snapshotIndex, 1);
+            writeMovementArchive(archive);
+            writeMovementLogStore(store);
+            queueMovementLogReplace(store, 'manual_restore');
+            setReportStatus(`Recuperado (${restoredCount}).`, 'success');
+            renderReport();
+            void runRealtimeSyncCycle();
+        }
+
+        function applyReportRoleLayout() {
+            if (role === 'adminmaster') {
+                if (reportScopeRow) reportScopeRow.style.display = 'flex';
+                if (restoreReportBtn) restoreReportBtn.style.display = 'block';
+                return;
+            }
+
+            reportViewScope = scope;
+            if (reportScopeRow) reportScopeRow.style.display = 'none';
+            if (restoreReportBtn) restoreReportBtn.style.display = 'none';
         }
 
         function copyReport() {
@@ -879,6 +1379,24 @@
         }
 
         document.getElementById('copyBtn').addEventListener('click', copyReport);
+
+        if (clearReportBtn) {
+            clearReportBtn.addEventListener('click', clearVisibleReport);
+        }
+        if (restoreReportBtn) {
+            restoreReportBtn.addEventListener('click', recoverLastSnapshot);
+        }
+
+        scopeButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                if (role !== 'adminmaster') return;
+                const requestedScope = normalizeScope(button.dataset.scope || '');
+                if (!requestedScope) return;
+                reportViewScope = requestedScope;
+                setReportStatus('');
+                renderReport();
+            });
+        });
 
         document.getElementById('backBtn').addEventListener('click', () => {
             window.location.href = 'index.html';
@@ -988,6 +1506,7 @@
             }
         });
 
+        applyReportRoleLayout();
         renderReport();
         startRealtimeSync();
     </script>
