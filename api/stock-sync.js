@@ -1,7 +1,7 @@
 const STATE_KEY = 'cava:stock:sync:v1';
 const APPLIED_IDS_LIMIT = 5000;
 const MAX_MUTATIONS_PER_REQUEST = 500;
-const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+const EST_KEYS = ['spa', 'tasca_fina', 'victoria', 'galeria'];
 
 const {
   getSessionFromRequest,

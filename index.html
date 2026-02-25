@@ -1325,6 +1325,7 @@
             <button class="filter-pill" data-filter="spa">SPA</button>
             <button class="filter-pill" data-filter="tasca_fina">TASCA FINA</button>
             <button class="filter-pill" data-filter="victoria">VICTORIA</button>
+            <button class="filter-pill" data-filter="galeria">GALERIA</button>
             <button class="sort-toggle" id="sortToggle">ABC</button>
         </div>
 
@@ -1481,9 +1482,8 @@
         };
 
         // --- CONSTANTS ---
-        const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
-        // galeria exists in data but is NOT rendered (Phase 3)
-        const EST_LABELS = { spa: 'SPA', tasca_fina: 'TASCA FINA', victoria: 'VICTORIA' };
+        const EST_KEYS = ['spa', 'tasca_fina', 'victoria', 'galeria'];
+        const EST_LABELS = { spa: 'SPA', tasca_fina: 'TASCA FINA', victoria: 'VICTORIA', galeria: 'GALERIA' };
 
         const TIPO_MAP = {
             'TO':  { cls: 'b-tinto',    es: 'TINTO',    en: 'RED',       pt: 'TINTO' },
@@ -2053,7 +2053,7 @@
         function preProcess() {
             searchIndex = [];
             pvpMedio = {};
-            subsets = { todos: new Set(), spa: new Set(), tasca_fina: new Set(), victoria: new Set() };
+            subsets = { todos: new Set(), spa: new Set(), tasca_fina: new Set(), victoria: new Set(), galeria: new Set() };
 
             refs.forEach((ref, i) => {
                 // Build searchable string (nome, uva, região, tipo, etc.)

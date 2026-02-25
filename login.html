@@ -484,18 +484,6 @@
                 <label for="password" data-translate="passLabel">Senha</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <div class="establishment-picker">
-                <button type="button" id="establishmentToggle" class="establishment-toggle" aria-expanded="false" aria-controls="establishmentOptions">
-                    <span id="establishmentLabel" data-default-key="establishmentPlaceholder">Restaurante</span>
-                    <span class="establishment-arrow">▾</span>
-                </button>
-                <div id="establishmentOptions" class="establishment-options" hidden>
-                    <button type="button" class="establishment-option" data-value="spa">SPA</button>
-                    <button type="button" class="establishment-option" data-value="tasca_fina">TASCA FINA</button>
-                    <button type="button" class="establishment-option" data-value="victoria">VICTORIA</button>
-                </div>
-                <input type="hidden" id="establishmentValue" name="establishment">
-            </div>
             <div class="remember-access">
                 <label class="remember-label" for="rememberAccess">
                     <input type="checkbox" id="rememberAccess" name="rememberAccess">
@@ -737,11 +725,6 @@
         const usernameInput = document.getElementById('username');
         const passwordInput = document.getElementById('password');
         const rememberAccessInput = document.getElementById('rememberAccess');
-        const establishmentToggle = document.getElementById('establishmentToggle');
-        const establishmentOptions = document.getElementById('establishmentOptions');
-        const establishmentLabel = document.getElementById('establishmentLabel');
-        const establishmentValue = document.getElementById('establishmentValue');
-        const establishmentButtons = document.querySelectorAll('.establishment-option');
         const loginFeedback = document.getElementById('loginFeedback');
 
         const persistentAccessKey = 'cava_login_persistent_access';
@@ -755,7 +738,7 @@
         const sessionEstablishmentKey = 'cava_login_establishment';
         const sessionRoleKey = 'cava_login_role';
         const sessionScopeKey = 'cava_login_scope';
-        const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+        const EST_KEYS = ['spa', 'tasca_fina', 'victoria', 'galeria'];
         const AUTH_LOGIN_ENDPOINT = '/api/auth-login';
         const AUTH_SESSION_ENDPOINT = '/api/auth-session';
         const LOCAL_USER_REGISTRY_KEYS = ['cava_user_registry_local_v1', 'cava_user_registry_v1'];
@@ -914,13 +897,13 @@
             return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
         }
 
-        function applyServerUserSession(user, preferredEstablishment = null) {
+        function applyServerUserSession(user) {
             const username = String(user?.username || '').trim();
             const role = normalizeRole(user?.role) || 'user';
             const scope = normalizeScope(user?.scope) || 'spa';
             const establishment = scope === 'all'
-                ? 'spa'
-                : (EST_KEYS.includes(scope) ? scope : (normalizeEstablishment(preferredEstablishment) || 'spa'));
+                ? 'todos'
+                : (EST_KEYS.includes(scope) ? scope : 'spa');
 
             sessionStorage.setItem(sessionAuthFlagKey, 'ok');
             sessionStorage.setItem(sessionUserKey, username);
@@ -1084,39 +1067,12 @@
 
         rememberAccessInput.checked = localStorage.getItem(persistentAccessKey) === '1';
 
-        function toggleEstablishments(forceOpen) {
-            const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : establishmentOptions.hidden;
-            establishmentOptions.hidden = !shouldOpen;
-            establishmentToggle.classList.toggle('active', shouldOpen);
-            establishmentToggle.setAttribute('aria-expanded', String(shouldOpen));
-        }
-
-        establishmentToggle.addEventListener('click', () => {
-            toggleEstablishments();
-        });
-
-        establishmentButtons.forEach((button) => {
-            button.addEventListener('click', () => {
-                const selectedValue = button.dataset.value;
-                const selectedLabel = button.textContent.trim();
-                establishmentValue.value = selectedValue;
-                establishmentLabel.textContent = selectedLabel;
-                toggleEstablishments(false);
-            });
-        });
-
-        document.addEventListener('click', (event) => {
-            if (!establishmentToggle.contains(event.target) && !establishmentOptions.contains(event.target)) {
-                toggleEstablishments(false);
-            }
-        });
 
         loginForm.addEventListener('submit', async (event) => {
             event.preventDefault();
 
             const username = usernameInput.value.trim();
             const password = passwordInput.value;
-            const establishment = normalizeEstablishment(establishmentValue.value.trim());
 
             if (!username || !password) {
                 setFeedback(translations[currentLang].feedbackMissingCredentials, 'error');
@@ -1144,7 +1100,7 @@
 
                 if (response.ok && payload?.ok && payload?.user) {
                     setRememberAccessPreference(rememberAccessInput.checked);
-                    applyServerUserSession(payload.user, establishment);
+                    applyServerUserSession(payload.user);
                     await cacheUserInLocalRegistry(payload.user, password);
                     setFeedback(translations[currentLang].feedbackSuccess, 'success');
                     setTimeout(() => {
@@ -1161,7 +1117,7 @@
                     || !isJson;
 
                 if (shouldTryLocalFallback) {
-                    const localUser = await tryLocalLogin(username, password, establishment);
+                    const localUser = await tryLocalLogin(username, password);
                     if (localUser) {
                         setRememberAccessPreference(rememberAccessInput.checked);
                         applyLocalUserSession(localUser);
@@ -1175,7 +1131,7 @@
 
                 setFeedback(resolveLoginErrorMessage(payload?.error), 'error');
             } catch {
-                const localUser = await tryLocalLogin(username, password, establishment);
+                const localUser = await tryLocalLogin(username, password);
                 if (localUser) {
                     setRememberAccessPreference(rememberAccessInput.checked);
                     applyLocalUserSession(localUser);

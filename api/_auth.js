@@ -49,7 +49,7 @@ function normalizeRole(value) {
 
 function normalizeScope(value) {
   const normalized = String(value || '').trim().toLowerCase();
-  return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
+  return ['spa', 'tasca_fina', 'victoria', 'galeria', 'all'].includes(normalized) ? normalized : null;
 }
 
 function getPasswordPepper() {
