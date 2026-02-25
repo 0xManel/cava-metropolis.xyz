@@ -1,10 +1,10 @@
 {
-  "version": "2026-02-23-STOCK-CAVA-FINAL",
-  "build_time": "2026-02-23T23:00:00Z",
+  "version": "2026-02-25-STOCK-CAVA-SW-FIX-V3",
+  "build_time": "2026-02-25T12:00:00Z",
   "features": {
     "stock_cava_logo": true,
     "pwa_icons": true,
-    "service_worker": "stock-cava-2026-02-23-final",
+    "service_worker": "stock-cava-2026-02-25-b986f476-v3",
     "manifest_updated": true
   },
   "files": {

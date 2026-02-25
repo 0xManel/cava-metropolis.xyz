@@ -1159,6 +1159,35 @@
                 window.location.href = 'index.html';
             }
         })();
+
+        const SW_BUILD_ID = '2026-02-25-b986f476-v3';
+        if ('serviceWorker' in navigator) {
+            let swRefreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (swRefreshing) return;
+                swRefreshing = true;
+                window.location.reload();
+            });
+
+            navigator.serviceWorker
+                .register(`/sw.js?build=${encodeURIComponent(SW_BUILD_ID)}`, { updateViaCache: 'none' })
+                .then((registration) => {
+                    if (registration.waiting) {
+                        registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+                    }
+                    registration.addEventListener('updatefound', () => {
+                        const newWorker = registration.installing;
+                        if (!newWorker) return;
+                        newWorker.addEventListener('statechange', () => {
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                newWorker.postMessage({ type: 'SKIP_WAITING' });
+                            }
+                        });
+                    });
+                    registration.update().catch(() => {});
+                })
+                .catch(() => {});
+        }
     </script>
 </body>
 </html>

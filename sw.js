@@ -1,4 +1,5 @@
-const CACHE = 'stock-cava-2026-02-25-security-v2';
+const SW_BUILD = '2026-02-25-b986f476-v3';
+const CACHE = `stock-cava-${SW_BUILD}`;
 const ASSETS = ['/', '/index.html', '/login.html', '/admin.html', '/manifest.json'];
 
 self.addEventListener('install', e => {
@@ -7,7 +8,18 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))));
+  e.waitUntil(
+    caches
+      .keys()
+      .then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('message', e => {
+  if (e?.data?.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('fetch', e => {
@@ -16,16 +28,30 @@ self.addEventListener('fetch', e => {
   }
 
   const url = new URL(e.request.url);
+  if (url.origin !== self.location.origin) {
+    return;
+  }
+
+  const isNavigation = e.request.mode === 'navigate';
   if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/data/')) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }
 
   e.respondWith(
-    fetch(e.request).then(r => {
-      const clone = r.clone();
-      caches.open(CACHE).then(c => c.put(e.request, clone));
-      return r;
-    }).catch(() => caches.match(e.request))
+    fetch(e.request, isNavigation ? { cache: 'no-store' } : undefined)
+      .then(r => {
+        const clone = r.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+        return r;
+      })
+      .catch(async () => {
+        const cached = await caches.match(e.request);
+        if (cached) return cached;
+        if (isNavigation) {
+          return (await caches.match('/login.html')) || (await caches.match('/index.html')) || Response.error();
+        }
+        return Response.error();
+      })
   );
 });
