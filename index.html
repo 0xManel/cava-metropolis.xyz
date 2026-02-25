@@ -1322,6 +1322,7 @@
         <!-- Filter Pills + Sort Toggle -->
         <div class="filter-bar">
             <button class="filter-pill active" data-filter="todos">TODOS</button>
+            <button class="filter-pill" data-filter="bodega">BODEGA</button>
             <button class="filter-pill" data-filter="spa">SPA</button>
             <button class="filter-pill" data-filter="tasca_fina">TASCA FINA</button>
             <button class="filter-pill" data-filter="victoria">VICTORIA</button>
@@ -1482,8 +1483,8 @@
         };
 
         // --- CONSTANTS ---
-        const EST_KEYS = ['spa', 'tasca_fina', 'victoria', 'galeria'];
-        const EST_LABELS = { spa: 'SPA', tasca_fina: 'TASCA FINA', victoria: 'VICTORIA', galeria: 'GALERIA' };
+        const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
+        const EST_LABELS = { bodega: 'BODEGA', spa: 'SPA', tasca_fina: 'TASCA FINA', victoria: 'VICTORIA', galeria: 'GALERIA' };
 
         const TIPO_MAP = {
             'TO':  { cls: 'b-tinto',    es: 'TINTO',    en: 'RED',       pt: 'TINTO' },
@@ -2053,7 +2054,7 @@
         function preProcess() {
             searchIndex = [];
             pvpMedio = {};
-            subsets = { todos: new Set(), spa: new Set(), tasca_fina: new Set(), victoria: new Set(), galeria: new Set() };
+            subsets = { todos: new Set(), bodega: new Set(), spa: new Set(), tasca_fina: new Set(), victoria: new Set(), galeria: new Set() };
 
             refs.forEach((ref, i) => {
                 // Build searchable string (nome, uva, região, tipo, etc.)
@@ -2173,7 +2174,7 @@
                             </div>
                         </div>
                         <div class="item-right">
-                            <div class="item-price">${fmtPrice(price)}</div>
+                            <div class="item-price">${currentFilter === 'todos' ? 'APROX. ' : ''}${fmtPrice(price)}</div>
                             ${loc ? `<div class="item-location">${loc}</div>` : ''}
                         </div>
                     `;

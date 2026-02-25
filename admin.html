@@ -666,6 +666,7 @@
                         <option value="adminmaster">adminmaster</option>
                     </select>
                     <select id="umScope" class="um-field">
+                        <option value="bodega">bodega</option>
                         <option value="spa">spa</option>
                         <option value="tasca_fina">tasca_fina</option>
                         <option value="victoria">victoria</option>
@@ -691,7 +692,7 @@
         };
         const normalizeScope = (value) => {
             const normalized = (value || '').trim().toLowerCase();
-            return ['spa', 'tasca_fina', 'victoria', 'galeria', 'all'].includes(normalized) ? normalized : null;
+            return ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria', 'all'].includes(normalized) ? normalized : null;
         };
         const normalizeUsername = (value) => (value || '').trim().toLowerCase();
         const currentUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
