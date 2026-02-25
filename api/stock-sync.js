@@ -5,6 +5,7 @@ const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
 
 const {
   getSessionFromRequest,
+  isAdminRole,
   isAdminMasterRole,
   normalizeScope,
   isPlainObject,
@@ -17,6 +18,16 @@ const fallbackState = {
   edits: [],
   movementLog: {},
   appliedMutationIds: []
+};
+
+const SPA_RESET_MARKER = 'migration:spa-only-les-terrases-2026-02-25';
+const SPA_RESET_TARGET = {
+  pod: 'POD012960',
+  wine: 'Les Terrases 22-',
+  year: 2022,
+  size: 'Botella (75cl)',
+  qty: 4,
+  source: 'cava'
 };
 
 if (!globalThis.__cavaSyncMemoryState) {
@@ -106,6 +117,87 @@ async function saveState(state) {
   globalThis.__cavaSyncMemoryState = sanitized;
   await runKvCommand(['SET', STATE_KEY, JSON.stringify(sanitized)]);
   return sanitized;
+}
+
+function getMadridServiceDayKey(dateInput = new Date()) {
+  const date = new Date(dateInput);
+  const formatter = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Madrid',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    hour12: false
+  });
+  const parts = formatter.formatToParts(date);
+  const read = (type) => Number(parts.find((part) => part.type === type)?.value || '0');
+  const year = read('year');
+  const month = read('month');
+  const day = read('day');
+  const hour = read('hour');
+  const baseUtc = new Date(Date.UTC(year, month - 1, day));
+  if (hour < 6) baseUtc.setUTCDate(baseUtc.getUTCDate() - 1);
+  return `${baseUtc.getUTCFullYear()}-${String(baseUtc.getUTCMonth() + 1).padStart(2, '0')}-${String(baseUtc.getUTCDate()).padStart(2, '0')}`;
+}
+
+function resolveEntryServiceDayKey(entry, fallbackDateKey = '') {
+  if (isPlainObject(entry) && typeof entry.serviceDayKey === 'string' && entry.serviceDayKey.trim()) {
+    return entry.serviceDayKey.trim();
+  }
+  if (isPlainObject(entry) && entry.at) {
+    return getMadridServiceDayKey(entry.at);
+  }
+  if (typeof fallbackDateKey === 'string' && fallbackDateKey.trim()) {
+    return fallbackDateKey.trim();
+  }
+  return getMadridServiceDayKey();
+}
+
+function applyOneOffSpaReset(state) {
+  if (!isPlainObject(state)) return false;
+  const existingIds = Array.isArray(state.appliedMutationIds) ? state.appliedMutationIds : [];
+  if (existingIds.includes(SPA_RESET_MARKER)) return false;
+
+  const currentServiceDay = getMadridServiceDayKey();
+  const nextStore = sanitizeMovementLog(state.movementLog);
+  Object.keys(nextStore).forEach((dateKey) => {
+    const list = Array.isArray(nextStore[dateKey]) ? nextStore[dateKey] : [];
+    const filtered = list.filter((entry) => {
+      if (!isPlainObject(entry)) return false;
+      if (String(entry.establishment || '') !== 'spa') return true;
+      const serviceDay = resolveEntryServiceDayKey(entry, dateKey);
+      return serviceDay !== currentServiceDay;
+    });
+    if (filtered.length > 0) nextStore[dateKey] = filtered;
+    else delete nextStore[dateKey];
+  });
+
+  const nowIso = new Date().toISOString();
+  const storageDayKey = nowIso.slice(0, 10);
+  if (!Array.isArray(nextStore[storageDayKey])) nextStore[storageDayKey] = [];
+  nextStore[storageDayKey].push({
+    at: nowIso,
+    user: 'system',
+    role: 'adminmaster',
+    scope: 'spa',
+    source: SPA_RESET_TARGET.source,
+    establishment: 'spa',
+    pod: SPA_RESET_TARGET.pod,
+    wine: SPA_RESET_TARGET.wine,
+    year: SPA_RESET_TARGET.year,
+    size: SPA_RESET_TARGET.size,
+    qty: SPA_RESET_TARGET.qty,
+    before: null,
+    after: null,
+    storageDayKey,
+    serviceDayKey: currentServiceDay
+  });
+
+  const markerSet = new Set(existingIds);
+  markerSet.add(SPA_RESET_MARKER);
+  state.appliedMutationIds = Array.from(markerSet).slice(-APPLIED_IDS_LIMIT);
+  state.movementLog = nextStore;
+  return true;
 }
 
 function canMutateEstablishment(user, establishment) {
@@ -283,11 +375,12 @@ module.exports = async (req, res) => {
     ? incoming.mutations.slice(0, MAX_MUTATIONS_PER_REQUEST)
     : [];
   const state = await loadState();
+  const migrationApplied = applyOneOffSpaReset(state);
 
   const appliedIds = new Set(state.appliedMutationIds);
   const acknowledgedMutationIds = [];
   const rejectedMutationIds = [];
-  let changed = false;
+  let changed = migrationApplied;
 
   incomingMutations.forEach((mutation) => {
     if (!isPlainObject(mutation) || typeof mutation.type !== 'string') return;
