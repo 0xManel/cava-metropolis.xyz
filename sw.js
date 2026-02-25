@@ -1,4 +1,4 @@
-const CACHE = 'stock-cava-2026-02-25-tinta-de-toro-fixed';
+const CACHE = 'stock-cava-2026-02-25-todos-subset-fix';
 const ASSETS = ['/', '/index.html', '/data/bodega_webapp.json'];
 
 self.addEventListener('install', e => {
