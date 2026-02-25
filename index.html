@@ -611,19 +611,47 @@
         }
 
         /* --- THEME TOGGLE --- */
-        .theme-toggle {
+        .top-actions {
             position: fixed;
-            top: 20px; right: 20px;
-            width: 80px; height: 40px;
-            border-radius: 20px;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: flex-end;
+        }
+
+        @keyframes dropToPlace {
+            0% { transform: translateY(-26px) scale(0.96); }
+            60% { transform: translateY(2px) scale(1.005); }
+            100% { transform: translateY(0) scale(1); }
+        }
+
+        @keyframes slideFromRight {
+            0% { transform: translateX(28px) scale(0.97); }
+            70% { transform: translateX(-1px) scale(1.002); }
+            100% { transform: translateX(0) scale(1); }
+        }
+
+        @keyframes riseFromBottom {
+            0% { transform: translateY(18px) scale(0.965); }
+            65% { transform: translateY(-1px) scale(1.002); }
+            100% { transform: translateY(0) scale(1); }
+        }
+
+        .theme-toggle {
+            width: 60px; height: 30px;
+            border-radius: 15px;
             background: transparent;
             border: 1px solid var(--glass-border);
             cursor: pointer;
-            z-index: 100;
+            z-index: 1;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             overflow: hidden;
             padding: 0;
             transition: all 0.3s ease;
+            animation: dropToPlace 730ms cubic-bezier(0.22, 0.78, 0.28, 1) both;
         }
 
         .theme-toggle:hover {
@@ -635,20 +663,74 @@
 
         /* --- LANGUAGE SELECTOR --- */
         .lang-container {
-            position: fixed;
-            top: 20px; left: 20px;
-            z-index: 99;
+            position: relative;
+            z-index: 2;
             font-family: 'Montserrat', sans-serif;
+            animation: slideFromRight 700ms cubic-bezier(0.22, 0.78, 0.28, 1) 125ms both;
+        }
+
+        .app-signature {
+            position: fixed;
+            left: 50%;
+            bottom: max(10px, env(safe-area-inset-bottom));
+            transform: translateX(-50%);
+            z-index: 1;
+            pointer-events: none;
+            user-select: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: clamp(0.62rem, 1.6vw, 0.78rem);
+            letter-spacing: 0.16em;
+            color: var(--text-muted);
+            opacity: 0.24;
+            text-transform: lowercase;
+            white-space: nowrap;
+            text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
+        }
+        .logout-btn,
+        .admin-btn {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            width: 60px;
+            height: 30px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 0.62rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            padding: 0;
+            backdrop-filter: blur(10px);
+            transition: all 0.28s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .admin-btn {
+            animation: riseFromBottom 700ms cubic-bezier(0.22, 0.78, 0.28, 1) 190ms both;
+        }
+        .logout-btn {
+            animation: riseFromBottom 700ms cubic-bezier(0.22, 0.78, 0.28, 1) 250ms both;
+        }
+        .logout-btn:hover,
+        .admin-btn:hover {
+            border-color: var(--gold-accent);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
         }
 
         .lang-btn {
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             color: var(--text-main);
-            width: 80px; height: 40px;
-            border-radius: 20px;
+            width: 60px; height: 30px;
+            border-radius: 15px;
             cursor: pointer;
-            font-size: 0.75rem;
+            font-size: 0.68rem;
             font-weight: 600;
             backdrop-filter: blur(10px);
             display: flex; align-items: center; justify-content: center; gap: 4px;
@@ -662,7 +744,7 @@
 
         .lang-dropdown {
             position: absolute;
-            top: 120%; left: 0;
+            top: 120%; right: 0;
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             border-radius: 15px;
@@ -771,6 +853,63 @@
             font-family: 'Montserrat', sans-serif;
         }
 
+        .modal-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.7rem;
+            margin-top: 0.35rem;
+        }
+
+        .consume-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+        }
+
+        .consume-qty {
+            height: 36px;
+            min-width: 62px;
+            border-radius: 10px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-align: center;
+            padding: 0 8px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .btn-consume {
+            width: 44px;
+            height: 36px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 84, 84, 0.45);
+            background: rgba(168, 19, 19, 0.22);
+            color: #ff5d5d;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 700;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 14px rgba(120, 10, 10, 0.28);
+        }
+
+        .btn-consume:hover {
+            background: rgba(186, 27, 27, 0.36);
+            border-color: rgba(255, 111, 111, 0.55);
+            box-shadow: 0 6px 18px rgba(120, 10, 10, 0.38);
+        }
+
+        .consume-feedback {
+            margin-top: 0.5rem;
+            min-height: 1.1rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
         @media (max-width: 600px) {
             .title-cava { gap: 1vw; margin-bottom: -0.3rem; }
             .stock-text { font-size: 7.5vw; letter-spacing: 0.05em; }
@@ -780,7 +919,7 @@
             .modal-title { font-size: 1.5rem; }
             #searchInput { font-size: 1rem; padding: 1rem 1rem 1rem 2rem; }
             body { padding-top: 18dvh; }
-            .lang-container { top: 15px; left: 15px; }
+            .top-actions { top: 15px; right: 15px; gap: 7px; }
         }
 
         body.keyboard-open { padding-top: 2dvh; }
@@ -789,21 +928,159 @@
 </head>
 <body>
 
+    <script>
+        (() => {
+            try {
+                const userRegistryKey = 'cava_user_registry_v1';
+                const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+                const normalizeUsername = (value) => (value || '').trim().toLowerCase();
+                const normalizeEstablishment = (value) => {
+                    const normalized = (value || '').trim().toLowerCase();
+                    return EST_KEYS.includes(normalized) ? normalized : null;
+                };
+                const normalizeScope = (value) => {
+                    const normalized = (value || '').trim().toLowerCase();
+                    return EST_KEYS.includes(normalized) || normalized === 'all' ? normalized : null;
+                };
+                const normalizeRole = (value) => {
+                    const normalized = (value || '').trim().toLowerCase();
+                    return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+                };
+                const inferProfile = (username, establishment) => {
+                    const normalized = normalizeUsername(username);
+                    if (normalized === '0xmanel') {
+                        return { role: 'adminmaster', scope: 'all' };
+                    }
+
+                    try {
+                        const raw = localStorage.getItem(userRegistryKey);
+                        const parsed = raw ? JSON.parse(raw) : [];
+                        if (Array.isArray(parsed)) {
+                            const match = parsed.find((user) => normalizeUsername(user.username) === normalized);
+                            if (match) {
+                                const matchRole = normalizeRole(match.role) || 'user';
+                                const safeRole = matchRole === 'adminmaster' ? 'admin' : matchRole;
+                                const matchScope = normalizeScope(match.scope) || normalizeEstablishment(establishment) || 'spa';
+                                return {
+                                    role: safeRole,
+                                    scope: matchScope === 'all' ? (normalizeEstablishment(establishment) || 'spa') : matchScope
+                                };
+                            }
+                        }
+                    } catch {
+                        // ignore parse failures and fallback to user
+                    }
+
+                    return {
+                        role: 'user',
+                        scope: normalizeEstablishment(establishment) || 'spa'
+                    };
+                };
+
+                const sessionFlag = sessionStorage.getItem('cava_login_demo') === 'ok';
+                const persistentFlag = localStorage.getItem('cava_login_persistent_access') === '1';
+
+                if (!sessionFlag && !persistentFlag) {
+                    window.location.replace('login.html');
+                    return;
+                }
+
+                if (!sessionFlag && persistentFlag) {
+                    const persistentUser = localStorage.getItem('cava_login_persistent_user') || '';
+                    const persistentIsOwner = normalizeUsername(persistentUser) === '0xmanel';
+                    const persistentEstablishment = normalizeEstablishment(localStorage.getItem('cava_login_persistent_establishment')) || 'spa';
+                    const inferred = inferProfile(persistentUser, persistentEstablishment);
+                    const persistentRoleRaw = normalizeRole(localStorage.getItem('cava_login_persistent_role'));
+                    const persistentScopeRaw = normalizeScope(localStorage.getItem('cava_login_persistent_scope'));
+                    const normalizedPersistentRole = persistentRoleRaw === 'adminmaster' && !persistentIsOwner
+                        ? 'admin'
+                        : persistentRoleRaw;
+                    const normalizedPersistentScope = persistentScopeRaw === 'all' && !persistentIsOwner
+                        ? persistentEstablishment
+                        : persistentScopeRaw;
+                    const persistentRole = persistentIsOwner ? 'adminmaster' : (normalizedPersistentRole || inferred.role);
+                    const persistentScope = persistentIsOwner ? 'all' : (normalizedPersistentScope || inferred.scope);
+                    const establishmentToUse = persistentIsOwner
+                        ? 'spa'
+                        : (EST_KEYS.includes(persistentScope) ? persistentScope : persistentEstablishment);
+
+                    if (!persistentRoleRaw || persistentIsOwner) {
+                        localStorage.setItem('cava_login_persistent_role', persistentRole);
+                    }
+
+                    if (!persistentScopeRaw || persistentIsOwner) {
+                        localStorage.setItem('cava_login_persistent_scope', persistentScope);
+                    }
+
+                    if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
+                        localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
+                    }
+
+                    sessionStorage.setItem('cava_login_demo', 'ok');
+                    sessionStorage.setItem('cava_login_user', persistentUser);
+                    sessionStorage.setItem('cava_login_establishment', establishmentToUse);
+                    sessionStorage.setItem('cava_login_role', persistentRole);
+                    sessionStorage.setItem('cava_login_scope', persistentScope);
+                }
+
+                const sessionUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
+                const isOwner = normalizeUsername(sessionUser) === '0xmanel';
+                const sessionEstablishment = normalizeEstablishment(
+                    sessionStorage.getItem('cava_login_establishment') || localStorage.getItem('cava_login_persistent_establishment')
+                ) || 'spa';
+                const sessionRole = normalizeRole(sessionStorage.getItem('cava_login_role'));
+                const sessionScope = normalizeScope(sessionStorage.getItem('cava_login_scope'));
+                const needsNonOwnerNormalization = !isOwner && (sessionRole === 'adminmaster' || sessionScope === 'all');
+
+                if (isOwner || !sessionRole || !sessionScope || needsNonOwnerNormalization) {
+                    const inferred = inferProfile(sessionUser, sessionEstablishment);
+                    const safeSessionRole = needsNonOwnerNormalization && sessionRole === 'adminmaster' ? 'admin' : sessionRole;
+                    const safeSessionScope = needsNonOwnerNormalization && sessionScope === 'all' ? sessionEstablishment : sessionScope;
+                    const roleToUse = isOwner ? 'adminmaster' : (safeSessionRole || inferred.role);
+                    const scopeToUse = isOwner ? 'all' : (safeSessionScope || inferred.scope);
+                    const establishmentToUse = isOwner ? 'spa' : (EST_KEYS.includes(scopeToUse) ? scopeToUse : sessionEstablishment);
+                    sessionStorage.setItem('cava_login_role', roleToUse);
+                    sessionStorage.setItem('cava_login_scope', scopeToUse);
+                    sessionStorage.setItem('cava_login_establishment', establishmentToUse);
+
+                    if (persistentFlag) {
+                        if (!normalizeRole(localStorage.getItem('cava_login_persistent_role'))) {
+                            localStorage.setItem('cava_login_persistent_role', roleToUse);
+                        }
+                        if (!normalizeScope(localStorage.getItem('cava_login_persistent_scope'))) {
+                            localStorage.setItem('cava_login_persistent_scope', scopeToUse);
+                        }
+                        if (localStorage.getItem('cava_login_persistent_establishment') !== establishmentToUse) {
+                            localStorage.setItem('cava_login_persistent_establishment', establishmentToUse);
+                        }
+                    }
+                }
+            } catch {
+                window.location.replace('login.html');
+            }
+        })();
+    </script>
+
     <canvas id="particleCanvas"></canvas>
 
-    <!-- Theme Toggle -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
-        <canvas id="toggleCanvas"></canvas>
-    </button>
+    <div class="app-signature" aria-hidden="true">stockcava@2026</div>
 
-    <!-- Language Selector -->
-    <div class="lang-container">
-        <button class="lang-btn" id="currentLangBtn">ES</button>
-        <div class="lang-dropdown">
-            <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
-            <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
-            <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
+    <div class="top-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+            <canvas id="toggleCanvas"></canvas>
+        </button>
+
+        <div class="lang-container">
+            <button class="lang-btn" id="currentLangBtn">ES</button>
+            <div class="lang-dropdown">
+                <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
+                <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
+                <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
+            </div>
         </div>
+
+        <button class="admin-btn" id="adminBtn" data-translate="admin">Admin</button>
+        <button class="logout-btn" id="logoutBtn" data-translate="logout">Salir</button>
     </div>
 
     <header>
@@ -909,10 +1186,22 @@
                 </tbody>
             </table>
 
-            <!-- Edit button -->
-            <div style="display:flex;justify-content:flex-end;">
+            <div class="modal-actions">
+                <div class="consume-actions">
+                    <button class="btn-consume" id="btnConsume" aria-label="Registrar salida">➜</button>
+                    <select class="consume-qty" id="consumeQty" aria-label="Cantidad">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
                 <button class="btn-edit" id="btnEditWine">Editar</button>
             </div>
+
+            <div class="consume-feedback" id="consumeFeedback"></div>
 
             <!-- Edit form -->
             <div class="edit-form" id="editForm">
@@ -955,6 +1244,19 @@
         /* ==========================================================
            CAVA METROPOLIS — Multi-Establishment Wine Management
            ========================================================== */
+
+        const AUTH_KEYS = {
+            sessionFlag: 'cava_login_demo',
+            sessionUser: 'cava_login_user',
+            sessionEstablishment: 'cava_login_establishment',
+            sessionRole: 'cava_login_role',
+            sessionScope: 'cava_login_scope',
+            persistentFlag: 'cava_login_persistent_access',
+            persistentUser: 'cava_login_persistent_user',
+            persistentEstablishment: 'cava_login_persistent_establishment',
+            persistentRole: 'cava_login_persistent_role',
+            persistentScope: 'cava_login_persistent_scope'
+        };
 
         // --- CONSTANTS ---
         const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
@@ -1006,6 +1308,46 @@
         let currentSort = 'abc';
         let currentEditPod = null;
         let currentLang = 'es';
+        const currentUserName = sessionStorage.getItem(AUTH_KEYS.sessionUser) || localStorage.getItem(AUTH_KEYS.persistentUser) || 'unknown';
+        const currentUserNormalized = (currentUserName || '').trim().toLowerCase();
+        const normalizeEstablishment = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return EST_KEYS.includes(normalized) ? normalized : null;
+        };
+        const normalizeScope = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return EST_KEYS.includes(normalized) || normalized === 'all' ? normalized : null;
+        };
+        const normalizeRole = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+        };
+        const storedRole = normalizeRole(sessionStorage.getItem(AUTH_KEYS.sessionRole))
+            || normalizeRole(localStorage.getItem(AUTH_KEYS.persistentRole));
+        const storedScope = normalizeScope(sessionStorage.getItem(AUTH_KEYS.sessionScope))
+            || normalizeScope(localStorage.getItem(AUTH_KEYS.persistentScope));
+        const baseEstablishment = normalizeEstablishment(sessionStorage.getItem(AUTH_KEYS.sessionEstablishment))
+            || normalizeEstablishment(localStorage.getItem(AUTH_KEYS.persistentEstablishment))
+            || 'spa';
+        const isOwnerUser = currentUserNormalized === '0xmanel';
+        const currentUserRole = isOwnerUser
+            ? 'adminmaster'
+            : ((storedRole === 'adminmaster' ? 'admin' : storedRole) || 'user');
+        const currentUserScope = isOwnerUser
+            ? 'all'
+            : ((storedScope === 'all' ? baseEstablishment : storedScope) || baseEstablishment);
+        const currentUserEstablishment = isOwnerUser
+            ? 'spa'
+            : (baseEstablishment || (EST_KEYS.includes(currentUserScope) ? currentUserScope : 'spa'));
+
+        function hasAdminAccess() {
+            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            return currentUserRole === 'admin' || currentUserRole === 'adminmaster' || isLocal;
+        }
+
+        function hasEditAccess() {
+            return hasAdminAccess();
+        }
 
         // Typewriter state
         let typeWriterTimeout, charIndex = 0, isDeleting = false, currentPhrase = '', phraseQueue = [];
@@ -1022,7 +1364,7 @@
                     "Quizás un vino francés"
                 ],
                 refs: "referencias disponibles", region: "Región", country: "País",
-                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", btnLabel: "🇪🇸 ES"
+                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", logout: "Salir", admin: "Admin", consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
@@ -1034,7 +1376,7 @@
                     "Maybe a French wine"
                 ],
                 refs: "references available", region: "Region", country: "Country",
-                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", btnLabel: "🇬🇧 EN"
+                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", logout: "Sign out", admin: "Admin", consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
@@ -1046,7 +1388,7 @@
                     "Talvez um vinho francês"
                 ],
                 refs: "referências disponíveis", region: "Região", country: "País",
-                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", btnLabel: "🇧🇷 PT"
+                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", logout: "Sair", admin: "Admin", consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", btnLabel: "🇧🇷 PT"
             }
         };
 
@@ -1137,7 +1479,7 @@
         function preProcess() {
             searchIndex = [];
             pvpMedio = {};
-            subsets = { spa: new Set(), tasca_fina: new Set(), victoria: new Set() };
+            subsets = { todos: new Set(), spa: new Set(), tasca_fina: new Set(), victoria: new Set() };
 
             refs.forEach((ref, i) => {
                 // Build searchable string
@@ -1148,6 +1490,7 @@
                 ].filter(Boolean).join(' ');
 
                 searchIndex.push({ idx: i, str: removeAccents(parts.toLowerCase()) });
+                subsets.todos.add(i);
 
                 // Compute average PVP across visible establishments
                 let prices = [];
@@ -1379,6 +1722,92 @@
 
         // --- MODAL ---
         const wineModal = document.getElementById('wineModal');
+        const editButton = document.getElementById('btnEditWine');
+        const adminButton = document.getElementById('adminBtn');
+        const consumeButton = document.getElementById('btnConsume');
+        const consumeQtySelect = document.getElementById('consumeQty');
+        const consumeFeedback = document.getElementById('consumeFeedback');
+
+        if (adminButton) {
+            adminButton.style.display = hasAdminAccess() ? 'inline-flex' : 'none';
+            adminButton.addEventListener('click', () => {
+                window.location.href = 'admin.html';
+            });
+        }
+
+        const movementLogKey = 'cava_daily_movements_v1';
+
+        function setConsumeFeedback(message) {
+            if (!consumeFeedback) return;
+            consumeFeedback.textContent = message || '';
+        }
+
+        function resolveMovementEstablishment() {
+            if (EST_KEYS.includes(currentUserScope)) return currentUserScope;
+            if (currentFilter !== 'todos') return currentFilter;
+            if (EST_KEYS.includes(currentUserEstablishment)) return currentUserEstablishment;
+            return null;
+        }
+
+        function appendMovementLog(entry) {
+            try {
+                const today = new Date().toISOString().slice(0, 10);
+                const raw = localStorage.getItem(movementLogKey);
+                const parsed = raw ? JSON.parse(raw) : {};
+                if (!Array.isArray(parsed[today])) parsed[today] = [];
+                parsed[today].push(entry);
+                localStorage.setItem(movementLogKey, JSON.stringify(parsed));
+            } catch {
+                return;
+            }
+        }
+
+        if (consumeButton) {
+            consumeButton.addEventListener('click', () => {
+                if (!currentEditPod) return;
+                const ref = refs.find(r => r.pod === currentEditPod);
+                if (!ref) return;
+
+                const estKey = resolveMovementEstablishment();
+                if (!estKey) {
+                    setConsumeFeedback(translations[currentLang].consumeNeedFilter || 'Selecione uma planta para registrar retirada.');
+                    return;
+                }
+
+                if (!ref.establecimientos) ref.establecimientos = {};
+                if (!ref.establecimientos[estKey]) ref.establecimientos[estKey] = { pvp: null, unidades: null, localizacion: null };
+
+                const quantity = Number(consumeQtySelect?.value || '1');
+                const est = ref.establecimientos[estKey];
+                const before = typeof est.unidades === 'number' ? est.unidades : null;
+
+                if (typeof est.unidades === 'number') {
+                    const nextValue = Math.max(est.unidades - quantity, 0);
+                    est.unidades = nextValue;
+                    saveEdit(currentEditPod, `establecimientos.${estKey}.unidades`, nextValue);
+                    setConsumeFeedback(translations[currentLang].consumeDone || 'Retirada registrada.');
+                } else {
+                    setConsumeFeedback(translations[currentLang].consumeNoStock || 'Sem estoque numérico para baixar, mas retirada anotada.');
+                }
+
+                appendMovementLog({
+                    at: new Date().toISOString(),
+                    user: currentUserName,
+                    role: currentUserRole,
+                    scope: currentUserScope,
+                    establishment: estKey,
+                    pod: ref.pod,
+                    wine: ref.descripcion || '—',
+                    qty: quantity,
+                    before,
+                    after: typeof ref.establecimientos[estKey].unidades === 'number' ? ref.establecimientos[estKey].unidades : null
+                });
+
+                preProcess();
+                updateRefCount();
+                openModal(ref);
+            });
+        }
 
         function openModal(ref) {
             currentEditPod = ref.pod;
@@ -1417,7 +1846,11 @@
 
             // Reset edit form
             document.getElementById('editForm').classList.remove('visible');
-            document.getElementById('btnEditWine').style.display = 'inline-block';
+            if (editButton) {
+                editButton.style.display = hasEditAccess() ? 'inline-block' : 'none';
+            }
+            if (consumeQtySelect) consumeQtySelect.value = '1';
+            setConsumeFeedback('');
 
             searchResults.style.display = 'none';
             searchInput.blur();
@@ -1434,6 +1867,7 @@
 
         // --- EDIT ---
         document.getElementById('btnEditWine').addEventListener('click', () => {
+            if (!hasEditAccess()) return;
             if (!currentEditPod) return;
             const ref = refs.find(r => r.pod === currentEditPod);
             if (!ref) return;
@@ -1456,10 +1890,11 @@
 
         document.getElementById('btnCancelEdit').addEventListener('click', () => {
             document.getElementById('editForm').classList.remove('visible');
-            document.getElementById('btnEditWine').style.display = 'inline-block';
+            document.getElementById('btnEditWine').style.display = hasEditAccess() ? 'inline-block' : 'none';
         });
 
         document.getElementById('btnSaveEdit').addEventListener('click', () => {
+            if (!hasEditAccess()) return;
             if (!currentEditPod) return;
             const ref = refs.find(r => r.pod === currentEditPod);
             if (!ref) return;
@@ -1574,6 +2009,25 @@
 
             // Refresh search results if visible
             triggerSearch();
+        }
+
+        const logoutBtn = document.getElementById('logoutBtn');
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', () => {
+                sessionStorage.removeItem(AUTH_KEYS.sessionFlag);
+                sessionStorage.removeItem(AUTH_KEYS.sessionUser);
+                sessionStorage.removeItem(AUTH_KEYS.sessionEstablishment);
+                sessionStorage.removeItem(AUTH_KEYS.sessionRole);
+                sessionStorage.removeItem(AUTH_KEYS.sessionScope);
+
+                localStorage.removeItem(AUTH_KEYS.persistentFlag);
+                localStorage.removeItem(AUTH_KEYS.persistentUser);
+                localStorage.removeItem(AUTH_KEYS.persistentEstablishment);
+                localStorage.removeItem(AUTH_KEYS.persistentRole);
+                localStorage.removeItem(AUTH_KEYS.persistentScope);
+
+                window.location.replace('login.html');
+            });
         }
 
         // --- DARK/LIGHT MODE TOGGLE (CANVAS) ---
