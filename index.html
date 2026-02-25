@@ -1321,8 +1321,7 @@
 
         <!-- Filter Pills + Sort Toggle -->
         <div class="filter-bar">
-            <button class="filter-pill active" data-filter="todos">TODOS</button>
-            <button class="filter-pill" data-filter="bodega">BODEGA</button>
+            <button class="filter-pill active" data-filter="bodega">BODEGA</button>
             <button class="filter-pill" data-filter="spa">SPA</button>
             <button class="filter-pill" data-filter="tasca_fina">TASCA FINA</button>
             <button class="filter-pill" data-filter="victoria">VICTORIA</button>
@@ -1381,29 +1380,37 @@
                 <thead>
                     <tr>
                         <th></th>
+                        <th>BODEGA</th>
                         <th>SPA</th>
                         <th>TASCA FINA</th>
                         <th>VICTORIA</th>
+                        <th>GALERIA</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="row-label" data-translate="pvpLabel">PVP</td>
+                        <td class="pvp-cell" id="estBodegaPvp">—</td>
                         <td class="pvp-cell" id="estSpaPvp">—</td>
                         <td class="pvp-cell" id="estTascaPvp">—</td>
                         <td class="pvp-cell" id="estVictoriaPvp">—</td>
+                        <td class="pvp-cell" id="estGaleriaPvp">—</td>
                     </tr>
                     <tr>
                         <td class="row-label" data-translate="stockLabel">Stock</td>
+                        <td id="estBodegaStock">—</td>
                         <td id="estSpaStock">—</td>
                         <td id="estTascaStock">—</td>
                         <td id="estVictoriaStock">—</td>
+                        <td id="estGaleriaStock">—</td>
                     </tr>
                     <tr>
                         <td class="row-label loc-cell" data-translate="locationShort">Ubic.</td>
+                        <td class="loc-cell" id="estBodegaLoc">—</td>
                         <td class="loc-cell" id="estSpaLoc">—</td>
                         <td class="loc-cell" id="estTascaLoc">—</td>
                         <td class="loc-cell" id="estVictoriaLoc">—</td>
+                        <td class="loc-cell" id="estGaleriaLoc">—</td>
                     </tr>
                 </tbody>
             </table>
@@ -1453,6 +1460,13 @@
                         <input class="edit-field" id="editVictoriaPvp" type="number" placeholder="PVP">
                         <input class="edit-field" id="editVictoriaStock" type="number" placeholder="Stock">
                         <input class="edit-field" id="editVictoriaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                    </div>
+
+                    <div class="edit-section-title">GALERIA</div>
+                    <div class="edit-row">
+                        <input class="edit-field" id="editGaleriaPvp" type="number" placeholder="PVP">
+                        <input class="edit-field" id="editGaleriaStock" type="number" placeholder="Stock">
+                        <input class="edit-field" id="editGaleriaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
                     </div>
 
                     <div class="edit-actions">
@@ -1528,7 +1542,7 @@
         let searchIndex = [];     // Pre-computed search strings
         let pvpMedio = {};        // Average PVP per pod
         let subsets = {};         // Indices per establishment
-        let currentFilter = 'todos';
+        let currentFilter = 'bodega';
         let currentSort = 'abc';
         let currentEditPod = null;
         let currentLang = 'es';
@@ -2717,9 +2731,11 @@
             document.getElementById('modalSuelo').textContent = terroir.suelo;
 
             // Establishment table
+            const prefixMap = { bodega: 'Bodega', spa: 'Spa', tasca_fina: 'Tasca', victoria: 'Victoria', galeria: 'Galeria' };
             EST_KEYS.forEach(k => {
                 const est = ref.establecimientos?.[k];
-                const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
+                const prefix = prefixMap[k];
+                if (!prefix) return;
                 document.getElementById(`est${prefix}Pvp`).textContent = fmtPrice(est?.pvp);
                 document.getElementById(`est${prefix}Stock`).textContent = fmt(est?.unidades);
                 document.getElementById(`est${prefix}Loc`).textContent = fmt(est?.localizacion);
@@ -2777,12 +2793,14 @@
             if (!ref) return;
             let hasChanges = false;
 
-            // Save per-establishment fields
-            EST_KEYS.forEach(k => {
+            // Save per-establishment fields (only editable ones: spa, tasca_fina, victoria, galeria)
+            const editableKeys = ['spa', 'tasca_fina', 'victoria', 'galeria'];
+            const prefixMap = { spa: 'Spa', tasca_fina: 'Tasca', victoria: 'Victoria', galeria: 'Galeria' };
+            editableKeys.forEach(k => {
                 if (!ref.establecimientos) ref.establecimientos = {};
                 if (!ref.establecimientos[k]) ref.establecimientos[k] = { pvp: null, unidades: null, localizacion: null };
                 const est = ref.establecimientos[k];
-                const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
+                const prefix = prefixMap[k];
 
                 const pvpVal = document.getElementById(`edit${prefix}Pvp`).value;
                 const pvp = pvpVal !== '' ? Number(pvpVal) : null;
@@ -2807,6 +2825,20 @@
                     hasChanges = true;
                 }
             });
+
+            // Recalculate BODEGA price (automatic average)
+            if (ref.establecimientos) {
+                const prices = ['spa', 'tasca_fina', 'victoria']
+                    .map(k => ref.establecimientos[k]?.pvp)
+                    .filter(p => p != null);
+                const avg = prices.length > 0 ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : null;
+                if (!ref.establecimientos.bodega) ref.establecimientos.bodega = {};
+                if (avg !== ref.establimientos.bodega.pvp) {
+                    ref.establecimientos.bodega.pvp = avg;
+                    saveEdit(currentEditPod, 'establecimientos.bodega.pvp', avg);
+                    hasChanges = true;
+                }
+            }
 
             // Recompute indexes
             preProcess();
