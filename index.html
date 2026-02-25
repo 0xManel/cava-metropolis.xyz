@@ -253,8 +253,12 @@
             gap: 0.4rem;
             align-items: center;
             margin-top: 0.6rem;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
 
         .filter-pill {
@@ -272,6 +276,7 @@
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             white-space: nowrap;
+            flex: 0 0 auto;
         }
 
         .filter-pill:active { transform: scale(0.95); }
@@ -296,8 +301,13 @@
             cursor: pointer;
             transition: all 0.25s ease;
             margin-left: auto;
+            flex: 0 0 auto;
         }
         .sort-toggle:active { transform: scale(0.95); }
+        .filter-bar::-webkit-scrollbar,
+        .modal-actions::-webkit-scrollbar,
+        .consume-actions::-webkit-scrollbar,
+        .edit-actions::-webkit-scrollbar { display: none; }
 
         /* --- DROPDOWN RESULTS --- */
         #searchResults {
@@ -926,6 +936,11 @@
             gap: 0.6rem;
             justify-content: flex-end;
             margin-top: 0.8rem;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
 
         .btn-cancel {
@@ -965,6 +980,11 @@
             align-items: center;
             gap: 0.7rem;
             margin-top: 0.35rem;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
 
         .consume-actions {
@@ -972,8 +992,12 @@
             align-items: center;
             gap: 0.45rem;
             flex-wrap: nowrap;
-            flex: 1 1 auto;
-            min-width: 0;
+            flex: 0 0 auto;
+            min-width: max-content;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
 
         .consume-qty {
@@ -1094,25 +1118,44 @@
             .top-left-actions { top: 15px; left: 15px; gap: 7px; }
             .top-actions { top: 15px; right: 15px; gap: 7px; }
             .session-user-card { top: max(8px, env(safe-area-inset-top)); }
+            .filter-bar {
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                gap: 0.22rem;
+            }
+            .filter-pill,
+            .sort-toggle {
+                padding: 0.32rem 0.44rem;
+                font-size: 0.58rem;
+                letter-spacing: 0.02em;
+                border-radius: 16px;
+            }
 
             .modal-actions {
-                flex-direction: column;
-                align-items: stretch;
-                gap: 0.55rem;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.45rem;
             }
 
             .consume-actions {
-                width: 100%;
-                justify-content: space-between;
+                width: auto;
+                justify-content: flex-start;
                 gap: 0.35rem;
             }
 
             .btn-edit {
-                align-self: flex-end;
+                align-self: auto;
+                flex: 0 0 auto;
             }
         }
 
         @media (max-width: 420px) {
+            .filter-pill,
+            .sort-toggle {
+                padding: 0.28rem 0.38rem;
+                font-size: 0.53rem;
+                letter-spacing: 0;
+            }
             .modal-card {
                 width: 94%;
                 padding: 1.25rem;
@@ -1323,7 +1366,7 @@
         <div class="filter-bar">
             <button class="filter-pill active" data-filter="bodega">BODEGA</button>
             <button class="filter-pill" data-filter="spa">SPA</button>
-            <button class="filter-pill" data-filter="tasca_fina">TASCA FINA</button>
+            <button class="filter-pill" data-filter="tasca_fina">TASCA</button>
             <button class="filter-pill" data-filter="victoria">VICTORIA</button>
             <button class="filter-pill" data-filter="galeria">GALERIA</button>
             <button class="sort-toggle" id="sortToggle">ABC</button>
