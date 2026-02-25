@@ -928,7 +928,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Palomino Fino"
+      "Palomino"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -970,7 +970,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Palomino Fino"
+      "Palomino"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -5156,7 +5156,7 @@
     },
     "uvas": [
       "Godello",
-      "Lado",
+      "Albariño",
       "Treixadura"
     ],
     "uvas_confianza": "alta",
@@ -5195,7 +5195,7 @@
     },
     "uvas": [
       "Godello",
-      "Lado",
+      "Albariño",
       "Treixadura"
     ],
     "uvas_confianza": "alta",
@@ -5240,7 +5240,7 @@
     "uvas": [
       "Treixadura",
       "Torrontés",
-      "Lado",
+      "Albariño",
       "Loureiro",
       "Albariño"
     ],
@@ -8418,7 +8418,7 @@
       "Roussanne",
       "Chardonnay",
       "Viognier",
-      "Grenache Blanc"
+      "Garnacha Blanca"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -16966,7 +16966,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache Blanc",
+      "Garnacha Blanca",
       "Vermentino",
       "Viognier"
     ],
@@ -18407,7 +18407,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache Blanc",
+      "Garnacha Blanca",
       "Clairette",
       "Bourboulenc"
     ],
@@ -18643,7 +18643,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache Blanc",
+      "Garnacha Blanca",
       "Clairette",
       "Roussanne",
       "Bourboulenc"
@@ -18683,7 +18683,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Mourvèdre",
       "Syrah"
     ],
@@ -18722,7 +18722,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache Blanc",
+      "Garnacha Blanca",
       "Clairette",
       "Roussanne"
     ],
@@ -21063,7 +21063,7 @@
     },
     "uvas": [
       "Chenin Blanc",
-      "Grenache Blanc"
+      "Garnacha Blanca"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -22307,7 +22307,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -28121,7 +28121,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -28156,7 +28156,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -28567,7 +28567,7 @@
       "etiqueta": "Media botella (50cl)"
     },
     "uvas": [
-      "Palomino Fino"
+      "Palomino"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -28917,7 +28917,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -28956,7 +28956,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -28995,7 +28995,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29034,7 +29034,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29073,7 +29073,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29112,7 +29112,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29161,7 +29161,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29200,7 +29200,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29239,7 +29239,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29278,7 +29278,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29317,7 +29317,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29356,7 +29356,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29395,7 +29395,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29434,7 +29434,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -29473,7 +29473,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -30140,7 +30140,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Cinsault",
       "Syrah",
       "Viognier"
@@ -30185,7 +30185,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Cinsault",
       "Vermentino"
     ],
@@ -30278,7 +30278,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Cinsault",
       "Rolle"
     ],
@@ -30450,7 +30450,7 @@
     },
     "uvas": [
       "Cinsault",
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Rolle"
     ],
@@ -30494,7 +30494,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Cinsault",
       "Cabernet Sauvignon",
       "Tibouren"
@@ -31816,7 +31816,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Shiraz",
       "Mourvèdre"
     ],
@@ -32614,7 +32614,7 @@
       "etiqueta": "Media botella (37,5cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -33135,7 +33135,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -33172,7 +33172,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -33303,7 +33303,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -34352,7 +34352,7 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -34718,7 +34718,7 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -36846,7 +36846,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -37693,7 +37693,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -38076,7 +38076,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -38118,7 +38118,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro",
+      "Tempranillo",
       "Albillo Mayor"
     ],
     "uvas_confianza": "alta",
@@ -38523,7 +38523,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -38570,7 +38570,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -38617,7 +38617,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -39123,7 +39123,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -39160,7 +39160,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -39407,7 +39407,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -53979,7 +53979,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54016,7 +54016,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54243,7 +54243,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54280,7 +54280,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah"
     ],
     "uvas_confianza": "alta",
@@ -54318,7 +54318,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54355,7 +54355,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54392,7 +54392,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54503,7 +54503,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54540,7 +54540,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54651,7 +54651,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54688,7 +54688,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54762,7 +54762,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54800,7 +54800,7 @@
     },
     "uvas": [
       "Syrah",
-      "Grenache",
+      "Garnacha",
       "Roussanne"
     ],
     "uvas_confianza": "alta",
@@ -54839,7 +54839,7 @@
     },
     "uvas": [
       "Syrah",
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -54987,7 +54987,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -55024,7 +55024,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah"
     ],
     "uvas_confianza": "alta",
@@ -76432,8 +76432,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
-      "Carignan"
+      "Garnacha",
+      "Cariñena"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -76470,8 +76470,8 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
-      "Carignan",
+      "Garnacha",
+      "Cariñena",
       "Syrah"
     ],
     "uvas_confianza": "alta",
@@ -76548,10 +76548,10 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre",
-      "Carignan"
+      "Cariñena"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -76588,7 +76588,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -77009,7 +77009,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -77122,7 +77122,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -77302,7 +77302,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -77346,7 +77346,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache Blanc",
+      "Garnacha Blanca",
       "Marsanne",
       "Clairette"
     ],
@@ -77385,7 +77385,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -77463,7 +77463,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -77500,7 +77500,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -77537,7 +77537,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -77574,7 +77574,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -77659,7 +77659,7 @@
     },
     "uvas": [
       "Syrah",
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -77740,7 +77740,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -77779,7 +77779,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -78043,7 +78043,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -78090,7 +78090,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -78461,7 +78461,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -83180,7 +83180,7 @@
       "Touriga Nacional",
       "Touriga Franca",
       "Tinta Barroca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -83219,7 +83219,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz",
+      "Touriga Nacional",
       "Tinta Barroca"
     ],
     "uvas_confianza": "alta",
@@ -83259,7 +83259,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -83297,7 +83297,7 @@
     },
     "uvas": [
       "Touriga Nacional",
-      "Tinta Roriz",
+      "Touriga Nacional",
       "Tinta Amarela",
       "Touriga Franca"
     ],
@@ -83338,7 +83338,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz",
+      "Touriga Nacional",
       "Tinta Amarela"
     ],
     "uvas_confianza": "alta",
@@ -83388,7 +83388,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz",
+      "Touriga Nacional",
       "Tinta Barroca",
       "Tinta Amarela"
     ],
@@ -83438,7 +83438,7 @@
     },
     "uvas": [
       "Touriga Nacional",
-      "Tinta Roriz",
+      "Touriga Nacional",
       "Touriga Franca"
     ],
     "uvas_confianza": "alta",
@@ -83571,7 +83571,7 @@
     },
     "uvas": [
       "Syrah",
-      "Grenache",
+      "Garnacha",
       "Mourvèdre"
     ],
     "uvas_confianza": "alta",
@@ -83699,7 +83699,7 @@
     },
     "uvas": [
       "Syrah",
-      "Grenache",
+      "Garnacha",
       "Cinsault",
       "Cabernet Sauvignon"
     ],
@@ -83824,7 +83824,7 @@
     "uvas": [
       "Syrah",
       "Cinsault",
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -83873,7 +83873,7 @@
     "uvas": [
       "Syrah",
       "Cinsault",
-      "Grenache"
+      "Garnacha"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -84004,7 +84004,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Grenache",
+      "Garnacha",
       "Syrah",
       "Mourvèdre"
     ],
@@ -84084,7 +84084,7 @@
     "uvas": [
       "Touriga Nacional",
       "Touriga Franca",
-      "Tinta Roriz"
+      "Touriga Nacional"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -84387,7 +84387,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -84619,7 +84619,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -84733,7 +84733,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -84768,7 +84768,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -84884,7 +84884,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -84919,7 +84919,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -84993,7 +84993,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -85033,7 +85033,7 @@
       "ml": 750,
       "etiqueta": "Botella (75cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
@@ -85068,7 +85068,7 @@
       "ml": 1500,
       "etiqueta": "Magnum (150cl)"
     },
-    "uvas": null,
+    "uvas": [],
     "uvas_confianza": null,
     "bodega_general": {
       "unidades": null,
