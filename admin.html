@@ -1475,10 +1475,10 @@
                 return pattern.test(wine);
             }
 
-            const lines = [];
+            const aggregatedByWine = new Map();
             visibleEntries.forEach((entry) => {
-                const qtyNumber = Number(entry.qty);
-                const qtyLabel = Number.isFinite(qtyNumber) && qtyNumber > 0 ? `${qtyNumber}x` : '1x';
+                const qtyRaw = Number(entry.qty);
+                const qtyNumber = Number.isFinite(qtyRaw) && qtyRaw > 0 ? Math.trunc(qtyRaw) : 1;
                 const wineName = normalizeWineForReport(entry.wine || '');
                 const fullYearToken = getFullYearToken(entry.year);
                 const shortYearToken = getShortYearToken(entry.year);
@@ -1489,8 +1489,35 @@
                 const shouldAppendYear = Boolean(shortYearToken)
                     && !wineHasYearToken(wineName, shortYearToken)
                     && !wineHasYearToken(wineName, fullYearToken);
-                const parts = [qtyLabel, sizeText, wineName, shouldAppendYear ? shortYearToken : '', podText].filter(Boolean);
-                lines.push(parts.join(' ') + sourceTag);
+                const displayYear = shouldAppendYear ? shortYearToken : '';
+                const key = [
+                    sizeText.toLowerCase(),
+                    wineName.toLowerCase(),
+                    displayYear,
+                    podText.toLowerCase(),
+                    sourceRaw === 'bodega' ? 'bodega' : 'cava'
+                ].join('|');
+
+                const current = aggregatedByWine.get(key);
+                if (current) {
+                    current.qty += qtyNumber;
+                    return;
+                }
+
+                aggregatedByWine.set(key, {
+                    qty: qtyNumber,
+                    sizeText,
+                    wineName,
+                    displayYear,
+                    podText,
+                    sourceTag
+                });
+            });
+            const lines = [];
+            aggregatedByWine.forEach((item) => {
+                const qtyLabel = `${item.qty}x`;
+                const parts = [qtyLabel, item.sizeText, item.wineName, item.displayYear, item.podText].filter(Boolean);
+                lines.push(parts.join(' ') + item.sourceTag);
             });
             return lines.join('\n');
         }
