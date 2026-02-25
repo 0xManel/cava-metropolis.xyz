@@ -5,7 +5,6 @@ const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
 
 const {
   getSessionFromRequest,
-  isAdminRole,
   isAdminMasterRole,
   normalizeScope,
   isPlainObject,
@@ -116,7 +115,7 @@ function canMutateEstablishment(user, establishment) {
 }
 
 function parseEditPath(path) {
-  const match = String(path || '').match(/^establecimientos\.(spa|tasca_fina|victoria)\.(pvp|unidades|localizacion)$/);
+  const match = String(path || '').match(/^establecimientos\.(bodega|spa|tasca_fina|victoria|galeria)\.(pvp|unidades|localizacion)$/);
   if (!match) return null;
   return { establishment: match[1], field: match[2] };
 }
@@ -168,11 +167,17 @@ function sanitizeMovementEntry(payload, user) {
 
 function applyEditMutation(state, payload, user) {
   if (!isPlainObject(payload)) return false;
-  if (!isAdminRole(user.role)) return false;
+  if (!isPlainObject(user)) return false;
   if (typeof payload.pod !== 'string' || typeof payload.path !== 'string') return false;
   const pathInfo = parseEditPath(payload.path);
   if (!pathInfo) return false;
-  if (!canMutateEstablishment(user, pathInfo.establishment)) return false;
+  if (pathInfo.establishment === 'bodega') {
+    if (pathInfo.field !== 'pvp') return false;
+    const hasScope = EST_KEYS.includes(normalizeScope(user.scope));
+    if (!isAdminMasterRole(user.role) && !hasScope) return false;
+  } else if (!canMutateEstablishment(user, pathInfo.establishment)) {
+    return false;
+  }
 
   const nextEdit = {
     pod: payload.pod.trim(),

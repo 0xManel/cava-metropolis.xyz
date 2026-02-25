@@ -1238,7 +1238,7 @@
     <script>
         (() => {
             try {
-                const EST_KEYS = ['spa', 'tasca_fina', 'victoria'];
+                const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
                 const AUTH_KEYS = {
                     sessionFlag: 'cava_login_demo',
                     sessionUser: 'cava_login_user',
@@ -1576,6 +1576,8 @@
 
         // --- CONSTANTS ---
         const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
+        const EDITABLE_EST_KEYS = ['spa', 'tasca_fina', 'victoria', 'galeria'];
+        const EDIT_PREFIX_MAP = { spa: 'Spa', tasca_fina: 'Tasca', victoria: 'Victoria', galeria: 'Galeria' };
         const EST_LABELS = { bodega: 'BODEGA -2', spa: 'SPA', tasca_fina: 'TASCA FINA', victoria: 'VICTORIA', galeria: 'GALERIA' };
 
         const TIPO_MAP = {
@@ -1675,8 +1677,21 @@
             return currentUserRole === 'admin' || currentUserRole === 'adminmaster';
         }
 
+        function getEditableEstablishmentKeys() {
+            if (currentUserRole === 'adminmaster' || currentUserScope === 'all') {
+                return [...EDITABLE_EST_KEYS];
+            }
+            if (EDITABLE_EST_KEYS.includes(currentUserScope)) {
+                return [currentUserScope];
+            }
+            if (EDITABLE_EST_KEYS.includes(currentUserEstablishment)) {
+                return [currentUserEstablishment];
+            }
+            return [];
+        }
+
         function hasEditAccess() {
-            return hasAdminAccess();
+            return getEditableEstablishmentKeys().length > 0;
         }
 
         function clearAuthState() {
@@ -2847,12 +2862,28 @@
             const ref = refs.find(r => r.pod === currentEditPod);
             if (!ref) return;
 
-            EST_KEYS.forEach(k => {
+            const editableKeys = getEditableEstablishmentKeys();
+            const editableKeySet = new Set(editableKeys);
+            EDITABLE_EST_KEYS.forEach((k) => {
                 const est = ref.establecimientos?.[k] || {};
-                const prefix = k === 'spa' ? 'Spa' : k === 'tasca_fina' ? 'Tasca' : 'Victoria';
-                document.getElementById(`edit${prefix}Pvp`).value = est.pvp != null ? est.pvp : '';
-                document.getElementById(`edit${prefix}Stock`).value = est.unidades != null ? est.unidades : '';
-                document.getElementById(`edit${prefix}Loc`).value = est.localizacion || '';
+                const prefix = EDIT_PREFIX_MAP[k];
+                const pvpInput = document.getElementById(`edit${prefix}Pvp`);
+                const stockInput = document.getElementById(`edit${prefix}Stock`);
+                const locInput = document.getElementById(`edit${prefix}Loc`);
+                const canEditScope = editableKeySet.has(k);
+
+                if (pvpInput) {
+                    pvpInput.value = est.pvp != null ? est.pvp : '';
+                    pvpInput.disabled = !canEditScope;
+                }
+                if (stockInput) {
+                    stockInput.value = est.unidades != null ? est.unidades : '';
+                    stockInput.disabled = !canEditScope;
+                }
+                if (locInput) {
+                    locInput.value = est.localizacion || '';
+                    locInput.disabled = !canEditScope;
+                }
             });
 
             document.getElementById('editForm').classList.add('visible');
@@ -2871,14 +2902,13 @@
             if (!ref) return;
             let hasChanges = false;
 
-            // Save per-establishment fields (only editable ones: spa, tasca_fina, victoria, galeria)
-            const editableKeys = ['spa', 'tasca_fina', 'victoria', 'galeria'];
-            const prefixMap = { spa: 'Spa', tasca_fina: 'Tasca', victoria: 'Victoria', galeria: 'Galeria' };
+            // Save per-establishment fields within the user's allowed scope
+            const editableKeys = getEditableEstablishmentKeys();
             editableKeys.forEach(k => {
                 if (!ref.establecimientos) ref.establecimientos = {};
                 if (!ref.establecimientos[k]) ref.establecimientos[k] = { pvp: null, unidades: null, localizacion: null };
                 const est = ref.establecimientos[k];
-                const prefix = prefixMap[k];
+                const prefix = EDIT_PREFIX_MAP[k];
 
                 const pvpVal = document.getElementById(`edit${prefix}Pvp`).value;
                 const pvp = pvpVal !== '' ? Number(pvpVal) : null;
@@ -2911,7 +2941,7 @@
                     .filter(p => p != null);
                 const avg = prices.length > 0 ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : null;
                 if (!ref.establecimientos.bodega) ref.establecimientos.bodega = {};
-                if (avg !== ref.establimientos.bodega.pvp) {
+                if (avg !== ref.establecimientos.bodega.pvp) {
                     ref.establecimientos.bodega.pvp = avg;
                     saveEdit(currentEditPod, 'establecimientos.bodega.pvp', avg);
                     hasChanges = true;
