@@ -249,34 +249,48 @@
 
         /* --- FILTER BAR --- */
         .filter-bar {
-            display: flex;
-            gap: 0.4rem;
-            align-items: center;
+            width: 100%;
             margin-top: 0.6rem;
-            flex-wrap: nowrap;
-            justify-content: flex-start;
-            overflow-x: auto;
-            overflow-y: hidden;
-            -webkit-overflow-scrolling: touch;
-            scrollbar-width: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .filter-restaurant-row {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 0.32rem;
+            align-items: center;
+        }
+
+        .filter-sort-row {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
         }
 
         .filter-pill {
-            padding: 0.35rem 0.7rem;
+            width: 100%;
+            height: 38px;
+            padding: 0 0.45rem;
             border-radius: 20px;
             border: 1px solid var(--glass-border);
             background: var(--glass-bg);
             color: var(--text-muted);
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.8px;
+            font-size: clamp(0.46rem, 1.9vw, 0.84rem);
+            font-weight: 700;
+            letter-spacing: 0.02em;
             cursor: pointer;
             transition: all 0.25s ease;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             white-space: nowrap;
-            flex: 0 0 auto;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-align: center;
         }
 
         .filter-pill:active { transform: scale(0.95); }
@@ -289,22 +303,22 @@
         }
 
         .sort-toggle {
-            padding: 0.35rem 0.7rem;
+            height: 38px;
+            min-width: 90px;
+            padding: 0 0.9rem;
             border-radius: 20px;
             border: 1px solid var(--glass-border);
             background: transparent;
             color: var(--gold-accent);
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.7rem;
+            font-size: 0.84rem;
             font-weight: 700;
-            letter-spacing: 0.8px;
+            letter-spacing: 0.04em;
             cursor: pointer;
             transition: all 0.25s ease;
-            margin-left: auto;
-            flex: 0 0 auto;
+            text-transform: uppercase;
         }
         .sort-toggle:active { transform: scale(0.95); }
-        .filter-bar::-webkit-scrollbar,
         .modal-actions::-webkit-scrollbar,
         .consume-actions::-webkit-scrollbar,
         .edit-actions::-webkit-scrollbar { display: none; }
@@ -1118,17 +1132,22 @@
             .top-left-actions { top: 15px; left: 15px; gap: 7px; }
             .top-actions { top: 15px; right: 15px; gap: 7px; }
             .session-user-card { top: max(8px, env(safe-area-inset-top)); }
-            .filter-bar {
-                flex-wrap: nowrap;
-                justify-content: flex-start;
+            .filter-restaurant-row {
                 gap: 0.22rem;
             }
-            .filter-pill,
-            .sort-toggle {
-                padding: 0.32rem 0.44rem;
-                font-size: 0.58rem;
-                letter-spacing: 0.02em;
+            .filter-pill {
+                height: 36px;
                 border-radius: 16px;
+                padding: 0 0.2rem;
+                font-size: clamp(0.45rem, 1.95vw, 0.7rem);
+                letter-spacing: 0.01em;
+            }
+            .sort-toggle {
+                height: 36px;
+                min-width: 80px;
+                border-radius: 16px;
+                font-size: 0.74rem;
+                padding: 0 0.8rem;
             }
 
             .modal-actions {
@@ -1150,11 +1169,22 @@
         }
 
         @media (max-width: 420px) {
-            .filter-pill,
-            .sort-toggle {
-                padding: 0.28rem 0.38rem;
-                font-size: 0.53rem;
+            .filter-restaurant-row {
+                gap: 0.18rem;
+            }
+            .filter-pill {
+                height: 34px;
+                border-radius: 14px;
+                padding: 0 0.15rem;
+                font-size: clamp(0.42rem, 1.85vw, 0.6rem);
                 letter-spacing: 0;
+            }
+            .sort-toggle {
+                height: 34px;
+                min-width: 72px;
+                border-radius: 14px;
+                padding: 0 0.65rem;
+                font-size: 0.68rem;
             }
             .modal-card {
                 width: 94%;
@@ -1364,12 +1394,16 @@
 
         <!-- Filter Pills + Sort Toggle -->
         <div class="filter-bar">
-            <button class="filter-pill active" data-filter="bodega">BODEGA -2</button>
-            <button class="filter-pill" data-filter="spa">SPA</button>
-            <button class="filter-pill" data-filter="tasca_fina">TASCA</button>
-            <button class="filter-pill" data-filter="victoria">VICTORIA</button>
-            <button class="filter-pill" data-filter="galeria">GALERIA</button>
-            <button class="sort-toggle" id="sortToggle">ABC</button>
+            <div class="filter-restaurant-row">
+                <button class="filter-pill active" data-filter="bodega">BODEGA -2</button>
+                <button class="filter-pill" data-filter="spa">SPA</button>
+                <button class="filter-pill" data-filter="tasca_fina">TASCA</button>
+                <button class="filter-pill" data-filter="victoria">VICTORIA</button>
+                <button class="filter-pill" data-filter="galeria">GALERIA</button>
+            </div>
+            <div class="filter-sort-row">
+                <button class="sort-toggle" id="sortToggle">ABC</button>
+            </div>
         </div>
 
         <div id="searchResults"></div>
