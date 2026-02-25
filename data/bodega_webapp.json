@@ -915,7 +915,7 @@
     "pod": "POD008709",
     "descripcion": "Atlántida Blanco 19-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Vinos del Atlántico",
     "ano": 2019,
     "tipo": {
@@ -957,7 +957,7 @@
     "pod": "POD018965",
     "descripcion": "Socaire BL 23-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Primitivo Collantes",
     "ano": 2023,
     "tipo": {
@@ -1083,7 +1083,7 @@
     "pod": "POD016871",
     "descripcion": "Fábregas Garnacha BL 21-",
     "pais": "España",
-    "region": "Aragón",
+    "region": "Somontano",
     "bodega": "Familia Fábregas",
     "ano": 2021,
     "tipo": {
@@ -3352,7 +3352,7 @@
     "pod": "POD018127",
     "descripcion": "Abadia del Poblet BL 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Conca de Barberà",
     "bodega": "Abadía de Poblet",
     "ano": 2021,
     "tipo": {
@@ -3390,7 +3390,7 @@
     "pod": "POD018904",
     "descripcion": "Can Sumoi Xarello 24-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Penedès",
     "bodega": "Can Sumoi",
     "ano": 2024,
     "tipo": {
@@ -3427,7 +3427,7 @@
     "pod": "POD015872",
     "descripcion": "Castel D´Encus Taleia-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Costers del Segre",
     "bodega": "Castell D´Encús",
     "ano": 2021,
     "tipo": {
@@ -3470,7 +3470,7 @@
     "pod": "POD015450",
     "descripcion": "Castell Remei G R 18-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Costers del Segre",
     "bodega": "Castell del Remei",
     "ano": 2018,
     "tipo": {
@@ -3514,7 +3514,7 @@
     "pod": "POD016310",
     "descripcion": "Clos Erasmus Laurel Bl 23-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Clos i Terrases",
     "ano": 2023,
     "tipo": {
@@ -3557,7 +3557,7 @@
     "pod": "POD019721",
     "descripcion": "Credo Capficat 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Penedès",
     "bodega": "Celler Credo",
     "ano": 2019,
     "tipo": {
@@ -3599,7 +3599,7 @@
     "pod": "POD019722",
     "descripcion": "Credo Ratpenat 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Penedès",
     "bodega": "Celler Credo",
     "ano": 2021,
     "tipo": {
@@ -3641,7 +3641,7 @@
     "pod": "POD012820",
     "descripcion": "Dido Bl. 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Venus La Universal",
     "ano": 2022,
     "tipo": {
@@ -3685,7 +3685,7 @@
     "pod": "POD012985",
     "descripcion": "Electio 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Penedès",
     "bodega": "Parés Baltà",
     "ano": 2022,
     "tipo": {
@@ -3727,7 +3727,7 @@
     "pod": "POD019440",
     "descripcion": "Finca l'Argata BL 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Joan D´Anguera",
     "ano": 2022,
     "tipo": {
@@ -3770,7 +3770,7 @@
     "pod": "POD016923",
     "descripcion": "Les Sorts Bl. 23-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Mas Roig",
     "ano": 2023,
     "tipo": {
@@ -3813,7 +3813,7 @@
     "pod": "POD019777",
     "descripcion": "Mas d´en Gil Coma Blanca 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas d´en Gil",
     "ano": 2019,
     "tipo": {
@@ -3852,7 +3852,7 @@
     "pod": "POD016307",
     "descripcion": "Mas Doix Salix 23-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2023,
     "tipo": {
@@ -3894,7 +3894,7 @@
     "pod": "POD017027",
     "descripcion": "Mas Martinet Cami Pesseroles Brissat 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Martinet",
     "ano": 2021,
     "tipo": {
@@ -3938,7 +3938,7 @@
     "pod": "POD014644",
     "descripcion": "Milmanda F.B.-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Penedès",
     "bodega": "Torres",
     "ano": 2021,
     "tipo": {
@@ -3980,7 +3980,7 @@
     "pod": "POD016505",
     "descripcion": "Murmuri Mas Doix 23-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2023,
     "tipo": {
@@ -4017,7 +4017,7 @@
     "pod": "POD019613",
     "descripcion": "Murmuri Mas Doix 24-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2024,
     "tipo": {
@@ -4054,7 +4054,7 @@
     "pod": "POD018590",
     "descripcion": "Terroir al Limit Pedra de Guix 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Terroir al Limit",
     "ano": 2022,
     "tipo": {
@@ -4097,7 +4097,7 @@
     "pod": "POD018877",
     "descripcion": "Venus La Cartoixa 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Venus La Universal",
     "ano": 2021,
     "tipo": {
@@ -6981,7 +6981,7 @@
     "pod": "POD012988",
     "descripcion": "Doniene Gorrondona TxakolI 23-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Bizkaiko Txakolina",
     "bodega": "Doniene Gorrondona",
     "ano": 2023,
     "tipo": {
@@ -7023,7 +7023,7 @@
     "pod": "POD018757",
     "descripcion": "Oxer B Marko Terleguiz 23-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Bizkaiko Txakolina",
     "bodega": "Oxer Bastegieta",
     "ano": 2023,
     "tipo": {
@@ -20742,7 +20742,7 @@
     "pod": "POD019338",
     "descripcion": "Niepoort Coche 23-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": 2023,
     "tipo": {
@@ -22330,7 +22330,7 @@
     "pod": "crear",
     "descripcion": "#N/D",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Málaga",
     "bodega": "Ordoñez",
     "ano": 2023,
     "tipo": {
@@ -22368,7 +22368,7 @@
     "pod": "POD013423",
     "descripcion": "Molino Real 15-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Málaga",
     "bodega": "Telmo Rodríguez",
     "ano": 2015,
     "tipo": {
@@ -22410,7 +22410,7 @@
     "pod": "POD018452",
     "descripcion": "Molino Real 21-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Málaga",
     "bodega": "Telmo Rodríguez",
     "ano": 2021,
     "tipo": {
@@ -22447,7 +22447,7 @@
     "pod": "POD019615",
     "descripcion": "Toro Albala Don Px 23-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Montilla-Moriles",
     "bodega": "Toro Albalá",
     "ano": 2023,
     "tipo": {
@@ -22460,7 +22460,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Pedro Ximénez"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -22484,7 +22484,7 @@
     "pod": "POD015030",
     "descripcion": "Toro Albala Don PX Gran Rva 03-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Montilla-Moriles",
     "bodega": "Toro Albalá",
     "ano": 2003,
     "tipo": {
@@ -22497,7 +22497,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Tinta de Toro"
+      "Pedro Ximénez"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -22521,7 +22521,7 @@
     "pod": "POD018812",
     "descripcion": "Victoria N2 J. Ordoñez 24-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Málaga",
     "bodega": "Ordoñez",
     "ano": 2024,
     "tipo": {
@@ -23508,7 +23508,7 @@
     "pod": "POD019220",
     "descripcion": "Bufadors Vinya Rascara BN 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Penedès",
     "bodega": "Bufadors",
     "ano": 2019,
     "tipo": {
@@ -23547,7 +23547,7 @@
     "pod": "POD014213",
     "descripcion": "Gramona Celler Batlle 14-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Gramona",
     "ano": 2014,
     "tipo": {
@@ -23596,7 +23596,7 @@
     "pod": "POD016992",
     "descripcion": "Gramona III Lustros 16-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Gramona",
     "ano": 2016,
     "tipo": {
@@ -23645,7 +23645,7 @@
     "pod": "POD015204",
     "descripcion": "Gramona Imperial 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Gramona",
     "ano": 2019,
     "tipo": {
@@ -23684,7 +23684,7 @@
     "pod": "POD012861",
     "descripcion": "Gramona Rose 22 -",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Gramona",
     "ano": 2022,
     "tipo": {
@@ -23723,7 +23723,7 @@
     "pod": "POD018591",
     "descripcion": "Gran Juve Camps 18-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Juvé & Camps",
     "ano": 2018,
     "tipo": {
@@ -23762,7 +23762,7 @@
     "pod": "POD019637",
     "descripcion": "Gran Torello Brut Nature 16-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Torelló",
     "ano": 2016,
     "tipo": {
@@ -23806,7 +23806,7 @@
     "pod": "POD018286",
     "descripcion": "Juve Camps Milesime 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Juve & Camps",
     "ano": 2019,
     "tipo": {
@@ -23845,7 +23845,7 @@
     "pod": "POD016267",
     "descripcion": "Mestres Clos Damiana 13-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Mestres",
     "ano": 2013,
     "tipo": {
@@ -23889,7 +23889,7 @@
     "pod": "POD013106",
     "descripcion": "Mestres Coquet BN G Rva 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Mestres",
     "ano": 2019,
     "tipo": {
@@ -23933,7 +23933,7 @@
     "pod": "POD017887",
     "descripcion": "Mestres Coquet BN G Rva 20 BL-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Mestres",
     "ano": 2020,
     "tipo": {
@@ -23972,7 +23972,7 @@
     "pod": "POD016269",
     "descripcion": "Mestres Mas Via 08-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Mestres",
     "ano": 2008,
     "tipo": {
@@ -24016,7 +24016,7 @@
     "pod": "POD018461",
     "descripcion": "Mestres Visol 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Mestres",
     "ano": 2019,
     "tipo": {
@@ -24055,7 +24055,7 @@
     "pod": "POD017361",
     "descripcion": "Raventos i Blanc De la Finca 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Conca del Riu Anoia",
     "bodega": "Raventós i Blanc",
     "ano": 2021,
     "tipo": {
@@ -24099,7 +24099,7 @@
     "pod": "POD012990",
     "descripcion": "Raventos i Blanc Textures de Pedra 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Conca del Riu Anoia",
     "bodega": "Raventós i Blanc",
     "ano": 2019,
     "tipo": {
@@ -24143,7 +24143,7 @@
     "pod": "POD008765",
     "descripcion": "Raventos Mas Del Serral 07-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Pepe Raventós",
     "ano": 2007,
     "tipo": {
@@ -24187,7 +24187,7 @@
     "pod": "POD013121",
     "descripcion": "Recaredo Intens Rosat BN G Rva 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Recaredo",
     "ano": 2020,
     "tipo": {
@@ -24226,7 +24226,7 @@
     "pod": "POD012794",
     "descripcion": "Recaredo Serral del Vell Brut 18-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Recaredo",
     "ano": 2018,
     "tipo": {
@@ -24275,7 +24275,7 @@
     "pod": "POD018655",
     "descripcion": "Recaredo Terrers 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Recaredo",
     "ano": 2020,
     "tipo": {
@@ -24314,7 +24314,7 @@
     "pod": "POD017758",
     "descripcion": "Recaredo Turo D'en Mota 11-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Recaredo",
     "ano": 2011,
     "tipo": {
@@ -24363,7 +24363,7 @@
     "pod": "POD013635",
     "descripcion": "Torello 225 Brut 18-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Torelló",
     "ano": 2018,
     "tipo": {
@@ -24407,7 +24407,7 @@
     "pod": "POD019668",
     "descripcion": "Izar Leku 19-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Getariako Txakolina",
     "bodega": "Artadi",
     "ano": 2019,
     "tipo": {
@@ -28026,7 +28026,7 @@
     "pod": null,
     "descripcion": null,
     "pais": null,
-    "region": "Cataluña",
+    "region": "Cava",
     "bodega": "Mestres",
     "ano": 2013,
     "tipo": {
@@ -28218,7 +28218,7 @@
     "pod": "POD019781",
     "descripcion": "Arroyuelo Fino en Rama-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Primitivo Collantes",
     "ano": "NV",
     "tipo": {
@@ -28255,7 +28255,7 @@
     "pod": "POD016047",
     "descripcion": "Emilio Hidalgo Amontillado Fino Tresillo-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Emilio Hidalgo",
     "ano": "NV",
     "tipo": {
@@ -28302,7 +28302,7 @@
     "pod": "POD016043",
     "descripcion": "Emilio Hidalgo Fino La Panesa-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Emilio Hidalgo",
     "ano": "NV",
     "tipo": {
@@ -28349,7 +28349,7 @@
     "pod": "POD016046",
     "descripcion": "Emilio Hidalgo Oloroso Villapanes-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Emilio Hidalgo",
     "ano": "NV",
     "tipo": {
@@ -28396,7 +28396,7 @@
     "pod": "POD016049",
     "descripcion": "Emilio Hidalgo Palo Cortado M. Rodil-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Emilio Hidalgo",
     "ano": "NV",
     "tipo": {
@@ -28443,7 +28443,7 @@
     "pod": "POD019677",
     "descripcion": "La Riva Manzanilla Miraflores-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "De la Riva",
     "ano": "(en blanco)",
     "tipo": {
@@ -28480,7 +28480,7 @@
     "pod": "POD019780",
     "descripcion": "Maruja Manzanilla en rama-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Juan Piñero",
     "ano": "NV",
     "tipo": {
@@ -28517,7 +28517,7 @@
     "pod": "POD010891",
     "descripcion": "Santa Petronila Amontillado-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Santa Petronila",
     "ano": "NV",
     "tipo": {
@@ -28554,7 +28554,7 @@
     "pod": "POD010889",
     "descripcion": "Santa Petronila Flor Macharnudo-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Santa Petronila",
     "ano": "NV",
     "tipo": {
@@ -28591,7 +28591,7 @@
     "pod": "POD002172",
     "descripcion": "Tradicion Amontillado-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Tradición",
     "ano": "NV",
     "tipo": {
@@ -28633,7 +28633,7 @@
     "pod": "POD000400",
     "descripcion": "Tradicion Fino-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Tradición",
     "ano": "NV",
     "tipo": {
@@ -28670,7 +28670,7 @@
     "pod": "POD002175",
     "descripcion": "Tradicion Oloroso-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Tradición",
     "ano": "NV",
     "tipo": {
@@ -28712,7 +28712,7 @@
     "pod": "POD001012",
     "descripcion": "Tradicion Palo Cortado 30-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "Tradición",
     "ano": "NV",
     "tipo": {
@@ -28749,7 +28749,7 @@
     "pod": "POD008480",
     "descripcion": "Viña Corrales Fino Saca-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Jerez",
     "bodega": "San Francisco Javier",
     "ano": "NV",
     "tipo": {
@@ -28791,7 +28791,7 @@
     "pod": "POD019782",
     "descripcion": "Wellington Palo Cortado VOS-",
     "pais": "España",
-    "region": "Andalucía",
+    "region": "Manzanilla",
     "bodega": "La Gitana",
     "ano": "NV",
     "tipo": {
@@ -28902,7 +28902,7 @@
     "pod": "POD019785",
     "descripcion": "Graham´s Tawny 10 años-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Graham´s",
     "ano": "NV",
     "tipo": {
@@ -28941,7 +28941,7 @@
     "pod": "POD019786",
     "descripcion": "Graham´s Tawny 20 años-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Graham´s",
     "ano": "NV",
     "tipo": {
@@ -28980,7 +28980,7 @@
     "pod": "POD019787",
     "descripcion": "Graham´s Tawny 40 años-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Graham´s",
     "ano": "NV",
     "tipo": {
@@ -29019,7 +29019,7 @@
     "pod": "POD015337",
     "descripcion": "Graham's LBV 17-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Graham´s",
     "ano": "NV",
     "tipo": {
@@ -29058,7 +29058,7 @@
     "pod": "POD014686",
     "descripcion": "Niepoort 20-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": "NV",
     "tipo": {
@@ -29097,7 +29097,7 @@
     "pod": "POD013279",
     "descripcion": "Niepoort Vintage 22-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": 2022,
     "tipo": {
@@ -29146,7 +29146,7 @@
     "pod": "POD014685",
     "descripcion": "Niepport LBV-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": 2020,
     "tipo": {
@@ -29185,7 +29185,7 @@
     "pod": "POD019783",
     "descripcion": "Noval Colheita 1997 Old Tawny Port-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Noval",
     "ano": 1997,
     "tipo": {
@@ -29224,7 +29224,7 @@
     "pod": "POD002559",
     "descripcion": "Noval Tawny 10-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Noval",
     "ano": "NV",
     "tipo": {
@@ -29263,7 +29263,7 @@
     "pod": "POD019784",
     "descripcion": "Noval Vintage Port 2008-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Noval",
     "ano": 2008,
     "tipo": {
@@ -29302,7 +29302,7 @@
     "pod": "POD019775",
     "descripcion": "Quinta da Corte Tawny 20 años-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta da Corte",
     "ano": "NV",
     "tipo": {
@@ -29341,7 +29341,7 @@
     "pod": "POD019670",
     "descripcion": "Quinta das Carvalhas 07-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta das Carvallas",
     "ano": 2007,
     "tipo": {
@@ -29380,7 +29380,7 @@
     "pod": "POD013219",
     "descripcion": "Quinta do Infantado Tawny 10 Years Old-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Infantado",
     "ano": "NV",
     "tipo": {
@@ -29419,7 +29419,7 @@
     "pod": "POD002178",
     "descripcion": "Van Zellers 30-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Van Zeller",
     "ano": "NV",
     "tipo": {
@@ -29458,7 +29458,7 @@
     "pod": "POD002176",
     "descripcion": "Van Zellers Porto Tawny 10-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Van Zeller",
     "ano": "NV",
     "tipo": {
@@ -29770,7 +29770,7 @@
     "pod": "POD018552",
     "descripcion": "Dido La solucio rosa 23-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Venus La Universal",
     "ano": 2023,
     "tipo": {
@@ -40142,7 +40142,7 @@
     "pod": "POD019520",
     "descripcion": "3/8 Finca Dofi 23-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2023,
     "tipo": {
@@ -40190,7 +40190,7 @@
     "pod": "POD015464",
     "descripcion": "Clos Erasmus 12-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Clos Erasmus",
     "ano": 2012,
     "tipo": {
@@ -40228,7 +40228,7 @@
     "pod": "POD015749",
     "descripcion": "Clos Martinet 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Clos Martinet",
     "ano": 2022,
     "tipo": {
@@ -40279,7 +40279,7 @@
     "pod": "POD010263",
     "descripcion": "Clos Mogador 08-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Clos Mogador",
     "ano": 2008,
     "tipo": {
@@ -40327,7 +40327,7 @@
     "pod": "POD010268",
     "descripcion": "Clos Mogador 14-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Clos Mogador",
     "ano": 2014,
     "tipo": {
@@ -40375,7 +40375,7 @@
     "pod": "POD010264",
     "descripcion": "Clos Mogador 2010-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Clos Mogador",
     "ano": 2010,
     "tipo": {
@@ -40423,7 +40423,7 @@
     "pod": "POD010267",
     "descripcion": "Clos Mogador 2013-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Clos Mogador",
     "ano": 2013,
     "tipo": {
@@ -40471,7 +40471,7 @@
     "pod": "POD013954",
     "descripcion": "Dido Tinto 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Venus La Universal",
     "ano": 2022,
     "tipo": {
@@ -40510,7 +40510,7 @@
     "pod": "POD001707",
     "descripcion": "Dits del Terra Terroir al Limit 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Terroir al Limit",
     "ano": 2021,
     "tipo": {
@@ -40557,7 +40557,7 @@
     "pod": "POD015974",
     "descripcion": "Doble Mg Finca Dofi 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40605,7 +40605,7 @@
     "pod": "POD015971",
     "descripcion": "Doble Mg Gratallops 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40648,7 +40648,7 @@
     "pod": "POD015985",
     "descripcion": "Doble Mg L´Ermita 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40686,7 +40686,7 @@
     "pod": "POD015978",
     "descripcion": "Doble Mg La Baixada 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40734,7 +40734,7 @@
     "pod": "POD015981",
     "descripcion": "Doble Mg Les Aubaguetes 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40772,7 +40772,7 @@
     "pod": "POD008432",
     "descripcion": "Doble Mg. Gratallops 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -40815,7 +40815,7 @@
     "pod": "POD018544",
     "descripcion": "Doix 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2022,
     "tipo": {
@@ -40853,7 +40853,7 @@
     "pod": "POD015972",
     "descripcion": "Finca Dofi 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40901,7 +40901,7 @@
     "pod": "POD011604",
     "descripcion": "Gralton Coster Crivi Cariñena 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Gralton",
     "ano": 2019,
     "tipo": {
@@ -40943,7 +40943,7 @@
     "pod": "POD015969",
     "descripcion": "Gratallops 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -40991,7 +40991,7 @@
     "pod": "POD015975",
     "descripcion": "Jeroboam Finca Dofi 5L 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41039,7 +41039,7 @@
     "pod": "POD015986",
     "descripcion": "Jeroboam L´Ermita 5L 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41077,7 +41077,7 @@
     "pod": "POD015982",
     "descripcion": "Jeroboam Les Aubaguetes 5L 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41115,7 +41115,7 @@
     "pod": "POD009755",
     "descripcion": "L Ermita 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2020,
     "tipo": {
@@ -41153,7 +41153,7 @@
     "pod": "POD015983",
     "descripcion": "L´Ermita 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41201,7 +41201,7 @@
     "pod": "POD011324",
     "descripcion": "La Baixada 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -41249,7 +41249,7 @@
     "pod": "POD015976",
     "descripcion": "La Baixada 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41297,7 +41297,7 @@
     "pod": "POD011328",
     "descripcion": "LErmita 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -41335,7 +41335,7 @@
     "pod": "POD013046",
     "descripcion": "Les Aubaguetes 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2020,
     "tipo": {
@@ -41383,7 +41383,7 @@
     "pod": "POD011326",
     "descripcion": "Les Aubaguetes 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -41431,7 +41431,7 @@
     "pod": "POD015979",
     "descripcion": "Les Aubaguetes 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41479,7 +41479,7 @@
     "pod": "POD019737",
     "descripcion": "Les Manyes 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Terroir al Limit",
     "ano": 2022,
     "tipo": {
@@ -41526,7 +41526,7 @@
     "pod": "POD012960",
     "descripcion": "Les Terrases 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41564,7 +41564,7 @@
     "pod": "POD019643",
     "descripcion": "Mas den Gil Clos Fonta 19-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas d´en Gil",
     "ano": 2019,
     "tipo": {
@@ -41602,7 +41602,7 @@
     "pod": "POD019644",
     "descripcion": "Mas den Gil Maçanella 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas d´en Gil",
     "ano": 2021,
     "tipo": {
@@ -41646,7 +41646,7 @@
     "pod": "POD011511",
     "descripcion": "Mas Doix 1902 Tossal D En Bou 2021-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2021,
     "tipo": {
@@ -41694,7 +41694,7 @@
     "pod": "POD019675",
     "descripcion": "Mas Doix 1903 Coma de Cases 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2021,
     "tipo": {
@@ -41732,7 +41732,7 @@
     "pod": "POD011510",
     "descripcion": "Mas Doix Salanques 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2021,
     "tipo": {
@@ -41775,7 +41775,7 @@
     "pod": "POD018766",
     "descripcion": "Mas Doix Salanques 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2022,
     "tipo": {
@@ -41813,7 +41813,7 @@
     "pod": "POD015973",
     "descripcion": "Mg Finca Dofi 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41861,7 +41861,7 @@
     "pod": "POD011329",
     "descripcion": "Mg L Ermita 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -41899,7 +41899,7 @@
     "pod": "POD015984",
     "descripcion": "Mg L´Ermita 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -41947,7 +41947,7 @@
     "pod": "POD014558",
     "descripcion": "Mg La Baixada 18-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2018,
     "tipo": {
@@ -41985,7 +41985,7 @@
     "pod": "POD011325",
     "descripcion": "Mg La Baixada 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -42033,7 +42033,7 @@
     "pod": "POD015977",
     "descripcion": "Mg La Baixada 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -42081,7 +42081,7 @@
     "pod": "POD014574",
     "descripcion": "Mg Les Aubaguetes 18-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2018,
     "tipo": {
@@ -42129,7 +42129,7 @@
     "pod": "POD011327",
     "descripcion": "Mg Les Aubaguetes 21-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2021,
     "tipo": {
@@ -42177,7 +42177,7 @@
     "pod": "POD015980",
     "descripcion": "Mg Les Aubaguetes 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2022,
     "tipo": {
@@ -42225,7 +42225,7 @@
     "pod": "POD003727",
     "descripcion": "Mg. L Ermita 15-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2015,
     "tipo": {
@@ -42263,7 +42263,7 @@
     "pod": "POD012371",
     "descripcion": "Mg. Les Aubaguetes 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Álvaro Palacios",
     "ano": 2020,
     "tipo": {
@@ -42301,7 +42301,7 @@
     "pod": "POD012989",
     "descripcion": "Murmuri Mas Doix 22-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Priorat",
     "bodega": "Mas Doix",
     "ano": 2022,
     "tipo": {
@@ -42339,7 +42339,7 @@
     "pod": "POD017258",
     "descripcion": "Venus de la Figuera 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Venus La Universal",
     "ano": 2020,
     "tipo": {
@@ -42388,7 +42388,7 @@
     "pod": "NO HAY",
     "descripcion": "Vinya de la Gloria 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Joan D´Anguera",
     "ano": 2017,
     "tipo": {
@@ -42427,7 +42427,7 @@
     "pod": "POD019441",
     "descripcion": "Vinya de la Gloria 20-",
     "pais": "España",
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Joan D´Anguera",
     "ano": 2017,
     "tipo": {
@@ -44531,7 +44531,7 @@
     "pod": "POD016008",
     "descripcion": "Artadi El Carretil 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -44544,7 +44544,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44568,7 +44568,7 @@
     "pod": "POD013042",
     "descripcion": "Artadi El Pison 20-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2020,
     "tipo": {
@@ -44581,7 +44581,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44605,7 +44605,7 @@
     "pod": "POD013043",
     "descripcion": "Artadi El Pison 21-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2021,
     "tipo": {
@@ -44618,7 +44618,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44642,7 +44642,7 @@
     "pod": "POD013688",
     "descripcion": "Artadi La Poza de Ballesteros-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2020,
     "tipo": {
@@ -44655,7 +44655,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44684,7 +44684,7 @@
     "pod": "POD016006",
     "descripcion": "Artadi La Poza de Ballesteros 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -44697,7 +44697,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44726,7 +44726,7 @@
     "pod": "POD016010",
     "descripcion": "Artadi Viña El Pison 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -44739,7 +44739,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44763,7 +44763,7 @@
     "pod": "POD016012",
     "descripcion": "Doble Mg Artadi Viña El Pison 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -44776,7 +44776,7 @@
       "etiqueta": "Doble Magnum (300cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44800,7 +44800,7 @@
     "pod": "POD012339",
     "descripcion": "La Poza de Ballesteros 21-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2021,
     "tipo": {
@@ -44813,7 +44813,7 @@
       "etiqueta": "Botella (75cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44842,7 +44842,7 @@
     "pod": "POD016009",
     "descripcion": "Mg Artadi El Carretil 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -44855,7 +44855,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44879,7 +44879,7 @@
     "pod": "POD011338",
     "descripcion": "Mg Artadi El Pison 21-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2021,
     "tipo": {
@@ -44892,7 +44892,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44916,7 +44916,7 @@
     "pod": "POD016007",
     "descripcion": "Mg Artadi La Poza de Ballesteros 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -44929,7 +44929,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -44958,7 +44958,7 @@
     "pod": "POD011337",
     "descripcion": "Mg Artadi San Lazaro 21-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2021,
     "tipo": {
@@ -44971,7 +44971,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -45000,7 +45000,7 @@
     "pod": "POD016005",
     "descripcion": "Mg Artadi San Lazaro 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -45013,7 +45013,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -45042,7 +45042,7 @@
     "pod": "POD016011",
     "descripcion": "Mg Artadi Viña El Pison 22-",
     "pais": "España",
-    "region": "País Vasco",
+    "region": "Rioja Alavesa",
     "bodega": "Artadi",
     "ano": 2022,
     "tipo": {
@@ -45055,7 +45055,7 @@
       "etiqueta": "Magnum (150cl)"
     },
     "uvas": [
-      "Hondarribi Beltza"
+      "Tempranillo"
     ],
     "uvas_confianza": "alta",
     "bodega_general": {
@@ -83164,7 +83164,7 @@
     "pod": "POD011809",
     "descripcion": "Casa Ferreirinha Douro Rva Especial 14-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Casa Ferreirinha",
     "ano": 2014,
     "tipo": {
@@ -83204,7 +83204,7 @@
     "pod": "POD016788",
     "descripcion": "Monte Meao Vinha da Cantina 22-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Vale Meao",
     "ano": 2022,
     "tipo": {
@@ -83244,7 +83244,7 @@
     "pod": "POD016789",
     "descripcion": "Monte Meao Vinha dos Novo 22-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Vale Meao",
     "ano": 2022,
     "tipo": {
@@ -83283,7 +83283,7 @@
     "pod": "POD014680",
     "descripcion": "Niepoort Batuta 21-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": 2021,
     "tipo": {
@@ -83323,7 +83323,7 @@
     "pod": "POD012649",
     "descripcion": "Niepoort Douro Charme 22-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": 2022,
     "tipo": {
@@ -83373,7 +83373,7 @@
     "pod": "POD016808",
     "descripcion": "Quinta do Vale Meao Douro 22-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Quinta do Vale Meao",
     "ano": 2022,
     "tipo": {
@@ -83424,7 +83424,7 @@
     "pod": "POD015577",
     "descripcion": "Xisto Cru-",
     "pais": "Portugal",
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Luis Seabra",
     "ano": 2021,
     "tipo": {
@@ -84069,7 +84069,7 @@
     "pod": null,
     "descripcion": null,
     "pais": null,
-    "region": "Norte",
+    "region": "Douro",
     "bodega": "Niepoort",
     "ano": 2022,
     "tipo": {
@@ -85240,7 +85240,7 @@
     "pod": null,
     "descripcion": null,
     "pais": null,
-    "region": "Cataluña",
+    "region": "Montsant",
     "bodega": "Joan D´Anguera",
     "ano": 2017,
     "tipo": {
