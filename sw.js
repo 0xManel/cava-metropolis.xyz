@@ -1,4 +1,4 @@
-const CACHE = 'stock-cava-2026-02-25-regions-final';
+const CACHE = 'stock-cava-2026-02-25-critical-fixes';
 const ASSETS = ['/', '/index.html', '/data/bodega_webapp.json'];
 
 self.addEventListener('install', e => {

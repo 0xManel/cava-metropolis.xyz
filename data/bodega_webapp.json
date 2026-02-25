@@ -1087,8 +1087,8 @@
     "bodega": "Familia Fábregas",
     "ano": 2021,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -10957,8 +10957,8 @@
     "bodega": "Comte Georges de Vögué",
     "ano": 2021,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -16263,8 +16263,8 @@
     "bodega": "Comtes Georges de Vogüé",
     "ano": 2022,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -17917,8 +17917,8 @@
     "bodega": "M. Chapoutier",
     "ano": 2000,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -17954,8 +17954,8 @@
     "bodega": "M. Chapoutier",
     "ano": 2018,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18001,8 +18001,8 @@
     "bodega": "M. Chapoutier",
     "ano": 2021,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18048,8 +18048,8 @@
     "bodega": "M. Chapoutier",
     "ano": 2013,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18095,8 +18095,8 @@
     "bodega": "M. Chapoutier",
     "ano": 2015,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18142,8 +18142,8 @@
     "bodega": "M. Chapoutier",
     "ano": 2021,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18189,8 +18189,8 @@
     "bodega": "Michel Chapoutier",
     "ano": 2022,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18511,8 +18511,8 @@
     "bodega": "Etienne Guigal",
     "ano": 2015,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -18548,8 +18548,8 @@
     "bodega": "Jean-Louis Chave",
     "ano": 2017,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -19373,8 +19373,8 @@
     "bodega": "Marchesi di Barolo",
     "ano": 2023,
     "tipo": {
-      "codigo": "BL",
-      "nombre": "Blanco"
+      "codigo": "TO",
+      "nombre": "Tinto"
     },
     "formato": {
       "cl": 75,
@@ -22567,8 +22567,8 @@
     "bodega": "Attis",
     "ano": 2023,
     "tipo": {
-      "codigo": "DU",
-      "nombre": "Dulce"
+      "codigo": "BL",
+      "nombre": "Blanco"
     },
     "formato": {
       "cl": 50,
@@ -55715,8 +55715,8 @@
     "bodega": "Comtesse de Cherisey",
     "ano": 2019,
     "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
+      "codigo": "BL",
+      "nombre": "Blanco"
     },
     "formato": {
       "cl": 75,
@@ -59908,8 +59908,8 @@
     "bodega": "Leroy",
     "ano": 2017,
     "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
+      "codigo": "BL",
+      "nombre": "Blanco"
     },
     "formato": {
       "cl": 75,
@@ -80736,8 +80736,8 @@
     "bodega": "Vaira Aurelj",
     "ano": 2021,
     "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
+      "codigo": "BL",
+      "nombre": "Blanco"
     },
     "formato": {
       "cl": 75,
@@ -82980,8 +82980,8 @@
     "bodega": "Savage",
     "ano": 2023,
     "tipo": {
-      "codigo": "TO",
-      "nombre": "Tinto"
+      "codigo": "BL",
+      "nombre": "Blanco"
     },
     "formato": {
       "cl": 75,
