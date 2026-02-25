@@ -1,4 +1,4 @@
-const CACHE = 'stock-cava-2026-02-25-grape-proportions';
+const CACHE = 'stock-cava-2026-02-25-realtime-sync';
 const ASSETS = ['/', '/index.html', '/data/bodega_webapp.json'];
 
 self.addEventListener('install', e => {
@@ -11,6 +11,16 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET') {
+    return;
+  }
+
+  const url = new URL(e.request.url);
+  if (url.pathname.startsWith('/api/')) {
+    e.respondWith(fetch(e.request, { cache: 'no-store' }));
+    return;
+  }
+
   e.respondWith(
     fetch(e.request).then(r => {
       const clone = r.clone();

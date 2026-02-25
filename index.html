@@ -622,6 +622,17 @@
             align-items: flex-end;
         }
 
+        .top-left-actions {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: flex-start;
+        }
+
         @keyframes dropToPlace {
             0% { transform: translateY(-26px) scale(0.96); }
             60% { transform: translateY(2px) scale(1.005); }
@@ -686,6 +697,32 @@
             text-transform: lowercase;
             white-space: nowrap;
             text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
+        }
+
+        .session-user-card {
+            position: fixed;
+            top: max(10px, env(safe-area-inset-top));
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 110;
+            min-width: 160px;
+            max-width: min(76vw, 420px);
+            padding: 8px 14px;
+            border-radius: 14px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 16px rgba(0,0,0,0.24);
+            pointer-events: none;
         }
         .logout-btn,
         .admin-btn {
@@ -919,7 +956,9 @@
             .modal-title { font-size: 1.5rem; }
             #searchInput { font-size: 1rem; padding: 1rem 1rem 1rem 2rem; }
             body { padding-top: 18dvh; }
+            .top-left-actions { top: 15px; left: 15px; gap: 7px; }
             .top-actions { top: 15px; right: 15px; gap: 7px; }
+            .session-user-card { top: max(8px, env(safe-area-inset-top)); }
         }
 
         body.keyboard-open { padding-top: 2dvh; }
@@ -1054,6 +1093,10 @@
     <canvas id="particleCanvas"></canvas>
 
     <div class="app-signature" aria-hidden="true">stockcava@2026</div>
+    <div class="session-user-card" id="sessionUserCard">--</div>
+    <div class="top-left-actions">
+        <button class="logout-btn" id="logoutBtn">Logout</button>
+    </div>
 
     <div class="top-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
@@ -1290,6 +1333,7 @@
 
         // --- STATE ---
         let refs = [];            // Full dataset from JSON
+        let baseRefs = [];        // Immutable snapshot from JSON
         let searchIndex = [];     // Pre-computed search strings
         let pvpMedio = {};        // Average PVP per pod
         let subsets = {};         // Indices per establishment
@@ -1297,8 +1341,24 @@
         let currentSort = 'abc';
         let currentEditPod = null;
         let currentLang = 'es';
+        let syncTimer = null;
+        let syncInFlight = false;
+        let syncDisabled = false;
+        const EDITS_KEY = 'cava_edits';
+        const MOVEMENTS_KEY = 'cava_daily_movements_v1';
+        const SYNC_PENDING_KEY = 'cava_sync_pending_v1';
+        const SYNC_REVISION_KEY = 'cava_sync_revision_v1';
+        const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
+        const SYNC_INTERVAL_MS = 30000;
+        const SYNC_ENDPOINT = '/api/stock-sync';
+        let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
+        if (!syncClientId) {
+            syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+            sessionStorage.setItem(SYNC_CLIENT_KEY, syncClientId);
+        }
         const currentUserName = sessionStorage.getItem(AUTH_KEYS.sessionUser) || localStorage.getItem(AUTH_KEYS.persistentUser) || 'unknown';
         const currentUserNormalized = (currentUserName || '').trim().toLowerCase();
+        const sessionUserCard = document.getElementById('sessionUserCard');
         const normalizeEstablishment = (value) => {
             const normalized = (value || '').trim().toLowerCase();
             return EST_KEYS.includes(normalized) ? normalized : null;
@@ -1329,12 +1389,30 @@
             ? 'spa'
             : (baseEstablishment || (EST_KEYS.includes(currentUserScope) ? currentUserScope : 'spa'));
 
+        if (sessionUserCard) {
+            const cardUser = (currentUserName || '').trim() || 'No logado';
+            sessionUserCard.textContent = cardUser;
+        }
+
         function hasAdminAccess() {
             return currentUserRole === 'admin' || currentUserRole === 'adminmaster';
         }
 
         function hasEditAccess() {
             return hasAdminAccess();
+        }
+
+        function clearAuthState() {
+            sessionStorage.removeItem(AUTH_KEYS.sessionFlag);
+            sessionStorage.removeItem(AUTH_KEYS.sessionUser);
+            sessionStorage.removeItem(AUTH_KEYS.sessionEstablishment);
+            sessionStorage.removeItem(AUTH_KEYS.sessionRole);
+            sessionStorage.removeItem(AUTH_KEYS.sessionScope);
+            localStorage.removeItem(AUTH_KEYS.persistentFlag);
+            localStorage.removeItem(AUTH_KEYS.persistentUser);
+            localStorage.removeItem(AUTH_KEYS.persistentEstablishment);
+            localStorage.removeItem(AUTH_KEYS.persistentRole);
+            localStorage.removeItem(AUTH_KEYS.persistentScope);
         }
 
         // Typewriter state
@@ -1431,34 +1509,113 @@
         }
 
         // --- DATA LOADING ---
-        // TODO: [SYNC] Replace fetch with real-time API subscription
-        fetch('data/bodega_webapp.json')
+        fetch('data/bodega_webapp.json', { cache: 'no-store' })
             .then(r => r.json())
             .then(data => {
                 // Filter out garbage entries (no pod, no descripcion, or Excel errors like #N/D)
-                refs = data.filter(r => r.pod && r.descripcion && !r.descripcion.startsWith('#'));
+                baseRefs = data.filter(r => r.pod && r.descripcion && !r.descripcion.startsWith('#'));
+                refs = JSON.parse(JSON.stringify(baseRefs));
                 applyLocalEdits();
                 preProcess();
                 updateRefCount();
-                console.log(`✓ Loaded ${refs.length} references (filtered ${data.length - refs.length} incomplete)`);
+                startRealtimeSync();
+                console.log(`✓ Loaded ${refs.length} references (filtered ${data.length - baseRefs.length} incomplete)`);
             })
             .catch(err => {
                 console.error('Error loading data:', err);
+                baseRefs = [];
                 refs = [];
             });
 
         // --- LOCAL EDIT PERSISTENCE ---
-        // TODO: [SYNC] Replace localStorage with API POST for edits
-        function applyLocalEdits() {
+        function parseJsonArray(rawValue) {
+            if (!rawValue) return [];
             try {
-                const edits = JSON.parse(localStorage.getItem('cava_edits') || '[]');
-                edits.forEach(edit => {
-                    const ref = refs.find(r => r.pod === edit.pod);
-                    if (!ref) return;
-                    setNestedValue(ref, edit.path, edit.value);
+                const parsed = JSON.parse(rawValue);
+                return Array.isArray(parsed) ? parsed : [];
+            } catch {
+                return [];
+            }
+        }
+
+        function parseJsonObject(rawValue) {
+            if (!rawValue) return {};
+            try {
+                const parsed = JSON.parse(rawValue);
+                if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+                return parsed;
+            } catch {
+                return {};
+            }
+        }
+
+        function createMutationId() {
+            return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+        }
+
+        function readPendingMutations() {
+            return parseJsonArray(localStorage.getItem(SYNC_PENDING_KEY));
+        }
+
+        function writePendingMutations(list) {
+            localStorage.setItem(SYNC_PENDING_KEY, JSON.stringify(Array.isArray(list) ? list : []));
+        }
+
+        function queuePendingMutation(mutation) {
+            const queue = readPendingMutations();
+            if (mutation.type === 'edit' && mutation.payload?.pod && mutation.payload?.path) {
+                const filtered = queue.filter((item) => {
+                    if (item.type !== 'edit') return true;
+                    if (!item.payload) return true;
+                    return !(item.payload.pod === mutation.payload.pod && item.payload.path === mutation.payload.path);
                 });
-                if (edits.length) console.log(`✓ Applied ${edits.length} local edits`);
-            } catch (e) { /* ignore parse errors */ }
+                filtered.push(mutation);
+                if (filtered.length > 2000) filtered.splice(0, filtered.length - 2000);
+                writePendingMutations(filtered);
+                return;
+            }
+            queue.push(mutation);
+            if (queue.length > 2000) queue.splice(0, queue.length - 2000);
+            writePendingMutations(queue);
+        }
+
+        function readStoredEdits() {
+            return parseJsonArray(localStorage.getItem(EDITS_KEY))
+                .filter((edit) => edit && edit.pod && edit.path);
+        }
+
+        function applyEditsToRefs(editList) {
+            editList.forEach((edit) => {
+                const ref = refs.find((item) => item.pod === edit.pod);
+                if (!ref) return;
+                setNestedValue(ref, edit.path, edit.value);
+            });
+        }
+
+        function applyLocalEdits() {
+            const edits = readStoredEdits();
+            applyEditsToRefs(edits);
+            if (edits.length) console.log(`✓ Applied ${edits.length} local edits`);
+        }
+
+        function rebuildRefsFromLocalSnapshot() {
+            if (!baseRefs.length) return;
+            refs = JSON.parse(JSON.stringify(baseRefs));
+            applyLocalEdits();
+            preProcess();
+            updateRefCount();
+
+            if (typeof triggerSearch === 'function') {
+                triggerSearch();
+            }
+
+            const modal = document.getElementById('wineModal');
+            if (modal && modal.classList.contains('active') && currentEditPod && typeof openModal === 'function') {
+                const liveRef = refs.find((item) => item.pod === currentEditPod);
+                if (liveRef) {
+                    openModal(liveRef);
+                }
+            }
         }
 
         function setNestedValue(obj, path, value) {
@@ -1472,15 +1629,25 @@
         }
 
         function saveEdit(pod, path, value) {
-            try {
-                const edits = JSON.parse(localStorage.getItem('cava_edits') || '[]');
-                // Upsert: replace existing edit for same pod+path
-                const idx = edits.findIndex(e => e.pod === pod && e.path === path);
-                if (idx >= 0) edits[idx].value = value;
-                else edits.push({ pod, path, value });
-                localStorage.setItem('cava_edits', JSON.stringify(edits));
-                // TODO: [SYNC] Send edit to server via WebSocket/API
-            } catch (e) { /* ignore */ }
+            const edits = readStoredEdits();
+            const editPayload = {
+                pod,
+                path,
+                value,
+                updatedAt: new Date().toISOString(),
+                updatedBy: currentUserName
+            };
+            const idx = edits.findIndex((entry) => entry.pod === pod && entry.path === path);
+            if (idx >= 0) edits[idx] = editPayload;
+            else edits.push(editPayload);
+            localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+
+            queuePendingMutation({
+                id: createMutationId(),
+                type: 'edit',
+                payload: editPayload
+            });
+            void runRealtimeSyncCycle();
         }
 
         // --- PRE-PROCESSING ---
@@ -1732,9 +1899,17 @@
         const wineModal = document.getElementById('wineModal');
         const editButton = document.getElementById('btnEditWine');
         const adminButton = document.getElementById('adminBtn');
+        const logoutButton = document.getElementById('logoutBtn');
         const consumeButton = document.getElementById('btnConsume');
         const consumeQtySelect = document.getElementById('consumeQty');
         const consumeFeedback = document.getElementById('consumeFeedback');
+
+        if (logoutButton) {
+            logoutButton.addEventListener('click', () => {
+                clearAuthState();
+                window.location.replace('login.html');
+            });
+        }
 
         if (adminButton) {
             adminButton.style.display = hasAdminAccess() ? 'inline-flex' : 'none';
@@ -1743,7 +1918,20 @@
             });
         }
 
-        const movementLogKey = 'cava_daily_movements_v1';
+        const movementLogKey = MOVEMENTS_KEY;
+
+        function getLocalDateKey(dateInput = new Date()) {
+            const date = new Date(dateInput);
+            if (Number.isNaN(date.getTime())) {
+                const fallback = new Date();
+                return `${fallback.getFullYear()}-${String(fallback.getMonth() + 1).padStart(2, '0')}-${String(fallback.getDate()).padStart(2, '0')}`;
+            }
+            return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+        }
+
+        function readMovementLogStore() {
+            return parseJsonObject(localStorage.getItem(movementLogKey));
+        }
 
         function setConsumeFeedback(message) {
             if (!consumeFeedback) return;
@@ -1759,12 +1947,18 @@
 
         function appendMovementLog(entry) {
             try {
-                const today = new Date().toISOString().slice(0, 10);
-                const raw = localStorage.getItem(movementLogKey);
-                const parsed = raw ? JSON.parse(raw) : {};
+                const today = getLocalDateKey();
+                const parsed = readMovementLogStore();
                 if (!Array.isArray(parsed[today])) parsed[today] = [];
                 parsed[today].push(entry);
                 localStorage.setItem(movementLogKey, JSON.stringify(parsed));
+                queuePendingMutation({
+                    id: createMutationId(),
+                    type: 'movement',
+                    dateKey: today,
+                    payload: entry
+                });
+                void runRealtimeSyncCycle();
             } catch {
                 return;
             }
@@ -1952,6 +2146,101 @@
 
             // Refresh modal
             openModal(ref);
+        });
+
+        function isPlainObject(value) {
+            return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+        }
+
+        function applyRemoteState(state) {
+            if (!isPlainObject(state)) return;
+            if (Array.isArray(state.edits)) {
+                localStorage.setItem(EDITS_KEY, JSON.stringify(state.edits));
+            }
+            if (isPlainObject(state.movementLog)) {
+                localStorage.setItem(MOVEMENTS_KEY, JSON.stringify(state.movementLog));
+            }
+            rebuildRefsFromLocalSnapshot();
+        }
+
+        async function runRealtimeSyncCycle() {
+            if (syncInFlight || !baseRefs.length) return;
+            if (syncDisabled) return;
+            if (!navigator.onLine) return;
+            syncInFlight = true;
+            try {
+                const pendingMutations = readPendingMutations();
+                const knownRevision = Number(localStorage.getItem(SYNC_REVISION_KEY) || '0');
+
+                const response = await fetch(SYNC_ENDPOINT, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    cache: 'no-store',
+                    body: JSON.stringify({
+                        clientId: syncClientId,
+                        knownRevision,
+                        mutations: pendingMutations
+                    })
+                });
+
+                if (response.status === 404) {
+                    syncDisabled = true;
+                    return;
+                }
+                if (!response.ok) return;
+                const payload = await response.json();
+                if (!payload || payload.ok !== true) return;
+
+                if (Array.isArray(pendingMutations) && pendingMutations.length > 0) {
+                    writePendingMutations([]);
+                }
+
+                const revisionValue = Number(payload.revision);
+                if (Number.isFinite(revisionValue) && revisionValue >= 0) {
+                    localStorage.setItem(SYNC_REVISION_KEY, String(revisionValue));
+                }
+
+                if (isPlainObject(payload.state)) {
+                    const hasPending = Array.isArray(pendingMutations) && pendingMutations.length > 0;
+                    const shouldApply = hasPending || (Number.isFinite(revisionValue) && revisionValue > knownRevision);
+                    if (shouldApply) {
+                        applyRemoteState(payload.state);
+                    }
+                }
+            } catch {
+                return;
+            } finally {
+                syncInFlight = false;
+            }
+        }
+
+        function startRealtimeSync() {
+            if (syncTimer) {
+                clearInterval(syncTimer);
+            }
+            void runRealtimeSyncCycle();
+            syncTimer = window.setInterval(() => {
+                void runRealtimeSyncCycle();
+            }, SYNC_INTERVAL_MS);
+        }
+
+        window.addEventListener('storage', (event) => {
+            if (event.key === EDITS_KEY) {
+                rebuildRefsFromLocalSnapshot();
+                return;
+            }
+            if (event.key === MOVEMENTS_KEY) {
+                return;
+            }
+            if (event.key === SYNC_REVISION_KEY) {
+                void runRealtimeSyncCycle();
+            }
+        });
+
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                void runRealtimeSyncCycle();
+            }
         });
 
         // --- LANGUAGE ---
@@ -2176,10 +2465,6 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').catch(() => {});
         }
-
-        // TODO: [SYNC] Add WebSocket connection for real-time data updates
-        // TODO: [SYNC] Implement optimistic UI updates with server reconciliation
-        // TODO: [SYNC] Add conflict resolution for concurrent edits across devices
     </script>
 </body>
 </html>

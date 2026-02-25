@@ -1,0 +1,199 @@
+const STATE_KEY = 'cava:stock:sync:v1';
+const APPLIED_IDS_LIMIT = 5000;
+
+const fallbackState = {
+  revision: 0,
+  updatedAt: null,
+  edits: [],
+  movementLog: {},
+  appliedMutationIds: []
+};
+
+if (!globalThis.__cavaSyncMemoryState) {
+  globalThis.__cavaSyncMemoryState = { ...fallbackState };
+}
+
+function isPlainObject(value) {
+  return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+}
+
+function sanitizeEdits(value) {
+  if (!Array.isArray(value)) return [];
+  return value
+    .filter((edit) => isPlainObject(edit) && typeof edit.pod === 'string' && typeof edit.path === 'string')
+    .map((edit) => ({
+      pod: String(edit.pod),
+      path: String(edit.path),
+      value: edit.value,
+      updatedAt: typeof edit.updatedAt === 'string' ? edit.updatedAt : null,
+      updatedBy: typeof edit.updatedBy === 'string' ? edit.updatedBy : null
+    }));
+}
+
+function sanitizeMovementLog(value) {
+  if (!isPlainObject(value)) return {};
+  const out = {};
+  Object.keys(value).forEach((key) => {
+    if (Array.isArray(value[key])) {
+      out[key] = value[key].filter((entry) => isPlainObject(entry));
+    }
+  });
+  return out;
+}
+
+function sanitizeState(raw) {
+  if (!isPlainObject(raw)) return { ...fallbackState };
+  return {
+    revision: Number.isFinite(Number(raw.revision)) ? Number(raw.revision) : 0,
+    updatedAt: typeof raw.updatedAt === 'string' ? raw.updatedAt : null,
+    edits: sanitizeEdits(raw.edits),
+    movementLog: sanitizeMovementLog(raw.movementLog),
+    appliedMutationIds: Array.isArray(raw.appliedMutationIds)
+      ? raw.appliedMutationIds.filter((id) => typeof id === 'string').slice(-APPLIED_IDS_LIMIT)
+      : []
+  };
+}
+
+async function runKvCommand(command) {
+  const url = process.env.KV_REST_API_URL
+    || process.env.UPSTASH_REDIS_REST_URL
+    || process.env.STORAGE_REST_API_URL
+    || process.env.STORAGE_URL;
+  const token = process.env.KV_REST_API_TOKEN
+    || process.env.UPSTASH_REDIS_REST_TOKEN
+    || process.env.STORAGE_REST_API_TOKEN
+    || process.env.STORAGE_TOKEN;
+  if (!url || !token) return null;
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(command)
+    });
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
+}
+
+async function loadState() {
+  const kvResponse = await runKvCommand(['GET', STATE_KEY]);
+  const rawValue = kvResponse && Object.prototype.hasOwnProperty.call(kvResponse, 'result')
+    ? kvResponse.result
+    : null;
+  if (typeof rawValue === 'string') {
+    try {
+      return sanitizeState(JSON.parse(rawValue));
+    } catch {
+      return sanitizeState(globalThis.__cavaSyncMemoryState);
+    }
+  }
+  return sanitizeState(globalThis.__cavaSyncMemoryState);
+}
+
+async function saveState(state) {
+  const sanitized = sanitizeState(state);
+  globalThis.__cavaSyncMemoryState = sanitized;
+  await runKvCommand(['SET', STATE_KEY, JSON.stringify(sanitized)]);
+  return sanitized;
+}
+
+function applyEditMutation(state, payload) {
+  if (!isPlainObject(payload)) return false;
+  if (typeof payload.pod !== 'string' || typeof payload.path !== 'string') return false;
+  const nextEdit = {
+    pod: payload.pod,
+    path: payload.path,
+    value: payload.value,
+    updatedAt: typeof payload.updatedAt === 'string' ? payload.updatedAt : new Date().toISOString(),
+    updatedBy: typeof payload.updatedBy === 'string' ? payload.updatedBy : null
+  };
+  const idx = state.edits.findIndex((edit) => edit.pod === nextEdit.pod && edit.path === nextEdit.path);
+  if (idx >= 0) state.edits[idx] = nextEdit;
+  else state.edits.push(nextEdit);
+  return true;
+}
+
+function applyMovementMutation(state, mutation) {
+  if (!isPlainObject(mutation) || !isPlainObject(mutation.payload)) return false;
+  const dayKey = typeof mutation.dateKey === 'string' && mutation.dateKey
+    ? mutation.dateKey
+    : new Date().toISOString().slice(0, 10);
+  if (!Array.isArray(state.movementLog[dayKey])) {
+    state.movementLog[dayKey] = [];
+  }
+  state.movementLog[dayKey].push(mutation.payload);
+  return true;
+}
+
+function readRequestBody(req) {
+  if (!req.body) return {};
+  if (typeof req.body === 'string') {
+    try {
+      return JSON.parse(req.body);
+    } catch {
+      return {};
+    }
+  }
+  return isPlainObject(req.body) ? req.body : {};
+}
+
+module.exports = async (req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
+
+  if (req.method !== 'GET' && req.method !== 'POST') {
+    res.status(405).json({ ok: false, error: 'method_not_allowed' });
+    return;
+  }
+
+  const incoming = readRequestBody(req);
+  const knownRevision = Number(incoming.knownRevision || 0);
+  const incomingMutations = Array.isArray(incoming.mutations) ? incoming.mutations : [];
+  const state = await loadState();
+
+  const appliedIds = new Set(state.appliedMutationIds);
+  let changed = false;
+
+  incomingMutations.forEach((mutation) => {
+    if (!isPlainObject(mutation) || typeof mutation.type !== 'string') return;
+    const mutationId = typeof mutation.id === 'string' ? mutation.id : null;
+    if (mutationId && appliedIds.has(mutationId)) return;
+
+    let applied = false;
+    if (mutation.type === 'edit') {
+      applied = applyEditMutation(state, mutation.payload);
+    } else if (mutation.type === 'movement') {
+      applied = applyMovementMutation(state, mutation);
+    }
+
+    if (applied) {
+      changed = true;
+      if (mutationId) {
+        appliedIds.add(mutationId);
+      }
+    }
+  });
+
+  if (changed) {
+    state.revision += 1;
+    state.updatedAt = new Date().toISOString();
+  }
+  state.appliedMutationIds = Array.from(appliedIds).slice(-APPLIED_IDS_LIMIT);
+  const savedState = changed ? await saveState(state) : state;
+
+  res.status(200).json({
+    ok: true,
+    revision: savedState.revision,
+    changed,
+    hasUpdate: savedState.revision > knownRevision,
+    state: {
+      edits: savedState.edits,
+      movementLog: savedState.movementLog,
+      updatedAt: savedState.updatedAt
+    }
+  });
+};

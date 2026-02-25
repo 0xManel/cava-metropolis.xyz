@@ -245,6 +245,17 @@
             align-items: flex-end;
         }
 
+        .top-left-actions {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: flex-start;
+        }
+
         .action-btn {
             width: 60px;
             height: 30px;
@@ -278,8 +289,37 @@
             text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
         }
 
+        .session-user-card {
+            position: fixed;
+            top: max(10px, env(safe-area-inset-top));
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 11;
+            min-width: 160px;
+            max-width: min(76vw, 420px);
+            padding: 8px 14px;
+            border-radius: 14px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 16px rgba(0,0,0,0.24);
+            pointer-events: none;
+        }
+
         @media (max-width: 820px) {
             .user-grid { grid-template-columns: 1fr; }
+            .top-left-actions { top: 15px; left: 15px; }
+            .top-actions { top: 15px; right: 15px; }
+            .session-user-card { top: max(8px, env(safe-area-inset-top)); }
         }
 
     </style>
@@ -350,6 +390,10 @@
     </script>
 
     <canvas id="particleCanvas"></canvas>
+    <div class="session-user-card" id="sessionUserCard">--</div>
+    <div class="top-left-actions">
+        <button class="action-btn" id="logoutBtn">Logout</button>
+    </div>
 
     <div class="top-actions">
         <button class="action-btn" id="backBtn">Volver</button>
@@ -425,8 +469,13 @@
         const role = isOwner ? 'adminmaster' : ((storedRole === 'adminmaster' ? 'admin' : storedRole) || 'user');
         const scope = isOwner ? 'all' : ((storedScope === 'all' ? 'spa' : storedScope) || 'spa');
         const movementLogKey = 'cava_daily_movements_v1';
+        const SYNC_ENDPOINT = '/api/stock-sync';
+        const SYNC_INTERVAL_MS = 30000;
+        const SYNC_REVISION_KEY = 'cava_sync_revision_v1';
+        const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
         const textarea = document.getElementById('dailyText');
         const zoneTitle = document.getElementById('zoneTitle');
+        const sessionUserCard = document.getElementById('sessionUserCard');
         const userManagementCard = document.getElementById('userManagementCard');
         const userListBody = document.getElementById('userListBody');
         const umUsername = document.getElementById('umUsername');
@@ -436,7 +485,27 @@
         const umStatus = document.getElementById('umStatus');
         const userRegistryKey = 'cava_user_registry_v1';
         const OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+        const authKeys = {
+            sessionFlag: 'cava_login_demo',
+            sessionUser: 'cava_login_user',
+            sessionEstablishment: 'cava_login_establishment',
+            sessionRole: 'cava_login_role',
+            sessionScope: 'cava_login_scope',
+            persistentFlag: 'cava_login_persistent_access',
+            persistentUser: 'cava_login_persistent_user',
+            persistentEstablishment: 'cava_login_persistent_establishment',
+            persistentRole: 'cava_login_persistent_role',
+            persistentScope: 'cava_login_persistent_scope'
+        };
         let selectedUser = null;
+        let syncTimer = null;
+        let syncInFlight = false;
+        let syncDisabled = false;
+        let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
+        if (!syncClientId) {
+            syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+            sessionStorage.setItem(SYNC_CLIENT_KEY, syncClientId);
+        }
 
         function isPasswordHash(value) {
             return typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value.trim());
@@ -450,6 +519,10 @@
 
         if (zoneTitle) {
             zoneTitle.textContent = role === 'adminmaster' ? 'Adminmaster Zone' : 'Admin Zone';
+        }
+        if (sessionUserCard) {
+            const cardUser = (currentUser || '').trim() || 'No logado';
+            sessionUserCard.textContent = cardUser;
         }
 
         function defaultRegistry() {
@@ -667,11 +740,46 @@
             return key || '—';
         }
 
+        function getLocalDateKey(dateInput = new Date()) {
+            const date = new Date(dateInput);
+            if (Number.isNaN(date.getTime())) {
+                const fallback = new Date();
+                return `${fallback.getFullYear()}-${String(fallback.getMonth() + 1).padStart(2, '0')}-${String(fallback.getDate()).padStart(2, '0')}`;
+            }
+            return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+        }
+
+        function isPlainObject(value) {
+            return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+        }
+
+        function readMovementLogStore() {
+            try {
+                const raw = localStorage.getItem(movementLogKey);
+                if (!raw) return {};
+                const parsed = JSON.parse(raw);
+                if (!isPlainObject(parsed)) return {};
+                return parsed;
+            } catch {
+                return {};
+            }
+        }
+
         function buildReport() {
-            const today = new Date().toISOString().slice(0, 10);
-            const raw = localStorage.getItem(movementLogKey);
-            const parsed = raw ? JSON.parse(raw) : {};
-            const entries = Array.isArray(parsed[today]) ? parsed[today] : [];
+            const today = getLocalDateKey();
+            const parsed = readMovementLogStore();
+            const entries = [];
+            Object.keys(parsed).forEach((dateKey) => {
+                const list = parsed[dateKey];
+                if (!Array.isArray(list)) return;
+                list.forEach((entry) => {
+                    if (!entry || typeof entry !== 'object') return;
+                    const entryDay = entry.at ? getLocalDateKey(entry.at) : dateKey;
+                    if (entryDay === today) {
+                        entries.push(entry);
+                    }
+                });
+            });
 
             const visibleEntries = entries.filter((entry) => {
                 if (role === 'adminmaster') return true;
@@ -697,6 +805,64 @@
             textarea.value = buildReport();
         }
 
+        function applyRemoteState(state) {
+            if (!isPlainObject(state)) return;
+            if (isPlainObject(state.movementLog)) {
+                localStorage.setItem(movementLogKey, JSON.stringify(state.movementLog));
+                renderReport();
+            }
+        }
+
+        async function runRealtimeSyncCycle() {
+            if (syncInFlight) return;
+            if (syncDisabled) return;
+            if (!navigator.onLine) return;
+            syncInFlight = true;
+            try {
+                const knownRevision = Number(localStorage.getItem(SYNC_REVISION_KEY) || '0');
+                const response = await fetch(SYNC_ENDPOINT, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    cache: 'no-store',
+                    body: JSON.stringify({
+                        clientId: syncClientId,
+                        knownRevision,
+                        mutations: []
+                    })
+                });
+                if (response.status === 404) {
+                    syncDisabled = true;
+                    return;
+                }
+                if (!response.ok) return;
+                const payload = await response.json();
+                if (!payload || payload.ok !== true) return;
+
+                const revisionValue = Number(payload.revision);
+                if (Number.isFinite(revisionValue) && revisionValue >= 0) {
+                    localStorage.setItem(SYNC_REVISION_KEY, String(revisionValue));
+                }
+
+                if (isPlainObject(payload.state) && payload.hasUpdate) {
+                    applyRemoteState(payload.state);
+                }
+            } catch {
+                return;
+            } finally {
+                syncInFlight = false;
+            }
+        }
+
+        function startRealtimeSync() {
+            if (syncTimer) {
+                clearInterval(syncTimer);
+            }
+            void runRealtimeSyncCycle();
+            syncTimer = window.setInterval(() => {
+                void runRealtimeSyncCycle();
+            }, SYNC_INTERVAL_MS);
+        }
+
         function copyReport() {
             const copyBtn = document.getElementById('copyBtn');
             navigator.clipboard.writeText(textarea.value).then(() => {
@@ -717,6 +883,23 @@
         document.getElementById('backBtn').addEventListener('click', () => {
             window.location.href = 'index.html';
         });
+
+        const logoutBtn = document.getElementById('logoutBtn');
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', () => {
+                sessionStorage.removeItem(authKeys.sessionFlag);
+                sessionStorage.removeItem(authKeys.sessionUser);
+                sessionStorage.removeItem(authKeys.sessionEstablishment);
+                sessionStorage.removeItem(authKeys.sessionRole);
+                sessionStorage.removeItem(authKeys.sessionScope);
+                localStorage.removeItem(authKeys.persistentFlag);
+                localStorage.removeItem(authKeys.persistentUser);
+                localStorage.removeItem(authKeys.persistentEstablishment);
+                localStorage.removeItem(authKeys.persistentRole);
+                localStorage.removeItem(authKeys.persistentScope);
+                window.location.replace('login.html');
+            });
+        }
 
         if (isOwner) {
             renderUserRegistry();
@@ -788,7 +971,25 @@
         initParticles();
         animateParticles();
 
+        window.addEventListener('storage', (event) => {
+            if (event.key === movementLogKey) {
+                renderReport();
+                return;
+            }
+            if (event.key === SYNC_REVISION_KEY) {
+                void runRealtimeSyncCycle();
+            }
+        });
+
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                renderReport();
+                void runRealtimeSyncCycle();
+            }
+        });
+
         renderReport();
+        startRealtimeSync();
     </script>
 </body>
 </html>
