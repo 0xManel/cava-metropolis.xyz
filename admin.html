@@ -524,7 +524,7 @@
             };
             const normalizeScope = (value) => {
                 const normalized = (value || '').trim().toLowerCase();
-                return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
+                return ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria', 'all'].includes(normalized) ? normalized : null;
             };
             const normalizeEstablishment = (value) => {
                 const normalized = (value || '').trim().toLowerCase();
@@ -641,9 +641,11 @@
             <div class="daily-report-wrapper">
                 <div class="report-scope-row" id="reportScopeRow">
                     <button class="scope-btn active" data-scope="all">Todas</button>
+                    <button class="scope-btn" data-scope="bodega">Bodega</button>
                     <button class="scope-btn" data-scope="spa">SPA</button>
                     <button class="scope-btn" data-scope="tasca_fina">Tasca</button>
                     <button class="scope-btn" data-scope="victoria">Victoria</button>
+                    <button class="scope-btn" data-scope="galeria">Galeria</button>
                 </div>
                 <textarea id="dailyText" class="admin-text" readonly></textarea>
                 <div class="report-footer">
@@ -1214,9 +1216,11 @@
         }
 
         function mapEstLabel(key) {
+            if (key === 'bodega') return 'BODEGA';
             if (key === 'spa') return 'SPA';
             if (key === 'tasca_fina') return 'TASCA FINA';
             if (key === 'victoria') return 'VICTORIA';
+            if (key === 'galeria') return 'GALERIA';
             return key || '—';
         }
 
@@ -1421,8 +1425,10 @@
                 const yearText = entry.year != null ? String(entry.year).trim() : '';
                 const sizeText = (entry.size || entry.format || '').toString().trim();
                 const podText = (entry.pod || '').toString().trim();
+                const sourceRaw = String(entry.source || '').trim().toLowerCase();
+                const sourceTag = sourceRaw === 'bodega' ? ' (bodega)' : '';
                 const parts = [qtyLabel, sizeText, wineName, yearText, podText].filter(Boolean);
-                lines.push(parts.join(' '));
+                lines.push(parts.join(' ') + sourceTag);
             });
             return lines.join('\n');
         }

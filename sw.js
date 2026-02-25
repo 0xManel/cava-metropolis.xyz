@@ -1,4 +1,4 @@
-const SW_BUILD = '2026-02-25-admin-report-v1';
+const SW_BUILD = '2026-02-25-admin-bodega-galeria-v1';
 const CACHE = `stock-cava-${SW_BUILD}`;
 const ASSETS = ['/', '/index.html', '/login.html', '/admin.html', '/manifest.json'];
 
