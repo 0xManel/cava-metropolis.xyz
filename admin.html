@@ -167,15 +167,28 @@
         }
 
         .report-main {
-            display: flex;
-            gap: 10px;
-            align-items: stretch;
+            display: block;
         }
 
         .report-actions {
-            width: 132px;
+            display: none;
+        }
+
+        .report-footer {
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .report-footer .report-status {
+            flex: 1;
+            text-align: center;
+        }
+
+        .report-actions-right {
+            display: flex;
             gap: 8px;
         }
 
@@ -493,9 +506,8 @@
 
         @media (max-width: 820px) {
             .user-grid { grid-template-columns: 1fr; }
-            .report-main { flex-direction: column; }
-            .report-actions { width: 100%; flex-direction: row; flex-wrap: wrap; }
-            .report-action-btn { flex: 1 1 120px; min-height: 32px; }
+            .report-footer { flex-wrap: wrap; }
+            .report-actions-right { margin-left: auto; }
             .top-left-actions { top: 15px; left: 15px; }
             .top-actions { top: 15px; right: 15px; }
             .session-user-card { top: max(8px, env(safe-area-inset-top)); }
@@ -633,15 +645,15 @@
                     <button class="scope-btn" data-scope="tasca_fina">Tasca</button>
                     <button class="scope-btn" data-scope="victoria">Victoria</button>
                 </div>
-                <div class="report-main">
-                    <div class="report-actions">
+                <textarea id="dailyText" class="admin-text" readonly></textarea>
+                <div class="report-footer">
+                    <button id="copyBtn" class="copy-btn">Copiar Reporte</button>
+                    <div id="reportStatus" class="report-status"></div>
+                    <div class="report-actions-right">
                         <button id="clearReportBtn" class="report-action-btn danger">Limpar Lista</button>
                         <button id="restoreReportBtn" class="report-action-btn success">Recuperar</button>
                     </div>
-                    <textarea id="dailyText" class="admin-text" readonly></textarea>
                 </div>
-                <div id="reportStatus" class="report-status"></div>
-                <button id="copyBtn" class="copy-btn">Copiar Reporte</button>
             </div>
         </div>
 
@@ -1408,10 +1420,9 @@
                 const wineName = (entry.wine || '').toString().trim() || '—';
                 const yearText = entry.year != null ? String(entry.year).trim() : '';
                 const sizeText = (entry.size || entry.format || '').toString().trim();
-                const sourceRaw = String(entry.source || '').trim().toLowerCase();
-                const sourceLabel = sourceRaw === 'bodega' ? '(bodega)' : '(cava)';
-                const details = [yearText, sizeText].filter(Boolean).join(' · ');
-                lines.push(details ? `${qtyLabel} ${wineName} · ${details} ${sourceLabel}` : `${qtyLabel} ${wineName} ${sourceLabel}`);
+                const podText = (entry.pod || '').toString().trim();
+                const parts = [qtyLabel, sizeText, wineName, yearText, podText].filter(Boolean);
+                lines.push(parts.join(' '));
             });
             return lines.join('\n');
         }
