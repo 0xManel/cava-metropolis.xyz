@@ -4,6 +4,8 @@ const USERS_KEY = 'cava:auth:users:v2';
 const SESSION_COOKIE_NAME = 'cava_session';
 const DEFAULT_OWNER_USERNAME = '0xManel';
 const DEFAULT_OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+const DEFAULT_SECOND_ADMINMASTER_USERNAME = 'Jimmy';
+const DEFAULT_SECOND_ADMINMASTER_PASSWORD_HASH = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
 const DEFAULT_SESSION_TTL_SECONDS = 60 * 60 * 12;
 const DEFAULT_REMEMBER_TTL_SECONDS = 60 * 60 * 24 * 30;
 const PBKDF2_ITERATIONS = 180000;
@@ -50,25 +52,59 @@ function normalizeScope(value) {
   return ['spa', 'tasca_fina', 'victoria', 'all'].includes(normalized) ? normalized : null;
 }
 
-function getOwnerNormalizedAliases() {
-  return Array.from(new Set([
-    normalizeUsername(DEFAULT_OWNER_USERNAME),
-    normalizeUsername(getOwnerUsername())
-  ].filter(Boolean)));
-}
-
-function isOwnerUsername(value) {
-  const normalized = normalizeUsername(value);
-  if (!normalized) return false;
-  return getOwnerNormalizedAliases().includes(normalized);
-}
-
 function getPasswordPepper() {
   return String(process.env.PASSWORD_PEPPER || '');
 }
 
 function getOwnerUsername() {
   return String(process.env.OWNER_USERNAME || DEFAULT_OWNER_USERNAME).trim() || DEFAULT_OWNER_USERNAME;
+}
+
+function getSecondAdminmasterUsername() {
+  return String(
+    process.env.SECOND_ADMINMASTER_USERNAME
+    || process.env.JIMMY_ADMINMASTER_USERNAME
+    || DEFAULT_SECOND_ADMINMASTER_USERNAME
+  ).trim() || DEFAULT_SECOND_ADMINMASTER_USERNAME;
+}
+
+function getSecondAdminmasterPasswordHash() {
+  const configured = String(
+    process.env.SECOND_ADMINMASTER_PASSWORD_HASH
+    || process.env.JIMMY_ADMINMASTER_PASSWORD_HASH
+    || ''
+  ).trim().toLowerCase();
+  if (/^[a-f0-9]{64}$/.test(configured)) return configured;
+  return DEFAULT_SECOND_ADMINMASTER_PASSWORD_HASH;
+}
+
+function getProtectedAdminmasterUsers() {
+  const ownerHash = getOwnerPasswordHash();
+  const seeds = [
+    { username: DEFAULT_OWNER_USERNAME, password_hash: ownerHash },
+    { username: getOwnerUsername(), password_hash: ownerHash },
+    { username: getSecondAdminmasterUsername(), password_hash: getSecondAdminmasterPasswordHash() }
+  ];
+  const seen = new Set();
+  const normalizedSeeds = [];
+  seeds.forEach((entry) => {
+    const username = String(entry?.username || '').trim();
+    const normalized = normalizeUsername(username);
+    if (!normalized || seen.has(normalized)) return;
+    seen.add(normalized);
+    normalizedSeeds.push({
+      normalized,
+      username,
+      password_hash: String(entry?.password_hash || '').trim().toLowerCase()
+    });
+  });
+  return normalizedSeeds;
+}
+
+function isOwnerUsername(value) {
+  const normalized = normalizeUsername(value);
+  if (!normalized) return false;
+  return getProtectedAdminmasterUsers().some((entry) => entry.normalized === normalized);
 }
 
 function isProductionRuntime() {
@@ -156,9 +192,9 @@ function sanitizeUserEntry(entry) {
   const roleInput = normalizeRole(entry.role) || 'user';
   const scopeInput = normalizeScope(entry.scope) || 'spa';
 
-  const isOwner = isOwnerUsername(normalized);
-  const role = isOwner ? 'adminmaster' : (roleInput === 'adminmaster' ? 'admin' : roleInput);
-  const scope = isOwner ? 'all' : (scopeInput === 'all' ? 'spa' : scopeInput);
+  const isProtectedAdminmaster = isOwnerUsername(normalized);
+  const role = isProtectedAdminmaster ? 'adminmaster' : (roleInput === 'adminmaster' ? 'admin' : roleInput);
+  const scope = isProtectedAdminmaster ? 'all' : (scopeInput === 'all' ? 'spa' : scopeInput);
 
   let passwordHashSafe = '';
   const storedHash = String(entry.password_hash || entry.passwordHash || '').trim();
@@ -187,29 +223,30 @@ function sanitizeUserEntry(entry) {
 }
 
 function ensureOwnerUser(users) {
-  const ownerUsername = DEFAULT_OWNER_USERNAME;
-  const ownerHash = getOwnerPasswordHash();
-
   const list = Array.isArray(users) ? users.map(sanitizeUserEntry).filter(Boolean) : [];
+  const protectedAdminmasters = getProtectedAdminmasterUsers();
 
-  getOwnerNormalizedAliases().forEach((aliasNormalized) => {
+  protectedAdminmasters.forEach((protectedUser) => {
+    const aliasNormalized = protectedUser.normalized;
     const idx = list.findIndex((entry) => normalizeUsername(entry.username) === aliasNormalized);
     if (idx >= 0) {
       const existingHash = String(list[idx].password_hash || '').trim();
-      const resolvedOwnerHash = ownerHash || existingHash;
+      const resolvedOwnerHash = protectedUser.password_hash || existingHash;
       list[idx] = {
         ...list[idx],
         username: aliasNormalized === normalizeUsername(DEFAULT_OWNER_USERNAME)
           ? DEFAULT_OWNER_USERNAME
-          : String(list[idx].username || aliasNormalized),
+          : (protectedUser.username || String(list[idx].username || aliasNormalized)),
         role: 'adminmaster',
         scope: 'all',
         password_hash: resolvedOwnerHash
       };
     } else {
       list.unshift({
-        username: aliasNormalized === normalizeUsername(DEFAULT_OWNER_USERNAME) ? DEFAULT_OWNER_USERNAME : aliasNormalized,
-        password_hash: ownerHash,
+        username: aliasNormalized === normalizeUsername(DEFAULT_OWNER_USERNAME)
+          ? DEFAULT_OWNER_USERNAME
+          : (protectedUser.username || aliasNormalized),
+        password_hash: protectedUser.password_hash,
         role: 'adminmaster',
         scope: 'all'
       });

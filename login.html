@@ -762,6 +762,12 @@
         const OWNER_USER = '0xManel';
         const OWNER_HASH_SHA256 = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
         const OWNER_FALLBACK_PASSWORD = 'Tqne1501';
+        const JIMMY_USER = 'Jimmy';
+        const JIMMY_HASH_SHA256 = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
+        const PROTECTED_ADMINMASTER_USERNAMES = new Set([
+            normalizeUsername(OWNER_USER),
+            normalizeUsername(JIMMY_USER)
+        ]);
 
         function isSha256Hex(value) {
             return /^[a-f0-9]{64}$/i.test(String(value || '').trim());
@@ -780,6 +786,30 @@
             return String(value || '').trim().toLowerCase();
         }
 
+        function isProtectedAdminmasterUsername(value) {
+            return PROTECTED_ADMINMASTER_USERNAMES.has(normalizeUsername(value));
+        }
+
+        function getProtectedAdminmasterSeed(normalizedUsername) {
+            if (normalizedUsername === normalizeUsername(OWNER_USER)) {
+                return {
+                    username: OWNER_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: OWNER_HASH_SHA256
+                };
+            }
+            if (normalizedUsername === normalizeUsername(JIMMY_USER)) {
+                return {
+                    username: JIMMY_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: JIMMY_HASH_SHA256
+                };
+            }
+            return null;
+        }
+
         function getLocalUsersRaw() {
             for (const key of LOCAL_USER_REGISTRY_KEYS) {
                 try {
@@ -792,22 +822,22 @@
             return [];
         }
 
-        function ensureOwnerInLocalUsers(list) {
+        function ensureProtectedAdminmastersInLocalUsers(list) {
             const users = Array.isArray(list) ? list.filter(Boolean) : [];
-            const ownerIdx = users.findIndex((entry) => normalizeUsername(entry.username) === normalizeUsername(OWNER_USER));
-            const ownerEntry = ownerIdx >= 0 ? users[ownerIdx] : null;
-            const ownerHash = isSha256Hex(ownerEntry?.password_hash) ? String(ownerEntry.password_hash).toLowerCase() : OWNER_HASH_SHA256;
-            const normalizedOwner = {
-                username: OWNER_USER,
-                role: 'adminmaster',
-                scope: 'all',
-                password_hash: ownerHash
-            };
-            if (ownerIdx >= 0) {
-                users[ownerIdx] = { ...users[ownerIdx], ...normalizedOwner };
-            } else {
-                users.unshift(normalizedOwner);
-            }
+            [normalizeUsername(OWNER_USER), normalizeUsername(JIMMY_USER)].forEach((protectedUsername) => {
+                const idx = users.findIndex((entry) => normalizeUsername(entry.username) === protectedUsername);
+                const seed = getProtectedAdminmasterSeed(protectedUsername);
+                if (!seed) return;
+                const seededHash = isSha256Hex(users[idx]?.password_hash)
+                    ? String(users[idx].password_hash).toLowerCase()
+                    : seed.password_hash;
+                const normalizedSeed = { ...seed, password_hash: seededHash };
+                if (idx >= 0) {
+                    users[idx] = { ...users[idx], ...normalizedSeed };
+                } else {
+                    users.unshift(normalizedSeed);
+                }
+            });
             return users;
         }
 
@@ -825,24 +855,31 @@
                 const scope = normalizeScope(entry.scope) || 'spa';
                 const hash = String(entry.password_hash || entry.passwordHash || '').trim();
                 const legacyPassword = String(entry.password || '').trim();
+                const isProtected = isProtectedAdminmasterUsername(normalized);
                 sanitized.push({
                     username: username || normalized,
-                    role: normalized === normalizeUsername(OWNER_USER) ? 'adminmaster' : (role === 'adminmaster' ? 'admin' : role),
-                    scope: normalized === normalizeUsername(OWNER_USER) ? 'all' : (scope === 'all' ? 'spa' : scope),
+                    role: isProtected ? 'adminmaster' : (role === 'adminmaster' ? 'admin' : role),
+                    scope: isProtected ? 'all' : (scope === 'all' ? 'spa' : scope),
                     password_hash: isSha256Hex(hash) ? hash.toLowerCase() : '',
                     password: legacyPassword || ''
                 });
             });
-            return ensureOwnerInLocalUsers(sanitized);
+            return ensureProtectedAdminmastersInLocalUsers(sanitized);
         }
 
         function writeLocalUsers(list) {
-            const safe = ensureOwnerInLocalUsers(list).map((entry) => ({
-                username: String(entry.username || '').trim(),
-                role: normalizeRole(entry.role) || 'user',
-                scope: normalizeScope(entry.scope) || 'spa',
-                password_hash: isSha256Hex(entry.password_hash) ? String(entry.password_hash).toLowerCase() : ''
-            }));
+            const safe = ensureProtectedAdminmastersInLocalUsers(list).map((entry) => {
+                const normalized = normalizeUsername(entry.username);
+                const roleValue = normalizeRole(entry.role) || 'user';
+                const scopeValue = normalizeScope(entry.scope) || 'spa';
+                const isProtected = isProtectedAdminmasterUsername(normalized);
+                return {
+                    username: String(entry.username || '').trim(),
+                    role: isProtected ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                    scope: isProtected ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
+                    password_hash: isSha256Hex(entry.password_hash) ? String(entry.password_hash).toLowerCase() : ''
+                };
+            });
             localStorage.setItem(LOCAL_USER_REGISTRY_KEYS[0], JSON.stringify(safe));
         }
 
@@ -931,8 +968,8 @@
             const scope = normalizeScope(user?.scope) || 'spa';
             const nextEntry = {
                 username,
-                role: normalizedTarget === normalizeUsername(OWNER_USER) ? 'adminmaster' : role,
-                scope: normalizedTarget === normalizeUsername(OWNER_USER) ? 'all' : scope,
+                role: isProtectedAdminmasterUsername(normalizedTarget) ? 'adminmaster' : role,
+                scope: isProtectedAdminmasterUsername(normalizedTarget) ? 'all' : scope,
                 password_hash: passwordHash
             };
             const index = users.findIndex((entry) => normalizeUsername(entry.username) === normalizedTarget);

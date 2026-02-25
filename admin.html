@@ -646,7 +646,7 @@
         </div>
 
         <div class="admin-card" id="userManagementCard">
-            <div class="admin-subtitle" style="margin-top:0; margin-bottom:8px;">Gestión de usuarios (solo owner)</div>
+            <div class="admin-subtitle" style="margin-top:0; margin-bottom:8px;">Gestión de usuarios (solo adminmaster)</div>
             <div class="user-grid">
                 <div class="user-list" id="userList">
                     <div class="user-row header">
@@ -716,6 +716,9 @@
         const LOCAL_USER_REGISTRY_KEY = 'cava_user_registry_local_v1';
         const OWNER_USERNAME = '0xmanel';
         const OWNER_HASH_SHA256 = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+        const JIMMY_USERNAME = 'jimmy';
+        const JIMMY_HASH_SHA256 = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
+        const PROTECTED_ADMINMASTER_USERNAMES = new Set([OWNER_USERNAME, JIMMY_USERNAME]);
         const textarea = document.getElementById('dailyText');
         const zoneTitle = document.getElementById('zoneTitle');
         const sessionUserCard = document.getElementById('sessionUserCard');
@@ -832,6 +835,30 @@
             return /^[a-f0-9]{64}$/i.test(String(value || '').trim());
         }
 
+        function isProtectedAdminmasterUsername(value) {
+            return PROTECTED_ADMINMASTER_USERNAMES.has(normalizeUsername(value));
+        }
+
+        function getProtectedAdminmasterSeed(normalizedUsername) {
+            if (normalizedUsername === OWNER_USERNAME) {
+                return {
+                    username: '0xManel',
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: OWNER_HASH_SHA256
+                };
+            }
+            if (normalizedUsername === JIMMY_USERNAME) {
+                return {
+                    username: 'Jimmy',
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: JIMMY_HASH_SHA256
+                };
+            }
+            return null;
+        }
+
         async function sha256Hex(value) {
             const input = String(value || '');
             if (window.crypto && window.crypto.subtle) {
@@ -841,23 +868,22 @@
             return '';
         }
 
-        function ensureOwnerInUsers(list) {
+        function ensureProtectedAdminmastersInUsers(list) {
             const users = Array.isArray(list) ? list.filter(Boolean) : [];
-            const ownerIndex = users.findIndex((entry) => normalizeUsername(entry.username) === OWNER_USERNAME);
-            const ownerHash = isSha256Hex(users[ownerIndex]?.password_hash)
-                ? String(users[ownerIndex].password_hash).toLowerCase()
-                : OWNER_HASH_SHA256;
-            const owner = {
-                username: '0xManel',
-                role: 'adminmaster',
-                scope: 'all',
-                password_hash: ownerHash
-            };
-            if (ownerIndex >= 0) {
-                users[ownerIndex] = { ...users[ownerIndex], ...owner };
-            } else {
-                users.unshift(owner);
-            }
+            [OWNER_USERNAME, JIMMY_USERNAME].forEach((protectedUsername) => {
+                const idx = users.findIndex((entry) => normalizeUsername(entry.username) === protectedUsername);
+                const seed = getProtectedAdminmasterSeed(protectedUsername);
+                if (!seed) return;
+                const seededHash = isSha256Hex(users[idx]?.password_hash)
+                    ? String(users[idx].password_hash).toLowerCase()
+                    : seed.password_hash;
+                const normalizedSeed = { ...seed, password_hash: seededHash };
+                if (idx >= 0) {
+                    users[idx] = { ...users[idx], ...normalizedSeed };
+                } else {
+                    users.unshift(normalizedSeed);
+                }
+            });
             return users;
         }
 
@@ -877,26 +903,33 @@
                     const roleValue = normalizeRole(entry.role) || 'user';
                     const scopeValue = normalizeScope(entry.scope) || 'spa';
                     const hash = String(entry.password_hash || entry.passwordHash || '').trim();
+                    const isProtected = isProtectedAdminmasterUsername(normalized);
                     sanitized.push({
                         username,
-                        role: normalized === OWNER_USERNAME ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
-                        scope: normalized === OWNER_USERNAME ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
+                        role: isProtected ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                        scope: isProtected ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
                         password_hash: isSha256Hex(hash) ? hash.toLowerCase() : ''
                     });
                 });
-                return ensureOwnerInUsers(sanitized);
+                return ensureProtectedAdminmastersInUsers(sanitized);
             } catch {
-                return ensureOwnerInUsers([]);
+                return ensureProtectedAdminmastersInUsers([]);
             }
         }
 
         function writeLocalUserRegistry(list) {
-            const safe = ensureOwnerInUsers(list).map((entry) => ({
+            const safe = ensureProtectedAdminmastersInUsers(list).map((entry) => {
+                const normalized = normalizeUsername(entry.username);
+                const roleValue = normalizeRole(entry.role) || 'user';
+                const scopeValue = normalizeScope(entry.scope) || 'spa';
+                const isProtected = isProtectedAdminmasterUsername(normalized);
+                return {
                 username: String(entry.username || '').trim(),
-                role: normalizeRole(entry.role) || 'user',
-                scope: normalizeScope(entry.scope) || 'spa',
+                role: isProtected ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                scope: isProtected ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
                 password_hash: isSha256Hex(entry.password_hash) ? String(entry.password_hash).toLowerCase() : ''
-            }));
+                };
+            });
             localStorage.setItem(LOCAL_USER_REGISTRY_KEY, JSON.stringify(safe));
             return safe;
         }
@@ -935,9 +968,9 @@
         function mapUsersApiError(errorCode) {
             const code = String(errorCode || '');
             if (code === 'admin_scope_conflict') return 'Ya existe un admin asignado en esta planta.';
-            if (code === 'only_owner_adminmaster') return 'Solo el owner puede ser adminmaster.';
+            if (code === 'only_owner_adminmaster') return 'Solo 0xManel o Jimmy pueden ser adminmaster.';
             if (code === 'password_required') return 'Password obligatorio para usuarios nuevos.';
-            if (code === 'cannot_delete_owner') return 'No se puede eliminar el owner.';
+            if (code === 'cannot_delete_owner') return 'No se puede eliminar un adminmaster protegido.';
             if (code === 'forbidden') return 'Permiso denegado.';
             if (code === 'username_required') return 'Usuario obligatorio.';
             return 'No fue posible guardar los cambios.';
@@ -958,11 +991,11 @@
 
                 if (!normalized) throw new Error('username_required');
 
-                const isOwnerTarget = normalized === OWNER_USERNAME;
-                const roleValue = isOwnerTarget ? 'adminmaster' : (roleInput === 'adminmaster' ? 'admin' : roleInput);
-                const scopeValue = isOwnerTarget ? 'all' : (scopeInput === 'all' ? 'spa' : scopeInput);
+                const isProtectedTarget = isProtectedAdminmasterUsername(normalized);
+                const roleValue = isProtectedTarget ? 'adminmaster' : (roleInput === 'adminmaster' ? 'admin' : roleInput);
+                const scopeValue = isProtectedTarget ? 'all' : (scopeInput === 'all' ? 'spa' : scopeInput);
 
-                if (!isOwnerTarget && roleInput === 'adminmaster') throw new Error('only_owner_adminmaster');
+                if (!isProtectedTarget && roleInput === 'adminmaster') throw new Error('only_owner_adminmaster');
 
                 const existingIndex = users.findIndex((entry) => normalizeUsername(entry.username) === normalized);
                 if (roleValue === 'admin') {
@@ -997,7 +1030,7 @@
                 const username = String(payload?.username || '').trim();
                 const normalized = normalizeUsername(username);
                 if (!normalized) throw new Error('username_required');
-                if (normalized === OWNER_USERNAME) throw new Error('cannot_delete_owner');
+                if (isProtectedAdminmasterUsername(normalized)) throw new Error('cannot_delete_owner');
                 const nextUsers = users.filter((entry) => normalizeUsername(entry.username) !== normalized);
                 const saved = writeLocalUserRegistry(nextUsers);
                 return { ok: true, users: saved };
@@ -1092,13 +1125,13 @@
 
         async function saveUser() {
             if (!isOwner) {
-                setUmStatus('Solo owner puede gestionar usuarios.', 'error');
+                setUmStatus('Solo adminmaster puede gestionar usuarios.', 'error');
                 return;
             }
             const username = umUsername.value.trim();
             const password = umPassword.value.trim();
             const normalizedTarget = normalizeUsername(username);
-            const roleValue = normalizedTarget === '0xmanel' ? 'adminmaster' : (normalizeRole(umRole.value) || 'user');
+            const roleValue = isProtectedAdminmasterUsername(normalizedTarget) ? 'adminmaster' : (normalizeRole(umRole.value) || 'user');
             const scopeValue = roleValue === 'adminmaster' ? 'all' : (normalizeScope(umScope.value) || 'spa');
 
             if (!username) {
@@ -1111,8 +1144,8 @@
                 return;
             }
 
-            if (normalizedTarget !== '0xmanel' && roleValue === 'adminmaster') {
-                setUmStatus('0xManel es el único adminmaster.', 'error');
+            if (!isProtectedAdminmasterUsername(normalizedTarget) && roleValue === 'adminmaster') {
+                setUmStatus('Solo 0xManel o Jimmy pueden ser adminmaster.', 'error');
                 return;
             }
             try {
@@ -1124,7 +1157,7 @@
                 });
                 saveUserRegistry(payload.users || []);
                 selectedUser = username;
-                if (normalizedTarget === '0xmanel') {
+                if (isProtectedAdminmasterUsername(normalizedTarget)) {
                     umRole.value = 'adminmaster';
                     umScope.value = 'all';
                 }
@@ -1137,7 +1170,7 @@
 
         async function deleteUser() {
             if (!isOwner) {
-                setUmStatus('Solo owner puede gestionar usuarios.', 'error');
+                setUmStatus('Solo adminmaster puede gestionar usuarios.', 'error');
                 return;
             }
             const username = umUsername.value.trim();
@@ -1146,8 +1179,8 @@
                 return;
             }
 
-            if (normalizeUsername(username) === '0xmanel') {
-                setUmStatus('No se puede eliminar el owner 0xManel.', 'error');
+            if (isProtectedAdminmasterUsername(username)) {
+                setUmStatus('No se puede eliminar un adminmaster protegido.', 'error');
                 return;
             }
             try {
