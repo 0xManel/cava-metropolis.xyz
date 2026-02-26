@@ -260,10 +260,35 @@ function parseEditPath(path) {
 function normalizeLocationValue(value) {
   const raw = value == null ? '' : String(value);
   const normalized = raw
+    .replace(/[•·]/g, ' ')
     .toUpperCase()
     .replace(/\s+/g, ' ')
     .trim();
-  return normalized || null;
+  if (!normalized) return null;
+
+  const directCompact = normalized.match(/^(\d{1,2})\s+(\d{1,2})(?:\s+(IZQ|DER|CEN|EXP|JAM))?$/);
+  if (directCompact) {
+    const pos = directCompact[3] ? ` · ${directCompact[3]}` : '';
+    return `${directCompact[1]} · ${directCompact[2]}${pos}`;
+  }
+
+  const cavaMatch = normalized.match(/\bCAVA\s*[-:]?\s*(\d{1,2})\b/);
+  const baldaMatch = normalized.match(/\bBALDA\s*[-:]?\s*(\d{1,2})\b/);
+
+  let pos = null;
+  if (/\bIZQ\b/.test(normalized)) pos = 'IZQ';
+  else if (/\bDER\b/.test(normalized)) pos = 'DER';
+  else if (/\bCEN\b/.test(normalized)) pos = 'CEN';
+  else if (/\bEXP\b/.test(normalized)) pos = 'EXP';
+  else if (/\bJAMONES\b|\bJAMON\b|\bJAM\b/.test(normalized)) pos = 'JAM';
+
+  const cavaNum = cavaMatch?.[1] || null;
+  const baldaNum = baldaMatch?.[1] || null;
+  if (cavaNum && baldaNum) {
+    return `${cavaNum} · ${baldaNum}${pos ? ` · ${pos}` : ''}`;
+  }
+
+  return normalized;
 }
 
 function normalizeLocationEditsInState(state) {
