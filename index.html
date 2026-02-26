@@ -3555,7 +3555,7 @@
         const DRINKING_HINT_RE = /\b(beba|beber|drink|drinking|tomar|consumir)\b/i;
 
         function cleanupCataText(text) {
-            return normalizeWhitespaceText(text)
+            return normalizeWhitespaceText(String(text || '').normalize('NFC'))
                 .replace(/\s+([,.;:!?])/g, '$1')
                 .replace(/:\s*/g, ': ')
                 .replace(/\s{2,}/g, ' ')
@@ -3582,6 +3582,8 @@
                 [/\bfrutas maduras\b/gi, 'frutas maduras'],
                 [/\bfrutas vermelhas frescas\b/gi, 'frutas rojas frescas'],
                 [/\bfrutas brancas maduras\b/gi, 'frutas blancas maduras'],
+                [/\bmaçã\b/gi, 'manzana'],
+                [/\bmaça\b/gi, 'manzana'],
                 [/\bma[cç][aã]\b/gi, 'manzana'],
                 [/\blim[aã]o\b/gi, 'limón'],
                 [/\blaranja\b/gi, 'naranja'],
@@ -3633,6 +3635,8 @@
                 [/\bfrutas negras\b/gi, 'dark fruits'],
                 [/\bfrutas brancas\b/gi, 'white fruits'],
                 [/\bfrutas blancas\b/gi, 'white fruits'],
+                [/\bmaçã\b/gi, 'apple'],
+                [/\bmaça\b/gi, 'apple'],
                 [/\bma[cç][aã]\b/gi, 'apple'],
                 [/\blim[aã]o\b/gi, 'lemon'],
                 [/\blaranja\b/gi, 'orange'],
