@@ -1,4 +1,5 @@
 const STATE_KEY = 'cava:stock:sync:v1';
+const STATE_BACKUP_KEY = 'cava:stock:sync:backup:latest:v1';
 const APPLIED_IDS_LIMIT = 5000;
 const MAX_MUTATIONS_PER_REQUEST = 500;
 const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
@@ -112,8 +113,18 @@ async function loadState() {
   return sanitizeState(globalThis.__cavaSyncMemoryState);
 }
 
-async function saveState(state) {
+async function saveState(state, options = {}) {
   const sanitized = sanitizeState(state);
+  const previous = sanitizeState(options.previousState || globalThis.__cavaSyncMemoryState);
+  const changed = JSON.stringify(previous) !== JSON.stringify(sanitized);
+  if (changed) {
+    const snapshot = {
+      createdAt: new Date().toISOString(),
+      reason: typeof options.backupReason === 'string' && options.backupReason ? options.backupReason : 'before_state_save',
+      state: previous
+    };
+    await runKvCommand(['SET', STATE_BACKUP_KEY, JSON.stringify(snapshot)]);
+  }
   globalThis.__cavaSyncMemoryState = sanitized;
   await runKvCommand(['SET', STATE_KEY, JSON.stringify(sanitized)]);
   return sanitized;
@@ -420,6 +431,7 @@ module.exports = async (req, res) => {
     ? incoming.mutations.slice(0, MAX_MUTATIONS_PER_REQUEST)
     : [];
   const state = await loadState();
+  const previousStateSnapshot = sanitizeState(state);
   const migrationApplied = applyOneOffSpaReset(state);
   const locationNormalizationApplied = normalizeLocationEditsInState(state);
 
@@ -461,7 +473,12 @@ module.exports = async (req, res) => {
     state.updatedAt = new Date().toISOString();
   }
   state.appliedMutationIds = Array.from(appliedIds).slice(-APPLIED_IDS_LIMIT);
-  const savedState = changed ? await saveState(state) : state;
+  const savedState = changed
+    ? await saveState(state, {
+      previousState: previousStateSnapshot,
+      backupReason: 'before_mutation_apply'
+    })
+    : state;
 
   res.status(200).json({
     ok: true,

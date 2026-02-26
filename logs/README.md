@@ -17,6 +17,14 @@ For each work day:
 4. Record open risks with exact file and line reference.
 5. Update `logs/INDEX.md`.
 
+## Automatic Mode
+
+This repository supports automatic log updates through git hooks.
+
+1. Run once: `npm run hooks:install`
+2. After every commit, hook `post-commit` runs `scripts/update_project_logs.sh`
+3. If `logs/` changed, hook creates an automatic commit: `chore(logs): auto-update daily activity log`
+
 ## Quick Commands
 
 ```bash

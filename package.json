@@ -9,7 +9,9 @@
     "build": "echo 'Static site - no build required'",
     "check": "python3 scripts/check_deployment.py",
     "verify": "python3 scripts/verify_pwa.py",
-    "icons": "python3 scripts/generate_icons.py"
+    "icons": "python3 scripts/generate_icons.py",
+    "logs:update": "bash scripts/update_project_logs.sh",
+    "hooks:install": "bash scripts/install_hooks.sh"
   },
   "keywords": [
     "pwa",

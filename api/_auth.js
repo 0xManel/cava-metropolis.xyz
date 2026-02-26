@@ -1,6 +1,7 @@
 const crypto = require('crypto');
 
 const USERS_KEY = 'cava:auth:users:v2';
+const USERS_BACKUP_KEY = 'cava:auth:users:backup:latest:v1';
 const SESSION_COOKIE_NAME = 'cava_session';
 const DEFAULT_OWNER_USERNAME = '0xManel';
 const DEFAULT_OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
@@ -317,6 +318,16 @@ async function loadUsers() {
 
 async function saveUsers(users) {
   const safeUsers = ensureOwnerUser(users);
+  const previousUsers = ensureOwnerUser(globalThis.__cavaAuthUsersMemoryState);
+  const changed = JSON.stringify(previousUsers) !== JSON.stringify(safeUsers);
+  if (changed) {
+    const snapshot = {
+      createdAt: new Date().toISOString(),
+      reason: 'before_users_save',
+      users: previousUsers
+    };
+    await runKvCommand(['SET', USERS_BACKUP_KEY, JSON.stringify(snapshot)]);
+  }
   globalThis.__cavaAuthUsersMemoryState = safeUsers;
   await runKvCommand(['SET', USERS_KEY, JSON.stringify(safeUsers)]);
   return safeUsers;

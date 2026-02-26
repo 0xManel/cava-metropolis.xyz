@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [ "${CAVA_AUTOLOG_HOOK:-0}" = "1" ]; then
+  exit 0
+fi
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+"$REPO_ROOT/scripts/update_project_logs.sh" >/dev/null 2>&1 || exit 0
+
+cd "$REPO_ROOT"
+if git diff --quiet -- logs; then
+  exit 0
+fi
+
+git add logs
+if git diff --cached --quiet -- logs; then
+  exit 0
+fi
+
+CAVA_AUTOLOG_HOOK=1 git commit -m "chore(logs): auto-update daily activity log" >/dev/null 2>&1 || true
