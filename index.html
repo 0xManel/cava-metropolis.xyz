@@ -1870,8 +1870,6 @@
                     <div class="cata-mini-label" data-translate="keyPoints">Puntos clave</div>
                     <div class="cata-points" id="modalCataPoints"></div>
                     <div class="cata-critics" id="modalCritics"></div>
-                    <div class="cata-mini-label" data-translate="criticsCard">Card críticos</div>
-                    <div class="critics-expanded" id="modalCriticsExpanded"></div>
                 </div>
             </div>
 
@@ -3839,6 +3837,85 @@
             return normalizeWhitespaceText(text).replace(/^(nariz|nose|boca|palate)\s*:\s*/i, '').trim();
         }
 
+        const FRUIT_HINTS = {
+            es: [
+                { regex: /\bcassis\b/i, label: 'cassis' },
+                { regex: /\bmora negra\b/i, label: 'mora negra' },
+                { regex: /\bmora\b/i, label: 'mora' },
+                { regex: /\bcereza\b/i, label: 'cereza' },
+                { regex: /\bciruela\b/i, label: 'ciruela' },
+                { regex: /\bframbuesa\b/i, label: 'frambuesa' },
+                { regex: /\bfresa\b/i, label: 'fresa' },
+                { regex: /\bmanzana\b/i, label: 'manzana' },
+                { regex: /\blim[oó]n\b/i, label: 'limón' },
+                { regex: /\bnaranja\b/i, label: 'naranja' },
+                { regex: /\bhigo\b/i, label: 'higo' },
+                { regex: /\bmelocot[oó]n\b/i, label: 'melocotón' },
+                { regex: /\bmaracuy[aá]\b/i, label: 'maracuyá' }
+            ],
+            en: [
+                { regex: /\bcassis\b/i, label: 'cassis' },
+                { regex: /\bblackberry\b/i, label: 'blackberry' },
+                { regex: /\bcherry\b/i, label: 'cherry' },
+                { regex: /\bplum\b/i, label: 'plum' },
+                { regex: /\braspberry\b/i, label: 'raspberry' },
+                { regex: /\bstrawberry\b/i, label: 'strawberry' },
+                { regex: /\bapple\b/i, label: 'apple' },
+                { regex: /\blemon\b/i, label: 'lemon' },
+                { regex: /\borange\b/i, label: 'orange' },
+                { regex: /\bfig\b/i, label: 'fig' },
+                { regex: /\bpeach\b/i, label: 'peach' },
+                { regex: /\bpassion fruit\b/i, label: 'passion fruit' }
+            ],
+            pt: [
+                { regex: /\bcassis\b/i, label: 'cassis' },
+                { regex: /\bamora preta\b/i, label: 'amora preta' },
+                { regex: /\bamora\b/i, label: 'amora' },
+                { regex: /\bcereja\b/i, label: 'cereja' },
+                { regex: /\bameixa\b/i, label: 'ameixa' },
+                { regex: /\bframboesa\b/i, label: 'framboesa' },
+                { regex: /\bmorango\b/i, label: 'morango' },
+                { regex: /\bma[cç][aã]\b/i, label: 'maçã' },
+                { regex: /\blim[aã]o\b/i, label: 'limão' },
+                { regex: /\blaranja\b/i, label: 'laranja' },
+                { regex: /\bfigo\b/i, label: 'figo' },
+                { regex: /\bp[eê]ssego\b/i, label: 'pêssego' },
+                { regex: /\bmaracuj[aá]\b/i, label: 'maracujá' }
+            ]
+        };
+
+        function extractFruitMentions(text, lang = normalizeLangCode(currentLang)) {
+            const clean = normalizeWhitespaceText(text);
+            if (!clean) return [];
+            const hints = FRUIT_HINTS[lang] || FRUIT_HINTS.es;
+            const seen = new Set();
+            const fruits = [];
+            hints.forEach((hint) => {
+                if (!hint.regex.test(clean)) return;
+                const key = normalizeToken(hint.label);
+                if (seen.has(key)) return;
+                seen.add(key);
+                fruits.push(hint.label);
+            });
+            return fruits.slice(0, 3);
+        }
+
+        function buildFruitClause(fruits, lang = normalizeLangCode(currentLang)) {
+            const joined = fruits.filter(Boolean).join(', ');
+            if (!joined) return '';
+            if (lang === 'en') return `fruit: ${joined}`;
+            if (lang === 'pt') return `fruta: ${joined}`;
+            return `fruta: ${joined}`;
+        }
+
+        function appendClause(base, clause) {
+            const left = normalizeWhitespaceText(base);
+            const right = normalizeWhitespaceText(clause);
+            if (!right) return left;
+            if (!left) return right;
+            return `${left.replace(/[.;,\s]+$/g, '')}; ${right}`;
+        }
+
         function formatCataForDisplay(cataText) {
             const clean = localizeCataText(normalizeWhitespaceText(cataText));
             if (!clean) return '—';
@@ -3875,6 +3952,12 @@
                 } else if (sentences.length === 1) {
                     noseText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0])));
                 }
+            }
+
+            const lang = normalizeLangCode(currentLang);
+            const sourceFruits = extractFruitMentions(clean, lang);
+            if (sourceFruits.length && !extractFruitMentions(noseText, lang).length) {
+                noseText = appendClause(noseText, buildFruitClause(sourceFruits, lang));
             }
 
             const lines = [];
@@ -4253,12 +4336,6 @@
                 const chipsHtml = renderCriticsChips(ref);
                 criticsEl.innerHTML = chipsHtml;
                 criticsEl.style.display = chipsHtml ? 'flex' : 'none';
-            }
-            const criticsExpandedEl = document.getElementById('modalCriticsExpanded');
-            if (criticsExpandedEl) {
-                const detailedHtml = renderCriticsExpanded(ref);
-                criticsExpandedEl.innerHTML = detailedHtml;
-                criticsExpandedEl.style.display = detailedHtml ? 'grid' : 'none';
             }
 
             // Establishment table + mobile compact rows
