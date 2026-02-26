@@ -3570,17 +3570,29 @@
                 [/\bfrutas vermelhas\b/gi, 'frutas rojas'],
                 [/\bfrutas escuras\b/gi, 'frutas negras'],
                 [/\bfrutas brancas\b/gi, 'frutas blancas'],
+                [/\bfrutas maduras\b/gi, 'frutas maduras'],
+                [/\bfrutas vermelhas frescas\b/gi, 'frutas rojas frescas'],
+                [/\bfrutas brancas maduras\b/gi, 'frutas blancas maduras'],
                 [/\bervas finas\b/gi, 'hierbas finas'],
                 [/\bervas mediterr[aâ]neas\b/gi, 'hierbas mediterráneas'],
                 [/\bervas\b/gi, 'hierbas'],
                 [/\bfrutos do mar\b/gi, 'mariscos'],
                 [/\bcarnes leves\b/gi, 'carnes ligeras'],
                 [/\bcarne vermelha\b/gi, 'carne roja'],
+                [/\bcarne premium\b/gi, 'carne premium'],
                 [/\bqueijos?\b/gi, 'quesos'],
                 [/\bpeixe\b/gi, 'pescado'],
                 [/\bassados\b/gi, 'asados'],
                 [/\bca[çc]a\b/gi, 'caza'],
-                [/\bluxo m[aá]ximo\b/gi, 'lujo máximo']
+                [/\baperitivo\b/gi, 'aperitivo'],
+                [/\bluxo m[aá]ximo\b/gi, 'lujo máximo'],
+                [/\bícone\b/gi, 'ícono'],
+                [/\blend[aá]rio\b/gi, 'legendario'],
+                [/\btop\b/gi, 'top'],
+                [/\bcom\b/gi, 'con'],
+                [/\bsem\b/gi, 'sin'],
+                [/\bmais\b/gi, 'más'],
+                [/\be\b/gi, 'y']
             ],
             en: [
                 [/\bNariz\b/gi, 'Nose'],
@@ -3626,6 +3638,19 @@
                 localized = localized.replace(pattern, replacement);
             });
             return cleanupCataText(localized);
+        }
+
+        function extractPrimarySensorySentence(text) {
+            const sentences = splitNaturalSentences(text);
+            if (!sentences.length) return normalizeWhitespaceText(text);
+            const filtered = sentences.filter((line) => {
+                const token = normalizeToken(line);
+                if (!token) return false;
+                if (DRINKING_HINT_RE.test(token)) return false;
+                if (/(harmoniz|marida|pairing|jovem top|joven top|young standout|icone|ícone|legendario|lendario)/i.test(token)) return false;
+                return true;
+            });
+            return normalizeWhitespaceText((filtered[0] || sentences[0] || text));
         }
 
         function getDidacticCataSummary(ref) {
@@ -3738,7 +3763,7 @@
         }
 
         function formatCataForDisplay(cataText) {
-            const clean = normalizeWhitespaceText(cataText);
+            const clean = localizeCataText(normalizeWhitespaceText(cataText));
             if (!clean) return '—';
 
             const labels = getCataSectionLabels();
@@ -3756,22 +3781,22 @@
                     if (noseStart < palateStart) {
                         const noseRaw = clean.slice(noseStart, palateStart);
                         const palateRaw = clean.slice(palateStart);
-                        noseText = stripCataLabelPrefix(noseRaw);
-                        palateText = stripCataLabelPrefix(palateRaw);
+                        noseText = extractPrimarySensorySentence(stripCataLabelPrefix(noseRaw));
+                        palateText = extractPrimarySensorySentence(stripCataLabelPrefix(palateRaw));
                     } else {
                         const palateRaw = clean.slice(palateStart, noseStart);
                         const noseRaw = clean.slice(noseStart);
-                        palateText = stripCataLabelPrefix(palateRaw);
-                        noseText = stripCataLabelPrefix(noseRaw);
+                        palateText = extractPrimarySensorySentence(stripCataLabelPrefix(palateRaw));
+                        noseText = extractPrimarySensorySentence(stripCataLabelPrefix(noseRaw));
                     }
                 }
             } else {
                 const sentences = splitNaturalSentences(clean);
                 if (sentences.length >= 2) {
-                    noseText = stripCataLabelPrefix(sentences[0]);
-                    palateText = stripCataLabelPrefix(sentences[1]);
+                    noseText = extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0]));
+                    palateText = extractPrimarySensorySentence(stripCataLabelPrefix(sentences[1]));
                 } else if (sentences.length === 1) {
-                    noseText = stripCataLabelPrefix(sentences[0]);
+                    noseText = extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0]));
                 }
             }
 
