@@ -526,23 +526,23 @@
                 <img class="brand-logo" src="imgs/icon-512.png" alt="Stock Cava" width="108" height="108">
             </div>
         </div>
-        <p class="login-subtitle" data-translate="subtitle">Prova local antes da integração com a busca</p>
+        <p class="login-subtitle" data-translate="subtitle">Prueba local antes de integrar con la búsqueda</p>
         <form id="loginForm">
             <div class="input-group">
-                <label for="username" data-translate="userLabel">Usuário</label>
+                <label for="username" data-translate="userLabel">Usuario</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="input-group">
-                <label for="password" data-translate="passLabel">Senha</label>
+                <label for="password" data-translate="passLabel">Contraseña</label>
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="remember-access">
                 <label class="remember-label" for="rememberAccess">
                     <input type="checkbox" id="rememberAccess" name="rememberAccess">
-                    <span data-translate="rememberLabel">Manter acesso neste dispositivo</span>
+                    <span data-translate="rememberLabel">Mantener acceso en este dispositivo</span>
                 </label>
             </div>
-            <button type="submit" class="login-button" data-translate="loginBtn">Entrar</button>
+            <button type="submit" class="login-button" data-translate="loginBtn">Iniciar sesión</button>
             <p id="loginFeedback" class="login-feedback"></p>
         </form>
     </div>
@@ -680,9 +680,9 @@
 
             document.querySelectorAll('[data-translate]').forEach((element) => {
                 const key = element.getAttribute('data-translate');
-                if (t[key]) {
-                    element.textContent = t[key];
-                }
+                const fallbackText = getTranslationPack('es')[key];
+                const text = t[key] ?? fallbackText;
+                if (text) element.textContent = text;
             });
 
             const currentEstablishmentValue = document.getElementById('establishmentValue');

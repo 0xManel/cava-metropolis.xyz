@@ -1762,7 +1762,7 @@
 
     <div class="app-signature" aria-hidden="true">stockcava@2026</div>
     <div class="session-user-card" id="sessionUserCard">--</div>
-    <div class="sync-toast" id="syncToast">Cava Atualizada</div>
+    <div class="sync-toast" id="syncToast">Cava actualizada</div>
     <div class="top-left-actions">
         <button class="logout-btn" id="logoutBtn">Logout</button>
     </div>
@@ -3591,6 +3591,16 @@
                 [/\bamora\b/gi, 'mora'],
                 [/\bfigo\b/gi, 'higo'],
                 [/\bmel\b/gi, 'miel'],
+                [/\bmaracuj[aá]\b/gi, 'maracuyá'],
+                [/\bp[eê]ssego\b/gi, 'melocotón'],
+                [/\bvulc[aâ]nico\b/gi, 'volcánico'],
+                [/\bvulc[aâ]nicas\b/gi, 'volcánicas'],
+                [/\bcalc[aá]rio\b/gi, 'calcáreo'],
+                [/\bequil[ií]brio\b/gi, 'equilibrio'],
+                [/\bam[eê]ndoa\b/gi, 'almendra'],
+                [/\balcatr[aã]o\b/gi, 'alquitrán'],
+                [/\bcl[aá]ssico\b/gi, 'clásico'],
+                [/\bmediterr[aâ]neas\b/gi, 'mediterráneas'],
                 [/\bervas finas\b/gi, 'hierbas finas'],
                 [/\bervas mediterr[aâ]neas\b/gi, 'hierbas mediterráneas'],
                 [/\bervas\b/gi, 'hierbas'],
@@ -3623,6 +3633,25 @@
                 [/\bfrutas negras\b/gi, 'dark fruits'],
                 [/\bfrutas brancas\b/gi, 'white fruits'],
                 [/\bfrutas blancas\b/gi, 'white fruits'],
+                [/\bma[cç][aã]\b/gi, 'apple'],
+                [/\blim[aã]o\b/gi, 'lemon'],
+                [/\blaranja\b/gi, 'orange'],
+                [/\bcereja\b/gi, 'cherry'],
+                [/\bameixa\b/gi, 'plum'],
+                [/\bframboesa\b/gi, 'raspberry'],
+                [/\bamora\b/gi, 'blackberry'],
+                [/\bfigo\b/gi, 'fig'],
+                [/\bmel\b/gi, 'honey'],
+                [/\bmaracuj[aá]\b/gi, 'passion fruit'],
+                [/\bp[eê]ssego\b/gi, 'peach'],
+                [/\bvulc[aâ]nico\b/gi, 'volcanic'],
+                [/\bvulc[aâ]nicas\b/gi, 'volcanic'],
+                [/\bcalc[aá]rio\b/gi, 'limestone'],
+                [/\bequil[ií]brio\b/gi, 'balance'],
+                [/\bam[eê]ndoa\b/gi, 'almond'],
+                [/\balcatr[aã]o\b/gi, 'tar'],
+                [/\bcl[aá]ssico\b/gi, 'classic'],
+                [/\bmediterr[aâ]neas\b/gi, 'mediterranean'],
                 [/\bervas finas\b/gi, 'fine herbs'],
                 [/\bhierbas finas\b/gi, 'fine herbs'],
                 [/\bervas\b/gi, 'herbs'],
@@ -4043,7 +4072,8 @@
 
         function showSyncToast(message) {
             if (!syncToast) return;
-            syncToast.textContent = message || 'Cava Atualizada';
+            const t = getTranslationPack(currentLang);
+            syncToast.textContent = message || t.consumeToastUpdated || 'Cava actualizada';
             syncToast.classList.add('show');
             if (syncToastTimer) clearTimeout(syncToastTimer);
             syncToastTimer = window.setTimeout(() => {
@@ -4084,7 +4114,8 @@
 
                 const estKey = resolveMovementEstablishment();
                 if (!estKey) {
-                    setConsumeFeedback(translations[currentLang].consumeNeedFilter || 'Selecione uma planta para registrar retirada.');
+                    const t = getTranslationPack(currentLang);
+                    setConsumeFeedback(t.consumeNeedFilter || 'Selecciona SPA/TASCA/VICTORIA para registrar salida.');
                     return;
                 }
 
@@ -4125,7 +4156,8 @@
                 preProcess();
                 updateRefCount();
                 openModal(ref);
-                showSyncToast(translations[currentLang].consumeToastUpdated || 'Cava Atualizada');
+                const t = getTranslationPack(currentLang);
+                showSyncToast(t.consumeToastUpdated || 'Cava actualizada');
         }
 
         if (consumeCavaButton) {
@@ -4368,7 +4400,8 @@
             // Refresh modal
             openModal(ref);
             if (hasChanges) {
-                showSyncToast(translations[currentLang].consumeToastUpdated || 'Cava Atualizada');
+                const t = getTranslationPack(currentLang);
+                showSyncToast(t.consumeToastUpdated || 'Cava actualizada');
             }
         });
 
@@ -4596,7 +4629,10 @@
 
             document.querySelectorAll('[data-translate]').forEach(el => {
                 const key = el.getAttribute('data-translate');
-                if (t[key] && el.tagName !== 'INPUT') el.textContent = t[key];
+                if (el.tagName === 'INPUT') return;
+                const fallbackText = getTranslationPack('es')[key];
+                const text = t[key] ?? fallbackText;
+                if (text) el.textContent = text;
             });
 
             if (adminButton) {
