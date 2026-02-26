@@ -36,3 +36,8 @@ yarn.lock
 
 # Vercel
 .vercel
+
+# Artefatos gerados localmente (não críticos para runtime)
+exports/
+data/backups/
+reports/_generated/
