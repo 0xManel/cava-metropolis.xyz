@@ -246,6 +246,16 @@
             order: -1;
         }
         .ref-count span { color: var(--gold-accent); font-weight: 700; }
+        .ref-count.ref-count-located {
+            margin-top: -0.45rem;
+            margin-bottom: 0.65rem;
+            font-size: 0.78rem;
+            letter-spacing: 0.9px;
+        }
+        .ref-count.ref-count-located span {
+            color: #53d66f;
+            font-weight: 700;
+        }
 
         /* --- FILTER BAR --- */
         .filter-bar {
@@ -1387,6 +1397,7 @@
 
     <div class="search-container">
         <div class="ref-count"><span id="totalRef">0</span> <span data-translate="refs">referencias disponibles</span></div>
+        <div class="ref-count ref-count-located"><span id="locatedRef">0</span> <span data-translate="refsLocated">referencias localizadas</span></div>
 
         <div class="search-input-wrapper">
             <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
@@ -1994,7 +2005,7 @@
                     "Tu vino ideal está aquí",
                     "Prueba algo nuevo"
                 ],
-                refs: "referencias disponibles", region: "Región", country: "País",
+                refs: "referencias disponibles", refsLocated: "referencias localizadas", region: "Región", country: "País",
                 year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin", report: "Ventas",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Ubic.", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
                 consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada", btnLabel: "🇪🇸 ES"
@@ -2014,7 +2025,7 @@
                     "Your next wine is here",
                     "Try something new"
                 ],
-                refs: "references available", region: "Region", country: "Country",
+                refs: "references available", refsLocated: "located references", region: "Region", country: "Country",
                 year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin", report: "Sales",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Loc.", editBtn: "Edit", cancelBtn: "Cancel", saveBtn: "Save",
                 consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated", btnLabel: "🇬🇧 EN"
@@ -2034,7 +2045,7 @@
                     "Seu próximo vinho está aqui",
                     "Prove algo novo"
                 ],
-                refs: "referências disponíveis", region: "Região", country: "País",
+                refs: "referências disponíveis", refsLocated: "referências localizadas", region: "Região", country: "País",
                 year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin", report: "Vendas",
                 pvpLabel: "PVP", stockLabel: "Estoque", locationShort: "Local", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
                 consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
@@ -2471,6 +2482,25 @@
                 count = subsets[currentFilter]?.size || 0;
             }
             document.getElementById('totalRef').textContent = count;
+
+            let locatedCount = 0;
+            if (currentFilter === 'todos') {
+                locatedCount = refs.reduce((acc, ref) => {
+                    const hasAnyLocation = EST_KEYS.some((k) => normalizeLocationValue(ref.establecimientos?.[k]?.localizacion, k));
+                    return acc + (hasAnyLocation ? 1 : 0);
+                }, 0);
+            } else {
+                const subset = subsets[currentFilter] || new Set();
+                subset.forEach((idx) => {
+                    const ref = refs[idx];
+                    if (!ref) return;
+                    if (normalizeLocationValue(ref.establecimientos?.[currentFilter]?.localizacion, currentFilter)) {
+                        locatedCount += 1;
+                    }
+                });
+            }
+            const locatedEl = document.getElementById('locatedRef');
+            if (locatedEl) locatedEl.textContent = locatedCount;
         }
 
         // --- FILTER & SORT ---
