@@ -10059,7 +10059,7 @@
       "bodega": {
         "pvp": 218,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 1 · CEN"
+        "localizacion": "8·1·CEN"
       }
     }
   },
@@ -10105,7 +10105,7 @@
       "bodega": {
         "pvp": 175,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 1 · DER"
+        "localizacion": "8·1·DER"
       }
     }
   },
@@ -10197,7 +10197,7 @@
       "bodega": {
         "pvp": 397,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 2 · IZQ"
+        "localizacion": "8·2·IZQ"
       }
     }
   },
@@ -10243,7 +10243,7 @@
       "bodega": {
         "pvp": 209,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 2 · CEN"
+        "localizacion": "8·2·CEN"
       }
     }
   },
@@ -10289,7 +10289,7 @@
       "bodega": {
         "pvp": 190,
         "unidades": 5,
-        "localizacion": "CAVA 8 · BALDA 2 · CEN"
+        "localizacion": "8·2·CEN"
       }
     }
   },
@@ -10391,7 +10391,7 @@
       "bodega": {
         "pvp": 124,
         "unidades": 6,
-        "localizacion": "CAVA 8 · BALDA 3 · IZQ"
+        "localizacion": "8·3·IZQ"
       }
     }
   },
@@ -10437,7 +10437,7 @@
       "bodega": {
         "pvp": 97,
         "unidades": 3,
-        "localizacion": "CAVA 3 · BALDA 2"
+        "localizacion": "3·2"
       }
     }
   },
@@ -10580,7 +10580,7 @@
       "bodega": {
         "pvp": 6750,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 2"
+        "localizacion": "4·2"
       }
     }
   },
@@ -10973,7 +10973,7 @@
       "bodega": {
         "pvp": 174,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 1 · IZQ"
+        "localizacion": "10·1·IZQ"
       }
     }
   },
@@ -11075,7 +11075,7 @@
       "bodega": {
         "pvp": 858,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 8 · DER"
+        "localizacion": "7·8·DER"
       }
     }
   },
@@ -11121,7 +11121,7 @@
       "bodega": {
         "pvp": 1230,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 5 · E"
+        "localizacion": "7·5·E"
       }
     }
   },
@@ -11177,7 +11177,7 @@
       "bodega": {
         "pvp": 1550,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 5 · E"
+        "localizacion": "7·5·E"
       }
     }
   },
@@ -11223,7 +11223,7 @@
       "bodega": {
         "pvp": 1950,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 5 · D"
+        "localizacion": "7·5·D"
       }
     }
   },
@@ -11274,7 +11274,7 @@
       "bodega": {
         "pvp": 3500,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 5 · C"
+        "localizacion": "7·5·C"
       }
     }
   },
@@ -11320,7 +11320,7 @@
       "bodega": {
         "pvp": 3800,
         "unidades": 1,
-        "localizacion": "CAVA 8 · BALDA 7 · DER"
+        "localizacion": "8·7·DER"
       }
     }
   },
@@ -11376,7 +11376,7 @@
       "bodega": {
         "pvp": 842,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 1 · DER"
+        "localizacion": "8·1·DER"
       }
     }
   },
@@ -11422,7 +11422,7 @@
       "bodega": {
         "pvp": 825,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 1 · IZQ"
+        "localizacion": "8·1·IZQ"
       }
     }
   },
@@ -11468,7 +11468,7 @@
       "bodega": {
         "pvp": 700,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 2 · CEN"
+        "localizacion": "8·2·CEN"
       }
     }
   },
@@ -11514,7 +11514,7 @@
       "bodega": {
         "pvp": 260,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 8 · DER"
+        "localizacion": "8·8·DER"
       }
     }
   },
@@ -11570,7 +11570,7 @@
       "bodega": {
         "pvp": 434,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 8 · IZQ"
+        "localizacion": "8·8·IZQ"
       }
     }
   },
@@ -12203,7 +12203,7 @@
       "bodega": {
         "pvp": 510,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 5 · A"
+        "localizacion": "7·5·A"
       }
     }
   },
@@ -12402,7 +12402,7 @@
       "bodega": {
         "pvp": 1040,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 4 · IZQ"
+        "localizacion": "7·4·IZQ"
       }
     }
   },
@@ -12458,7 +12458,7 @@
       "bodega": {
         "pvp": 506,
         "unidades": 5,
-        "localizacion": "CAVA 7 · BALDA 4 · IZQ / CAVA 7 · BALDA 5 · B"
+        "localizacion": "7·4·IZQ / 7·5·B"
       }
     }
   },
@@ -12509,7 +12509,7 @@
       "bodega": {
         "pvp": 1040,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 4 · DER"
+        "localizacion": "7·4·DER"
       }
     }
   },
@@ -12565,7 +12565,7 @@
       "bodega": {
         "pvp": 1103,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 5 · C"
+        "localizacion": "8·5·C"
       }
     }
   },
@@ -12657,7 +12657,7 @@
       "bodega": {
         "pvp": 325,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 6 · IZQ"
+        "localizacion": "8·6·IZQ"
       }
     }
   },
@@ -12703,7 +12703,7 @@
       "bodega": {
         "pvp": 260,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 7 · IZQ"
+        "localizacion": "8·7·IZQ"
       }
     }
   },
@@ -12795,7 +12795,7 @@
       "bodega": {
         "pvp": 262,
         "unidades": 1,
-        "localizacion": "CAVA 8 · BALDA 7 · IZQ"
+        "localizacion": "8·7·IZQ"
       }
     }
   },
@@ -12979,7 +12979,7 @@
       "bodega": {
         "pvp": 408,
         "unidades": 6,
-        "localizacion": "CAVA 8 · BALDA 6 · IZQ"
+        "localizacion": "8·6·IZQ"
       }
     }
   },
@@ -13030,7 +13030,7 @@
       "bodega": {
         "pvp": 268,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 4 · DER"
+        "localizacion": "5·4·DER"
       }
     }
   },
@@ -13076,7 +13076,7 @@
       "bodega": {
         "pvp": 155,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 4 · D"
+        "localizacion": "10·4·D"
       }
     }
   },
@@ -13173,7 +13173,7 @@
       "bodega": {
         "pvp": 136,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 4 · D"
+        "localizacion": "10·4·D"
       }
     }
   },
@@ -13219,7 +13219,7 @@
       "bodega": {
         "pvp": 94,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 4 · D"
+        "localizacion": "10·4·D"
       }
     }
   },
@@ -13270,7 +13270,7 @@
       "bodega": {
         "pvp": 247,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 3 · CEN"
+        "localizacion": "7·3·CEN"
       }
     }
   },
@@ -14388,7 +14388,7 @@
       "bodega": {
         "pvp": 368,
         "unidades": 4,
-        "localizacion": "CAVA 4 · BALDA 4 · IZQ"
+        "localizacion": "4·4·IZQ"
       }
     }
   },
@@ -14883,7 +14883,7 @@
       "bodega": {
         "pvp": 177,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 7 · IZQ"
+        "localizacion": "7·7·IZQ"
       }
     }
   },
@@ -15159,7 +15159,7 @@
       "bodega": {
         "pvp": 290,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 8 · CEN"
+        "localizacion": "8·8·CEN"
       }
     }
   },
@@ -15210,7 +15210,7 @@
       "bodega": {
         "pvp": 646,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 4 · DER"
+        "localizacion": "8·4·DER"
       }
     }
   },
@@ -15414,7 +15414,7 @@
       "bodega": {
         "pvp": 1560,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · A"
+        "localizacion": "5·5·A"
       }
     }
   },
@@ -15470,7 +15470,7 @@
       "bodega": {
         "pvp": 1953,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 7 · CEN"
+        "localizacion": "8·7·CEN"
       }
     }
   },
@@ -15521,7 +15521,7 @@
       "bodega": {
         "pvp": 525,
         "unidades": 6,
-        "localizacion": "CAVA 8 · BALDA 4 · IZQ"
+        "localizacion": "8·4·IZQ"
       }
     }
   },
@@ -15633,7 +15633,7 @@
       "bodega": {
         "pvp": 310,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 6 · CEN"
+        "localizacion": "7·6·CEN"
       }
     }
   },
@@ -15679,7 +15679,7 @@
       "bodega": {
         "pvp": 371,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 8 · CEN"
+        "localizacion": "7·8·CEN"
       }
     }
   },
@@ -15771,7 +15771,7 @@
       "bodega": {
         "pvp": 138,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 6 · IZQ"
+        "localizacion": "7·6·IZQ"
       }
     }
   },
@@ -15822,7 +15822,7 @@
       "bodega": {
         "pvp": 790,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 4 · CEN"
+        "localizacion": "8·4·CEN"
       }
     }
   },
@@ -15868,7 +15868,7 @@
       "bodega": {
         "pvp": 2500,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 3 · IZQ"
+        "localizacion": "8·3·IZQ"
       }
     }
   },
@@ -15914,7 +15914,7 @@
       "bodega": {
         "pvp": 2500,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 5 · B"
+        "localizacion": "8·5·B"
       }
     }
   },
@@ -16006,7 +16006,7 @@
       "bodega": {
         "pvp": 1290,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 6 · DER"
+        "localizacion": "8·6·DER"
       }
     }
   },
@@ -16149,7 +16149,7 @@
       "bodega": {
         "pvp": 230,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 8 · IZQ"
+        "localizacion": "7·8·IZQ"
       }
     }
   },
@@ -16195,7 +16195,7 @@
       "bodega": {
         "pvp": 518,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · E"
+        "localizacion": "4·5·E"
       }
     }
   },
@@ -16353,7 +16353,7 @@
       "bodega": {
         "pvp": 2738,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 5 · E"
+        "localizacion": "7·5·E"
       }
     }
   },
@@ -16399,7 +16399,7 @@
       "bodega": {
         "pvp": 54,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 7 · CEN"
+        "localizacion": "7·7·CEN"
       }
     }
   },
@@ -16822,7 +16822,7 @@
       "bodega": {
         "pvp": 2713,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 5 · E"
+        "localizacion": "7·5·E"
       }
     }
   },
@@ -17021,7 +17021,7 @@
       "bodega": {
         "pvp": 10730,
         "unidades": 6,
-        "localizacion": "CAVA 7 · BALDA 5 · B / CAVA 7 · BALDA 5 · D"
+        "localizacion": "7·5·B / 7·5·D"
       }
     }
   },
@@ -17716,7 +17716,7 @@
       "bodega": {
         "pvp": 1734,
         "unidades": 6,
-        "localizacion": "CAVA 8 · BALDA 3 · DER"
+        "localizacion": "8·3·DER"
       }
     }
   },
@@ -17818,7 +17818,7 @@
       "bodega": {
         "pvp": 648,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 4 · CEN"
+        "localizacion": "8·4·CEN"
       }
     }
   },
@@ -17874,7 +17874,7 @@
       "bodega": {
         "pvp": 625,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 3 · IZQ"
+        "localizacion": "7·3·IZQ"
       }
     }
   },
@@ -17925,7 +17925,7 @@
       "bodega": {
         "pvp": 209,
         "unidades": 6,
-        "localizacion": "CAVA 10 · BALDA 4 · C"
+        "localizacion": "10·4·C"
       }
     }
   },
@@ -17971,7 +17971,7 @@
       "bodega": {
         "pvp": 2285,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 3 · CEN"
+        "localizacion": "8·3·CEN"
       }
     }
   },
@@ -18017,7 +18017,7 @@
       "bodega": {
         "pvp": 1050,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 5 · D"
+        "localizacion": "8·5·D"
       }
     }
   },
@@ -18063,7 +18063,7 @@
       "bodega": {
         "pvp": 299,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 8 · CEN"
+        "localizacion": "8·8·CEN"
       }
     }
   },
@@ -18165,7 +18165,7 @@
       "bodega": {
         "pvp": 1220,
         "unidades": 5,
-        "localizacion": "CAVA 8 · BALDA 2 · IZQ / CAVA 8 · BALDA 5 · A"
+        "localizacion": "8·2·IZQ / 8·5·A"
       }
     }
   },
@@ -18211,7 +18211,7 @@
       "bodega": {
         "pvp": 78,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 8 · IZQ"
+        "localizacion": "7·8·IZQ"
       }
     }
   },
@@ -18257,7 +18257,7 @@
       "bodega": {
         "pvp": 1037,
         "unidades": 4,
-        "localizacion": "CAVA 7 · BALDA 3 · CEN"
+        "localizacion": "7·3·CEN"
       }
     }
   },
@@ -18349,7 +18349,7 @@
       "bodega": {
         "pvp": 2710,
         "unidades": 1,
-        "localizacion": "CAVA 8 · BALDA 5 · D"
+        "localizacion": "8·5·D"
       }
     }
   },
@@ -18553,7 +18553,7 @@
       "bodega": {
         "pvp": 289,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 2 · CEN"
+        "localizacion": "7·2·CEN"
       }
     }
   },
@@ -19165,7 +19165,7 @@
       "bodega": {
         "pvp": 118,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 7 · IZQ"
+        "localizacion": "7·7·IZQ"
       }
     }
   },
@@ -19211,7 +19211,7 @@
       "bodega": {
         "pvp": 1100,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 5 · C"
+        "localizacion": "7·5·C"
       }
     }
   },
@@ -19257,7 +19257,7 @@
       "bodega": {
         "pvp": 1250,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 5 · A"
+        "localizacion": "7·5·A"
       }
     }
   },
@@ -19303,7 +19303,7 @@
       "bodega": {
         "pvp": 995,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 5 · A"
+        "localizacion": "7·5·A"
       }
     }
   },
@@ -19405,7 +19405,7 @@
       "bodega": {
         "pvp": 544,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 3 · IZQ"
+        "localizacion": "7·3·IZQ"
       }
     }
   },
@@ -19456,7 +19456,7 @@
       "bodega": {
         "pvp": 772,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 4 · DER"
+        "localizacion": "7·4·DER"
       }
     }
   },
@@ -19558,7 +19558,7 @@
       "bodega": {
         "pvp": 544,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 6 · CEN"
+        "localizacion": "7·6·CEN"
       }
     }
   },
@@ -19742,7 +19742,7 @@
       "bodega": {
         "pvp": 1575,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 8 · IZQ"
+        "localizacion": "8·8·IZQ"
       }
     }
   },
@@ -19834,7 +19834,7 @@
       "bodega": {
         "pvp": 330,
         "unidades": 1,
-        "localizacion": "CAVA 8 · BALDA 7 · DER"
+        "localizacion": "8·7·DER"
       }
     }
   },
@@ -19931,7 +19931,7 @@
       "bodega": {
         "pvp": 410,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 6 · IZQ"
+        "localizacion": "7·6·IZQ"
       }
     }
   },
@@ -20084,7 +20084,7 @@
       "bodega": {
         "pvp": 390,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 6 · CEN"
+        "localizacion": "8·6·CEN"
       }
     }
   },
@@ -20130,7 +20130,7 @@
       "bodega": {
         "pvp": 371,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 6 · CEN"
+        "localizacion": "8·6·CEN"
       }
     }
   },
@@ -20268,7 +20268,7 @@
       "bodega": {
         "pvp": 2250,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 5 · A"
+        "localizacion": "8·5·A"
       }
     }
   },
@@ -20604,7 +20604,7 @@
       "bodega": {
         "pvp": 833,
         "unidades": 4,
-        "localizacion": "CAVA 10 · BALDA 4 · E"
+        "localizacion": "10·4·E"
       }
     }
   },
@@ -20711,7 +20711,7 @@
       "bodega": {
         "pvp": 604,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 4 · E"
+        "localizacion": "10·4·E"
       }
     }
   },
@@ -22145,7 +22145,7 @@
       "bodega": {
         "pvp": 152,
         "unidades": 4,
-        "localizacion": "CAVA 10 · BALDA 1 · DER"
+        "localizacion": "10·1·DER"
       }
     }
   },
@@ -22196,7 +22196,7 @@
       "bodega": {
         "pvp": 152,
         "unidades": 6,
-        "localizacion": "CAVA 10 · BALDA 3 · DER"
+        "localizacion": "10·3·DER"
       }
     }
   },
@@ -22563,7 +22563,7 @@
       "bodega": {
         "pvp": 537,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 5 · IZQ"
+        "localizacion": "10·5·IZQ"
       }
     }
   },
@@ -22619,7 +22619,7 @@
       "bodega": {
         "pvp": 475,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 6 · CEN"
+        "localizacion": "6·6·CEN"
       }
     }
   },
@@ -22675,7 +22675,7 @@
       "bodega": {
         "pvp": 491,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 4 · A / CAVA 10 · BALDA 5 · CEN"
+        "localizacion": "10·4·A / 10·5·CEN"
       }
     }
   },
@@ -22721,7 +22721,7 @@
       "bodega": {
         "pvp": 565,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 5 · IZQ"
+        "localizacion": "10·5·IZQ"
       }
     }
   },
@@ -22833,7 +22833,7 @@
       "bodega": {
         "pvp": 171,
         "unidades": 4,
-        "localizacion": "CAVA 10 · BALDA 4 · B"
+        "localizacion": "10·4·B"
       }
     }
   },
@@ -22945,7 +22945,7 @@
       "bodega": {
         "pvp": 135,
         "unidades": 5,
-        "localizacion": "CAVA 6 · BALDA 1 · IZQ"
+        "localizacion": "6·1·IZQ"
       }
     }
   },
@@ -22991,7 +22991,7 @@
       "bodega": {
         "pvp": 158,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 5 · DER"
+        "localizacion": "10·5·DER"
       }
     }
   },
@@ -23195,7 +23195,7 @@
       "bodega": {
         "pvp": 112,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 4 · A"
+        "localizacion": "10·4·A"
       }
     }
   },
@@ -23256,7 +23256,7 @@
       "bodega": {
         "pvp": 115,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 4 · A"
+        "localizacion": "10·4·A"
       }
     }
   },
@@ -23633,7 +23633,7 @@
       "bodega": {
         "pvp": 120,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 7 · IZQ"
+        "localizacion": "10·7·IZQ"
       }
     }
   },
@@ -23689,7 +23689,7 @@
       "bodega": {
         "pvp": 403,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 7 · IZQ"
+        "localizacion": "10·7·IZQ"
       }
     }
   },
@@ -23745,7 +23745,7 @@
       "bodega": {
         "pvp": 78,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 7 · CEN"
+        "localizacion": "10·7·CEN"
       }
     }
   },
@@ -23944,7 +23944,7 @@
       "bodega": {
         "pvp": 174,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 7 · CEN"
+        "localizacion": "10·7·CEN"
       }
     }
   },
@@ -23990,7 +23990,7 @@
       "bodega": {
         "pvp": 124,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 7 · DER"
+        "localizacion": "10·7·DER"
       }
     }
   },
@@ -24194,7 +24194,7 @@
       "bodega": {
         "pvp": 50,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 7 · DER"
+        "localizacion": "10·7·DER"
       }
     }
   },
@@ -24296,7 +24296,7 @@
       "bodega": {
         "pvp": 88,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 6 · IZQ"
+        "localizacion": "10·6·IZQ"
       }
     }
   },
@@ -24342,7 +24342,7 @@
       "bodega": {
         "pvp": 52,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 7 · DER"
+        "localizacion": "10·7·DER"
       }
     }
   },
@@ -24439,7 +24439,7 @@
       "bodega": {
         "pvp": 77,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 8 · IZQ"
+        "localizacion": "9·8·IZQ"
       }
     }
   },
@@ -24857,7 +24857,7 @@
       "bodega": {
         "pvp": 44,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 6 · DER"
+        "localizacion": "10·6·DER"
       }
     }
   },
@@ -24959,7 +24959,7 @@
       "bodega": {
         "pvp": 37,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 7 · CEN"
+        "localizacion": "10·7·CEN"
       }
     }
   },
@@ -26289,7 +26289,7 @@
       "bodega": {
         "pvp": 86,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 3 · DER"
+        "localizacion": "10·3·DER"
       }
     }
   },
@@ -26937,7 +26937,7 @@
       "bodega": {
         "pvp": 36,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 6 · DER"
+        "localizacion": "10·6·DER"
       }
     }
   },
@@ -35395,7 +35395,7 @@
       "bodega": {
         "pvp": 500,
         "unidades": 2,
-        "localizacion": "CAVA 10 · BALDA 2 · IZQ"
+        "localizacion": "10·2·IZQ"
       }
     }
   },
@@ -45848,7 +45848,7 @@
       "bodega": {
         "pvp": 49,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 4 · CEN"
+        "localizacion": "4·4·CEN"
       }
     }
   },
@@ -67029,7 +67029,7 @@
       "bodega": {
         "pvp": 506,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 5 · DER"
+        "localizacion": "6·5·DER"
       }
     }
   },
@@ -67671,7 +67671,7 @@
       "bodega": {
         "pvp": 175,
         "unidades": 3,
-        "localizacion": "CAVA 2 · BALDA 1"
+        "localizacion": "2·1"
       }
     }
   },
@@ -67717,7 +67717,7 @@
       "bodega": {
         "pvp": 658,
         "unidades": 3,
-        "localizacion": "CAVA 2 · BALDA 1"
+        "localizacion": "2·1"
       }
     }
   },
@@ -67763,7 +67763,7 @@
       "bodega": {
         "pvp": 617,
         "unidades": 3,
-        "localizacion": "CAVA 2 · BALDA 1"
+        "localizacion": "2·1"
       }
     }
   },
@@ -67809,7 +67809,7 @@
       "bodega": {
         "pvp": 700,
         "unidades": 2,
-        "localizacion": "CAVA 2 · BALDA 2"
+        "localizacion": "2·2"
       }
     }
   },
@@ -68598,7 +68598,7 @@
       "bodega": {
         "pvp": 113,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 4 · IZQ"
+        "localizacion": "8·4·IZQ"
       }
     }
   },
@@ -68700,7 +68700,7 @@
       "bodega": {
         "pvp": 9675,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 1"
+        "localizacion": "4·1"
       }
     }
   },
@@ -68746,7 +68746,7 @@
       "bodega": {
         "pvp": 8000,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 1"
+        "localizacion": "4·1"
       }
     }
   },
@@ -68792,7 +68792,7 @@
       "bodega": {
         "pvp": 10500,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 1"
+        "localizacion": "4·1"
       }
     }
   },
@@ -69072,7 +69072,7 @@
       "bodega": {
         "pvp": 2390,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3"
+        "localizacion": "4·3"
       }
     }
   },
@@ -69271,7 +69271,7 @@
       "bodega": {
         "pvp": 1109,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 1"
+        "localizacion": "5·1"
       }
     }
   },
@@ -69368,7 +69368,7 @@
       "bodega": {
         "pvp": 3550,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 2"
+        "localizacion": "5·2"
       }
     }
   },
@@ -69414,7 +69414,7 @@
       "bodega": {
         "pvp": 1890,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 2"
+        "localizacion": "5·2"
       }
     }
   },
@@ -69460,7 +69460,7 @@
       "bodega": {
         "pvp": 1386,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 2"
+        "localizacion": "5·2"
       }
     }
   },
@@ -69506,7 +69506,7 @@
       "bodega": {
         "pvp": 1500,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 2"
+        "localizacion": "5·2"
       }
     }
   },
@@ -69603,7 +69603,7 @@
       "bodega": {
         "pvp": 1575,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 3"
+        "localizacion": "5·3"
       }
     }
   },
@@ -69649,7 +69649,7 @@
       "bodega": {
         "pvp": 1360,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3"
+        "localizacion": "5·3"
       }
     }
   },
@@ -69695,7 +69695,7 @@
       "bodega": {
         "pvp": 1370,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3"
+        "localizacion": "5·3"
       }
     }
   },
@@ -69741,7 +69741,7 @@
       "bodega": {
         "pvp": 1210,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 4"
+        "localizacion": "5·4"
       }
     }
   },
@@ -69787,7 +69787,7 @@
       "bodega": {
         "pvp": 645,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 4"
+        "localizacion": "5·4"
       }
     }
   },
@@ -69833,7 +69833,7 @@
       "bodega": {
         "pvp": 1375,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 1"
+        "localizacion": "6·1"
       }
     }
   },
@@ -69925,7 +69925,7 @@
       "bodega": {
         "pvp": 1386,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 1"
+        "localizacion": "6·1"
       }
     }
   },
@@ -69971,7 +69971,7 @@
       "bodega": {
         "pvp": 1465,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 1"
+        "localizacion": "6·1"
       }
     }
   },
@@ -70017,7 +70017,7 @@
       "bodega": {
         "pvp": 1018,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 2"
+        "localizacion": "6·2"
       }
     }
   },
@@ -70109,7 +70109,7 @@
       "bodega": {
         "pvp": 1000,
         "unidades": 1,
-        "localizacion": "CAVA 6 · BALDA 2"
+        "localizacion": "6·2"
       }
     }
   },
@@ -70155,7 +70155,7 @@
       "bodega": {
         "pvp": 1640,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 3"
+        "localizacion": "6·3"
       }
     }
   },
@@ -70211,7 +70211,7 @@
       "bodega": {
         "pvp": 1520,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 3"
+        "localizacion": "6·3"
       }
     }
   },
@@ -70262,7 +70262,7 @@
       "bodega": {
         "pvp": 2268,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 3"
+        "localizacion": "6·3"
       }
     }
   },
@@ -70308,7 +70308,7 @@
       "bodega": {
         "pvp": 1440,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 1 · IZQ"
+        "localizacion": "7·1·IZQ"
       }
     }
   },
@@ -70354,7 +70354,7 @@
       "bodega": {
         "pvp": 2772,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 4"
+        "localizacion": "6·4"
       }
     }
   },
@@ -70400,7 +70400,7 @@
       "bodega": {
         "pvp": 889,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 1 · CEN"
+        "localizacion": "7·1·CEN"
       }
     }
   },
@@ -70834,7 +70834,7 @@
       "bodega": {
         "pvp": 770,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 6 · IZQ"
+        "localizacion": "5·6·IZQ"
       }
     }
   },
@@ -70982,7 +70982,7 @@
       "bodega": {
         "pvp": 326,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 7 · DER"
+        "localizacion": "4·7·DER"
       }
     }
   },
@@ -71028,7 +71028,7 @@
       "bodega": {
         "pvp": 880,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 6 · IZQ"
+        "localizacion": "4·6·IZQ"
       }
     }
   },
@@ -71227,7 +71227,7 @@
       "bodega": {
         "pvp": 194,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · DER"
+        "localizacion": "4·3·DER"
       }
     }
   },
@@ -71431,7 +71431,7 @@
       "bodega": {
         "pvp": 289,
         "unidades": 4,
-        "localizacion": "CAVA 4 · BALDA 6 · DER"
+        "localizacion": "4·6·DER"
       }
     }
   },
@@ -71630,7 +71630,7 @@
       "bodega": {
         "pvp": 222,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2 · IZQ"
+        "localizacion": "4·2·IZQ"
       }
     }
   },
@@ -71686,7 +71686,7 @@
       "bodega": {
         "pvp": 240,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · IZQ"
+        "localizacion": "4·3·IZQ"
       }
     }
   },
@@ -71839,7 +71839,7 @@
       "bodega": {
         "pvp": 305,
         "unidades": 5,
-        "localizacion": "CAVA 4 · BALDA 1 · IZQ / CAVA 4 · BALDA 5 · B"
+        "localizacion": "4·1·IZQ / 4·5·B"
       }
     }
   },
@@ -71895,7 +71895,7 @@
       "bodega": {
         "pvp": 403,
         "unidades": 6,
-        "localizacion": "CAVA 4 · BALDA 1 · IZQ / CAVA 4 · BALDA 5 · C"
+        "localizacion": "4·1·IZQ / 4·5·C"
       }
     }
   },
@@ -71941,7 +71941,7 @@
       "bodega": {
         "pvp": 980,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3 · DER"
+        "localizacion": "5·3·DER"
       }
     }
   },
@@ -72084,7 +72084,7 @@
       "bodega": {
         "pvp": 1014,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 6 · IZQ"
+        "localizacion": "5·6·IZQ"
       }
     }
   },
@@ -72278,7 +72278,7 @@
       "bodega": {
         "pvp": 506,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 4 · DER"
+        "localizacion": "5·4·DER"
       }
     }
   },
@@ -72375,7 +72375,7 @@
       "bodega": {
         "pvp": 415,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 5 · D"
+        "localizacion": "4·5·D"
       }
     }
   },
@@ -72518,7 +72518,7 @@
       "bodega": {
         "pvp": 78,
         "unidades": 4,
-        "localizacion": "CAVA 4 · BALDA 7 · CEN"
+        "localizacion": "4·7·CEN"
       }
     }
   },
@@ -73238,7 +73238,7 @@
       "bodega": {
         "pvp": 307,
         "unidades": 4,
-        "localizacion": "CAVA 7 · BALDA 2 · DER"
+        "localizacion": "7·2·DER"
       }
     }
   },
@@ -73340,7 +73340,7 @@
       "bodega": {
         "pvp": 873,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 6 · CEN"
+        "localizacion": "5·6·CEN"
       }
     }
   },
@@ -73386,7 +73386,7 @@
       "bodega": {
         "pvp": 793,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 6 · CEN"
+        "localizacion": "5·6·CEN"
       }
     }
   },
@@ -73432,7 +73432,7 @@
       "bodega": {
         "pvp": 610,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2 · DER"
+        "localizacion": "4·2·DER"
       }
     }
   },
@@ -73478,7 +73478,7 @@
       "bodega": {
         "pvp": 580,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · IZQ"
+        "localizacion": "4·3·IZQ"
       }
     }
   },
@@ -73830,7 +73830,7 @@
       "bodega": {
         "pvp": 1351,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 5 · A"
+        "localizacion": "4·5·A"
       }
     }
   },
@@ -73881,7 +73881,7 @@
       "bodega": {
         "pvp": 436,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · A"
+        "localizacion": "4·5·A"
       }
     }
   },
@@ -74085,7 +74085,7 @@
       "bodega": {
         "pvp": 130,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 7 · DER"
+        "localizacion": "4·7·DER"
       }
     }
   },
@@ -74141,7 +74141,7 @@
       "bodega": {
         "pvp": 273,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · C"
+        "localizacion": "4·5·C"
       }
     }
   },
@@ -74197,7 +74197,7 @@
       "bodega": {
         "pvp": 911,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 3 · IZQ / CAVA 5 · BALDA 5 · B / CAVA 5 · BALDA 6 · IZQ"
+        "localizacion": "5·3·IZQ / 5·5·B / 5·6·IZQ"
       }
     }
   },
@@ -74360,7 +74360,7 @@
       "bodega": {
         "pvp": 648,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · C"
+        "localizacion": "4·5·C"
       }
     }
   },
@@ -74508,7 +74508,7 @@
       "bodega": {
         "pvp": 512,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 5 · A"
+        "localizacion": "5·5·A"
       }
     }
   },
@@ -74804,7 +74804,7 @@
       "bodega": {
         "pvp": 1028,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 6 · DER"
+        "localizacion": "5·6·DER"
       }
     }
   },
@@ -74860,7 +74860,7 @@
       "bodega": {
         "pvp": 788,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 5 · C"
+        "localizacion": "5·5·C"
       }
     }
   },
@@ -74906,7 +74906,7 @@
       "bodega": {
         "pvp": 173,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2 · IZQ"
+        "localizacion": "4·2·IZQ"
       }
     }
   },
@@ -74952,7 +74952,7 @@
       "bodega": {
         "pvp": 158,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · DER"
+        "localizacion": "4·3·DER"
       }
     }
   },
@@ -75238,7 +75238,7 @@
       "bodega": {
         "pvp": 163,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 7 · IZQ"
+        "localizacion": "4·7·IZQ"
       }
     }
   },
@@ -75284,7 +75284,7 @@
       "bodega": {
         "pvp": 1200,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · D"
+        "localizacion": "5·5·D"
       }
     }
   },
@@ -75376,7 +75376,7 @@
       "bodega": {
         "pvp": 510,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · A"
+        "localizacion": "4·5·A"
       }
     }
   },
@@ -75422,7 +75422,7 @@
       "bodega": {
         "pvp": 792,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 7 · DER"
+        "localizacion": "5·7·DER"
       }
     }
   },
@@ -75468,7 +75468,7 @@
       "bodega": {
         "pvp": 792,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 6 · CEN"
+        "localizacion": "5·6·CEN"
       }
     }
   },
@@ -75519,7 +75519,7 @@
       "bodega": {
         "pvp": 168,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 8 · IZQ"
+        "localizacion": "4·8·IZQ"
       }
     }
   },
@@ -75565,7 +75565,7 @@
       "bodega": {
         "pvp": 1320,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · E"
+        "localizacion": "4·5·E"
       }
     }
   },
@@ -75718,7 +75718,7 @@
       "bodega": {
         "pvp": 630,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 5 · C"
+        "localizacion": "5·5·C"
       }
     }
   },
@@ -75764,7 +75764,7 @@
       "bodega": {
         "pvp": 159,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 6 · IZQ"
+        "localizacion": "4·6·IZQ"
       }
     }
   },
@@ -75963,7 +75963,7 @@
       "bodega": {
         "pvp": 220,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 6 · DER"
+        "localizacion": "5·6·DER"
       }
     }
   },
@@ -76116,7 +76116,7 @@
       "bodega": {
         "pvp": 216,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 5 · B"
+        "localizacion": "4·5·B"
       }
     }
   },
@@ -76213,7 +76213,7 @@
       "bodega": {
         "pvp": 220,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 1 · DER"
+        "localizacion": "4·1·DER"
       }
     }
   },
@@ -76361,7 +76361,7 @@
       "bodega": {
         "pvp": 515,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3 · IZQ"
+        "localizacion": "5·3·IZQ"
       }
     }
   },
@@ -76499,7 +76499,7 @@
       "bodega": {
         "pvp": 4000,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 5 · E"
+        "localizacion": "4·5·E"
       }
     }
   },
@@ -77576,7 +77576,7 @@
       "bodega": {
         "pvp": 210,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 6 · CEN"
+        "localizacion": "4·6·CEN"
       }
     }
   },
@@ -77622,7 +77622,7 @@
       "bodega": {
         "pvp": 744,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 6 · CEN"
+        "localizacion": "5·6·CEN"
       }
     }
   },
@@ -77979,7 +77979,7 @@
       "bodega": {
         "pvp": 1300,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 1 · CEN"
+        "localizacion": "5·1·CEN"
       }
     }
   },
@@ -78030,7 +78030,7 @@
       "bodega": {
         "pvp": 1150,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 1 · CEN"
+        "localizacion": "5·1·CEN"
       }
     }
   },
@@ -78260,7 +78260,7 @@
       "bodega": {
         "pvp": 275,
         "unidades": 4,
-        "localizacion": "CAVA 5 · BALDA 5 · B"
+        "localizacion": "5·5·B"
       }
     }
   },
@@ -78352,7 +78352,7 @@
       "bodega": {
         "pvp": 1150,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 2 · DER"
+        "localizacion": "5·2·DER"
       }
     }
   },
@@ -78398,7 +78398,7 @@
       "bodega": {
         "pvp": 995,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3 · DER"
+        "localizacion": "5·3·DER"
       }
     }
   },
@@ -78449,7 +78449,7 @@
       "bodega": {
         "pvp": 1080,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 2 · DER"
+        "localizacion": "5·2·DER"
       }
     }
   },
@@ -78495,7 +78495,7 @@
       "bodega": {
         "pvp": 1050,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 2 · DER"
+        "localizacion": "5·2·DER"
       }
     }
   },
@@ -78541,7 +78541,7 @@
       "bodega": {
         "pvp": 228,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 1 · DER"
+        "localizacion": "5·1·DER"
       }
     }
   },
@@ -79419,7 +79419,7 @@
       "bodega": {
         "pvp": 2360,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 2 · IZQ"
+        "localizacion": "5·2·IZQ"
       }
     }
   },
@@ -79511,7 +79511,7 @@
       "bodega": {
         "pvp": 1240,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 2 · IZQ"
+        "localizacion": "5·2·IZQ"
       }
     }
   },
@@ -79618,7 +79618,7 @@
       "bodega": {
         "pvp": 884,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 2 · CEN"
+        "localizacion": "5·2·CEN"
       }
     }
   },
@@ -79664,7 +79664,7 @@
       "bodega": {
         "pvp": 730,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 5 · D"
+        "localizacion": "4·5·D"
       }
     }
   },
@@ -79756,7 +79756,7 @@
       "bodega": {
         "pvp": 4175,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 2 · CEN"
+        "localizacion": "5·2·CEN"
       }
     }
   },
@@ -79848,7 +79848,7 @@
       "bodega": {
         "pvp": 2360,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 7 · CEN"
+        "localizacion": "5·7·CEN"
       }
     }
   },
@@ -79894,7 +79894,7 @@
       "bodega": {
         "pvp": 1090,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 2 · CEN"
+        "localizacion": "5·2·CEN"
       }
     }
   },
@@ -80180,7 +80180,7 @@
       "bodega": {
         "pvp": 116,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 6 · DER"
+        "localizacion": "4·6·DER"
       }
     }
   },
@@ -80767,7 +80767,7 @@
       "bodega": {
         "pvp": 205,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2 · IZQ"
+        "localizacion": "4·2·IZQ"
       }
     }
   },
@@ -80813,7 +80813,7 @@
       "bodega": {
         "pvp": 3550,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · C"
+        "localizacion": "5·5·C"
       }
     }
   },
@@ -80859,7 +80859,7 @@
       "bodega": {
         "pvp": 2150,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · A"
+        "localizacion": "4·5·A"
       }
     }
   },
@@ -80905,7 +80905,7 @@
       "bodega": {
         "pvp": 1140,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 1 · DER"
+        "localizacion": "4·1·DER"
       }
     }
   },
@@ -81007,7 +81007,7 @@
       "bodega": {
         "pvp": 7655,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 5 · B"
+        "localizacion": "5·5·B"
       }
     }
   },
@@ -81283,7 +81283,7 @@
       "bodega": {
         "pvp": 2100,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · E"
+        "localizacion": "5·5·E"
       }
     }
   },
@@ -81329,7 +81329,7 @@
       "bodega": {
         "pvp": 1880,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · E"
+        "localizacion": "5·5·E"
       }
     }
   },
@@ -81375,7 +81375,7 @@
       "bodega": {
         "pvp": 1840,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · E"
+        "localizacion": "5·5·E"
       }
     }
   },
@@ -81421,7 +81421,7 @@
       "bodega": {
         "pvp": 1575,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · D"
+        "localizacion": "5·5·D"
       }
     }
   },
@@ -81467,7 +81467,7 @@
       "bodega": {
         "pvp": 3150,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 5 · D"
+        "localizacion": "5·5·D"
       }
     }
   },
@@ -82156,7 +82156,7 @@
       "bodega": {
         "pvp": 375,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 5 · B"
+        "localizacion": "4·5·B"
       }
     }
   },
@@ -82212,7 +82212,7 @@
       "bodega": {
         "pvp": 1256,
         "unidades": 4,
-        "localizacion": "CAVA 5 · BALDA 4 · CEN"
+        "localizacion": "5·4·CEN"
       }
     }
   },
@@ -82309,7 +82309,7 @@
       "bodega": {
         "pvp": 179,
         "unidades": 4,
-        "localizacion": "CAVA 4 · BALDA 4 · CEN"
+        "localizacion": "4·4·CEN"
       }
     }
   },
@@ -82411,7 +82411,7 @@
       "bodega": {
         "pvp": 1033,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 3 · DER"
+        "localizacion": "4·3·DER"
       }
     }
   },
@@ -82513,7 +82513,7 @@
       "bodega": {
         "pvp": 682,
         "unidades": 5,
-        "localizacion": "CAVA 4 · BALDA 4 · IZQ / CAVA 4 · BALDA 5 · C"
+        "localizacion": "4·4·IZQ / 4·5·C"
       }
     }
   },
@@ -82605,7 +82605,7 @@
       "bodega": {
         "pvp": 1610,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 5 · C / CAVA 8 · BALDA 5 · A"
+        "localizacion": "5·5·C / 8·5·A"
       }
     }
   },
@@ -96485,7 +96485,7 @@
       "bodega": {
         "pvp": 145,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 4 · E"
+        "localizacion": "10·4·E"
       }
     }
   },
@@ -98893,7 +98893,7 @@
       "bodega": {
         "pvp": 95,
         "unidades": 5,
-        "localizacion": "CAVA 6 · BALDA 3 · IZQ"
+        "localizacion": "6·3·IZQ"
       }
     }
   },
@@ -99261,7 +99261,7 @@
       "bodega": {
         "pvp": 142,
         "unidades": 6,
-        "localizacion": "CAVA 6 · BALDA 3 · IZQ"
+        "localizacion": "6·3·IZQ"
       }
     }
   },
@@ -99429,7 +99429,7 @@
       "bodega": {
         "pvp": 495,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 5 · DER / CAVA 6 · BALDA 6 · DER"
+        "localizacion": "6·5·DER / 6·6·DER"
       }
     }
   },
@@ -99480,7 +99480,7 @@
       "bodega": {
         "pvp": 447,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 4 · D"
+        "localizacion": "6·4·D"
       }
     }
   },
@@ -99546,7 +99546,7 @@
       "bodega": {
         "pvp": 320,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 6 · IZQ"
+        "localizacion": "6·6·IZQ"
       }
     }
   },
@@ -99704,7 +99704,7 @@
       "bodega": {
         "pvp": 150,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 5 · CEN"
+        "localizacion": "6·5·CEN"
       }
     }
   },
@@ -99877,7 +99877,7 @@
       "bodega": {
         "pvp": 255,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 1 · DER"
+        "localizacion": "6·1·DER"
       }
     }
   },
@@ -99933,7 +99933,7 @@
       "bodega": {
         "pvp": 2300,
         "unidades": 1,
-        "localizacion": "CAVA 6 · BALDA 4 · E"
+        "localizacion": "6·4·E"
       }
     }
   },
@@ -100025,7 +100025,7 @@
       "bodega": {
         "pvp": 2350,
         "unidades": 1,
-        "localizacion": "CAVA 6 · BALDA 4 · E"
+        "localizacion": "6·4·E"
       }
     }
   },
@@ -100071,7 +100071,7 @@
       "bodega": {
         "pvp": 2268,
         "unidades": 1,
-        "localizacion": "CAVA 6 · BALDA 4 · E"
+        "localizacion": "6·4·E"
       }
     }
   },
@@ -100285,7 +100285,7 @@
       "bodega": {
         "pvp": 207,
         "unidades": 0,
-        "localizacion": "CAVA 6 · BALDA 4 · A"
+        "localizacion": "6·4·A"
       }
     }
   },
@@ -100448,7 +100448,7 @@
       "bodega": {
         "pvp": 178,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 5 · IZQ"
+        "localizacion": "6·5·IZQ"
       }
     }
   },
@@ -100494,7 +100494,7 @@
       "bodega": {
         "pvp": 77,
         "unidades": 1,
-        "localizacion": "CAVA 6 · BALDA 6 · DER"
+        "localizacion": "6·6·DER"
       }
     }
   },
@@ -100744,7 +100744,7 @@
       "bodega": {
         "pvp": 814,
         "unidades": 5,
-        "localizacion": "CAVA 6 · BALDA 4 · B"
+        "localizacion": "6·4·B"
       }
     }
   },
@@ -101060,7 +101060,7 @@
       "bodega": {
         "pvp": 105,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 4 · C"
+        "localizacion": "6·4·C"
       }
     }
   },
@@ -101116,7 +101116,7 @@
       "bodega": {
         "pvp": 110,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 4 · A"
+        "localizacion": "6·4·A"
       }
     }
   },
@@ -101345,7 +101345,7 @@
       "bodega": {
         "pvp": 770,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 4 · E"
+        "localizacion": "6·4·E"
       }
     }
   },
@@ -101641,7 +101641,7 @@
       "bodega": {
         "pvp": 220,
         "unidades": 6,
-        "localizacion": "CAVA 9 · BALDA 1 · DER"
+        "localizacion": "9·1·DER"
       }
     }
   },
@@ -101738,7 +101738,7 @@
       "bodega": {
         "pvp": 220,
         "unidades": 1,
-        "localizacion": "CAVA 9 · BALDA 2 · IZQ"
+        "localizacion": "9·2·IZQ"
       }
     }
   },
@@ -101937,7 +101937,7 @@
       "bodega": {
         "pvp": 74,
         "unidades": 6,
-        "localizacion": "CAVA 9 · BALDA 2 · DER / CAVA 9 · BALDA 3 · DER"
+        "localizacion": "9·2·DER / 9·3·DER"
       }
     }
   },
@@ -101988,7 +101988,7 @@
       "bodega": {
         "pvp": 79,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 3 · IZQ"
+        "localizacion": "9·3·IZQ"
       }
     }
   },
@@ -102034,7 +102034,7 @@
       "bodega": {
         "pvp": 170,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 3 · IZQ"
+        "localizacion": "9·3·IZQ"
       }
     }
   },
@@ -102080,7 +102080,7 @@
       "bodega": {
         "pvp": 121,
         "unidades": 1,
-        "localizacion": "CAVA 9 · BALDA 3 · CEN"
+        "localizacion": "9·3·CEN"
       }
     }
   },
@@ -102131,7 +102131,7 @@
       "bodega": {
         "pvp": 170,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 3 · DER"
+        "localizacion": "9·3·DER"
       }
     }
   },
@@ -102335,7 +102335,7 @@
       "bodega": {
         "pvp": 295,
         "unidades": 6,
-        "localizacion": "CAVA 9 · BALDA 4 · IZQ"
+        "localizacion": "9·4·IZQ"
       }
     }
   },
@@ -102432,7 +102432,7 @@
       "bodega": {
         "pvp": 89,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 4 · CEN"
+        "localizacion": "9·4·CEN"
       }
     }
   },
@@ -102483,7 +102483,7 @@
       "bodega": {
         "pvp": 42,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 4 · CEN"
+        "localizacion": "9·4·CEN"
       }
     }
   },
@@ -102631,7 +102631,7 @@
       "bodega": {
         "pvp": 176,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 4 · DER"
+        "localizacion": "9·4·DER"
       }
     }
   },
@@ -102682,7 +102682,7 @@
       "bodega": {
         "pvp": 571,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 5 · E"
+        "localizacion": "9·5·E"
       }
     }
   },
@@ -102825,7 +102825,7 @@
       "bodega": {
         "pvp": 124,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 5 · D"
+        "localizacion": "9·5·D"
       }
     }
   },
@@ -102927,7 +102927,7 @@
       "bodega": {
         "pvp": 64,
         "unidades": 4,
-        "localizacion": "CAVA 9 · BALDA 5 · C"
+        "localizacion": "9·5·C"
       }
     }
   },
@@ -103065,7 +103065,7 @@
       "bodega": {
         "pvp": 168,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 5 · A"
+        "localizacion": "9·5·A"
       }
     }
   },
@@ -103111,7 +103111,7 @@
       "bodega": {
         "pvp": 181,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 5 · A"
+        "localizacion": "9·5·A"
       }
     }
   },
@@ -103575,7 +103575,7 @@
       "bodega": {
         "pvp": 220,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 6 · IZQ"
+        "localizacion": "9·6·IZQ"
       }
     }
   },
@@ -103794,7 +103794,7 @@
       "bodega": {
         "pvp": 107,
         "unidades": 5,
-        "localizacion": "CAVA 9 · BALDA 6 · CEN"
+        "localizacion": "9·6·CEN"
       }
     }
   },
@@ -103845,7 +103845,7 @@
       "bodega": {
         "pvp": 240,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 6 · CEN"
+        "localizacion": "9·6·CEN"
       }
     }
   },
@@ -103998,7 +103998,7 @@
       "bodega": {
         "pvp": 84,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 6 · DER"
+        "localizacion": "9·6·DER"
       }
     }
   },
@@ -104136,7 +104136,7 @@
       "bodega": {
         "pvp": 107,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 7 · IZQ"
+        "localizacion": "9·7·IZQ"
       }
     }
   },
@@ -104182,7 +104182,7 @@
       "bodega": {
         "pvp": 471,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 7 · IZQ"
+        "localizacion": "9·7·IZQ"
       }
     }
   },
@@ -104279,7 +104279,7 @@
       "bodega": {
         "pvp": 70,
         "unidades": 2,
-        "localizacion": "CAVA 9 · BALDA 7 · DER"
+        "localizacion": "9·7·DER"
       }
     }
   },
@@ -104330,7 +104330,7 @@
       "bodega": {
         "pvp": 34,
         "unidades": 4,
-        "localizacion": "CAVA 9 · BALDA 7 · DER"
+        "localizacion": "9·7·DER"
       }
     }
   },
@@ -104478,7 +104478,7 @@
       "bodega": {
         "pvp": 90,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 8 · IZQ"
+        "localizacion": "9·8·IZQ"
       }
     }
   },
@@ -104631,7 +104631,7 @@
       "bodega": {
         "pvp": 367,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 8 · DER"
+        "localizacion": "9·8·DER"
       }
     }
   },
@@ -104682,7 +104682,7 @@
       "bodega": {
         "pvp": 118,
         "unidades": 2,
-        "localizacion": "CAVA 9 · BALDA 8 · DER"
+        "localizacion": "9·8·DER"
       }
     }
   },
@@ -104830,7 +104830,7 @@
       "bodega": {
         "pvp": 216,
         "unidades": 2,
-        "localizacion": "CAVA 11 · BALDA 1 · IZQ"
+        "localizacion": "11·1·IZQ"
       }
     }
   },
@@ -104968,7 +104968,7 @@
       "bodega": {
         "pvp": 265,
         "unidades": 3,
-        "localizacion": "CAVA 11 · BALDA 1 · CEN"
+        "localizacion": "11·1·CEN"
       }
     }
   },
@@ -105024,7 +105024,7 @@
       "bodega": {
         "pvp": 800,
         "unidades": 1,
-        "localizacion": "CAVA 11 · BALDA 2 · IZQ"
+        "localizacion": "11·2·IZQ"
       }
     }
   },
@@ -105090,7 +105090,7 @@
       "bodega": {
         "pvp": 589,
         "unidades": 2,
-        "localizacion": "CAVA 11 · BALDA 2 · CEN"
+        "localizacion": "11·2·CEN"
       }
     }
   },
@@ -105339,7 +105339,7 @@
       "bodega": {
         "pvp": 1550,
         "unidades": 3,
-        "localizacion": "CAVA 12 · BALDA 3 · CEN"
+        "localizacion": "12·3·CEN"
       }
     }
   },
@@ -105400,7 +105400,7 @@
       "bodega": {
         "pvp": 310,
         "unidades": 8,
-        "localizacion": "CAVA 11 · BALDA 3 · IZQ"
+        "localizacion": "11·3·IZQ"
       }
     }
   },
@@ -105787,7 +105787,7 @@
       "bodega": {
         "pvp": 180,
         "unidades": 6,
-        "localizacion": "CAVA 11 · BALDA 1 · DER / CAVA 11 · BALDA 4 · IZQ / CAVA 12 · BALDA 1 · IZQ"
+        "localizacion": "11·1·DER / 11·4·IZQ / 12·1·IZQ"
       }
     }
   },
@@ -105838,7 +105838,7 @@
       "bodega": {
         "pvp": 63,
         "unidades": 3,
-        "localizacion": "CAVA 12 · BALDA 1 · CEN"
+        "localizacion": "12·1·CEN"
       }
     }
   },
@@ -106011,7 +106011,7 @@
       "bodega": {
         "pvp": 766,
         "unidades": 3,
-        "localizacion": "CAVA 12 · BALDA 2 · IZQ"
+        "localizacion": "12·2·IZQ"
       }
     }
   },
@@ -106072,7 +106072,7 @@
       "bodega": {
         "pvp": 1650,
         "unidades": 2,
-        "localizacion": "CAVA 12 · BALDA 2 · CEN"
+        "localizacion": "12·2·CEN"
       }
     }
   },
@@ -106133,7 +106133,7 @@
       "bodega": {
         "pvp": 735,
         "unidades": 3,
-        "localizacion": "CAVA 12 · BALDA 2 · DER"
+        "localizacion": "12·2·DER"
       }
     }
   },
@@ -106184,7 +106184,7 @@
       "bodega": {
         "pvp": 1045,
         "unidades": 1,
-        "localizacion": "CAVA 12 · BALDA 3 · IZQ"
+        "localizacion": "12·3·IZQ"
       }
     }
   },
@@ -106245,7 +106245,7 @@
       "bodega": {
         "pvp": 775,
         "unidades": 1,
-        "localizacion": "CAVA 12 · BALDA 3 · IZQ"
+        "localizacion": "12·3·IZQ"
       }
     }
   },
@@ -106306,7 +106306,7 @@
       "bodega": {
         "pvp": 749,
         "unidades": 2,
-        "localizacion": "CAVA 12 · BALDA 3 · DER"
+        "localizacion": "12·3·DER"
       }
     }
   },
@@ -106749,7 +106749,7 @@
       "bodega": {
         "pvp": 230,
         "unidades": 3,
-        "localizacion": "CAVA 12 · BALDA 4 · DER"
+        "localizacion": "12·4·DER"
       }
     }
   },
@@ -107940,7 +107940,7 @@
       "bodega": {
         "pvp": 44,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 2 · CEN"
+        "localizacion": "10·2·CEN"
       }
     }
   },
@@ -108006,7 +108006,7 @@
       "bodega": {
         "pvp": 124,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 2 · DER"
+        "localizacion": "10·2·DER"
       }
     }
   },
@@ -108103,7 +108103,7 @@
       "bodega": {
         "pvp": 134,
         "unidades": 5,
-        "localizacion": "CAVA 10 · BALDA 3 · CEN / CAVA 10 · BALDA 3 · IZQ"
+        "localizacion": "10·3·CEN / 10·3·IZQ"
       }
     }
   },
@@ -109826,7 +109826,7 @@
       "bodega": {
         "pvp": 595,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 3 · IZQ"
+        "localizacion": "5·3·IZQ"
       }
     }
   },
@@ -110351,7 +110351,7 @@
       "bodega": {
         "pvp": 53,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 8 · CEN"
+        "localizacion": "9·8·CEN"
       }
     }
   },
@@ -110409,7 +110409,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 8 · CEN"
+        "localizacion": "7·8·CEN"
       }
     }
   },
@@ -110467,7 +110467,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 1 · IZQ"
+        "localizacion": "7·1·IZQ"
       }
     }
   },
@@ -110525,7 +110525,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 1 · DER"
+        "localizacion": "7·1·DER"
       }
     }
   },
@@ -110583,7 +110583,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 1 · IZQ"
+        "localizacion": "7·1·IZQ"
       }
     }
   },
@@ -110641,7 +110641,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 1 · IZQ"
+        "localizacion": "7·1·IZQ"
       }
     }
   },
@@ -110699,7 +110699,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 8 · DER"
+        "localizacion": "7·8·DER"
       }
     }
   },
@@ -110757,7 +110757,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 4 · CEN"
+        "localizacion": "7·4·CEN"
       }
     }
   },
@@ -110815,7 +110815,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 2 · CEN"
+        "localizacion": "7·2·CEN"
       }
     }
   },
@@ -110873,7 +110873,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 7 · DER"
+        "localizacion": "7·7·DER"
       }
     }
   },
@@ -110931,7 +110931,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 8 · BALDA 6 · DER"
+        "localizacion": "8·6·DER"
       }
     }
   },
@@ -110989,7 +110989,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 5 · E"
+        "localizacion": "8·5·E"
       }
     }
   },
@@ -111047,7 +111047,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 5 · B"
+        "localizacion": "8·5·B"
       }
     }
   },
@@ -111105,7 +111105,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 2 · IZQ"
+        "localizacion": "7·2·IZQ"
       }
     }
   },
@@ -111163,7 +111163,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 2 · IZQ"
+        "localizacion": "7·2·IZQ"
       }
     }
   },
@@ -111221,7 +111221,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 2 · DER"
+        "localizacion": "8·2·DER"
       }
     }
   },
@@ -111279,7 +111279,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 7 · DER"
+        "localizacion": "7·7·DER"
       }
     }
   },
@@ -111337,7 +111337,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 4 · CEN"
+        "localizacion": "7·4·CEN"
       }
     }
   },
@@ -111395,7 +111395,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 5 · C"
+        "localizacion": "7·5·C"
       }
     }
   },
@@ -111453,7 +111453,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 7 · CEN"
+        "localizacion": "8·7·CEN"
       }
     }
   },
@@ -111511,7 +111511,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 7 · IZQ"
+        "localizacion": "7·7·IZQ"
       }
     }
   },
@@ -111569,7 +111569,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 5,
-        "localizacion": "CAVA 8 · BALDA 4 · DER / CAVA 8 · BALDA 5 · D"
+        "localizacion": "8·4·DER / 8·5·D"
       }
     }
   },
@@ -111627,7 +111627,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 5 · E"
+        "localizacion": "8·5·E"
       }
     }
   },
@@ -111685,7 +111685,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 1 · CEN"
+        "localizacion": "8·1·CEN"
       }
     }
   },
@@ -111743,7 +111743,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 1 · DER"
+        "localizacion": "7·1·DER"
       }
     }
   },
@@ -111801,7 +111801,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 7 · BALDA 3 · DER"
+        "localizacion": "7·3·DER"
       }
     }
   },
@@ -111859,7 +111859,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 8 · BALDA 5 · E"
+        "localizacion": "8·5·E"
       }
     }
   },
@@ -111917,7 +111917,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 8 · BALDA 6 · CEN"
+        "localizacion": "8·6·CEN"
       }
     }
   },
@@ -111975,7 +111975,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 4,
-        "localizacion": "CAVA 4 · BALDA 6 · CEN"
+        "localizacion": "4·6·CEN"
       }
     }
   },
@@ -112033,7 +112033,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 4,
-        "localizacion": "CAVA 5 · BALDA 4 · IZQ"
+        "localizacion": "5·4·IZQ"
       }
     }
   },
@@ -112091,7 +112091,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 6 · IZQ"
+        "localizacion": "5·6·IZQ"
       }
     }
   },
@@ -112149,7 +112149,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 1 · CEN"
+        "localizacion": "4·1·CEN"
       }
     }
   },
@@ -112207,7 +112207,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 1 · CEN"
+        "localizacion": "4·1·CEN"
       }
     }
   },
@@ -112265,7 +112265,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 1 · IZQ"
+        "localizacion": "5·1·IZQ"
       }
     }
   },
@@ -112323,7 +112323,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 1 · IZQ"
+        "localizacion": "5·1·IZQ"
       }
     }
   },
@@ -112381,7 +112381,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 5 · E"
+        "localizacion": "4·5·E"
       }
     }
   },
@@ -112439,7 +112439,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · CEN"
+        "localizacion": "4·3·CEN"
       }
     }
   },
@@ -112497,7 +112497,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 5 · A"
+        "localizacion": "5·5·A"
       }
     }
   },
@@ -112555,7 +112555,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 7 · CEN"
+        "localizacion": "4·7·CEN"
       }
     }
   },
@@ -112613,7 +112613,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 6 · DER"
+        "localizacion": "4·6·DER"
       }
     }
   },
@@ -112671,7 +112671,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 4 · DER"
+        "localizacion": "4·4·DER"
       }
     }
   },
@@ -112729,7 +112729,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 1 · DER"
+        "localizacion": "4·1·DER"
       }
     }
   },
@@ -112787,7 +112787,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 3 · CEN"
+        "localizacion": "5·3·CEN"
       }
     }
   },
@@ -112845,7 +112845,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3 · CEN"
+        "localizacion": "5·3·CEN"
       }
     }
   },
@@ -112903,7 +112903,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 0,
-        "localizacion": "CAVA 5 · BALDA 3 · CEN"
+        "localizacion": "5·3·CEN"
       }
     }
   },
@@ -112961,7 +112961,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 3 · DER"
+        "localizacion": "5·3·DER"
       }
     }
   },
@@ -113019,7 +113019,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 7 · IZQ"
+        "localizacion": "5·7·IZQ"
       }
     }
   },
@@ -113077,7 +113077,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 6 · DER"
+        "localizacion": "4·6·DER"
       }
     }
   },
@@ -113135,7 +113135,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 5 · C"
+        "localizacion": "4·5·C"
       }
     }
   },
@@ -113193,7 +113193,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · DER / CAVA 4 · BALDA 8 · DER"
+        "localizacion": "4·3·DER / 4·8·DER"
       }
     }
   },
@@ -113251,7 +113251,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 3 · DER"
+        "localizacion": "4·3·DER"
       }
     }
   },
@@ -113309,7 +113309,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 7 · DER"
+        "localizacion": "4·7·DER"
       }
     }
   },
@@ -113367,7 +113367,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 6 · IZQ"
+        "localizacion": "4·6·IZQ"
       }
     }
   },
@@ -113425,7 +113425,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 4 · DER"
+        "localizacion": "4·4·DER"
       }
     }
   },
@@ -113483,7 +113483,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 5 · C / CAVA 5 · BALDA 6 · CEN"
+        "localizacion": "5·5·C / 5·6·CEN"
       }
     }
   },
@@ -113541,7 +113541,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 1 · DER"
+        "localizacion": "4·1·DER"
       }
     }
   },
@@ -113599,7 +113599,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 4 · BALDA 8 · DER"
+        "localizacion": "4·8·DER"
       }
     }
   },
@@ -113657,7 +113657,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2 · IZQ"
+        "localizacion": "4·2·IZQ"
       }
     }
   },
@@ -113715,7 +113715,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 7 · IZQ"
+        "localizacion": "4·7·IZQ"
       }
     }
   },
@@ -113773,7 +113773,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 5 · BALDA 1 · CEN"
+        "localizacion": "5·1·CEN"
       }
     }
   },
@@ -113831,7 +113831,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 8 · DER / CAVA 5 · BALDA 1 · DER"
+        "localizacion": "4·8·DER / 5·1·DER"
       }
     }
   },
@@ -113889,7 +113889,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 5 · BALDA 7 · DER"
+        "localizacion": "5·7·DER"
       }
     }
   },
@@ -113947,7 +113947,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3 · IZQ"
+        "localizacion": "4·3·IZQ"
       }
     }
   },
@@ -114005,7 +114005,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 5,
-        "localizacion": "CAVA 5 · BALDA 4 · IZQ"
+        "localizacion": "5·4·IZQ"
       }
     }
   },
@@ -114063,7 +114063,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 7 · IZQ"
+        "localizacion": "5·7·IZQ"
       }
     }
   },
@@ -114121,7 +114121,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2 · CEN"
+        "localizacion": "4·2·CEN"
       }
     }
   },
@@ -114179,7 +114179,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 4 · BALDA 2 · CEN"
+        "localizacion": "4·2·CEN"
       }
     }
   },
@@ -114237,7 +114237,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 4 · DER"
+        "localizacion": "5·4·DER"
       }
     }
   },
@@ -114295,7 +114295,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 9 · BALDA 2 · IZQ"
+        "localizacion": "9·2·IZQ"
       }
     }
   },
@@ -114353,7 +114353,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 2 · CEN"
+        "localizacion": "9·2·CEN"
       }
     }
   },
@@ -114411,7 +114411,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 7 · IZQ"
+        "localizacion": "9·7·IZQ"
       }
     }
   },
@@ -114469,7 +114469,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 12 · BALDA 4 · IZQ"
+        "localizacion": "12·4·IZQ"
       }
     }
   },
@@ -114527,7 +114527,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 1 · IZQ"
+        "localizacion": "9·1·IZQ"
       }
     }
   },
@@ -114595,7 +114595,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 11 · BALDA 3 · DER"
+        "localizacion": "11·3·DER"
       }
     }
   },
@@ -114663,7 +114663,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 11 · BALDA 4 · DER"
+        "localizacion": "11·4·DER"
       }
     }
   },
@@ -114731,7 +114731,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 11 · BALDA 4 · CEN"
+        "localizacion": "11·4·CEN"
       }
     }
   },
@@ -114789,7 +114789,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 6,
-        "localizacion": "CAVA 6 · BALDA 3 · DER"
+        "localizacion": "6·3·DER"
       }
     }
   },
@@ -114847,7 +114847,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 4 · C"
+        "localizacion": "6·4·C"
       }
     }
   },
@@ -114905,7 +114905,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 6 · BALDA 5 · IZQ"
+        "localizacion": "6·5·IZQ"
       }
     }
   },
@@ -114963,7 +114963,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 6 · BALDA 4 · A"
+        "localizacion": "6·4·A"
       }
     }
   },
@@ -115021,7 +115021,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 4 · E"
+        "localizacion": "10·4·E"
       }
     }
   },
@@ -115084,7 +115084,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 4,
-        "localizacion": "CAVA 10 · BALDA 1 · CEN"
+        "localizacion": "10·1·CEN"
       }
     }
   },
@@ -115142,7 +115142,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 6 · IZQ"
+        "localizacion": "10·6·IZQ"
       }
     }
   },
@@ -115205,7 +115205,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 4 · B"
+        "localizacion": "10·4·B"
       }
     }
   },
@@ -115263,7 +115263,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 3 · CEN"
+        "localizacion": "10·3·CEN"
       }
     }
   },
@@ -115321,7 +115321,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 6 · CEN"
+        "localizacion": "10·6·CEN"
       }
     }
   },
@@ -115384,7 +115384,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 4,
-        "localizacion": "CAVA 10 · BALDA 5 · DER"
+        "localizacion": "10·5·DER"
       }
     }
   },
@@ -115442,7 +115442,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 3 · IZQ"
+        "localizacion": "10·3·IZQ"
       }
     }
   },
@@ -115500,7 +115500,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 7 · CEN"
+        "localizacion": "10·7·CEN"
       }
     }
   },
@@ -115563,7 +115563,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 10 · BALDA 5 · IZQ"
+        "localizacion": "10·5·IZQ"
       }
     }
   },
@@ -115621,7 +115621,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 10 · BALDA 6 · CEN"
+        "localizacion": "10·6·CEN"
       }
     }
   },
@@ -115679,7 +115679,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 7 · BALDA 2 · IZQ"
+        "localizacion": "7·2·IZQ"
       }
     }
   },
@@ -115737,7 +115737,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 1 · IZQ"
+        "localizacion": "9·1·IZQ"
       }
     }
   },
@@ -115795,7 +115795,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 1 · IZQ"
+        "localizacion": "8·1·IZQ"
       }
     }
   },
@@ -115853,7 +115853,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 8 · BALDA 4 · DER"
+        "localizacion": "8·4·DER"
       }
     }
   },
@@ -115911,7 +115911,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 5,
-        "localizacion": "CAVA 9 · BALDA 1 · CEN"
+        "localizacion": "9·1·CEN"
       }
     }
   },
@@ -115969,7 +115969,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 5,
-        "localizacion": "CAVA 7 · BALDA 2 · CEN"
+        "localizacion": "7·2·CEN"
       }
     }
   },
@@ -116027,7 +116027,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 5 · BALDA 1"
+        "localizacion": "5·1"
       }
     }
   },
@@ -116085,7 +116085,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 7 · BALDA 1 · DER"
+        "localizacion": "7·1·DER"
       }
     }
   },
@@ -116143,7 +116143,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 5,
-        "localizacion": "CAVA 10 · BALDA 1"
+        "localizacion": "10·1"
       }
     }
   },
@@ -116201,7 +116201,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 9 · BALDA 1 · DER"
+        "localizacion": "9·1·DER"
       }
     }
   },
@@ -116259,7 +116259,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 3 · BALDA 1"
+        "localizacion": "3·1"
       }
     }
   },
@@ -116317,7 +116317,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 2,
-        "localizacion": "CAVA 3 · BALDA 4"
+        "localizacion": "3·4"
       }
     }
   },
@@ -116375,7 +116375,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 3 · BALDA 1"
+        "localizacion": "3·1"
       }
     }
   },
@@ -116433,7 +116433,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 3 · BALDA 1"
+        "localizacion": "3·1"
       }
     }
   },
@@ -116491,7 +116491,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 3 · BALDA 2"
+        "localizacion": "3·2"
       }
     }
   },
@@ -116549,7 +116549,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 1,
-        "localizacion": "CAVA 3 · BALDA 2"
+        "localizacion": "3·2"
       }
     }
   },
@@ -116607,7 +116607,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 2"
+        "localizacion": "4·2"
       }
     }
   },
@@ -116665,7 +116665,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 3,
-        "localizacion": "CAVA 4 · BALDA 3"
+        "localizacion": "4·3"
       }
     }
   },
@@ -116723,7 +116723,7 @@
       "bodega": {
         "pvp": null,
         "unidades": 6,
-        "localizacion": "CAVA 10 · BALDA 2 · IZQ"
+        "localizacion": "10·2·IZQ"
       }
     }
   }

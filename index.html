@@ -1711,6 +1711,13 @@
 
         function normalizeLocationValue(value) {
             const raw = value == null ? '' : String(value);
+            if (raw.includes('/')) {
+                const parts = raw
+                    .split('/')
+                    .map((segment) => normalizeLocationValue(segment))
+                    .filter(Boolean);
+                return parts.length ? parts.join(' / ') : null;
+            }
             const normalized = raw
                 .toUpperCase()
                 .replace(/[•·]/g, ' ')
@@ -1743,6 +1750,13 @@
             const cavaNum = cavaMatch?.[1] || null;
             const baldaNum = baldaMatch?.[1] || null;
             if (cavaNum && baldaNum) {
+                if (!pos) {
+                    const afterBalda = normalized.replace(/^.*\bBALDA\s*[-:]?\s*\d{1,2}\b/, '').trim();
+                    if (afterBalda) {
+                        const rawPosToken = afterBalda.split(' ')[0].replace(/[^A-Z0-9]/g, '');
+                        pos = normalizeLocationPosToken(rawPosToken) || rawPosToken.slice(0, 3) || null;
+                    }
+                }
                 return `${cavaNum}·${baldaNum}${pos ? `·${pos}` : ''}`;
             }
 
