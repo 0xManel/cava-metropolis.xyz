@@ -2485,6 +2485,15 @@
                 consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
             }
         };
+        const SUPPORTED_LANGS = Object.freeze(['es', 'en', 'pt']);
+
+        function normalizeLangCode(lang) {
+            return SUPPORTED_LANGS.includes(lang) ? lang : 'es';
+        }
+
+        function getTranslationPack(lang) {
+            return translations[normalizeLangCode(lang)] || translations.es;
+        }
 
         // --- UTILITY ---
         function removeAccents(str) {
@@ -3640,7 +3649,7 @@
         };
 
         function localizeCataText(text) {
-            const lang = ['es', 'en', 'pt'].includes(currentLang) ? currentLang : 'es';
+            const lang = normalizeLangCode(currentLang);
             let localized = cleanupCataText(text);
             const rules = CATA_LOCALIZATION_RULES[lang] || [];
             rules.forEach(([pattern, replacement]) => {
@@ -3669,7 +3678,7 @@
                 if (cleanedProvided) return cleanedProvided;
             }
 
-            const lang = ['es', 'en', 'pt'].includes(currentLang) ? currentLang : 'es';
+            const lang = normalizeLangCode(currentLang);
             const typeCode = getWineTypeCode(ref);
             const typeBase = (CATA_BASE_BY_TYPE[lang] || CATA_BASE_BY_TYPE.es)[typeCode]
                 || (CATA_BASE_BY_TYPE[lang] || CATA_BASE_BY_TYPE.es).DEFAULT;
@@ -3928,7 +3937,7 @@
 
         function getCriticDisplayLabel(label) {
             const canonical = normalizeCriticLabel(label);
-            const lang = ['es', 'en', 'pt'].includes(currentLang) ? currentLang : 'es';
+            const lang = normalizeLangCode(currentLang);
             return CRITIC_DISPLAY_LABELS[canonical]?.[lang]
                 || CRITIC_DISPLAY_LABELS[canonical]?.es
                 || canonical;
@@ -4532,7 +4541,12 @@
         // --- LANGUAGE ---
         function getNextPhrase() {
             if (phraseQueue.length === 0) {
-                phraseQueue = [...translations[currentLang].placeholders];
+                const pack = getTranslationPack(currentLang);
+                const fallbackPack = getTranslationPack('es');
+                const placeholders = Array.isArray(pack.placeholders) && pack.placeholders.length
+                    ? pack.placeholders
+                    : fallbackPack.placeholders;
+                phraseQueue = [...placeholders];
                 for (let i = phraseQueue.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
                     [phraseQueue[i], phraseQueue[j]] = [phraseQueue[j], phraseQueue[i]];
@@ -4574,9 +4588,9 @@
         }
 
         function setLanguage(lang) {
-            const safeLang = ['es', 'en', 'pt'].includes(lang) ? lang : 'es';
+            const safeLang = normalizeLangCode(lang);
             currentLang = safeLang;
-            const t = translations[safeLang] || translations.es;
+            const t = getTranslationPack(safeLang);
             document.documentElement.lang = safeLang;
             document.getElementById('currentLangBtn').textContent = t.btnLabel;
 

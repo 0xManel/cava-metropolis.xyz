@@ -659,14 +659,23 @@
                 feedbackSuccess: 'Login efetuado. A redirecionar…'
             }
         };
+        const SUPPORTED_LANGS = Object.freeze(['es', 'en', 'pt']);
+
+        function normalizeLangCode(lang) {
+            return SUPPORTED_LANGS.includes(lang) ? lang : 'es';
+        }
+
+        function getTranslationPack(lang) {
+            return translations[normalizeLangCode(lang)] || translations.es;
+        }
 
         let currentLang = 'es';
 
         function setLanguage(lang) {
-            if (!translations[lang]) return;
-            currentLang = lang;
-            const t = translations[lang];
-            document.documentElement.lang = lang;
+            const safeLang = normalizeLangCode(lang);
+            currentLang = safeLang;
+            const t = getTranslationPack(safeLang);
+            document.documentElement.lang = safeLang;
             document.getElementById('currentLangBtn').textContent = t.btnLabel;
 
             document.querySelectorAll('[data-translate]').forEach((element) => {
@@ -682,7 +691,7 @@
                 currentEstablishmentLabel.textContent = t.establishmentPlaceholder;
             }
 
-            localStorage.setItem('cava_login_lang', lang);
+            localStorage.setItem('cava_login_lang', safeLang);
         }
 
         window.setLanguage = setLanguage;
