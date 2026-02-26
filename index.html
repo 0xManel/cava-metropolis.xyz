@@ -3543,9 +3543,97 @@
             return '';
         }
 
+        const DRINKING_HINT_RE = /\b(beba|beber|drink|drinking|tomar|consumir)\b/i;
+
+        function cleanupCataText(text) {
+            return normalizeWhitespaceText(text)
+                .replace(/\s+([,.;:!?])/g, '$1')
+                .replace(/:\s*/g, ': ')
+                .replace(/\s{2,}/g, ' ')
+                .trim();
+        }
+
+        function stripDrinkingGuidance(text) {
+            const lines = splitNaturalSentences(text);
+            if (!lines.length) return cleanupCataText(text);
+
+            const kept = lines.filter((line) => !DRINKING_HINT_RE.test(normalizeToken(line)));
+            if (kept.length) return cleanupCataText(kept.join(' '));
+
+            return cleanupCataText(String(text || '').replace(/\b(Beba|Beber|Drink|Drinking)\b[^.;!?]*/gi, ''));
+        }
+
+        const CATA_LOCALIZATION_RULES = {
+            es: [
+                [/\bHarmoniza[cç][aã]o\b/gi, 'Armonización'],
+                [/\bJovem top\b/gi, 'Joven top'],
+                [/\bfrutas vermelhas\b/gi, 'frutas rojas'],
+                [/\bfrutas escuras\b/gi, 'frutas negras'],
+                [/\bfrutas brancas\b/gi, 'frutas blancas'],
+                [/\bervas finas\b/gi, 'hierbas finas'],
+                [/\bervas mediterr[aâ]neas\b/gi, 'hierbas mediterráneas'],
+                [/\bervas\b/gi, 'hierbas'],
+                [/\bfrutos do mar\b/gi, 'mariscos'],
+                [/\bcarnes leves\b/gi, 'carnes ligeras'],
+                [/\bcarne vermelha\b/gi, 'carne roja'],
+                [/\bqueijos?\b/gi, 'quesos'],
+                [/\bpeixe\b/gi, 'pescado'],
+                [/\bassados\b/gi, 'asados'],
+                [/\bca[çc]a\b/gi, 'caza'],
+                [/\bluxo m[aá]ximo\b/gi, 'lujo máximo']
+            ],
+            en: [
+                [/\bNariz\b/gi, 'Nose'],
+                [/\bBoca\b/gi, 'Palate'],
+                [/\bHarmoniza[cç][aã]o\b/gi, 'Pairing'],
+                [/\bArmonizaci[oó]n\b/gi, 'Pairing'],
+                [/\bfrutas vermelhas\b/gi, 'red fruits'],
+                [/\bfrutas rojas\b/gi, 'red fruits'],
+                [/\bfrutas escuras\b/gi, 'dark fruits'],
+                [/\bfrutas negras\b/gi, 'dark fruits'],
+                [/\bfrutas brancas\b/gi, 'white fruits'],
+                [/\bfrutas blancas\b/gi, 'white fruits'],
+                [/\bervas finas\b/gi, 'fine herbs'],
+                [/\bhierbas finas\b/gi, 'fine herbs'],
+                [/\bervas\b/gi, 'herbs'],
+                [/\bhierbas\b/gi, 'herbs'],
+                [/\bfrutos do mar\b/gi, 'seafood'],
+                [/\bmariscos\b/gi, 'seafood'],
+                [/\bcarnes leves\b/gi, 'light meats'],
+                [/\bcarnes ligeras\b/gi, 'light meats'],
+                [/\bcarne vermelha\b/gi, 'red meat'],
+                [/\bcarne roja\b/gi, 'red meat'],
+                [/\bqueijos?\b/gi, 'cheeses'],
+                [/\bquesos?\b/gi, 'cheeses'],
+                [/\bpeixe\b/gi, 'fish'],
+                [/\bpescado\b/gi, 'fish'],
+                [/\baves\b/gi, 'poultry'],
+                [/\bassados\b/gi, 'roasts'],
+                [/\basados\b/gi, 'roasts'],
+                [/\bca[çc]a\b/gi, 'game'],
+                [/\bluxo m[aá]ximo\b/gi, 'maximum luxury'],
+                [/\blujo m[aá]ximo\b/gi, 'maximum luxury'],
+                [/\bJovem top\b/gi, 'Young standout'],
+                [/\bJoven top\b/gi, 'Young standout']
+            ]
+        };
+
+        function localizeCataText(text) {
+            const lang = ['es', 'en', 'pt'].includes(currentLang) ? currentLang : 'es';
+            let localized = cleanupCataText(text);
+            const rules = CATA_LOCALIZATION_RULES[lang] || [];
+            rules.forEach(([pattern, replacement]) => {
+                localized = localized.replace(pattern, replacement);
+            });
+            return cleanupCataText(localized);
+        }
+
         function getDidacticCataSummary(ref) {
             const provided = extractWineCataText(ref);
-            if (provided) return provided;
+            if (provided) {
+                const cleanedProvided = localizeCataText(stripDrinkingGuidance(provided));
+                if (cleanedProvided) return cleanedProvided;
+            }
 
             const lang = ['es', 'en', 'pt'].includes(currentLang) ? currentLang : 'es';
             const typeCode = getWineTypeCode(ref);
@@ -3652,7 +3740,6 @@
 
             pushPick(/\bnariz\b/);
             pushPick(/\bboca\b/);
-            pushPick(/\bbeba\b|\bdrink\b/);
             pushPick(/\bharmoniz|marida|pairing\b/);
 
             if (!picks.length) picks.push(lines[0]);
@@ -3680,8 +3767,6 @@
             if (/\bcomplejo|complexo|profundo/.test(normalizedCata)) styleHints.push(currentLang === 'pt' ? 'Complexo' : (currentLang === 'en' ? 'Complex' : 'Complejo'));
             if (styleHints.length) pills.push(styleHints.slice(0, 2).join(' · '));
 
-            const drinking = splitNaturalSentences(cataText).find((line) => /\bbeba\b|\bdrink\b/i.test(line));
-            if (drinking) pills.push(clipSentence(drinking.replace(/^.*?\b(Beba|Drink)\b[:\s-]*/i, '$1 '), 66));
             return pills.slice(0, 3);
         }
 
@@ -4380,8 +4465,10 @@
         }
 
         function setLanguage(lang) {
-            currentLang = lang;
-            const t = translations[lang];
+            const safeLang = ['es', 'en', 'pt'].includes(lang) ? lang : 'es';
+            currentLang = safeLang;
+            const t = translations[safeLang] || translations.es;
+            document.documentElement.lang = safeLang;
             document.getElementById('currentLangBtn').textContent = t.btnLabel;
 
             document.querySelectorAll('[data-translate]').forEach(el => {
@@ -4550,7 +4637,7 @@
         initParticles();
         animateParticles();
         drawToggle();
-        startTypeWriter();
+        setLanguage('es');
 
         // --- MOBILE KEYBOARD ---
         const initialVH = window.innerHeight;

@@ -687,12 +687,8 @@
 
         window.setLanguage = setLanguage;
 
-        const preferredLang = localStorage.getItem('cava_login_lang');
-        if (preferredLang && translations[preferredLang]) {
-            setLanguage(preferredLang);
-        } else {
-            setLanguage('es');
-        }
+        // Always start in Spanish by default; user may switch language from selector.
+        setLanguage('es');
 
         const themeToggle = document.getElementById('themeToggle');
         const toggleCanvas = document.getElementById('toggleCanvas');
