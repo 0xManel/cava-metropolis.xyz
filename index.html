@@ -365,12 +365,12 @@
         .search-item {
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            padding: 0.55rem 1rem;
-            margin-bottom: 0.3rem;
+            align-items: flex-start;
+            padding: 0.68rem 1.02rem;
+            margin-bottom: 0.36rem;
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
-            border-radius: 12px;
+            border-radius: 14px;
             cursor: pointer;
             transition: transform 0.18s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
@@ -389,17 +389,19 @@
             transform: scale(0.98);
         }
 
-        .item-info { display: flex; flex-direction: column; gap: 0.18rem; flex: 1; min-width: 0; }
+        .item-info { display: flex; flex-direction: column; gap: 0.24rem; flex: 1; min-width: 0; }
 
         .item-title {
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.96rem;
-            font-weight: 600;
+            font-size: 1.02rem;
+            font-weight: 650;
             color: var(--text-main);
-            line-height: 1.26;
-            white-space: nowrap;
+            line-height: 1.28;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
             overflow: hidden;
-            text-overflow: ellipsis;
         }
 
         /* --- GRAPE TAG FAMILIES --- */
@@ -474,19 +476,20 @@
             font-family: 'Montserrat', sans-serif;
             font-weight: 900;
             color: var(--price-color);
-            font-size: 1.05rem;
+            font-size: 1.12rem;
             letter-spacing: 0.5px;
+            line-height: 1;
         }
 
         .item-location {
-            font-size: 0.79rem;
+            font-size: 0.82rem;
             color: var(--text-main);
             font-weight: 700;
-            letter-spacing: 1.5px;
+            letter-spacing: 0.08em;
             font-family: 'Montserrat', monospace;
             background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(180, 135, 25, 0.2));
             border: 1px solid var(--gold-accent);
-            padding: 0.2rem 0.5rem;
+            padding: 0.22rem 0.52rem;
             border-radius: 6px;
             display: inline-block;
             box-shadow: 0 2px 6px rgba(212, 175, 55, 0.15);
@@ -494,7 +497,7 @@
         }
 
         .item-pod {
-            font-size: 0.61rem;
+            font-size: 0.64rem;
             color: var(--text-muted);
             font-family: 'Montserrat', monospace;
             opacity: 0.75;
@@ -502,7 +505,7 @@
         }
 
         .item-format {
-            font-size: 0.67rem;
+            font-size: 0.7rem;
             color: var(--text-muted);
             font-weight: 400;
         }
@@ -533,11 +536,11 @@
 
         .modal-card {
             width: 90%;
-            max-width: 500px;
+            max-width: 540px;
             background: var(--bg-color);
             border: 1px solid var(--glass-border);
             border-radius: 24px;
-            padding: 2rem;
+            padding: 1.9rem;
             position: relative;
             isolation: isolate;
             transform: translateY(18px) scale(0.985);
@@ -594,7 +597,7 @@
         }
 
         .modal-subtitle {
-            font-size: 0.86rem;
+            font-size: 0.9rem;
             color: var(--text-muted);
             margin-bottom: 1rem;
         }
@@ -625,20 +628,21 @@
         }
 
         .detail-label {
-            font-size: 0.69rem;
+            font-size: 0.72rem;
             color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 0.2rem;
+            letter-spacing: 1.3px;
+            margin-bottom: 0.24rem;
         }
 
         .detail-value {
             font-family: 'Montserrat', sans-serif;
-            font-size: 1rem;
+            font-size: 1.03rem;
             color: var(--text-main);
             font-weight: 600;
             overflow-wrap: anywhere;
             word-break: break-word;
+            line-height: 1.24;
         }
 
         /* Terroir section (Clima & Suelo) */
@@ -672,8 +676,8 @@
         }
 
         .terroir-box .detail-value {
-            font-size: 0.86rem;
-            line-height: 1.45;
+            font-size: 0.9rem;
+            line-height: 1.42;
             white-space: pre-line;
             text-align: left;
         }
