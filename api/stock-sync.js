@@ -257,6 +257,17 @@ function parseEditPath(path) {
   return { establishment: match[1], field: match[2] };
 }
 
+function normalizeLocationPosToken(rawToken) {
+  const token = String(rawToken || '').toUpperCase().replace(/[^A-Z]/g, '');
+  if (!token) return null;
+  if ('IZQ'.startsWith(token)) return token.length >= 3 ? 'IZQ' : token;
+  if ('DER'.startsWith(token)) return token.length >= 3 ? 'DER' : token;
+  if ('CEN'.startsWith(token) || token.startsWith('CENT')) return token.length >= 3 ? 'CEN' : token.slice(0, 3);
+  if ('EXP'.startsWith(token)) return token.length >= 3 ? 'EXP' : token;
+  if ('JAM'.startsWith(token) || token.startsWith('JAMON')) return token.length >= 3 ? 'JAM' : token.slice(0, 3);
+  return token.slice(0, 3);
+}
+
 function normalizeLocationValue(value) {
   const raw = value == null ? '' : String(value);
   const normalized = raw
@@ -270,6 +281,12 @@ function normalizeLocationValue(value) {
   if (directCompact) {
     const pos = directCompact[3] ? `·${directCompact[3]}` : '';
     return `${directCompact[1]}·${directCompact[2]}${pos}`;
+  }
+
+  const compactTokens = normalized.match(/^([A-Z0-9]{1,2})\s+([A-Z0-9]{1,2})(?:\s+([A-Z]{1,10}))?$/);
+  if (compactTokens) {
+    const posToken = normalizeLocationPosToken(compactTokens[3] || '');
+    return `${compactTokens[1]}·${compactTokens[2]}${posToken ? `·${posToken}` : ''}`;
   }
 
   const cavaMatch = normalized.match(/\bCAVA\s*[-:]?\s*(\d{1,2})\b/);

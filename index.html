@@ -1523,28 +1523,28 @@
                     <div class="edit-row">
                         <input class="edit-field" id="editSpaPvp" type="number" placeholder="PVP">
                         <input class="edit-field" id="editSpaStock" type="number" placeholder="Stock">
-                        <input class="edit-field" id="editSpaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                        <input class="edit-field" id="editSpaLoc" type="text" placeholder="0·0·POS" style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
                     </div>
 
                     <div class="edit-section-title">TASCA FINA</div>
                     <div class="edit-row">
                         <input class="edit-field" id="editTascaPvp" type="number" placeholder="PVP">
                         <input class="edit-field" id="editTascaStock" type="number" placeholder="Stock">
-                        <input class="edit-field" id="editTascaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                        <input class="edit-field" id="editTascaLoc" type="text" placeholder="0·0·POS" style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
                     </div>
 
                     <div class="edit-section-title">VICTORIA</div>
                     <div class="edit-row">
                         <input class="edit-field" id="editVictoriaPvp" type="number" placeholder="PVP">
                         <input class="edit-field" id="editVictoriaStock" type="number" placeholder="Stock">
-                        <input class="edit-field" id="editVictoriaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                        <input class="edit-field" id="editVictoriaLoc" type="text" placeholder="0·0·POS" style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
                     </div>
 
                     <div class="edit-section-title">GALERIA</div>
                     <div class="edit-row">
                         <input class="edit-field" id="editGaleriaPvp" type="number" placeholder="PVP">
                         <input class="edit-field" id="editGaleriaStock" type="number" placeholder="Stock">
-                        <input class="edit-field" id="editGaleriaLoc" type="text" placeholder="Ubic." style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
+                        <input class="edit-field" id="editGaleriaLoc" type="text" placeholder="0·0·POS" style="text-transform:uppercase;letter-spacing:2px;font-weight:700;">
                     </div>
 
                     <div class="edit-actions">
@@ -1698,6 +1698,17 @@
             return ['user', 'admin', 'adminmaster'].includes(currentUserRole);
         }
 
+        function normalizeLocationPosToken(rawToken) {
+            const token = String(rawToken || '').toUpperCase().replace(/[^A-Z]/g, '');
+            if (!token) return null;
+            if ('IZQ'.startsWith(token)) return token.length >= 3 ? 'IZQ' : token;
+            if ('DER'.startsWith(token)) return token.length >= 3 ? 'DER' : token;
+            if ('CEN'.startsWith(token) || token.startsWith('CENT')) return token.length >= 3 ? 'CEN' : token.slice(0, 3);
+            if ('EXP'.startsWith(token)) return token.length >= 3 ? 'EXP' : token;
+            if ('JAM'.startsWith(token) || token.startsWith('JAMON')) return token.length >= 3 ? 'JAM' : token.slice(0, 3);
+            return token.slice(0, 3);
+        }
+
         function normalizeLocationValue(value) {
             const raw = value == null ? '' : String(value);
             const normalized = raw
@@ -1711,6 +1722,12 @@
             if (directCompact) {
                 const pos = directCompact[3] ? `·${directCompact[3]}` : '';
                 return `${directCompact[1]}·${directCompact[2]}${pos}`;
+            }
+
+            const compactTokens = normalized.match(/^([A-Z0-9]{1,2})\s+([A-Z0-9]{1,2})(?:\s+([A-Z]{1,10}))?$/);
+            if (compactTokens) {
+                const posToken = normalizeLocationPosToken(compactTokens[3] || '');
+                return `${compactTokens[1]}·${compactTokens[2]}${posToken ? `·${posToken}` : ''}`;
             }
 
             const cavaMatch = normalized.match(/\bCAVA\s*[-:]?\s*(\d{1,2})\b/);
@@ -1732,6 +1749,57 @@
             return normalized;
         }
 
+        function formatLocationInputValue(rawValue) {
+            const raw = rawValue == null ? '' : String(rawValue);
+            const verboseNormalized = normalizeLocationValue(raw);
+            if (/^[A-Z0-9]{1,2}·[A-Z0-9]{1,2}(?:·[A-Z]{1,3})?$/.test(verboseNormalized || '')) {
+                return verboseNormalized;
+            }
+
+            const normalized = raw
+                .toUpperCase()
+                .replace(/[•·.,;:/\\_-]/g, ' ')
+                .replace(/[^A-Z0-9\s]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+            if (!normalized) return '';
+
+            let tokens = normalized.split(' ');
+            if (tokens.length === 1 && /^\d{2}$/.test(tokens[0])) {
+                tokens = [tokens[0][0], tokens[0][1]];
+            }
+
+            const part1 = (tokens[0] || '').replace(/[^A-Z0-9]/g, '').slice(0, 2);
+            const part2 = (tokens[1] || '').replace(/[^A-Z0-9]/g, '').slice(0, 2);
+            const part3Raw = tokens.length > 2 ? tokens.slice(2).join('') : '';
+            const part3 = normalizeLocationPosToken(part3Raw);
+
+            if (!part1) return '';
+            if (!part2) return part1;
+            if (!part3) return `${part1}·${part2}`;
+            return `${part1}·${part2}·${part3}`;
+        }
+
+        function setupLocationInputsMask() {
+            const ids = ['editSpaLoc', 'editTascaLoc', 'editVictoriaLoc', 'editGaleriaLoc'];
+            ids.forEach((id) => {
+                const input = document.getElementById(id);
+                if (!input || input.dataset.locationMaskBound === '1') return;
+                input.dataset.locationMaskBound = '1';
+                input.setAttribute('maxlength', '10');
+
+                input.addEventListener('input', () => {
+                    const formatted = formatLocationInputValue(input.value);
+                    if (input.value !== formatted) input.value = formatted;
+                });
+
+                input.addEventListener('blur', () => {
+                    const normalized = normalizeLocationValue(input.value) || '';
+                    input.value = normalized;
+                });
+            });
+        }
+
         function clearAuthState() {
             sessionStorage.removeItem(AUTH_KEYS.sessionFlag);
             sessionStorage.removeItem(AUTH_KEYS.sessionUser);
@@ -1744,6 +1812,8 @@
             localStorage.removeItem(AUTH_KEYS.persistentRole);
             localStorage.removeItem(AUTH_KEYS.persistentScope);
         }
+
+        setupLocationInputsMask();
 
         // Typewriter state
         let typeWriterTimeout, charIndex = 0, isDeleting = false, currentPhrase = '', phraseQueue = [];
