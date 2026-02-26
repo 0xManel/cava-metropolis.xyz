@@ -52,7 +52,7 @@
             --glass-bg: rgba(35, 35, 40, 0.8);
             --glass-border: rgba(212, 175, 55, 0.25);
             --text-main: #FDFBF7;
-            --text-muted: #B8B0A0;
+            --text-muted: #C8BEAE;
             --gold-accent: #D4AF37;
             --gold-light: #F3E5AB;
             --price-bg: rgba(46, 125, 50, 0.15);
@@ -75,7 +75,7 @@
             --glass-bg: rgba(255, 255, 255, 0.8);
             --glass-border: rgba(212, 175, 55, 0.4);
             --text-main: #1A1A1A;
-            --text-muted: #666156;
+            --text-muted: #5B554A;
             --gold-accent: #B8860B;
             --gold-light: #D4AF37;
             --price-bg: rgba(46, 125, 50, 0.1);
@@ -104,6 +104,9 @@
             background-color: var(--bg-color);
             color: var(--text-main);
             transition: background-color 0.8s ease, color 0.8s ease;
+            line-height: 1.4;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
             min-height: 100dvh;
             height: 100dvh;
             display: flex;
@@ -113,6 +116,10 @@
             padding-top: 22dvh;
             overflow-x: hidden;
             overflow-y: scroll;
+        }
+
+        input, button, select, textarea {
+            font-family: 'Montserrat', sans-serif;
         }
 
         /* Entrance animation */
@@ -248,18 +255,18 @@
         .ref-count {
             text-align: center;
             margin-bottom: 0.8rem;
-            font-size: 0.85rem;
+            font-size: 0.92rem;
             color: var(--text-muted);
-            letter-spacing: 1px;
-            font-weight: 300;
+            letter-spacing: 0.8px;
+            font-weight: 400;
             order: -1;
         }
         .ref-count span { color: var(--gold-accent); font-weight: 700; }
         .ref-count.ref-count-located {
             margin-top: -0.45rem;
             margin-bottom: 0.65rem;
-            font-size: 0.78rem;
-            letter-spacing: 0.9px;
+            font-size: 0.84rem;
+            letter-spacing: 0.7px;
         }
         .ref-count.ref-count-located span {
             color: #53d66f;
@@ -299,10 +306,10 @@
             background: var(--glass-bg);
             color: var(--text-muted);
             font-family: 'Montserrat', sans-serif;
-            font-size: clamp(0.56rem, 2.2vw, 0.98rem);
+            font-size: clamp(0.62rem, 2.2vw, 1rem);
             font-weight: 700;
-            letter-spacing: 0.02em;
-            line-height: 1.05;
+            letter-spacing: 0.012em;
+            line-height: 1.14;
             cursor: pointer;
             transition: all 0.25s ease;
             backdrop-filter: blur(10px);
@@ -331,7 +338,7 @@
             background: transparent;
             color: var(--gold-accent);
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.84rem;
+            font-size: 0.88rem;
             font-weight: 700;
             letter-spacing: 0.04em;
             cursor: pointer;
@@ -386,10 +393,10 @@
 
         .item-title {
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.9rem;
+            font-size: 0.96rem;
             font-weight: 600;
             color: var(--text-main);
-            line-height: 1.2;
+            line-height: 1.26;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -407,7 +414,7 @@
             display: inline-block;
             padding: 0.18rem 0.45rem;
             border-radius: 8px;
-            font-size: 0.65rem;
+            font-size: 0.68rem;
             font-weight: 600;
             color: white;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -443,7 +450,7 @@
         .badge-row { display: flex; gap: 0.35rem; align-items: center; margin-top: 0.05rem; }
 
         .badge {
-            font-size: 0.58rem;
+            font-size: 0.62rem;
             font-weight: 700;
             text-transform: uppercase;
             padding: 0.18rem 0.45rem;
@@ -452,7 +459,7 @@
             color: #111;
         }
 
-        .item-region { font-size: 0.72rem; color: var(--text-muted); }
+        .item-region { font-size: 0.78rem; color: var(--text-muted); }
 
         .item-right {
             display: flex;
@@ -472,7 +479,7 @@
         }
 
         .item-location {
-            font-size: 0.75rem;
+            font-size: 0.79rem;
             color: var(--text-main);
             font-weight: 700;
             letter-spacing: 1.5px;
@@ -487,15 +494,15 @@
         }
 
         .item-pod {
-            font-size: 0.55rem;
+            font-size: 0.61rem;
             color: var(--text-muted);
             font-family: 'Montserrat', monospace;
-            opacity: 0.6;
+            opacity: 0.75;
             letter-spacing: 0.5px;
         }
 
         .item-format {
-            font-size: 0.6rem;
+            font-size: 0.67rem;
             color: var(--text-muted);
             font-weight: 400;
         }
@@ -578,7 +585,7 @@
         }
 
         .modal-subtitle {
-            font-size: 0.8rem;
+            font-size: 0.86rem;
             color: var(--text-muted);
             margin-bottom: 1rem;
         }
@@ -587,7 +594,7 @@
             margin-bottom: 1rem;
         }
         .modal-grapes .grape-tag {
-            font-size: 0.7rem;
+            font-size: 0.74rem;
             padding: 0.3rem 0.5rem;
         }
 
@@ -609,7 +616,7 @@
         }
 
         .detail-label {
-            font-size: 0.65rem;
+            font-size: 0.69rem;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 1.5px;
@@ -618,7 +625,7 @@
 
         .detail-value {
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.95rem;
+            font-size: 1rem;
             color: var(--text-main);
             font-weight: 600;
         }
@@ -632,7 +639,7 @@
         }
 
         .terroir-label {
-            font-size: 0.6rem;
+            font-size: 0.66rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1.5px;
@@ -654,8 +661,8 @@
         }
 
         .terroir-box .detail-value {
-            font-size: 0.82rem;
-            line-height: 1.42;
+            font-size: 0.86rem;
+            line-height: 1.45;
             white-space: pre-line;
             text-align: left;
         }
@@ -668,7 +675,7 @@
         }
 
         .est-table th {
-            font-size: 0.6rem;
+            font-size: 0.64rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -679,7 +686,7 @@
         }
 
         .est-table td {
-            font-size: 0.85rem;
+            font-size: 0.89rem;
             color: var(--text-main);
             padding: 0.4rem 0.3rem;
             text-align: center;
@@ -687,7 +694,7 @@
         }
 
         .est-table .row-label {
-            font-size: 0.65rem;
+            font-size: 0.69rem;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -705,7 +712,7 @@
             font-family: 'Montserrat', monospace;
             font-weight: 700;
             letter-spacing: 1px;
-            font-size: 0.8rem;
+            font-size: 0.84rem;
         }
 
         .est-mobile-grid {
@@ -733,7 +740,7 @@
             border: 1px solid rgba(212, 175, 55, 0.15);
             background: rgba(212, 175, 55, 0.08);
             color: var(--gold-accent);
-            font-size: 0.58rem;
+            font-size: 0.62rem;
             font-weight: 700;
             letter-spacing: 0.06em;
             text-transform: uppercase;
@@ -755,7 +762,7 @@
         }
 
         .est-mobile-field-label {
-            font-size: 0.48rem;
+            font-size: 0.52rem;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: var(--text-muted);
@@ -764,7 +771,7 @@
         }
 
         .est-mobile-field-value {
-            font-size: 0.64rem;
+            font-size: 0.68rem;
             color: var(--text-main);
             font-weight: 700;
             line-height: 1.15;
@@ -776,7 +783,7 @@
 
         .est-mobile-field-value.is-price {
             color: var(--price-color);
-            font-size: 0.68rem;
+            font-size: 0.72rem;
             font-weight: 800;
         }
 
@@ -901,7 +908,7 @@
             background: var(--glass-bg);
             color: var(--text-main);
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.78rem;
+            font-size: 0.82rem;
             font-weight: 600;
             letter-spacing: 0.03em;
             text-align: center;
@@ -922,7 +929,7 @@
             height: 30px;
             border-radius: 15px;
             cursor: pointer;
-            font-size: 0.62rem;
+            font-size: 0.68rem;
             font-weight: 600;
             letter-spacing: 0.02em;
             padding: 0;
@@ -956,7 +963,7 @@
             width: 60px; height: 30px;
             border-radius: 15px;
             cursor: pointer;
-            font-size: 0.68rem;
+            font-size: 0.72rem;
             font-weight: 600;
             backdrop-filter: blur(10px);
             display: flex; align-items: center; justify-content: center; gap: 4px;
@@ -1058,7 +1065,7 @@
             background: var(--field-bg);
             color: var(--text-main);
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             width: 100%;
             box-shadow: var(--field-shadow);
         }
@@ -1071,7 +1078,7 @@
         .edit-field:focus-visible { outline: none; }
 
         .edit-section-title {
-            font-size: 0.65rem;
+            font-size: 0.69rem;
             color: var(--gold-accent);
             text-transform: uppercase;
             letter-spacing: 1.5px;
@@ -1241,7 +1248,7 @@
             background: rgba(20, 112, 53, 0.95);
             color: #e9fff1;
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.84rem;
+            font-size: 0.88rem;
             font-weight: 700;
             text-align: center;
             letter-spacing: 0.02em;
@@ -1270,7 +1277,7 @@
             }
             .modal-card::before { inset: 6px; border-radius: 14px; }
             .modal-title { font-size: clamp(1.18rem, 5.3vw, 1.45rem); margin: 0.72rem 0 0.34rem 0; }
-            .modal-subtitle { font-size: 0.71rem; margin-bottom: 0.75rem; }
+            .modal-subtitle { font-size: 0.76rem; margin-bottom: 0.75rem; }
             .modal-grapes { margin-bottom: 0.75rem; }
             .details-grid,
             .terroir-grid {
@@ -1282,15 +1289,15 @@
                 padding: 0.58rem 0.52rem;
             }
             .detail-label {
-                font-size: 0.54rem;
+                font-size: 0.58rem;
                 letter-spacing: 1px;
             }
             .detail-value {
-                font-size: 0.78rem;
+                font-size: 0.82rem;
             }
             .terroir-label { margin-bottom: 0.46rem; }
             .terroir-box .detail-value {
-                font-size: 0.7rem;
+                font-size: 0.74rem;
                 line-height: 1.24;
             }
             .est-table { display: none; }
@@ -1307,14 +1314,14 @@
                 height: 36px;
                 border-radius: 16px;
                 padding: 0 0.2rem;
-                font-size: clamp(0.52rem, 2.2vw, 0.82rem);
+                font-size: clamp(0.6rem, 2.35vw, 0.9rem);
                 letter-spacing: 0.01em;
             }
             .sort-toggle {
                 height: 36px;
                 min-width: 80px;
                 border-radius: 16px;
-                font-size: 0.74rem;
+                font-size: 0.78rem;
                 padding: 0 0.8rem;
             }
 
@@ -1345,7 +1352,7 @@
                 align-self: stretch;
                 height: 35px;
                 padding: 0 0.68rem;
-                font-size: 0.8rem;
+                font-size: 0.84rem;
             }
         }
 
@@ -1357,7 +1364,7 @@
                 height: 34px;
                 border-radius: 14px;
                 padding: 0 0.15rem;
-                font-size: clamp(0.5rem, 2.1vw, 0.74rem);
+                font-size: clamp(0.58rem, 2.9vw, 0.82rem);
                 letter-spacing: 0;
             }
             .sort-toggle {
@@ -1365,7 +1372,7 @@
                 min-width: 72px;
                 border-radius: 14px;
                 padding: 0 0.65rem;
-                font-size: 0.68rem;
+                font-size: 0.74rem;
             }
             .modal-card {
                 width: 94%;
@@ -1382,7 +1389,7 @@
             .btn-consume {
                 min-width: 0;
                 height: 34px;
-                font-size: 0.75rem;
+                font-size: 0.79rem;
                 padding: 0 7px;
                 letter-spacing: 0.02em;
             }
@@ -1397,15 +1404,15 @@
             }
 
             .est-mobile-name {
-                font-size: 0.54rem;
+                font-size: 0.58rem;
             }
 
             .est-mobile-field-label {
-                font-size: 0.45rem;
+                font-size: 0.49rem;
             }
 
             .est-mobile-field-value {
-                font-size: 0.61rem;
+                font-size: 0.64rem;
             }
         }
 
@@ -1421,12 +1428,12 @@
 
             .consume-qty {
                 min-width: 0;
-                font-size: 0.8rem;
+                font-size: 0.82rem;
             }
 
             .btn-consume {
                 min-width: 0;
-                font-size: 0.71rem;
+                font-size: 0.74rem;
                 padding: 0 6px;
             }
         }

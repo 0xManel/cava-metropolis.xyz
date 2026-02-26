@@ -11,7 +11,7 @@
             --glass-bg: rgba(35, 35, 40, 0.8);
             --glass-border: rgba(212, 175, 55, 0.25);
             --text-main: #FDFBF7;
-            --text-muted: #B8B0A0;
+            --text-muted: #C8BEAE;
             --gold-accent: #D4AF37;
             --gold-light: #F3E5AB;
             --field-bg: rgba(255, 255, 255, 0.1);
@@ -28,7 +28,7 @@
             --glass-bg: rgba(255, 255, 255, 0.8);
             --glass-border: rgba(212, 175, 55, 0.4);
             --text-main: #1A1A1A;
-            --text-muted: #666156;
+            --text-muted: #5B554A;
             --gold-accent: #B8860B;
             --gold-light: #D4AF37;
             --field-bg: rgba(244, 239, 228, 0.95);
@@ -50,12 +50,19 @@
             background-color: var(--bg-color);
             color: var(--text-main);
             transition: background-color 0.8s ease, color 0.8s ease;
+            line-height: 1.4;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
             min-height: 100dvh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             overflow: hidden;
+        }
+
+        input, button, select, textarea {
+            font-family: 'Montserrat', sans-serif;
         }
 
         @keyframes fadeSlideUp {
@@ -129,7 +136,7 @@
             width: 80px; height: 40px;
             border-radius: 20px;
             cursor: pointer;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             font-weight: 600;
             backdrop-filter: blur(10px);
             display: flex; align-items: center; justify-content: center; gap: 4px;
@@ -256,7 +263,8 @@
 
         .login-subtitle {
             color: var(--text-muted);
-            font-size: 0.9rem;
+            font-size: 0.96rem;
+            line-height: 1.35;
             margin-bottom: 1.4rem;
         }
 
@@ -268,8 +276,9 @@
         .input-group label {
             display: block;
             margin-bottom: 0.5rem;
-            color: var(--text-muted);
-            font-weight: 500;
+            color: var(--text-main);
+            font-size: 0.95rem;
+            font-weight: 600;
         }
 
         .input-group input {
@@ -279,7 +288,8 @@
             border: 1px solid var(--field-border);
             border-radius: 10px;
             color: var(--text-main);
-            font-size: 1rem;
+            font-size: 1.02rem;
+            line-height: 1.3;
             outline: none;
             box-shadow: var(--field-shadow);
             transition: var(--transition-smooth);
@@ -315,7 +325,7 @@
             border: 1px solid var(--field-border);
             border-radius: 10px;
             color: var(--text-main);
-            font-size: 1rem;
+            font-size: 1.02rem;
             text-align: left;
             cursor: pointer;
             box-shadow: var(--field-shadow);
@@ -337,7 +347,7 @@
         }
 
         .establishment-arrow {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: var(--text-muted);
             transition: transform 0.25s ease;
         }
@@ -364,7 +374,7 @@
             cursor: pointer;
             transition: background 0.2s ease;
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.95rem;
+            font-size: 0.98rem;
         }
 
         .establishment-option:hover {
@@ -404,7 +414,7 @@
             align-items: center;
             gap: 0.55rem;
             color: var(--text-muted);
-            font-size: 0.87rem;
+            font-size: 0.92rem;
             user-select: none;
             cursor: pointer;
         }
@@ -419,7 +429,8 @@
         .login-feedback {
             min-height: 1.2rem;
             margin-top: 0.85rem;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
+            line-height: 1.35;
             color: var(--text-muted);
         }
 
