@@ -1773,8 +1773,10 @@
             return normalized;
         }
 
-        function formatLocationInputValue(rawValue) {
+        function formatLocationInputValue(rawValue, options = {}) {
+            const preserveTrailingSeparator = options && options.preserveTrailingSeparator === true;
             const raw = rawValue == null ? '' : String(rawValue);
+            const hasTrailingSeparator = /[·•\s]$/.test(raw);
             const verboseNormalized = normalizeLocationValue(raw);
             if (/^[A-Z0-9]{1,2}·[A-Z0-9]{1,2}(?:·[A-Z]{1,3})?$/.test(verboseNormalized || '')) {
                 return verboseNormalized;
@@ -1799,8 +1801,8 @@
             const part3 = normalizeLocationPosToken(part3Raw);
 
             if (!part1) return '';
-            if (!part2) return part1;
-            if (!part3) return `${part1}·${part2}`;
+            if (!part2) return preserveTrailingSeparator && hasTrailingSeparator ? `${part1}·` : part1;
+            if (!part3) return `${part1}·${part2}${preserveTrailingSeparator && hasTrailingSeparator ? '·' : ''}`;
             return `${part1}·${part2}·${part3}`;
         }
 
@@ -1811,9 +1813,21 @@
                 if (!input || input.dataset.locationMaskBound === '1') return;
                 input.dataset.locationMaskBound = '1';
                 input.setAttribute('maxlength', '10');
+                input.setAttribute('autocapitalize', 'characters');
+                input.setAttribute('spellcheck', 'false');
+
+                input.addEventListener('keydown', (event) => {
+                    if (event.key !== ' ') return;
+                    event.preventDefault();
+                    const withVirtualSpace = `${input.value || ''} `;
+                    const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true });
+                    input.value = formatted;
+                    const caret = input.value.length;
+                    input.setSelectionRange(caret, caret);
+                });
 
                 input.addEventListener('input', () => {
-                    const formatted = formatLocationInputValue(input.value);
+                    const formatted = formatLocationInputValue(input.value, { preserveTrailingSeparator: true });
                     if (input.value !== formatted) input.value = formatted;
                 });
 
