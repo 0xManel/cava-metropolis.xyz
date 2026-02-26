@@ -1694,6 +1694,19 @@
             return getEditableEstablishmentKeys().length > 0;
         }
 
+        function canOpenReportPage() {
+            return ['user', 'admin', 'adminmaster'].includes(currentUserRole);
+        }
+
+        function normalizeLocationValue(value) {
+            const raw = value == null ? '' : String(value);
+            const normalized = raw
+                .toUpperCase()
+                .replace(/\s+/g, ' ')
+                .trim();
+            return normalized || null;
+        }
+
         function clearAuthState() {
             sessionStorage.removeItem(AUTH_KEYS.sessionFlag);
             sessionStorage.removeItem(AUTH_KEYS.sessionUser);
@@ -1728,7 +1741,7 @@
                     "Prueba algo nuevo"
                 ],
                 refs: "referencias disponibles", region: "Región", country: "País",
-                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin",
+                year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", admin: "Admin", report: "Ventas",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Ubic.", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
                 consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada", btnLabel: "🇪🇸 ES"
             },
@@ -1748,7 +1761,7 @@
                     "Try something new"
                 ],
                 refs: "references available", region: "Region", country: "Country",
-                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin",
+                year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", admin: "Admin", report: "Sales",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Loc.", editBtn: "Edit", cancelBtn: "Cancel", saveBtn: "Save",
                 consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated", btnLabel: "🇬🇧 EN"
             },
@@ -1768,7 +1781,7 @@
                     "Prove algo novo"
                 ],
                 refs: "referências disponíveis", region: "Região", country: "País",
-                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin",
+                year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", admin: "Admin", report: "Vendas",
                 pvpLabel: "PVP", stockLabel: "Estoque", locationShort: "Local", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
                 consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
             }
@@ -2095,7 +2108,10 @@
             editList.forEach((edit) => {
                 const ref = refs.find((item) => item.pod === edit.pod);
                 if (!ref) return;
-                setNestedValue(ref, edit.path, edit.value);
+                const nextValue = String(edit.path || '').endsWith('.localizacion')
+                    ? normalizeLocationValue(edit.value)
+                    : edit.value;
+                setNestedValue(ref, edit.path, nextValue);
             });
         }
 
@@ -2649,7 +2665,11 @@
         }
 
         if (adminButton) {
-            adminButton.style.display = hasAdminAccess() ? 'inline-flex' : 'none';
+            adminButton.style.display = canOpenReportPage() ? 'inline-flex' : 'none';
+            const buttonLabel = currentUserRole === 'user'
+                ? (translations[currentLang]?.report || 'Ventas')
+                : (translations[currentLang]?.admin || 'Admin');
+            adminButton.textContent = buttonLabel;
             adminButton.addEventListener('click', () => {
                 window.location.href = 'admin.html';
             });
@@ -2926,7 +2946,7 @@
                     hasChanges = true;
                 }
 
-                const loc = document.getElementById(`edit${prefix}Loc`).value.trim().toUpperCase() || null;
+                const loc = normalizeLocationValue(document.getElementById(`edit${prefix}Loc`).value);
                 if (loc !== est.localizacion) {
                     est.localizacion = loc;
                     saveEdit(currentEditPod, `establecimientos.${k}.localizacion`, loc);
@@ -3178,6 +3198,12 @@
                 const key = el.getAttribute('data-translate');
                 if (t[key] && el.tagName !== 'INPUT') el.textContent = t[key];
             });
+
+            if (adminButton) {
+                adminButton.textContent = currentUserRole === 'user'
+                    ? (t.report || 'Ventas')
+                    : (t.admin || 'Admin');
+            }
 
             phraseQueue = [];
             currentPhrase = '';

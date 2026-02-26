@@ -552,7 +552,7 @@
             };
             const normalizeEstablishment = (value) => {
                 const normalized = (value || '').trim().toLowerCase();
-                return ['spa', 'tasca_fina', 'victoria'].includes(normalized) ? normalized : null;
+                return ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'].includes(normalized) ? normalized : null;
             };
             const authKeys = {
                 sessionFlag: 'cava_login_demo',
@@ -632,10 +632,6 @@
                     localStorage.setItem(authKeys.persistentScope, scope);
                 }
 
-                if (role !== 'admin' && role !== 'adminmaster') {
-                    window.location.replace('index.html');
-                    return;
-                }
             } catch {
                 if (hasLocalSession()) {
                     return;
@@ -738,9 +734,6 @@
             || normalizeScope(localStorage.getItem('cava_login_persistent_scope'));
         const role = storedRole || 'user';
         const scope = storedScope || 'spa';
-        if (role !== 'admin' && role !== 'adminmaster') {
-            window.location.replace('index.html');
-        }
         const isOwner = role === 'adminmaster';
         const movementLogKey = 'cava_daily_movements_v1';
         const movementArchiveKey = 'cava_movement_archive_v1';
@@ -798,7 +791,9 @@
         }
 
         if (zoneTitle) {
-            zoneTitle.textContent = role === 'adminmaster' ? 'Adminmaster Zone' : 'Admin Zone';
+            zoneTitle.textContent = role === 'adminmaster'
+                ? 'Adminmaster Zone'
+                : (role === 'admin' ? 'Admin Zone' : 'Ventas Zone');
         }
         if (sessionUserCard) {
             const cardUser = (currentUser || '').trim() || 'No logado';
@@ -1671,6 +1666,10 @@
         }
 
         function clearVisibleReport() {
+            if (role === 'user') {
+                setReportStatus('Solo lectura para usuario.', 'error');
+                return;
+            }
             ensureDailyReset();
             const currentServiceDay = getMadridServiceDayKey();
             const targetScope = getEffectiveReportScope();
@@ -1767,12 +1766,20 @@
             if (role === 'adminmaster') {
                 if (reportScopeRow) reportScopeRow.style.display = 'grid';
                 if (restoreReportBtn) restoreReportBtn.style.display = 'block';
+                if (clearReportBtn) clearReportBtn.style.display = 'block';
                 return;
             }
 
             reportViewScope = scope;
             if (reportScopeRow) reportScopeRow.style.display = 'none';
+            if (role === 'admin') {
+                if (restoreReportBtn) restoreReportBtn.style.display = 'none';
+                if (clearReportBtn) clearReportBtn.style.display = 'block';
+                return;
+            }
+
             if (restoreReportBtn) restoreReportBtn.style.display = 'none';
+            if (clearReportBtn) clearReportBtn.style.display = 'none';
         }
 
         function copyReport() {

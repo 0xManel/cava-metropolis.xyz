@@ -212,6 +212,30 @@ function parseEditPath(path) {
   return { establishment: match[1], field: match[2] };
 }
 
+function normalizeLocationValue(value) {
+  const raw = value == null ? '' : String(value);
+  const normalized = raw
+    .toUpperCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+  return normalized || null;
+}
+
+function normalizeLocationEditsInState(state) {
+  if (!isPlainObject(state) || !Array.isArray(state.edits)) return false;
+  let changed = false;
+  state.edits = state.edits.map((edit) => {
+    if (!isPlainObject(edit)) return edit;
+    const path = String(edit.path || '');
+    if (!path.endsWith('.localizacion')) return edit;
+    const normalized = normalizeLocationValue(edit.value);
+    if (normalized === edit.value) return edit;
+    changed = true;
+    return { ...edit, value: normalized };
+  });
+  return changed;
+}
+
 function sanitizeMovementEntry(payload, user) {
   if (!isPlainObject(payload)) return null;
   const establishment = normalizeScope(payload.establishment);
@@ -271,10 +295,31 @@ function applyEditMutation(state, payload, user) {
     return false;
   }
 
+  let nextValue = payload.value;
+  if (pathInfo.field === 'localizacion') {
+    nextValue = normalizeLocationValue(payload.value);
+  } else if (pathInfo.field === 'pvp') {
+    if (payload.value === '' || payload.value == null) {
+      nextValue = null;
+    } else {
+      const pvpValue = Number(payload.value);
+      if (!Number.isFinite(pvpValue)) return false;
+      nextValue = pvpValue;
+    }
+  } else if (pathInfo.field === 'unidades') {
+    if (payload.value === '' || payload.value == null) {
+      nextValue = null;
+    } else {
+      const stockValue = Number(payload.value);
+      if (!Number.isFinite(stockValue)) return false;
+      nextValue = Math.max(Math.trunc(stockValue), 0);
+    }
+  }
+
   const nextEdit = {
     pod: payload.pod.trim(),
     path: payload.path.trim(),
-    value: payload.value,
+    value: nextValue,
     updatedAt: typeof payload.updatedAt === 'string' ? payload.updatedAt : new Date().toISOString(),
     updatedBy: user.username
   };
@@ -376,11 +421,12 @@ module.exports = async (req, res) => {
     : [];
   const state = await loadState();
   const migrationApplied = applyOneOffSpaReset(state);
+  const locationNormalizationApplied = normalizeLocationEditsInState(state);
 
   const appliedIds = new Set(state.appliedMutationIds);
   const acknowledgedMutationIds = [];
   const rejectedMutationIds = [];
-  let changed = migrationApplied;
+  let changed = migrationApplied || locationNormalizationApplied;
 
   incomingMutations.forEach((mutation) => {
     if (!isPlainObject(mutation) || typeof mutation.type !== 'string') return;
