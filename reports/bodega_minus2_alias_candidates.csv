@@ -1,0 +1,17 @@
+source_file,producer,item,ano_raw,qty_total,locations,best_pod,best_descripcion,best_score,best_margin,best_item_similarity,best_year_delta
+222 borgoña_tintos.pdf,Prieuré Roch,Latricières-Chambertin (Grand Cru),2022,4,CAVA 5 · BALDA 4 · IZQ,POD017727,Prieure Roch Chamber Cl Beze 22-,0.7843,0.0193,0.4762,0
+italia.pdf,Tenuta delle Terre Nere,Calderara Sottana,2022,3,CAVA 9 · BALDA 8 · IZQ,POD017654,Terre N Calderara Sottana BL 22-,0.7233,0.0,0.7083,0
+222 borgoña_blancos.pdf,Raveneau,Chablis,2019,1,CAVA 7 · BALDA 2 · CEN,POD017285,Raveneau Chablis 19-,0.7111,0.1691,0.5385,0
+222 borgoña_tintos.pdf,des Perdrix,Bourgogne,2023,4,CAVA 4 · BALDA 7 · CEN,POD019302,Dom des Perdrix Bourgogne TO 23-,0.7105,0.1795,0.45,0
+222 borgoña_blancos.pdf,Arnaud Ente,Meursault Clos du Cromin,2022,3,CAVA 7 · BALDA 4 · IZQ,POD017044,Bonin Meursault Clos Cromin 22-,0.71,0.0182,0.7778,0
+222 borgoña_blancos.pdf,Roulot,Meix Chavaux,2019,2,CAVA 7 · BALDA 5 · C,POD017294,Roulot Meursault Meix Chavaux 19-,0.6975,0.07,0.5455,0
+italia.pdf,Crissante,Barolo (La Morra),2021,3,CAVA 9 · BALDA 4 · CEN,POD018184,Crissante Alessandria Barolo La Morra 21-,0.6975,0.2061,0.5455,0
+222 borgoña_tintos.pdf,Pernot,Gevrey-Chambertin,2022,4,CAVA 4 · BALDA 6 · CEN,POD015909,Pascal Pernot Gevrey Chambertin 22-,0.6938,0.1118,0.6667,0
+222 borgoña_blancos.pdf,Arnaud Ente,Initiales BB,2022,1,CAVA 7 · BALDA 5 · A,POD015933,Bonin Initiales BB 22-,0.6873,0.1323,0.7273,0
+222 borgoña_blancos.pdf,Arnaud Ente,Meursault Les Tillets,2022,2,CAVA 7 · BALDA 4 · DER,POD017045,Bonin Meursault Tillets 22-,0.6855,0.0305,0.7234,0
+222 borgoña_tintos.pdf,Michel Lafarge,Volnay,2022,3,CAVA 4 · BALDA 7 · IZQ,POD017406,Lafarge Volnay Vend Select 22-,0.681,0.0819,0.3429,0
+italia.pdf,Tenuta delle Terre Nere,Moganazzi,2022,3,CAVA 9 · BALDA 8 · IZQ,POD017657,Terre Nere Moganazzi 22-,0.6577,0.2131,0.5625,0
+usa_y_sudafrica_TO.pdf,Besson Frères,Pinot Noir,2022,3,CAVA 7 · BALDA 2 · IZQ,POD019206,Beaux Freres Pinot Noir 22-,0.6224,0.1568,0.5556,0
+222 borgoña_blancos.pdf,Domaine de Villaine,Bouzeron,2022,3,CAVA 7 · BALDA 8 · CEN,POD011639,De Villaine Bouzeron Aligote BL 22 -,0.5716,0.0216,0.381,0
+usa_y_sudafrica_TO.pdf,Salem Wine Co.,Chardonnay,2021,3,CAVA 9 · BALDA 1 · IZQ,POD016403,Racines Wenzlau Chardonnay 22-,0.5124,0.0433,0.5128,1
+resto_francia_italia_blancos.pdf,Château Fuissé,Blanc,2020,1,CAVA 10 · BALDA 4 · E,POD010654,Ch Cheval Blanc Saint Emilion 20-,0.494,0.0059,0.2703,0

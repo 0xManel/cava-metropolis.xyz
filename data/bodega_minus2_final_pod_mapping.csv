@@ -1,0 +1,173 @@
+source_file,producer,item,ano_raw,best_pod,best_score,final_pod,final_kind,reason
+222 borgoña_blancos.pdf,Arnaud Ente,Initiales BB,2022,POD015933,0.6873,POD015933,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Meursault Clos du Cromin,2022,POD017044,0.71,POD017044,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Meursault Les Tillets,2022,POD017045,0.6855,POD017045,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Domaine de Villaine,Bouzeron,2022,POD011639,0.5716,POD_TEMP_BM2_0001,temp_pod,low_score
+222 borgoña_blancos.pdf,Raveneau,Chablis,2019,POD017285,0.7111,POD017285,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Roulot,Meix Chavaux,2019,POD017294,0.6975,POD017294,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Fourchaume 1er Cru,2022,POD015942,0.5769,POD_TEMP_BM2_0002,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Montmains 1er Cru,2022,POD015939,0.5398,POD_TEMP_BM2_0003,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Montée de Tonnerre 1er Cru,2022,POD015942,0.5563,POD_TEMP_BM2_0004,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Tête d’Or,2022,POD015939,0.5706,POD_TEMP_BM2_0005,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Tête d’Or (1.5L),2022,POD015942,0.5936,POD_TEMP_BM2_0006,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Hospices de Beaune,Meursault Clos des Écoles,2022,POD016245,0.5622,POD_TEMP_BM2_0007,temp_pod,low_score
+222 borgoña_blancos.pdf,Hospices de Beaune,Meursault Genevrières 1er Cru,2016,POD017288,0.4657,POD_TEMP_BM2_0008,temp_pod,low_score
+222 borgoña_blancos.pdf,Le Puy de l’Ours,Savigny-lès-Beaune Les Goudelettes,2023,POD019636,0.4962,POD_TEMP_BM2_0009,temp_pod,low_score
+222 borgoña_blancos.pdf,Marquis de Laguiche,Chassagne-Montrachet 1er Cru Morgeot,2022,POD015932,0.5278,POD_TEMP_BM2_0010,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Marquis de Laguiche,Montrachet (Grand Cru),2022,POD017577,0.518,POD_TEMP_BM2_0011,temp_pod,low_score
+222 borgoña_blancos.pdf,Raveneau,Blanchot (Grand Cru),2016,POD017291,0.5911,POD_TEMP_BM2_0012,temp_pod,low_score
+222 borgoña_blancos.pdf,Raveneau,Butteaux 1er Cru,2015,POD017286,0.6103,POD_TEMP_BM2_0013,temp_pod,low_score
+222 borgoña_blancos.pdf,Raveneau,Montée de Tonnerre 1er Cru,2022,POD017725,0.5956,POD_TEMP_BM2_0014,temp_pod,low_score
+222 borgoña_blancos.pdf,Raveneau,Valmur (Grand Cru),2016,POD017292,0.5688,POD_TEMP_BM2_0015,temp_pod,low_score
+222 borgoña_blancos.pdf,Si tu Sais,Pernand-Vergelesses,2023,POD018176,0.6138,POD_TEMP_BM2_0016,temp_pod,low_score
+222 borgoña_blancos.pdf,Antoine LePetit,Bourgogne Aligoté,2023,POD018720,0.6678,POD018720,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Bourgogne (1.5L),2020,POD015938,0.6995,POD015938,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Meursault Genevrières 1er Cru,2022,POD015942,0.67,POD_TEMP_BM2_0017,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Meursault Genevrières 1er Cru,—,POD015942,0.71,POD_TEMP_BM2_0018,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Arnaud Ente,Puligny-Montrachet 1er Cru Champ Gain,2019,POD016878,0.7046,POD016878,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Domaine Leflaive,Chassagne-Montrachet 1er Cru Clos Saint-Marc,2023,POD015932,0.6895,POD_TEMP_BM2_0019,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,François Carillon,Bourgogne Côte d’Or,—,POD018431,0.6615,POD018431,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,J. Drouhin,Clos des Mouches,—,POD013291,0.6883,POD013291,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Les Deux Flèches,Saint-Véran ‘En Messie’,2023,POD019657,0.6513,POD019657,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Louis Jadot,Puligny-Montrachet 1er Cru Les Combettes,2023,POD017016,0.7111,POD017016,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Lucien Muzard,Saint-Aubin 1er Cru Sur le Sentier du Clou,2023,POD019372,0.705,POD_TEMP_BM2_0020,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Marquis de Laguiche,Corton-Charlemagne (Grand Cru),2022,POD013049,0.5292,POD_TEMP_BM2_0021,temp_pod,low_score
+222 borgoña_blancos.pdf,Marquis de Laguiche,Montrachet (Grand Cru),—,POD016634,0.5435,POD_TEMP_BM2_0022,temp_pod,low_score
+222 borgoña_blancos.pdf,Pacalet,Bâtard-Montrachet (Grand Cru),2023,POD019251,0.7002,POD019251,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Pacalet,Corton-Charlemagne (Grand Cru),2023,POD019246,0.7057,POD019246,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Pierre Morey,Bâtard-Montrachet (Grand Cru),2022,POD019290,0.77,POD019290,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Pierre Morey,Meursault Perrières 1er Cru,2022,POD012519,0.7419,POD012519,existing_pod,score_ok_no_conflict
+222 borgoña_blancos.pdf,Pierre Morey,Puligny-Montrachet 1er Cru Champ Gain,2023,POD019409,0.7787,POD_TEMP_BM2_0023,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Raveneau,Montée de Tonnerre 1er Cru,2015,POD017289,0.6474,POD_TEMP_BM2_0024,temp_pod,low_score
+222 borgoña_blancos.pdf,Vincent Girardin,Meursault Vieilles Vignes,2023,POD019361,0.7129,POD_TEMP_BM2_0025,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Vincent Girardin,Montrachet (Grand Cru),2022,POD013303,0.768,POD_TEMP_BM2_0026,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Vincent Girardin,Puligny-Montrachet 1er Cru Les Referts,2023,POD019361,0.7713,POD_TEMP_BM2_0027,temp_pod,best_pod_conflict
+222 borgoña_blancos.pdf,Vincent Girardin,Puligny-Montrachet Vieilles Vignes,2023,POD019351,0.7601,POD019351,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Michel Lafarge,Volnay,2022,POD017406,0.681,POD017406,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Pernot,Gevrey-Chambertin,2022,POD015909,0.6938,POD_TEMP_BM2_0028,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Prieuré Roch,Latricières-Chambertin (Grand Cru),2022,POD017727,0.7843,POD_TEMP_BM2_0029,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,des Perdrix,Bourgogne,2023,POD019302,0.7105,POD019302,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,D. L’Arlot,Romanée-Saint-Vivant (Grand Cru),2023,POD019284,0.6135,POD_TEMP_BM2_0030,temp_pod,low_score
+222 borgoña_tintos.pdf,D. de l’Arlot,Nuits-Saint-Georges 1er Cru Clos de l’Arlot,2023,POD019282,0.5761,POD_TEMP_BM2_0031,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,D. de l’Arlot,Nuits-Saint-Georges 1er Cru Clos des Forêts Saint Georges,2022,POD012515,0.6005,POD_TEMP_BM2_0032,temp_pod,low_score
+222 borgoña_tintos.pdf,DRC,Grands-Échezeaux,2019,POD010182,0.3246,POD_TEMP_BM2_0033,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,DRC,Romanée-Saint-Vivant,2019,POD010182,0.33,POD_TEMP_BM2_0034,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,DRC,Vosne-Romanée 1er Cru Les Petits Monts,2019,POD010182,0.3415,POD_TEMP_BM2_0035,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Henri Magnien / François Thurot,Côte de Nuits (entrada tal como figura),2022,POD013335,0.585,POD_TEMP_BM2_0036,temp_pod,low_score
+222 borgoña_tintos.pdf,Hubert Lignier,Chambolle-Musigny 1er Cru Les Amoureuses,2015,POD012412,0.4852,POD_TEMP_BM2_0037,temp_pod,low_score
+222 borgoña_tintos.pdf,Jean Grivot,Bourgogne ‘Cuvée Jeunesse’,2023,POD018353,0.6032,POD_TEMP_BM2_0038,temp_pod,low_score
+222 borgoña_tintos.pdf,Jean Grivot,Nuits-Saint-Georges ‘Les Fleuries’,2023,POD018359,0.5558,POD_TEMP_BM2_0039,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Le Puy de l’Ours,Les Follettes,2023,POD018161,0.4863,POD_TEMP_BM2_0040,temp_pod,low_score
+222 borgoña_tintos.pdf,Les Terres de Philéandre,Savigny-lès-Beaune 1er Cru Les Serpentières,2022,POD017374,0.471,POD_TEMP_BM2_0041,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Pacalet,Chambertin (Grand Cru),2019,POD015903,0.465,POD_TEMP_BM2_0042,temp_pod,low_score
+222 borgoña_tintos.pdf,Pacalet,Chambertin Clos de Bèze (Grand Cru),2019,POD011380,0.4992,POD_TEMP_BM2_0043,temp_pod,low_score
+222 borgoña_tintos.pdf,Pacalet,Chapelle-Chambertin (Grand Cru),2019,POD018038,0.4573,POD_TEMP_BM2_0044,temp_pod,low_score
+222 borgoña_tintos.pdf,Pacalet,Charmes-Chambertin (Grand Cru),2019,POD009367,0.4491,POD_TEMP_BM2_0045,temp_pod,low_score
+222 borgoña_tintos.pdf,Pacalet,Morey-Saint-Denis ‘La Rue de Vergy’,2019,POD_TEMP_1051,0.4893,POD_TEMP_BM2_0046,temp_pod,low_score
+222 borgoña_tintos.pdf,Pierre Morey,Meursault,—,POD012516,0.5916,POD_TEMP_BM2_0047,temp_pod,low_score
+222 borgoña_tintos.pdf,Armand Rousseau,Ruchottes-Chambertin Clos des Ruchottes (Grand Cru),—,POD017137,0.7554,POD017137,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Chandon de Briailles,Corton Clos du Roi (Grand Cru),2022,POD013307,0.7271,POD013307,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Comtes Georges de Vogüé,Chambolle-Musigny 1er Cru Les Amoureuses,—,POD017374,0.7155,POD_TEMP_BM2_0048,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,D. de l’Arlot,Vosne-Romanée 1er Cru Les Suchots,2022,POD013328,0.6214,POD_TEMP_BM2_0049,temp_pod,low_score
+222 borgoña_tintos.pdf,D. de l’Arlot,Vosne-Romanée 1er Cru Les Suchots,2023,POD019282,0.6214,POD_TEMP_BM2_0050,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Dujac,Charmes-Chambertin (Grand Cru),2022,POD016852,0.6942,POD016852,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Dujac,Charmes-Chambertin (Grand Cru),2023,POD019094,0.6942,POD019094,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Dujac,Gevrey-Chambertin 1er Cru Aux Combottes,2022,POD016853,0.6953,POD016853,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Dujac,Gevrey-Chambertin 1er Cru Aux Combottes,2023,POD019095,0.6953,POD019095,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Fourrier,Gevrey-Chambertin 1er Cru Combe Aux Moines,2022,POD017159,0.6801,POD017159,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,G. Roumier,Bonnes-Mares (Grand Cru),2019,POD017786,0.725,POD017786,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,G. Roumier,Morey-Saint-Denis 1er Cru Clos de la Bussière,2013,POD017299,0.7018,POD017299,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Hubert Lignier,Bourgogne,2022,POD017925,0.6494,POD_TEMP_BM2_0051,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Hubert Lignier,Chambolle-Musigny,2022,POD017925,0.6771,POD_TEMP_BM2_0052,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Jean Grivot,Nuits-Saint-Georges ‘Les Charmois’,2022,POD018359,0.6563,POD_TEMP_BM2_0053,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Jean Grivot,Romanée-Saint-Vivant (Grand Cru),2023,POD019317,0.545,POD_TEMP_BM2_0054,temp_pod,low_score
+222 borgoña_tintos.pdf,Jean Grivot,Vosne-Romanée 1er Cru Les Suchots,2022,POD018359,0.713,POD_TEMP_BM2_0055,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Jean Grivot,Vosne-Romanée 1er Cru Malconsorts,2022,POD015155,0.6009,POD_TEMP_BM2_0056,temp_pod,low_score
+222 borgoña_tintos.pdf,Louis Jadot,Bonnes-Mares (Grand Cru),2022,POD017011,0.7531,POD017011,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Louis Jadot,Échezeaux (Grand Cru),2022,POD017018,0.7119,POD017018,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Lucien Muzard,Santenay ‘Maladière’,2023,POD019372,0.67,POD_TEMP_BM2_0057,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Michel Lafarge,Bourgogne,2022,POD_TEMP_1021,0.6494,POD_TEMP_BM2_0058,temp_pod,low_score
+222 borgoña_tintos.pdf,Michel Noëllat,Clos de Vougeot,2015,POD012269,0.62,POD_TEMP_BM2_0059,temp_pod,low_score
+222 borgoña_tintos.pdf,Pacalet,Clos de Vougeot (Grand Cru),2023,POD019369,0.688,POD019369,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Pacalet,Nuits-Saint-Georges,2023,POD019214,0.7187,POD019214,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Pacalet,Vosne-Romanée 1er Cru Les Chaumes,2023,POD019223,0.6267,POD_TEMP_BM2_0060,temp_pod,low_score
+222 borgoña_tintos.pdf,Pierre Damoy,Chambertin Clos de Bèze (Grand Cru),2018,POD010029,0.575,POD_TEMP_BM2_0061,temp_pod,low_score
+222 borgoña_tintos.pdf,Pierre Morey,Volnay 1er Cru Pitures,2023,POD019409,0.6867,POD_TEMP_BM2_0062,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Prieuré Roch,Chambertin (Grand Cru),2022,POD017733,0.732,POD017733,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,Prieuré Roch,Latricières-Chambertin (Grand Cru),2021,POD017727,0.7143,POD_TEMP_BM2_0063,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Prieuré Roch,Vin de France,2022,POD017727,0.7132,POD_TEMP_BM2_0064,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,Prieuré Roch,Vosne-Romanée,2020,POD010092,0.71,POD010092,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,de Eugénie,Clos de Vougeot (Grand Cru),2021,POD016345,0.6951,POD016345,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,des Lambrays,Morey-Saint-Denis 1er Cru Clos Baulet,2022,POD017472,0.6568,POD017472,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,des Lambrays,Morey-Saint-Denis 1er Cru Clos Sorbè,2022,POD017473,0.69,POD017473,existing_pod,score_ok_no_conflict
+222 borgoña_tintos.pdf,des Perdrix,Nuits-Saint-Georges 1er Cru Aux Perdrix,2022,POD012539,0.6948,POD_TEMP_BM2_0065,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,des Perdrix,Nuits-Saint-Georges 1er Cru Aux Perdrix,2023,POD012539,0.6248,POD_TEMP_BM2_0066,temp_pod,best_pod_conflict
+222 borgoña_tintos.pdf,des Perdrix,Échezeaux (Grand Cru),2023,POD019308,0.6495,POD_TEMP_BM2_0067,temp_pod,low_score
+italia.pdf,Crissante,Barolo (La Morra),2021,POD018184,0.6975,POD018184,existing_pod,score_ok_no_conflict
+italia.pdf,Tenuta delle Terre Nere,Calderara Sottana,2022,POD017654,0.7233,POD017654,existing_pod,score_ok_no_conflict
+italia.pdf,Tenuta delle Terre Nere,Moganazzi,2022,POD017657,0.6577,POD017657,existing_pod,score_ok_no_conflict
+italia.pdf,Borgogno,Langhe Nebbiolo ‘Rivata’,2023,POD018873,0.6023,POD_TEMP_BM2_0068,temp_pod,low_score
+italia.pdf,Falletto,Barbaresco ‘Rabajà’,2020,POD012564,0.5028,POD_TEMP_BM2_0069,temp_pod,low_score
+italia.pdf,G.D. Vajra,Arulej ‘Controcorrente’,2023,POD014184,0.5036,POD_TEMP_BM2_0070,temp_pod,low_score
+italia.pdf,Podere San Giuseppe (Bacia),Brunello di Montalcino,2019,POD013366,0.5255,POD_TEMP_BM2_0071,temp_pod,low_score
+italia.pdf,Caciorgna,Etna Rosso ‘Ciauria’,2024,POD012581,0.6517,POD012581,existing_pod,score_ok_no_conflict
+italia.pdf,Cascina delle Rose,Barbera d’Alba ‘Donna Elena’,2022,POD018409,0.7173,POD018409,existing_pod,score_ok_no_conflict
+italia.pdf,Falletto,Barbera d’Alba,2022,POD011992,0.52,POD_TEMP_BM2_0072,temp_pod,low_score
+italia.pdf,Le Macchiole,Bolgheri Rosso,2022,POD_TEMP_1096,0.6916,POD_TEMP_1096,existing_pod,score_ok_no_conflict
+italia.pdf,Ornellaia,Bolgheri,2019,POD009229,0.635,POD_TEMP_BM2_0073,temp_pod,low_score
+italia.pdf,Ornellaia,Bolgheri,2021,POD012491,0.705,POD_TEMP_BM2_0074,temp_pod,best_pod_conflict
+italia.pdf,Ornellaia,Bolgheri,2022,POD012491,0.635,POD_TEMP_BM2_0075,temp_pod,best_pod_conflict
+resto_francia.pdf,Domaine Delaporte,Sancerre ‘Silex’,2022,POD017490,0.5886,POD_TEMP_BM2_0076,temp_pod,low_score
+resto_francia.pdf,Isabel Ferrando (Saint Préfert),Châteauneuf-du-Pape,2023,POD_TEMP_1093,0.4664,POD_TEMP_BM2_0077,temp_pod,low_score
+resto_francia.pdf,Isabel Ferrando (Saint Préfert),Côte-Rôtie ‘Champin le Seigneur’,2022,POD015909,0.5026,POD_TEMP_BM2_0078,temp_pod,best_pod_conflict
+resto_francia.pdf,Isabel Ferrando (Saint Préfert),Côte-Rôtie ‘Les Grandes Places’,2022,POD019768,0.4699,POD_TEMP_BM2_0079,temp_pod,low_score
+resto_francia.pdf,Antoine Sanzay,Saumur-Champigny ‘Les Poyeux’,2022,POD019764,0.6768,POD019764,existing_pod,score_ok_no_conflict
+resto_francia.pdf,Château Rayas,Châteauneuf-du-Pape,2010,POD009898,0.7725,POD009898,existing_pod,score_ok_no_conflict
+resto_francia.pdf,Château des Tours,Vin de Pays de Vaucluse,2019,POD011715,0.7097,POD011715,existing_pod,score_ok_no_conflict
+resto_francia.pdf,Château des Tours,Vin de Pays de Vaucluse,2020,POD016430,0.6583,POD016430,existing_pod,score_ok_no_conflict
+resto_francia.pdf,Henri Bonneau,Châteauneuf-du-Pape ‘Cuvée Marie Beurrier’,2016,POD016703,0.6884,POD016703,existing_pod,score_ok_no_conflict
+resto_francia.pdf,M. Chapoutier,Châteauneuf-du-Pape ‘Barbe Rac’,2008,POD011828,0.6742,POD011828,existing_pod,score_ok_no_conflict
+resto_francia.pdf,M. Chapoutier,Côte-Rôtie ‘Vieilles Vignes’,2022,POD017826,0.6976,POD017826,existing_pod,score_ok_no_conflict
+resto_francia_italia_blancos.pdf,Château Fuissé,Blanc,2020,POD010654,0.494,POD_TEMP_BM2_0080,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Brand et Fils,L’Oeillet (Le Litre),—,POD004085,0.48,POD_TEMP_BM2_0081,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Caciorgna,Guardoilvento,2022,POD012580,0.5138,POD_TEMP_BM2_0082,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Château Smith Haut Lafitte,Blanc,2022,POD017981,0.5698,POD_TEMP_BM2_0083,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Fides (Crimorgat),Blanc,2018,POD010021,0.4241,POD_TEMP_BM2_0084,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Filippi,Foglio 1,2023,POD019795,0.5352,POD_TEMP_BM2_0085,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Guicciardini Strozzi,Hermitage Blanc,2017,POD011185,0.2986,POD_TEMP_BM2_0086,temp_pod,low_score
+resto_francia_italia_blancos.pdf,La Croisée des Chenins,Blanc,2017,POD015096,0.385,POD_TEMP_BM2_0087,temp_pod,low_score
+resto_francia_italia_blancos.pdf,T. Di Paolo,Fiano di Avellino ‘Campore Riserva’,2019,POD018439,0.467,POD_TEMP_BM2_0088,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Taittinger,Hermitage Blanc,2022,POD_TEMP_1010,0.5123,POD_TEMP_BM2_0089,temp_pod,low_score
+resto_francia_italia_blancos.pdf,COS,Pithos Bianco,2023,POD019652,0.6798,POD019652,existing_pod,score_ok_no_conflict
+resto_francia_italia_blancos.pdf,Château Fuissé,Tête de Cuvée,2022,POD013339,0.69,POD013339,existing_pod,score_ok_no_conflict
+resto_francia_italia_blancos.pdf,Marchesi di Barolo,Roero Arneis,2023,POD019793,0.6791,POD019793,existing_pod,score_ok_no_conflict
+resto_francia_italia_blancos.pdf,Tenuta delle Terre Nere,Calderara Sottana (Blanc),2023,POD018790,0.6379,POD_TEMP_BM2_0090,temp_pod,low_score
+resto_francia_italia_blancos.pdf,Trimbach,Riesling,2017,POD012872,0.66,POD012872,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Besson Frères,Pinot Noir,2022,POD019206,0.6224,POD_TEMP_BM2_0091,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Salem Wine Co.,Chardonnay,2021,POD016403,0.5124,POD_TEMP_BM2_0092,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Ceritas,Chardonnay – Sonoma County,2022,POD018347,0.5658,POD_TEMP_BM2_0093,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,La Source,Chardonnay,2023,POD019757,0.4251,POD_TEMP_BM2_0094,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Seven Springs,Chardonnay,2022,POD013303,0.4603,POD_TEMP_BM2_0095,temp_pod,best_pod_conflict
+usa_y_sudafrica_TO.pdf,Seven Springs,Pinot Noir,2022,POD017478,0.4855,POD_TEMP_BM2_0096,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Shafer,TD-9 Cabernet Sauvignon – Napa Valley,2021,POD017503,0.4709,POD_TEMP_BM2_0097,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Sine Qua Non,Testa dei Cherubini Grenache,2024,POD018029,0.4626,POD_TEMP_BM2_0098,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Spioenkop,1900 – Pinotage,2020,POD013053,0.4107,POD_TEMP_BM2_0099,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Summum,Chardonnay,2022,POD017493,0.0,POD_TEMP_BM2_0100,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Kongsgaard,Syrah – Napa Valley,2020,POD018349,0.72,POD018349,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Kongsgaard,Syrah – Napa Valley,2022,POD018350,0.72,POD018350,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2015,POD016544,0.645,POD_TEMP_BM2_0101,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2016,POD017813,0.645,POD_TEMP_BM2_0102,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2018,POD018702,0.645,POD_TEMP_BM2_0103,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2019,POD018703,0.645,POD_TEMP_BM2_0104,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Racines,Bentrock – Sta. Rita Hills Chardonnay,2019,POD016490,0.7307,POD016490,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Racines,"La Rinconada Vineyard – Lompoc, CA",2019,POD016492,0.6949,POD_TEMP_BM2_0105,temp_pod,best_pod_conflict
+usa_y_sudafrica_TO.pdf,Racines,"La Rinconada Vineyard – Lompoc, CA",2020,POD016492,0.6249,POD_TEMP_BM2_0106,temp_pod,best_pod_conflict
+usa_y_sudafrica_TO.pdf,Racines,"La Rinconada Vineyard – Lompoc, CA",2022,POD016399,0.7135,POD016399,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Screaming Eagle,"Cabernet Sauvignon – Oakville, Napa Valley",2011,POD015792,0.6963,POD015792,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Screaming Eagle,"Cabernet Sauvignon – Oakville, Napa Valley",2012,POD015791,0.6963,POD015791,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Screaming Eagle,"Cabernet Sauvignon – Oakville, Napa Valley",2013,POD015790,0.6963,POD015790,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Screaming Eagle,"Cabernet Sauvignon – Oakville, Napa Valley",2019,POD015787,0.7096,POD_TEMP_BM2_0107,temp_pod,best_pod_conflict
+usa_y_sudafrica_TO.pdf,Screaming Eagle,"Cabernet Sauvignon – Oakville, Napa Valley",2021,POD015787,0.7096,POD_TEMP_BM2_0108,temp_pod,best_pod_conflict
+usa_y_sudafrica_TO.pdf,Shannon,Mount Bullet – South Africa,2020,POD018201,0.645,POD_TEMP_BM2_0109,temp_pod,low_score
+usa_y_sudafrica_TO.pdf,Sine Qua Non,Syrah – California,2013,POD016890,0.6986,POD016890,existing_pod,score_ok_no_conflict
+usa_y_sudafrica_TO.pdf,Sine Qua Non,Touché Syrah,2012,POD016887,0.7777,POD016887,existing_pod,score_ok_no_conflict

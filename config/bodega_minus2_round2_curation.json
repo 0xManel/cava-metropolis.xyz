@@ -1,0 +1,740 @@
+{
+  "version": 1,
+  "origin": "usuario_round2_2026-02-26",
+  "entries": [
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Baulet",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Borgoña (Côte de Nuits)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Sorbè",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Borgoña (Côte de Nuits)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Borgoña",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Borgoña",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Échezeaux (Grand Cru)",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Borgoña",
+      "pais_sugerido": "França"
+    },
+
+    {
+      "source_file": "italia.pdf",
+      "producer": "Crissante",
+      "item": "Barolo (La Morra)",
+      "ano_raw": "2021",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nebbiolo",
+      "region_sugerida": "Itália (Piemonte, Barolo)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nerello Mascalese",
+      "region_sugerida": "Itália (Sicília, Etna Rosso)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Moganazzi",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nerello Mascalese",
+      "region_sugerida": "Itália (Sicília, Etna)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Borgogno",
+      "item": "Langhe Nebbiolo ‘Rivata’",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nebbiolo",
+      "region_sugerida": "Itália (Piemonte, Langhe)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Falletto",
+      "item": "Barbaresco ‘Rabajà’",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nebbiolo",
+      "region_sugerida": "Itália (Piemonte, Barbaresco)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "G.D. Vajra",
+      "item": "Arulej ‘Controcorrente’",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nebbiolo (ou blend local)",
+      "region_sugerida": "Itália (Piemonte)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Podere San Giuseppe (Bacia)",
+      "item": "Brunello di Montalcino",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Sangiovese",
+      "region_sugerida": "Itália (Toscana)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Caciorgna",
+      "item": "Etna Rosso ‘Ciauria’",
+      "ano_raw": "2024",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Nerello Mascalese",
+      "region_sugerida": "Itália (Sicília, Etna)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Cascina delle Rose",
+      "item": "Barbera d’Alba ‘Donna Elena’",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Barbera",
+      "region_sugerida": "Itália (Piemonte)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Falletto",
+      "item": "Barbera d’Alba",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Barbera",
+      "region_sugerida": "Itália (Piemonte)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Le Macchiole",
+      "item": "Bolgheri Rosso",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Merlot/Cabernet Franc/Syrah",
+      "region_sugerida": "Itália (Toscana, Bolgheri)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon/Merlot/Cabernet Franc",
+      "region_sugerida": "Itália (Toscana)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano_raw": "2021",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon/Merlot/Cabernet Franc",
+      "region_sugerida": "Itália (Toscana)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon/Merlot/Cabernet Franc",
+      "region_sugerida": "Itália (Toscana)",
+      "pais_sugerido": "Itália"
+    },
+
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Domaine Delaporte",
+      "item": "Sancerre ‘Silex’",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Sauvignon Blanc",
+      "region_sugerida": "França (Loira)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Châteauneuf-du-Pape",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Grenache (blend)",
+      "region_sugerida": "França (Ródano Sul)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Champin le Seigneur’",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah (com Viognier possível)",
+      "region_sugerida": "França (Ródano Norte)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Les Grandes Places’",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah",
+      "region_sugerida": "França (Ródano Norte)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Antoine Sanzay",
+      "item": "Saumur-Champigny ‘Les Poyeux’",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Franc",
+      "region_sugerida": "França (Loira)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château Rayas",
+      "item": "Châteauneuf-du-Pape",
+      "ano_raw": "2010",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Grenache (blend)",
+      "region_sugerida": "França (Ródano Sul)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château des Tours",
+      "item": "Vin de Pays de Vaucluse",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Grenache/Syrah/Mourvèdre",
+      "region_sugerida": "França (Ródano)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château des Tours",
+      "item": "Vin de Pays de Vaucluse",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Grenache Blanc/Clairette/Bourboulenc",
+      "region_sugerida": "França (Ródano)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Henri Bonneau",
+      "item": "Châteauneuf-du-Pape ‘Cuvée Marie Beurrier’",
+      "ano_raw": "2016",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Grenache (blend)",
+      "region_sugerida": "França (Ródano Sul)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Châteauneuf-du-Pape ‘Barbe Rac’",
+      "ano_raw": "2008",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah/Grenache",
+      "region_sugerida": "França (Ródano)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Côte-Rôtie ‘Vieilles Vignes’",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah",
+      "region_sugerida": "França (Ródano Norte)",
+      "pais_sugerido": "França"
+    },
+
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Fuissé",
+      "item": "Blanc",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "França (Borgoña, Pouilly-Fuissé)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Brand et Fils",
+      "item": "L’Oeillet (Le Litre)",
+      "ano_raw": "—",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Provável Sylvaner/Riesling blend",
+      "region_sugerida": "França (Alsácia)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Caciorgna",
+      "item": "Guardoilvento",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Carricante",
+      "region_sugerida": "Itália (Sicília)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Smith Haut Lafitte",
+      "item": "Blanc",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Sauvignon Blanc/Sémillon",
+      "region_sugerida": "França (Bordeaux)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Fides (Crimorgat)",
+      "item": "Blanc",
+      "ano_raw": "2018",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chenin Blanc (ou similar Loire)",
+      "region_sugerida": "França",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Filippi",
+      "item": "Foglio 1",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Garganega",
+      "region_sugerida": "Itália (Vêneto)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Guicciardini Strozzi",
+      "item": "Hermitage Blanc",
+      "ano_raw": "2017",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Marsanne/Roussanne",
+      "region_sugerida": "França (Ródano Norte)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "La Croisée des Chenins",
+      "item": "Blanc",
+      "ano_raw": "2017",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chenin Blanc",
+      "region_sugerida": "França (Loira)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "T. Di Paolo",
+      "item": "Fiano di Avellino ‘Campore Riserva’",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Fiano",
+      "region_sugerida": "Itália (Campânia)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Taittinger",
+      "item": "Hermitage Blanc",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Marsanne/Roussanne",
+      "region_sugerida": "França (Ródano Norte)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "COS",
+      "item": "Pithos Bianco",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Grillo (ou blend)",
+      "region_sugerida": "Itália (Sicília)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Fuissé",
+      "item": "Tête de Cuvée",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "França (Borgoña)",
+      "pais_sugerido": "França"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Marchesi di Barolo",
+      "item": "Roero Arneis",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Arneis",
+      "region_sugerida": "Itália (Piemonte)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana (Blanc)",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Carricante",
+      "region_sugerida": "Itália (Sicília, Etna Bianco)",
+      "pais_sugerido": "Itália"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Trimbach",
+      "item": "Riesling",
+      "ano_raw": "2017",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Riesling",
+      "region_sugerida": "França (Alsácia)",
+      "pais_sugerido": "França"
+    },
+
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Besson Frères",
+      "item": "Pinot Noir",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Estados Unidos (Oregon)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Salem Wine Co.",
+      "item": "Chardonnay",
+      "ano_raw": "2021",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Ceritas",
+      "item": "Chardonnay – Sonoma County",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "La Source",
+      "item": "Chardonnay",
+      "ano_raw": "2023",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Seven Springs",
+      "item": "Chardonnay",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Seven Springs",
+      "item": "Pinot Noir",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Estados Unidos",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Shafer",
+      "item": "TD-9 Cabernet Sauvignon – Napa Valley",
+      "ano_raw": "2021",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon (blend)",
+      "region_sugerida": "Estados Unidos (California, Napa)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Testa dei Cherubini Grenache",
+      "ano_raw": "2024",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Grenache",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Spioenkop",
+      "item": "1900 – Pinotage",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinotage",
+      "region_sugerida": "África do Sul",
+      "pais_sugerido": "África do Sul"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Summum",
+      "item": "Chardonnay",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos/África do Sul",
+      "pais_sugerido": "Estados Unidos/África do Sul"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Kongsgaard",
+      "item": "Syrah – Napa Valley",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Kongsgaard",
+      "item": "Syrah – Napa Valley",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2015",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2016",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2018",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "Bentrock – Sta. Rita Hills Chardonnay",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Pinot Noir",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano_raw": "2022",
+      "tipo_sugerido": "Blanco",
+      "uva_sugerida": "Chardonnay",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2011",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2012",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2013",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2019",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2021",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Cabernet Sauvignon blend",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Shannon",
+      "item": "Mount Bullet – South Africa",
+      "ano_raw": "2020",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Merlot (ou blend)",
+      "region_sugerida": "África do Sul",
+      "pais_sugerido": "África do Sul"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Syrah – California",
+      "ano_raw": "2013",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Touché Syrah",
+      "ano_raw": "2012",
+      "tipo_sugerido": "Tinto",
+      "uva_sugerida": "Syrah",
+      "region_sugerida": "Estados Unidos (California)",
+      "pais_sugerido": "Estados Unidos"
+    }
+  ]
+}

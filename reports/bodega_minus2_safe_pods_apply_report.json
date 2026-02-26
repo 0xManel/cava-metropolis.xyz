@@ -1,0 +1,4130 @@
+{
+  "timestamp_utc": "2026-02-26T03:36:19.662565+00:00",
+  "mode": "apply",
+  "rows_in_csv": 172,
+  "confidence_min_score": 0.65,
+  "conflicting_pods": [
+    "POD010182",
+    "POD012491",
+    "POD012539",
+    "POD013303",
+    "POD015787",
+    "POD015909",
+    "POD015932",
+    "POD015939",
+    "POD015942",
+    "POD016492",
+    "POD017374",
+    "POD017727",
+    "POD017925",
+    "POD018359",
+    "POD019282",
+    "POD019361",
+    "POD019372",
+    "POD019409"
+  ],
+  "unique_final_pods": 172,
+  "existing_pod_groups": 63,
+  "temp_pod_groups": 109,
+  "created_entries": [
+    {
+      "pod": "POD_TEMP_BM2_0001",
+      "producer": "Domaine de Villaine",
+      "item": "Bouzeron",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0002",
+      "producer": "Arnaud Ente",
+      "item": "Fourchaume 1er Cru",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0003",
+      "producer": "Arnaud Ente",
+      "item": "Montmains 1er Cru",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0004",
+      "producer": "Arnaud Ente",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0005",
+      "producer": "Arnaud Ente",
+      "item": "Tête d’Or",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0006",
+      "producer": "Arnaud Ente",
+      "item": "Tête d’Or (1.5L)",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0007",
+      "producer": "Hospices de Beaune",
+      "item": "Meursault Clos des Écoles",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0008",
+      "producer": "Hospices de Beaune",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano": 2016
+    },
+    {
+      "pod": "POD_TEMP_BM2_0009",
+      "producer": "Le Puy de l’Ours",
+      "item": "Savigny-lès-Beaune Les Goudelettes",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0010",
+      "producer": "Marquis de Laguiche",
+      "item": "Chassagne-Montrachet 1er Cru Morgeot",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0011",
+      "producer": "Marquis de Laguiche",
+      "item": "Montrachet (Grand Cru)",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0012",
+      "producer": "Raveneau",
+      "item": "Blanchot (Grand Cru)",
+      "ano": 2016
+    },
+    {
+      "pod": "POD_TEMP_BM2_0013",
+      "producer": "Raveneau",
+      "item": "Butteaux 1er Cru",
+      "ano": 2015
+    },
+    {
+      "pod": "POD_TEMP_BM2_0014",
+      "producer": "Raveneau",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0015",
+      "producer": "Raveneau",
+      "item": "Valmur (Grand Cru)",
+      "ano": 2016
+    },
+    {
+      "pod": "POD_TEMP_BM2_0016",
+      "producer": "Si tu Sais",
+      "item": "Pernand-Vergelesses",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0017",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0018",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano": null
+    },
+    {
+      "pod": "POD_TEMP_BM2_0019",
+      "producer": "Domaine Leflaive",
+      "item": "Chassagne-Montrachet 1er Cru Clos Saint-Marc",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0020",
+      "producer": "Lucien Muzard",
+      "item": "Saint-Aubin 1er Cru Sur le Sentier du Clou",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0021",
+      "producer": "Marquis de Laguiche",
+      "item": "Corton-Charlemagne (Grand Cru)",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0022",
+      "producer": "Marquis de Laguiche",
+      "item": "Montrachet (Grand Cru)",
+      "ano": null
+    },
+    {
+      "pod": "POD_TEMP_BM2_0023",
+      "producer": "Pierre Morey",
+      "item": "Puligny-Montrachet 1er Cru Champ Gain",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0024",
+      "producer": "Raveneau",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano": 2015
+    },
+    {
+      "pod": "POD_TEMP_BM2_0025",
+      "producer": "Vincent Girardin",
+      "item": "Meursault Vieilles Vignes",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0026",
+      "producer": "Vincent Girardin",
+      "item": "Montrachet (Grand Cru)",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0027",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet 1er Cru Les Referts",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0028",
+      "producer": "Pernot",
+      "item": "Gevrey-Chambertin",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0029",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0030",
+      "producer": "D. L’Arlot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0031",
+      "producer": "D. de l’Arlot",
+      "item": "Nuits-Saint-Georges 1er Cru Clos de l’Arlot",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0032",
+      "producer": "D. de l’Arlot",
+      "item": "Nuits-Saint-Georges 1er Cru Clos des Forêts Saint Georges",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0033",
+      "producer": "DRC",
+      "item": "Grands-Échezeaux",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0034",
+      "producer": "DRC",
+      "item": "Romanée-Saint-Vivant",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0035",
+      "producer": "DRC",
+      "item": "Vosne-Romanée 1er Cru Les Petits Monts",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0036",
+      "producer": "Henri Magnien / François Thurot",
+      "item": "Côte de Nuits (entrada tal como figura)",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0037",
+      "producer": "Hubert Lignier",
+      "item": "Chambolle-Musigny 1er Cru Les Amoureuses",
+      "ano": 2015
+    },
+    {
+      "pod": "POD_TEMP_BM2_0038",
+      "producer": "Jean Grivot",
+      "item": "Bourgogne ‘Cuvée Jeunesse’",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0039",
+      "producer": "Jean Grivot",
+      "item": "Nuits-Saint-Georges ‘Les Fleuries’",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0040",
+      "producer": "Le Puy de l’Ours",
+      "item": "Les Follettes",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0041",
+      "producer": "Les Terres de Philéandre",
+      "item": "Savigny-lès-Beaune 1er Cru Les Serpentières",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0042",
+      "producer": "Pacalet",
+      "item": "Chambertin (Grand Cru)",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0043",
+      "producer": "Pacalet",
+      "item": "Chambertin Clos de Bèze (Grand Cru)",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0044",
+      "producer": "Pacalet",
+      "item": "Chapelle-Chambertin (Grand Cru)",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0045",
+      "producer": "Pacalet",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0046",
+      "producer": "Pacalet",
+      "item": "Morey-Saint-Denis ‘La Rue de Vergy’",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0047",
+      "producer": "Pierre Morey",
+      "item": "Meursault",
+      "ano": null
+    },
+    {
+      "pod": "POD_TEMP_BM2_0048",
+      "producer": "Comtes Georges de Vogüé",
+      "item": "Chambolle-Musigny 1er Cru Les Amoureuses",
+      "ano": null
+    },
+    {
+      "pod": "POD_TEMP_BM2_0049",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0050",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0051",
+      "producer": "Hubert Lignier",
+      "item": "Bourgogne",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0052",
+      "producer": "Hubert Lignier",
+      "item": "Chambolle-Musigny",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0053",
+      "producer": "Jean Grivot",
+      "item": "Nuits-Saint-Georges ‘Les Charmois’",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0054",
+      "producer": "Jean Grivot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0055",
+      "producer": "Jean Grivot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0056",
+      "producer": "Jean Grivot",
+      "item": "Vosne-Romanée 1er Cru Malconsorts",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0057",
+      "producer": "Lucien Muzard",
+      "item": "Santenay ‘Maladière’",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0058",
+      "producer": "Michel Lafarge",
+      "item": "Bourgogne",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0059",
+      "producer": "Michel Noëllat",
+      "item": "Clos de Vougeot",
+      "ano": 2015
+    },
+    {
+      "pod": "POD_TEMP_BM2_0060",
+      "producer": "Pacalet",
+      "item": "Vosne-Romanée 1er Cru Les Chaumes",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0061",
+      "producer": "Pierre Damoy",
+      "item": "Chambertin Clos de Bèze (Grand Cru)",
+      "ano": 2018
+    },
+    {
+      "pod": "POD_TEMP_BM2_0062",
+      "producer": "Pierre Morey",
+      "item": "Volnay 1er Cru Pitures",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0063",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano": 2021
+    },
+    {
+      "pod": "POD_TEMP_BM2_0064",
+      "producer": "Prieuré Roch",
+      "item": "Vin de France",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0065",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0066",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0067",
+      "producer": "des Perdrix",
+      "item": "Échezeaux (Grand Cru)",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0068",
+      "producer": "Borgogno",
+      "item": "Langhe Nebbiolo ‘Rivata’",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0069",
+      "producer": "Falletto",
+      "item": "Barbaresco ‘Rabajà’",
+      "ano": 2020
+    },
+    {
+      "pod": "POD_TEMP_BM2_0070",
+      "producer": "G.D. Vajra",
+      "item": "Arulej ‘Controcorrente’",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0071",
+      "producer": "Podere San Giuseppe (Bacia)",
+      "item": "Brunello di Montalcino",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0072",
+      "producer": "Falletto",
+      "item": "Barbera d’Alba",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0073",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0074",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano": 2021
+    },
+    {
+      "pod": "POD_TEMP_BM2_0075",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0076",
+      "producer": "Domaine Delaporte",
+      "item": "Sancerre ‘Silex’",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0077",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Châteauneuf-du-Pape",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0078",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Champin le Seigneur’",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0079",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Les Grandes Places’",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0080",
+      "producer": "Château Fuissé",
+      "item": "Blanc",
+      "ano": 2020
+    },
+    {
+      "pod": "POD_TEMP_BM2_0081",
+      "producer": "Brand et Fils",
+      "item": "L’Oeillet (Le Litre)",
+      "ano": null
+    },
+    {
+      "pod": "POD_TEMP_BM2_0082",
+      "producer": "Caciorgna",
+      "item": "Guardoilvento",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0083",
+      "producer": "Château Smith Haut Lafitte",
+      "item": "Blanc",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0084",
+      "producer": "Fides (Crimorgat)",
+      "item": "Blanc",
+      "ano": 2018
+    },
+    {
+      "pod": "POD_TEMP_BM2_0085",
+      "producer": "Filippi",
+      "item": "Foglio 1",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0086",
+      "producer": "Guicciardini Strozzi",
+      "item": "Hermitage Blanc",
+      "ano": 2017
+    },
+    {
+      "pod": "POD_TEMP_BM2_0087",
+      "producer": "La Croisée des Chenins",
+      "item": "Blanc",
+      "ano": 2017
+    },
+    {
+      "pod": "POD_TEMP_BM2_0088",
+      "producer": "T. Di Paolo",
+      "item": "Fiano di Avellino ‘Campore Riserva’",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0089",
+      "producer": "Taittinger",
+      "item": "Hermitage Blanc",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0090",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana (Blanc)",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0091",
+      "producer": "Besson Frères",
+      "item": "Pinot Noir",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0092",
+      "producer": "Salem Wine Co.",
+      "item": "Chardonnay",
+      "ano": 2021
+    },
+    {
+      "pod": "POD_TEMP_BM2_0093",
+      "producer": "Ceritas",
+      "item": "Chardonnay – Sonoma County",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0094",
+      "producer": "La Source",
+      "item": "Chardonnay",
+      "ano": 2023
+    },
+    {
+      "pod": "POD_TEMP_BM2_0095",
+      "producer": "Seven Springs",
+      "item": "Chardonnay",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0096",
+      "producer": "Seven Springs",
+      "item": "Pinot Noir",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0097",
+      "producer": "Shafer",
+      "item": "TD-9 Cabernet Sauvignon – Napa Valley",
+      "ano": 2021
+    },
+    {
+      "pod": "POD_TEMP_BM2_0098",
+      "producer": "Sine Qua Non",
+      "item": "Testa dei Cherubini Grenache",
+      "ano": 2024
+    },
+    {
+      "pod": "POD_TEMP_BM2_0099",
+      "producer": "Spioenkop",
+      "item": "1900 – Pinotage",
+      "ano": 2020
+    },
+    {
+      "pod": "POD_TEMP_BM2_0100",
+      "producer": "Summum",
+      "item": "Chardonnay",
+      "ano": 2022
+    },
+    {
+      "pod": "POD_TEMP_BM2_0101",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": 2015
+    },
+    {
+      "pod": "POD_TEMP_BM2_0102",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": 2016
+    },
+    {
+      "pod": "POD_TEMP_BM2_0103",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": 2018
+    },
+    {
+      "pod": "POD_TEMP_BM2_0104",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0105",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0106",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano": 2020
+    },
+    {
+      "pod": "POD_TEMP_BM2_0107",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": 2019
+    },
+    {
+      "pod": "POD_TEMP_BM2_0108",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": 2021
+    },
+    {
+      "pod": "POD_TEMP_BM2_0109",
+      "producer": "Shannon",
+      "item": "Mount Bullet – South Africa",
+      "ano": 2020
+    }
+  ],
+  "updated_entries_count": 172,
+  "decision_log_first_300": [
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Initiales BB",
+      "ano_raw": "2022",
+      "best_pod": "POD015933",
+      "best_score": 0.6873,
+      "final_pod": "POD015933",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Clos du Cromin",
+      "ano_raw": "2022",
+      "best_pod": "POD017044",
+      "best_score": 0.71,
+      "final_pod": "POD017044",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Les Tillets",
+      "ano_raw": "2022",
+      "best_pod": "POD017045",
+      "best_score": 0.6855,
+      "final_pod": "POD017045",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Domaine de Villaine",
+      "item": "Bouzeron",
+      "ano_raw": "2022",
+      "best_pod": "POD011639",
+      "best_score": 0.5716,
+      "final_pod": "POD_TEMP_BM2_0001",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Chablis",
+      "ano_raw": "2019",
+      "best_pod": "POD017285",
+      "best_score": 0.7111,
+      "final_pod": "POD017285",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Roulot",
+      "item": "Meix Chavaux",
+      "ano_raw": "2019",
+      "best_pod": "POD017294",
+      "best_score": 0.6975,
+      "final_pod": "POD017294",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Fourchaume 1er Cru",
+      "ano_raw": "2022",
+      "best_pod": "POD015942",
+      "best_score": 0.5769,
+      "final_pod": "POD_TEMP_BM2_0002",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Montmains 1er Cru",
+      "ano_raw": "2022",
+      "best_pod": "POD015939",
+      "best_score": 0.5398,
+      "final_pod": "POD_TEMP_BM2_0003",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano_raw": "2022",
+      "best_pod": "POD015942",
+      "best_score": 0.5563,
+      "final_pod": "POD_TEMP_BM2_0004",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Tête d’Or",
+      "ano_raw": "2022",
+      "best_pod": "POD015939",
+      "best_score": 0.5706,
+      "final_pod": "POD_TEMP_BM2_0005",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Tête d’Or (1.5L)",
+      "ano_raw": "2022",
+      "best_pod": "POD015942",
+      "best_score": 0.5936,
+      "final_pod": "POD_TEMP_BM2_0006",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Hospices de Beaune",
+      "item": "Meursault Clos des Écoles",
+      "ano_raw": "2022",
+      "best_pod": "POD016245",
+      "best_score": 0.5622,
+      "final_pod": "POD_TEMP_BM2_0007",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Hospices de Beaune",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano_raw": "2016",
+      "best_pod": "POD017288",
+      "best_score": 0.4657,
+      "final_pod": "POD_TEMP_BM2_0008",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Le Puy de l’Ours",
+      "item": "Savigny-lès-Beaune Les Goudelettes",
+      "ano_raw": "2023",
+      "best_pod": "POD019636",
+      "best_score": 0.4962,
+      "final_pod": "POD_TEMP_BM2_0009",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Chassagne-Montrachet 1er Cru Morgeot",
+      "ano_raw": "2022",
+      "best_pod": "POD015932",
+      "best_score": 0.5278,
+      "final_pod": "POD_TEMP_BM2_0010",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Montrachet (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD017577",
+      "best_score": 0.518,
+      "final_pod": "POD_TEMP_BM2_0011",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Blanchot (Grand Cru)",
+      "ano_raw": "2016",
+      "best_pod": "POD017291",
+      "best_score": 0.5911,
+      "final_pod": "POD_TEMP_BM2_0012",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Butteaux 1er Cru",
+      "ano_raw": "2015",
+      "best_pod": "POD017286",
+      "best_score": 0.6103,
+      "final_pod": "POD_TEMP_BM2_0013",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano_raw": "2022",
+      "best_pod": "POD017725",
+      "best_score": 0.5956,
+      "final_pod": "POD_TEMP_BM2_0014",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Valmur (Grand Cru)",
+      "ano_raw": "2016",
+      "best_pod": "POD017292",
+      "best_score": 0.5688,
+      "final_pod": "POD_TEMP_BM2_0015",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Si tu Sais",
+      "item": "Pernand-Vergelesses",
+      "ano_raw": "2023",
+      "best_pod": "POD018176",
+      "best_score": 0.6138,
+      "final_pod": "POD_TEMP_BM2_0016",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Antoine LePetit",
+      "item": "Bourgogne Aligoté",
+      "ano_raw": "2023",
+      "best_pod": "POD018720",
+      "best_score": 0.6678,
+      "final_pod": "POD018720",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Bourgogne (1.5L)",
+      "ano_raw": "2020",
+      "best_pod": "POD015938",
+      "best_score": 0.6995,
+      "final_pod": "POD015938",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano_raw": "2022",
+      "best_pod": "POD015942",
+      "best_score": 0.67,
+      "final_pod": "POD_TEMP_BM2_0017",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano_raw": "—",
+      "best_pod": "POD015942",
+      "best_score": 0.71,
+      "final_pod": "POD_TEMP_BM2_0018",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Puligny-Montrachet 1er Cru Champ Gain",
+      "ano_raw": "2019",
+      "best_pod": "POD016878",
+      "best_score": 0.7046,
+      "final_pod": "POD016878",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Domaine Leflaive",
+      "item": "Chassagne-Montrachet 1er Cru Clos Saint-Marc",
+      "ano_raw": "2023",
+      "best_pod": "POD015932",
+      "best_score": 0.6895,
+      "final_pod": "POD_TEMP_BM2_0019",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "François Carillon",
+      "item": "Bourgogne Côte d’Or",
+      "ano_raw": "—",
+      "best_pod": "POD018431",
+      "best_score": 0.6615,
+      "final_pod": "POD018431",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "J. Drouhin",
+      "item": "Clos des Mouches",
+      "ano_raw": "—",
+      "best_pod": "POD013291",
+      "best_score": 0.6883,
+      "final_pod": "POD013291",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Les Deux Flèches",
+      "item": "Saint-Véran ‘En Messie’",
+      "ano_raw": "2023",
+      "best_pod": "POD019657",
+      "best_score": 0.6513,
+      "final_pod": "POD019657",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Louis Jadot",
+      "item": "Puligny-Montrachet 1er Cru Les Combettes",
+      "ano_raw": "2023",
+      "best_pod": "POD017016",
+      "best_score": 0.7111,
+      "final_pod": "POD017016",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Lucien Muzard",
+      "item": "Saint-Aubin 1er Cru Sur le Sentier du Clou",
+      "ano_raw": "2023",
+      "best_pod": "POD019372",
+      "best_score": 0.705,
+      "final_pod": "POD_TEMP_BM2_0020",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Corton-Charlemagne (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD013049",
+      "best_score": 0.5292,
+      "final_pod": "POD_TEMP_BM2_0021",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Montrachet (Grand Cru)",
+      "ano_raw": "—",
+      "best_pod": "POD016634",
+      "best_score": 0.5435,
+      "final_pod": "POD_TEMP_BM2_0022",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pacalet",
+      "item": "Bâtard-Montrachet (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019251",
+      "best_score": 0.7002,
+      "final_pod": "POD019251",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pacalet",
+      "item": "Corton-Charlemagne (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019246",
+      "best_score": 0.7057,
+      "final_pod": "POD019246",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Bâtard-Montrachet (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD019290",
+      "best_score": 0.77,
+      "final_pod": "POD019290",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Meursault Perrières 1er Cru",
+      "ano_raw": "2022",
+      "best_pod": "POD012519",
+      "best_score": 0.7419,
+      "final_pod": "POD012519",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Puligny-Montrachet 1er Cru Champ Gain",
+      "ano_raw": "2023",
+      "best_pod": "POD019409",
+      "best_score": 0.7787,
+      "final_pod": "POD_TEMP_BM2_0023",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano_raw": "2015",
+      "best_pod": "POD017289",
+      "best_score": 0.6474,
+      "final_pod": "POD_TEMP_BM2_0024",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Meursault Vieilles Vignes",
+      "ano_raw": "2023",
+      "best_pod": "POD019361",
+      "best_score": 0.7129,
+      "final_pod": "POD_TEMP_BM2_0025",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Montrachet (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD013303",
+      "best_score": 0.768,
+      "final_pod": "POD_TEMP_BM2_0026",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet 1er Cru Les Referts",
+      "ano_raw": "2023",
+      "best_pod": "POD019361",
+      "best_score": 0.7713,
+      "final_pod": "POD_TEMP_BM2_0027",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet Vieilles Vignes",
+      "ano_raw": "2023",
+      "best_pod": "POD019351",
+      "best_score": 0.7601,
+      "final_pod": "POD019351",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Michel Lafarge",
+      "item": "Volnay",
+      "ano_raw": "2022",
+      "best_pod": "POD017406",
+      "best_score": 0.681,
+      "final_pod": "POD017406",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pernot",
+      "item": "Gevrey-Chambertin",
+      "ano_raw": "2022",
+      "best_pod": "POD015909",
+      "best_score": 0.6938,
+      "final_pod": "POD_TEMP_BM2_0028",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD017727",
+      "best_score": 0.7843,
+      "final_pod": "POD_TEMP_BM2_0029",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Bourgogne",
+      "ano_raw": "2023",
+      "best_pod": "POD019302",
+      "best_score": 0.7105,
+      "final_pod": "POD019302",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. L’Arlot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019284",
+      "best_score": 0.6135,
+      "final_pod": "POD_TEMP_BM2_0030",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Nuits-Saint-Georges 1er Cru Clos de l’Arlot",
+      "ano_raw": "2023",
+      "best_pod": "POD019282",
+      "best_score": 0.5761,
+      "final_pod": "POD_TEMP_BM2_0031",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Nuits-Saint-Georges 1er Cru Clos des Forêts Saint Georges",
+      "ano_raw": "2022",
+      "best_pod": "POD012515",
+      "best_score": 0.6005,
+      "final_pod": "POD_TEMP_BM2_0032",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "DRC",
+      "item": "Grands-Échezeaux",
+      "ano_raw": "2019",
+      "best_pod": "POD010182",
+      "best_score": 0.3246,
+      "final_pod": "POD_TEMP_BM2_0033",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "DRC",
+      "item": "Romanée-Saint-Vivant",
+      "ano_raw": "2019",
+      "best_pod": "POD010182",
+      "best_score": 0.33,
+      "final_pod": "POD_TEMP_BM2_0034",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "DRC",
+      "item": "Vosne-Romanée 1er Cru Les Petits Monts",
+      "ano_raw": "2019",
+      "best_pod": "POD010182",
+      "best_score": 0.3415,
+      "final_pod": "POD_TEMP_BM2_0035",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Henri Magnien / François Thurot",
+      "item": "Côte de Nuits (entrada tal como figura)",
+      "ano_raw": "2022",
+      "best_pod": "POD013335",
+      "best_score": 0.585,
+      "final_pod": "POD_TEMP_BM2_0036",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Hubert Lignier",
+      "item": "Chambolle-Musigny 1er Cru Les Amoureuses",
+      "ano_raw": "2015",
+      "best_pod": "POD012412",
+      "best_score": 0.4852,
+      "final_pod": "POD_TEMP_BM2_0037",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Bourgogne ‘Cuvée Jeunesse’",
+      "ano_raw": "2023",
+      "best_pod": "POD018353",
+      "best_score": 0.6032,
+      "final_pod": "POD_TEMP_BM2_0038",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Nuits-Saint-Georges ‘Les Fleuries’",
+      "ano_raw": "2023",
+      "best_pod": "POD018359",
+      "best_score": 0.5558,
+      "final_pod": "POD_TEMP_BM2_0039",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Le Puy de l’Ours",
+      "item": "Les Follettes",
+      "ano_raw": "2023",
+      "best_pod": "POD018161",
+      "best_score": 0.4863,
+      "final_pod": "POD_TEMP_BM2_0040",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Les Terres de Philéandre",
+      "item": "Savigny-lès-Beaune 1er Cru Les Serpentières",
+      "ano_raw": "2022",
+      "best_pod": "POD017374",
+      "best_score": 0.471,
+      "final_pod": "POD_TEMP_BM2_0041",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Chambertin (Grand Cru)",
+      "ano_raw": "2019",
+      "best_pod": "POD015903",
+      "best_score": 0.465,
+      "final_pod": "POD_TEMP_BM2_0042",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Chambertin Clos de Bèze (Grand Cru)",
+      "ano_raw": "2019",
+      "best_pod": "POD011380",
+      "best_score": 0.4992,
+      "final_pod": "POD_TEMP_BM2_0043",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Chapelle-Chambertin (Grand Cru)",
+      "ano_raw": "2019",
+      "best_pod": "POD018038",
+      "best_score": 0.4573,
+      "final_pod": "POD_TEMP_BM2_0044",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano_raw": "2019",
+      "best_pod": "POD009367",
+      "best_score": 0.4491,
+      "final_pod": "POD_TEMP_BM2_0045",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Morey-Saint-Denis ‘La Rue de Vergy’",
+      "ano_raw": "2019",
+      "best_pod": "POD_TEMP_1051",
+      "best_score": 0.4893,
+      "final_pod": "POD_TEMP_BM2_0046",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Meursault",
+      "ano_raw": "—",
+      "best_pod": "POD012516",
+      "best_score": 0.5916,
+      "final_pod": "POD_TEMP_BM2_0047",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Armand Rousseau",
+      "item": "Ruchottes-Chambertin Clos des Ruchottes (Grand Cru)",
+      "ano_raw": "—",
+      "best_pod": "POD017137",
+      "best_score": 0.7554,
+      "final_pod": "POD017137",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Chandon de Briailles",
+      "item": "Corton Clos du Roi (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD013307",
+      "best_score": 0.7271,
+      "final_pod": "POD013307",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Comtes Georges de Vogüé",
+      "item": "Chambolle-Musigny 1er Cru Les Amoureuses",
+      "ano_raw": "—",
+      "best_pod": "POD017374",
+      "best_score": 0.7155,
+      "final_pod": "POD_TEMP_BM2_0048",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano_raw": "2022",
+      "best_pod": "POD013328",
+      "best_score": 0.6214,
+      "final_pod": "POD_TEMP_BM2_0049",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano_raw": "2023",
+      "best_pod": "POD019282",
+      "best_score": 0.6214,
+      "final_pod": "POD_TEMP_BM2_0050",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD016852",
+      "best_score": 0.6942,
+      "final_pod": "POD016852",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019094",
+      "best_score": 0.6942,
+      "final_pod": "POD019094",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Gevrey-Chambertin 1er Cru Aux Combottes",
+      "ano_raw": "2022",
+      "best_pod": "POD016853",
+      "best_score": 0.6953,
+      "final_pod": "POD016853",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Gevrey-Chambertin 1er Cru Aux Combottes",
+      "ano_raw": "2023",
+      "best_pod": "POD019095",
+      "best_score": 0.6953,
+      "final_pod": "POD019095",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Fourrier",
+      "item": "Gevrey-Chambertin 1er Cru Combe Aux Moines",
+      "ano_raw": "2022",
+      "best_pod": "POD017159",
+      "best_score": 0.6801,
+      "final_pod": "POD017159",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "G. Roumier",
+      "item": "Bonnes-Mares (Grand Cru)",
+      "ano_raw": "2019",
+      "best_pod": "POD017786",
+      "best_score": 0.725,
+      "final_pod": "POD017786",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "G. Roumier",
+      "item": "Morey-Saint-Denis 1er Cru Clos de la Bussière",
+      "ano_raw": "2013",
+      "best_pod": "POD017299",
+      "best_score": 0.7018,
+      "final_pod": "POD017299",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Hubert Lignier",
+      "item": "Bourgogne",
+      "ano_raw": "2022",
+      "best_pod": "POD017925",
+      "best_score": 0.6494,
+      "final_pod": "POD_TEMP_BM2_0051",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Hubert Lignier",
+      "item": "Chambolle-Musigny",
+      "ano_raw": "2022",
+      "best_pod": "POD017925",
+      "best_score": 0.6771,
+      "final_pod": "POD_TEMP_BM2_0052",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Nuits-Saint-Georges ‘Les Charmois’",
+      "ano_raw": "2022",
+      "best_pod": "POD018359",
+      "best_score": 0.6563,
+      "final_pod": "POD_TEMP_BM2_0053",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019317",
+      "best_score": 0.545,
+      "final_pod": "POD_TEMP_BM2_0054",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano_raw": "2022",
+      "best_pod": "POD018359",
+      "best_score": 0.713,
+      "final_pod": "POD_TEMP_BM2_0055",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Vosne-Romanée 1er Cru Malconsorts",
+      "ano_raw": "2022",
+      "best_pod": "POD015155",
+      "best_score": 0.6009,
+      "final_pod": "POD_TEMP_BM2_0056",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Louis Jadot",
+      "item": "Bonnes-Mares (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD017011",
+      "best_score": 0.7531,
+      "final_pod": "POD017011",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Louis Jadot",
+      "item": "Échezeaux (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD017018",
+      "best_score": 0.7119,
+      "final_pod": "POD017018",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Lucien Muzard",
+      "item": "Santenay ‘Maladière’",
+      "ano_raw": "2023",
+      "best_pod": "POD019372",
+      "best_score": 0.67,
+      "final_pod": "POD_TEMP_BM2_0057",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Michel Lafarge",
+      "item": "Bourgogne",
+      "ano_raw": "2022",
+      "best_pod": "POD_TEMP_1021",
+      "best_score": 0.6494,
+      "final_pod": "POD_TEMP_BM2_0058",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Michel Noëllat",
+      "item": "Clos de Vougeot",
+      "ano_raw": "2015",
+      "best_pod": "POD012269",
+      "best_score": 0.62,
+      "final_pod": "POD_TEMP_BM2_0059",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Clos de Vougeot (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019369",
+      "best_score": 0.688,
+      "final_pod": "POD019369",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Nuits-Saint-Georges",
+      "ano_raw": "2023",
+      "best_pod": "POD019214",
+      "best_score": 0.7187,
+      "final_pod": "POD019214",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Vosne-Romanée 1er Cru Les Chaumes",
+      "ano_raw": "2023",
+      "best_pod": "POD019223",
+      "best_score": 0.6267,
+      "final_pod": "POD_TEMP_BM2_0060",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pierre Damoy",
+      "item": "Chambertin Clos de Bèze (Grand Cru)",
+      "ano_raw": "2018",
+      "best_pod": "POD010029",
+      "best_score": 0.575,
+      "final_pod": "POD_TEMP_BM2_0061",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Volnay 1er Cru Pitures",
+      "ano_raw": "2023",
+      "best_pod": "POD019409",
+      "best_score": 0.6867,
+      "final_pod": "POD_TEMP_BM2_0062",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Chambertin (Grand Cru)",
+      "ano_raw": "2022",
+      "best_pod": "POD017733",
+      "best_score": 0.732,
+      "final_pod": "POD017733",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano_raw": "2021",
+      "best_pod": "POD017727",
+      "best_score": 0.7143,
+      "final_pod": "POD_TEMP_BM2_0063",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Vin de France",
+      "ano_raw": "2022",
+      "best_pod": "POD017727",
+      "best_score": 0.7132,
+      "final_pod": "POD_TEMP_BM2_0064",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Vosne-Romanée",
+      "ano_raw": "2020",
+      "best_pod": "POD010092",
+      "best_score": 0.71,
+      "final_pod": "POD010092",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "de Eugénie",
+      "item": "Clos de Vougeot (Grand Cru)",
+      "ano_raw": "2021",
+      "best_pod": "POD016345",
+      "best_score": 0.6951,
+      "final_pod": "POD016345",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Baulet",
+      "ano_raw": "2022",
+      "best_pod": "POD017472",
+      "best_score": 0.6568,
+      "final_pod": "POD017472",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Sorbè",
+      "ano_raw": "2022",
+      "best_pod": "POD017473",
+      "best_score": 0.69,
+      "final_pod": "POD017473",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano_raw": "2022",
+      "best_pod": "POD012539",
+      "best_score": 0.6948,
+      "final_pod": "POD_TEMP_BM2_0065",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano_raw": "2023",
+      "best_pod": "POD012539",
+      "best_score": 0.6248,
+      "final_pod": "POD_TEMP_BM2_0066",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Échezeaux (Grand Cru)",
+      "ano_raw": "2023",
+      "best_pod": "POD019308",
+      "best_score": 0.6495,
+      "final_pod": "POD_TEMP_BM2_0067",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Crissante",
+      "item": "Barolo (La Morra)",
+      "ano_raw": "2021",
+      "best_pod": "POD018184",
+      "best_score": 0.6975,
+      "final_pod": "POD018184",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana",
+      "ano_raw": "2022",
+      "best_pod": "POD017654",
+      "best_score": 0.7233,
+      "final_pod": "POD017654",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Moganazzi",
+      "ano_raw": "2022",
+      "best_pod": "POD017657",
+      "best_score": 0.6577,
+      "final_pod": "POD017657",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Borgogno",
+      "item": "Langhe Nebbiolo ‘Rivata’",
+      "ano_raw": "2023",
+      "best_pod": "POD018873",
+      "best_score": 0.6023,
+      "final_pod": "POD_TEMP_BM2_0068",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Falletto",
+      "item": "Barbaresco ‘Rabajà’",
+      "ano_raw": "2020",
+      "best_pod": "POD012564",
+      "best_score": 0.5028,
+      "final_pod": "POD_TEMP_BM2_0069",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "G.D. Vajra",
+      "item": "Arulej ‘Controcorrente’",
+      "ano_raw": "2023",
+      "best_pod": "POD014184",
+      "best_score": 0.5036,
+      "final_pod": "POD_TEMP_BM2_0070",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Podere San Giuseppe (Bacia)",
+      "item": "Brunello di Montalcino",
+      "ano_raw": "2019",
+      "best_pod": "POD013366",
+      "best_score": 0.5255,
+      "final_pod": "POD_TEMP_BM2_0071",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Caciorgna",
+      "item": "Etna Rosso ‘Ciauria’",
+      "ano_raw": "2024",
+      "best_pod": "POD012581",
+      "best_score": 0.6517,
+      "final_pod": "POD012581",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Cascina delle Rose",
+      "item": "Barbera d’Alba ‘Donna Elena’",
+      "ano_raw": "2022",
+      "best_pod": "POD018409",
+      "best_score": 0.7173,
+      "final_pod": "POD018409",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Falletto",
+      "item": "Barbera d’Alba",
+      "ano_raw": "2022",
+      "best_pod": "POD011992",
+      "best_score": 0.52,
+      "final_pod": "POD_TEMP_BM2_0072",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Le Macchiole",
+      "item": "Bolgheri Rosso",
+      "ano_raw": "2022",
+      "best_pod": "POD_TEMP_1096",
+      "best_score": 0.6916,
+      "final_pod": "POD_TEMP_1096",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano_raw": "2019",
+      "best_pod": "POD009229",
+      "best_score": 0.635,
+      "final_pod": "POD_TEMP_BM2_0073",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano_raw": "2021",
+      "best_pod": "POD012491",
+      "best_score": 0.705,
+      "final_pod": "POD_TEMP_BM2_0074",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano_raw": "2022",
+      "best_pod": "POD012491",
+      "best_score": 0.635,
+      "final_pod": "POD_TEMP_BM2_0075",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Domaine Delaporte",
+      "item": "Sancerre ‘Silex’",
+      "ano_raw": "2022",
+      "best_pod": "POD017490",
+      "best_score": 0.5886,
+      "final_pod": "POD_TEMP_BM2_0076",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Châteauneuf-du-Pape",
+      "ano_raw": "2023",
+      "best_pod": "POD_TEMP_1093",
+      "best_score": 0.4664,
+      "final_pod": "POD_TEMP_BM2_0077",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Champin le Seigneur’",
+      "ano_raw": "2022",
+      "best_pod": "POD015909",
+      "best_score": 0.5026,
+      "final_pod": "POD_TEMP_BM2_0078",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Les Grandes Places’",
+      "ano_raw": "2022",
+      "best_pod": "POD019768",
+      "best_score": 0.4699,
+      "final_pod": "POD_TEMP_BM2_0079",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Antoine Sanzay",
+      "item": "Saumur-Champigny ‘Les Poyeux’",
+      "ano_raw": "2022",
+      "best_pod": "POD019764",
+      "best_score": 0.6768,
+      "final_pod": "POD019764",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château Rayas",
+      "item": "Châteauneuf-du-Pape",
+      "ano_raw": "2010",
+      "best_pod": "POD009898",
+      "best_score": 0.7725,
+      "final_pod": "POD009898",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château des Tours",
+      "item": "Vin de Pays de Vaucluse",
+      "ano_raw": "2019",
+      "best_pod": "POD011715",
+      "best_score": 0.7097,
+      "final_pod": "POD011715",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château des Tours",
+      "item": "Vin de Pays de Vaucluse",
+      "ano_raw": "2020",
+      "best_pod": "POD016430",
+      "best_score": 0.6583,
+      "final_pod": "POD016430",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Henri Bonneau",
+      "item": "Châteauneuf-du-Pape ‘Cuvée Marie Beurrier’",
+      "ano_raw": "2016",
+      "best_pod": "POD016703",
+      "best_score": 0.6884,
+      "final_pod": "POD016703",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Châteauneuf-du-Pape ‘Barbe Rac’",
+      "ano_raw": "2008",
+      "best_pod": "POD011828",
+      "best_score": 0.6742,
+      "final_pod": "POD011828",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Côte-Rôtie ‘Vieilles Vignes’",
+      "ano_raw": "2022",
+      "best_pod": "POD017826",
+      "best_score": 0.6976,
+      "final_pod": "POD017826",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Fuissé",
+      "item": "Blanc",
+      "ano_raw": "2020",
+      "best_pod": "POD010654",
+      "best_score": 0.494,
+      "final_pod": "POD_TEMP_BM2_0080",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Brand et Fils",
+      "item": "L’Oeillet (Le Litre)",
+      "ano_raw": "—",
+      "best_pod": "POD004085",
+      "best_score": 0.48,
+      "final_pod": "POD_TEMP_BM2_0081",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Caciorgna",
+      "item": "Guardoilvento",
+      "ano_raw": "2022",
+      "best_pod": "POD012580",
+      "best_score": 0.5138,
+      "final_pod": "POD_TEMP_BM2_0082",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Smith Haut Lafitte",
+      "item": "Blanc",
+      "ano_raw": "2022",
+      "best_pod": "POD017981",
+      "best_score": 0.5698,
+      "final_pod": "POD_TEMP_BM2_0083",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Fides (Crimorgat)",
+      "item": "Blanc",
+      "ano_raw": "2018",
+      "best_pod": "POD010021",
+      "best_score": 0.4241,
+      "final_pod": "POD_TEMP_BM2_0084",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Filippi",
+      "item": "Foglio 1",
+      "ano_raw": "2023",
+      "best_pod": "POD019795",
+      "best_score": 0.5352,
+      "final_pod": "POD_TEMP_BM2_0085",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Guicciardini Strozzi",
+      "item": "Hermitage Blanc",
+      "ano_raw": "2017",
+      "best_pod": "POD011185",
+      "best_score": 0.2986,
+      "final_pod": "POD_TEMP_BM2_0086",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "La Croisée des Chenins",
+      "item": "Blanc",
+      "ano_raw": "2017",
+      "best_pod": "POD015096",
+      "best_score": 0.385,
+      "final_pod": "POD_TEMP_BM2_0087",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "T. Di Paolo",
+      "item": "Fiano di Avellino ‘Campore Riserva’",
+      "ano_raw": "2019",
+      "best_pod": "POD018439",
+      "best_score": 0.467,
+      "final_pod": "POD_TEMP_BM2_0088",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Taittinger",
+      "item": "Hermitage Blanc",
+      "ano_raw": "2022",
+      "best_pod": "POD_TEMP_1010",
+      "best_score": 0.5123,
+      "final_pod": "POD_TEMP_BM2_0089",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "COS",
+      "item": "Pithos Bianco",
+      "ano_raw": "2023",
+      "best_pod": "POD019652",
+      "best_score": 0.6798,
+      "final_pod": "POD019652",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Fuissé",
+      "item": "Tête de Cuvée",
+      "ano_raw": "2022",
+      "best_pod": "POD013339",
+      "best_score": 0.69,
+      "final_pod": "POD013339",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Marchesi di Barolo",
+      "item": "Roero Arneis",
+      "ano_raw": "2023",
+      "best_pod": "POD019793",
+      "best_score": 0.6791,
+      "final_pod": "POD019793",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana (Blanc)",
+      "ano_raw": "2023",
+      "best_pod": "POD018790",
+      "best_score": 0.6379,
+      "final_pod": "POD_TEMP_BM2_0090",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Trimbach",
+      "item": "Riesling",
+      "ano_raw": "2017",
+      "best_pod": "POD012872",
+      "best_score": 0.66,
+      "final_pod": "POD012872",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Besson Frères",
+      "item": "Pinot Noir",
+      "ano_raw": "2022",
+      "best_pod": "POD019206",
+      "best_score": 0.6224,
+      "final_pod": "POD_TEMP_BM2_0091",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Salem Wine Co.",
+      "item": "Chardonnay",
+      "ano_raw": "2021",
+      "best_pod": "POD016403",
+      "best_score": 0.5124,
+      "final_pod": "POD_TEMP_BM2_0092",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Ceritas",
+      "item": "Chardonnay – Sonoma County",
+      "ano_raw": "2022",
+      "best_pod": "POD018347",
+      "best_score": 0.5658,
+      "final_pod": "POD_TEMP_BM2_0093",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "La Source",
+      "item": "Chardonnay",
+      "ano_raw": "2023",
+      "best_pod": "POD019757",
+      "best_score": 0.4251,
+      "final_pod": "POD_TEMP_BM2_0094",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Seven Springs",
+      "item": "Chardonnay",
+      "ano_raw": "2022",
+      "best_pod": "POD013303",
+      "best_score": 0.4603,
+      "final_pod": "POD_TEMP_BM2_0095",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Seven Springs",
+      "item": "Pinot Noir",
+      "ano_raw": "2022",
+      "best_pod": "POD017478",
+      "best_score": 0.4855,
+      "final_pod": "POD_TEMP_BM2_0096",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Shafer",
+      "item": "TD-9 Cabernet Sauvignon – Napa Valley",
+      "ano_raw": "2021",
+      "best_pod": "POD017503",
+      "best_score": 0.4709,
+      "final_pod": "POD_TEMP_BM2_0097",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Testa dei Cherubini Grenache",
+      "ano_raw": "2024",
+      "best_pod": "POD018029",
+      "best_score": 0.4626,
+      "final_pod": "POD_TEMP_BM2_0098",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Spioenkop",
+      "item": "1900 – Pinotage",
+      "ano_raw": "2020",
+      "best_pod": "POD013053",
+      "best_score": 0.4107,
+      "final_pod": "POD_TEMP_BM2_0099",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Summum",
+      "item": "Chardonnay",
+      "ano_raw": "2022",
+      "best_pod": "POD017493",
+      "best_score": 0.0,
+      "final_pod": "POD_TEMP_BM2_0100",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Kongsgaard",
+      "item": "Syrah – Napa Valley",
+      "ano_raw": "2020",
+      "best_pod": "POD018349",
+      "best_score": 0.72,
+      "final_pod": "POD018349",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Kongsgaard",
+      "item": "Syrah – Napa Valley",
+      "ano_raw": "2022",
+      "best_pod": "POD018350",
+      "best_score": 0.72,
+      "final_pod": "POD018350",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2015",
+      "best_pod": "POD016544",
+      "best_score": 0.645,
+      "final_pod": "POD_TEMP_BM2_0101",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2016",
+      "best_pod": "POD017813",
+      "best_score": 0.645,
+      "final_pod": "POD_TEMP_BM2_0102",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2018",
+      "best_pod": "POD018702",
+      "best_score": 0.645,
+      "final_pod": "POD_TEMP_BM2_0103",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano_raw": "2019",
+      "best_pod": "POD018703",
+      "best_score": 0.645,
+      "final_pod": "POD_TEMP_BM2_0104",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "Bentrock – Sta. Rita Hills Chardonnay",
+      "ano_raw": "2019",
+      "best_pod": "POD016490",
+      "best_score": 0.7307,
+      "final_pod": "POD016490",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano_raw": "2019",
+      "best_pod": "POD016492",
+      "best_score": 0.6949,
+      "final_pod": "POD_TEMP_BM2_0105",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano_raw": "2020",
+      "best_pod": "POD016492",
+      "best_score": 0.6249,
+      "final_pod": "POD_TEMP_BM2_0106",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano_raw": "2022",
+      "best_pod": "POD016399",
+      "best_score": 0.7135,
+      "final_pod": "POD016399",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2011",
+      "best_pod": "POD015792",
+      "best_score": 0.6963,
+      "final_pod": "POD015792",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2012",
+      "best_pod": "POD015791",
+      "best_score": 0.6963,
+      "final_pod": "POD015791",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2013",
+      "best_pod": "POD015790",
+      "best_score": 0.6963,
+      "final_pod": "POD015790",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2019",
+      "best_pod": "POD015787",
+      "best_score": 0.7096,
+      "final_pod": "POD_TEMP_BM2_0107",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano_raw": "2021",
+      "best_pod": "POD015787",
+      "best_score": 0.7096,
+      "final_pod": "POD_TEMP_BM2_0108",
+      "final_kind": "temp_pod",
+      "reason": "best_pod_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Shannon",
+      "item": "Mount Bullet – South Africa",
+      "ano_raw": "2020",
+      "best_pod": "POD018201",
+      "best_score": 0.645,
+      "final_pod": "POD_TEMP_BM2_0109",
+      "final_kind": "temp_pod",
+      "reason": "low_score"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Syrah – California",
+      "ano_raw": "2013",
+      "best_pod": "POD016890",
+      "best_score": 0.6986,
+      "final_pod": "POD016890",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Touché Syrah",
+      "ano_raw": "2012",
+      "best_pod": "POD016887",
+      "best_score": 0.7777,
+      "final_pod": "POD016887",
+      "final_kind": "existing_pod",
+      "reason": "score_ok_no_conflict"
+    }
+  ],
+  "updated_entries_first_220": [
+    {
+      "pod": "POD015933",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 5 · A"
+    },
+    {
+      "pod": "POD017044",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · IZQ"
+    },
+    {
+      "pod": "POD017045",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0001",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 8 · CEN"
+    },
+    {
+      "pod": "POD017285",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD017294",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 5 · C"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0002",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0003",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0004",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0005",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0006",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 8 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0007",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0008",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0009",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0010",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 6 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0011",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · E"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0012",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · B"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0013",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0014",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0015",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 2 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0016",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD018720",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 7 · BALDA 6 · CEN",
+      "location_after": "CAVA 7 · BALDA 8 · IZQ"
+    },
+    {
+      "pod": "POD015938",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 1,
+      "location_before": "CAVA 7 · BALDA 8 · DER",
+      "location_after": "CAVA 7 · BALDA 8 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0017",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0018",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 5 · C"
+    },
+    {
+      "pod": "POD016878",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0019",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 7 · CEN"
+    },
+    {
+      "pod": "POD018431",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 8 · CEN"
+    },
+    {
+      "pod": "POD013291",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · DER"
+    },
+    {
+      "pod": "POD019657",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · CEN"
+    },
+    {
+      "pod": "POD017016",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 7 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0020",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0021",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 4 · DER / CAVA 8 · BALDA 5 · D"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0022",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · E"
+    },
+    {
+      "pod": "POD019251",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD019246",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · D"
+    },
+    {
+      "pod": "POD019290",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 5,
+      "location_before": "CAVA 8 · BALDA 3 · IZQ",
+      "location_after": "CAVA 8 · BALDA 2 · IZQ / CAVA 8 · BALDA 5 · A"
+    },
+    {
+      "pod": "POD012519",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0023",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 1 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0024",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0025",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0026",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · E"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0027",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD019351",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "CAVA 8 · BALDA 3 · CEN",
+      "location_after": "CAVA 8 · BALDA 8 · IZQ"
+    },
+    {
+      "pod": "POD017406",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0028",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0029",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 4 · IZQ"
+    },
+    {
+      "pod": "POD019302",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0030",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0031",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0032",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0033",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0034",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0035",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 5 · E"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0036",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0037",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · A"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0038",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0039",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 6 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0040",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0041",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0042",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0043",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0044",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 0,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0045",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0046",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 7 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0047",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 6 · DER"
+    },
+    {
+      "pod": "POD017137",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · D"
+    },
+    {
+      "pod": "POD013307",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0048",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 5 · C"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0049",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · DER / CAVA 4 · BALDA 8 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0050",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD016852",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD019094",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD016853",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · DER"
+    },
+    {
+      "pod": "POD019095",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · IZQ"
+    },
+    {
+      "pod": "POD017159",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 5 · A"
+    },
+    {
+      "pod": "POD017786",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · C"
+    },
+    {
+      "pod": "POD017299",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0051",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0052",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 6 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0053",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0054",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · C / CAVA 5 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0055",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0056",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 8 · DER"
+    },
+    {
+      "pod": "POD017011",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "CAVA 8 · BALDA 5 · B",
+      "location_after": "CAVA 5 · BALDA 5 · A"
+    },
+    {
+      "pod": "POD017018",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · C"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0057",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0058",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0059",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1 · CEN"
+    },
+    {
+      "pod": "POD019369",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD019214",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0060",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 8 · DER / CAVA 5 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0061",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0062",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · IZQ"
+    },
+    {
+      "pod": "POD017733",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · B"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0063",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 4 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0064",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 7 · IZQ"
+    },
+    {
+      "pod": "POD010092",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD016345",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · IZQ"
+    },
+    {
+      "pod": "POD017472",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · IZQ / CAVA 4 · BALDA 5 · B"
+    },
+    {
+      "pod": "POD017473",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · IZQ / CAVA 4 · BALDA 5 · C"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0065",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0066",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0067",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD018184",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 4 · CEN"
+    },
+    {
+      "pod": "POD017654",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 8 · IZQ"
+    },
+    {
+      "pod": "POD017657",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 8 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0068",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 2 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0069",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0070",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 7 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0071",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 12 · BALDA 4 · IZQ"
+    },
+    {
+      "pod": "POD012581",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD018409",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0072",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_1096",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 8 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0073",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 11 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0074",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 11 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0075",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 11 · BALDA 4 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0076",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 3 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0077",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · C"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0078",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 5 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0079",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · A"
+    },
+    {
+      "pod": "POD019764",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 3 · IZQ"
+    },
+    {
+      "pod": "POD009898",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · E"
+    },
+    {
+      "pod": "POD011715",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 6 · BALDA 1 · CEN",
+      "location_after": "CAVA 6 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD016430",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD016703",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · B"
+    },
+    {
+      "pod": "POD011828",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 1,
+      "units_after": 3,
+      "location_before": "CAVA 6 · BALDA 5 · CEN",
+      "location_after": "CAVA 6 · BALDA 4 · D"
+    },
+    {
+      "pod": "POD017826",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 5 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0080",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · E"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0081",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 1 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0082",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 6 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0083",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · B"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0084",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 3 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0085",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0086",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 5 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0087",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 3 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0088",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 7 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0089",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 5 · IZQ"
+    },
+    {
+      "pod": "POD019652",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 2,
+      "location_before": "CAVA 10 · BALDA 7 · IZQ",
+      "location_after": "CAVA 10 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD013339",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · D"
+    },
+    {
+      "pod": "POD019793",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 7 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0090",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 6 · CEN"
+    },
+    {
+      "pod": "POD012872",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0091",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0092",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0093",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 1 · IZQ"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0094",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 4 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0095",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 1 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0096",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0097",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0098",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0099",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 1"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0100",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 1 · DER"
+    },
+    {
+      "pod": "POD018349",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 2 · BALDA 1"
+    },
+    {
+      "pod": "POD018350",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 2 · BALDA 1"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0101",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 3 · BALDA 1"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0102",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 3 · BALDA 4"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0103",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 3 · BALDA 1"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0104",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 3 · BALDA 1"
+    },
+    {
+      "pod": "POD016490",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 2 · CEN"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0105",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 3 · BALDA 2"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0106",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 3 · BALDA 2"
+    },
+    {
+      "pod": "POD016399",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 8 · BALDA 3 · DER",
+      "location_after": "CAVA 3 · BALDA 2"
+    },
+    {
+      "pod": "POD015792",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1"
+    },
+    {
+      "pod": "POD015791",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1"
+    },
+    {
+      "pod": "POD015790",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0107",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0108",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3"
+    },
+    {
+      "pod": "POD_TEMP_BM2_0109",
+      "kind": "temp_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 2 · IZQ"
+    },
+    {
+      "pod": "POD016890",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 1"
+    },
+    {
+      "pod": "POD016887",
+      "kind": "existing_pod",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "CAVA 6 · BALDA 4",
+      "location_after": "CAVA 7 · BALDA 1 · IZQ"
+    }
+  ]
+}

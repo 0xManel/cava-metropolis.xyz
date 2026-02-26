@@ -1,0 +1,129 @@
+{
+  "timestamp_utc": "2026-02-26T03:06:31.173785+00:00",
+  "mode": "apply",
+  "aliases_defined": 7,
+  "aliases_with_rows_found": 7,
+  "missing_alias_keys": [],
+  "updates": [
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault",
+      "ano_raw": "2019",
+      "target_pod": "POD013427",
+      "reason": "Correspondência manual por ano e descrição genérica de Meursault.",
+      "rows_count": 1,
+      "qty_add": 2,
+      "units_before": null,
+      "units_after": 2,
+      "locations_add": [
+        "CAVA 7 · BALDA 5 · E"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 5 · E"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Bruno Colin",
+      "item": "Chassagne-Montrachet 1er Cru La Maltroie",
+      "ano_raw": "2023",
+      "target_pod": "POD018783",
+      "reason": "Correspondência direta de produtor, cru e ano.",
+      "rows_count": 1,
+      "qty_add": 2,
+      "units_before": null,
+      "units_after": 2,
+      "locations_add": [
+        "CAVA 8 · BALDA 7 · IZQ"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 7 · IZQ"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet 1er Cru Les Combettes",
+      "ano_raw": "2022",
+      "target_pod": "POD012527",
+      "reason": "Correspondência direta de produtor, cru e ano.",
+      "rows_count": 1,
+      "qty_add": 2,
+      "units_before": null,
+      "units_after": 2,
+      "locations_add": [
+        "CAVA 8 · BALDA 6 · CEN"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 6 · CEN"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Comtes de Vogüé",
+      "item": "Chambolle-Musigny 1er Cru",
+      "ano_raw": "2022",
+      "target_pod": "POD017374",
+      "reason": "Item explícito 1er Cru, selecionado POD de Chambolle 1er Cru 2022.",
+      "rows_count": 1,
+      "qty_add": 2,
+      "units_before": null,
+      "units_after": 2,
+      "locations_add": [
+        "CAVA 4 · BALDA 3 · DER"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · DER"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château Rayas",
+      "item": "Châteauneuf-du-Pape",
+      "ano_raw": "2012",
+      "target_pod": "POD016920",
+      "reason": "Correspondência direta de produtor, appellation e ano.",
+      "rows_count": 1,
+      "qty_add": 1,
+      "units_before": null,
+      "units_after": 1,
+      "locations_add": [
+        "CAVA 6 · BALDA 4 · E"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · E"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Hermitage ‘De l’Orée’",
+      "ano_raw": "2022",
+      "target_pod": "POD017821",
+      "reason": "Correspondência direta com Ermitage L'Oree 2022.",
+      "rows_count": 2,
+      "qty_add": 2,
+      "units_before": null,
+      "units_after": 2,
+      "locations_add": [
+        "CAVA 10 · BALDA 4 · A",
+        "CAVA 10 · BALDA 5 · CEN"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · A / CAVA 10 · BALDA 5 · CEN"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "Sta. Rita Hills Cuvée Chardonnay",
+      "ano_raw": "2020",
+      "target_pod": "POD016398",
+      "reason": "Correspondência direta com Santa Rita Hills Chardonnay 2020.",
+      "rows_count": 1,
+      "qty_add": 6,
+      "units_before": null,
+      "units_after": 6,
+      "locations_add": [
+        "CAVA 8 · BALDA 3 · IZQ"
+      ],
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 3 · IZQ"
+    }
+  ]
+}

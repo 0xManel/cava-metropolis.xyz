@@ -1,0 +1,9 @@
+BODEGA -2 import summary
+- mode: apply
+- rows non tasca: 422
+- matched rows: 235
+- matched unique pods: 221
+- unmatched rows: 187
+- updates applied: 221
+
+Report JSON: /Users/0xmanel/cava-metropolis/reports/bodega_minus2_import_report.json

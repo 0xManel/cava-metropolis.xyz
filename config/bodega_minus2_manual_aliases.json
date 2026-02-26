@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "notes": "Mapeamentos validados manualmente para pendentes da BODEGA -2 (fora tasca fina).",
+  "aliases": [
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault",
+      "ano_raw": "2019",
+      "target_pod": "POD013427",
+      "reason": "Correspondência manual por ano e descrição genérica de Meursault."
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Bruno Colin",
+      "item": "Chassagne-Montrachet 1er Cru La Maltroie",
+      "ano_raw": "2023",
+      "target_pod": "POD018783",
+      "reason": "Correspondência direta de produtor, cru e ano."
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet 1er Cru Les Combettes",
+      "ano_raw": "2022",
+      "target_pod": "POD012527",
+      "reason": "Correspondência direta de produtor, cru e ano."
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Comtes de Vogüé",
+      "item": "Chambolle-Musigny 1er Cru",
+      "ano_raw": "2022",
+      "target_pod": "POD017374",
+      "reason": "Item explícito 1er Cru, selecionado POD de Chambolle 1er Cru 2022."
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château Rayas",
+      "item": "Châteauneuf-du-Pape",
+      "ano_raw": "2012",
+      "target_pod": "POD016920",
+      "reason": "Correspondência direta de produtor, appellation e ano."
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Hermitage ‘De l’Orée’",
+      "ano_raw": "2022",
+      "target_pod": "POD017821",
+      "reason": "Correspondência direta com Ermitage L'Oree 2022."
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "Sta. Rita Hills Cuvée Chardonnay",
+      "ano_raw": "2020",
+      "target_pod": "POD016398",
+      "reason": "Correspondência direta com Santa Rita Hills Chardonnay 2020."
+    }
+  ],
+  "excluded_for_manual_review": [
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano_raw": "2022",
+      "reason": "Sem correspondência inequívoca no catálogo atual. Manter em revisão manual."
+    }
+  ]
+}
