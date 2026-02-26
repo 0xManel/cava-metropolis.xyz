@@ -2197,6 +2197,67 @@
             return parts.join('-');
         }
 
+        function getVictoriaLocationLabels() {
+            const lang = normalizeLangCode(currentLang);
+            if (lang === 'en') {
+                return {
+                    cava: 'cellar',
+                    balda: 'shelf',
+                    side: 'side',
+                    line: 'line',
+                    sideMap: { IZQ: 'left', DER: 'right', CEN: 'center' }
+                };
+            }
+            if (lang === 'pt') {
+                return {
+                    cava: 'cava',
+                    balda: 'balda',
+                    side: 'lado',
+                    line: 'linha',
+                    sideMap: { IZQ: 'esquerda', DER: 'direita', CEN: 'centro' }
+                };
+            }
+            return {
+                cava: 'cava',
+                balda: 'balda',
+                side: 'lado',
+                line: 'línea',
+                sideMap: { IZQ: 'izquierda', DER: 'derecha', CEN: 'centro' }
+            };
+        }
+
+        function formatVictoriaLocationReadable(value) {
+            const parts = String(value || '').split('·').map((p) => p.trim()).filter(Boolean);
+            if (parts.length < 2) return null;
+
+            const cava = parts[0];
+            const balda = parts[1];
+            const door = parts[2] || null;
+            const line = parts[3] || null;
+            const labels = getVictoriaLocationLabels();
+
+            const compactBase = `${cava}-${balda}`;
+            const compactRaw = parts.join('-');
+            const detailParts = [`${labels.cava} ${cava}`, `${labels.balda} ${balda}`];
+
+            if (door) {
+                const mappedDoor = labels.sideMap[door] || door.toLowerCase();
+                detailParts.push(`${labels.side} ${mappedDoor}`);
+            }
+
+            if (line) {
+                const lineNumber = String(line).replace(/^L/i, '');
+                detailParts.push(`${labels.line} ${lineNumber}`);
+            }
+
+            return {
+                compact: compactBase,
+                compactRaw,
+                detail: detailParts.join(', '),
+                text: `${compactBase} (${detailParts.join(', ')})`
+            };
+        }
+
         function normalizeLocationValue(value, establishment = null) {
             const raw = value == null ? '' : String(value);
             if (raw.includes('/')) {
@@ -2268,20 +2329,21 @@
 
         function formatLocationForUi(establishment, value) {
             const normalized = normalizeLocationValue(value, establishment);
-            if (!normalized) return { compact: null, detail: null, text: null };
-            if (establishment !== 'victoria') return { compact: normalized, detail: null, text: normalized };
+            if (!normalized) return { compact: null, compactText: null, detail: null, text: null };
+            if (establishment !== 'victoria') return { compact: normalized, compactText: normalized, detail: null, text: normalized };
             const locations = String(normalized)
                 .split('/')
                 .map((segment) => segment.trim())
                 .filter(Boolean);
             const formatted = locations
-                .map((segment) => formatVictoriaLocationCompact(segment))
+                .map((segment) => formatVictoriaLocationReadable(segment))
                 .filter(Boolean);
-            if (!formatted.length) return { compact: normalized, detail: null, text: normalized };
+            if (!formatted.length) return { compact: normalized, compactText: normalized, detail: null, text: normalized };
             return {
-                compact: formatted[0],
-                detail: null,
-                text: formatted.join(' / ')
+                compact: formatted[0]?.compact || null,
+                compactText: formatted.map((item) => item.compactRaw).join(' / '),
+                detail: formatted[0]?.detail || null,
+                text: formatted.map((item) => item.text).join(' / ')
             };
         }
 
@@ -2394,7 +2456,7 @@
                 input.addEventListener('blur', () => {
                     const normalized = normalizeLocationValue(input.value, establishment) || '';
                     if (establishment === 'victoria' && normalized) {
-                        input.value = formatLocationForUi('victoria', normalized).text || '';
+                        input.value = formatLocationForUi('victoria', normalized).compactText || normalized;
                     } else {
                         input.value = normalized;
                     }
@@ -4466,7 +4528,7 @@
                 if (locInput) {
                     const normalizedLoc = normalizeLocationValue(est.localizacion, k) || '';
                     locInput.value = (k === 'victoria' && normalizedLoc)
-                        ? (formatLocationForUi('victoria', normalizedLoc).text || '')
+                        ? (formatLocationForUi('victoria', normalizedLoc).compactText || normalizedLoc)
                         : normalizedLoc;
                     locInput.disabled = !canEditScope;
                 }
