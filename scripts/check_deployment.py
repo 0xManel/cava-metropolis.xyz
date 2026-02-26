@@ -4,6 +4,8 @@ Script de verificación pre-deployment para Vercel
 """
 import os
 import json
+import subprocess
+import sys
 
 def check_file(filepath, required=True):
     """Verifica si un archivo existe"""
@@ -107,6 +109,20 @@ def verify_deployment():
     except Exception as e:
         print(f"   ❌ Error al verificar manifest: {e}")
         all_good = False
+
+    # Guard de integridad de datos de usuarios
+    print("\n🔒 Integridad de datos de usuarios:")
+    guard_cmd = [sys.executable, "scripts/check_user_data_integrity.py"]
+    guard = subprocess.run(guard_cmd, capture_output=True, text=True)
+    if guard.stdout:
+        print(guard.stdout.rstrip())
+    if guard.stderr:
+        print(guard.stderr.rstrip())
+    if guard.returncode != 0:
+        print("❌ Falló la validación de integridad de datos de usuarios")
+        all_good = False
+    else:
+        print("✅ Validación de integridad de datos de usuarios OK")
     
     # Resultado final
     print("\n" + "="*60)
