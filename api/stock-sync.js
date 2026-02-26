@@ -268,8 +268,8 @@ function normalizeLocationValue(value) {
 
   const directCompact = normalized.match(/^(\d{1,2})\s+(\d{1,2})(?:\s+(IZQ|DER|CEN|EXP|JAM))?$/);
   if (directCompact) {
-    const pos = directCompact[3] ? ` · ${directCompact[3]}` : '';
-    return `${directCompact[1]} · ${directCompact[2]}${pos}`;
+    const pos = directCompact[3] ? `·${directCompact[3]}` : '';
+    return `${directCompact[1]}·${directCompact[2]}${pos}`;
   }
 
   const cavaMatch = normalized.match(/\bCAVA\s*[-:]?\s*(\d{1,2})\b/);
@@ -285,7 +285,7 @@ function normalizeLocationValue(value) {
   const cavaNum = cavaMatch?.[1] || null;
   const baldaNum = baldaMatch?.[1] || null;
   if (cavaNum && baldaNum) {
-    return `${cavaNum} · ${baldaNum}${pos ? ` · ${pos}` : ''}`;
+    return `${cavaNum}·${baldaNum}${pos ? `·${pos}` : ''}`;
   }
 
   return normalized;
