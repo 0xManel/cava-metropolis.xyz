@@ -637,6 +637,8 @@
             font-size: 1rem;
             color: var(--text-main);
             font-weight: 600;
+            overflow-wrap: anywhere;
+            word-break: break-word;
         }
 
         /* Terroir section (Clima & Suelo) */
@@ -681,6 +683,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 1.2rem;
+            table-layout: fixed;
         }
 
         .est-table th {
@@ -700,6 +703,10 @@
             padding: 0.5rem 0.32rem;
             text-align: center;
             border-bottom: 1px solid rgba(212, 175, 55, 0.08);
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            line-height: 1.2;
         }
 
         .est-table .row-label {
@@ -720,7 +727,7 @@
         .est-table .loc-cell {
             font-family: 'Montserrat', monospace;
             font-weight: 700;
-            letter-spacing: 1px;
+            letter-spacing: 0.04em;
             font-size: 0.9rem;
         }
 
@@ -732,7 +739,10 @@
 
         .est-mobile-item {
             display: grid;
-            grid-template-columns: minmax(80px, 0.9fr) repeat(3, minmax(0, 1fr));
+            grid-template-columns: minmax(82px, 0.92fr) repeat(2, minmax(0, 1fr));
+            grid-template-areas:
+                "name pvp stock"
+                "name loc loc";
             gap: 0.36rem;
             align-items: stretch;
             border: 1px solid rgba(212, 175, 55, 0.12);
@@ -742,6 +752,7 @@
         }
 
         .est-mobile-name {
+            grid-area: name;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -768,8 +779,12 @@
             align-items: center;
             justify-content: center;
             min-width: 0;
-            min-height: 48px;
+            min-height: 46px;
         }
+
+        .est-mobile-field--pvp { grid-area: pvp; }
+        .est-mobile-field--stock { grid-area: stock; }
+        .est-mobile-field--location { grid-area: loc; }
 
         .est-mobile-field-label {
             font-size: 0.56rem;
@@ -786,8 +801,9 @@
             font-weight: 700;
             line-height: 1.2;
             white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            overflow: visible;
+            text-overflow: clip;
+            text-align: center;
             max-width: 100%;
         }
 
@@ -799,7 +815,12 @@
 
         .est-mobile-field-value.is-location {
             font-family: 'Montserrat', monospace;
-            letter-spacing: 0.06em;
+            letter-spacing: 0.03em;
+            line-height: 1.14;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            font-size: 0.72rem;
         }
 
         /* --- THEME TOGGLE --- */
@@ -1409,7 +1430,7 @@
             }
 
             .est-mobile-item {
-                grid-template-columns: minmax(72px, 0.88fr) repeat(3, minmax(0, 1fr));
+                grid-template-columns: minmax(72px, 0.88fr) repeat(2, minmax(0, 1fr));
                 gap: 0.3rem;
                 padding: 0.36rem;
             }
@@ -3144,24 +3165,24 @@
             { re: /calido|calor/, text: 'madurez franca y boca amplia' }
         ];
 
-        const SOIL_TERMS = [
-            { re: /albariza/, text: 'albariza' },
-            { re: /llicorella|pizarra|xisto|esquisto|schist/, text: 'pizarra' },
-            { re: /caliza|chalk|creta|albarese/, text: 'caliza' },
-            { re: /marga|ponca/, text: 'marga' },
-            { re: /granit|gneis|porfido/, text: 'granito' },
-            { re: /volcan|basalto|lapilli|pic[oó]n|tufo/, text: 'volcánico' },
-            { re: /arcill|terra rossa|arcillo/, text: 'arcilla' },
-            { re: /grava|galets|canto(s)? rodad|aluvial|cascajo/, text: 'gravas y aluvial' },
-            { re: /arena|arenisc|arenoso/, text: 'arenas' },
-            { re: /sil(e|é)x|quartz|cuarzo/, text: 'sílex y cuarzo' }
+        const SOIL_IMPACT_TERMS = [
+            { re: /albariza/, text: 'salinidad fina, tacto seco y final muy limpio' },
+            { re: /llicorella|pizarra|xisto|esquisto|schist/, text: 'perfil tenso, fruta más precisa y final mineral' },
+            { re: /caliza|chalk|creta|albarese/, text: 'acidez vertical, boca nítida y gran sensación de frescura' },
+            { re: /marga|ponca/, text: 'textura cremosa y paso de boca más envolvente' },
+            { re: /granit|gneis|porfido/, text: 'nariz más definida y paladar lineal, elegante' },
+            { re: /volcan|basalto|lapilli|pic[oó]n|tufo/, text: 'trazo ahumado, profundidad y final largo' },
+            { re: /arcill|terra rossa|arcillo/, text: 'más volumen en boca, tanino amable y fruta madura' },
+            { re: /grava|galets|canto(s)? rodad|aluvial|cascajo/, text: 'madurez franca, centro de boca amplio y final limpio' },
+            { re: /arena|arenisc|arenoso/, text: 'tanino más fino y paso ágil' },
+            { re: /sil(e|é)x|quartz|cuarzo/, text: 'nota pedregosa sutil y final salino' }
         ];
 
         const SOIL_TRAITS = [
-            { re: /drenaj|pobre|baja fertilidad|pendiente/, text: 'drenaje alto y raíz profunda' },
-            { re: /retencion|retenci[oó]n h(i|í)drica/, text: 'reserva hídrica equilibrada' },
-            { re: /mineral|ferroso|salin/, text: 'trazo mineral en boca' },
-            { re: /tanino|estructura|volumen/, text: 'estructura firme y final largo' }
+            { re: /drenaj|pobre|baja fertilidad|pendiente/, text: 'da concentración y mayor longitud en el final' },
+            { re: /retencion|retenci[oó]n h(i|í)drica/, text: 'favorece madurez regular y equilibrio de boca' },
+            { re: /mineral|ferroso|salin/, text: 'refuerza tensión, salinidad y carácter gastronómico' },
+            { re: /tanino|estructura|volumen/, text: 'sostiene estructura y buena evolución en botella' }
         ];
 
         function uniquePush(list, value, maxItems) {
@@ -3198,20 +3219,20 @@
         function summarizeSoilText(rawText) {
             if (!rawText || rawText === '—') return '';
             const normalized = normalizeToken(rawText);
-            const soils = [];
-            SOIL_TERMS.forEach((item) => {
-                if (item.re.test(normalized)) uniquePush(soils, item.text, 3);
+            const impacts = [];
+            SOIL_IMPACT_TERMS.forEach((item) => {
+                if (item.re.test(normalized)) uniquePush(impacts, item.text, 2);
             });
             const traits = [];
             SOIL_TRAITS.forEach((item) => {
                 if (item.re.test(normalized)) uniquePush(traits, item.text, 1);
             });
 
-            const soilPhrase = soils.length ? soils.join(', ') : '';
-            if (soilPhrase && traits.length) return trimSentence(`${soilPhrase}; ${traits[0]}`);
-            if (soilPhrase) return trimSentence(soilPhrase);
+            if (impacts.length && traits.length) return trimSentence(`${impacts[0]}, ${traits[0]}`);
+            if (impacts.length > 1) return trimSentence(`${impacts[0]} y ${impacts[1]}`);
+            if (impacts.length) return trimSentence(impacts[0]);
             if (traits.length) return trimSentence(traits[0]);
-            return trimSentence(rawText);
+            return trimSentence('textura definida, acidez integrada y final limpio');
         }
 
         function buildTerroirBlock(kind, baseText, grapeName, grapeText) {
@@ -3478,15 +3499,15 @@
                 mobileGrid.innerHTML = estRows.map((row) => `
                     <div class="est-mobile-item">
                         <div class="est-mobile-name">${escapeHtml(EST_MOBILE_LABELS[row.key] || EST_LABELS[row.key] || row.key)}</div>
-                        <div class="est-mobile-field">
+                        <div class="est-mobile-field est-mobile-field--pvp">
                             <span class="est-mobile-field-label">${escapeHtml(pvpLabel)}</span>
                             <span class="est-mobile-field-value is-price">${escapeHtml(row.pvp)}</span>
                         </div>
-                        <div class="est-mobile-field">
+                        <div class="est-mobile-field est-mobile-field--stock">
                             <span class="est-mobile-field-label">${escapeHtml(stockLabel)}</span>
                             <span class="est-mobile-field-value">${escapeHtml(row.stock)}</span>
                         </div>
-                        <div class="est-mobile-field">
+                        <div class="est-mobile-field est-mobile-field--location">
                             <span class="est-mobile-field-label">${escapeHtml(locationLabel)}</span>
                             <span class="est-mobile-field-value is-location">${escapeHtml(row.location)}</span>
                         </div>
