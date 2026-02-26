@@ -460,6 +460,27 @@
             animation: adminRiseFromBottom var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
         }
 
+        .admin-wrap,
+        .scope-btn,
+        .report-action-btn,
+        .copy-btn,
+        .btn-admin,
+        #logoutBtn,
+        #backBtn,
+        .session-user-card {
+            will-change: transform, opacity;
+        }
+
+        .action-btn:focus-visible,
+        .scope-btn:focus-visible,
+        .report-action-btn:focus-visible,
+        .copy-btn:focus-visible,
+        .btn-admin:focus-visible {
+            outline: none;
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), 0 0 16px rgba(212, 175, 55, 0.2);
+        }
+
         .app-signature {
             position: fixed;
             left: 50%;
@@ -481,7 +502,7 @@
 
         .session-user-card {
             position: fixed;
-            top: max(10px, env(safe-area-inset-top));
+            top: 20px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 11;
@@ -508,6 +529,13 @@
         }
 
         @media (prefers-reduced-motion: reduce) {
+            .scope-btn,
+            .report-action-btn,
+            .copy-btn,
+            .btn-admin,
+            .action-btn {
+                transition: none !important;
+            }
             #logoutBtn,
             #backBtn,
             .scope-btn,
@@ -524,7 +552,7 @@
             .report-footer { flex-wrap: nowrap; }
             .top-left-actions { top: 15px; left: 15px; }
             .top-actions { top: 15px; right: 15px; }
-            .session-user-card { top: max(8px, env(safe-area-inset-top)); }
+            .session-user-card { top: 15px; }
             .scope-btn,
             .copy-btn,
             .report-action-btn {

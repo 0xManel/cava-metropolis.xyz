@@ -123,6 +123,15 @@
         header { animation: fadeSlideUp 0.8s ease-out both; }
         .search-container { animation: fadeSlideUp 0.8s ease-out 0.15s both; }
         .theme-toggle { animation: fadeSlideUp 0.5s ease-out 0.3s both; }
+        header,
+        .search-container,
+        .theme-toggle,
+        .lang-container,
+        .admin-btn,
+        .logout-btn,
+        .session-user-card {
+            will-change: transform, opacity;
+        }
 
         /* --- GOLDEN PARTICLES (CANVAS) --- */
         #particleCanvas {
@@ -356,7 +365,7 @@
             border: 1px solid var(--glass-border);
             border-radius: 12px;
             cursor: pointer;
-            transition: transform 0.15s ease, background 0.2s ease;
+            transition: transform 0.18s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
         .search-item:first-child { margin-top: 2mm; }
 
@@ -364,6 +373,8 @@
             .search-item:hover {
                 background: rgba(212, 175, 55, 0.12);
                 border-color: var(--gold-accent);
+                box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+                transform: translateY(-1px);
             }
         }
         .search-item:active {
@@ -786,7 +797,7 @@
 
         .session-user-card {
             position: fixed;
-            top: max(10px, env(safe-area-inset-top));
+            top: 20px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 110;
@@ -897,7 +908,37 @@
         }
         .lang-option:hover { background: rgba(212, 175, 55, 0.1); }
 
+        .theme-toggle:focus-visible,
+        .lang-btn:focus-visible,
+        .logout-btn:focus-visible,
+        .admin-btn:focus-visible,
+        .sort-toggle:focus-visible,
+        .filter-pill:focus-visible,
+        .btn-edit:focus-visible,
+        .btn-consume:focus-visible,
+        .btn-save:focus-visible,
+        .btn-cancel:focus-visible,
+        .btn-close:focus-visible {
+            outline: none;
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+
         @media (prefers-reduced-motion: reduce) {
+            .search-item,
+            .theme-toggle,
+            .lang-btn,
+            .logout-btn,
+            .admin-btn,
+            .btn-edit,
+            .btn-consume,
+            .btn-save,
+            .btn-cancel,
+            .btn-close,
+            .modal-overlay,
+            .modal-card {
+                transition: none !important;
+            }
             .theme-toggle,
             .lang-container,
             .admin-btn,
@@ -1142,7 +1183,7 @@
             body { padding-top: 18dvh; }
             .top-left-actions { top: 15px; left: 15px; gap: 7px; }
             .top-actions { top: 15px; right: 15px; gap: 7px; }
-            .session-user-card { top: max(8px, env(safe-area-inset-top)); }
+            .session-user-card { top: 15px; }
             .filter-restaurant-row {
                 gap: 0.22rem;
             }
