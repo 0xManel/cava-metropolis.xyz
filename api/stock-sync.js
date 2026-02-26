@@ -1,8 +1,12 @@
+const fs = require('fs');
+const path = require('path');
+
 const STATE_KEY = 'cava:stock:sync:v1';
 const STATE_BACKUP_KEY = 'cava:stock:sync:backup:latest:v1';
 const APPLIED_IDS_LIMIT = 5000;
 const MAX_MUTATIONS_PER_REQUEST = 500;
 const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
+const LOCATION_NULL_CLEANUP_CUTOFF = Date.parse('2026-02-26T04:36:00.000Z');
 
 const {
   getSessionFromRequest,
@@ -33,6 +37,36 @@ const SPA_RESET_TARGET = {
 
 if (!globalThis.__cavaSyncMemoryState) {
   globalThis.__cavaSyncMemoryState = { ...fallbackState };
+}
+
+let podsWithCatalogLocationCache = null;
+
+function loadPodsWithCatalogLocation() {
+  if (podsWithCatalogLocationCache) return podsWithCatalogLocationCache;
+  const pods = new Set();
+  try {
+    const catalogPath = path.join(process.cwd(), 'data', 'bodega_webapp.json');
+    const raw = fs.readFileSync(catalogPath, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      parsed.forEach((ref) => {
+        const pod = typeof ref?.pod === 'string' ? ref.pod.trim() : '';
+        if (!pod) return;
+        const est = isPlainObject(ref?.establecimientos) ? ref.establecimientos : null;
+        if (!est) return;
+        const hasLocation = Object.values(est).some((entry) => {
+          if (!isPlainObject(entry)) return false;
+          return normalizeLocationValue(entry.localizacion) != null;
+        });
+        if (hasLocation) pods.add(pod);
+      });
+    }
+  } catch {
+    podsWithCatalogLocationCache = new Set();
+    return podsWithCatalogLocationCache;
+  }
+  podsWithCatalogLocationCache = pods;
+  return podsWithCatalogLocationCache;
 }
 
 function sanitizeEdits(value) {
@@ -247,6 +281,28 @@ function normalizeLocationEditsInState(state) {
   return changed;
 }
 
+function cleanupLegacyNullLocationEdits(state) {
+  if (!isPlainObject(state) || !Array.isArray(state.edits)) return false;
+  const podsWithCatalogLocation = loadPodsWithCatalogLocation();
+  if (!podsWithCatalogLocation.size) return false;
+
+  let changed = false;
+  state.edits = state.edits.filter((edit) => {
+    if (!isPlainObject(edit)) return false;
+    if (!String(edit.path || '').endsWith('.localizacion')) return true;
+    if (!podsWithCatalogLocation.has(String(edit.pod || ''))) return true;
+    if (normalizeLocationValue(edit.value) != null) return true;
+
+    const updatedAtMs = Date.parse(String(edit.updatedAt || ''));
+    if (!Number.isFinite(updatedAtMs) || updatedAtMs < LOCATION_NULL_CLEANUP_CUTOFF) {
+      changed = true;
+      return false;
+    }
+    return true;
+  });
+  return changed;
+}
+
 function sanitizeMovementEntry(payload, user) {
   if (!isPlainObject(payload)) return null;
   const establishment = normalizeScope(payload.establishment);
@@ -434,11 +490,12 @@ module.exports = async (req, res) => {
   const previousStateSnapshot = sanitizeState(state);
   const migrationApplied = applyOneOffSpaReset(state);
   const locationNormalizationApplied = normalizeLocationEditsInState(state);
+  const legacyLocationCleanupApplied = cleanupLegacyNullLocationEdits(state);
 
   const appliedIds = new Set(state.appliedMutationIds);
   const acknowledgedMutationIds = [];
   const rejectedMutationIds = [];
-  let changed = migrationApplied || locationNormalizationApplied;
+  let changed = migrationApplied || locationNormalizationApplied || legacyLocationCleanupApplied;
 
   incomingMutations.forEach((mutation) => {
     if (!isPlainObject(mutation) || typeof mutation.type !== 'string') return;
