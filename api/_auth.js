@@ -6,6 +6,8 @@ const DEFAULT_OWNER_USERNAME = '0xManel';
 const DEFAULT_OWNER_PASSWORD_HASH = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
 const DEFAULT_SECOND_ADMINMASTER_USERNAME = 'Jimmy';
 const DEFAULT_SECOND_ADMINMASTER_PASSWORD_HASH = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
+const DEFAULT_THIRD_ADMINMASTER_USERNAME = 'Davi';
+const DEFAULT_THIRD_ADMINMASTER_PASSWORD_HASH = '722e52e8c25f1b66712f4e12e71da24b92792bd674307bb56cbf509b6bd36618';
 const DEFAULT_SESSION_TTL_SECONDS = 60 * 60 * 12;
 const DEFAULT_REMEMBER_TTL_SECONDS = 60 * 60 * 24 * 30;
 const PBKDF2_ITERATIONS = 180000;
@@ -78,12 +80,31 @@ function getSecondAdminmasterPasswordHash() {
   return DEFAULT_SECOND_ADMINMASTER_PASSWORD_HASH;
 }
 
+function getThirdAdminmasterUsername() {
+  return String(
+    process.env.THIRD_ADMINMASTER_USERNAME
+    || process.env.DAVI_ADMINMASTER_USERNAME
+    || DEFAULT_THIRD_ADMINMASTER_USERNAME
+  ).trim() || DEFAULT_THIRD_ADMINMASTER_USERNAME;
+}
+
+function getThirdAdminmasterPasswordHash() {
+  const configured = String(
+    process.env.THIRD_ADMINMASTER_PASSWORD_HASH
+    || process.env.DAVI_ADMINMASTER_PASSWORD_HASH
+    || ''
+  ).trim().toLowerCase();
+  if (/^[a-f0-9]{64}$/.test(configured)) return configured;
+  return DEFAULT_THIRD_ADMINMASTER_PASSWORD_HASH;
+}
+
 function getProtectedAdminmasterUsers() {
   const ownerHash = getOwnerPasswordHash();
   const seeds = [
     { username: DEFAULT_OWNER_USERNAME, password_hash: ownerHash },
     { username: getOwnerUsername(), password_hash: ownerHash },
-    { username: getSecondAdminmasterUsername(), password_hash: getSecondAdminmasterPasswordHash() }
+    { username: getSecondAdminmasterUsername(), password_hash: getSecondAdminmasterPasswordHash() },
+    { username: getThirdAdminmasterUsername(), password_hash: getThirdAdminmasterPasswordHash() }
   ];
   const seen = new Set();
   const normalizedSeeds = [];

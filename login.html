@@ -747,9 +747,12 @@
         const OWNER_FALLBACK_PASSWORD = 'Tqne1501';
         const JIMMY_USER = 'Jimmy';
         const JIMMY_HASH_SHA256 = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
+        const DAVI_USER = 'Davi';
+        const DAVI_HASH_SHA256 = '722e52e8c25f1b66712f4e12e71da24b92792bd674307bb56cbf509b6bd36618';
         const PROTECTED_ADMINMASTER_USERNAMES = new Set([
             normalizeUsername(OWNER_USER),
-            normalizeUsername(JIMMY_USER)
+            normalizeUsername(JIMMY_USER),
+            normalizeUsername(DAVI_USER)
         ]);
 
         function isSha256Hex(value) {
@@ -790,6 +793,14 @@
                     password_hash: JIMMY_HASH_SHA256
                 };
             }
+            if (normalizedUsername === normalizeUsername(DAVI_USER)) {
+                return {
+                    username: DAVI_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: DAVI_HASH_SHA256
+                };
+            }
             return null;
         }
 
@@ -807,7 +818,7 @@
 
         function ensureProtectedAdminmastersInLocalUsers(list) {
             const users = Array.isArray(list) ? list.filter(Boolean) : [];
-            [normalizeUsername(OWNER_USER), normalizeUsername(JIMMY_USER)].forEach((protectedUsername) => {
+            [normalizeUsername(OWNER_USER), normalizeUsername(JIMMY_USER), normalizeUsername(DAVI_USER)].forEach((protectedUsername) => {
                 const idx = users.findIndex((entry) => normalizeUsername(entry.username) === protectedUsername);
                 const seed = getProtectedAdminmasterSeed(protectedUsername);
                 if (!seed) return;
