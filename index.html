@@ -3915,11 +3915,30 @@
             return null;
         }
 
+        const CRITIC_DISPLAY_LABELS = {
+            WA: { es: 'Wine Advocate (WA)', en: 'Wine Advocate (WA)', pt: 'Wine Advocate (WA)' },
+            JS: { es: 'James Suckling (JS)', en: 'James Suckling (JS)', pt: 'James Suckling (JS)' },
+            TA: { es: 'Tim Atkin (TA)', en: 'Tim Atkin (TA)', pt: 'Tim Atkin (TA)' },
+            'Peñín': { es: 'Guía Peñín', en: 'Peñín Guide', pt: 'Guia Peñín' },
+            WS: { es: 'Wine Spectator (WS)', en: 'Wine Spectator (WS)', pt: 'Wine Spectator (WS)' },
+            VM: { es: 'Vinous (VM)', en: 'Vinous (VM)', pt: 'Vinous (VM)' },
+            Decanter: { es: 'Decanter', en: 'Decanter', pt: 'Decanter' },
+            'Jeb Dunnuck': { es: 'Jeb Dunnuck', en: 'Jeb Dunnuck', pt: 'Jeb Dunnuck' }
+        };
+
+        function getCriticDisplayLabel(label) {
+            const canonical = normalizeCriticLabel(label);
+            const lang = ['es', 'en', 'pt'].includes(currentLang) ? currentLang : 'es';
+            return CRITIC_DISPLAY_LABELS[canonical]?.[lang]
+                || CRITIC_DISPLAY_LABELS[canonical]?.es
+                || canonical;
+        }
+
         function renderCriticsChips(ref) {
             const entries = parseCriticsEntries(extractCriticsSource(ref));
             if (!entries.length) return '';
             return entries.map((entry) => (
-                `<span class="critic-chip">${escapeHtml(entry.label)} ${escapeHtml(entry.score)}</span>`
+                `<span class="critic-chip">${escapeHtml(getCriticDisplayLabel(entry.label))}: ${escapeHtml(entry.score)}</span>`
             )).join('');
         }
 
@@ -3930,7 +3949,7 @@
                 const isNA = /^n\/?a$/i.test(normalizeWhitespaceText(entry.value));
                 return `
                     <div class="critic-row ${isNA ? 'is-na' : 'is-score'}">
-                        <span class="critic-name">${escapeHtml(entry.label)}</span>
+                        <span class="critic-name">${escapeHtml(getCriticDisplayLabel(entry.label))}</span>
                         <span class="critic-value">${escapeHtml(entry.value)}</span>
                     </div>
                 `;
