@@ -1779,6 +1779,11 @@
             const hasTrailingSeparator = /[·•\s]$/.test(raw);
             const verboseNormalized = normalizeLocationValue(raw);
             if (/^[A-Z0-9]{1,2}·[A-Z0-9]{1,2}(?:·[A-Z]{1,3})?$/.test(verboseNormalized || '')) {
+                if (preserveTrailingSeparator && hasTrailingSeparator) {
+                    const parts = String(verboseNormalized).split('·');
+                    if (parts.length === 1) return `${parts[0]}·`;
+                    if (parts.length === 2) return `${parts[0]}·${parts[1]}·`;
+                }
                 return verboseNormalized;
             }
 
@@ -1818,6 +1823,17 @@
 
                 input.addEventListener('keydown', (event) => {
                     if (event.key !== ' ') return;
+                    event.preventDefault();
+                    const withVirtualSpace = `${input.value || ''} `;
+                    const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true });
+                    input.value = formatted;
+                    const caret = input.value.length;
+                    input.setSelectionRange(caret, caret);
+                });
+
+                input.addEventListener('beforeinput', (event) => {
+                    if (event.inputType !== 'insertText') return;
+                    if (event.data !== ' ' && event.data !== '\u00A0') return;
                     event.preventDefault();
                     const withVirtualSpace = `${input.value || ''} `;
                     const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true });
