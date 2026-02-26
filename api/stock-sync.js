@@ -292,14 +292,14 @@ function normalizeVictoriaLocationValue(normalized) {
   const text = String(normalized || '').toUpperCase();
   if (!text) return null;
 
-  const compact = text.match(/^([A-F])\s+(\d{1,2})(?:\s+([A-Z]{2,4}))?(?:\s+(L?\d{1,2}|PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA))?$/);
+  const compact = text.match(/^([A-Z0-9]{1,3})\s+(\d{1,2})(?:\s+([A-Z]{2,4}))?(?:\s+(L?\d{1,2}|PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA))?$/);
   if (compact) {
     const door = normalizeVictoriaDoorToken(compact[3]);
     const line = normalizeVictoriaLineToken(compact[4]);
     return `${compact[1]}·${compact[2]}${door ? `·${door}` : ''}${line ? `·${line}` : ''}`;
   }
 
-  const cavaMatch = text.match(/\bCAVA\s*([A-F])\b/);
+  const cavaMatch = text.match(/\bCAVA\s*([A-Z0-9]{1,3})\b/);
   const baldaMatch = text.match(/\bBALDA\s*(\d{1,2})\b/);
   const doorMatch = normalizeVictoriaDoorToken(text);
   const lineMatchWord = text.match(/\b(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA)\s+LINEA\b/);

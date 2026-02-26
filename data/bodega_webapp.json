@@ -500,8 +500,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 144,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "D·4"
       },
       "galeria": {
         "pvp": null,
@@ -510,6 +510,16 @@
       },
       "bodega": {
         "pvp": 144,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -643,8 +653,8 @@
       },
       "victoria": {
         "pvp": 112,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "C·8 / D·9"
       },
       "galeria": {
         "pvp": null,
@@ -653,6 +663,11 @@
       },
       "bodega": {
         "pvp": 118,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -791,8 +806,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 70,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "D·2 / D·5"
       },
       "galeria": {
         "pvp": null,
@@ -801,6 +816,16 @@
       },
       "bodega": {
         "pvp": 70,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -2433,8 +2458,8 @@
       },
       "victoria": {
         "pvp": 515,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·5"
       },
       "galeria": {
         "pvp": null,
@@ -2443,6 +2468,11 @@
       },
       "bodega": {
         "pvp": 541,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -3102,8 +3132,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 73,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "B·6"
       },
       "galeria": {
         "pvp": null,
@@ -3112,6 +3142,16 @@
       },
       "bodega": {
         "pvp": 73,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -3158,8 +3198,8 @@
       },
       "victoria": {
         "pvp": 85,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "A·1 / A·2"
       },
       "galeria": {
         "pvp": null,
@@ -3466,6 +3506,11 @@
         "pvp": 184,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 3,
+        "localizacion": "C·6"
       }
     }
   },
@@ -3607,8 +3652,8 @@
       },
       "victoria": {
         "pvp": 73,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "C·7"
       },
       "galeria": {
         "pvp": null,
@@ -5412,8 +5457,8 @@
       },
       "victoria": {
         "pvp": 75,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "B·3"
       },
       "galeria": {
         "pvp": null,
@@ -5812,6 +5857,11 @@
         "pvp": 110,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 6,
+        "localizacion": "A·3 / A·6"
       }
     }
   },
@@ -5914,6 +5964,16 @@
         "pvp": 72,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "B·4"
       }
     }
   },
@@ -5953,8 +6013,8 @@
       },
       "victoria": {
         "pvp": 57,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "C·1"
       },
       "galeria": {
         "pvp": null,
@@ -5963,6 +6023,11 @@
       },
       "bodega": {
         "pvp": 60,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -6060,8 +6125,8 @@
       },
       "victoria": {
         "pvp": 150,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "C·1 / C·6"
       },
       "galeria": {
         "pvp": null,
@@ -6106,8 +6171,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 58,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·4"
       },
       "galeria": {
         "pvp": null,
@@ -6116,6 +6181,16 @@
       },
       "bodega": {
         "pvp": 58,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -6712,8 +6787,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 188,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "C·5"
       },
       "galeria": {
         "pvp": null,
@@ -6722,6 +6797,16 @@
       },
       "bodega": {
         "pvp": 188,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -7549,8 +7634,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 84,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "C·6"
       },
       "galeria": {
         "pvp": null,
@@ -7559,6 +7644,16 @@
       },
       "bodega": {
         "pvp": 84,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -7748,8 +7843,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 220,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "C·2"
       },
       "galeria": {
         "pvp": null,
@@ -7758,6 +7853,16 @@
       },
       "bodega": {
         "pvp": 220,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -7942,8 +8047,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 192,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·4"
       },
       "galeria": {
         "pvp": null,
@@ -7952,6 +8057,16 @@
       },
       "bodega": {
         "pvp": 192,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -8090,8 +8205,8 @@
       },
       "victoria": {
         "pvp": 700,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "C·5"
       },
       "galeria": {
         "pvp": null,
@@ -8917,8 +9032,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 58,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "C·2"
       },
       "galeria": {
         "pvp": null,
@@ -8927,6 +9042,16 @@
       },
       "bodega": {
         "pvp": 58,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -8968,8 +9093,8 @@
       },
       "victoria": {
         "pvp": 48,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "A·1 / B·7"
       },
       "galeria": {
         "pvp": null,
@@ -8978,6 +9103,11 @@
       },
       "bodega": {
         "pvp": 48,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -9622,6 +9752,16 @@
         "pvp": 98,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "B·1"
       }
     }
   },
@@ -9696,8 +9836,8 @@
       },
       "victoria": {
         "pvp": 120,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "C·1 / C·2"
       },
       "galeria": {
         "pvp": null,
@@ -9752,8 +9892,8 @@
       },
       "victoria": {
         "pvp": 123,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·6"
       },
       "galeria": {
         "pvp": null,
@@ -9762,6 +9902,11 @@
       },
       "bodega": {
         "pvp": 123,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -9803,8 +9948,8 @@
       },
       "victoria": {
         "pvp": 115,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "C·2"
       },
       "galeria": {
         "pvp": null,
@@ -9813,6 +9958,11 @@
       },
       "bodega": {
         "pvp": 121,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -10426,8 +10576,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 97,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "D·5"
       },
       "galeria": {
         "pvp": null,
@@ -10438,6 +10588,16 @@
         "pvp": 97,
         "unidades": 3,
         "localizacion": "3·2"
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
       }
     }
   },
@@ -15199,8 +15359,8 @@
       },
       "victoria": {
         "pvp": 615,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "A·2"
       },
       "galeria": {
         "pvp": null,
@@ -15211,6 +15371,11 @@
         "pvp": 646,
         "unidades": 3,
         "localizacion": "8·4·DER"
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
       }
     }
   },
@@ -15262,6 +15427,11 @@
         "pvp": 70,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "D·6"
       }
     }
   },
@@ -15772,6 +15942,16 @@
         "pvp": 138,
         "unidades": 1,
         "localizacion": "7·6·IZQ"
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "D·5"
       }
     }
   },
@@ -16653,8 +16833,8 @@
       },
       "victoria": {
         "pvp": 625,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "D·5"
       },
       "galeria": {
         "pvp": null,
@@ -21154,8 +21334,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 330,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "D·8"
       },
       "galeria": {
         "pvp": null,
@@ -21164,6 +21344,16 @@
       },
       "bodega": {
         "pvp": 330,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -24042,6 +24232,11 @@
         "pvp": 61,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 2,
+        "localizacion": "D·9"
       }
     }
   },
@@ -25458,8 +25653,8 @@
       },
       "victoria": {
         "pvp": 91,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "A·5"
       },
       "galeria": {
         "pvp": null,
@@ -27459,6 +27654,16 @@
         "pvp": 90,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 8,
+        "localizacion": "A·1 / A·8"
       }
     }
   },
@@ -27694,6 +27899,16 @@
         "pvp": 33,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "C·8"
       }
     }
   },
@@ -29764,8 +29979,8 @@
       },
       "victoria": {
         "pvp": 75,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·1"
       },
       "galeria": {
         "pvp": null,
@@ -29774,6 +29989,11 @@
       },
       "bodega": {
         "pvp": 79,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -29881,8 +30101,8 @@
       },
       "victoria": {
         "pvp": 125,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "A·8"
       },
       "galeria": {
         "pvp": null,
@@ -29891,6 +30111,11 @@
       },
       "bodega": {
         "pvp": 125,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -31066,8 +31291,8 @@
       },
       "victoria": {
         "pvp": 320,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·2"
       },
       "galeria": {
         "pvp": null,
@@ -31386,8 +31611,8 @@
       },
       "victoria": {
         "pvp": 95,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "B·2"
       },
       "galeria": {
         "pvp": null,
@@ -31452,8 +31677,8 @@
       },
       "victoria": {
         "pvp": 130,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·4"
       },
       "galeria": {
         "pvp": null,
@@ -31838,8 +32063,8 @@
       },
       "victoria": {
         "pvp": 385,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "B·1 / B·2"
       },
       "galeria": {
         "pvp": null,
@@ -31960,8 +32185,8 @@
       },
       "victoria": {
         "pvp": 730,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "B·2"
       },
       "galeria": {
         "pvp": null,
@@ -32666,8 +32891,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 86,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "A·7"
       },
       "galeria": {
         "pvp": null,
@@ -32676,6 +32901,16 @@
       },
       "bodega": {
         "pvp": 86,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -33113,8 +33348,8 @@
       },
       "victoria": {
         "pvp": 135,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 7,
+        "localizacion": "B·2 / B·5"
       },
       "galeria": {
         "pvp": null,
@@ -33123,6 +33358,11 @@
       },
       "bodega": {
         "pvp": 142,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -34383,8 +34623,8 @@
       },
       "victoria": {
         "pvp": 115,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "B·2"
       },
       "galeria": {
         "pvp": null,
@@ -34693,8 +34933,8 @@
       },
       "victoria": {
         "pvp": 552,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "B·4"
       },
       "galeria": {
         "pvp": null,
@@ -35023,8 +35263,8 @@
       },
       "victoria": {
         "pvp": 475,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "B·5"
       },
       "galeria": {
         "pvp": null,
@@ -35079,8 +35319,8 @@
       },
       "victoria": {
         "pvp": 140,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 14,
+        "localizacion": "A·9 / B·1 / B·9"
       },
       "galeria": {
         "pvp": null,
@@ -35145,8 +35385,8 @@
       },
       "victoria": {
         "pvp": 140,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "A·9"
       },
       "galeria": {
         "pvp": null,
@@ -37834,8 +38074,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 44,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "C·9"
       },
       "galeria": {
         "pvp": null,
@@ -37844,6 +38084,16 @@
       },
       "bodega": {
         "pvp": 44,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -38912,8 +39162,8 @@
       },
       "victoria": {
         "pvp": 374,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·5"
       },
       "galeria": {
         "pvp": null,
@@ -39075,8 +39325,8 @@
       },
       "victoria": {
         "pvp": 145,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·9"
       },
       "galeria": {
         "pvp": null,
@@ -39085,6 +39335,11 @@
       },
       "bodega": {
         "pvp": 145,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -39131,8 +39386,8 @@
       },
       "victoria": {
         "pvp": 170,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·9"
       },
       "galeria": {
         "pvp": null,
@@ -39855,8 +40110,8 @@
       },
       "victoria": {
         "pvp": 610,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·9"
       },
       "galeria": {
         "pvp": null,
@@ -39865,6 +40120,11 @@
       },
       "bodega": {
         "pvp": 640,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -40013,8 +40273,8 @@
       },
       "victoria": {
         "pvp": 101,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·9"
       },
       "galeria": {
         "pvp": null,
@@ -41512,8 +41772,8 @@
       },
       "victoria": {
         "pvp": 78,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·2"
       },
       "galeria": {
         "pvp": null,
@@ -41568,8 +41828,8 @@
       },
       "victoria": {
         "pvp": 134,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -41863,8 +42123,8 @@
       },
       "victoria": {
         "pvp": 145,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·2"
       },
       "galeria": {
         "pvp": null,
@@ -42505,8 +42765,8 @@
       },
       "victoria": {
         "pvp": 90,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·3"
       },
       "galeria": {
         "pvp": null,
@@ -43045,8 +43305,8 @@
       },
       "victoria": {
         "pvp": 70,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·2"
       },
       "galeria": {
         "pvp": null,
@@ -43218,8 +43478,8 @@
       },
       "victoria": {
         "pvp": 40,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "E·7"
       },
       "galeria": {
         "pvp": null,
@@ -43330,8 +43590,8 @@
       },
       "victoria": {
         "pvp": 65,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "E·2 / E·7 / E·9"
       },
       "galeria": {
         "pvp": null,
@@ -44385,8 +44645,8 @@
       },
       "victoria": {
         "pvp": 115,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "E·1 / F·10"
       },
       "galeria": {
         "pvp": null,
@@ -44504,6 +44764,11 @@
         "pvp": 58,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "F·7"
       }
     }
   },
@@ -44599,8 +44864,8 @@
       },
       "victoria": {
         "pvp": 572,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·2"
       },
       "galeria": {
         "pvp": null,
@@ -44711,8 +44976,8 @@
       },
       "victoria": {
         "pvp": 65,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·7"
       },
       "galeria": {
         "pvp": null,
@@ -45368,8 +45633,8 @@
       },
       "victoria": {
         "pvp": 140,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·7"
       },
       "galeria": {
         "pvp": null,
@@ -45847,8 +46112,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 49,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "E·3 / F·4"
       },
       "galeria": {
         "pvp": null,
@@ -45859,6 +46124,16 @@
         "pvp": 49,
         "unidades": 3,
         "localizacion": "4·4·CEN"
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
       }
     }
   },
@@ -46301,8 +46576,8 @@
       },
       "victoria": {
         "pvp": 207,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·5"
       },
       "galeria": {
         "pvp": null,
@@ -46408,8 +46683,8 @@
       },
       "victoria": {
         "pvp": 60,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "E·3"
       },
       "galeria": {
         "pvp": null,
@@ -46418,6 +46693,11 @@
       },
       "bodega": {
         "pvp": 60,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -48104,8 +48384,8 @@
       },
       "victoria": {
         "pvp": 95,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "E·3"
       },
       "galeria": {
         "pvp": null,
@@ -48114,6 +48394,11 @@
       },
       "bodega": {
         "pvp": 95,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -48379,8 +48664,8 @@
       },
       "victoria": {
         "pvp": 559,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -48598,8 +48883,8 @@
       },
       "victoria": {
         "pvp": 2480,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -49954,8 +50239,8 @@
       },
       "victoria": {
         "pvp": 300,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·4"
       },
       "galeria": {
         "pvp": null,
@@ -50010,8 +50295,8 @@
       },
       "victoria": {
         "pvp": 149,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·7"
       },
       "galeria": {
         "pvp": null,
@@ -50285,8 +50570,8 @@
       },
       "victoria": {
         "pvp": 550,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "F·4"
       },
       "galeria": {
         "pvp": null,
@@ -50784,8 +51069,8 @@
       },
       "victoria": {
         "pvp": 146,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·8"
       },
       "galeria": {
         "pvp": null,
@@ -52387,8 +52672,8 @@
       },
       "victoria": {
         "pvp": 480,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "X·1·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -52791,6 +53076,11 @@
         "pvp": null,
         "unidades": null,
         "localizacion": "1·A·D"
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 3,
+        "localizacion": "E·1"
       }
     }
   },
@@ -55372,8 +55662,8 @@
       },
       "victoria": {
         "pvp": 160,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·7"
       },
       "galeria": {
         "pvp": null,
@@ -55520,8 +55810,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 399,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·3"
       },
       "galeria": {
         "pvp": null,
@@ -55530,6 +55820,16 @@
       },
       "bodega": {
         "pvp": 399,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -56315,8 +56615,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 270,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·7"
       },
       "galeria": {
         "pvp": null,
@@ -56325,6 +56625,16 @@
       },
       "bodega": {
         "pvp": 270,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -57385,8 +57695,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 625,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·6"
       },
       "galeria": {
         "pvp": null,
@@ -57395,6 +57705,16 @@
       },
       "bodega": {
         "pvp": 625,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -57497,8 +57817,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 700,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·3"
       },
       "galeria": {
         "pvp": null,
@@ -57507,6 +57827,16 @@
       },
       "bodega": {
         "pvp": 700,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -57828,8 +58158,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 350,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·6"
       },
       "galeria": {
         "pvp": null,
@@ -57838,6 +58168,16 @@
       },
       "bodega": {
         "pvp": 350,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -57889,8 +58229,8 @@
       },
       "victoria": {
         "pvp": 130,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "E·3 / F·6"
       },
       "galeria": {
         "pvp": null,
@@ -57957,6 +58297,16 @@
         "pvp": 88,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "E·2"
       }
     }
   },
@@ -59160,8 +59510,8 @@
       },
       "victoria": {
         "pvp": 390,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·3"
       },
       "galeria": {
         "pvp": null,
@@ -59282,8 +59632,8 @@
       },
       "victoria": {
         "pvp": 119,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -59409,8 +59759,8 @@
       },
       "victoria": {
         "pvp": 179,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "F·2 / X·1·CEN·L3"
       },
       "galeria": {
         "pvp": null,
@@ -60985,8 +61335,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 385,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·7"
       },
       "galeria": {
         "pvp": null,
@@ -60995,6 +61345,16 @@
       },
       "bodega": {
         "pvp": 385,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -61153,8 +61513,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 280,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·5"
       },
       "galeria": {
         "pvp": null,
@@ -61163,6 +61523,16 @@
       },
       "bodega": {
         "pvp": 280,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -61219,8 +61589,8 @@
       },
       "victoria": {
         "pvp": 210,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·5"
       },
       "galeria": {
         "pvp": null,
@@ -61697,8 +62067,8 @@
       },
       "victoria": {
         "pvp": 340,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·6"
       },
       "galeria": {
         "pvp": null,
@@ -61963,6 +62333,11 @@
         "pvp": 39,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "F·7"
       }
     }
   },
@@ -62017,8 +62392,8 @@
       },
       "victoria": {
         "pvp": 115,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -62083,8 +62458,8 @@
       },
       "victoria": {
         "pvp": 68,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "E·6 / E·8 / F·1"
       },
       "galeria": {
         "pvp": null,
@@ -62149,8 +62524,8 @@
       },
       "victoria": {
         "pvp": 300,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -62222,6 +62597,11 @@
         "pvp": 63,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 2,
+        "localizacion": "E·2"
       }
     }
   },
@@ -62388,8 +62768,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 40,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 9,
+        "localizacion": "E·1"
       },
       "galeria": {
         "pvp": null,
@@ -62405,6 +62785,11 @@
         "pvp": null,
         "unidades": null,
         "localizacion": "1·F·A"
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
       }
     }
   },
@@ -64700,8 +65085,8 @@
       },
       "victoria": {
         "pvp": 118,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -64964,8 +65349,8 @@
       },
       "victoria": {
         "pvp": 475,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·1"
       },
       "galeria": {
         "pvp": null,
@@ -65030,8 +65415,8 @@
       },
       "victoria": {
         "pvp": 310,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "F·3"
       },
       "galeria": {
         "pvp": null,
@@ -65162,8 +65547,8 @@
       },
       "victoria": {
         "pvp": 495,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·3"
       },
       "galeria": {
         "pvp": null,
@@ -65718,6 +66103,11 @@
         "pvp": 92,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 3,
+        "localizacion": "E·9"
       }
     }
   },
@@ -66631,8 +67021,8 @@
       },
       "victoria": {
         "pvp": 200,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·7"
       },
       "galeria": {
         "pvp": null,
@@ -66763,8 +67153,8 @@
       },
       "victoria": {
         "pvp": 50,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "E·5"
       },
       "galeria": {
         "pvp": null,
@@ -67374,8 +67764,8 @@
       },
       "victoria": {
         "pvp": 348,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·4"
       },
       "galeria": {
         "pvp": null,
@@ -70870,6 +71260,16 @@
         "pvp": 770,
         "unidades": 1,
         "localizacion": "5·6·IZQ"
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "E·2"
       }
     }
   },
@@ -72057,8 +72457,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 9800,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L4"
       },
       "galeria": {
         "pvp": null,
@@ -72067,6 +72467,16 @@
       },
       "bodega": {
         "pvp": 9800,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -72976,8 +73386,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 12750,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L5"
       },
       "galeria": {
         "pvp": null,
@@ -72986,6 +73396,16 @@
       },
       "bodega": {
         "pvp": 12750,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -73114,8 +73534,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 10500,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L4"
       },
       "galeria": {
         "pvp": null,
@@ -73124,6 +73544,16 @@
       },
       "bodega": {
         "pvp": 10500,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -73206,8 +73636,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 8100,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L4"
       },
       "galeria": {
         "pvp": null,
@@ -73216,6 +73646,16 @@
       },
       "bodega": {
         "pvp": 8100,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -73262,8 +73702,8 @@
       },
       "victoria": {
         "pvp": 297,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "D·5"
       },
       "galeria": {
         "pvp": null,
@@ -78531,6 +78971,16 @@
         "pvp": 1050,
         "unidades": 2,
         "localizacion": "5·2·DER"
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "E·1"
       }
     }
   },
@@ -86125,6 +86575,16 @@
         "pvp": 580,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "E·3"
       }
     }
   },
@@ -91047,8 +91507,8 @@
       },
       "victoria": {
         "pvp": 325,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·2"
       },
       "galeria": {
         "pvp": null,
@@ -91245,8 +91705,8 @@
       },
       "victoria": {
         "pvp": 450,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "E·3"
       },
       "galeria": {
         "pvp": null,
@@ -94449,8 +94909,8 @@
       },
       "victoria": {
         "pvp": 425,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L4"
       },
       "galeria": {
         "pvp": null,
@@ -96158,8 +96618,8 @@
       },
       "victoria": {
         "pvp": 217,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L3"
       },
       "galeria": {
         "pvp": null,
@@ -96336,8 +96796,8 @@
       },
       "victoria": {
         "pvp": 550,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L3"
       },
       "galeria": {
         "pvp": null,
@@ -96346,6 +96806,11 @@
       },
       "bodega": {
         "pvp": 578,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -96397,8 +96862,8 @@
       },
       "victoria": {
         "pvp": 542,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "E·3 / X·4·IZQ·L2"
       },
       "galeria": {
         "pvp": null,
@@ -96407,6 +96872,11 @@
       },
       "bodega": {
         "pvp": 569,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -97635,6 +98105,16 @@
         "pvp": 536,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "X·4·IZQ·L3"
       }
     }
   },
@@ -97679,8 +98159,8 @@
       },
       "victoria": {
         "pvp": 8200,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -97689,6 +98169,11 @@
       },
       "bodega": {
         "pvp": 8610,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -97730,8 +98215,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 10650,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -97740,6 +98225,16 @@
       },
       "bodega": {
         "pvp": 10650,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -97842,8 +98337,8 @@
       },
       "victoria": {
         "pvp": 8300,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -97898,8 +98393,8 @@
       },
       "victoria": {
         "pvp": 8550,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -97908,6 +98403,11 @@
       },
       "bodega": {
         "pvp": 8978,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -97959,8 +98459,8 @@
       },
       "victoria": {
         "pvp": 10000,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -98020,8 +98520,8 @@
       },
       "victoria": {
         "pvp": 10770,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -98076,8 +98576,8 @@
       },
       "victoria": {
         "pvp": 8775,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -98086,6 +98586,11 @@
       },
       "bodega": {
         "pvp": 9214,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -98127,8 +98632,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 9200,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "X·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -98137,6 +98642,16 @@
       },
       "bodega": {
         "pvp": 9200,
+        "unidades": null,
+        "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
         "unidades": null,
         "localizacion": null
       }
@@ -102058,8 +102573,8 @@
     "establecimientos": {
       "victoria": {
         "pvp": 170,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·8"
       },
       "galeria": {
         "pvp": null,
@@ -102070,6 +102585,16 @@
         "pvp": 170,
         "unidades": 3,
         "localizacion": "9·3·IZQ"
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
       }
     }
   },
@@ -102155,8 +102680,8 @@
       },
       "victoria": {
         "pvp": 170,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "F·8"
       },
       "galeria": {
         "pvp": null,
@@ -102167,6 +102692,11 @@
         "pvp": 170,
         "unidades": 3,
         "localizacion": "9·3·DER"
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
       }
     }
   },
@@ -105811,8 +106341,8 @@
       },
       "victoria": {
         "pvp": 174,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "F·8"
       },
       "galeria": {
         "pvp": null,
@@ -106963,6 +107493,16 @@
         "pvp": 213,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 1,
+        "localizacion": "E·2"
       }
     }
   },
@@ -107745,8 +108285,8 @@
       },
       "victoria": {
         "pvp": 65,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "E·3"
       },
       "galeria": {
         "pvp": null,
@@ -109342,6 +109882,11 @@
         "pvp": 395,
         "unidades": null,
         "localizacion": null
+      },
+      "victoria": {
+        "pvp": null,
+        "unidades": 2,
+        "localizacion": "F·5"
       }
     }
   },
@@ -111830,8 +112375,8 @@
       },
       "victoria": {
         "pvp": null,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "B·3"
       },
       "galeria": {
         "pvp": null,
@@ -113222,8 +113767,8 @@
       },
       "victoria": {
         "pvp": null,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·7"
       },
       "galeria": {
         "pvp": null,
@@ -113280,8 +113825,8 @@
       },
       "victoria": {
         "pvp": null,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·1"
       },
       "galeria": {
         "pvp": null,
@@ -115650,8 +116195,8 @@
       },
       "victoria": {
         "pvp": null,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "D·2 / D·6"
       },
       "galeria": {
         "pvp": null,
@@ -116346,8 +116891,8 @@
       },
       "victoria": {
         "pvp": null,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "E·2"
       },
       "galeria": {
         "pvp": null,
