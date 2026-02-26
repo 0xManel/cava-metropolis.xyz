@@ -3781,22 +3781,22 @@
                     if (noseStart < palateStart) {
                         const noseRaw = clean.slice(noseStart, palateStart);
                         const palateRaw = clean.slice(palateStart);
-                        noseText = extractPrimarySensorySentence(stripCataLabelPrefix(noseRaw));
-                        palateText = extractPrimarySensorySentence(stripCataLabelPrefix(palateRaw));
+                        noseText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(noseRaw)));
+                        palateText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(palateRaw)));
                     } else {
                         const palateRaw = clean.slice(palateStart, noseStart);
                         const noseRaw = clean.slice(noseStart);
-                        palateText = extractPrimarySensorySentence(stripCataLabelPrefix(palateRaw));
-                        noseText = extractPrimarySensorySentence(stripCataLabelPrefix(noseRaw));
+                        palateText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(palateRaw)));
+                        noseText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(noseRaw)));
                     }
                 }
             } else {
                 const sentences = splitNaturalSentences(clean);
                 if (sentences.length >= 2) {
-                    noseText = extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0]));
-                    palateText = extractPrimarySensorySentence(stripCataLabelPrefix(sentences[1]));
+                    noseText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0])));
+                    palateText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(sentences[1])));
                 } else if (sentences.length === 1) {
-                    noseText = extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0]));
+                    noseText = localizeCataText(extractPrimarySensorySentence(stripCataLabelPrefix(sentences[0])));
                 }
             }
 
@@ -3809,7 +3809,8 @@
         }
 
         function extractCataKeyPoints(cataText) {
-            const lines = splitNaturalSentences(cataText);
+            const normalizedSource = localizeCataText(stripDrinkingGuidance(cataText));
+            const lines = splitNaturalSentences(normalizedSource);
             if (!lines.length) return [];
 
             const picks = [];
