@@ -41976,7 +41976,7 @@
       "spa": {
         "pvp": 39,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·G·A"
       },
       "tasca_fina": {
         "pvp": 35,
@@ -42190,7 +42190,7 @@
       "spa": {
         "pvp": 149,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·D"
       },
       "tasca_fina": {
         "pvp": 135,
@@ -42710,7 +42710,7 @@
       "spa": {
         "pvp": 62,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·G·D"
       },
       "tasca_fina": {
         "pvp": 56,
@@ -43265,7 +43265,7 @@
       "spa": {
         "pvp": 44,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·A"
       },
       "tasca_fina": {
         "pvp": 40,
@@ -43321,7 +43321,7 @@
       "spa": {
         "pvp": 72,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·G·D"
       },
       "tasca_fina": {
         "pvp": 65,
@@ -44376,7 +44376,7 @@
       "spa": {
         "pvp": 127,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·I·D"
       },
       "tasca_fina": {
         "pvp": 115,
@@ -44702,7 +44702,7 @@
       "spa": {
         "pvp": 72,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·E·A"
       },
       "tasca_fina": {
         "pvp": 65,
@@ -44825,6 +44825,11 @@
         "pvp": 180,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·E·A"
       }
     }
   },
@@ -45288,7 +45293,7 @@
       "spa": {
         "pvp": 78,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·I·D"
       },
       "tasca_fina": {
         "pvp": 71,
@@ -45421,6 +45426,11 @@
         "pvp": 62,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·E·D"
       }
     }
   },
@@ -46501,7 +46511,7 @@
       "spa": {
         "pvp": 167,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·E·A"
       },
       "tasca_fina": {
         "pvp": 152,
@@ -48416,7 +48426,7 @@
       "spa": {
         "pvp": 75,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·E·D"
       },
       "tasca_fina": {
         "pvp": 68,
@@ -48635,7 +48645,7 @@
       "spa": {
         "pvp": 127,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·D·D"
       },
       "tasca_fina": {
         "pvp": 115,
@@ -48747,7 +48757,7 @@
       "spa": {
         "pvp": 121,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·D·A"
       },
       "tasca_fina": {
         "pvp": 110,
@@ -48859,7 +48869,7 @@
       "spa": {
         "pvp": 81,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·E·D"
       },
       "tasca_fina": {
         "pvp": 74,
@@ -49517,7 +49527,7 @@
       "spa": {
         "pvp": 315,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·I·A"
       },
       "tasca_fina": {
         "pvp": 286,
@@ -49935,7 +49945,7 @@
       "spa": {
         "pvp": 330,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·G·A"
       },
       "tasca_fina": {
         "pvp": 300,
@@ -50266,7 +50276,7 @@
       "spa": {
         "pvp": 605,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·G·A"
       },
       "tasca_fina": {
         "pvp": 550,
@@ -52017,7 +52027,7 @@
       "spa": {
         "pvp": 407,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·A·D"
       },
       "tasca_fina": {
         "pvp": 370,
@@ -52440,6 +52450,11 @@
         "pvp": 72,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·A·D"
       }
     }
   },
@@ -52771,6 +52786,11 @@
         "pvp": 85,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·A·D"
       }
     }
   },
@@ -56139,6 +56159,11 @@
         "pvp": 30,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·B·D"
       }
     }
   },
@@ -57855,7 +57880,7 @@
       "spa": {
         "pvp": 143,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·F·D"
       },
       "tasca_fina": {
         "pvp": 130,
@@ -58806,7 +58831,7 @@
       "spa": {
         "pvp": 72,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·F·A"
       },
       "tasca_fina": {
         "pvp": 65,
@@ -61251,7 +61276,7 @@
       "spa": {
         "pvp": 85,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·F·D"
       },
       "tasca_fina": {
         "pvp": 77,
@@ -61729,7 +61754,7 @@
       "spa": {
         "pvp": 220,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·D"
       },
       "tasca_fina": {
         "pvp": 200,
@@ -61983,7 +62008,7 @@
       "spa": {
         "pvp": 127,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·F·A"
       },
       "tasca_fina": {
         "pvp": 115,
@@ -62049,7 +62074,7 @@
       "spa": {
         "pvp": 75,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·F·A"
       },
       "tasca_fina": {
         "pvp": 68,
@@ -62181,7 +62206,7 @@
       "spa": {
         "pvp": 66,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·D"
       },
       "tasca_fina": {
         "pvp": 60,
@@ -62375,6 +62400,11 @@
         "pvp": 40,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·F·A"
       }
     }
   },
@@ -64224,7 +64254,7 @@
       "spa": {
         "pvp": 83,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·F·D"
       },
       "tasca_fina": {
         "pvp": 75,
@@ -64285,7 +64315,7 @@
       "spa": {
         "pvp": 227,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·A"
       },
       "galeria": {
         "pvp": null,
@@ -65733,7 +65763,7 @@
       "spa": {
         "pvp": 55,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·A"
       },
       "tasca_fina": {
         "pvp": 50,
@@ -66430,6 +66460,11 @@
         "pvp": 115,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·H·A"
       }
     }
   },
@@ -66719,7 +66754,7 @@
       "spa": {
         "pvp": 55,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·H·D"
       },
       "tasca_fina": {
         "pvp": 50,
@@ -109241,6 +109276,11 @@
         "pvp": 71,
         "unidades": null,
         "localizacion": null
+      },
+      "spa": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·E·A"
       }
     }
   },

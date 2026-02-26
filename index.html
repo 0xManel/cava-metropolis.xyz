@@ -1731,6 +1731,16 @@
                 return `${directCompact[1]}·${directCompact[2]}${pos}`;
             }
 
+            const spaCompact = normalized.match(/^(\d{1,2})([A-Z])([A-Z])$/);
+            if (spaCompact) {
+                return `${spaCompact[1]}·${spaCompact[2]}·${spaCompact[3]}`;
+            }
+
+            const spaTwoToken = normalized.match(/^(\d{1,2})\s+([A-Z]{2})$/);
+            if (spaTwoToken) {
+                return `${spaTwoToken[1]}·${spaTwoToken[2][0]}·${spaTwoToken[2][1]}`;
+            }
+
             const compactTokens = normalized.match(/^([A-Z0-9]{1,2})\s+([A-Z0-9]{1,2})(?:\s+([A-Z]{1,10}))?$/);
             if (compactTokens) {
                 const posToken = normalizeLocationPosToken(compactTokens[3] || '');
