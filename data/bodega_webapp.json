@@ -10647,8 +10647,8 @@
       },
       "bodega": {
         "pvp": 184,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "9·1·IZQ"
       }
     }
   },
@@ -10739,8 +10739,8 @@
       },
       "bodega": {
         "pvp": 6750,
-        "unidades": 1,
-        "localizacion": "4·2"
+        "unidades": 6,
+        "localizacion": "4·2 / 4·3"
       }
     }
   },
@@ -10984,8 +10984,8 @@
       },
       "bodega": {
         "pvp": 189,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "9·1·DER"
       }
     }
   },
@@ -11337,7 +11337,7 @@
       "bodega": {
         "pvp": 1550,
         "unidades": 2,
-        "localizacion": "7·5·E"
+        "localizacion": "7·1·DER / 7·1·IZQ"
       }
     }
   },
@@ -11382,8 +11382,8 @@
       },
       "bodega": {
         "pvp": 1950,
-        "unidades": 3,
-        "localizacion": "7·5·D"
+        "unidades": 2,
+        "localizacion": "5·3·CEN"
       }
     }
   },
@@ -13970,8 +13970,8 @@
       },
       "bodega": {
         "pvp": 1150,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "8·5·E"
       }
     }
   },
@@ -14491,8 +14491,8 @@
       },
       "bodega": {
         "pvp": 72,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "7·8·CEN"
       }
     }
   },
@@ -16047,8 +16047,8 @@
       },
       "bodega": {
         "pvp": 2500,
-        "unidades": 3,
-        "localizacion": "8·3·IZQ"
+        "unidades": 2,
+        "localizacion": "8·5·E"
       }
     }
   },
@@ -16139,8 +16139,8 @@
       },
       "bodega": {
         "pvp": 3330,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "8·6·DER / 8·7·CEN"
       }
     }
   },
@@ -16945,8 +16945,8 @@
       },
       "bodega": {
         "pvp": 589,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "8·4·DER / 8·5·D"
       }
     }
   },
@@ -17200,8 +17200,8 @@
       },
       "bodega": {
         "pvp": 10730,
-        "unidades": 6,
-        "localizacion": "7·5·B / 7·5·D"
+        "unidades": 8,
+        "localizacion": "7·1·IZQ / 7·8·DER / 7·4·CEN / 7·5·C"
       }
     }
   },
@@ -17384,8 +17384,8 @@
       },
       "bodega": {
         "pvp": 185,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "7·7·IZQ / 4·2·IZQ"
       }
     }
   },
@@ -18390,8 +18390,8 @@
       },
       "bodega": {
         "pvp": 78,
-        "unidades": 3,
-        "localizacion": "7·8·IZQ"
+        "unidades": 1,
+        "localizacion": "4·6·DER"
       }
     }
   },
@@ -18482,8 +18482,8 @@
       },
       "bodega": {
         "pvp": 476,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "8·1·CEN / 4·3·IZQ"
       }
     }
   },
@@ -18676,8 +18676,8 @@
       },
       "bodega": {
         "pvp": 504,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "7·2·IZQ"
       }
     }
   },
@@ -18783,8 +18783,8 @@
       },
       "bodega": {
         "pvp": 982,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "7·2·IZQ"
       }
     }
   },
@@ -18890,8 +18890,8 @@
       },
       "bodega": {
         "pvp": 868,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "7·2·CEN"
       }
     }
   },
@@ -18946,8 +18946,8 @@
       },
       "bodega": {
         "pvp": 956,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "7·1·DER"
       }
     }
   },
@@ -19104,8 +19104,8 @@
       },
       "bodega": {
         "pvp": 1829,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "8·5·B"
       }
     }
   },
@@ -19150,8 +19150,8 @@
       },
       "bodega": {
         "pvp": 1835,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "8·2·DER"
       }
     }
   },
@@ -20166,8 +20166,8 @@
       },
       "bodega": {
         "pvp": 2825,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "8·5·E / 9·1·CEN"
       }
     }
   },
@@ -20355,8 +20355,8 @@
       },
       "bodega": {
         "pvp": 310,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "7·3·DER / 8·6·CEN"
       }
     }
   },
@@ -20544,8 +20544,8 @@
       },
       "bodega": {
         "pvp": 375,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "10·4·B"
       }
     }
   },
@@ -22232,8 +22232,8 @@
       },
       "bodega": {
         "pvp": 158,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "10·3·CEN"
       }
     }
   },
@@ -23878,8 +23878,8 @@
       },
       "bodega": {
         "pvp": 403,
-        "unidades": 2,
-        "localizacion": "10·7·IZQ"
+        "unidades": 3,
+        "localizacion": "5·3·CEN"
       }
     }
   },
@@ -24342,8 +24342,8 @@
       },
       "bodega": {
         "pvp": 92,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "9·7·IZQ"
       }
     }
   },
@@ -24587,8 +24587,8 @@
       },
       "bodega": {
         "pvp": 44,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "10·6·IZQ"
       }
     }
   },
@@ -24684,8 +24684,8 @@
       },
       "bodega": {
         "pvp": 92,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "10·6·CEN"
       }
     }
   },
@@ -25199,8 +25199,8 @@
       },
       "bodega": {
         "pvp": 35,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "10·6·CEN"
       }
     }
   },
@@ -26988,8 +26988,8 @@
       },
       "bodega": {
         "pvp": 94,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "10·5·IZQ"
       }
     }
   },
@@ -27509,8 +27509,8 @@
       },
       "bodega": {
         "pvp": 125,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "4·7·IZQ"
       }
     }
   },
@@ -31235,8 +31235,8 @@
       },
       "bodega": {
         "pvp": 90,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "5·1·IZQ / 4·5·E"
       }
     }
   },
@@ -31489,8 +31489,8 @@
       },
       "bodega": {
         "pvp": 118,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "10·1·CEN"
       }
     }
   },
@@ -38999,8 +38999,8 @@
       },
       "bodega": {
         "pvp": 85,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "7·1·DER"
       }
     }
   },
@@ -40013,8 +40013,8 @@
       },
       "bodega": {
         "pvp": 310,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "10·5·DER"
       }
     }
   },
@@ -48893,8 +48893,8 @@
       },
       "bodega": {
         "pvp": 2563,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "7·2·CEN"
       }
     }
   },
@@ -49576,8 +49576,8 @@
       },
       "bodega": {
         "pvp": 58,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 0,
+        "localizacion": "5·3·CEN"
       }
     }
   },
@@ -53985,8 +53985,8 @@
       },
       "bodega": {
         "pvp": 68,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "7·7·DER"
       }
     }
   },
@@ -54357,8 +54357,8 @@
       },
       "bodega": {
         "pvp": 250,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "10·3·IZQ"
       }
     }
   },
@@ -58361,8 +58361,8 @@
       },
       "bodega": {
         "pvp": 88,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "6·4·A"
       }
     }
   },
@@ -64836,8 +64836,8 @@
       },
       "bodega": {
         "pvp": 672,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "10·1"
       }
     }
   },
@@ -67718,8 +67718,8 @@
       },
       "bodega": {
         "pvp": 305,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "8·1·IZQ"
       }
     }
   },
@@ -67871,8 +67871,8 @@
       },
       "bodega": {
         "pvp": 147,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "6·3·DER"
       }
     }
   },
@@ -68660,8 +68660,8 @@
       },
       "bodega": {
         "pvp": 2142,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "3·4"
       }
     }
   },
@@ -68721,8 +68721,8 @@
       },
       "bodega": {
         "pvp": 2150,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "3·1"
       }
     }
   },
@@ -68782,8 +68782,8 @@
       },
       "bodega": {
         "pvp": 2300,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "3·1"
       }
     }
   },
@@ -68833,8 +68833,8 @@
       },
       "bodega": {
         "pvp": 231,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 4,
+        "localizacion": "3·2"
       }
     }
   },
@@ -69557,8 +69557,8 @@
       },
       "bodega": {
         "pvp": 175,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "5·1"
       }
     }
   },
@@ -70982,8 +70982,8 @@
       },
       "bodega": {
         "pvp": 1750,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "3·1"
       }
     }
   },
@@ -71028,8 +71028,8 @@
       },
       "bodega": {
         "pvp": 395,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "7·2·IZQ"
       }
     }
   },
@@ -73054,8 +73054,8 @@
       },
       "bodega": {
         "pvp": 1575,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "5·6·IZQ"
       }
     }
   },
@@ -73105,8 +73105,8 @@
       },
       "bodega": {
         "pvp": 236,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "4·1·CEN"
       }
     }
   },
@@ -73156,8 +73156,8 @@
       },
       "bodega": {
         "pvp": 436,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "4·3·DER / 4·8·DER"
       }
     }
   },
@@ -73202,8 +73202,8 @@
       },
       "bodega": {
         "pvp": 420,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "4·1·CEN / 4·3·DER"
       }
     }
   },
@@ -73248,8 +73248,8 @@
       },
       "bodega": {
         "pvp": 530,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "5·4·DER"
       }
     }
   },
@@ -73304,8 +73304,8 @@
       },
       "bodega": {
         "pvp": 188,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "4·2·CEN"
       }
     }
   },
@@ -74508,8 +74508,8 @@
       },
       "bodega": {
         "pvp": 1239,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "4·8·DER"
       }
     }
   },
@@ -74559,8 +74559,8 @@
       },
       "bodega": {
         "pvp": 130,
-        "unidades": 2,
-        "localizacion": "4·7·DER"
+        "unidades": 3,
+        "localizacion": "4·7·CEN"
       }
     }
   },
@@ -74885,8 +74885,8 @@
       },
       "bodega": {
         "pvp": 794,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 5,
+        "localizacion": "4·6·DER / 4·4·DER / 4·1·DER"
       }
     }
   },
@@ -75661,8 +75661,8 @@
       },
       "bodega": {
         "pvp": 1465,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "5·5·C / 5·6·CEN"
       }
     }
   },
@@ -76238,8 +76238,8 @@
       },
       "bodega": {
         "pvp": 159,
-        "unidades": 2,
-        "localizacion": "4·6·IZQ"
+        "unidades": 6,
+        "localizacion": "4·7·DER / 4·6·IZQ"
       }
     }
   },
@@ -76488,8 +76488,8 @@
       },
       "bodega": {
         "pvp": 85,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "4·3·CEN"
       }
     }
   },
@@ -78004,8 +78004,8 @@
       },
       "bodega": {
         "pvp": 1870,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "5·1·CEN"
       }
     }
   },
@@ -78642,8 +78642,8 @@
       },
       "bodega": {
         "pvp": 6160,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "5·5·A"
       }
     }
   },
@@ -79117,8 +79117,8 @@
       },
       "bodega": {
         "pvp": 354,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "4·8·DER / 5·1·DER"
       }
     }
   },
@@ -79173,8 +79173,8 @@
       },
       "bodega": {
         "pvp": 120,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 7,
+        "localizacion": "4·6·CEN / 6·5·IZQ"
       }
     }
   },
@@ -79219,8 +79219,8 @@
       },
       "bodega": {
         "pvp": 2600,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "5·7·DER"
       }
     }
   },
@@ -79903,8 +79903,8 @@
       },
       "bodega": {
         "pvp": 2360,
-        "unidades": 2,
-        "localizacion": "5·2·IZQ"
+        "unidades": 12,
+        "localizacion": "5·4·IZQ / 5·7·IZQ"
       }
     }
   },
@@ -82165,8 +82165,8 @@
       },
       "bodega": {
         "pvp": 208,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "7·7·DER"
       }
     }
   },
@@ -82895,8 +82895,8 @@
       },
       "bodega": {
         "pvp": 1033,
-        "unidades": 2,
-        "localizacion": "4·3·DER"
+        "unidades": 3,
+        "localizacion": "4·1·DER / 4·5·C"
       }
     }
   },
@@ -84742,8 +84742,8 @@
       },
       "bodega": {
         "pvp": 1415,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 1,
+        "localizacion": "10·4·E"
       }
     }
   },
@@ -94853,8 +94853,8 @@
       },
       "bodega": {
         "pvp": 287,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "5·7·IZQ"
       }
     }
   },
@@ -99223,8 +99223,8 @@
       },
       "bodega": {
         "pvp": 66,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "7·4·CEN"
       }
     }
   },
@@ -99672,8 +99672,8 @@
       },
       "bodega": {
         "pvp": 69,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "4·4·DER"
       }
     }
   },
@@ -101553,8 +101553,8 @@
       },
       "bodega": {
         "pvp": 393,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "5·3·DER"
       }
     }
   },
@@ -102144,8 +102144,8 @@
       },
       "bodega": {
         "pvp": 75,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 2,
+        "localizacion": "9·2·IZQ"
       }
     }
   },
@@ -102843,8 +102843,8 @@
       },
       "bodega": {
         "pvp": 175,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "9·2·CEN"
       }
     }
   },
@@ -103246,8 +103246,8 @@
       },
       "bodega": {
         "pvp": 571,
-        "unidades": 3,
-        "localizacion": "9·5·E"
+        "unidades": 1,
+        "localizacion": "12·4·IZQ"
       }
     }
   },
@@ -104410,7 +104410,7 @@
       "bodega": {
         "pvp": 240,
         "unidades": 3,
-        "localizacion": "9·6·CEN"
+        "localizacion": "10·7·CEN"
       }
     }
   },
@@ -104701,7 +104701,7 @@
       "bodega": {
         "pvp": 107,
         "unidades": 3,
-        "localizacion": "9·7·IZQ"
+        "localizacion": "9·1·IZQ"
       }
     }
   },
@@ -105486,8 +105486,8 @@
       },
       "bodega": {
         "pvp": 160,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "8·4·DER"
       }
     }
   },
@@ -106193,8 +106193,8 @@
       },
       "bodega": {
         "pvp": 496,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "11·3·DER"
       }
     }
   },
@@ -106249,8 +106249,8 @@
       },
       "bodega": {
         "pvp": 481,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "11·4·DER / 11·4·CEN"
       }
     }
   },
@@ -108463,8 +108463,8 @@
       },
       "bodega": {
         "pvp": 148,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 6,
+        "localizacion": "10·2·IZQ"
       }
     }
   },
@@ -110782,8 +110782,8 @@
       },
       "bodega": {
         "pvp": 180,
-        "unidades": null,
-        "localizacion": null
+        "unidades": 3,
+        "localizacion": "6·4·C"
       }
     }
   },

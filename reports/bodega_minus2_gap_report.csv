@@ -1,0 +1,85 @@
+pod,source_file,producer,item,ano_raw,gap_type,units_now,units_expected,loc_now,loc_expected
+POD004085,resto_francia_italia_blancos.pdf,Brand et Fils,L’Oeillet (Le Litre),—,location,,4,,10·1·CEN
+POD009229,italia.pdf,Ornellaia,Bolgheri,2019,location,,3,,11·3·DER
+POD009367,222 borgoña_tintos.pdf,Pacalet,Charmes-Chambertin (Grand Cru),2019,location,,2,,5·3·DER
+POD010021,resto_francia_italia_blancos.pdf,Fides (Crimorgat),Blanc,2018,location,,3,,10·3·CEN
+POD010029,222 borgoña_tintos.pdf,Pierre Damoy,Chambertin Clos de Bèze (Grand Cru),2018,location,,1,,5·7·DER
+POD010182,222 borgoña_tintos.pdf,DRC,Grands-Échezeaux,2019,location,,5,,5·1·IZQ / 4·5·E
+POD010654,resto_francia_italia_blancos.pdf,Château Fuissé,Blanc,2020,location,,1,,10·4·E
+POD011185,resto_francia_italia_blancos.pdf,Guicciardini Strozzi,Hermitage Blanc,2017,location,,4,,10·5·DER
+POD011380,222 borgoña_tintos.pdf,Pacalet,Chambertin Clos de Bèze (Grand Cru),2019,location+units,3,2,7·5·D,5·3·CEN
+POD011639,222 borgoña_blancos.pdf,Domaine de Villaine,Bouzeron,2022,location,,3,,7·8·CEN
+POD011992,italia.pdf,Falletto,Barbera d’Alba,2022,location,3,3,9·7·IZQ,9·1·IZQ
+POD012269,222 borgoña_tintos.pdf,Michel Noëllat,Clos de Vougeot,2015,location,,2,,5·1·CEN
+POD012412,222 borgoña_tintos.pdf,Hubert Lignier,Chambolle-Musigny 1er Cru Les Amoureuses,2015,location,,1,,5·5·A
+POD012491,italia.pdf,Ornellaia,Bolgheri,2021,location,,3,,11·4·DER / 11·4·CEN
+POD012515,222 borgoña_tintos.pdf,D. de l’Arlot,Nuits-Saint-Georges 1er Cru Clos des Forêts Saint Georges,2022,location,,1,,4·1·CEN
+POD012516,222 borgoña_tintos.pdf,Pierre Morey,Meursault,—,location+units,3,1,7·8·IZQ,4·6·DER
+POD012539,222 borgoña_tintos.pdf,des Perdrix,Nuits-Saint-Georges 1er Cru Aux Perdrix,2022,location,,5,,4·2·CEN
+POD012564,italia.pdf,Falletto,Barbaresco ‘Rabajà’,2020,location,,3,,9·2·CEN
+POD012580,resto_francia_italia_blancos.pdf,Caciorgna,Guardoilvento,2022,location,,3,,10·6·IZQ
+POD013049,222 borgoña_blancos.pdf,Marquis de Laguiche,Corton-Charlemagne (Grand Cru),2022,location,,5,,8·4·DER / 8·5·D
+POD013053,usa_y_sudafrica_TO.pdf,Spioenkop,1900 – Pinotage,2020,location,,5,,10·1
+POD013303,222 borgoña_blancos.pdf,Vincent Girardin,Montrachet (Grand Cru),2022,location,,6,,8·5·E / 9·1·CEN
+POD013328,222 borgoña_tintos.pdf,D. de l’Arlot,Vosne-Romanée 1er Cru Les Suchots,2022,location,,3,,4·3·DER / 4·8·DER
+POD013335,222 borgoña_tintos.pdf,Henri Magnien / François Thurot,Côte de Nuits (entrada tal como figura),2022,location,,3,,4·3·CEN
+POD013366,italia.pdf,Podere San Giuseppe (Bacia),Brunello di Montalcino,2019,location+units,3,1,9·5·E,12·4·IZQ
+POD014184,italia.pdf,G.D. Vajra,Arulej ‘Controcorrente’,2023,location,,3,,9·7·IZQ
+POD015096,resto_francia_italia_blancos.pdf,La Croisée des Chenins,Blanc,2017,location,,3,,10·3·IZQ
+POD015155,222 borgoña_tintos.pdf,Jean Grivot,Vosne-Romanée 1er Cru Malconsorts,2022,location,,1,,4·8·DER
+POD015787,usa_y_sudafrica_TO.pdf,Screaming Eagle,"Cabernet Sauvignon – Oakville, Napa Valley",2019,location+units,1,6,4·2,4·2 / 4·3
+POD015903,222 borgoña_tintos.pdf,Pacalet,Chambertin (Grand Cru),2019,location+units,2,3,10·7·IZQ,5·3·CEN
+POD015909,222 borgoña_tintos.pdf,Pernot,Gevrey-Chambertin,2022,location,,7,,4·6·CEN / 6·5·IZQ
+POD015932,222 borgoña_blancos.pdf,Marquis de Laguiche,Chassagne-Montrachet 1er Cru Morgeot,2022,location,,3,,8·6·DER / 8·7·CEN
+POD015939,222 borgoña_blancos.pdf,Arnaud Ente,Montmains 1er Cru,2022,location,2,2,7·5·E,7·1·DER / 7·1·IZQ
+POD015942,222 borgoña_blancos.pdf,Arnaud Ente,Fourchaume 1er Cru,2022,location+units,6,8,7·5·B / 7·5·D,7·1·IZQ / 7·8·DER / 7·4·CEN / 7·5·C
+POD016245,222 borgoña_blancos.pdf,Hospices de Beaune,Meursault Clos des Écoles,2022,location,,3,,7·4·CEN
+POD016403,usa_y_sudafrica_TO.pdf,Salem Wine Co.,Chardonnay,2021,location,,3,,9·1·IZQ
+POD016492,usa_y_sudafrica_TO.pdf,Racines,"La Rinconada Vineyard – Lompoc, CA",2019,location,,4,,3·2
+POD016544,usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2015,location,,3,,3·1
+POD016634,222 borgoña_blancos.pdf,Marquis de Laguiche,Montrachet (Grand Cru),—,location,,2,,8·5·E
+POD017286,222 borgoña_blancos.pdf,Raveneau,Butteaux 1er Cru,2015,location,,1,,7·2·IZQ
+POD017288,222 borgoña_blancos.pdf,Hospices de Beaune,Meursault Genevrières 1er Cru,2016,location,,3,,7·2·CEN
+POD017289,222 borgoña_blancos.pdf,Raveneau,Montée de Tonnerre 1er Cru,2015,location,,2,,7·1·DER
+POD017291,222 borgoña_blancos.pdf,Raveneau,Blanchot (Grand Cru),2016,location,,2,,8·5·B
+POD017292,222 borgoña_blancos.pdf,Raveneau,Valmur (Grand Cru),2016,location,,3,,8·2·DER
+POD017374,222 borgoña_tintos.pdf,Les Terres de Philéandre,Savigny-lès-Beaune 1er Cru Les Serpentières,2022,location+units,2,3,4·3·DER,4·1·DER / 4·5·C
+POD017478,usa_y_sudafrica_TO.pdf,Seven Springs,Pinot Noir,2022,location,,5,,7·2·CEN
+POD017490,resto_francia.pdf,Domaine Delaporte,Sancerre ‘Silex’,2022,location,,6,,6·3·DER
+POD017503,usa_y_sudafrica_TO.pdf,Shafer,TD-9 Cabernet Sauvignon – Napa Valley,2021,location,,3,,5·1
+POD017577,222 borgoña_blancos.pdf,Marquis de Laguiche,Montrachet (Grand Cru),2022,location+units,3,2,8·3·IZQ,8·5·E
+POD017725,222 borgoña_blancos.pdf,Raveneau,Montée de Tonnerre 1er Cru,2022,location,,2,,7·2·IZQ
+POD017727,222 borgoña_tintos.pdf,Prieuré Roch,Latricières-Chambertin (Grand Cru),2022,location+units,2,12,5·2·IZQ,5·4·IZQ / 5·7·IZQ
+POD017813,usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2016,location,,2,,3·4
+POD017925,222 borgoña_tintos.pdf,Hubert Lignier,Bourgogne,2022,location+units,2,6,4·6·IZQ,4·7·DER / 4·6·IZQ
+POD017981,resto_francia_italia_blancos.pdf,Château Smith Haut Lafitte,Blanc,2022,location,,3,,10·4·B
+POD018029,usa_y_sudafrica_TO.pdf,Sine Qua Non,Testa dei Cherubini Grenache,2024,location,,1,,7·1·DER
+POD018038,222 borgoña_tintos.pdf,Pacalet,Chapelle-Chambertin (Grand Cru),2019,location,,0,,5·3·CEN
+POD018161,222 borgoña_tintos.pdf,Le Puy de l’Ours,Les Follettes,2023,location,,3,,4·4·DER
+POD018176,222 borgoña_blancos.pdf,Si tu Sais,Pernand-Vergelesses,2023,location,,3,,7·7·DER
+POD018201,usa_y_sudafrica_TO.pdf,Shannon,Mount Bullet – South Africa,2020,location,,6,,10·2·IZQ
+POD018347,usa_y_sudafrica_TO.pdf,Ceritas,Chardonnay – Sonoma County,2022,location,,3,,8·1·IZQ
+POD018353,222 borgoña_tintos.pdf,Jean Grivot,Bourgogne ‘Cuvée Jeunesse’,2023,location+units,2,3,4·7·DER,4·7·CEN
+POD018359,222 borgoña_tintos.pdf,Jean Grivot,Nuits-Saint-Georges ‘Les Fleuries’,2023,location,,5,,4·6·DER / 4·4·DER / 4·1·DER
+POD018439,resto_francia_italia_blancos.pdf,T. Di Paolo,Fiano di Avellino ‘Campore Riserva’,2019,location,3,3,9·6·CEN,10·7·CEN
+POD018702,usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2018,location,,3,,3·1
+POD018703,usa_y_sudafrica_TO.pdf,Promontory,Napa Valley,2019,location,,3,,3·1
+POD018790,resto_francia_italia_blancos.pdf,Tenuta delle Terre Nere,Calderara Sottana (Blanc),2023,location,,1,,10·6·CEN
+POD018873,italia.pdf,Borgogno,Langhe Nebbiolo ‘Rivata’,2023,location,,2,,9·2·IZQ
+POD019206,usa_y_sudafrica_TO.pdf,Besson Frères,Pinot Noir,2022,location,,3,,7·2·IZQ
+POD019223,222 borgoña_tintos.pdf,Pacalet,Vosne-Romanée 1er Cru Les Chaumes,2023,location,,2,,4·8·DER / 5·1·DER
+POD019282,222 borgoña_tintos.pdf,D. de l’Arlot,Nuits-Saint-Georges 1er Cru Clos de l’Arlot,2023,location,,5,,4·1·CEN / 4·3·DER
+POD019284,222 borgoña_tintos.pdf,D. L’Arlot,Romanée-Saint-Vivant (Grand Cru),2023,location,,3,,5·6·IZQ
+POD019308,222 borgoña_tintos.pdf,des Perdrix,Échezeaux (Grand Cru),2023,location,,3,,5·4·DER
+POD019317,222 borgoña_tintos.pdf,Jean Grivot,Romanée-Saint-Vivant (Grand Cru),2023,location,,2,,5·5·C / 5·6·CEN
+POD019361,222 borgoña_blancos.pdf,Vincent Girardin,Meursault Vieilles Vignes,2023,location,,4,,7·3·DER / 8·6·CEN
+POD019372,222 borgoña_blancos.pdf,Lucien Muzard,Saint-Aubin 1er Cru Sur le Sentier du Clou,2023,location,,6,,7·7·IZQ / 4·2·IZQ
+POD019409,222 borgoña_blancos.pdf,Pierre Morey,Puligny-Montrachet 1er Cru Champ Gain,2023,location,,6,,8·1·CEN / 4·3·IZQ
+POD019636,222 borgoña_blancos.pdf,Le Puy de l’Ours,Savigny-lès-Beaune Les Goudelettes,2023,location,,1,,7·7·DER
+POD019757,usa_y_sudafrica_TO.pdf,La Source,Chardonnay,2023,location,,3,,8·4·DER
+POD019768,resto_francia.pdf,Isabel Ferrando (Saint Préfert),Côte-Rôtie ‘Les Grandes Places’,2022,location,,2,,6·4·A
+POD019795,resto_francia_italia_blancos.pdf,Filippi,Foglio 1,2023,location,,1,,10·6·CEN
+POD_TEMP_1010,resto_francia_italia_blancos.pdf,Taittinger,Hermitage Blanc,2022,location,,3,,10·5·IZQ
+POD_TEMP_1021,222 borgoña_tintos.pdf,Michel Lafarge,Bourgogne,2022,location,,3,,4·7·IZQ
+POD_TEMP_1051,222 borgoña_tintos.pdf,Pacalet,Morey-Saint-Denis ‘La Rue de Vergy’,2019,location,,3,,5·7·IZQ
+POD_TEMP_1093,resto_francia.pdf,Isabel Ferrando (Saint Préfert),Châteauneuf-du-Pape,2023,location,,3,,6·4·C
