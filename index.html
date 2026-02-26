@@ -1698,6 +1698,11 @@
             return ['user', 'admin', 'adminmaster'].includes(currentUserRole);
         }
 
+        function getEstablishmentFromPath(path) {
+            const match = String(path || '').match(/^establecimientos\.(bodega|spa|tasca_fina|victoria|galeria)\./);
+            return match ? match[1] : null;
+        }
+
         function normalizeLocationPosToken(rawToken) {
             const token = String(rawToken || '').toUpperCase().replace(/[^A-Z]/g, '');
             if (!token) return null;
@@ -1709,12 +1714,62 @@
             return token.slice(0, 3);
         }
 
-        function normalizeLocationValue(value) {
+        function normalizeVictoriaDoorToken(rawToken) {
+            const token = String(rawToken || '').toUpperCase().replace(/[^A-Z]/g, '');
+            if (!token) return null;
+            if (token.startsWith('IZQ') || token.startsWith('IZQUI')) return 'IZQ';
+            if (token.startsWith('DER') || token.startsWith('DERE')) return 'DER';
+            if (token.startsWith('CEN') || token.startsWith('CENT')) return 'CEN';
+            return null;
+        }
+
+        function normalizeVictoriaLineToken(rawToken) {
+            const token = String(rawToken || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+            if (!token) return null;
+            const ordMap = { PRIMERA: 1, SEGUNDA: 2, TERCERA: 3, CUARTA: 4, QUINTA: 5 };
+            if (ordMap[token]) return `L${ordMap[token]}`;
+            const lineMatch = token.match(/^L(?:INEA)?(\d{1,2})$/);
+            if (lineMatch) return `L${lineMatch[1]}`;
+            if (/^\d{1,2}$/.test(token)) return `L${token}`;
+            return null;
+        }
+
+        function normalizeVictoriaLocationValue(normalized) {
+            const text = String(normalized || '').toUpperCase();
+            if (!text) return null;
+
+            const compact = text.match(/^([A-F])\s+(\d{1,2})(?:\s+([A-Z]{2,4}))?(?:\s+(L?\d{1,2}|PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA))?$/);
+            if (compact) {
+                const door = normalizeVictoriaDoorToken(compact[3]);
+                const line = normalizeVictoriaLineToken(compact[4]);
+                return `${compact[1]}·${compact[2]}${door ? `·${door}` : ''}${line ? `·${line}` : ''}`;
+            }
+
+            const cavaMatch = text.match(/\bCAVA\s*([A-F])\b/);
+            const baldaMatch = text.match(/\bBALDA\s*(\d{1,2})\b/);
+            const doorMatch = normalizeVictoriaDoorToken(text);
+            const lineMatchWord = text.match(/\b(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA)\s+LINEA\b/);
+            const lineMatchNumber = text.match(/\bLINEA\s*(\d{1,2})\b/);
+
+            const cava = cavaMatch?.[1] || null;
+            const balda = baldaMatch?.[1] || null;
+            const line = lineMatchWord
+                ? normalizeVictoriaLineToken(lineMatchWord[1])
+                : (lineMatchNumber ? normalizeVictoriaLineToken(lineMatchNumber[1]) : null);
+
+            if (cava && balda) {
+                return `${cava}·${balda}${doorMatch ? `·${doorMatch}` : ''}${line ? `·${line}` : ''}`;
+            }
+
+            return null;
+        }
+
+        function normalizeLocationValue(value, establishment = null) {
             const raw = value == null ? '' : String(value);
             if (raw.includes('/')) {
                 const parts = raw
                     .split('/')
-                    .map((segment) => normalizeLocationValue(segment))
+                    .map((segment) => normalizeLocationValue(segment, establishment))
                     .filter(Boolean);
                 return parts.length ? parts.join(' / ') : null;
             }
@@ -1724,6 +1779,11 @@
                 .replace(/\s+/g, ' ')
                 .trim();
             if (!normalized) return null;
+
+            if (establishment === 'victoria') {
+                const victoriaNormalized = normalizeVictoriaLocationValue(normalized);
+                if (victoriaNormalized) return victoriaNormalized;
+            }
 
             const directCompact = normalized.match(/^(\d{1,2})\s+(\d{1,2})(?:\s+(IZQ|DER|CEN|EXP|JAM))?$/);
             if (directCompact) {
@@ -1773,16 +1833,39 @@
             return normalized;
         }
 
+        function formatLocationForUi(establishment, value) {
+            const normalized = normalizeLocationValue(value, establishment);
+            if (!normalized) return { compact: null, detail: null, text: null };
+            if (establishment !== 'victoria') return { compact: normalized, detail: null, text: normalized };
+
+            const parts = normalized.split('·').map((p) => p.trim()).filter(Boolean);
+            if (parts.length < 2) return { compact: normalized, detail: null, text: normalized };
+            const compact = `${parts[0]}·${parts[1]}`;
+
+            const detailParts = [];
+            for (const token of parts.slice(2)) {
+                if (token === 'IZQ') detailParts.push('PUERTA IZQ');
+                else if (token === 'DER') detailParts.push('PUERTA DER');
+                else if (token === 'CEN') detailParts.push('PUERTA CEN');
+                else if (/^L\d{1,2}$/.test(token)) detailParts.push(`${token.slice(1)}ª LINEA`);
+                else detailParts.push(token);
+            }
+            const detail = detailParts.length ? detailParts.join(' · ') : null;
+            return { compact, detail, text: detail ? `${compact} (${detail})` : compact };
+        }
+
         function formatLocationInputValue(rawValue, options = {}) {
             const preserveTrailingSeparator = options && options.preserveTrailingSeparator === true;
+            const establishment = options && options.establishment ? options.establishment : null;
             const raw = rawValue == null ? '' : String(rawValue);
             const hasTrailingSeparator = /[·•\s]$/.test(raw);
-            const verboseNormalized = normalizeLocationValue(raw);
-            if (/^[A-Z0-9]{1,2}·[A-Z0-9]{1,2}(?:·[A-Z]{1,3})?$/.test(verboseNormalized || '')) {
+            const verboseNormalized = normalizeLocationValue(raw, establishment);
+            if (/^[A-Z0-9]{1,2}·[A-Z0-9]{1,2}(?:·[A-Z]{1,3})?(?:·L\d{1,2})?$/.test(verboseNormalized || '')) {
                 if (preserveTrailingSeparator && hasTrailingSeparator) {
                     const parts = String(verboseNormalized).split('·');
                     if (parts.length === 1) return `${parts[0]}·`;
                     if (parts.length === 2) return `${parts[0]}·${parts[1]}·`;
+                    if (parts.length === 3 && establishment === 'victoria') return `${parts[0]}·${parts[1]}·${parts[2]}·`;
                 }
                 return verboseNormalized;
             }
@@ -1796,28 +1879,50 @@
             if (!normalized) return '';
 
             let tokens = normalized.split(' ');
+            if (establishment === 'victoria') {
+                if (tokens[0] === 'CAVA' && tokens[1]) tokens = tokens.slice(1);
+                if (tokens[1] === 'BALDA' && tokens[2]) tokens.splice(1, 1);
+            }
             if (tokens.length === 1 && /^\d{2}$/.test(tokens[0])) {
                 tokens = [tokens[0][0], tokens[0][1]];
             }
 
-            const part1 = (tokens[0] || '').replace(/[^A-Z0-9]/g, '').slice(0, 2);
+            const part1 = (tokens[0] || '').replace(/[^A-Z0-9]/g, '').slice(0, establishment === 'victoria' ? 1 : 2);
             const part2 = (tokens[1] || '').replace(/[^A-Z0-9]/g, '').slice(0, 2);
-            const part3Raw = tokens.length > 2 ? tokens.slice(2).join('') : '';
-            const part3 = normalizeLocationPosToken(part3Raw);
+            const part3Raw = tokens.length > 2 ? tokens[2] : '';
+            const part4Raw = tokens.length > 3 ? tokens[3] : '';
+
+            const part3 = establishment === 'victoria'
+                ? (normalizeVictoriaDoorToken(part3Raw) || String(part3Raw || '').replace(/[^A-Z]/g, '').slice(0, 3) || null)
+                : normalizeLocationPosToken(tokens.length > 2 ? tokens.slice(2).join('') : '');
+            const part4 = establishment === 'victoria'
+                ? normalizeVictoriaLineToken(part4Raw)
+                : null;
 
             if (!part1) return '';
             if (!part2) return preserveTrailingSeparator && hasTrailingSeparator ? `${part1}·` : part1;
             if (!part3) return `${part1}·${part2}${preserveTrailingSeparator && hasTrailingSeparator ? '·' : ''}`;
-            return `${part1}·${part2}·${part3}`;
+            if (!part4) {
+                if (establishment === 'victoria') {
+                    return `${part1}·${part2}·${part3}${preserveTrailingSeparator && hasTrailingSeparator ? '·' : ''}`;
+                }
+                return `${part1}·${part2}·${part3}`;
+            }
+            return `${part1}·${part2}·${part3}·${part4}`;
         }
 
         function setupLocationInputsMask() {
-            const ids = ['editSpaLoc', 'editTascaLoc', 'editVictoriaLoc', 'editGaleriaLoc'];
-            ids.forEach((id) => {
+            const fieldMap = {
+                editSpaLoc: 'spa',
+                editTascaLoc: 'tasca_fina',
+                editVictoriaLoc: 'victoria',
+                editGaleriaLoc: 'galeria'
+            };
+            Object.entries(fieldMap).forEach(([id, establishment]) => {
                 const input = document.getElementById(id);
                 if (!input || input.dataset.locationMaskBound === '1') return;
                 input.dataset.locationMaskBound = '1';
-                input.setAttribute('maxlength', '10');
+                input.setAttribute('maxlength', establishment === 'victoria' ? '16' : '10');
                 input.setAttribute('autocapitalize', 'characters');
                 input.setAttribute('spellcheck', 'false');
 
@@ -1825,7 +1930,7 @@
                     if (event.key !== ' ') return;
                     event.preventDefault();
                     const withVirtualSpace = `${input.value || ''} `;
-                    const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true });
+                    const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true, establishment });
                     input.value = formatted;
                     const caret = input.value.length;
                     input.setSelectionRange(caret, caret);
@@ -1836,19 +1941,19 @@
                     if (event.data !== ' ' && event.data !== '\u00A0') return;
                     event.preventDefault();
                     const withVirtualSpace = `${input.value || ''} `;
-                    const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true });
+                    const formatted = formatLocationInputValue(withVirtualSpace, { preserveTrailingSeparator: true, establishment });
                     input.value = formatted;
                     const caret = input.value.length;
                     input.setSelectionRange(caret, caret);
                 });
 
                 input.addEventListener('input', () => {
-                    const formatted = formatLocationInputValue(input.value, { preserveTrailingSeparator: true });
+                    const formatted = formatLocationInputValue(input.value, { preserveTrailingSeparator: true, establishment });
                     if (input.value !== formatted) input.value = formatted;
                 });
 
                 input.addEventListener('blur', () => {
-                    const normalized = normalizeLocationValue(input.value) || '';
+                    const normalized = normalizeLocationValue(input.value, establishment) || '';
                     input.value = normalized;
                 });
             });
@@ -2257,8 +2362,9 @@
             editList.forEach((edit) => {
                 const ref = refs.find((item) => item.pod === edit.pod);
                 if (!ref) return;
+                const establishment = getEstablishmentFromPath(edit.path);
                 const nextValue = String(edit.path || '').endsWith('.localizacion')
-                    ? normalizeLocationValue(edit.value)
+                    ? normalizeLocationValue(edit.value, establishment)
                     : edit.value;
                 setNestedValue(ref, edit.path, nextValue);
             });
@@ -2469,7 +2575,7 @@
 
         function getDisplayLocation(ref) {
             if (currentFilter !== 'todos') {
-                return normalizeLocationValue(ref.establecimientos?.[currentFilter]?.localizacion);
+                return formatLocationForUi(currentFilter, ref.establecimientos?.[currentFilter]?.localizacion).text;
             }
             return null; // No location in TODOS mode (varies by establishment)
         }
@@ -3000,7 +3106,7 @@
                 if (!prefix) return;
                 document.getElementById(`est${prefix}Pvp`).textContent = fmtPrice(est?.pvp);
                 document.getElementById(`est${prefix}Stock`).textContent = fmt(est?.unidades);
-                document.getElementById(`est${prefix}Loc`).textContent = fmt(normalizeLocationValue(est?.localizacion));
+                document.getElementById(`est${prefix}Loc`).textContent = fmt(formatLocationForUi(k, est?.localizacion).text);
             });
 
             // Reset edit form
@@ -3050,7 +3156,7 @@
                     stockInput.disabled = !canEditScope;
                 }
                 if (locInput) {
-                    locInput.value = normalizeLocationValue(est.localizacion) || '';
+                    locInput.value = normalizeLocationValue(est.localizacion, k) || '';
                     locInput.disabled = !canEditScope;
                 }
             });
@@ -3095,8 +3201,8 @@
                     hasChanges = true;
                 }
 
-                const loc = normalizeLocationValue(document.getElementById(`edit${prefix}Loc`).value);
-                if (loc !== normalizeLocationValue(est.localizacion)) {
+                const loc = normalizeLocationValue(document.getElementById(`edit${prefix}Loc`).value, k);
+                if (loc !== normalizeLocationValue(est.localizacion, k)) {
                     est.localizacion = loc;
                     saveEdit(currentEditPod, `establecimientos.${k}.localizacion`, loc);
                     hasChanges = true;

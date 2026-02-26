@@ -54,9 +54,9 @@ function loadPodsWithCatalogLocation() {
         if (!pod) return;
         const est = isPlainObject(ref?.establecimientos) ? ref.establecimientos : null;
         if (!est) return;
-        const hasLocation = Object.values(est).some((entry) => {
+        const hasLocation = Object.entries(est).some(([establishment, entry]) => {
           if (!isPlainObject(entry)) return false;
-          return normalizeLocationValue(entry.localizacion) != null;
+          return normalizeLocationValue(entry.localizacion, establishment) != null;
         });
         if (hasLocation) pods.add(pod);
       });
@@ -268,12 +268,58 @@ function normalizeLocationPosToken(rawToken) {
   return token.slice(0, 3);
 }
 
-function normalizeLocationValue(value) {
+function normalizeVictoriaDoorToken(rawToken) {
+  const token = String(rawToken || '').toUpperCase().replace(/[^A-Z]/g, '');
+  if (!token) return null;
+  if (token.startsWith('IZQ') || token.startsWith('IZQUI')) return 'IZQ';
+  if (token.startsWith('DER') || token.startsWith('DERE')) return 'DER';
+  if (token.startsWith('CEN') || token.startsWith('CENT')) return 'CEN';
+  return null;
+}
+
+function normalizeVictoriaLineToken(rawToken) {
+  const token = String(rawToken || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (!token) return null;
+  const ordMap = { PRIMERA: 1, SEGUNDA: 2, TERCERA: 3, CUARTA: 4, QUINTA: 5 };
+  if (ordMap[token]) return `L${ordMap[token]}`;
+  const lineMatch = token.match(/^L(?:INEA)?(\d{1,2})$/);
+  if (lineMatch) return `L${lineMatch[1]}`;
+  if (/^\d{1,2}$/.test(token)) return `L${token}`;
+  return null;
+}
+
+function normalizeVictoriaLocationValue(normalized) {
+  const text = String(normalized || '').toUpperCase();
+  if (!text) return null;
+
+  const compact = text.match(/^([A-F])\s+(\d{1,2})(?:\s+([A-Z]{2,4}))?(?:\s+(L?\d{1,2}|PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA))?$/);
+  if (compact) {
+    const door = normalizeVictoriaDoorToken(compact[3]);
+    const line = normalizeVictoriaLineToken(compact[4]);
+    return `${compact[1]}·${compact[2]}${door ? `·${door}` : ''}${line ? `·${line}` : ''}`;
+  }
+
+  const cavaMatch = text.match(/\bCAVA\s*([A-F])\b/);
+  const baldaMatch = text.match(/\bBALDA\s*(\d{1,2})\b/);
+  const doorMatch = normalizeVictoriaDoorToken(text);
+  const lineMatchWord = text.match(/\b(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA)\s+LINEA\b/);
+  const lineMatchNumber = text.match(/\bLINEA\s*(\d{1,2})\b/);
+
+  const cava = cavaMatch?.[1] || null;
+  const balda = baldaMatch?.[1] || null;
+  const line = lineMatchWord
+    ? normalizeVictoriaLineToken(lineMatchWord[1])
+    : (lineMatchNumber ? normalizeVictoriaLineToken(lineMatchNumber[1]) : null);
+  if (cava && balda) return `${cava}·${balda}${doorMatch ? `·${doorMatch}` : ''}${line ? `·${line}` : ''}`;
+  return null;
+}
+
+function normalizeLocationValue(value, establishment = null) {
   const raw = value == null ? '' : String(value);
   if (raw.includes('/')) {
     const parts = raw
       .split('/')
-      .map((segment) => normalizeLocationValue(segment))
+      .map((segment) => normalizeLocationValue(segment, establishment))
       .filter(Boolean);
     return parts.length ? parts.join(' / ') : null;
   }
@@ -283,6 +329,11 @@ function normalizeLocationValue(value) {
     .replace(/\s+/g, ' ')
     .trim();
   if (!normalized) return null;
+
+  if (establishment === 'victoria') {
+    const victoriaNormalized = normalizeVictoriaLocationValue(normalized);
+    if (victoriaNormalized) return victoriaNormalized;
+  }
 
   const directCompact = normalized.match(/^(\d{1,2})\s+(\d{1,2})(?:\s+(IZQ|DER|CEN|EXP|JAM))?$/);
   if (directCompact) {
@@ -339,7 +390,8 @@ function normalizeLocationEditsInState(state) {
     if (!isPlainObject(edit)) return edit;
     const path = String(edit.path || '');
     if (!path.endsWith('.localizacion')) return edit;
-    const normalized = normalizeLocationValue(edit.value);
+    const pathInfo = parseEditPath(path);
+    const normalized = normalizeLocationValue(edit.value, pathInfo?.establishment || null);
     if (normalized === edit.value) return edit;
     changed = true;
     return { ...edit, value: normalized };
@@ -357,7 +409,8 @@ function cleanupLegacyNullLocationEdits(state) {
     if (!isPlainObject(edit)) return false;
     if (!String(edit.path || '').endsWith('.localizacion')) return true;
     if (!podsWithCatalogLocation.has(String(edit.pod || ''))) return true;
-    if (normalizeLocationValue(edit.value) != null) return true;
+    const pathInfo = parseEditPath(edit.path);
+    if (normalizeLocationValue(edit.value, pathInfo?.establishment || null) != null) return true;
 
     const updatedAtMs = Date.parse(String(edit.updatedAt || ''));
     if (!Number.isFinite(updatedAtMs) || updatedAtMs < LOCATION_NULL_CLEANUP_CUTOFF) {
@@ -430,7 +483,7 @@ function applyEditMutation(state, payload, user) {
 
   let nextValue = payload.value;
   if (pathInfo.field === 'localizacion') {
-    nextValue = normalizeLocationValue(payload.value);
+    nextValue = normalizeLocationValue(payload.value, pathInfo.establishment);
   } else if (pathInfo.field === 'pvp') {
     if (payload.value === '' || payload.value == null) {
       nextValue = null;
