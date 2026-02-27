@@ -1,0 +1,4149 @@
+{
+  "timestamp_utc": "2026-02-27T18:13:06.069581+00:00",
+  "mode": "apply",
+  "pdf_source": "/Users/0xmanel/cava-metropolis/scripts/tasca fina 18 de febrero (3).pdf",
+  "rows_extracted": 308,
+  "rows_matched": 278,
+  "rows_unmatched": 30,
+  "matched_unique_pods": 264,
+  "updates_applied": 264,
+  "tasca_locations_to_apply_unique": 139,
+  "top_unmatched_names_normalized": [
+    [
+      "andre heucq",
+      1
+    ],
+    [
+      "krug rose 28eme edition",
+      1
+    ],
+    [
+      "laherte frerers blanc de noirs brut nature",
+      1
+    ],
+    [
+      "laherte frerers rose de meunier extra brut",
+      1
+    ],
+    [
+      "el cerrico",
+      1
+    ],
+    [
+      "kalamity",
+      1
+    ],
+    [
+      "la llorona",
+      1
+    ],
+    [
+      "motor blanco",
+      1
+    ],
+    [
+      "valtuillle",
+      1
+    ],
+    [
+      "vidonia",
+      1
+    ],
+    [
+      "tramin",
+      1
+    ],
+    [
+      "win 0",
+      1
+    ],
+    [
+      "aciano",
+      1
+    ],
+    [
+      "alto de la cruz",
+      1
+    ],
+    [
+      "anza la canoca",
+      1
+    ],
+    [
+      "ausas",
+      1
+    ],
+    [
+      "bosque de matasnos edicion limitada",
+      1
+    ],
+    [
+      "la muria",
+      1
+    ],
+    [
+      "lindes de remelluri salinillas de buradon",
+      1
+    ],
+    [
+      "malpuesto",
+      1
+    ],
+    [
+      "paydos",
+      1
+    ],
+    [
+      "roc",
+      1
+    ],
+    [
+      "seoane novelle mencia",
+      1
+    ],
+    [
+      "suane",
+      1
+    ],
+    [
+      "suelos",
+      1
+    ],
+    [
+      "v o",
+      1
+    ],
+    [
+      "viariz",
+      1
+    ],
+    [
+      "poeirinho",
+      1
+    ],
+    [
+      "van zellers tawny 30 anos",
+      1
+    ],
+    [
+      "roda i 50cl",
+      1
+    ]
+  ],
+  "preview_first_150": [
+    {
+      "pod": "POD001012",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 0.8846,
+      "avg_coverage": 0.75
+    },
+    {
+      "pod": "POD001610",
+      "rows_count": 2,
+      "locations_count": 2,
+      "localizacion": "3·4B·CEN / 3·EXP·B_IZQ",
+      "avg_score": 0.927,
+      "avg_coverage": 0.875
+    },
+    {
+      "pod": "POD001893",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·EXP·B_DER",
+      "avg_score": 1.0296,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD002031",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·11·DER",
+      "avg_score": 0.9329,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD002035",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·10·DER",
+      "avg_score": 0.942,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD002122",
+      "rows_count": 2,
+      "locations_count": 2,
+      "localizacion": "2·SUELO·DER / 2·SUELO·IZQ",
+      "avg_score": 0.8475,
+      "avg_coverage": 0.75
+    },
+    {
+      "pod": "POD002123",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·SUELO·CEN",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD002172",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 0.8936,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD002175",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 0.8718,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD002176",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 0.7843,
+      "avg_coverage": 0.8
+    },
+    {
+      "pod": "POD003990",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·3·CEN",
+      "avg_score": 0.9273,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD004085",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·11·CEN",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD007711",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·1·IZQ",
+      "avg_score": 0.9491,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD008480",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 0.7622,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD009662",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·5·DER",
+      "avg_score": 1.0249,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD010351",
+      "rows_count": 4,
+      "locations_count": 1,
+      "localizacion": "3·4B·IZQ",
+      "avg_score": 1.0019,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD010610",
+      "rows_count": 2,
+      "locations_count": 1,
+      "localizacion": "3·4A·CEN",
+      "avg_score": 0.9281,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD010889",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·1·DER",
+      "avg_score": 0.8857,
+      "avg_coverage": 0.8
+    },
+    {
+      "pod": "POD010891",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·1·DER",
+      "avg_score": 0.871,
+      "avg_coverage": 0.6
+    },
+    {
+      "pod": "POD011169",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·EXP·B_DER",
+      "avg_score": 1.0789,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD011324",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·IZQ",
+      "avg_score": 1.0296,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD011326",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·CEN",
+      "avg_score": 1.0632,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD011366",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·EXP·B_IZQ",
+      "avg_score": 1.01,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD011499",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·SUELO·IZQ",
+      "avg_score": 1.1023,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD011910",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·SUELO·CEN",
+      "avg_score": 0.8418,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012038",
+      "rows_count": 2,
+      "locations_count": 1,
+      "localizacion": "3·4B·CEN",
+      "avg_score": 0.87,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012107",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·EXP·CEN",
+      "avg_score": 0.9879,
+      "avg_coverage": 0.75
+    },
+    {
+      "pod": "POD012358",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·3·IZQ",
+      "avg_score": 1.0489,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012413",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·4A·IZQ",
+      "avg_score": 0.8311,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD012738",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·8·CEN",
+      "avg_score": 0.8482,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD012772",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·9·DER",
+      "avg_score": 0.837,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD012811",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·9·DER",
+      "avg_score": 1.07,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012819",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·7·CEN",
+      "avg_score": 0.9479,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012820",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·6·CEN",
+      "avg_score": 0.7314,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012837",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·11·CEN",
+      "avg_score": 0.9259,
+      "avg_coverage": 0.75
+    },
+    {
+      "pod": "POD012850",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·8·CEN",
+      "avg_score": 1.0416,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012861",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·11·IZQ",
+      "avg_score": 0.8473,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD012906",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·9·CEN",
+      "avg_score": 1.07,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012953",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·3·DER",
+      "avg_score": 0.8921,
+      "avg_coverage": 0.75
+    },
+    {
+      "pod": "POD012985",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·1·DER",
+      "avg_score": 0.9835,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012988",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·0·CEN",
+      "avg_score": 0.9845,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD012990",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·10·CEN",
+      "avg_score": 1.0277,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013106",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·3·IZQ",
+      "avg_score": 0.8741,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD013121",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·11·IZQ",
+      "avg_score": 0.8178,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013154",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·3·DER",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013255",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·5·DER",
+      "avg_score": 1.0021,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013279",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 1.0743,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013423",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·EXP·INT",
+      "avg_score": 0.9867,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD013497",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·6·CEN",
+      "avg_score": 1.1055,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013538",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·1·CEN",
+      "avg_score": 0.9026,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD013635",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·SUELO·DER",
+      "avg_score": 0.9044,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013688",
+      "rows_count": 3,
+      "locations_count": 1,
+      "localizacion": "3·5·IZQ",
+      "avg_score": 1.16,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013696",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·9·IZQ",
+      "avg_score": 1.0831,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013749",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·10·IZQ",
+      "avg_score": 1.0789,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013785",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·8·IZQ",
+      "avg_score": 1.0171,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD013977",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·EXP·IZQ",
+      "avg_score": 1.0789,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014013",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·2·DER",
+      "avg_score": 0.9818,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014053",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·7·IZQ",
+      "avg_score": 0.9457,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014054",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·5·CEN",
+      "avg_score": 0.7867,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD014102",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·0·CEN",
+      "avg_score": 1.0566,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014152",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·EXP·B_DER",
+      "avg_score": 1.0632,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014241",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·8·CEN",
+      "avg_score": 1.0433,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014777",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·6·DER",
+      "avg_score": 1.0475,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD014990",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·9·IZQ",
+      "avg_score": 1.0723,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015030",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 1.0052,
+      "avg_coverage": 0.8333
+    },
+    {
+      "pod": "POD015112",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·3·DER",
+      "avg_score": 0.9029,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015204",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·3·CEN",
+      "avg_score": 0.88,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD015259",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·SUELO·CEN",
+      "avg_score": 1.16,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015270",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·8·IZQ",
+      "avg_score": 1.1092,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015343",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·8·IZQ",
+      "avg_score": 1.06,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015371",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·IZQ",
+      "avg_score": 1.0171,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015491",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·7·CEN",
+      "avg_score": 0.8809,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015579",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·SUELO·IZQ",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015674",
+      "rows_count": 2,
+      "locations_count": 2,
+      "localizacion": "1·3·CEN / 3·8·IZQ",
+      "avg_score": 0.9132,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015729",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·6·DER",
+      "avg_score": 1.0962,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015749",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·CEN",
+      "avg_score": 1.0824,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015818",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·4·IZQ",
+      "avg_score": 1.0092,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015910",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·2·CEN",
+      "avg_score": 1.0088,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015923",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·2·DER",
+      "avg_score": 0.8791,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015969",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·IZQ",
+      "avg_score": 1.0296,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015972",
+      "rows_count": 2,
+      "locations_count": 2,
+      "localizacion": "1·10·IZQ / 4·SUELO·IZQ",
+      "avg_score": 0.9014,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015983",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·CEN",
+      "avg_score": 0.8978,
+      "avg_coverage": 0.0
+    },
+    {
+      "pod": "POD015987",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·11·IZQ",
+      "avg_score": 1.0021,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015991",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·DER",
+      "avg_score": 1.0171,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015993",
+      "rows_count": 2,
+      "locations_count": 2,
+      "localizacion": "1·10·DER / 4·SUELO·DER",
+      "avg_score": 1.07,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD015996",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·10·DER",
+      "avg_score": 1.0296,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016006",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·SUELO·IZQ",
+      "avg_score": 1.0424,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016022",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·7·IZQ",
+      "avg_score": 0.91,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016043",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016046",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016047",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 1.04,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016049",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "JAM",
+      "avg_score": 0.8861,
+      "avg_coverage": 0.8333
+    },
+    {
+      "pod": "POD016113",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·9·DER",
+      "avg_score": 1.0831,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016116",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·6·CEN",
+      "avg_score": 1.0831,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016177",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·8·IZQ",
+      "avg_score": 0.7946,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016186",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·10·CEN",
+      "avg_score": 1.0831,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016263",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·SUELO·CEN",
+      "avg_score": 0.7526,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016411",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·4B·DER",
+      "avg_score": 0.7759,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016413",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·0·DER",
+      "avg_score": 1.0575,
+      "avg_coverage": 0.8
+    },
+    {
+      "pod": "POD016416",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·EXP·CEN",
+      "avg_score": 0.7253,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD016437",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·5·CEN",
+      "avg_score": 0.8966,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD016481",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·2·CEN",
+      "avg_score": 1.0868,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016538",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·6·IZQ",
+      "avg_score": 0.8267,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016562",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·11·CEN",
+      "avg_score": 0.945,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016563",
+      "rows_count": 2,
+      "locations_count": 2,
+      "localizacion": "2·EXP·INT / 3·2·CEN",
+      "avg_score": 0.915,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD016565",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·1·DER",
+      "avg_score": 0.86,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016574",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·4·DER",
+      "avg_score": 1.1034,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016678",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·4A·CEN",
+      "avg_score": 0.9827,
+      "avg_coverage": 0.6
+    },
+    {
+      "pod": "POD016819",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·7·DER",
+      "avg_score": 0.8674,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016820",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·7·DER",
+      "avg_score": 1.1124,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016869",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·10·CEN",
+      "avg_score": 1.0868,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016879",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·4A·DER",
+      "avg_score": 0.9835,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016928",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·8·DER",
+      "avg_score": 0.8665,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016940",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·9·CEN",
+      "avg_score": 0.8123,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD016949",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·0·DER",
+      "avg_score": 1.0902,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016957",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·6·DER",
+      "avg_score": 1.0566,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016961",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·SUELO·IZQ",
+      "avg_score": 0.9292,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016962",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·SUELO·DER",
+      "avg_score": 1.01,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016964",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·SUELO·IZQ",
+      "avg_score": 1.0024,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD016966",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·EXP·DER",
+      "avg_score": 1.0831,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016972",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·9·DER",
+      "avg_score": 1.0529,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD016992",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·10·IZQ",
+      "avg_score": 0.9968,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017027",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·ATICO",
+      "avg_score": 0.8267,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017109",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·EXP·CEN",
+      "avg_score": 0.7541,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD017118",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·5·IZQ",
+      "avg_score": 1.0171,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017140",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·9·CEN",
+      "avg_score": 1.0577,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017147",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·4A·IZQ",
+      "avg_score": 0.8157,
+      "avg_coverage": 0.8
+    },
+    {
+      "pod": "POD017148",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·9·IZQ",
+      "avg_score": 0.7433,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017192",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·10·DER",
+      "avg_score": 0.8411,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017199",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·8·CEN",
+      "avg_score": 1.1074,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017212",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·5·DER",
+      "avg_score": 0.9396,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017227",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·0·DER",
+      "avg_score": 1.0575,
+      "avg_coverage": 0.8
+    },
+    {
+      "pod": "POD017253",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·4·CEN",
+      "avg_score": 1.0057,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017258",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·12·DER",
+      "avg_score": 1.0868,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017277",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·3·DER",
+      "avg_score": 0.7546,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017301",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·12·CEN",
+      "avg_score": 1.0021,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017305",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·4A·IZQ",
+      "avg_score": 0.9662,
+      "avg_coverage": 0.8
+    },
+    {
+      "pod": "POD017306",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·8·DER",
+      "avg_score": 0.7418,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017351",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·8·IZQ",
+      "avg_score": 1.1034,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017361",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·10·CEN",
+      "avg_score": 1.0192,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017404",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "3·0·CEN",
+      "avg_score": 0.8927,
+      "avg_coverage": 0.6667
+    },
+    {
+      "pod": "POD017479",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·EXP·B_IZQ",
+      "avg_score": 1.0632,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017483",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·7·CEN",
+      "avg_score": 0.8615,
+      "avg_coverage": 0.75
+    },
+    {
+      "pod": "POD017492",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·7·IZQ",
+      "avg_score": 0.9271,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017538",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·3·DER",
+      "avg_score": 1.0824,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017564",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·12·DER",
+      "avg_score": 1.0171,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017568",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "1·6·DER",
+      "avg_score": 0.88,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD017593",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·5·IZQ",
+      "avg_score": 0.8473,
+      "avg_coverage": 0.5
+    },
+    {
+      "pod": "POD017626",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "4·1·DER",
+      "avg_score": 0.91,
+      "avg_coverage": 1.0
+    },
+    {
+      "pod": "POD017633",
+      "rows_count": 1,
+      "locations_count": 1,
+      "localizacion": "2·8·CEN",
+      "avg_score": 0.8319,
+      "avg_coverage": 1.0
+    }
+  ],
+  "matched_first_200": [
+    {
+      "pod": "POD004085",
+      "name": "Bereche et Fils Brut Reserve",
+      "ano": "NV",
+      "qty": "2",
+      "pos": "CAV 2 - 11 CEN",
+      "compact_loc": "2·11·CEN",
+      "score": 1.04,
+      "margin": 0.3733,
+      "coverage": 1.0,
+      "matched_bodega": "Bereche et Fils",
+      "matched_desc": "Bereche et Fils Brut Reserve-"
+    },
+    {
+      "pod": "POD002031",
+      "name": "Billecart Salmon Le Reserve",
+      "ano": "NV",
+      "qty": "2",
+      "pos": "CAV 2 - 11 DER",
+      "compact_loc": "2·11·DER",
+      "score": 0.9329,
+      "margin": 0.0995,
+      "coverage": 1.0,
+      "matched_bodega": "Billecart-Salmon",
+      "matched_desc": "Billecart Salmon Brut Reserve-"
+    },
+    {
+      "pod": "POD002035",
+      "name": "Bollinger Special Cuvée",
+      "ano": "NV",
+      "qty": "2",
+      "pos": "CAV 2 - 10 DER",
+      "compact_loc": "2·10·DER",
+      "score": 0.942,
+      "margin": 0.363,
+      "coverage": 1.0,
+      "matched_bodega": "Bollinger",
+      "matched_desc": "Bollinger Special Cuvee Brut-"
+    },
+    {
+      "pod": "POD018863",
+      "name": "Comtes de Champagne",
+      "ano": "2014",
+      "qty": "1",
+      "pos": "CAV 2 - EXP DER",
+      "compact_loc": "2·EXP·DER",
+      "score": 0.8908,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Taittinger",
+      "matched_desc": "Taittinger Comtes de Champagne 14-"
+    },
+    {
+      "pod": "POD013977",
+      "name": "Dom Perignon Rosé",
+      "ano": "2009",
+      "qty": "1",
+      "pos": "CAV 2 - EXP IZQ",
+      "compact_loc": "2·EXP·IZQ",
+      "score": 1.0789,
+      "margin": 0.2923,
+      "coverage": 1.0,
+      "matched_bodega": "Dom Perignon",
+      "matched_desc": "Dom Perignon Rose 09-"
+    },
+    {
+      "pod": "POD013154",
+      "name": "Laherte Freres Ultradition",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 2 - 3 DER",
+      "compact_loc": "2·3·DER",
+      "score": 1.04,
+      "margin": 0.3317,
+      "coverage": 1.0,
+      "matched_bodega": "Laherte Freres",
+      "matched_desc": "Laherte Frères Ultradition-"
+    },
+    {
+      "pod": "POD012837",
+      "name": "Louis Roederer Collection 246",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 2 - 11 CEN",
+      "compact_loc": "2·11·CEN",
+      "score": 0.9259,
+      "margin": 0.2222,
+      "coverage": 0.75,
+      "matched_bodega": "Louis Roederer",
+      "matched_desc": "Louis Roederer Collection -"
+    },
+    {
+      "pod": "POD012107",
+      "name": "Louis Roederer Cristal Rosé",
+      "ano": "2014",
+      "qty": "1",
+      "pos": "CAV 2 - EXP CEN",
+      "compact_loc": "2·EXP·CEN",
+      "score": 0.9879,
+      "margin": 0.1033,
+      "coverage": 0.75,
+      "matched_bodega": "Louis Roederer",
+      "matched_desc": "L. Roederer Cristal Rose 14-"
+    },
+    {
+      "pod": "POD002122",
+      "name": "Ruinart Blanc de Blancs Brut",
+      "ano": "NV",
+      "qty": "8",
+      "pos": "CAV 2 - SUELO IZQ",
+      "compact_loc": "2·SUELO·IZQ",
+      "score": 0.902,
+      "margin": 0.2097,
+      "coverage": 0.75,
+      "matched_bodega": "Ruinart",
+      "matched_desc": "Ruinart Blanc de Blancs-"
+    },
+    {
+      "pod": "POD002122",
+      "name": "Ruinart Blanc de Blancs Brut Magnum",
+      "ano": "NV",
+      "qty": "1",
+      "pos": "CAV 2 - SUELO DER",
+      "compact_loc": "2·SUELO·DER",
+      "score": 0.7931,
+      "margin": 0.1829,
+      "coverage": 0.75,
+      "matched_bodega": "Ruinart",
+      "matched_desc": "Ruinart Blanc de Blancs-"
+    },
+    {
+      "pod": "POD002123",
+      "name": "Ruinart Rosé",
+      "ano": "NV",
+      "qty": "4",
+      "pos": "CAV 2 - SUELO CEN",
+      "compact_loc": "2·SUELO·CEN",
+      "score": 1.04,
+      "margin": 0.2258,
+      "coverage": 1.0,
+      "matched_bodega": "Ruinart",
+      "matched_desc": "Ruinart Rose-"
+    },
+    {
+      "pod": "POD016992",
+      "name": "Gramona III Lustros",
+      "ano": "2017",
+      "qty": "2",
+      "pos": "CAV 2 - 10 IZQ",
+      "compact_loc": "2·10·IZQ",
+      "score": 0.9968,
+      "margin": 0.4179,
+      "coverage": 1.0,
+      "matched_bodega": "Gramona",
+      "matched_desc": "Gramona III Lustros 16-"
+    },
+    {
+      "pod": "POD015204",
+      "name": "Gramona Imperial Brut",
+      "ano": "2020",
+      "qty": "4",
+      "pos": "CAV 2 - 3 CEN",
+      "compact_loc": "2·3·CEN",
+      "score": 0.88,
+      "margin": 0.2752,
+      "coverage": 0.6667,
+      "matched_bodega": "Gramona",
+      "matched_desc": "Gramona Imperial 19-"
+    },
+    {
+      "pod": "POD012861",
+      "name": "Gramona Roent Rosé",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 2 - 11 IZQ",
+      "compact_loc": "2·11·IZQ",
+      "score": 0.8473,
+      "margin": 0.1806,
+      "coverage": 0.6667,
+      "matched_bodega": "Gramona",
+      "matched_desc": "Gramona Rose 22 -"
+    },
+    {
+      "pod": "POD013106",
+      "name": "Mestres Coquet Brut Nature Gran Rva",
+      "ano": "2019",
+      "qty": "4",
+      "pos": "CAV 2 - 3 IZQ",
+      "compact_loc": "2·3·IZQ",
+      "score": 0.8741,
+      "margin": 0.1253,
+      "coverage": 0.5,
+      "matched_bodega": "Mestres",
+      "matched_desc": "Mestres Coquet BN G Rva 19-"
+    },
+    {
+      "pod": "POD017361",
+      "name": "Raventós i Blanc De la Finca",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 2 - 10 CEN",
+      "compact_loc": "2·10·CEN",
+      "score": 1.0192,
+      "margin": 0.3525,
+      "coverage": 1.0,
+      "matched_bodega": "Raventós i Blanc",
+      "matched_desc": "Raventos i Blanc De la Finca 21-"
+    },
+    {
+      "pod": "POD012990",
+      "name": "Raventós i Blanc Textures de Pedra",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 2 - 10 CEN",
+      "compact_loc": "2·10·CEN",
+      "score": 1.0277,
+      "margin": 0.3516,
+      "coverage": 1.0,
+      "matched_bodega": "Raventós i Blanc",
+      "matched_desc": "Raventos i Blanc Textures de Pedra 19-"
+    },
+    {
+      "pod": "POD013121",
+      "name": "Recaredo Intens Rosat",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 2 - 11 IZQ",
+      "compact_loc": "2·11·IZQ",
+      "score": 0.8178,
+      "margin": 0.1678,
+      "coverage": 1.0,
+      "matched_bodega": "Recaredo",
+      "matched_desc": "Recaredo Intens Rosat BN G Rva 20-"
+    },
+    {
+      "pod": "POD018655",
+      "name": "Recaredo Terrers",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 2 - 10 IZQ",
+      "compact_loc": "2·10·IZQ",
+      "score": 1.0743,
+      "margin": 0.3897,
+      "coverage": 1.0,
+      "matched_bodega": "Recaredo",
+      "matched_desc": "Recaredo Terrers 20-"
+    },
+    {
+      "pod": "POD013635",
+      "name": "Torelló 225",
+      "ano": "2018",
+      "qty": "2",
+      "pos": "CAV 2 - SUELO DER",
+      "compact_loc": "2·SUELO·DER",
+      "score": 0.9044,
+      "margin": 0.2957,
+      "coverage": 1.0,
+      "matched_bodega": "Torelló",
+      "matched_desc": "Torello 225 Brut 18-"
+    },
+    {
+      "pod": "POD019466",
+      "name": "4 Monos Albillo real",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 5 IZQ",
+      "compact_loc": "2·5·IZQ",
+      "score": 1.0902,
+      "margin": 0.4061,
+      "coverage": 1.0,
+      "matched_bodega": "4 Monos",
+      "matched_desc": "4 Monos Albillo Real 23-"
+    },
+    {
+      "pod": "POD017871",
+      "name": "A pedreira",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 1 DER",
+      "compact_loc": "4·1·DER",
+      "score": 0.7482,
+      "margin": 0.0516,
+      "coverage": 1.0,
+      "matched_bodega": "Fulcro",
+      "matched_desc": "Fulcro Finca Pedreira 24-"
+    },
+    {
+      "pod": "POD018553",
+      "name": "Abadia da Cova Lola",
+      "ano": "2024",
+      "qty": "1",
+      "pos": "CAV 4 - 3 DER",
+      "compact_loc": "4·3·DER",
+      "score": 0.9382,
+      "margin": 0.3857,
+      "coverage": 0.6667,
+      "matched_bodega": "Adegas Moure",
+      "matched_desc": "Abadia Da Cova Loia BL 24-"
+    },
+    {
+      "pod": "POD012953",
+      "name": "Abadía da Cova Pedras Líquidas",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 4 - 3 DER",
+      "compact_loc": "4·3·DER",
+      "score": 0.8921,
+      "margin": 0.2075,
+      "coverage": 0.75,
+      "matched_bodega": "Adegas Moure",
+      "matched_desc": "A da Cova Pedras Líquidas 22-"
+    },
+    {
+      "pod": "POD015923",
+      "name": "Abadia Retuerta Le Domaine",
+      "ano": "2018",
+      "qty": "2",
+      "pos": "CAV 4 - 2 DER",
+      "compact_loc": "4·2·DER",
+      "score": 0.8791,
+      "margin": 0.0628,
+      "coverage": 1.0,
+      "matched_bodega": "Abadía Retuerta",
+      "matched_desc": "Abadía Retuerta Le Domaine 23-"
+    },
+    {
+      "pod": "POD019766",
+      "name": "Abel Mendoza Viura",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 3 - 3 IZQ",
+      "compact_loc": "3·3·IZQ",
+      "score": 1.0831,
+      "margin": 0.1797,
+      "coverage": 1.0,
+      "matched_bodega": "Abel Mendoza",
+      "matched_desc": "Abel Mendoza Viura 24-"
+    },
+    {
+      "pod": "POD019439",
+      "name": "Arenas de Santyuste",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 2 IZQ",
+      "compact_loc": "3·2·IZQ",
+      "score": 1.0868,
+      "margin": 0.4841,
+      "coverage": 1.0,
+      "matched_bodega": "Esmeralda García",
+      "matched_desc": "Arenas de SantYuste 23-"
+    },
+    {
+      "pod": "POD018997",
+      "name": "As Sortes",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 -3 IZQ",
+      "compact_loc": "4·3·IZQ",
+      "score": 1.0171,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Rafael Palacios",
+      "matched_desc": "As Sortes 24-"
+    },
+    {
+      "pod": "POD016565",
+      "name": "Attis Atalante",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 4 - 1 DER",
+      "compact_loc": "4·1·DER",
+      "score": 0.86,
+      "margin": 0.205,
+      "coverage": 1.0,
+      "matched_bodega": "Attis",
+      "matched_desc": "Attis Atalante Caiño BL 23-"
+    },
+    {
+      "pod": "POD017771",
+      "name": "Attis Lias Finas",
+      "ano": "2024",
+      "qty": "4",
+      "pos": "CAV 2 - 4 CEN",
+      "compact_loc": "2·4·CEN",
+      "score": 1.0743,
+      "margin": 0.3829,
+      "coverage": 1.0,
+      "matched_bodega": "Attis",
+      "matched_desc": "Attis Lias Finas 24-"
+    },
+    {
+      "pod": "POD018753",
+      "name": "Attis Mar",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 1 CEN",
+      "compact_loc": "4·1·CEN",
+      "score": 1.0171,
+      "margin": 0.3436,
+      "coverage": 1.0,
+      "matched_bodega": "Attis",
+      "matched_desc": "Attis Mar 24-"
+    },
+    {
+      "pod": "POD018578",
+      "name": "Avancia",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 3 CEN",
+      "compact_loc": "4·3·CEN",
+      "score": 0.83,
+      "margin": 0.0,
+      "coverage": 1.0,
+      "matched_bodega": "Avancia",
+      "matched_desc": "Avancia Godello 24-"
+    },
+    {
+      "pod": "POD017755",
+      "name": "Barco del Corneta",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 2 DER",
+      "compact_loc": "3·2·DER",
+      "score": 1.0992,
+      "margin": 0.4792,
+      "coverage": 1.0,
+      "matched_bodega": "Barco del Corneta",
+      "matched_desc": "Barco del Corneta 23-"
+    },
+    {
+      "pod": "POD016481",
+      "name": "Belondrade y Lurton",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 3 - 2 CEN",
+      "compact_loc": "3·2·CEN",
+      "score": 1.0868,
+      "margin": 0.4931,
+      "coverage": 1.0,
+      "matched_bodega": "Belondrade",
+      "matched_desc": "Belondrade y Lurton 23-"
+    },
+    {
+      "pod": "POD017027",
+      "name": "Brissat Pesseroles Mas Martinet",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - ATICO",
+      "compact_loc": "4·ATICO",
+      "score": 0.8267,
+      "margin": 0.1894,
+      "coverage": 1.0,
+      "matched_bodega": "Mas Martinet",
+      "matched_desc": "Mas Martinet Cami Pesseroles Brissat 21-"
+    },
+    {
+      "pod": "POD018854",
+      "name": "Cantalapiedra Chiviritero",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 2 IZQ",
+      "compact_loc": "3·2·IZQ",
+      "score": 1.1034,
+      "margin": 0.2877,
+      "coverage": 1.0,
+      "matched_bodega": "Manuel Cantalapiedra",
+      "matched_desc": "Cantalapiedra Chiviritero 23-"
+    },
+    {
+      "pod": "POD018568",
+      "name": "Chivite 125 blanco",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 2 - 10 DER",
+      "compact_loc": "2·10·DER",
+      "score": 0.8629,
+      "margin": 0.0206,
+      "coverage": 0.6667,
+      "matched_bodega": "Chivite",
+      "matched_desc": "Chivite 125 FB 23"
+    },
+    {
+      "pod": "POD018878",
+      "name": "Do Ferreiro Cepas Vellas",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 1 CEN",
+      "compact_loc": "4·1·CEN",
+      "score": 1.1012,
+      "margin": 0.3003,
+      "coverage": 1.0,
+      "matched_bodega": "Do Ferreiro",
+      "matched_desc": "Do Ferreiro Cepas Vellas 24-"
+    },
+    {
+      "pod": "POD014013",
+      "name": "Dominio del Aguila Viñas Viejas",
+      "ano": "2020",
+      "qty": "3",
+      "pos": "CAV 4 - 2 DER",
+      "compact_loc": "4·2·DER",
+      "score": 0.9818,
+      "margin": 0.1644,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio del Águila",
+      "matched_desc": "Dominio del Águila Viñas Viejas BL 19"
+    },
+    {
+      "pod": "POD012988",
+      "name": "Doniene Gorrondona",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 0 CEN",
+      "compact_loc": "4·0·CEN",
+      "score": 0.9845,
+      "margin": 0.4099,
+      "coverage": 1.0,
+      "matched_bodega": "Doniene Gorrondona",
+      "matched_desc": "Doniene Gorrondona TxakolI 23-"
+    },
+    {
+      "pod": "POD012985",
+      "name": "Electio",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 1 DER",
+      "compact_loc": "3·1·DER",
+      "score": 0.9835,
+      "margin": 0.308,
+      "coverage": 1.0,
+      "matched_bodega": "Parés Baltà",
+      "matched_desc": "Electio 22-"
+    },
+    {
+      "pod": "POD007711",
+      "name": "Finca Calvestra",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 3 - 1 IZQ",
+      "compact_loc": "3·1·IZQ",
+      "score": 0.9491,
+      "margin": 0.3676,
+      "coverage": 1.0,
+      "matched_bodega": "Mustiguillo",
+      "matched_desc": "Finca Calvestra 22-"
+    },
+    {
+      "pod": "POD017593",
+      "name": "Flor de Albihar Rico Nuevo",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 2 - 5 IZQ",
+      "compact_loc": "2·5·IZQ",
+      "score": 0.8473,
+      "margin": 0.09,
+      "coverage": 0.5,
+      "matched_bodega": "Rico Nuevo",
+      "matched_desc": "Flor de Albihar 21-"
+    },
+    {
+      "pod": "POD018643",
+      "name": "Flor de Muga Blanco",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 3 CEN",
+      "compact_loc": "3·3·CEN",
+      "score": 0.8408,
+      "margin": 0.0922,
+      "coverage": 0.6667,
+      "matched_bodega": "Mauro",
+      "matched_desc": "Flor de Muga Bl 22-"
+    },
+    {
+      "pod": "POD019458",
+      "name": "Guímaro Cepas Vellas",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 5 DER",
+      "compact_loc": "2·5·DER",
+      "score": 1.0902,
+      "margin": 0.2894,
+      "coverage": 1.0,
+      "matched_bodega": "Guímaro",
+      "matched_desc": "Guimaro Cepas Vellas 24-"
+    },
+    {
+      "pod": "POD014054",
+      "name": "Hombre bala Albillo",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 5 CEN",
+      "compact_loc": "2·5·CEN",
+      "score": 0.7867,
+      "margin": 0.09,
+      "coverage": 0.6667,
+      "matched_bodega": "Uvas Felices",
+      "matched_desc": "El Hombre Bala 23-"
+    },
+    {
+      "pod": "POD018412",
+      "name": "Joaquín Rebolledo Trasdairelas",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 6 IZQ",
+      "compact_loc": "2·6·IZQ",
+      "score": 1.0691,
+      "margin": 0.5046,
+      "coverage": 1.0,
+      "matched_bodega": "Joaquín Rebolledo",
+      "matched_desc": "Joaquin Rebolledo Trasdairelas BL 24-"
+    },
+    {
+      "pod": "POD015910",
+      "name": "José Pariente La Medina",
+      "ano": "2024",
+      "qty": "1",
+      "pos": "CAV 3 - 2 CEN",
+      "compact_loc": "3·2·CEN",
+      "score": 1.0088,
+      "margin": 0.429,
+      "coverage": 1.0,
+      "matched_bodega": "José Pariente",
+      "matched_desc": "Jose Pariente La Medina 23-"
+    },
+    {
+      "pod": "POD018497",
+      "name": "La caña navia",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 1 IZQ",
+      "compact_loc": "4·1·IZQ",
+      "score": 1.0566,
+      "margin": 0.4576,
+      "coverage": 1.0,
+      "matched_bodega": "La Caña",
+      "matched_desc": "La Caña Navia 24-"
+    },
+    {
+      "pod": "POD017277",
+      "name": "La del vivo",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 3 DER",
+      "compact_loc": "3·3·DER",
+      "score": 0.7546,
+      "margin": 0.1518,
+      "coverage": 1.0,
+      "matched_bodega": "La Vizcaina",
+      "matched_desc": "La Vizcaina la del Vivo 23-"
+    },
+    {
+      "pod": "POD017705",
+      "name": "La Salvación",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 3 IZQ",
+      "compact_loc": "4·3·IZQ",
+      "score": 0.7454,
+      "margin": 0.0654,
+      "coverage": 1.0,
+      "matched_bodega": "César Márquez",
+      "matched_desc": "Cesar Marquez La Salvación 23-"
+    },
+    {
+      "pod": "POD018377",
+      "name": "Lalume Dominio de Bibei",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 5 DER",
+      "compact_loc": "2·5·DER",
+      "score": 0.8523,
+      "margin": 0.0808,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio do Bibei",
+      "matched_desc": "Dominio do Bibei Lalume 23-"
+    },
+    {
+      "pod": "POD019143",
+      "name": "Lapola Dominio do Bibei",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 1 IZQ",
+      "compact_loc": "4·1·IZQ",
+      "score": 0.8651,
+      "margin": 0.0502,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio do Bibei",
+      "matched_desc": "Dominio do Bibei Lapola 23-"
+    },
+    {
+      "pod": "POD018382",
+      "name": "Leirana O Pradiño",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 4 - 1 DER",
+      "compact_loc": "4·1·DER",
+      "score": 1.0789,
+      "margin": 0.4295,
+      "coverage": 1.0,
+      "matched_bodega": "Forjas del Salnés",
+      "matched_desc": "Leirana O Pradiño 22-"
+    },
+    {
+      "pod": "POD018026",
+      "name": "Louro",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 3 CEN",
+      "compact_loc": "4·3·CEN",
+      "score": 0.9292,
+      "margin": 0.4377,
+      "coverage": 1.0,
+      "matched_bodega": "Rafael Palacios",
+      "matched_desc": "Louro 24-"
+    },
+    {
+      "pod": "POD018500",
+      "name": "Malcorta",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 3 - 2 DER",
+      "compact_loc": "3·2·DER",
+      "score": 0.8267,
+      "margin": 0.2817,
+      "coverage": 1.0,
+      "matched_bodega": "Sanz",
+      "matched_desc": "Sanz Malcorta 24-"
+    },
+    {
+      "pod": "POD018907",
+      "name": "Mauro Godello",
+      "ano": "2024",
+      "qty": "1",
+      "pos": "CAV 4 - 0 CEN",
+      "compact_loc": "4·0·CEN",
+      "score": 1.0566,
+      "margin": 0.3559,
+      "coverage": 1.0,
+      "matched_bodega": "Mauro",
+      "matched_desc": "Mauro Godello 24-"
+    },
+    {
+      "pod": "POD019427",
+      "name": "Menade Verdejo",
+      "ano": "2025",
+      "qty": "4",
+      "pos": "CAV 2 - 4 IZQ",
+      "compact_loc": "2·4·IZQ",
+      "score": 1.0632,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Menade",
+      "matched_desc": "Menade Verdejo 25-"
+    },
+    {
+      "pod": "POD018588",
+      "name": "Nisia Las Suertes",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 3 - 1 CEN",
+      "compact_loc": "3·1·CEN",
+      "score": 1.0789,
+      "margin": 0.4072,
+      "coverage": 1.0,
+      "matched_bodega": "Nisia",
+      "matched_desc": "Nisia Las Suertes 24-"
+    },
+    {
+      "pod": "POD019085",
+      "name": "O Equilibrio",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 1 IZQ",
+      "compact_loc": "4·1·IZQ",
+      "score": 0.7759,
+      "margin": 0.288,
+      "coverage": 1.0,
+      "matched_bodega": "Fulcro",
+      "matched_desc": "Fulcro O Equilibrio 23-"
+    },
+    {
+      "pod": "POD017538",
+      "name": "O Luar Do Sil",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 3 DER",
+      "compact_loc": "4·3·DER",
+      "score": 1.0824,
+      "margin": 0.2924,
+      "coverage": 1.0,
+      "matched_bodega": "O Luar do Sil",
+      "matched_desc": "O Luar do Sil 24-"
+    },
+    {
+      "pod": "POD018123",
+      "name": "Ossian Capitel",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 2 CEN",
+      "compact_loc": "3·2·CEN",
+      "score": 1.0632,
+      "margin": 0.3345,
+      "coverage": 1.0,
+      "matched_bodega": "Ossian",
+      "matched_desc": "Ossian Capitel 22-"
+    },
+    {
+      "pod": "POD019661",
+      "name": "Otro cuento",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 2 CEN",
+      "compact_loc": "4·2·CEN",
+      "score": 1.04,
+      "margin": 0.4756,
+      "coverage": 1.0,
+      "matched_bodega": "El Hato y el Garabato",
+      "matched_desc": "Otro Cuento 23-"
+    },
+    {
+      "pod": "POD_TEMP_1001",
+      "name": "Pago de los abuelos Teiró",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 4 - 0 DER",
+      "compact_loc": "4·0·DER",
+      "score": 0.8084,
+      "margin": 0.1051,
+      "coverage": 0.6667,
+      "matched_bodega": "Pago de los Abuelos",
+      "matched_desc": "Pago de los Abuelos Blanco 2021"
+    },
+    {
+      "pod": "POD017626",
+      "name": "Pazo Señorans",
+      "ano": "2015",
+      "qty": "1",
+      "pos": "CAV 4 - 1 DER",
+      "compact_loc": "4·1·DER",
+      "score": 0.91,
+      "margin": 0.3415,
+      "coverage": 1.0,
+      "matched_bodega": "Pazo de Señorans",
+      "matched_desc": "Pazo Señorans Selección 15-"
+    },
+    {
+      "pod": "POD016949",
+      "name": "Qué bonito cacareaba",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 4 - 0 DER",
+      "compact_loc": "4·0·DER",
+      "score": 1.0902,
+      "margin": 0.5384,
+      "coverage": 1.0,
+      "matched_bodega": "Contador",
+      "matched_desc": "Que Bonito Cacareaba 23-"
+    },
+    {
+      "pod": "POD018620",
+      "name": "Remelluri blanco",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 0 DER",
+      "compact_loc": "3·0·DER",
+      "score": 1.0743,
+      "margin": 0.3765,
+      "coverage": 1.0,
+      "matched_bodega": "Remelluri",
+      "matched_desc": "Remelluri Blanco 22-"
+    },
+    {
+      "pod": "POD003990",
+      "name": "Remirez de Ganuza blanco",
+      "ano": "2016",
+      "qty": "2",
+      "pos": "CAV 3 - 3 CEN",
+      "compact_loc": "3·3·CEN",
+      "score": 0.9273,
+      "margin": 0.0963,
+      "coverage": 0.6667,
+      "matched_bodega": "Remirez de Ganuza",
+      "matched_desc": "Remirez de Ganuza BL FB 16-"
+    },
+    {
+      "pod": "POD016116",
+      "name": "San Roman Malvasía",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 2 - 6 CEN",
+      "compact_loc": "2·6·CEN",
+      "score": 1.0831,
+      "margin": 0.2964,
+      "coverage": 1.0,
+      "matched_bodega": "San Román",
+      "matched_desc": "San Roman Malvasia 22-"
+    },
+    {
+      "pod": "POD018393",
+      "name": "Sin nombre",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 4 - 0 CEN",
+      "compact_loc": "4·0·CEN",
+      "score": 1.0296,
+      "margin": 0.4651,
+      "coverage": 1.0,
+      "matched_bodega": "Microbio Wines",
+      "matched_desc": "Sin Nombre 22-"
+    },
+    {
+      "pod": "POD012358",
+      "name": "Sorte O soro",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 3 IZQ",
+      "compact_loc": "4·3·IZQ",
+      "score": 1.0489,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Rafael Palacios",
+      "matched_desc": "Sorte O Soro 22-"
+    },
+    {
+      "pod": "POD018590",
+      "name": "Terroir al límit Pedra de Guix",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 2 - 6 CEN",
+      "compact_loc": "2·6·CEN",
+      "score": 1.1124,
+      "margin": 0.51,
+      "coverage": 1.0,
+      "matched_bodega": "Terroir al Limit",
+      "matched_desc": "Terroir al Limit Pedra de Guix 22-"
+    },
+    {
+      "pod": "POD017869",
+      "name": "Trascuevas",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 3 IZQ",
+      "compact_loc": "3·3·IZQ",
+      "score": 1.0296,
+      "margin": 0.4929,
+      "coverage": 1.0,
+      "matched_bodega": "Artuke",
+      "matched_desc": "Trascuevas 23-"
+    },
+    {
+      "pod": "POD019464",
+      "name": "Ultreia Godello",
+      "ano": "2023",
+      "qty": "4",
+      "pos": "CAV 2 - 4 DER",
+      "compact_loc": "2·4·DER",
+      "score": 1.0691,
+      "margin": 0.3939,
+      "coverage": 1.0,
+      "matched_bodega": "Raúl Pérez",
+      "matched_desc": "Ultreia Godello 23-"
+    },
+    {
+      "pod": "POD015112",
+      "name": "Viña Tondonia",
+      "ano": "2013",
+      "qty": "2",
+      "pos": "CAV 3 - 3 DER",
+      "compact_loc": "3·3·DER",
+      "score": 0.9029,
+      "margin": 0.045,
+      "coverage": 1.0,
+      "matched_bodega": "López de Heredia",
+      "matched_desc": "Viña Tondonia RV BL 13-"
+    },
+    {
+      "pod": "POD017212",
+      "name": "Xesteiriña",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 5 DER",
+      "compact_loc": "2·5·DER",
+      "score": 0.9396,
+      "margin": 0.4596,
+      "coverage": 1.0,
+      "matched_bodega": "Acios da Xesteiriña",
+      "matched_desc": "Xesteiriña 23-"
+    },
+    {
+      "pod": "POD019397",
+      "name": "Batenfeld-Spanier Eisquell",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 7 CEN",
+      "compact_loc": "2·7·CEN",
+      "score": 1.0486,
+      "margin": 0.2265,
+      "coverage": 0.6667,
+      "matched_bodega": "Batenfeld-Spanier",
+      "matched_desc": "Battenfeld Spanier Eisquell 24-"
+    },
+    {
+      "pod": "POD017227",
+      "name": "Bruno Colin Batard-Montrachet GC",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 0 DER",
+      "compact_loc": "3·0·DER",
+      "score": 1.0575,
+      "margin": 0.2162,
+      "coverage": 0.8,
+      "matched_bodega": "Bruno Colin",
+      "matched_desc": "Bruno Colin Batard Montrachet 22-"
+    },
+    {
+      "pod": "POD019241",
+      "name": "Carrillon Puligny Montrachet 1C Les Folatieres",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 3 - 0 CEN",
+      "compact_loc": "3·0·CEN",
+      "score": 0.8607,
+      "margin": 0.0668,
+      "coverage": 0.6,
+      "matched_bodega": "François Carillon",
+      "matched_desc": "F Carillon Puligny 1C Folatieres 23-"
+    },
+    {
+      "pod": "POD016177",
+      "name": "Cloudy Bay",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 8 IZQ",
+      "compact_loc": "2·8·IZQ",
+      "score": 0.7946,
+      "margin": 0.2302,
+      "coverage": 1.0,
+      "matched_bodega": "Cloudy Bay",
+      "matched_desc": "Cloudy Bay Sauvignon Blanc 24-"
+    },
+    {
+      "pod": "POD016413",
+      "name": "Coche-Dury Corton-Charlemagne GC",
+      "ano": "2016",
+      "qty": "1",
+      "pos": "CAV 3 - 0 DER",
+      "compact_loc": "3·0·DER",
+      "score": 1.0575,
+      "margin": 0.3375,
+      "coverage": 0.8,
+      "matched_bodega": "Coche-Dury",
+      "matched_desc": "Coche Dury Corton Charlemagne 16-"
+    },
+    {
+      "pod": "POD018206",
+      "name": "DeMorgenzon Reserve Chenin",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 3 - 0 DER",
+      "compact_loc": "3·0·DER",
+      "score": 0.7359,
+      "margin": 0.1597,
+      "coverage": 0.3333,
+      "matched_bodega": "De Morgenzon",
+      "matched_desc": "De Morgenzon Chenin BL 22-"
+    },
+    {
+      "pod": "POD017109",
+      "name": "DRC Montrachet",
+      "ano": "2019",
+      "qty": "1",
+      "pos": "CAV 2 - EXP CEN",
+      "compact_loc": "2·EXP·CEN",
+      "score": 0.7541,
+      "margin": 0.1758,
+      "coverage": 0.5,
+      "matched_bodega": "Domaine de la Romanée-Conti",
+      "matched_desc": "Romanee Conti Montrachet 19-"
+    },
+    {
+      "pod": "POD017492",
+      "name": "Evening Land Salem",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 2 - 7 IZQ",
+      "compact_loc": "2·7·IZQ",
+      "score": 0.9271,
+      "margin": 0.1739,
+      "coverage": 1.0,
+      "matched_bodega": "Evening Land",
+      "matched_desc": "Evening Land Salem BL 22-"
+    },
+    {
+      "pod": "POD014102",
+      "name": "Evening Land Seven Springs",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 0 CEN",
+      "compact_loc": "3·0·CEN",
+      "score": 1.0566,
+      "margin": 0.0,
+      "coverage": 1.0,
+      "matched_bodega": "Evening Land",
+      "matched_desc": "Evening Land Seven Springs BL 22-"
+    },
+    {
+      "pod": "POD019653",
+      "name": "Kühling - Gillot Oppenheim",
+      "ano": "2020",
+      "qty": "1",
+      "pos": "CAV 3 - 0 IZQ",
+      "compact_loc": "3·0·IZQ",
+      "score": 1.1012,
+      "margin": 0.2459,
+      "coverage": 1.0,
+      "matched_bodega": "Kühling Gillot",
+      "matched_desc": "Kühling Gillot Oppenheim 20-"
+    },
+    {
+      "pod": "POD016538",
+      "name": "Mandolás Oremus",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 6 IZQ",
+      "compact_loc": "2·6·IZQ",
+      "score": 0.8267,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Oremus",
+      "matched_desc": "Oremus Mandolas 23-"
+    },
+    {
+      "pod": "POD017404",
+      "name": "Michel Lafarge Meursault",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 0 CEN",
+      "compact_loc": "3·0·CEN",
+      "score": 0.8927,
+      "margin": 0.0987,
+      "coverage": 0.6667,
+      "matched_bodega": "Domaine Michel Lafarge",
+      "matched_desc": "Lafarge Meursault 22-"
+    },
+    {
+      "pod": "POD018869",
+      "name": "Pio Cesare",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 7 IZQ",
+      "compact_loc": "2·7·IZQ",
+      "score": 0.8939,
+      "margin": 0.2221,
+      "coverage": 1.0,
+      "matched_bodega": "Pio Cesare",
+      "matched_desc": "Pio Cesare L Altro 24-"
+    },
+    {
+      "pod": "POD018207",
+      "name": "Raats Chenin Blanc",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 7 DER",
+      "compact_loc": "2·7·DER",
+      "score": 0.9533,
+      "margin": 0.25,
+      "coverage": 0.6667,
+      "matched_bodega": "Raats",
+      "matched_desc": "Raats Chenin BL 23-"
+    },
+    {
+      "pod": "POD018099",
+      "name": "Sancerre Domaine Vacheron",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 6 CEN",
+      "compact_loc": "2·6·CEN",
+      "score": 0.7837,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Domaine Vacheron",
+      "matched_desc": "Domaine Vacheron Sancerre bl 24-"
+    },
+    {
+      "pod": "POD017483",
+      "name": "Tardieu Laurent Nobles Origines",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 2 - 7 CEN",
+      "compact_loc": "2·7·CEN",
+      "score": 0.8615,
+      "margin": 0.1631,
+      "coverage": 0.75,
+      "matched_bodega": "Tardieu-Laurent",
+      "matched_desc": "Tard Laurent Nobles Origines BL 23-"
+    },
+    {
+      "pod": "POD018401",
+      "name": "Vincent Girardin Bourgogne blanc Cuvée Saint Vincent",
+      "ano": "2023",
+      "qty": "4",
+      "pos": "CAV 2 - 6 DER",
+      "compact_loc": "2·6·DER",
+      "score": 0.7785,
+      "margin": 0.0716,
+      "coverage": 0.5,
+      "matched_bodega": "Vincent Girardin",
+      "matched_desc": "V. Girardin Cuvée St. Vincent 23-"
+    },
+    {
+      "pod": "POD018614",
+      "name": "Chivite 125 Rosado",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 9 DER",
+      "compact_loc": "2·9·DER",
+      "score": 0.8633,
+      "margin": 0.1476,
+      "coverage": 0.6667,
+      "matched_bodega": "Chivite",
+      "matched_desc": "Chivite 125 Ros. 23-"
+    },
+    {
+      "pod": "POD018552",
+      "name": "Dido La Soució Rosa",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 9 CEN",
+      "compact_loc": "2·9·CEN",
+      "score": 1.0248,
+      "margin": 0.4248,
+      "coverage": 0.6667,
+      "matched_bodega": "Venus La Universal",
+      "matched_desc": "Dido La solucio rosa 23-"
+    },
+    {
+      "pod": "POD018644",
+      "name": "Flor de Muga Rosado",
+      "ano": "2024",
+      "qty": "3",
+      "pos": "CAV 2 - 9 DER",
+      "compact_loc": "2·9·DER",
+      "score": 1.0868,
+      "margin": 0.5041,
+      "coverage": 1.0,
+      "matched_bodega": "Muga",
+      "matched_desc": "Flor de Muga Rosado 24-"
+    },
+    {
+      "pod": "POD012772",
+      "name": "Marqués de Murrieta Primer Rose",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 9 DER",
+      "compact_loc": "2·9·DER",
+      "score": 0.837,
+      "margin": 0.1851,
+      "coverage": 0.5,
+      "matched_bodega": "Marqués de Murrieta",
+      "matched_desc": "Marques de Murrieta Ros 23-"
+    },
+    {
+      "pod": "POD019724",
+      "name": "Palito V Clarete",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 9 CEN",
+      "compact_loc": "2·9·CEN",
+      "score": 1.0743,
+      "margin": 0.4356,
+      "coverage": 1.0,
+      "matched_bodega": "Cuarto Lagar",
+      "matched_desc": "Palito V Clarete 24-"
+    },
+    {
+      "pod": "POD016972",
+      "name": "Pícaro del Águila Clarete",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 9 DER",
+      "compact_loc": "2·9·DER",
+      "score": 1.0529,
+      "margin": 0.2267,
+      "coverage": 1.0,
+      "matched_bodega": "Domino del Águila",
+      "matched_desc": "Picaro del Aguila Clarete RO 23-"
+    },
+    {
+      "pod": "POD014990",
+      "name": "Territorio Luthier Clarete",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 2 - 9 IZQ",
+      "compact_loc": "2·9·IZQ",
+      "score": 1.0723,
+      "margin": 0.2561,
+      "coverage": 1.0,
+      "matched_bodega": "Territorio Luthier",
+      "matched_desc": "Territorio Luthier Clarete 2020-"
+    },
+    {
+      "pod": "POD017192",
+      "name": "XF de Sierra Cantabria",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 10 DER",
+      "compact_loc": "2·10·DER",
+      "score": 0.8411,
+      "margin": 0.1306,
+      "coverage": 1.0,
+      "matched_bodega": "Sierra Cantabria",
+      "matched_desc": "Sierra Cantabria XF Rosado 24-"
+    },
+    {
+      "pod": "POD013785",
+      "name": "Calafuria",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 2 - 8 IZQ",
+      "compact_loc": "2·8·IZQ",
+      "score": 1.0171,
+      "margin": 0.4426,
+      "coverage": 1.0,
+      "matched_bodega": "Tormaresca",
+      "matched_desc": "Calafuria 23-"
+    },
+    {
+      "pod": "POD016928",
+      "name": "Miraval",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 8 DER",
+      "compact_loc": "2·8·DER",
+      "score": 0.8665,
+      "margin": 0.3509,
+      "coverage": 1.0,
+      "matched_bodega": "Château Miraval",
+      "matched_desc": "Miraval Provence-"
+    },
+    {
+      "pod": "POD017633",
+      "name": "Peyrassol",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 8 CEN",
+      "compact_loc": "2·8·CEN",
+      "score": 0.8319,
+      "margin": 0.2319,
+      "coverage": 1.0,
+      "matched_bodega": "Château Peyrassol",
+      "matched_desc": "Chateau Peyrassol RO 24-"
+    },
+    {
+      "pod": "POD019733",
+      "name": "Source of joy",
+      "ano": "2024",
+      "qty": "1",
+      "pos": "CAV 2 - 8 CEN",
+      "compact_loc": "2·8·CEN",
+      "score": 1.0566,
+      "margin": 0.4851,
+      "coverage": 1.0,
+      "matched_bodega": "Gerard Bertrand",
+      "matched_desc": "Source of Joy 24-"
+    },
+    {
+      "pod": "POD017306",
+      "name": "Whispering Angel",
+      "ano": "2024",
+      "qty": "3",
+      "pos": "CAV 2 - 8 DER",
+      "compact_loc": "2·8·DER",
+      "score": 0.7418,
+      "margin": 0.1774,
+      "coverage": 1.0,
+      "matched_bodega": "Château D´Esclans",
+      "matched_desc": "Ch. Esclans Provence Whispering Angel 24-"
+    },
+    {
+      "pod": "POD019177",
+      "name": "4 Kilos",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 4B IZQ",
+      "compact_loc": "4·4B·IZQ",
+      "score": 1.0276,
+      "margin": 0.1976,
+      "coverage": 1.0,
+      "matched_bodega": "2 Kilos",
+      "matched_desc": "4 kilos 23-"
+    },
+    {
+      "pod": "POD017841",
+      "name": "4 monos Cien Lanzas",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 6 IZQ",
+      "compact_loc": "3·6·IZQ",
+      "score": 1.0868,
+      "margin": 0.3622,
+      "coverage": 1.0,
+      "matched_bodega": "4 Monos",
+      "matched_desc": "4 Monos Cien Lanzas 22-"
+    },
+    {
+      "pod": "POD018042",
+      "name": "Abadia Retuerta cuvee Palomar",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 2 DER",
+      "compact_loc": "4·2·DER",
+      "score": 0.9771,
+      "margin": 0.1299,
+      "coverage": 0.75,
+      "matched_bodega": "Abadía Retuerta",
+      "matched_desc": "A Retuerta Cuvée Palomar 21-"
+    },
+    {
+      "pod": "POD012811",
+      "name": "Abadia Retuerta Selección Especial",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 9 DER",
+      "compact_loc": "4·9·DER",
+      "score": 1.07,
+      "margin": 0.1785,
+      "coverage": 1.0,
+      "matched_bodega": "Abadía Retuerta",
+      "matched_desc": "Abadia Retuerta Seleccion Especial-"
+    },
+    {
+      "pod": "POD016961",
+      "name": "Alion",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - SUELO IZQ",
+      "compact_loc": "3·SUELO·IZQ",
+      "score": 0.9292,
+      "margin": 0.2342,
+      "coverage": 1.0,
+      "matched_bodega": "Vega Sicilia",
+      "matched_desc": "Alion 21-"
+    },
+    {
+      "pod": "POD017253",
+      "name": "Alonso del Yerro",
+      "ano": "2021",
+      "qty": "4",
+      "pos": "CAV 1 - 4 CEN",
+      "compact_loc": "1·4·CEN",
+      "score": 1.0057,
+      "margin": 0.0103,
+      "coverage": 1.0,
+      "matched_bodega": "Alonso del Yerro",
+      "matched_desc": "Alonso del Yerro 20-"
+    },
+    {
+      "pod": "POD019663",
+      "name": "Anza",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 10 DER",
+      "compact_loc": "3·10·DER",
+      "score": 0.7629,
+      "margin": 0.1029,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Anza",
+      "matched_desc": "Anza Rioja 23-"
+    },
+    {
+      "pod": "POD019666",
+      "name": "Anza Carramonte",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAVA 3 - 6 CEN",
+      "compact_loc": "3·6·CEN",
+      "score": 1.0691,
+      "margin": 0.3241,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Anza",
+      "matched_desc": "Anza Carramonte 22-"
+    },
+    {
+      "pod": "POD017351",
+      "name": "Arrocal Paraje Colmenares",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 8 IZQ",
+      "compact_loc": "4·8·IZQ",
+      "score": 1.1034,
+      "margin": 0.4718,
+      "coverage": 1.0,
+      "matched_bodega": "Arrocal",
+      "matched_desc": "Arrocal Paraje Colmenares 23-"
+    },
+    {
+      "pod": "POD013688",
+      "name": "Artadi La Poza de Ballesteros",
+      "ano": "2020",
+      "qty": "1",
+      "pos": "CAV 3 - 5 IZQ",
+      "compact_loc": "3·5·IZQ",
+      "score": 1.16,
+      "margin": 0.1692,
+      "coverage": 1.0,
+      "matched_bodega": "Artadi",
+      "matched_desc": "Artadi La Poza de Ballesteros-"
+    },
+    {
+      "pod": "POD013688",
+      "name": "Artadi La Poza de Ballesteros",
+      "ano": "2020",
+      "qty": "1",
+      "pos": "CAV 3 - 5 IZQ",
+      "compact_loc": "3·5·IZQ",
+      "score": 1.16,
+      "margin": 0.1692,
+      "coverage": 1.0,
+      "matched_bodega": "Artadi",
+      "matched_desc": "Artadi La Poza de Ballesteros-"
+    },
+    {
+      "pod": "POD013688",
+      "name": "Artadi La Poza de Ballesteros",
+      "ano": "2020",
+      "qty": "1",
+      "pos": "CAV 3 - 5 IZQ",
+      "compact_loc": "3·5·IZQ",
+      "score": 1.16,
+      "margin": 0.1692,
+      "coverage": 1.0,
+      "matched_bodega": "Artadi",
+      "matched_desc": "Artadi La Poza de Ballesteros-"
+    },
+    {
+      "pod": "POD018488",
+      "name": "Bideona Laguardia",
+      "ano": "2018",
+      "qty": "2",
+      "pos": "CAV 3 - 10 IZQ",
+      "compact_loc": "3·10·IZQ",
+      "score": 1.0789,
+      "margin": 0.4974,
+      "coverage": 1.0,
+      "matched_bodega": "Bideona",
+      "matched_desc": "Bideona Laguardia 18-"
+    },
+    {
+      "pod": "POD013749",
+      "name": "Bideona Samaniego",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 3 - 10 IZQ",
+      "compact_loc": "3·10·IZQ",
+      "score": 1.0789,
+      "margin": 0.4589,
+      "coverage": 1.0,
+      "matched_bodega": "Bideona",
+      "matched_desc": "Bideona Samaniego 20-"
+    },
+    {
+      "pod": "POD016574",
+      "name": "Bosque Matasnos Et Blanca",
+      "ano": "2022",
+      "qty": "4",
+      "pos": "CAV 1 - 4 DER",
+      "compact_loc": "1·4·DER",
+      "score": 1.1034,
+      "margin": 0.4634,
+      "coverage": 1.0,
+      "matched_bodega": "Bosque de Matasnos",
+      "matched_desc": "Bosque Matasnos Et Blanca 22-"
+    },
+    {
+      "pod": "POD019697",
+      "name": "Casa Lebai Matadiablos",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 7 CEN",
+      "compact_loc": "4·7·CEN",
+      "score": 1.0962,
+      "margin": 0.46,
+      "coverage": 1.0,
+      "matched_bodega": "Casa Lebai",
+      "matched_desc": "Casa Lebai Matadiablos 22-"
+    },
+    {
+      "pod": "POD009662",
+      "name": "Castillo de Ygay",
+      "ano": "2005",
+      "qty": "1",
+      "pos": "CAV 3 - 5 DER",
+      "compact_loc": "3·5·DER",
+      "score": 1.0249,
+      "margin": 0.1906,
+      "coverage": 1.0,
+      "matched_bodega": "Marqués de Murrieta",
+      "matched_desc": "Castillo de Ygay 2005-"
+    },
+    {
+      "pod": "POD017906",
+      "name": "Cerrón La Servil",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 10 IZQ",
+      "compact_loc": "4·10·IZQ",
+      "score": 1.0743,
+      "margin": 0.2876,
+      "coverage": 1.0,
+      "matched_bodega": "Bodegas Cerrón",
+      "matched_desc": "Cerron La Servil 23-"
+    },
+    {
+      "pod": "POD017743",
+      "name": "César Márquez Valtuille",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - 11 CEN",
+      "compact_loc": "1·11·CEN",
+      "score": 1.0988,
+      "margin": 0.2396,
+      "coverage": 1.0,
+      "matched_bodega": "César Márquez",
+      "matched_desc": "Cesar Marquez Valtuille 23-"
+    },
+    {
+      "pod": "POD015749",
+      "name": "Clos Martinet",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 1 - 10 CEN",
+      "compact_loc": "1·10·CEN",
+      "score": 1.0824,
+      "margin": 0.424,
+      "coverage": 1.0,
+      "matched_bodega": "Clos Martinet",
+      "matched_desc": "Clos Martinet 22-"
+    },
+    {
+      "pod": "POD015729",
+      "name": "Comando G Navatalgordo",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - 6 DER",
+      "compact_loc": "1·6·DER",
+      "score": 1.0962,
+      "margin": 0.3977,
+      "coverage": 1.0,
+      "matched_bodega": "Comando G",
+      "matched_desc": "Comando G Navatalgordo 23-"
+    },
+    {
+      "pod": "POD017140",
+      "name": "Conde de San Cristóbal",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 9 CEN",
+      "compact_loc": "4·9·CEN",
+      "score": 1.0577,
+      "margin": 0.4071,
+      "coverage": 1.0,
+      "matched_bodega": "Conde de San Cristóbal",
+      "matched_desc": "Conde San Cristobal 22-"
+    },
+    {
+      "pod": "POD018634",
+      "name": "Contino Reserva",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 6 CEN",
+      "compact_loc": "3·6·CEN",
+      "score": 0.8786,
+      "margin": 0.2069,
+      "coverage": 0.5,
+      "matched_bodega": "Viñedos del Contino",
+      "matched_desc": "Contino Rva 21-"
+    },
+    {
+      "pod": "POD018632",
+      "name": "Corimbo",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 6 DER",
+      "compact_loc": "4·6·DER",
+      "score": 0.9835,
+      "margin": 0.3267,
+      "coverage": 1.0,
+      "matched_bodega": "La Horra",
+      "matched_desc": "Corimbo 22-"
+    },
+    {
+      "pod": "POD017118",
+      "name": "Corimbo I",
+      "ano": "2018",
+      "qty": "2",
+      "pos": "CAV 1 - 5 IZQ",
+      "compact_loc": "1·5·IZQ",
+      "score": 1.0171,
+      "margin": 0.255,
+      "coverage": 1.0,
+      "matched_bodega": "La Horra",
+      "matched_desc": "Corimbo I 18-"
+    },
+    {
+      "pod": "POD015987",
+      "name": "Corullón",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 11 IZQ",
+      "compact_loc": "1·11·IZQ",
+      "score": 1.0021,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Descendientes de J. Palacios",
+      "matched_desc": "Corullon 22-"
+    },
+    {
+      "pod": "POD019745",
+      "name": "Costumbres",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 10 DER",
+      "compact_loc": "3·10·DER",
+      "score": 0.9292,
+      "margin": 0.0,
+      "coverage": 1.0,
+      "matched_bodega": "Carlos Mazo",
+      "matched_desc": "Costumbres BL 23-"
+    },
+    {
+      "pod": "POD012820",
+      "name": "Dido",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 6 CEN",
+      "compact_loc": "3·6·CEN",
+      "score": 0.7314,
+      "margin": 0.1008,
+      "coverage": 1.0,
+      "matched_bodega": "Venus La Universal",
+      "matched_desc": "Dido Bl. 22-"
+    },
+    {
+      "pod": "POD019647",
+      "name": "Dominio de Anza Selección de Parcelas",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - 6 IZQ",
+      "compact_loc": "1·6·IZQ",
+      "score": 0.87,
+      "margin": 0.09,
+      "coverage": 0.6667,
+      "matched_bodega": "Dominio de Anza",
+      "matched_desc": "Dominio de Anza Parcelas 23-"
+    },
+    {
+      "pod": "POD015491",
+      "name": "Dominio de Atauta",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 4 - 7 CEN",
+      "compact_loc": "4·7·CEN",
+      "score": 0.8809,
+      "margin": 0.0809,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Atauta",
+      "matched_desc": "Domino Atauta 21-"
+    },
+    {
+      "pod": "POD011499",
+      "name": "Dominio de Calogía",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - SUELO IZQ",
+      "compact_loc": "4·SUELO·IZQ",
+      "score": 1.1023,
+      "margin": 0.2078,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Calogía",
+      "matched_desc": "Dominio De Calogia 21-"
+    },
+    {
+      "pod": "POD013497",
+      "name": "Dominio de Calogía Doble M",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 4 - 6 CEN",
+      "compact_loc": "4·6·CEN",
+      "score": 1.1055,
+      "margin": 0.2082,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Calogía",
+      "matched_desc": "Dominio de Calogía Doble M 20-"
+    },
+    {
+      "pod": "POD012850",
+      "name": "Dominio del Soto",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 4 - 8 CEN",
+      "compact_loc": "4·8·CEN",
+      "score": 1.0416,
+      "margin": 0.2318,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio del Soto",
+      "matched_desc": "Dominio del Soto Cr. 20-"
+    },
+    {
+      "pod": "POD019752",
+      "name": "El Reflejo de Mikaela",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 1 - 6 IZQ",
+      "compact_loc": "1·6·IZQ",
+      "score": 1.0033,
+      "margin": 0.3705,
+      "coverage": 1.0,
+      "matched_bodega": "Aurelio García",
+      "matched_desc": "El Reflejo de Mikaela 22-"
+    },
+    {
+      "pod": "POD018033",
+      "name": "Figuero Viñas Viejas",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 7 IZQ",
+      "compact_loc": "4·7·IZQ",
+      "score": 0.9702,
+      "margin": 0.2736,
+      "coverage": 1.0,
+      "matched_bodega": "Figuero",
+      "matched_desc": "Figuero Viñas Viejas 23-"
+    },
+    {
+      "pod": "POD013696",
+      "name": "Finca de los locos",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 9 IZQ",
+      "compact_loc": "3·9·IZQ",
+      "score": 1.0831,
+      "margin": 0.5028,
+      "coverage": 1.0,
+      "matched_bodega": "Artuke",
+      "matched_desc": "Finca de los Locos 23-"
+    },
+    {
+      "pod": "POD015972",
+      "name": "Finca Dofí",
+      "ano": "",
+      "qty": "1",
+      "pos": "CAV 1 - 10 IZQ",
+      "compact_loc": "1·10·IZQ",
+      "score": 0.9096,
+      "margin": 0.1003,
+      "coverage": 1.0,
+      "matched_bodega": "Álvaro Palacios",
+      "matched_desc": "Finca Dofi 22-"
+    },
+    {
+      "pod": "POD016186",
+      "name": "Finca El Terrerazo",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 10 CEN",
+      "compact_loc": "4·10·CEN",
+      "score": 1.0831,
+      "margin": 0.4075,
+      "coverage": 1.0,
+      "matched_bodega": "Mustiguillo",
+      "matched_desc": "Finca El Terrerazo 22-"
+    },
+    {
+      "pod": "POD015818",
+      "name": "Finca Villacreces",
+      "ano": "2021",
+      "qty": "3",
+      "pos": "CAV 1 - 4 IZQ",
+      "compact_loc": "1·4·IZQ",
+      "score": 1.0092,
+      "margin": 0.4649,
+      "coverage": 1.0,
+      "matched_bodega": "Finca Villacreces",
+      "matched_desc": "Finca Villacreces 20-"
+    },
+    {
+      "pod": "POD014152",
+      "name": "Flor de Pingus",
+      "ano": "2012",
+      "qty": "1",
+      "pos": "CAV 4 - EXP B DER",
+      "compact_loc": "4·EXP·B_DER",
+      "score": 1.0632,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Pingus",
+      "matched_desc": "Flor De Pingus 12-"
+    },
+    {
+      "pod": "POD017479",
+      "name": "Flor de Pingus",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - EXP B IZQ",
+      "compact_loc": "4·EXP·B_IZQ",
+      "score": 1.0632,
+      "margin": 0.24,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio de Pingus",
+      "matched_desc": "Flor de Pingus 22-"
+    },
+    {
+      "pod": "POD015969",
+      "name": "Gratallops",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 10 IZQ",
+      "compact_loc": "1·10·IZQ",
+      "score": 1.0296,
+      "margin": 0.2446,
+      "coverage": 1.0,
+      "matched_bodega": "Álvaro Palacios",
+      "matched_desc": "Gratallops 22-"
+    },
+    {
+      "pod": "POD019767",
+      "name": "Guardaviñas",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 8 DER",
+      "compact_loc": "3·8·DER",
+      "score": 0.7389,
+      "margin": 0.1362,
+      "coverage": 1.0,
+      "matched_bodega": "Abel Mendoza",
+      "matched_desc": "Abel Mendoza Guardaviñas 23-"
+    },
+    {
+      "pod": "POD014241",
+      "name": "Hacienda Monasterio",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 4 - 8 CEN",
+      "compact_loc": "4·8·CEN",
+      "score": 1.0433,
+      "margin": 0.4328,
+      "coverage": 1.0,
+      "matched_bodega": "Hacienda Monasterio",
+      "matched_desc": "Hacienda Monasterio Rva 20-"
+    },
+    {
+      "pod": "POD015343",
+      "name": "Hispania Territorio Luthier",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 8 IZQ",
+      "compact_loc": "4·8·IZQ",
+      "score": 1.06,
+      "margin": 0.2,
+      "coverage": 1.0,
+      "matched_bodega": "Territorio Luthier",
+      "matched_desc": "Hispania Territorio Luthier TO 21-"
+    },
+    {
+      "pod": "POD014053",
+      "name": "Hombre Bala",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 7 IZQ",
+      "compact_loc": "1·7·IZQ",
+      "score": 0.9457,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Uvas Felices",
+      "matched_desc": "El Hombre Bala 22-"
+    },
+    {
+      "pod": "POD018633",
+      "name": "Izadi Selección Reserva",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 3 - 6 DER",
+      "compact_loc": "3·6·DER",
+      "score": 1.0988,
+      "margin": 0.3424,
+      "coverage": 1.0,
+      "matched_bodega": "Izadi",
+      "matched_desc": "Izadi Seleccion Reserva 20-"
+    },
+    {
+      "pod": "POD011910",
+      "name": "Jirón de Niebla",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 3 - SUELO CEN",
+      "compact_loc": "3·SUELO·CEN",
+      "score": 0.8418,
+      "margin": 0.2058,
+      "coverage": 1.0,
+      "matched_bodega": "Rico Nuevo",
+      "matched_desc": "Rico Nuevo Jiron De Niebla 20-"
+    },
+    {
+      "pod": "POD011324",
+      "name": "La Baixada",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 1 - 10 IZQ",
+      "compact_loc": "1·10·IZQ",
+      "score": 1.0296,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Álvaro Palacios",
+      "matched_desc": "La Baixada 21-"
+    },
+    {
+      "pod": "POD016411",
+      "name": "La condenada",
+      "ano": "2023",
+      "qty": "1",
+      "pos": "CAV 3 - 4B DER",
+      "compact_loc": "3·4B·DER",
+      "score": 0.7759,
+      "margin": 0.1559,
+      "coverage": 1.0,
+      "matched_bodega": "Artuke",
+      "matched_desc": "Artuke La Condenada 22-"
+    },
+    {
+      "pod": "POD015996",
+      "name": "La Faraona",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 1 - 10 DER",
+      "compact_loc": "1·10·DER",
+      "score": 1.0296,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Descendientes de J. Palacios",
+      "matched_desc": "La Faraona 22-"
+    },
+    {
+      "pod": "POD013255",
+      "name": "La Nieta",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 5 DER",
+      "compact_loc": "3·5·DER",
+      "score": 1.0021,
+      "margin": 0.1148,
+      "coverage": 1.0,
+      "matched_bodega": "Viñedos de Páganos",
+      "matched_desc": "La Nieta 22-"
+    },
+    {
+      "pod": "POD017564",
+      "name": "La Quebrá",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 1 - 12 DER",
+      "compact_loc": "1·12·DER",
+      "score": 1.0171,
+      "margin": 0.3971,
+      "coverage": 1.0,
+      "matched_bodega": "Rico Nuevo",
+      "matched_desc": "La Quebra 21-"
+    },
+    {
+      "pod": "POD001610",
+      "name": "La Rioja Alta 890 GR",
+      "ano": "2010",
+      "qty": "1",
+      "pos": "CAV 3 - EXP B IZQ",
+      "compact_loc": "3·EXP·B_IZQ",
+      "score": 1.0902,
+      "margin": 0.4733,
+      "coverage": 1.0,
+      "matched_bodega": "La Rioja Alta",
+      "matched_desc": "La Rioja Alta 890 GR 10-"
+    },
+    {
+      "pod": "POD001610",
+      "name": "La Rioja Alta 904 GR",
+      "ano": "2016",
+      "qty": "2",
+      "pos": "CAV 3 - 4B CEN",
+      "compact_loc": "3·4B·CEN",
+      "score": 0.7637,
+      "margin": 0.1756,
+      "coverage": 0.75,
+      "matched_bodega": "La Rioja Alta",
+      "matched_desc": "La Rioja Alta 890 GR 10-"
+    },
+    {
+      "pod": "POD019624",
+      "name": "La Tendida",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - SUELO IZQ",
+      "compact_loc": "1·SUELO·IZQ",
+      "score": 1.0296,
+      "margin": 0.3213,
+      "coverage": 1.0,
+      "matched_bodega": "Casa Castillo",
+      "matched_desc": "La Tendida 22-"
+    },
+    {
+      "pod": "POD019683",
+      "name": "La vizcaína El Rapolao",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - 11 DER",
+      "compact_loc": "1·11·DER",
+      "score": 1.0962,
+      "margin": 0.3095,
+      "coverage": 1.0,
+      "matched_bodega": "La Vizcaína",
+      "matched_desc": "La Vizcaína El Rapolao 23-"
+    },
+    {
+      "pod": "POD016437",
+      "name": "Lalama Dominio do Bibei",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 1 - 5 CEN",
+      "compact_loc": "1·5·CEN",
+      "score": 0.8966,
+      "margin": 0.09,
+      "coverage": 0.5,
+      "matched_bodega": "Dominio do Bibei",
+      "matched_desc": "Dominio do Bibei 21-"
+    },
+    {
+      "pod": "POD012038",
+      "name": "Las Beatas",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 4B CEN",
+      "compact_loc": "3·4B·CEN",
+      "score": 0.87,
+      "margin": 0.0132,
+      "coverage": 1.0,
+      "matched_bodega": "Telmo Rodríguez",
+      "matched_desc": "Las Beatas 2021-"
+    },
+    {
+      "pod": "POD012038",
+      "name": "Las Beatas",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 3 - 4B CEN",
+      "compact_loc": "3·4B·CEN",
+      "score": 0.87,
+      "margin": 0.0132,
+      "coverage": 1.0,
+      "matched_bodega": "Telmo Rodríguez",
+      "matched_desc": "Las Beatas 2021-"
+    },
+    {
+      "pod": "POD015993",
+      "name": "Las lamas",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 1 - 10 DER",
+      "compact_loc": "1·10·DER",
+      "score": 1.07,
+      "margin": 0.0529,
+      "coverage": 1.0,
+      "matched_bodega": "Descendientes de J. Palacios",
+      "matched_desc": "Las Lamas-"
+    },
+    {
+      "pod": "POD015983",
+      "name": "l'Ermita",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 1 - 10 CEN",
+      "compact_loc": "1·10·CEN",
+      "score": 0.8978,
+      "margin": 0.0042,
+      "coverage": 0.0,
+      "matched_bodega": "Álvaro Palacios",
+      "matched_desc": "L´Ermita 22-"
+    },
+    {
+      "pod": "POD011326",
+      "name": "Les Aubaguetes",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 1 - 10 CEN",
+      "compact_loc": "1·10·CEN",
+      "score": 1.0632,
+      "margin": 0.0797,
+      "coverage": 1.0,
+      "matched_bodega": "Álvaro Palacios",
+      "matched_desc": "Les Aubaguetes 21-"
+    },
+    {
+      "pod": "POD019685",
+      "name": "Lindes de Remelluri San Vicente",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 9 DER",
+      "compact_loc": "3·9·DER",
+      "score": 1.0632,
+      "margin": 0.3436,
+      "coverage": 1.0,
+      "matched_bodega": "Remelluri",
+      "matched_desc": "Lindes Remelluri San Vicente 21-"
+    },
+    {
+      "pod": "POD016957",
+      "name": "Macán Clásico",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 6 DER",
+      "compact_loc": "3·6·DER",
+      "score": 1.0566,
+      "margin": 0.3456,
+      "coverage": 1.0,
+      "matched_bodega": "Benjamin de Rothschild & Vega Sicilia",
+      "matched_desc": "Macan Clasico 21-"
+    },
+    {
+      "pod": "POD018082",
+      "name": "Malabrigo",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 6 CEN",
+      "compact_loc": "4·6·CEN",
+      "score": 0.7807,
+      "margin": 0.1051,
+      "coverage": 1.0,
+      "matched_bodega": "Cepa 21",
+      "matched_desc": "Cepa 21 Malabrigo 22-"
+    },
+    {
+      "pod": "POD019082",
+      "name": "Malleolus de Sanchomartín",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 4 - SUELO DER",
+      "compact_loc": "4·SUELO·DER",
+      "score": 0.72,
+      "margin": 0.1349,
+      "coverage": 0.5,
+      "matched_bodega": "Emilio Moro",
+      "matched_desc": "Sanchomartin 21-"
+    },
+    {
+      "pod": "POD015579",
+      "name": "Malleolus de Valderramiro",
+      "ano": "2020",
+      "qty": "1",
+      "pos": "CAV 3 - SUELO IZQ",
+      "compact_loc": "3·SUELO·IZQ",
+      "score": 1.04,
+      "margin": 0.3646,
+      "coverage": 1.0,
+      "matched_bodega": "Emilio Moro",
+      "matched_desc": "Malleolus Valderramiro 20-"
+    },
+    {
+      "pod": "POD017763",
+      "name": "Maria Alonso del Yerro",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 6 IZQ",
+      "compact_loc": "4·6·IZQ",
+      "score": 1.0962,
+      "margin": 0.2703,
+      "coverage": 1.0,
+      "matched_bodega": "Alonso del Yerro",
+      "matched_desc": "Maria Alonso del Yerro 21-"
+    },
+    {
+      "pod": "POD017641",
+      "name": "María Remirez de Ganuza",
+      "ano": "2019",
+      "qty": "1",
+      "pos": "CAV 3 - 5 CEN",
+      "compact_loc": "3·5·CEN",
+      "score": 1.0988,
+      "margin": 0.3137,
+      "coverage": 1.0,
+      "matched_bodega": "Remírez de Ganuza",
+      "matched_desc": "Maria Remirez de Ganuza 19-"
+    },
+    {
+      "pod": "POD017713",
+      "name": "Marques de Murrieta Reserva",
+      "ano": "2021",
+      "qty": "4",
+      "pos": "CAV 1 - 3 IZQ",
+      "compact_loc": "1·3·IZQ",
+      "score": 0.9879,
+      "margin": 0.1577,
+      "coverage": 0.6667,
+      "matched_bodega": "Marqués de Murrieta",
+      "matched_desc": "Marques de Murrieta Rva 21-"
+    },
+    {
+      "pod": "POD018981",
+      "name": "Marqués de Vargas Reserva",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 3 - 10 CEN",
+      "compact_loc": "3·10·CEN",
+      "score": 0.9771,
+      "margin": 0.09,
+      "coverage": 0.6667,
+      "matched_bodega": "Marqués de Vargas",
+      "matched_desc": "Marques de Vargas Rva 20-"
+    },
+    {
+      "pod": "POD018766",
+      "name": "Mas Doix Salanques",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 6 CEN",
+      "compact_loc": "1·6·CEN",
+      "score": 1.0831,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Mas Doix",
+      "matched_desc": "Mas Doix Salanques 22-"
+    },
+    {
+      "pod": "POD017301",
+      "name": "Massuria",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 1 - 12 CEN",
+      "compact_loc": "1·12·CEN",
+      "score": 1.0021,
+      "margin": 0.3265,
+      "coverage": 1.0,
+      "matched_bodega": "Mas Asturias",
+      "matched_desc": "Massuria 20-"
+    },
+    {
+      "pod": "POD019478",
+      "name": "Matas Altas",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 1 - 5 CEN",
+      "compact_loc": "1·5·CEN",
+      "score": 0.9457,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Cerrón",
+      "matched_desc": "Matas Altas TO 24-"
+    },
+    {
+      "pod": "POD018233",
+      "name": "Mauro",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 4 - 10 IZQ",
+      "compact_loc": "4·10·IZQ",
+      "score": 0.9292,
+      "margin": 0.1621,
+      "coverage": 1.0,
+      "matched_bodega": "Bodegas Mauro",
+      "matched_desc": "Mauro 23-"
+    },
+    {
+      "pod": "POD017199",
+      "name": "Miguel Merino Viñas Jóvenes",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 8 CEN",
+      "compact_loc": "3·8·CEN",
+      "score": 1.1074,
+      "margin": 0.3081,
+      "coverage": 1.0,
+      "matched_bodega": "Miguel Merino",
+      "matched_desc": "Miguel Merino Viñas Jovenes 22-"
+    },
+    {
+      "pod": "POD015371",
+      "name": "Moncerbal",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 1 - 10 IZQ",
+      "compact_loc": "1·10·IZQ",
+      "score": 1.0171,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Descendientes de J. Palacios",
+      "matched_desc": "Moncerbal 21-"
+    },
+    {
+      "pod": "POD015991",
+      "name": "Moncerbal",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAV 1 - 10 DER",
+      "compact_loc": "1·10·DER",
+      "score": 1.0171,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Descendientes de J. Palacios",
+      "matched_desc": "Moncerbal 22-"
+    },
+    {
+      "pod": "POD016869",
+      "name": "Monte Pío Malabesta",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 10 CEN",
+      "compact_loc": "4·10·CEN",
+      "score": 1.0868,
+      "margin": 0.4715,
+      "coverage": 1.0,
+      "matched_bodega": "Monte Pío",
+      "matched_desc": "Monte Pio Malabesta 21-"
+    },
+    {
+      "pod": "POD012738",
+      "name": "Muga Selección Especial",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 8 CEN",
+      "compact_loc": "3·8·CEN",
+      "score": 0.8482,
+      "margin": 0.0813,
+      "coverage": 0.6667,
+      "matched_bodega": "Muga",
+      "matched_desc": "Muga Selección Esp 20-"
+    },
+    {
+      "pod": "POD018961",
+      "name": "Numanthia",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 1 - 6 IZQ",
+      "compact_loc": "1·6·IZQ",
+      "score": 1.0529,
+      "margin": 0.4662,
+      "coverage": 1.0,
+      "matched_bodega": "Numanthia",
+      "matched_desc": "Numanthia 20-"
+    },
+    {
+      "pod": "POD018032",
+      "name": "Orben",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 7 IZQ",
+      "compact_loc": "3·7·IZQ",
+      "score": 0.9869,
+      "margin": 0.2508,
+      "coverage": 1.0,
+      "matched_bodega": "Orben",
+      "matched_desc": "Orben 21-"
+    },
+    {
+      "pod": "POD018091",
+      "name": "Peñas aladas",
+      "ano": "2019",
+      "qty": "1",
+      "pos": "CAV 4 -8 DER",
+      "compact_loc": "4·8·DER",
+      "score": 1.0489,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Dominio del Águila",
+      "matched_desc": "Peñas Aladas 19-"
+    },
+    {
+      "pod": "POD014777",
+      "name": "Pícaro del águila",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 6 DER",
+      "compact_loc": "4·6·DER",
+      "score": 1.0475,
+      "margin": 0.2551,
+      "coverage": 1.0,
+      "matched_bodega": "Picaro del Aguila",
+      "matched_desc": "Picaro del Aguila TO 22-"
+    },
+    {
+      "pod": "POD011366",
+      "name": "Pingus",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 4 - EXP B IZQ",
+      "compact_loc": "4·EXP·B_IZQ",
+      "score": 1.01,
+      "margin": 0.09,
+      "coverage": 1.0,
+      "matched_bodega": "Domaine Pingus",
+      "matched_desc": "Pingus 21-"
+    },
+    {
+      "pod": "POD016962",
+      "name": "Pintia",
+      "ano": "2020",
+      "qty": "2",
+      "pos": "CAV 3 - SUELO DER",
+      "compact_loc": "3·SUELO·DER",
+      "score": 1.01,
+      "margin": 0.12,
+      "coverage": 1.0,
+      "matched_bodega": "Pintia",
+      "matched_desc": "Pintia 20-"
+    },
+    {
+      "pod": "POD001893",
+      "name": "Prado Enea",
+      "ano": "2016",
+      "qty": "1",
+      "pos": "CAV 3 - EXP B DER",
+      "compact_loc": "3·EXP·B_DER",
+      "score": 1.0296,
+      "margin": 0.39,
+      "coverage": 1.0,
+      "matched_bodega": "Muga",
+      "matched_desc": "Prado Enea 16-"
+    },
+    {
+      "pod": "POD016022",
+      "name": "PSI",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 7 IZQ",
+      "compact_loc": "4·7·IZQ",
+      "score": 0.91,
+      "margin": 0.4289,
+      "coverage": 1.0,
+      "matched_bodega": "PSI",
+      "matched_desc": "PSI 22-"
+    },
+    {
+      "pod": "POD011169",
+      "name": "Quiñón de Valmira",
+      "ano": "2021",
+      "qty": "1",
+      "pos": "CAV 3 - EXP B DER",
+      "compact_loc": "3·EXP·B_DER",
+      "score": 1.0789,
+      "margin": 0.0689,
+      "coverage": 1.0,
+      "matched_bodega": "Palacios Remondo",
+      "matched_desc": "Quiñon de Valmira 21-"
+    },
+    {
+      "pod": "POD018619",
+      "name": "Remelluri Reserva",
+      "ano": "2017",
+      "qty": "2",
+      "pos": "CAV 3 - 9 CEN",
+      "compact_loc": "3·9·CEN",
+      "score": 1.01,
+      "margin": 0.3297,
+      "coverage": 1.0,
+      "matched_bodega": "Remelluri",
+      "matched_desc": "Remelluri Reserva 17 TO-"
+    },
+    {
+      "pod": "POD010351",
+      "name": "Remirez de Ganuza GR",
+      "ano": "1994",
+      "qty": "1",
+      "pos": "CAV 3 - 4B IZQ",
+      "compact_loc": "3·4B·IZQ",
+      "score": 1.0019,
+      "margin": 0.1967,
+      "coverage": 0.6667,
+      "matched_bodega": "Remirez de Ganuza",
+      "matched_desc": "Remirez de Ganuza G Rva 94-"
+    },
+    {
+      "pod": "POD010351",
+      "name": "Remirez de Ganuza GR",
+      "ano": "1994",
+      "qty": "1",
+      "pos": "CAV 3 - 4B IZQ",
+      "compact_loc": "3·4B·IZQ",
+      "score": 1.0019,
+      "margin": 0.1967,
+      "coverage": 0.6667,
+      "matched_bodega": "Remirez de Ganuza",
+      "matched_desc": "Remirez de Ganuza G Rva 94-"
+    },
+    {
+      "pod": "POD010351",
+      "name": "Remirez de Ganuza GR",
+      "ano": "1994",
+      "qty": "1",
+      "pos": "CAV 3 - 4B IZQ",
+      "compact_loc": "3·4B·IZQ",
+      "score": 1.0019,
+      "margin": 0.1967,
+      "coverage": 0.6667,
+      "matched_bodega": "Remirez de Ganuza",
+      "matched_desc": "Remirez de Ganuza G Rva 94-"
+    }
+  ],
+  "unmatched_first_200": [
+    {
+      "name": "Andre Heucq",
+      "ano": "NV",
+      "qty": "1",
+      "pos": "CAV 2 - 10 DER",
+      "compact_loc": "2·10·DER"
+    },
+    {
+      "name": "Krug Rosé 28éme Edition",
+      "ano": "",
+      "qty": "1",
+      "pos": "CAV 2 - EXP IZQ",
+      "compact_loc": "2·EXP·IZQ"
+    },
+    {
+      "name": "Laherte Frèrers Blanc de Noirs Brut Nature",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 2 - 3 DER",
+      "compact_loc": "2·3·DER"
+    },
+    {
+      "name": "Laherte Frèrers Rose de Meunier Extra Brut",
+      "ano": "",
+      "qty": "1",
+      "pos": "CAV 2 - 11 DER",
+      "compact_loc": "2·11·DER"
+    },
+    {
+      "name": "El Cerrico",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 2 - 6 DER",
+      "compact_loc": "2·6·DER"
+    },
+    {
+      "name": "Kalamity",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 3 DER",
+      "compact_loc": "3·3·DER"
+    },
+    {
+      "name": "La llorona",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 3 CEN",
+      "compact_loc": "4·3·CEN"
+    },
+    {
+      "name": "Motor Blanco",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 3 - 1 CEN",
+      "compact_loc": "3·1·CEN"
+    },
+    {
+      "name": "Valtuillle",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - 12 CEN",
+      "compact_loc": "1·12·CEN"
+    },
+    {
+      "name": "Vidonia",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 4 - 0 IZQ",
+      "compact_loc": "4·0·IZQ"
+    },
+    {
+      "name": "Tramin",
+      "ano": "2024",
+      "qty": "2",
+      "pos": "CAV 2 - 7 CEN",
+      "compact_loc": "2·7·CEN"
+    },
+    {
+      "name": "Win 0%",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 2 -1 IZQ",
+      "compact_loc": "2·1·IZQ"
+    },
+    {
+      "name": "Aciano",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 4 - 9 IZQ",
+      "compact_loc": "4·9·IZQ"
+    },
+    {
+      "name": "Alto de la Cruz",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 3 - 6 IZQ",
+      "compact_loc": "3·6·IZQ"
+    },
+    {
+      "name": "Anza la Canoca",
+      "ano": "2022",
+      "qty": "1",
+      "pos": "CAVA 3 - 6 CEN",
+      "compact_loc": "3·6·CEN"
+    },
+    {
+      "name": "Ausàs",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 8 DER",
+      "compact_loc": "4·8·DER"
+    },
+    {
+      "name": "Bosque de Matasnos Edición Limitada",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 4 - 6 IZQ",
+      "compact_loc": "4·6·IZQ"
+    },
+    {
+      "name": "La Muria",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - EXP DER",
+      "compact_loc": "1·EXP·DER"
+    },
+    {
+      "name": "Lindes de Remelluri Salinillas de Buradón",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 9 DER",
+      "compact_loc": "3·9·DER"
+    },
+    {
+      "name": "Malpuesto",
+      "ano": "",
+      "qty": "2",
+      "pos": "CAV 3 - 4B DER",
+      "compact_loc": "3·4B·DER"
+    },
+    {
+      "name": "Paydos",
+      "ano": "2019",
+      "qty": "2",
+      "pos": "CAV 4 - 9 IZQ",
+      "compact_loc": "4·9·IZQ"
+    },
+    {
+      "name": "ROC",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - 11 DER",
+      "compact_loc": "1·11·DER"
+    },
+    {
+      "name": "Seoane Novelle Mencia",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 11 CEN",
+      "compact_loc": "1·11·CEN"
+    },
+    {
+      "name": "Suañé",
+      "ano": "2019",
+      "qty": "2",
+      "pos": "CAV 3 - 10 CEN",
+      "compact_loc": "3·10·CEN"
+    },
+    {
+      "name": "Suelos",
+      "ano": "2021",
+      "qty": "2",
+      "pos": "CAV 3 - 8 DER",
+      "compact_loc": "3·8·DER"
+    },
+    {
+      "name": "V.O.",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 12 IZQ",
+      "compact_loc": "1·12·IZQ"
+    },
+    {
+      "name": "Viariz",
+      "ano": "2023",
+      "qty": "2",
+      "pos": "CAV 1 - SUELO IZQ",
+      "compact_loc": "1·SUELO·IZQ"
+    },
+    {
+      "name": "Poeirinho",
+      "ano": "2022",
+      "qty": "2",
+      "pos": "CAV 1 - 8 IZQ",
+      "compact_loc": "1·8·IZQ"
+    },
+    {
+      "name": "Van Zellers Tawny 30 años",
+      "ano": "",
+      "qty": "1",
+      "pos": "JAMONES",
+      "compact_loc": "JAM"
+    },
+    {
+      "name": "Roda I 50Cl",
+      "ano": "2017",
+      "qty": "2",
+      "pos": "CAV 1 - EXP IZQ",
+      "compact_loc": "1·EXP·IZQ"
+    }
+  ]
+}

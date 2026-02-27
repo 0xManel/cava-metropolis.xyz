@@ -190,7 +190,7 @@
       "tasca_fina": {
         "pvp": 33,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·7·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -612,7 +612,7 @@
       "tasca_fina": {
         "pvp": 54,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -2416,7 +2416,7 @@
       "tasca_fina": {
         "pvp": 85,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·2·DER"
       },
       "victoria": {
         "pvp": 85,
@@ -2584,7 +2584,7 @@
       "tasca_fina": {
         "pvp": 42,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -2640,7 +2640,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·2·DER"
       },
       "galeria": {
         "pvp": null,
@@ -2757,7 +2757,7 @@
       "tasca_fina": {
         "pvp": 88,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·2·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -2808,7 +2808,7 @@
       "tasca_fina": {
         "pvp": 46,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·2·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -3017,7 +3017,7 @@
       "tasca_fina": {
         "pvp": 65,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -3129,7 +3129,7 @@
       "tasca_fina": {
         "pvp": 180,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·2·DER"
       },
       "galeria": {
         "pvp": null,
@@ -3349,6 +3349,11 @@
         "pvp": 74,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·2·CEN"
       }
     },
     "nota_cata": "Nariz: limão, maçã, mineral. Boca: seco elegante. Medina top. Beba agora-2030.",
@@ -3389,7 +3394,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·3·DER"
       },
       "galeria": {
         "pvp": null,
@@ -3506,7 +3511,7 @@
       "tasca_fina": {
         "pvp": 85,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·0·CEN"
       },
       "victoria": {
         "pvp": 85,
@@ -3674,7 +3679,7 @@
       "tasca_fina": {
         "pvp": 30,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·4·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -3729,7 +3734,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·1·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -3836,7 +3841,7 @@
       "tasca_fina": {
         "pvp": 175,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·2·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -3892,7 +3897,7 @@
       "tasca_fina": {
         "pvp": 39,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·2·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -4004,7 +4009,7 @@
       "tasca_fina": {
         "pvp": 73,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·6·CEN"
       },
       "victoria": {
         "pvp": 73,
@@ -4177,7 +4182,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·2·DER"
       },
       "galeria": {
         "pvp": null,
@@ -4228,7 +4233,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·0·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -4381,7 +4386,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·4·DER"
       },
       "galeria": {
         "pvp": null,
@@ -5063,7 +5068,7 @@
       "tasca_fina": {
         "pvp": 42,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -5119,7 +5124,7 @@
       "tasca_fina": {
         "pvp": 81,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·1·DER"
       },
       "galeria": {
         "pvp": null,
@@ -5419,7 +5424,7 @@
       "tasca_fina": {
         "pvp": 77,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·ATICO"
       },
       "victoria": {
         "pvp": 77,
@@ -5642,7 +5647,7 @@
       "tasca_fina": {
         "pvp": 142,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -5759,7 +5764,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·1·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -5983,7 +5988,7 @@
       "tasca_fina": {
         "pvp": 75,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·DER"
       },
       "victoria": {
         "pvp": 75,
@@ -6090,7 +6095,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·DER"
       },
       "galeria": {
         "pvp": null,
@@ -6416,7 +6421,7 @@
       "tasca_fina": {
         "pvp": 105,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -6472,7 +6477,7 @@
       "tasca_fina": {
         "pvp": 56,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·DER"
       },
       "galeria": {
         "pvp": null,
@@ -6660,7 +6665,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·4·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -6716,7 +6721,7 @@
       "tasca_fina": {
         "pvp": 150,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·CEN"
       },
       "victoria": {
         "pvp": 150,
@@ -6899,7 +6904,7 @@
       "tasca_fina": {
         "pvp": 61,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -7072,7 +7077,7 @@
       "tasca_fina": {
         "pvp": 76,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·CEN"
       },
       "victoria": {
         "pvp": 76,
@@ -7133,7 +7138,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·5·DER"
       },
       "galeria": {
         "pvp": null,
@@ -7255,7 +7260,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·IZQ"
       },
       "victoria": {
         "pvp": 48,
@@ -7560,7 +7565,7 @@
       "tasca_fina": {
         "pvp": 38,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·DER"
       },
       "galeria": {
         "pvp": null,
@@ -7662,7 +7667,7 @@
       "tasca_fina": {
         "pvp": 51,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -7896,7 +7901,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·5·DER"
       },
       "galeria": {
         "pvp": null,
@@ -7947,7 +7952,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·6·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -8003,7 +8008,7 @@
       "tasca_fina": {
         "pvp": 57,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -8110,7 +8115,7 @@
       "tasca_fina": {
         "pvp": 125,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·DER"
       },
       "galeria": {
         "pvp": null,
@@ -8161,7 +8166,7 @@
       "tasca_fina": {
         "pvp": 46,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -8324,7 +8329,7 @@
       "tasca_fina": {
         "pvp": 30,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·DER"
       },
       "galeria": {
         "pvp": null,
@@ -8721,7 +8726,7 @@
       "tasca_fina": {
         "pvp": 105,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·1·DER"
       },
       "victoria": {
         "pvp": 105,
@@ -8996,7 +9001,7 @@
       "tasca_fina": {
         "pvp": 700,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·3·IZQ"
       },
       "victoria": {
         "pvp": 700,
@@ -9103,7 +9108,7 @@
       "tasca_fina": {
         "pvp": 61,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·5·DER"
       },
       "galeria": {
         "pvp": null,
@@ -9154,7 +9159,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·5·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -9419,7 +9424,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·5·CEN"
       },
       "victoria": {
         "pvp": 48,
@@ -9475,7 +9480,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·5·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -9629,7 +9634,7 @@
       "tasca_fina": {
         "pvp": 124,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·DER"
       },
       "galeria": {
         "pvp": null,
@@ -9788,7 +9793,7 @@
       "tasca_fina": {
         "pvp": 31,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·0·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -9947,7 +9952,7 @@
       "tasca_fina": {
         "pvp": 48,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·3·IZQ"
       },
       "victoria": {
         "pvp": 48,
@@ -10126,7 +10131,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·10·DER"
       },
       "galeria": {
         "pvp": null,
@@ -10305,7 +10310,7 @@
       "tasca_fina": {
         "pvp": 65,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·3·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -10623,7 +10628,7 @@
       "tasca_fina": {
         "pvp": 98,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·0·DER"
       },
       "galeria": {
         "pvp": null,
@@ -10716,7 +10721,7 @@
       "tasca_fina": {
         "pvp": 120,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·DER"
       },
       "victoria": {
         "pvp": 120,
@@ -10774,7 +10779,7 @@
       "tasca_fina": {
         "pvp": 123,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·3·CEN"
       },
       "victoria": {
         "pvp": 123,
@@ -10948,7 +10953,7 @@
       "tasca_fina": {
         "pvp": 70,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -11001,7 +11006,7 @@
       "tasca_fina": {
         "pvp": 115,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·3·DER"
       },
       "galeria": {
         "pvp": null,
@@ -11809,7 +11814,7 @@
       "tasca_fina": {
         "pvp": 59,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·7·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -11857,7 +11862,7 @@
       "tasca_fina": {
         "pvp": 85,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -13763,7 +13768,7 @@
       "tasca_fina": {
         "pvp": 1520,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·DER"
       },
       "galeria": {
         "pvp": null,
@@ -14779,6 +14784,11 @@
         "pvp": 10125,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·0·DER"
       }
     },
     "nota_cata": "Nariz: maçã madura, mineral. Boca: cremoso vibrante. Coche-Dury ícone. Beba agora.",
@@ -15937,7 +15947,7 @@
       "tasca_fina": {
         "pvp": 371,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -17123,7 +17133,7 @@
       "tasca_fina": {
         "pvp": null,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·CEN"
       },
       "victoria": {
         "pvp": null,
@@ -20795,7 +20805,7 @@
       "tasca_fina": {
         "pvp": 33000,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·EXP·CEN"
       },
       "victoria": {
         "pvp": 33000,
@@ -21442,7 +21452,7 @@
       "tasca_fina": {
         "pvp": 55,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·6·DER"
       },
       "galeria": {
         "pvp": null,
@@ -23922,7 +23932,7 @@
       "tasca_fina": {
         "pvp": 70,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -25482,7 +25492,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·7·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -25727,6 +25737,11 @@
         "pvp": 40,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "2·6·IZQ"
       }
     },
     "nota_cata": "Nariz: maçã verde, mineral. Boca: seco puro. Jovem top. Beba agora-2028.|WA: N/A",
@@ -26448,7 +26463,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·7·IZQ"
       },
       "victoria": {
         "pvp": 50,
@@ -27731,7 +27746,7 @@
       "tasca_fina": {
         "pvp": 58,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·8·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -28453,7 +28468,7 @@
       "tasca_fina": {
         "pvp": 118,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·0·DER"
       },
       "victoria": {
         "pvp": 118,
@@ -28509,7 +28524,7 @@
       "tasca_fina": {
         "pvp": 62,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·7·DER"
       },
       "galeria": {
         "pvp": null,
@@ -28743,7 +28758,7 @@
       "tasca_fina": {
         "pvp": 175,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·0·DER"
       },
       "galeria": {
         "pvp": null,
@@ -30412,7 +30427,7 @@
       "tasca_fina": {
         "pvp": 81,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·EXP·INT"
       },
       "galeria": {
         "pvp": null,
@@ -30514,7 +30529,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "galeria": {
         "pvp": null,
@@ -30565,7 +30580,7 @@
       "tasca_fina": {
         "pvp": 90,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "galeria": {
         "pvp": null,
@@ -30677,7 +30692,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·EXP·INT / 3·2·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -31322,7 +31337,7 @@
       "tasca_fina": {
         "pvp": 91,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·1·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -32259,7 +32274,7 @@
       "tasca_fina": {
         "pvp": 90,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·IZQ"
       },
       "victoria": {
         "pvp": 90,
@@ -32325,7 +32340,7 @@
       "tasca_fina": {
         "pvp": 64,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·3·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -32386,7 +32401,7 @@
       "tasca_fina": {
         "pvp": 59,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·11·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -32716,7 +32731,7 @@
       "tasca_fina": {
         "pvp": 32,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -32970,7 +32985,7 @@
       "tasca_fina": {
         "pvp": 42,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -33036,7 +33051,7 @@
       "tasca_fina": {
         "pvp": 70,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -33163,7 +33178,7 @@
       "tasca_fina": {
         "pvp": 80,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·11·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -33295,7 +33310,7 @@
       "tasca_fina": {
         "pvp": 62,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -33432,7 +33447,7 @@
       "tasca_fina": {
         "pvp": 52,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·SUELO·DER"
       },
       "galeria": {
         "pvp": null,
@@ -34130,7 +34145,7 @@
       "tasca_fina": {
         "pvp": 114,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·11·CEN"
       },
       "victoria": {
         "pvp": 114,
@@ -34272,7 +34287,7 @@
       "tasca_fina": {
         "pvp": 95,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·11·DER"
       },
       "victoria": {
         "pvp": 95,
@@ -34556,7 +34571,7 @@
       "tasca_fina": {
         "pvp": 120,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·DER"
       },
       "victoria": {
         "pvp": 120,
@@ -34891,7 +34906,7 @@
       "tasca_fina": {
         "pvp": 730,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·EXP·IZQ"
       },
       "victoria": {
         "pvp": 730,
@@ -36687,7 +36702,7 @@
       "tasca_fina": {
         "pvp": 990,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·EXP·CEN"
       },
       "victoria": {
         "pvp": 990,
@@ -36895,7 +36910,7 @@
       "tasca_fina": {
         "pvp": 68,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·3·DER"
       },
       "galeria": {
         "pvp": null,
@@ -37519,7 +37534,7 @@
       "tasca_fina": {
         "pvp": 115,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·11·CEN"
       },
       "victoria": {
         "pvp": 115,
@@ -38270,7 +38285,7 @@
       "tasca_fina": {
         "pvp": 140,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·SUELO·DER / 2·SUELO·IZQ"
       },
       "victoria": {
         "pvp": 140,
@@ -38341,7 +38356,7 @@
       "tasca_fina": {
         "pvp": 140,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·SUELO·CEN"
       },
       "victoria": {
         "pvp": 140,
@@ -38600,7 +38615,7 @@
       "tasca_fina": {
         "pvp": 500,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·EXP·DER"
       },
       "victoria": {
         "pvp": 500,
@@ -39042,7 +39057,7 @@
       "tasca_fina": {
         "pvp": 105,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 105,
@@ -39103,7 +39118,7 @@
       "tasca_fina": {
         "pvp": 60,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 60,
@@ -39164,7 +39179,7 @@
       "tasca_fina": {
         "pvp": 58,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 58,
@@ -39225,7 +39240,7 @@
       "tasca_fina": {
         "pvp": 76,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 76,
@@ -39281,7 +39296,7 @@
       "tasca_fina": {
         "pvp": 37,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "galeria": {
         "pvp": null,
@@ -39383,7 +39398,7 @@
       "tasca_fina": {
         "pvp": 63,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·1·DER"
       },
       "galeria": {
         "pvp": null,
@@ -39434,7 +39449,7 @@
       "tasca_fina": {
         "pvp": 32,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·1·DER"
       },
       "galeria": {
         "pvp": null,
@@ -39485,7 +39500,7 @@
       "tasca_fina": {
         "pvp": 109,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 109,
@@ -39592,7 +39607,7 @@
       "tasca_fina": {
         "pvp": 104,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 104,
@@ -39648,7 +39663,7 @@
       "tasca_fina": {
         "pvp": 169,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "galeria": {
         "pvp": null,
@@ -39699,7 +39714,7 @@
       "tasca_fina": {
         "pvp": 70,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 70,
@@ -40228,7 +40243,7 @@
       "tasca_fina": {
         "pvp": 150,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "victoria": {
         "pvp": 150,
@@ -40538,7 +40553,7 @@
       "tasca_fina": {
         "pvp": 92,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "galeria": {
         "pvp": null,
@@ -40782,7 +40797,7 @@
       "tasca_fina": {
         "pvp": 57,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "JAM"
       },
       "galeria": {
         "pvp": null,
@@ -41031,7 +41046,7 @@
       "tasca_fina": {
         "pvp": 30,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -41091,7 +41106,7 @@
       "tasca_fina": {
         "pvp": 74,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·DER"
       },
       "victoria": {
         "pvp": 74,
@@ -41157,7 +41172,7 @@
       "tasca_fina": {
         "pvp": 60,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·IZQ"
       },
       "victoria": {
         "pvp": 60,
@@ -41223,7 +41238,7 @@
       "tasca_fina": {
         "pvp": 42,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -41344,7 +41359,7 @@
       "tasca_fina": {
         "pvp": 62,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·DER"
       },
       "victoria": {
         "pvp": 62,
@@ -41466,7 +41481,7 @@
       "tasca_fina": {
         "pvp": 65,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·DER"
       },
       "victoria": {
         "pvp": 65,
@@ -41532,7 +41547,7 @@
       "tasca_fina": {
         "pvp": 68,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·9·DER"
       },
       "victoria": {
         "pvp": 68,
@@ -41659,7 +41674,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·10·DER"
       },
       "victoria": {
         "pvp": 40,
@@ -41801,7 +41816,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·8·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -41938,7 +41953,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·8·DER"
       },
       "galeria": {
         "pvp": null,
@@ -42065,7 +42080,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·8·CEN"
       },
       "victoria": {
         "pvp": 50,
@@ -42202,7 +42217,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·8·DER"
       },
       "galeria": {
         "pvp": null,
@@ -42390,7 +42405,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "2·8·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -43555,7 +43570,7 @@
       "tasca_fina": {
         "pvp": 62,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·8·DER"
       },
       "galeria": {
         "pvp": null,
@@ -45011,7 +45026,7 @@
       "tasca_fina": {
         "pvp": 44,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·5·DER"
       },
       "galeria": {
         "pvp": null,
@@ -45134,6 +45149,11 @@
         "pvp": 87,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "4·4B·IZQ"
       }
     },
     "nota_cata": "Nariz: morango, ervas. Boca: fresco mineral. 4 Kilos top. Beba agora-2028.",
@@ -45184,7 +45204,7 @@
       "tasca_fina": {
         "pvp": 87,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·4B·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -45311,7 +45331,7 @@
       "tasca_fina": {
         "pvp": 78,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·2·DER"
       },
       "victoria": {
         "pvp": 78,
@@ -45895,7 +45915,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·9·DER"
       },
       "galeria": {
         "pvp": null,
@@ -45957,6 +45977,11 @@
         "pvp": 319,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "4·SUELO·CEN"
       }
     },
     "nota_cata": "Nariz: frutas escuras, especiarias. Boca: denso cremoso. Alabaster top. Beba agora-2035.",
@@ -46058,7 +46083,7 @@
       "tasca_fina": {
         "pvp": 135,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·SUELO·IZQ"
       },
       "victoria": {
         "pvp": 135,
@@ -46119,7 +46144,7 @@
       "tasca_fina": {
         "pvp": 41,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·4·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -46282,7 +46307,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·8·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -46627,7 +46652,7 @@
       "tasca_fina": {
         "pvp": 56,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·4·DER"
       },
       "galeria": {
         "pvp": null,
@@ -46871,7 +46896,7 @@
       "tasca_fina": {
         "pvp": 59,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·7·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -46983,7 +47008,7 @@
       "tasca_fina": {
         "pvp": 70,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·6·CEN"
       },
       "victoria": {
         "pvp": 70,
@@ -47105,7 +47130,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·11·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -47171,7 +47196,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·9·CEN"
       },
       "victoria": {
         "pvp": 40,
@@ -47232,7 +47257,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·6·DER"
       },
       "victoria": {
         "pvp": 40,
@@ -47293,7 +47318,7 @@
       "tasca_fina": {
         "pvp": 65,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·5·IZQ"
       },
       "victoria": {
         "pvp": 65,
@@ -47354,7 +47379,7 @@
       "tasca_fina": {
         "pvp": 81,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·11·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -48284,7 +48309,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·6·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -48446,7 +48471,7 @@
       "tasca_fina": {
         "pvp": 115,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·SUELO·IZQ"
       },
       "victoria": {
         "pvp": 115,
@@ -48568,7 +48593,7 @@
       "tasca_fina": {
         "pvp": 55,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -48868,7 +48893,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·8·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -48991,6 +49016,11 @@
         "pvp": 89,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "4·7·CEN"
       }
     },
     "nota_cata": "Nariz: frutas escuras, mineral. Boca: cremoso taninos suaves. Atauta top. Beba agora-2035.",
@@ -49087,7 +49117,7 @@
       "tasca_fina": {
         "pvp": 57,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·7·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -49153,7 +49183,7 @@
       "tasca_fina": {
         "pvp": 60,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·4·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -49270,7 +49300,7 @@
       "tasca_fina": {
         "pvp": 510,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·EXP·B_DER"
       },
       "victoria": {
         "pvp": 510,
@@ -49392,7 +49422,7 @@
       "tasca_fina": {
         "pvp": 265,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·EXP·B_IZQ"
       },
       "victoria": {
         "pvp": 265,
@@ -49524,7 +49554,7 @@
       "tasca_fina": {
         "pvp": 140,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·8·CEN"
       },
       "victoria": {
         "pvp": 140,
@@ -49580,7 +49610,7 @@
       "tasca_fina": {
         "pvp": 62,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·8·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -49946,7 +49976,7 @@
       "tasca_fina": {
         "pvp": 2100,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·DER"
       },
       "victoria": {
         "pvp": 2100,
@@ -50282,7 +50312,7 @@
       "tasca_fina": {
         "pvp": 46,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·11·DER"
       },
       "galeria": {
         "pvp": null,
@@ -50344,6 +50374,11 @@
         "pvp": 176,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·10·DER / 4·SUELO·DER"
       }
     },
     "nota_cata": "Nariz: frutas escuras, mineral. Boca: denso puro. Las Lamas top. Beba agora-2035.",
@@ -50557,7 +50592,7 @@
       "tasca_fina": {
         "pvp": 207,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·SUELO·IZQ"
       },
       "victoria": {
         "pvp": 207,
@@ -50618,7 +50653,7 @@
       "tasca_fina": {
         "pvp": 105,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·6·IZQ"
       },
       "victoria": {
         "pvp": 105,
@@ -50674,7 +50709,7 @@
       "tasca_fina": {
         "pvp": 60,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·12·CEN"
       },
       "victoria": {
         "pvp": 60,
@@ -50740,7 +50775,7 @@
       "tasca_fina": {
         "pvp": 71,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·10·IZQ"
       },
       "victoria": {
         "pvp": 71,
@@ -51050,7 +51085,7 @@
       "tasca_fina": {
         "pvp": 350,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·SUELO·CEN"
       },
       "victoria": {
         "pvp": 350,
@@ -52376,6 +52411,11 @@
         "pvp": 216,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "1·10·IZQ"
       }
     },
     "nota_cata": "Nariz: frutas vermelhas frescas. Boca: tenso elegante. Top. Beba agora-2040.",
@@ -52421,7 +52461,7 @@
       "tasca_fina": {
         "pvp": 195,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·DER"
       },
       "victoria": {
         "pvp": 195,
@@ -52533,7 +52573,7 @@
       "tasca_fina": {
         "pvp": 95,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·6·IZQ"
       },
       "victoria": {
         "pvp": 95,
@@ -52772,7 +52812,7 @@
       "tasca_fina": {
         "pvp": 460,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·8·DER"
       },
       "victoria": {
         "pvp": 460,
@@ -52899,7 +52939,7 @@
       "tasca_fina": {
         "pvp": 68,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·6·DER"
       },
       "galeria": {
         "pvp": null,
@@ -53016,7 +53056,7 @@
       "tasca_fina": {
         "pvp": 1980,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·EXP·B_IZQ"
       },
       "victoria": {
         "pvp": 1980,
@@ -53261,7 +53301,7 @@
       "tasca_fina": {
         "pvp": 110,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·SUELO·DER"
       },
       "victoria": {
         "pvp": 110,
@@ -53383,7 +53423,7 @@
       "tasca_fina": {
         "pvp": 74,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·7·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -53704,7 +53744,7 @@
       "tasca_fina": {
         "pvp": 56,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·7·DER"
       },
       "victoria": {
         "pvp": 56,
@@ -53765,7 +53805,7 @@
       "tasca_fina": {
         "pvp": 56,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·7·DER"
       },
       "victoria": {
         "pvp": 56,
@@ -53826,7 +53866,7 @@
       "tasca_fina": {
         "pvp": 56,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·7·DER"
       },
       "victoria": {
         "pvp": 56,
@@ -53887,7 +53927,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·3·DER"
       },
       "galeria": {
         "pvp": null,
@@ -53949,6 +53989,11 @@
         "pvp": 66,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "4·9·CEN"
       }
     },
     "nota_cata": "Nariz: frutas escuras, especiarias. Boca: denso cremoso. San Roman top. Beba agora-2035.",
@@ -54050,7 +54095,7 @@
       "tasca_fina": {
         "pvp": 88,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·9·DER"
       },
       "galeria": {
         "pvp": null,
@@ -54106,7 +54151,7 @@
       "tasca_fina": {
         "pvp": 286,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·SUELO·DER"
       },
       "victoria": {
         "pvp": 286,
@@ -54218,7 +54263,7 @@
       "tasca_fina": {
         "pvp": 41,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·11·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -54397,6 +54442,11 @@
         "pvp": 172,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "4·7·CEN"
       }
     },
     "nota_cata": "Nariz: cassis mineral. Boca: denso elegante. TM top. Beba agora-2035.",
@@ -54564,7 +54614,7 @@
       "tasca_fina": {
         "pvp": 300,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·SUELO·IZQ"
       },
       "victoria": {
         "pvp": 300,
@@ -54925,7 +54975,7 @@
       "tasca_fina": {
         "pvp": 550,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·EXP·DER"
       },
       "victoria": {
         "pvp": 550,
@@ -55271,7 +55321,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·6·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -55332,7 +55382,7 @@
       "tasca_fina": {
         "pvp": 102,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·EXP·IZQ"
       },
       "victoria": {
         "pvp": 102,
@@ -55469,7 +55519,7 @@
       "tasca_fina": {
         "pvp": 146,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·CEN"
       },
       "victoria": {
         "pvp": 146,
@@ -56343,7 +56393,7 @@
       "tasca_fina": {
         "pvp": 190,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·IZQ / 4·SUELO·IZQ"
       },
       "victoria": {
         "pvp": 190,
@@ -56465,7 +56515,7 @@
       "tasca_fina": {
         "pvp": 115,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·IZQ"
       },
       "victoria": {
         "pvp": 115,
@@ -56765,7 +56815,7 @@
       "tasca_fina": {
         "pvp": 1950,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·CEN"
       },
       "victoria": {
         "pvp": 1950,
@@ -56831,7 +56881,7 @@
       "tasca_fina": {
         "pvp": 370,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·IZQ"
       },
       "victoria": {
         "pvp": 370,
@@ -57085,7 +57135,7 @@
       "tasca_fina": {
         "pvp": 765,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·10·CEN"
       },
       "victoria": {
         "pvp": 765,
@@ -57639,7 +57689,7 @@
       "tasca_fina": {
         "pvp": 85,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -58457,7 +58507,7 @@
       "tasca_fina": {
         "pvp": 112,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·12·DER"
       },
       "victoria": {
         "pvp": 112,
@@ -58688,7 +58738,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·10·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -59380,7 +59430,7 @@
       "tasca_fina": {
         "pvp": 100,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·5·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -59843,7 +59893,7 @@
       "tasca_fina": {
         "pvp": 38,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·10·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -60072,7 +60122,7 @@
       "tasca_fina": {
         "pvp": 42,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·6·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -60535,7 +60585,7 @@
       "tasca_fina": {
         "pvp": 80,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·6·DER"
       },
       "galeria": {
         "pvp": null,
@@ -60759,7 +60809,7 @@
       "tasca_fina": {
         "pvp": 43,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·7·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -60815,7 +60865,7 @@
       "tasca_fina": {
         "pvp": 92,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·12·DER"
       },
       "victoria": {
         "pvp": 92,
@@ -60988,7 +61038,7 @@
       "tasca_fina": {
         "pvp": 35,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·SUELO·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -61039,7 +61089,7 @@
       "tasca_fina": {
         "pvp": 24,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·6·DER"
       },
       "galeria": {
         "pvp": null,
@@ -61278,7 +61328,7 @@
       "tasca_fina": {
         "pvp": 58,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·10·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -61339,7 +61389,7 @@
       "tasca_fina": {
         "pvp": 30,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·SUELO·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -61471,7 +61521,7 @@
       "tasca_fina": {
         "pvp": 38,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·5·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -61689,7 +61739,7 @@
       "tasca_fina": {
         "pvp": 175,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·5·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -61745,7 +61795,7 @@
       "tasca_fina": {
         "pvp": 175,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "4·SUELO·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -62574,7 +62624,7 @@
       "tasca_fina": {
         "pvp": 135,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·EXP·CEN"
       },
       "victoria": {
         "pvp": 135,
@@ -63539,7 +63589,7 @@
       "tasca_fina": {
         "pvp": 52,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·8·DER"
       },
       "galeria": {
         "pvp": null,
@@ -63666,7 +63716,7 @@
       "tasca_fina": {
         "pvp": 125,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -63732,7 +63782,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·10·DER"
       },
       "galeria": {
         "pvp": null,
@@ -63996,7 +64046,7 @@
       "tasca_fina": {
         "pvp": 176,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4B·DER"
       },
       "galeria": {
         "pvp": null,
@@ -64316,7 +64366,7 @@
       "tasca_fina": {
         "pvp": 65,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·10·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -64382,7 +64432,7 @@
       "tasca_fina": {
         "pvp": 59,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·10·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -64519,7 +64569,7 @@
       "tasca_fina": {
         "pvp": 1100,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·5·DER"
       },
       "victoria": {
         "pvp": 1100,
@@ -64864,7 +64914,7 @@
       "tasca_fina": {
         "pvp": 67,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·6·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -66519,7 +66569,7 @@
       "tasca_fina": {
         "pvp": 132,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·9·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -67230,7 +67280,7 @@
       "tasca_fina": {
         "pvp": 30,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·6·DER"
       },
       "galeria": {
         "pvp": null,
@@ -67362,7 +67412,7 @@
       "tasca_fina": {
         "pvp": 285,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·5·DER"
       },
       "galeria": {
         "pvp": null,
@@ -67428,7 +67478,7 @@
       "tasca_fina": {
         "pvp": 340,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4B·CEN / 3·EXP·B_IZQ"
       },
       "victoria": {
         "pvp": 340,
@@ -67570,7 +67620,7 @@
       "tasca_fina": {
         "pvp": 573,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4B·CEN"
       },
       "victoria": {
         "pvp": 573,
@@ -67707,7 +67757,7 @@
       "tasca_fina": {
         "pvp": 37,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·9·DER"
       },
       "galeria": {
         "pvp": null,
@@ -67849,7 +67899,7 @@
       "tasca_fina": {
         "pvp": 68,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·6·DER"
       },
       "victoria": {
         "pvp": 68,
@@ -67920,7 +67970,7 @@
       "tasca_fina": {
         "pvp": 300,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·5·CEN"
       },
       "victoria": {
         "pvp": 300,
@@ -67991,7 +68041,7 @@
       "tasca_fina": {
         "pvp": 60,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·3·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -68209,7 +68259,7 @@
       "tasca_fina": {
         "pvp": null,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·10·CEN"
       }
     },
     "nota_cata": "Nariz: cassis, ervas. Boca: cremoso taninos firmes. Rva top. Beba agora-2030.",
@@ -69757,7 +69807,7 @@
       "tasca_fina": {
         "pvp": 38,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·8·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -69823,7 +69873,7 @@
       "tasca_fina": {
         "pvp": 73,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·8·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -70016,7 +70066,7 @@
       "tasca_fina": {
         "pvp": 36,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·7·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -70214,7 +70264,7 @@
       "tasca_fina": {
         "pvp": 75,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·9·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -70341,7 +70391,7 @@
       "tasca_fina": {
         "pvp": 119,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·EXP·B_DER"
       },
       "galeria": {
         "pvp": null,
@@ -70477,7 +70527,7 @@
       "tasca_fina": {
         "pvp": 745,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·EXP·B_DER"
       },
       "victoria": {
         "pvp": 745,
@@ -70617,7 +70667,7 @@
       "tasca_fina": {
         "pvp": 55,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·9·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -71178,7 +71228,7 @@
       "tasca_fina": {
         "pvp": 495,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4B·IZQ"
       },
       "victoria": {
         "pvp": 495,
@@ -71442,7 +71492,7 @@
       "tasca_fina": {
         "pvp": 80,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·7·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -71514,6 +71564,11 @@
         "pvp": 375,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·7·DER"
       }
     },
     "nota_cata": "Nariz: cassis mineral. Boca: denso cremoso. Trasnocho top. Beba agora-2035+. Harmonização: carne vermelha.",
@@ -71569,7 +71624,7 @@
       "tasca_fina": {
         "pvp": 55,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·7·DER"
       },
       "victoria": {
         "pvp": 55,
@@ -71846,7 +71901,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·3·CEN / 3·8·IZQ"
       },
       "victoria": {
         "pvp": 50,
@@ -71918,7 +71973,7 @@
       "tasca_fina": {
         "pvp": 88,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·8·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -72658,7 +72713,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·9·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -72926,7 +72981,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·7·IZQ / 4·SUELO·DER"
       },
       "victoria": {
         "pvp": 50,
@@ -73064,7 +73119,7 @@
       "tasca_fina": {
         "pvp": 400,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·EXP·B_CEN"
       },
       "galeria": {
         "pvp": null,
@@ -73193,7 +73248,7 @@
       "tasca_fina": {
         "pvp": 73,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·7·CEN"
       },
       "victoria": {
         "pvp": 73,
@@ -78648,7 +78703,7 @@
       "tasca_fina": {
         "pvp": 980,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·EXP·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -78963,7 +79018,7 @@
       "tasca_fina": {
         "pvp": 72,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·7·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -79770,7 +79825,7 @@
       "tasca_fina": {
         "pvp": null,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4A·CEN"
       }
     },
     "nota_cata": "Nariz: cassis violetas, ervas. Boca: cremoso eterno, taninos refinados. Grands Echezeaux ícone. Beba agora-2045+. Harmonização: luxo máximo.",
@@ -79985,6 +80040,11 @@
         "pvp": 8500,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·4A·CEN"
       }
     },
     "nota_cata": "Nariz: cassis, ervas. Boca: denso elegante. RSV ícone. Beba agora.",
@@ -80478,6 +80538,11 @@
         "pvp": 4500,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·4A·IZQ"
       }
     },
     "nota_cata": "Nariz: cassis violetas. Boca: denso eterno. Cros Parantoux ícone. Beba agora-2045+. Harmonização: luxo máximo.",
@@ -81261,7 +81326,7 @@
       "tasca_fina": {
         "pvp": 4050,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·EXP·IZQ"
       },
       "victoria": {
         "pvp": 4050,
@@ -82907,7 +82972,7 @@
       "tasca_fina": {
         "pvp": 74,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4A·DER"
       },
       "galeria": {
         "pvp": null,
@@ -82960,7 +83025,7 @@
       "tasca_fina": {
         "pvp": 205,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4A·DER"
       },
       "galeria": {
         "pvp": null,
@@ -83013,7 +83078,7 @@
       "tasca_fina": {
         "pvp": 176,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4A·DER"
       },
       "galeria": {
         "pvp": null,
@@ -85447,6 +85512,11 @@
         "pvp": 3080,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·4A·IZQ"
       }
     },
     "nota_cata": "Nariz: cassis, ervas. Boca: cremoso taninos firmes. Musigny ícone. Beba agora.",
@@ -88743,6 +88813,11 @@
         "pvp": 2260,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·4A·IZQ"
       }
     },
     "nota_cata": "Nariz: morango ervas. Boca: cremoso taninos firmes. Clos de Beze top. Beba agora-2040.|JS: N/A|WA: N/A|TA: N/A|Peñín: N/A",
@@ -89126,7 +89201,7 @@
       "tasca_fina": {
         "pvp": 3240,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·EXP·CEN"
       },
       "victoria": {
         "pvp": 3240,
@@ -89301,6 +89376,11 @@
         "pvp": 1575,
         "unidades": null,
         "localizacion": null
+      },
+      "tasca_fina": {
+        "pvp": null,
+        "unidades": null,
+        "localizacion": "3·4A·IZQ"
       }
     },
     "nota_cata": "Nariz: frutas vermelhas mineral maduro. Boca: complexo eterno. Maduro lendário. Beba agora.|JS: N/A|WA: N/A|TA: N/A|Peñín: N/A",
@@ -96845,7 +96925,7 @@
       "tasca_fina": {
         "pvp": 129,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·7·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -101829,7 +101909,7 @@
       "tasca_fina": {
         "pvp": 78,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·7·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -108367,7 +108447,7 @@
       "tasca_fina": {
         "pvp": 2625,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4A·DER"
       },
       "victoria": {
         "pvp": 2625,
@@ -109209,7 +109289,7 @@
       "tasca_fina": {
         "pvp": 50,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·7·DER"
       },
       "galeria": {
         "pvp": null,
@@ -111049,7 +111129,7 @@
       "tasca_fina": {
         "pvp": 38,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·7·DER"
       },
       "galeria": {
         "pvp": null,
@@ -115389,7 +115469,7 @@
       "tasca_fina": {
         "pvp": 40,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·8·IZQ"
       },
       "galeria": {
         "pvp": null,
@@ -115882,7 +115962,7 @@
       "tasca_fina": {
         "pvp": 83,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·8·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -116753,7 +116833,7 @@
       "tasca_fina": {
         "pvp": 45,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "1·8·CEN"
       },
       "galeria": {
         "pvp": null,
@@ -121538,7 +121618,7 @@
       "tasca_fina": {
         "pvp": null,
         "unidades": null,
-        "localizacion": null
+        "localizacion": "3·4A·CEN"
       },
       "victoria": {
         "pvp": null,
