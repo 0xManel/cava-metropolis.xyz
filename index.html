@@ -2232,30 +2232,59 @@
 
             const cava = parts[0];
             const balda = parts[1];
-            const door = parts[2] || null;
-            const line = parts[3] || null;
-            const labels = getVictoriaLocationLabels();
-
             const compactBase = `${cava}-${balda}`;
             const compactRaw = parts.join('-');
-            const detailParts = [`${labels.cava} ${cava}`, `${labels.balda} ${balda}`];
-
-            if (door) {
-                const mappedDoor = labels.sideMap[door] || door.toLowerCase();
-                detailParts.push(`${labels.side} ${mappedDoor}`);
-            }
-
-            if (line) {
-                const lineNumber = String(line).replace(/^L/i, '');
-                detailParts.push(`${labels.line} ${lineNumber}`);
-            }
 
             return {
                 compact: compactBase,
                 compactRaw,
-                detail: detailParts.join(', '),
-                text: `${compactBase} (${detailParts.join(', ')})`
+                detail: null,
+                text: compactBase
             };
+        }
+
+        function getDisplayLocationMeta(ref, establishment) {
+            const est = ref?.establecimientos || {};
+            const ownLoc = normalizeLocationValue(est?.[establishment]?.localizacion, establishment);
+            if (ownLoc) {
+                return {
+                    text: formatLocationForUi(establishment, ownLoc).text,
+                    source: establishment
+                };
+            }
+
+            // Temporary operational fallback requested by team:
+            // if Tasca has no position, show SPA position instead of empty.
+            if (establishment === 'tasca_fina') {
+                const spaLoc = normalizeLocationValue(est?.spa?.localizacion, 'spa');
+                if (spaLoc) {
+                    return {
+                        text: formatLocationForUi('spa', spaLoc).text,
+                        source: 'spa'
+                    };
+                }
+                const bodegaLoc = normalizeLocationValue(est?.bodega?.localizacion, 'bodega');
+                if (bodegaLoc) {
+                    return {
+                        text: formatLocationForUi('bodega', bodegaLoc).text,
+                        source: 'bodega'
+                    };
+                }
+            }
+
+            return { text: null, source: null };
+        }
+
+        function getDisplayLocationText(ref, establishment) {
+            const meta = getDisplayLocationMeta(ref, establishment);
+            if (!meta.text) return null;
+            if (establishment === 'tasca_fina' && meta.source === 'spa') {
+                return `SPA: ${meta.text}`;
+            }
+            if (establishment === 'tasca_fina' && meta.source === 'bodega') {
+                return `BODEGA: ${meta.text}`;
+            }
+            return meta.text;
         }
 
         function normalizeLocationValue(value, establishment = null) {
@@ -2997,7 +3026,7 @@
                 subset.forEach((idx) => {
                     const ref = refs[idx];
                     if (!ref) return;
-                    if (normalizeLocationValue(ref.establecimientos?.[currentFilter]?.localizacion, currentFilter)) {
+                    if (getDisplayLocationText(ref, currentFilter)) {
                         locatedCount += 1;
                     }
                 });
@@ -3070,6 +3099,7 @@
                     const badge = getTipoBadge(ref.tipo);
                     const price = getDisplayPrice(ref);
                     const loc = getDisplayLocation(ref);
+                    const showPrice = currentFilter !== 'bodega';
                     const formatLabel = ref.formato?.etiqueta && ref.formato.etiqueta !== 'Botella (75cl)'
                         ? ref.formato.etiqueta : '';
 
@@ -3085,7 +3115,7 @@
                             </div>
                         </div>
                         <div class="item-right">
-                            <div class="item-price">${currentFilter === 'todos' ? 'APROX. ' : ''}${fmtPrice(price)}</div>
+                            ${showPrice ? `<div class="item-price">${currentFilter === 'todos' ? 'APROX. ' : ''}${fmtPrice(price)}</div>` : ''}
                             ${loc ? `<div class="item-location">${loc}</div>` : ''}
                         </div>
                     `;
@@ -3101,6 +3131,7 @@
 
         function getDisplayPrice(ref) {
             if (currentFilter !== 'todos') {
+                if (currentFilter === 'bodega') return null;
                 return ref.establecimientos?.[currentFilter]?.pvp ?? null;
             }
             return pvpMedio[ref.pod] ?? null;
@@ -3108,7 +3139,7 @@
 
         function getDisplayLocation(ref) {
             if (currentFilter !== 'todos') {
-                return formatLocationForUi(currentFilter, ref.establecimientos?.[currentFilter]?.localizacion).text;
+                return getDisplayLocationText(ref, currentFilter);
             }
             return null; // No location in TODOS mode (varies by establishment)
         }
@@ -4440,9 +4471,9 @@
                 const est = ref.establecimientos?.[k];
                 return {
                     key: k,
-                    pvp: fmtPrice(est?.pvp),
+                    pvp: k === 'bodega' ? '—' : fmtPrice(est?.pvp),
                     stock: fmt(est?.unidades),
-                    location: fmt(formatLocationForUi(k, est?.localizacion).text)
+                    location: fmt(getDisplayLocationText(ref, k))
                 };
             });
 
