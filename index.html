@@ -2252,38 +2252,12 @@
                     source: establishment
                 };
             }
-
-            // Temporary operational fallback requested by team:
-            // if Tasca has no position, show SPA position instead of empty.
-            if (establishment === 'tasca_fina') {
-                const spaLoc = normalizeLocationValue(est?.spa?.localizacion, 'spa');
-                if (spaLoc) {
-                    return {
-                        text: formatLocationForUi('spa', spaLoc).text,
-                        source: 'spa'
-                    };
-                }
-                const bodegaLoc = normalizeLocationValue(est?.bodega?.localizacion, 'bodega');
-                if (bodegaLoc) {
-                    return {
-                        text: formatLocationForUi('bodega', bodegaLoc).text,
-                        source: 'bodega'
-                    };
-                }
-            }
-
             return { text: null, source: null };
         }
 
         function getDisplayLocationText(ref, establishment) {
             const meta = getDisplayLocationMeta(ref, establishment);
             if (!meta.text) return null;
-            if (establishment === 'tasca_fina' && meta.source === 'spa') {
-                return `SPA: ${meta.text}`;
-            }
-            if (establishment === 'tasca_fina' && meta.source === 'bodega') {
-                return `BODEGA: ${meta.text}`;
-            }
             return meta.text;
         }
 
