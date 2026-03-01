@@ -726,24 +726,6 @@
             opacity: 0.9;
         }
 
-        .cata-guide-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 0.34rem;
-        }
-
-        .guide-pill {
-            border-radius: 999px;
-            border: 1px solid rgba(212, 175, 55, 0.2);
-            background: rgba(212, 175, 55, 0.08);
-            padding: 0.24rem 0.52rem;
-            font-size: 0.66rem;
-            font-weight: 600;
-            color: var(--text-main);
-            line-height: 1.2;
-            text-align: center;
-        }
-
         .cata-points {
             display: grid;
             gap: 0.32rem;
@@ -1474,8 +1456,6 @@
             .cata-box { padding: 0.62rem 0.58rem; }
             .cata-value { font-size: 0.78rem; line-height: 1.32; }
             .cata-mini-label { font-size: 0.54rem; margin-top: 0.5rem; margin-bottom: 0.3rem; }
-            .cata-guide-grid { grid-template-columns: 1fr; gap: 0.28rem; }
-            .guide-pill { font-size: 0.62rem; }
             .cata-point { font-size: 0.68rem; padding: 0.38rem 0.44rem; }
             .critic-chip { font-size: 0.6rem; padding: 0.16rem 0.38rem; }
             .critic-name { font-size: 0.6rem; }
@@ -1865,8 +1845,6 @@
                 <div class="cata-label">🍷 <span data-translate="tastingSummary">Cata resumida</span></div>
                 <div class="cata-box">
                     <div class="cata-value" id="modalCata">—</div>
-                    <div class="cata-mini-label" data-translate="quickGuide">Guía rápida</div>
-                    <div class="cata-guide-grid" id="modalQuickGuide"></div>
                     <div class="cata-mini-label" data-translate="keyPoints">Puntos clave</div>
                     <div class="cata-points" id="modalCataPoints"></div>
                     <div class="cata-critics" id="modalCritics"></div>
@@ -4088,30 +4066,6 @@
             return picks.slice(0, 3).map((line) => clipSentence(line, 132));
         }
 
-        function getQuickGuidePills(ref, cataText) {
-            const pills = [];
-            const typeCode = getWineTypeCode(ref);
-            const typeMap = {
-                es: { TO: 'Tinto', BL: 'Blanco', ROS: 'Rosado', ESP: 'Espumoso', DU: 'Dulce', GEN: 'Generoso' },
-                en: { TO: 'Red', BL: 'White', ROS: 'Rosé', ESP: 'Sparkling', DU: 'Sweet', GEN: 'Fortified' },
-                pt: { TO: 'Tinto', BL: 'Branco', ROS: 'Rosé', ESP: 'Espumante', DU: 'Doce', GEN: 'Generoso' }
-            };
-            const dict = typeMap[currentLang] || typeMap.es;
-            const dominant = getPredominantGrape(ref?.uvas);
-            const baseType = dict[typeCode] || dict.TO;
-            pills.push(dominant?.nome ? `${baseType} · ${dominant.nome}` : baseType);
-
-            const normalizedCata = normalizeToken(cataText);
-            const styleHints = [];
-            if (/\bdenso|potente|encorpado|eterno/.test(normalizedCata)) styleHints.push(currentLang === 'pt' ? 'Estruturado' : (currentLang === 'en' ? 'Structured' : 'Estructurado'));
-            if (/\bfresco|vibrante|tenso/.test(normalizedCata)) styleHints.push(currentLang === 'pt' ? 'Fresco' : (currentLang === 'en' ? 'Fresh' : 'Fresco'));
-            if (/\belegante|sedoso|fino/.test(normalizedCata)) styleHints.push(currentLang === 'pt' ? 'Elegante' : (currentLang === 'en' ? 'Elegant' : 'Elegante'));
-            if (/\bcomplejo|complexo|profundo/.test(normalizedCata)) styleHints.push(currentLang === 'pt' ? 'Complexo' : (currentLang === 'en' ? 'Complex' : 'Complejo'));
-            if (styleHints.length) pills.push(styleHints.slice(0, 2).join(' · '));
-
-            return pills.slice(0, 3);
-        }
-
         function parseCriticsDetailedEntries(source) {
             const byLabel = new Map();
             const upsert = (label, value) => {
@@ -4415,14 +4369,6 @@
             const cataEl = document.getElementById('modalCata');
             const cataSummary = getDidacticCataSummary(ref);
             if (cataEl) cataEl.textContent = formatCataForDisplay(cataSummary);
-
-            const quickGuideEl = document.getElementById('modalQuickGuide');
-            if (quickGuideEl) {
-                const pills = getQuickGuidePills(ref, cataSummary);
-                quickGuideEl.innerHTML = pills.length
-                    ? pills.map((item) => `<span class="guide-pill">${escapeHtml(item)}</span>`).join('')
-                    : '';
-            }
 
             const cataPointsEl = document.getElementById('modalCataPoints');
             if (cataPointsEl) {
