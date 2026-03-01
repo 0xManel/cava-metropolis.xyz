@@ -207,6 +207,73 @@
             flex-direction: column;
         }
 
+        .update-notice-banner {
+            display: none;
+            width: 100%;
+            margin: 0 0 0.72rem 0;
+            padding: 0.72rem 0.8rem;
+            border-radius: 12px;
+            border: 1px solid rgba(212, 175, 55, 0.36);
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.16), rgba(212, 175, 55, 0.08));
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            color: var(--text-main);
+            text-align: left;
+            gap: 0.5rem;
+        }
+
+        .update-notice-banner.show {
+            display: grid;
+        }
+
+        .update-notice-title {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            color: var(--gold-accent);
+            text-transform: uppercase;
+        }
+
+        .update-notice-text {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 500;
+            line-height: 1.34;
+            color: var(--text-main);
+        }
+
+        .update-notice-btn {
+            justify-self: start;
+            border: 1px solid rgba(212, 175, 55, 0.52);
+            background: rgba(212, 175, 55, 0.24);
+            color: #ffe8a8;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.74rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            border-radius: 10px;
+            padding: 0.42rem 0.66rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .update-notice-btn:hover {
+            background: rgba(212, 175, 55, 0.34);
+            border-color: rgba(212, 175, 55, 0.74);
+            transform: translateY(-1px);
+        }
+
+        .update-notice-btn:disabled {
+            opacity: 0.7;
+            cursor: wait;
+            transform: none;
+        }
+
         .search-input-wrapper {
             position: relative;
             width: 100%;
@@ -1391,6 +1458,13 @@
         }
 
         @media (max-width: 600px) {
+            .update-notice-banner {
+                margin-bottom: 0.58rem;
+                padding: 0.62rem 0.64rem;
+            }
+            .update-notice-title { font-size: 0.72rem; }
+            .update-notice-text { font-size: 0.76rem; }
+            .update-notice-btn { font-size: 0.66rem; padding: 0.36rem 0.56rem; }
             .title-cava { gap: 1vw; margin-bottom: -0.3rem; }
             .stock-text { font-size: 7.5vw; letter-spacing: 0.05em; }
             .cava-text { font-size: 7.5vw; }
@@ -1745,6 +1819,11 @@
     </header>
 
     <div class="search-container">
+        <div class="update-notice-banner" id="updateNoticeBanner" role="status" aria-live="polite">
+            <p class="update-notice-title" data-translate="updateBannerTitle">Actualización disponible</p>
+            <p class="update-notice-text" data-translate="updateBannerText">Hay mejoras nuevas en la app. Pulsa para actualizar y ver todos los cambios.</p>
+            <button class="update-notice-btn" id="updateNoticeBtn" type="button" data-translate="updateBannerButton">Actualizar ahora</button>
+        </div>
         <div class="ref-count"><span id="totalRef">0</span> <span data-translate="refs">referencias disponibles</span></div>
         <div class="ref-count ref-count-located"><span id="locatedRef">0</span> <span data-translate="refsLocated">referencias localizadas</span></div>
 
@@ -2006,6 +2085,12 @@
         const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
         const SYNC_INTERVAL_MS = 30000;
         const SYNC_ENDPOINT = '/api/stock-sync';
+        const APP_RELEASE_ID = '2026-03-01-update-notice-v1';
+        const VERSION_INFO_URL = '/version.json';
+        const UPDATE_NOTICE_STORAGE_KEY = 'cava_update_ack_release_v1';
+        let latestKnownRelease = APP_RELEASE_ID;
+        let pendingSwRegistration = null;
+        let pendingSwWorker = null;
         let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
         if (!syncClientId) {
             syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
@@ -2453,7 +2538,12 @@
                 refs: "referencias disponibles", refsLocated: "referencias localizadas", region: "Región", country: "País",
                 year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", tastingSummary: "Cata resumida", quickGuide: "Guía rápida", keyPoints: "Puntos clave", criticsCard: "Card críticos", admin: "Admin", report: "Ventas",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Ubic.", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
-                consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada", btnLabel: "🇪🇸 ES"
+                consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada",
+                updateBannerTitle: "Actualización disponible",
+                updateBannerText: "Hay mejoras nuevas en la app. Pulsa para actualizar y ver todos los cambios.",
+                updateBannerButton: "Actualizar ahora",
+                updateBannerApplying: "Actualizando...",
+                btnLabel: "🇪🇸 ES"
             },
             en: {
                 placeholders: [
@@ -2473,7 +2563,12 @@
                 refs: "references available", refsLocated: "located references", region: "Region", country: "Country",
                 year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", tastingSummary: "Tasting Summary", quickGuide: "Quick guide", keyPoints: "Key points", criticsCard: "Critics card", admin: "Admin", report: "Sales",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Loc.", editBtn: "Edit", cancelBtn: "Cancel", saveBtn: "Save",
-                consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated", btnLabel: "🇬🇧 EN"
+                consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated",
+                updateBannerTitle: "Update available",
+                updateBannerText: "New improvements are ready. Tap below to refresh and load the latest version.",
+                updateBannerButton: "Update now",
+                updateBannerApplying: "Updating...",
+                btnLabel: "🇬🇧 EN"
             },
             pt: {
                 placeholders: [
@@ -2493,7 +2588,12 @@
                 refs: "referências disponíveis", refsLocated: "referências localizadas", region: "Região", country: "País",
                 year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", tastingSummary: "Cata resumida", quickGuide: "Guia rápido", keyPoints: "Pontos-chave", criticsCard: "Card críticos", admin: "Admin", report: "Vendas",
                 pvpLabel: "PVP", stockLabel: "Estoque", locationShort: "Local", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
-                consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada", btnLabel: "🇧🇷 PT"
+                consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada",
+                updateBannerTitle: "Atualização disponível",
+                updateBannerText: "Há melhorias novas no app. Toque para atualizar e ver todas as mudanças.",
+                updateBannerButton: "Atualizar agora",
+                updateBannerApplying: "Atualizando...",
+                btnLabel: "🇧🇷 PT"
             }
         };
         const SUPPORTED_LANGS = Object.freeze(['es', 'en', 'pt']);
@@ -4156,6 +4256,8 @@
         const editButton = document.getElementById('btnEditWine');
         const adminButton = document.getElementById('adminBtn');
         const logoutButton = document.getElementById('logoutBtn');
+        const updateNoticeBanner = document.getElementById('updateNoticeBanner');
+        const updateNoticeButton = document.getElementById('updateNoticeBtn');
         const consumeCavaButton = document.getElementById('btnConsumeCava');
         const consumeBodegaButton = document.getElementById('btnConsumeBodega');
         const consumeQtySelect = document.getElementById('consumeQty');
@@ -4236,6 +4338,106 @@
             syncToastTimer = window.setTimeout(() => {
                 syncToast.classList.remove('show');
             }, 1700);
+        }
+
+        function getLatestReleaseFromVersionPayload(payload) {
+            const versionCandidate = String(payload?.version || '').trim();
+            if (versionCandidate) return versionCandidate;
+            const swCandidate = String(payload?.features?.service_worker || '').trim();
+            if (swCandidate) return swCandidate;
+            return APP_RELEASE_ID;
+        }
+
+        function shouldShowUpdateNoticeForVersion(versionId) {
+            if (!versionId) return false;
+            const acknowledged = String(localStorage.getItem(UPDATE_NOTICE_STORAGE_KEY) || '').trim();
+            return acknowledged !== versionId;
+        }
+
+        function hideUpdateNotice() {
+            if (!updateNoticeBanner) return;
+            updateNoticeBanner.classList.remove('show');
+            updateNoticeBanner.dataset.version = '';
+            if (updateNoticeButton) {
+                updateNoticeButton.disabled = false;
+                const t = getTranslationPack(currentLang);
+                updateNoticeButton.textContent = t.updateBannerButton || 'Actualizar ahora';
+            }
+        }
+
+        function showUpdateNotice(versionId) {
+            if (!updateNoticeBanner || !versionId) return;
+            if (!shouldShowUpdateNoticeForVersion(versionId)) {
+                hideUpdateNotice();
+                return;
+            }
+            latestKnownRelease = versionId;
+            updateNoticeBanner.dataset.version = versionId;
+            updateNoticeBanner.classList.add('show');
+            if (updateNoticeButton) {
+                updateNoticeButton.disabled = false;
+                const t = getTranslationPack(currentLang);
+                updateNoticeButton.textContent = t.updateBannerButton || 'Actualizar ahora';
+            }
+        }
+
+        function reloadWithCacheBust(versionId) {
+            const target = new URL(window.location.href);
+            target.searchParams.set('appv', versionId || String(Date.now()));
+            window.location.replace(target.toString());
+        }
+
+        async function applyUpdateNow() {
+            const versionId = String(updateNoticeBanner?.dataset?.version || latestKnownRelease || APP_RELEASE_ID).trim();
+            if (!versionId) return;
+
+            localStorage.setItem(UPDATE_NOTICE_STORAGE_KEY, versionId);
+            if (updateNoticeButton) {
+                const t = getTranslationPack(currentLang);
+                updateNoticeButton.disabled = true;
+                updateNoticeButton.textContent = t.updateBannerApplying || 'Actualizando...';
+            }
+
+            try {
+                if ('serviceWorker' in navigator) {
+                    const registration = pendingSwRegistration || await navigator.serviceWorker.getRegistration();
+                    if (registration) {
+                        pendingSwRegistration = registration;
+                        await registration.update().catch(() => {});
+                        const waitingWorker = registration.waiting || pendingSwWorker;
+                        if (waitingWorker) {
+                            waitingWorker.postMessage({ type: 'SKIP_WAITING' });
+                            setTimeout(() => reloadWithCacheBust(versionId), 1800);
+                            return;
+                        }
+                    }
+                }
+            } catch {}
+
+            setTimeout(() => reloadWithCacheBust(versionId), 250);
+        }
+
+        async function checkForAppUpdates() {
+            let latestVersion = APP_RELEASE_ID;
+            try {
+                const response = await fetch(`${VERSION_INFO_URL}?t=${Date.now()}`, { cache: 'no-store' });
+                if (response.ok) {
+                    const payload = await response.json();
+                    latestVersion = getLatestReleaseFromVersionPayload(payload);
+                }
+            } catch {}
+            latestKnownRelease = latestVersion || APP_RELEASE_ID;
+            if (shouldShowUpdateNoticeForVersion(latestKnownRelease)) {
+                showUpdateNotice(latestKnownRelease);
+            } else {
+                hideUpdateNotice();
+            }
+        }
+
+        if (updateNoticeButton) {
+            updateNoticeButton.addEventListener('click', () => {
+                applyUpdateNow();
+            });
         }
 
         function resolveMovementEstablishment() {
@@ -4954,7 +5156,8 @@
         }, false);
 
         // --- PWA ---
-        const SW_BUILD_ID = '2026-02-25-b986f476-v3';
+        const SW_BUILD_ID = APP_RELEASE_ID;
+        checkForAppUpdates();
         if ('serviceWorker' in navigator) {
             let swRefreshing = false;
             navigator.serviceWorker.addEventListener('controllerchange', () => {
@@ -4966,15 +5169,22 @@
             navigator.serviceWorker
                 .register(`/sw.js?build=${encodeURIComponent(SW_BUILD_ID)}`, { updateViaCache: 'none' })
                 .then((registration) => {
+                    pendingSwRegistration = registration;
                     if (registration.waiting) {
-                        registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+                        pendingSwWorker = registration.waiting;
+                        if (shouldShowUpdateNoticeForVersion(latestKnownRelease)) {
+                            showUpdateNotice(latestKnownRelease);
+                        }
                     }
                     registration.addEventListener('updatefound', () => {
                         const newWorker = registration.installing;
                         if (!newWorker) return;
                         newWorker.addEventListener('statechange', () => {
                             if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                newWorker.postMessage({ type: 'SKIP_WAITING' });
+                                pendingSwWorker = newWorker;
+                                if (shouldShowUpdateNoticeForVersion(latestKnownRelease)) {
+                                    showUpdateNotice(latestKnownRelease);
+                                }
                             }
                         });
                     });
