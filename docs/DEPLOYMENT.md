@@ -1,5 +1,18 @@
 # 🚀 Checklist de Deployment - Vercel
 
+## 🔒 Regla Obligatoria (No Negociable)
+
+Nunca eliminar ni romper el sistema de aviso de actualización para usuarios.
+
+Debe existir siempre:
+- Banner de actualización en la app (`updateNoticeBanner` + botón de actualizar).
+- Resumen corto de novedades (bullets) visible para usuario.
+- Traducciones completas ES/EN/PT de títulos y bullets.
+- Control por versión para que el aviso salga una vez por release (`APP_RELEASE_ID` + storage key).
+- Coherencia de versión entre `index.html`, `sw.js` y `version.json`.
+
+Si falta algo de lo anterior, **no se hace deploy**.
+
 ## ✅ Preparación Completada
 
 - [x] Logo "STOCK Cava" configurado

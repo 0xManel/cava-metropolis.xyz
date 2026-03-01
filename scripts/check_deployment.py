@@ -6,6 +6,7 @@ import os
 import json
 import subprocess
 import sys
+import re
 
 def check_file(filepath, required=True):
     """Verifica si un archivo existe"""
@@ -27,6 +28,122 @@ def check_json_valid(filepath):
     except Exception as e:
         print(f"   └─ Error: {e} ❌")
         return False
+
+def check_update_notice_system(index_path="index.html", sw_path="sw.js", version_path="version.json"):
+    """Valida que el sistema de aviso/notas de actualización esté presente y coherente."""
+    print("\n🔔 Sistema de notas de actualización:")
+
+    if not os.path.exists(index_path):
+        print(f"❌ {index_path} no existe")
+        return False
+
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            html = f.read()
+    except Exception as e:
+        print(f"❌ No se pudo leer {index_path}: {e}")
+        return False
+
+    required_markers = [
+        'id="updateNoticeBanner"',
+        'id="updateNoticeBtn"',
+        'data-translate="updateBannerTitle"',
+        'data-translate="updateBannerText"',
+        'data-translate="updateBannerHighlightsTitle"',
+        'data-translate="updateBannerBullet1"',
+        'data-translate="updateBannerBullet2"',
+        'data-translate="updateBannerBullet3"',
+        'UPDATE_NOTICE_STORAGE_KEY',
+        'APP_RELEASE_ID'
+    ]
+
+    ok = True
+    for marker in required_markers:
+        if marker in html:
+            print(f"✅ Marker: {marker}")
+        else:
+            print(f"❌ Faltando marker: {marker}")
+            ok = False
+
+    translation_keys = [
+        "updateBannerTitle:",
+        "updateBannerText:",
+        "updateBannerHighlightsTitle:",
+        "updateBannerBullet1:",
+        "updateBannerBullet2:",
+        "updateBannerBullet3:",
+        "updateBannerButton:"
+    ]
+
+    for key in translation_keys:
+        occurrences = html.count(key)
+        # Esperamos ES/EN/PT => 3 ocurrencias mínimas.
+        if occurrences >= 3:
+            print(f"✅ Traducción {key} en 3 idiomas")
+        else:
+            print(f"❌ Traducción incompleta para {key} (encontradas: {occurrences}, esperadas: 3)")
+            ok = False
+
+    # Verificar coherencia básica de release entre index/sw/version
+    release_match = re.search(r"APP_RELEASE_ID\s*=\s*'([^']+)'", html)
+    app_release_id = release_match.group(1).strip() if release_match else ""
+    if app_release_id:
+        print(f"✅ APP_RELEASE_ID detectado: {app_release_id}")
+    else:
+        print("❌ No se pudo detectar APP_RELEASE_ID en index.html")
+        ok = False
+
+    sw_build = ""
+    if os.path.exists(sw_path):
+        try:
+            with open(sw_path, "r", encoding="utf-8") as f:
+                sw_text = f.read()
+            sw_match = re.search(r"SW_BUILD\s*=\s*'([^']+)'", sw_text)
+            sw_build = sw_match.group(1).strip() if sw_match else ""
+            if sw_build:
+                print(f"✅ SW_BUILD detectado: {sw_build}")
+            else:
+                print("❌ No se pudo detectar SW_BUILD en sw.js")
+                ok = False
+        except Exception as e:
+            print(f"❌ Error leyendo {sw_path}: {e}")
+            ok = False
+    else:
+        print(f"❌ {sw_path} no existe")
+        ok = False
+
+    if os.path.exists(version_path):
+        try:
+            with open(version_path, "r", encoding="utf-8") as f:
+                version_payload = json.load(f)
+            service_worker_tag = str(version_payload.get("features", {}).get("service_worker", "")).strip()
+            if service_worker_tag:
+                print(f"✅ version.json service_worker: {service_worker_tag}")
+            else:
+                print("❌ version.json sin features.service_worker")
+                ok = False
+
+            if app_release_id and sw_build and app_release_id == sw_build:
+                print("✅ APP_RELEASE_ID y SW_BUILD consistentes")
+            elif app_release_id and sw_build:
+                print(f"❌ APP_RELEASE_ID ({app_release_id}) y SW_BUILD ({sw_build}) no coinciden")
+                ok = False
+
+            if app_release_id and service_worker_tag:
+                expected_suffix = f"stock-cava-{app_release_id}"
+                if service_worker_tag == expected_suffix:
+                    print("✅ version.json service_worker consistente con APP_RELEASE_ID")
+                else:
+                    print(f"❌ service_worker inconsistente (esperado: {expected_suffix})")
+                    ok = False
+        except Exception as e:
+            print(f"❌ Error leyendo {version_path}: {e}")
+            ok = False
+    else:
+        print(f"❌ {version_path} no existe")
+        ok = False
+
+    return ok
 
 def verify_deployment():
     """Verifica que todo esté listo para deployment"""
@@ -123,6 +240,9 @@ def verify_deployment():
         all_good = False
     else:
         print("✅ Validación de integridad de datos de usuarios OK")
+
+    # Guard del sistema de notas de actualización (regla obligatoria)
+    all_good &= check_update_notice_system()
     
     # Resultado final
     print("\n" + "="*60)
