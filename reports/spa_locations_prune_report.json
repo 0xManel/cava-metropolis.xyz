@@ -1,0 +1,29 @@
+{
+  "manual_sources": [
+    "reports/spa_cava1_manual_source.csv",
+    "reports/spa_cava2_manual_source.csv",
+    "reports/spa_cava3_manual_source.csv",
+    "reports/spa_cava4_manual_source.csv",
+    "reports/spa_cava5_manual_source.csv"
+  ],
+  "allowed_locations_count": 61,
+  "before_wines_with_spa_loc": 151,
+  "after_wines_with_spa_loc": 151,
+  "before_location_tokens": 183,
+  "after_location_tokens": 182,
+  "changed_wines": 1,
+  "removed_rows_count": 1,
+  "removed_rows_sample": [
+    {
+      "pod": "POD016962",
+      "bodega": "Pintia",
+      "descripcion": "Pintia 20-",
+      "removed": [
+        "1·D·A"
+      ],
+      "kept": [
+        "1·D·D"
+      ]
+    }
+  ]
+}

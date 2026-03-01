@@ -715,32 +715,6 @@
             white-space: pre-line;
         }
 
-        .cata-mini-label {
-            margin-top: 0.62rem;
-            margin-bottom: 0.34rem;
-            font-size: 0.58rem;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            opacity: 0.9;
-        }
-
-        .cata-points {
-            display: grid;
-            gap: 0.32rem;
-        }
-
-        .cata-point {
-            border-radius: 9px;
-            border: 1px solid rgba(212, 175, 55, 0.14);
-            background: rgba(0, 0, 0, 0.16);
-            padding: 0.42rem 0.5rem;
-            font-size: 0.72rem;
-            line-height: 1.26;
-            color: var(--text-main);
-        }
-
         .cata-critics {
             margin-top: 0.62rem;
             display: flex;
@@ -1455,8 +1429,6 @@
             .cata-label { font-size: 0.6rem; margin-bottom: 0.4rem; }
             .cata-box { padding: 0.62rem 0.58rem; }
             .cata-value { font-size: 0.78rem; line-height: 1.32; }
-            .cata-mini-label { font-size: 0.54rem; margin-top: 0.5rem; margin-bottom: 0.3rem; }
-            .cata-point { font-size: 0.68rem; padding: 0.38rem 0.44rem; }
             .critic-chip { font-size: 0.6rem; padding: 0.16rem 0.38rem; }
             .critic-name { font-size: 0.6rem; }
             .critic-value { font-size: 0.7rem; }
@@ -1845,8 +1817,6 @@
                 <div class="cata-label">🍷 <span data-translate="tastingSummary">Cata resumida</span></div>
                 <div class="cata-box">
                     <div class="cata-value" id="modalCata">—</div>
-                    <div class="cata-mini-label" id="modalCataPointsLabel" data-translate="keyPoints">Puntos clave</div>
-                    <div class="cata-points" id="modalCataPoints"></div>
                     <div class="cata-critics" id="modalCritics"></div>
                 </div>
             </div>
@@ -3014,6 +2984,30 @@
             debounceTimer = setTimeout(() => triggerSearch(), 150);
         });
 
+        function getSpaClearLocationTokens(ref) {
+            const raw = normalizeLocationValue(ref?.establecimientos?.spa?.localizacion, 'spa');
+            if (!raw) return [];
+            const tokens = String(raw)
+                .split('/')
+                .map((segment) => normalizeLocationValue(segment, 'spa'))
+                .filter(Boolean);
+            return tokens.filter((token) => /^\d+·[A-Z]+·(?:A|D)$/.test(token) || /^\d+·BASE$/.test(token));
+        }
+
+        function hasSpaClearCavaLocation(ref) {
+            return getSpaClearLocationTokens(ref).length > 0;
+        }
+
+        function getSpaCavaPriority(ref) {
+            const tokens = getSpaClearLocationTokens(ref);
+            if (!tokens.length) return Number.POSITIVE_INFINITY;
+            const cavaNumbers = tokens
+                .map((token) => Number((token.split('·')[0] || '').trim()))
+                .filter((value) => Number.isFinite(value));
+            if (!cavaNumbers.length) return Number.POSITIVE_INFINITY;
+            return Math.min(...cavaNumbers);
+        }
+
         function triggerSearch() {
             const query = removeAccents(searchInput.value.toLowerCase().trim());
             searchResults.innerHTML = '';
@@ -3031,16 +3025,30 @@
                 results = results.filter(item => subsets[currentFilter].has(item.idx));
             }
 
-            // Apply sort
-            if (currentSort === 'abc') {
-                results.sort((a, b) => (refs[a.idx].descripcion || '').localeCompare(refs[b.idx].descripcion || ''));
-            } else {
-                results.sort((a, b) => {
-                    const pa = getDisplayPrice(refs[a.idx]);
-                    const pb = getDisplayPrice(refs[b.idx]);
-                    return (pa ?? Infinity) - (pb ?? Infinity);
-                });
-            }
+            // Apply sort with SPA (-1) location priority first:
+            // 1) wines with clear SPA cava location
+            // 2) wines without clear SPA location (shown as recommendation after)
+            // Within each block keep current sort mode.
+            results.sort((a, b) => {
+                const refA = refs[a.idx];
+                const refB = refs[b.idx];
+                const hasLocA = hasSpaClearCavaLocation(refA);
+                const hasLocB = hasSpaClearCavaLocation(refB);
+                if (hasLocA !== hasLocB) return hasLocA ? -1 : 1;
+
+                if (hasLocA && hasLocB) {
+                    const cavaA = getSpaCavaPriority(refA);
+                    const cavaB = getSpaCavaPriority(refB);
+                    if (cavaA !== cavaB) return cavaA - cavaB;
+                }
+
+                if (currentSort === 'abc') {
+                    return (refA.descripcion || '').localeCompare(refB.descripcion || '');
+                }
+                const pa = getDisplayPrice(refA);
+                const pb = getDisplayPrice(refB);
+                return (pa ?? Infinity) - (pb ?? Infinity);
+            });
 
             if (results.length > 0) {
                 results.forEach(item => {
@@ -4047,29 +4055,6 @@
             return lines.join('\n\n');
         }
 
-        function extractCataKeyPoints(cataText) {
-            const normalizedSource = localizeCataText(stripDrinkingGuidance(cataText));
-            const lines = splitNaturalSentences(normalizedSource);
-            if (!lines.length) return [];
-
-            const secondaryLines = lines.filter((line) => {
-                const normalized = normalizeToken(line);
-                return !/^\s*(nariz|nose)\b/.test(normalized) && !/^\s*(boca|paladar|palate)\b/.test(normalized);
-            });
-            if (!secondaryLines.length) return [];
-
-            const picks = [];
-            const pushPick = (regex) => {
-                const found = secondaryLines.find((line) => regex.test(normalizeToken(line)));
-                if (found && !picks.includes(found)) picks.push(found);
-            };
-
-            pushPick(/\bharmoniz|marida|pairing\b/);
-
-            if (!picks.length) picks.push(secondaryLines[0]);
-            return picks.slice(0, 3).map((line) => clipSentence(line, 132));
-        }
-
         function parseCriticsDetailedEntries(source) {
             const byLabel = new Map();
             const upsert = (label, value) => {
@@ -4373,18 +4358,6 @@
             const cataEl = document.getElementById('modalCata');
             const cataSummary = getDidacticCataSummary(ref);
             if (cataEl) cataEl.textContent = formatCataForDisplay(cataSummary);
-
-            const cataPointsLabelEl = document.getElementById('modalCataPointsLabel');
-            const cataPointsEl = document.getElementById('modalCataPoints');
-            if (cataPointsEl) {
-                const points = extractCataKeyPoints(cataSummary);
-                const hasPoints = points.length > 0;
-                cataPointsEl.innerHTML = hasPoints
-                    ? points.map((item) => `<div class="cata-point">${escapeHtml(item)}</div>`).join('')
-                    : '';
-                cataPointsEl.style.display = hasPoints ? '' : 'none';
-                if (cataPointsLabelEl) cataPointsLabelEl.style.display = hasPoints ? '' : 'none';
-            }
 
             const criticsEl = document.getElementById('modalCritics');
             if (criticsEl) {
