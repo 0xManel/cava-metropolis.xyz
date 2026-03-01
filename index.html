@@ -880,6 +880,16 @@
             line-height: 1.28;
         }
 
+        .alt-item-price {
+            color: #5fe39a;
+            font-weight: 700;
+        }
+
+        .alt-item-price-na {
+            color: var(--text-muted);
+            font-weight: 560;
+        }
+
         .critic-chip {
             display: inline-flex;
             align-items: center;
@@ -4438,6 +4448,7 @@
             const basePrice = getReferenceAveragePrice(baseRef);
             const baseGrapes = buildGrapeTokenSet(baseRef);
             const scored = [];
+            const activeEstablishment = currentFilter !== 'todos' ? currentFilter : null;
 
             refs.forEach((candidate) => {
                 if (!candidate || candidate.pod === baseRef.pod) return;
@@ -4454,6 +4465,8 @@
                     priceDiffRatio = Math.abs(candidatePrice - basePrice) / basePrice;
                     priceClose = priceDiffRatio <= 0.25;
                 }
+                const hasComparablePrice = Number.isFinite(priceDiffRatio);
+                const priceBucket = hasComparablePrice ? (priceClose ? 0 : 1) : 2;
 
                 let score = 0;
                 score += sameType ? 42 : -22;
@@ -4468,6 +4481,11 @@
 
                 if (score <= 0) return;
 
+                const hasPreferredLocation = activeEstablishment
+                    ? Boolean(getDisplayLocationText(candidate, activeEstablishment))
+                    : false;
+                const hasAnyLocation = EST_KEYS.some((key) => Boolean(getDisplayLocationText(candidate, key)));
+
                 scored.push({
                     ref: candidate,
                     score,
@@ -4475,20 +4493,28 @@
                     sameRegion,
                     grapeSimilarity,
                     priceClose,
+                    hasPreferredLocation,
+                    hasAnyLocation,
                     price: candidatePrice,
+                    hasComparablePrice,
+                    priceBucket,
                     priceDiffRatio: Number.isFinite(priceDiffRatio) ? priceDiffRatio : Number.POSITIVE_INFINITY
                 });
             });
 
             scored.sort((a, b) => {
-                if (b.score !== a.score) return b.score - a.score;
+                // Primary order: closest price first (similar prices before the rest).
+                if (a.priceBucket !== b.priceBucket) return a.priceBucket - b.priceBucket;
                 if (a.priceDiffRatio !== b.priceDiffRatio) return a.priceDiffRatio - b.priceDiffRatio;
+                if (a.hasComparablePrice !== b.hasComparablePrice) return a.hasComparablePrice ? -1 : 1;
+                if (a.hasPreferredLocation !== b.hasPreferredLocation) return a.hasPreferredLocation ? -1 : 1;
+                if (a.hasAnyLocation !== b.hasAnyLocation) return a.hasAnyLocation ? -1 : 1;
+                if (a.sameType !== b.sameType) return a.sameType ? -1 : 1;
+                if (b.score !== a.score) return b.score - a.score;
                 return (a.ref?.descripcion || '').localeCompare(b.ref?.descripcion || '');
             });
 
-            const sameTypeFirst = scored.filter((item) => item.sameType);
-            const fallback = scored.filter((item) => !item.sameType);
-            return [...sameTypeFirst, ...fallback].slice(0, limit);
+            return scored.slice(0, limit);
         }
 
         function renderModalAlternatives(baseRef) {
@@ -4506,12 +4532,15 @@
             const t = getTranslationPack(currentLang);
             listEl.innerHTML = alternatives.map((item) => {
                 const reason = buildAlternativeReason(item);
-                const priceText = Number.isFinite(item.price) ? fmtPrice(Math.round(item.price)) : (t.altNoPrice || 'PVP sin confirmar');
-                const meta = `${reason} · ${priceText}`;
+                const hasPrice = Number.isFinite(item.price);
+                const priceText = hasPrice ? fmtPrice(Math.round(item.price)) : (t.altNoPrice || 'PVP sin confirmar');
+                const priceClass = hasPrice ? 'alt-item-price' : 'alt-item-price alt-item-price-na';
                 return `
                     <button class="alt-item-btn" type="button" data-pod="${escapeHtml(item.ref.pod)}" title="${escapeHtml(item.ref.descripcion || item.ref.pod)}">
                         <div class="alt-item-title">${escapeHtml(item.ref.descripcion || '—')}</div>
-                        <div class="alt-item-meta">${escapeHtml(meta)}</div>
+                        <div class="alt-item-meta">
+                            ${escapeHtml(reason)} · <span class="${priceClass}">${escapeHtml(priceText)}</span>
+                        </div>
                     </button>
                 `;
             }).join('');
