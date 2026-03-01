@@ -1845,7 +1845,7 @@
                 <div class="cata-label">🍷 <span data-translate="tastingSummary">Cata resumida</span></div>
                 <div class="cata-box">
                     <div class="cata-value" id="modalCata">—</div>
-                    <div class="cata-mini-label" data-translate="keyPoints">Puntos clave</div>
+                    <div class="cata-mini-label" id="modalCataPointsLabel" data-translate="keyPoints">Puntos clave</div>
                     <div class="cata-points" id="modalCataPoints"></div>
                     <div class="cata-critics" id="modalCritics"></div>
                 </div>
@@ -4052,17 +4052,21 @@
             const lines = splitNaturalSentences(normalizedSource);
             if (!lines.length) return [];
 
+            const secondaryLines = lines.filter((line) => {
+                const normalized = normalizeToken(line);
+                return !/^\s*(nariz|nose)\b/.test(normalized) && !/^\s*(boca|paladar|palate)\b/.test(normalized);
+            });
+            if (!secondaryLines.length) return [];
+
             const picks = [];
             const pushPick = (regex) => {
-                const found = lines.find((line) => regex.test(normalizeToken(line)));
+                const found = secondaryLines.find((line) => regex.test(normalizeToken(line)));
                 if (found && !picks.includes(found)) picks.push(found);
             };
 
-            pushPick(/\bnariz\b/);
-            pushPick(/\bboca\b/);
             pushPick(/\bharmoniz|marida|pairing\b/);
 
-            if (!picks.length) picks.push(lines[0]);
+            if (!picks.length) picks.push(secondaryLines[0]);
             return picks.slice(0, 3).map((line) => clipSentence(line, 132));
         }
 
@@ -4370,12 +4374,16 @@
             const cataSummary = getDidacticCataSummary(ref);
             if (cataEl) cataEl.textContent = formatCataForDisplay(cataSummary);
 
+            const cataPointsLabelEl = document.getElementById('modalCataPointsLabel');
             const cataPointsEl = document.getElementById('modalCataPoints');
             if (cataPointsEl) {
                 const points = extractCataKeyPoints(cataSummary);
-                cataPointsEl.innerHTML = points.length
+                const hasPoints = points.length > 0;
+                cataPointsEl.innerHTML = hasPoints
                     ? points.map((item) => `<div class="cata-point">${escapeHtml(item)}</div>`).join('')
                     : '';
+                cataPointsEl.style.display = hasPoints ? '' : 'none';
+                if (cataPointsLabelEl) cataPointsLabelEl.style.display = hasPoints ? '' : 'none';
             }
 
             const criticsEl = document.getElementById('modalCritics');
