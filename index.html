@@ -274,6 +274,37 @@
             transform: none;
         }
 
+        .update-notice-highlights {
+            margin-top: 0.2rem;
+        }
+
+        .update-notice-highlights-title {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: rgba(255, 232, 168, 0.95);
+        }
+
+        .update-notice-highlights-list {
+            margin: 0.26rem 0 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 0.16rem;
+        }
+
+        .update-notice-highlights-list li {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.74rem;
+            font-weight: 500;
+            line-height: 1.3;
+            color: var(--text-main);
+            opacity: 0.95;
+        }
+
         .search-input-wrapper {
             position: relative;
             width: 100%;
@@ -787,6 +818,66 @@
             display: flex;
             flex-wrap: wrap;
             gap: 0.34rem;
+        }
+
+        .alt-block {
+            margin-bottom: 1rem;
+        }
+
+        .alt-label {
+            font-size: 0.64rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: var(--gold-accent);
+            opacity: 0.78;
+            margin-bottom: 0.46rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .alt-list {
+            display: grid;
+            gap: 0.34rem;
+        }
+
+        .alt-item-btn {
+            width: 100%;
+            border-radius: 11px;
+            border: 1px solid rgba(212, 175, 55, 0.18);
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.09), rgba(0, 0, 0, 0.18));
+            color: var(--text-main);
+            text-align: left;
+            padding: 0.52rem 0.58rem;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+        }
+
+        .alt-item-btn:hover {
+            border-color: rgba(212, 175, 55, 0.44);
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.16), rgba(0, 0, 0, 0.2));
+            transform: translateY(-1px);
+        }
+
+        .alt-item-btn:active {
+            transform: scale(0.99);
+        }
+
+        .alt-item-title {
+            font-size: 0.82rem;
+            font-weight: 700;
+            line-height: 1.26;
+            color: var(--text-main);
+        }
+
+        .alt-item-meta {
+            margin-top: 0.16rem;
+            font-size: 0.7rem;
+            font-weight: 520;
+            color: var(--text-muted);
+            line-height: 1.28;
         }
 
         .critic-chip {
@@ -1465,6 +1556,8 @@
             .update-notice-title { font-size: 0.72rem; }
             .update-notice-text { font-size: 0.76rem; }
             .update-notice-btn { font-size: 0.66rem; padding: 0.36rem 0.56rem; }
+            .update-notice-highlights-title { font-size: 0.64rem; }
+            .update-notice-highlights-list li { font-size: 0.68rem; }
             .title-cava { gap: 1vw; margin-bottom: -0.3rem; }
             .stock-text { font-size: 7.5vw; letter-spacing: 0.05em; }
             .cava-text { font-size: 7.5vw; }
@@ -1503,6 +1596,9 @@
             .cata-label { font-size: 0.6rem; margin-bottom: 0.4rem; }
             .cata-box { padding: 0.62rem 0.58rem; }
             .cata-value { font-size: 0.78rem; line-height: 1.32; }
+            .alt-item-btn { padding: 0.46rem 0.5rem; }
+            .alt-item-title { font-size: 0.74rem; }
+            .alt-item-meta { font-size: 0.64rem; }
             .critic-chip { font-size: 0.6rem; padding: 0.16rem 0.38rem; }
             .critic-name { font-size: 0.6rem; }
             .critic-value { font-size: 0.7rem; }
@@ -1822,6 +1918,14 @@
         <div class="update-notice-banner" id="updateNoticeBanner" role="status" aria-live="polite">
             <p class="update-notice-title" data-translate="updateBannerTitle">Actualización disponible</p>
             <p class="update-notice-text" data-translate="updateBannerText">Hay mejoras nuevas en la app. Pulsa para actualizar y ver todos los cambios.</p>
+            <div class="update-notice-highlights">
+                <p class="update-notice-highlights-title" data-translate="updateBannerHighlightsTitle">Novedades</p>
+                <ul class="update-notice-highlights-list">
+                    <li data-translate="updateBannerBullet1">· Búsqueda prioriza referencias con ubicación clara en SPA (-1).</li>
+                    <li data-translate="updateBannerBullet2">· Card expandido más limpio, sin bloques duplicados.</li>
+                    <li data-translate="updateBannerBullet3">· Recomendaciones rápidas de alternativas en cada referencia.</li>
+                </ul>
+            </div>
             <button class="update-notice-btn" id="updateNoticeBtn" type="button" data-translate="updateBannerButton">Actualizar ahora</button>
         </div>
         <div class="ref-count"><span id="totalRef">0</span> <span data-translate="refs">referencias disponibles</span></div>
@@ -1898,6 +2002,11 @@
                     <div class="cata-value" id="modalCata">—</div>
                     <div class="cata-critics" id="modalCritics"></div>
                 </div>
+            </div>
+
+            <div class="alt-block" id="modalAlternativesBlock">
+                <div class="alt-label">🔁 <span data-translate="altTitle">Alternativas recomendadas</span></div>
+                <div class="alt-list" id="modalAlternativesList"></div>
             </div>
 
             <!-- Establishment Pricing Table -->
@@ -2085,7 +2194,7 @@
         const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
         const SYNC_INTERVAL_MS = 30000;
         const SYNC_ENDPOINT = '/api/stock-sync';
-        const APP_RELEASE_ID = '2026-03-01-update-notice-v1';
+        const APP_RELEASE_ID = '2026-03-01-recommendations-v1';
         const VERSION_INFO_URL = '/version.json';
         const UPDATE_NOTICE_STORAGE_KEY = 'cava_update_ack_release_v1';
         let latestKnownRelease = APP_RELEASE_ID;
@@ -2537,10 +2646,20 @@
                 ],
                 refs: "referencias disponibles", refsLocated: "referencias localizadas", region: "Región", country: "País",
                 year: "Año", format: "Formato", climate: "Clima", soil: "Suelo", terroir: "Terroir", tastingSummary: "Cata resumida", quickGuide: "Guía rápida", keyPoints: "Puntos clave", criticsCard: "Card críticos", admin: "Admin", report: "Ventas",
+                altTitle: "Alternativas recomendadas",
+                altReasonGrape: "Perfil de uva similar",
+                altReasonRegion: "Misma región / estilo",
+                altReasonPrice: "Rango de precio cercano",
+                altReasonGeneral: "Estilo cercano en carta",
+                altNoPrice: "PVP sin confirmar",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Ubic.", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
                 consumeNeedFilter: "Selecciona SPA/TASCA/VICTORIA para registrar salida.", consumeDone: "Salida registrada.", consumeNoStock: "Sin stock numérico para descontar, pero salida anotada.", consumeToastUpdated: "Cava actualizada",
                 updateBannerTitle: "Actualización disponible",
                 updateBannerText: "Hay mejoras nuevas en la app. Pulsa para actualizar y ver todos los cambios.",
+                updateBannerHighlightsTitle: "Novedades",
+                updateBannerBullet1: "· Búsqueda prioriza referencias con ubicación clara en SPA (-1).",
+                updateBannerBullet2: "· Card expandido más limpio, sin bloques duplicados.",
+                updateBannerBullet3: "· Recomendaciones rápidas de alternativas en cada referencia.",
                 updateBannerButton: "Actualizar ahora",
                 updateBannerApplying: "Actualizando...",
                 btnLabel: "🇪🇸 ES"
@@ -2562,10 +2681,20 @@
                 ],
                 refs: "references available", refsLocated: "located references", region: "Region", country: "Country",
                 year: "Year", format: "Format", climate: "Climate", soil: "Soil", terroir: "Terroir", tastingSummary: "Tasting Summary", quickGuide: "Quick guide", keyPoints: "Key points", criticsCard: "Critics card", admin: "Admin", report: "Sales",
+                altTitle: "Recommended alternatives",
+                altReasonGrape: "Similar grape profile",
+                altReasonRegion: "Same region / style",
+                altReasonPrice: "Close price range",
+                altReasonGeneral: "Closest style in list",
+                altNoPrice: "Price not confirmed",
                 pvpLabel: "PVP", stockLabel: "Stock", locationShort: "Loc.", editBtn: "Edit", cancelBtn: "Cancel", saveBtn: "Save",
                 consumeNeedFilter: "Select SPA/TASCA/VICTORIA to register output.", consumeDone: "Output registered.", consumeNoStock: "No numeric stock to decrement, but output was logged.", consumeToastUpdated: "Cellar updated",
                 updateBannerTitle: "Update available",
                 updateBannerText: "New improvements are ready. Tap below to refresh and load the latest version.",
+                updateBannerHighlightsTitle: "What is new",
+                updateBannerBullet1: "· Search now prioritizes clear SPA (-1) locations.",
+                updateBannerBullet2: "· Expanded card is cleaner with no duplicate blocks.",
+                updateBannerBullet3: "· Fast alternative suggestions for each reference.",
                 updateBannerButton: "Update now",
                 updateBannerApplying: "Updating...",
                 btnLabel: "🇬🇧 EN"
@@ -2587,10 +2716,20 @@
                 ],
                 refs: "referências disponíveis", refsLocated: "referências localizadas", region: "Região", country: "País",
                 year: "Ano", format: "Formato", climate: "Clima", soil: "Solo", terroir: "Terroir", tastingSummary: "Cata resumida", quickGuide: "Guia rápido", keyPoints: "Pontos-chave", criticsCard: "Card críticos", admin: "Admin", report: "Vendas",
+                altTitle: "Alternativas recomendadas",
+                altReasonGrape: "Perfil de uva similar",
+                altReasonRegion: "Mesma região / estilo",
+                altReasonPrice: "Faixa de preço próxima",
+                altReasonGeneral: "Estilo próximo na carta",
+                altNoPrice: "PVP sem confirmação",
                 pvpLabel: "PVP", stockLabel: "Estoque", locationShort: "Local", editBtn: "Editar", cancelBtn: "Cancelar", saveBtn: "Salvar",
                 consumeNeedFilter: "Selecione SPA/TASCA/VICTORIA para registrar retirada.", consumeDone: "Retirada registrada.", consumeNoStock: "Sem estoque numérico para baixar, mas a retirada foi anotada.", consumeToastUpdated: "Cava Atualizada",
                 updateBannerTitle: "Atualização disponível",
                 updateBannerText: "Há melhorias novas no app. Toque para atualizar e ver todas as mudanças.",
+                updateBannerHighlightsTitle: "Novidades",
+                updateBannerBullet1: "· Busca prioriza referências com localização clara no SPA (-1).",
+                updateBannerBullet2: "· Card expandido mais limpo, sem blocos duplicados.",
+                updateBannerBullet3: "· Sugestões rápidas de alternativas em cada referência.",
                 updateBannerButton: "Atualizar agora",
                 updateBannerApplying: "Atualizando...",
                 btnLabel: "🇧🇷 PT"
@@ -4251,6 +4390,143 @@
             }).join('');
         }
 
+        function getReferenceAveragePrice(ref) {
+            const direct = Number(pvpMedio?.[ref?.pod]);
+            if (Number.isFinite(direct) && direct > 0) return direct;
+            const prices = EST_KEYS
+                .map((key) => Number(ref?.establecimientos?.[key]?.pvp))
+                .filter((value) => Number.isFinite(value) && value > 0);
+            if (!prices.length) return null;
+            return prices.reduce((acc, value) => acc + value, 0) / prices.length;
+        }
+
+        function buildGrapeTokenSet(ref) {
+            const set = new Set();
+            extractGrapeItems(ref?.uvas).forEach((item) => {
+                const token = canonicalGrapeKey(item?.nome || '');
+                if (token) set.add(token);
+            });
+            return set;
+        }
+
+        function getGrapeSimilarity(baseSet, candidateSet) {
+            if (!baseSet.size || !candidateSet.size) return 0;
+            let intersection = 0;
+            baseSet.forEach((token) => {
+                if (candidateSet.has(token)) intersection += 1;
+            });
+            const union = new Set([...baseSet, ...candidateSet]).size || 1;
+            return intersection / union;
+        }
+
+        function buildAlternativeReason(meta) {
+            const t = getTranslationPack(currentLang);
+            const reasons = [];
+            if (meta.grapeSimilarity > 0) reasons.push(t.altReasonGrape || 'Perfil de uva similar');
+            if (meta.sameRegion) reasons.push(t.altReasonRegion || 'Misma región / estilo');
+            if (meta.priceClose) reasons.push(t.altReasonPrice || 'Rango de precio cercano');
+            if (!reasons.length) reasons.push(t.altReasonGeneral || 'Estilo cercano en carta');
+            return reasons.slice(0, 2).join(' · ');
+        }
+
+        function getTopAlternatives(baseRef, limit = 3) {
+            if (!baseRef || !Array.isArray(refs) || refs.length < 2) return [];
+
+            const baseType = getWineTypeCode(baseRef);
+            const baseRegion = normalizeToken(baseRef?.region || '');
+            const baseBodega = normalizeToken(baseRef?.bodega || '');
+            const basePrice = getReferenceAveragePrice(baseRef);
+            const baseGrapes = buildGrapeTokenSet(baseRef);
+            const scored = [];
+
+            refs.forEach((candidate) => {
+                if (!candidate || candidate.pod === baseRef.pod) return;
+                const candidateType = getWineTypeCode(candidate);
+                const sameType = candidateType === baseType;
+                const sameRegion = baseRegion && normalizeToken(candidate?.region || '') === baseRegion;
+                const sameBodega = baseBodega && normalizeToken(candidate?.bodega || '') === baseBodega;
+                const grapeSimilarity = getGrapeSimilarity(baseGrapes, buildGrapeTokenSet(candidate));
+                const candidatePrice = getReferenceAveragePrice(candidate);
+
+                let priceDiffRatio = null;
+                let priceClose = false;
+                if (Number.isFinite(basePrice) && Number.isFinite(candidatePrice) && basePrice > 0) {
+                    priceDiffRatio = Math.abs(candidatePrice - basePrice) / basePrice;
+                    priceClose = priceDiffRatio <= 0.25;
+                }
+
+                let score = 0;
+                score += sameType ? 42 : -22;
+                score += sameRegion ? 14 : 0;
+                score += sameBodega ? 4 : 0;
+                score += Math.round(grapeSimilarity * 24);
+                if (priceDiffRatio != null) {
+                    if (priceDiffRatio <= 0.12) score += 15;
+                    else if (priceDiffRatio <= 0.25) score += 10;
+                    else if (priceDiffRatio <= 0.4) score += 5;
+                }
+
+                if (score <= 0) return;
+
+                scored.push({
+                    ref: candidate,
+                    score,
+                    sameType,
+                    sameRegion,
+                    grapeSimilarity,
+                    priceClose,
+                    price: candidatePrice,
+                    priceDiffRatio: Number.isFinite(priceDiffRatio) ? priceDiffRatio : Number.POSITIVE_INFINITY
+                });
+            });
+
+            scored.sort((a, b) => {
+                if (b.score !== a.score) return b.score - a.score;
+                if (a.priceDiffRatio !== b.priceDiffRatio) return a.priceDiffRatio - b.priceDiffRatio;
+                return (a.ref?.descripcion || '').localeCompare(b.ref?.descripcion || '');
+            });
+
+            const sameTypeFirst = scored.filter((item) => item.sameType);
+            const fallback = scored.filter((item) => !item.sameType);
+            return [...sameTypeFirst, ...fallback].slice(0, limit);
+        }
+
+        function renderModalAlternatives(baseRef) {
+            const block = document.getElementById('modalAlternativesBlock');
+            const listEl = document.getElementById('modalAlternativesList');
+            if (!block || !listEl) return;
+
+            const alternatives = getTopAlternatives(baseRef, 3);
+            if (!alternatives.length) {
+                block.style.display = 'none';
+                listEl.innerHTML = '';
+                return;
+            }
+
+            const t = getTranslationPack(currentLang);
+            listEl.innerHTML = alternatives.map((item) => {
+                const reason = buildAlternativeReason(item);
+                const priceText = Number.isFinite(item.price) ? fmtPrice(Math.round(item.price)) : (t.altNoPrice || 'PVP sin confirmar');
+                const meta = `${reason} · ${priceText}`;
+                return `
+                    <button class="alt-item-btn" type="button" data-pod="${escapeHtml(item.ref.pod)}" title="${escapeHtml(item.ref.descripcion || item.ref.pod)}">
+                        <div class="alt-item-title">${escapeHtml(item.ref.descripcion || '—')}</div>
+                        <div class="alt-item-meta">${escapeHtml(meta)}</div>
+                    </button>
+                `;
+            }).join('');
+            block.style.display = '';
+
+            listEl.querySelectorAll('.alt-item-btn').forEach((button) => {
+                button.addEventListener('click', () => {
+                    const pod = button.getAttribute('data-pod');
+                    if (!pod) return;
+                    const target = refs.find((item) => String(item?.pod || '') === pod);
+                    if (target) openModal(target);
+                });
+            });
+        }
+
         // --- MODAL ---
         const wineModal = document.getElementById('wineModal');
         const editButton = document.getElementById('btnEditWine');
@@ -4567,6 +4843,8 @@
                 criticsEl.innerHTML = chipsHtml;
                 criticsEl.style.display = chipsHtml ? 'flex' : 'none';
             }
+
+            renderModalAlternatives(ref);
 
             // Establishment table + mobile compact rows
             const prefixMap = { bodega: 'Bodega', spa: 'Spa', tasca_fina: 'Tasca', victoria: 'Victoria', galeria: 'Galeria' };

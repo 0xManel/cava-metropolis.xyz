@@ -1,10 +1,10 @@
 {
-  "version": "2026-03-01-UPDATE-NOTICE-V1",
-  "build_time": "2026-03-01T18:35:00Z",
+  "version": "2026-03-01-RECOMMENDATIONS-V1",
+  "build_time": "2026-03-01T19:55:00Z",
   "features": {
     "stock_cava_logo": true,
     "pwa_icons": true,
-    "service_worker": "stock-cava-2026-03-01-update-notice-v1",
+    "service_worker": "stock-cava-2026-03-01-recommendations-v1",
     "manifest_updated": true
   },
   "files": {

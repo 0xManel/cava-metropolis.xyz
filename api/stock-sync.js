@@ -291,8 +291,13 @@ function normalizeVictoriaLineToken(rawToken) {
 function normalizeVictoriaLocationValue(normalized) {
   const text = String(normalized || '').toUpperCase();
   if (!text) return null;
+  const compactText = text
+    .replace(/[•·]/g, ' ')
+    .replace(/[-_]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 
-  const compact = text.match(/^([A-Z0-9]{1,3})\s+(\d{1,2})(?:\s+([A-Z]{2,4}))?(?:\s+(L?\d{1,2}|PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA))?$/);
+  const compact = compactText.match(/^([A-Z0-9]{1,3})\s+(\d{1,2})(?:\s+([A-Z]{2,4}))?(?:\s+(L?\d{1,2}|PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA))?$/);
   if (compact) {
     const door = normalizeVictoriaDoorToken(compact[3]);
     const line = normalizeVictoriaLineToken(compact[4]);
