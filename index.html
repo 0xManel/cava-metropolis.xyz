@@ -2207,9 +2207,12 @@
         const APP_RELEASE_ID = '2026-03-01-recommendations-v1';
         const VERSION_INFO_URL = '/version.json';
         const UPDATE_NOTICE_STORAGE_KEY = 'cava_update_ack_release_v1';
+        const UPDATE_NOTICE_STATE_KEY = 'cava_update_notice_state_v1';
+        const UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE = 3;
         let latestKnownRelease = APP_RELEASE_ID;
         let pendingSwRegistration = null;
         let pendingSwWorker = null;
+        const updateNoticeSessionTracker = new Set();
         let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
         if (!syncClientId) {
             syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
@@ -2667,9 +2670,9 @@
                 updateBannerTitle: "Actualización disponible",
                 updateBannerText: "Hay mejoras nuevas en la app. Pulsa para actualizar y ver todos los cambios.",
                 updateBannerHighlightsTitle: "Novedades",
-                updateBannerBullet1: "· Búsqueda prioriza referencias con ubicación clara en SPA (-1).",
-                updateBannerBullet2: "· Card expandido más limpio, sin bloques duplicados.",
-                updateBannerBullet3: "· Recomendaciones rápidas de alternativas en cada referencia.",
+                updateBannerBullet1: "· Nuevo sistema de vinos recomendados por referencia (hasta 3 alternativas).",
+                updateBannerBullet2: "· Recomendaciones priorizan precio similar para sugerencias más útiles.",
+                updateBannerBullet3: "· Búsqueda prioriza referencias con ubicación clara en SPA (-1).",
                 updateBannerButton: "Actualizar ahora",
                 updateBannerApplying: "Actualizando...",
                 btnLabel: "🇪🇸 ES"
@@ -2702,9 +2705,9 @@
                 updateBannerTitle: "Update available",
                 updateBannerText: "New improvements are ready. Tap below to refresh and load the latest version.",
                 updateBannerHighlightsTitle: "What is new",
-                updateBannerBullet1: "· Search now prioritizes clear SPA (-1) locations.",
-                updateBannerBullet2: "· Expanded card is cleaner with no duplicate blocks.",
-                updateBannerBullet3: "· Fast alternative suggestions for each reference.",
+                updateBannerBullet1: "· New recommended wines system per reference (up to 3 alternatives).",
+                updateBannerBullet2: "· Recommendations now prioritize closest price for better suggestions.",
+                updateBannerBullet3: "· Search now prioritizes clear SPA (-1) locations.",
                 updateBannerButton: "Update now",
                 updateBannerApplying: "Updating...",
                 btnLabel: "🇬🇧 EN"
@@ -2737,9 +2740,9 @@
                 updateBannerTitle: "Atualização disponível",
                 updateBannerText: "Há melhorias novas no app. Toque para atualizar e ver todas as mudanças.",
                 updateBannerHighlightsTitle: "Novidades",
-                updateBannerBullet1: "· Busca prioriza referências com localização clara no SPA (-1).",
-                updateBannerBullet2: "· Card expandido mais limpo, sem blocos duplicados.",
-                updateBannerBullet3: "· Sugestões rápidas de alternativas em cada referência.",
+                updateBannerBullet1: "· Novo sistema de vinhos recomendados por referência (até 3 alternativas).",
+                updateBannerBullet2: "· Recomendações agora priorizam preço similar para melhor sugestão.",
+                updateBannerBullet3: "· Busca prioriza referências com localização clara no SPA (-1).",
                 updateBannerButton: "Atualizar agora",
                 updateBannerApplying: "Atualizando...",
                 btnLabel: "🇧🇷 PT"
@@ -4653,10 +4656,89 @@
             return APP_RELEASE_ID;
         }
 
+        function getUpdateNoticeUserId() {
+            const namedUser = String(currentUserName || '').trim().toLowerCase();
+            if (namedUser) return namedUser;
+            const fallbackScope = String(currentUserScope || currentUserEstablishment || 'anon').trim().toLowerCase();
+            return fallbackScope ? `anon:${fallbackScope}` : 'anon:default';
+        }
+
+        function readUpdateNoticeStateStore() {
+            try {
+                const parsed = JSON.parse(localStorage.getItem(UPDATE_NOTICE_STATE_KEY) || '{}');
+                if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+                return parsed;
+            } catch {
+                return {};
+            }
+        }
+
+        function writeUpdateNoticeStateStore(store) {
+            const safeStore = (store && typeof store === 'object' && !Array.isArray(store)) ? store : {};
+            localStorage.setItem(UPDATE_NOTICE_STATE_KEY, JSON.stringify(safeStore));
+        }
+
+        function getUpdateNoticeState(versionId) {
+            if (!versionId) return { shownCount: 0, acknowledgedAt: '' };
+            const store = readUpdateNoticeStateStore();
+            const userId = getUpdateNoticeUserId();
+            const userState = (store[userId] && typeof store[userId] === 'object' && !Array.isArray(store[userId])) ? store[userId] : {};
+            const releaseState = (userState[versionId] && typeof userState[versionId] === 'object' && !Array.isArray(userState[versionId])) ? userState[versionId] : {};
+            return {
+                shownCount: Number.isFinite(Number(releaseState.shownCount)) ? Math.max(0, Number(releaseState.shownCount)) : 0,
+                acknowledgedAt: String(releaseState.acknowledgedAt || '').trim()
+            };
+        }
+
+        function patchUpdateNoticeState(versionId, patch) {
+            if (!versionId || !patch || typeof patch !== 'object') return;
+            const store = readUpdateNoticeStateStore();
+            const userId = getUpdateNoticeUserId();
+            if (!store[userId] || typeof store[userId] !== 'object' || Array.isArray(store[userId])) {
+                store[userId] = {};
+            }
+            const prev = (store[userId][versionId] && typeof store[userId][versionId] === 'object' && !Array.isArray(store[userId][versionId]))
+                ? store[userId][versionId]
+                : {};
+            store[userId][versionId] = { ...prev, ...patch };
+            writeUpdateNoticeStateStore(store);
+        }
+
+        function markUpdateNoticeShown(versionId) {
+            if (!versionId) return;
+            const userId = getUpdateNoticeUserId();
+            const sessionKey = `${userId}::${versionId}`;
+            if (updateNoticeSessionTracker.has(sessionKey)) return;
+            updateNoticeSessionTracker.add(sessionKey);
+
+            const currentState = getUpdateNoticeState(versionId);
+            const nextCount = Math.min(UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE, currentState.shownCount + 1);
+            patchUpdateNoticeState(versionId, {
+                shownCount: nextCount,
+                lastShownAt: new Date().toISOString()
+            });
+        }
+
+        function markUpdateNoticeAcknowledged(versionId) {
+            if (!versionId) return;
+            localStorage.setItem(UPDATE_NOTICE_STORAGE_KEY, versionId);
+            patchUpdateNoticeState(versionId, {
+                shownCount: UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE,
+                acknowledgedAt: new Date().toISOString()
+            });
+        }
+
         function shouldShowUpdateNoticeForVersion(versionId) {
             if (!versionId) return false;
             const acknowledged = String(localStorage.getItem(UPDATE_NOTICE_STORAGE_KEY) || '').trim();
-            return acknowledged !== versionId;
+            if (acknowledged === versionId) {
+                return false;
+            }
+            const state = getUpdateNoticeState(versionId);
+            if (state.acknowledgedAt) {
+                return false;
+            }
+            return state.shownCount < UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE;
         }
 
         function hideUpdateNotice() {
@@ -4677,6 +4759,7 @@
                 return;
             }
             latestKnownRelease = versionId;
+            markUpdateNoticeShown(versionId);
             updateNoticeBanner.dataset.version = versionId;
             updateNoticeBanner.classList.add('show');
             if (updateNoticeButton) {
@@ -4696,7 +4779,7 @@
             const versionId = String(updateNoticeBanner?.dataset?.version || latestKnownRelease || APP_RELEASE_ID).trim();
             if (!versionId) return;
 
-            localStorage.setItem(UPDATE_NOTICE_STORAGE_KEY, versionId);
+            markUpdateNoticeAcknowledged(versionId);
             if (updateNoticeButton) {
                 const t = getTranslationPack(currentLang);
                 updateNoticeButton.disabled = true;
