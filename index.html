@@ -2204,7 +2204,7 @@
         const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
         const SYNC_INTERVAL_MS = 30000;
         const SYNC_ENDPOINT = '/api/stock-sync';
-        const APP_RELEASE_ID = '2026-03-02-update-notice-v3';
+        const APP_RELEASE_ID = '2026-03-02-update-notice-v4';
         const VERSION_INFO_URL = '/version.json';
         const UPDATE_NOTICE_STORAGE_KEY = 'cava_update_ack_release_v1';
         const UPDATE_NOTICE_STATE_KEY = 'cava_update_notice_state_v1';
@@ -2674,7 +2674,7 @@
                 updateBannerHighlightsTitle: "Novedades",
                 updateBannerBullet1: "· Nuevo sistema de vinos recomendados por referencia (hasta 3 alternativas).",
                 updateBannerBullet2: "· Recomendaciones priorizan precio similar para sugerencias más útiles.",
-                updateBannerBullet3: "· Actualización manual por usuario + aviso en los primeros 3 accesos por release.",
+                updateBannerBullet3: "· 1 reinicio forzado por release; luego las siguientes 2 confirmaciones son manuales.",
                 updateBannerButton: "Actualizar ahora",
                 updateBannerApplying: "Actualizando...",
                 btnLabel: "🇪🇸 ES"
@@ -2709,7 +2709,7 @@
                 updateBannerHighlightsTitle: "What is new",
                 updateBannerBullet1: "· New recommended wines system per reference (up to 3 alternatives).",
                 updateBannerBullet2: "· Recommendations now prioritize closest price for better suggestions.",
-                updateBannerBullet3: "· Manual user update + notice shown for first 3 sessions per release.",
+                updateBannerBullet3: "· 1 forced reload per release; then the next 2 confirmations are manual.",
                 updateBannerButton: "Update now",
                 updateBannerApplying: "Updating...",
                 btnLabel: "🇬🇧 EN"
@@ -2744,7 +2744,7 @@
                 updateBannerHighlightsTitle: "Novidades",
                 updateBannerBullet1: "· Novo sistema de vinhos recomendados por referência (até 3 alternativas).",
                 updateBannerBullet2: "· Recomendações agora priorizam preço similar para melhor sugestão.",
-                updateBannerBullet3: "· Atualização manual por usuário + aviso nos 3 primeiros acessos por release.",
+                updateBannerBullet3: "· 1 reinício forçado por release; depois as próximas 2 confirmações são manuais.",
                 updateBannerButton: "Atualizar agora",
                 updateBannerApplying: "Atualizando...",
                 btnLabel: "🇧🇷 PT"
@@ -4707,7 +4707,8 @@
             const releaseState = (userState[versionId] && typeof userState[versionId] === 'object' && !Array.isArray(userState[versionId])) ? userState[versionId] : {};
             return {
                 shownCount: Number.isFinite(Number(releaseState.shownCount)) ? Math.max(0, Number(releaseState.shownCount)) : 0,
-                acknowledgedAt: String(releaseState.acknowledgedAt || '').trim()
+                acknowledgedAt: String(releaseState.acknowledgedAt || '').trim(),
+                forcedReloadAt: String(releaseState.forcedReloadAt || '').trim()
             };
         }
 
@@ -4749,6 +4750,27 @@
             patchUpdateNoticeState(versionId, {
                 shownCount: UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE,
                 acknowledgedAt: new Date().toISOString()
+            });
+        }
+
+        function shouldForceFirstReloadForVersion(versionId) {
+            if (!versionId) return false;
+            const acknowledged = String(localStorage.getItem(UPDATE_NOTICE_STORAGE_KEY) || '').trim();
+            if (acknowledged === versionId) return false;
+            const state = getUpdateNoticeState(versionId);
+            if (state.acknowledgedAt) return false;
+            return !state.forcedReloadAt;
+        }
+
+        function markForcedReloadApplied(versionId) {
+            if (!versionId) return;
+            const nowIso = new Date().toISOString();
+            const currentState = getUpdateNoticeState(versionId);
+            const nextShown = Math.max(currentState.shownCount, 1);
+            patchUpdateNoticeState(versionId, {
+                shownCount: nextShown,
+                forcedReloadAt: nowIso,
+                lastShownAt: nowIso
             });
         }
 
@@ -4848,6 +4870,11 @@
                 }
             } catch {}
             latestKnownRelease = latestVersion || APP_RELEASE_ID;
+            if (shouldForceFirstReloadForVersion(latestKnownRelease)) {
+                markForcedReloadApplied(latestKnownRelease);
+                reloadWithCacheBust(`${latestKnownRelease}-forced`);
+                return;
+            }
             if (shouldShowUpdateNoticeForVersion(latestKnownRelease)) {
                 showUpdateNotice(latestKnownRelease);
             } else {
