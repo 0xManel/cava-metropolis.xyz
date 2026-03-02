@@ -248,6 +248,9 @@
 
         .update-notice-btn {
             justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             border: 1px solid rgba(212, 175, 55, 0.52);
             background: rgba(212, 175, 55, 0.24);
             color: #ffe8a8;
@@ -260,6 +263,63 @@
             padding: 0.42rem 0.66rem;
             cursor: pointer;
             transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .update-notice-btn .update-btn-label {
+            line-height: 1;
+        }
+
+        .update-notice-btn .update-btn-loader {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            pointer-events: none;
+        }
+
+        .update-notice-btn .update-btn-loader-track {
+            fill: none;
+            stroke: rgba(255, 232, 168, 0.25);
+            stroke-width: 2.1;
+        }
+
+        .update-notice-btn .update-btn-loader-arc {
+            fill: none;
+            stroke: rgba(255, 232, 168, 0.98);
+            stroke-width: 2.1;
+            stroke-linecap: round;
+            stroke-dasharray: 18 32;
+            transform-origin: 12px 12px;
+        }
+
+        .update-notice-btn .update-btn-loader-dot {
+            fill: rgba(255, 232, 168, 0.98);
+            transform-origin: 12px 12px;
+        }
+
+        .update-notice-btn.is-loading .update-btn-loader {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .update-notice-btn.is-loading .update-btn-loader-arc {
+            animation: updateLoaderSpin 0.95s linear infinite;
+        }
+
+        .update-notice-btn.is-loading .update-btn-loader-dot {
+            animation: updateLoaderPulse 1.05s ease-in-out infinite;
+        }
+
+        @keyframes updateLoaderSpin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes updateLoaderPulse {
+            0%, 100% { opacity: 0.28; transform: scale(0.82); }
+            50% { opacity: 1; transform: scale(1); }
         }
 
         .update-notice-btn:hover {
@@ -1566,6 +1626,7 @@
             .update-notice-title { font-size: 0.72rem; }
             .update-notice-text { font-size: 0.76rem; }
             .update-notice-btn { font-size: 0.66rem; padding: 0.36rem 0.56rem; }
+            .update-notice-btn .update-btn-loader { width: 13px; height: 13px; }
             .update-notice-highlights-title { font-size: 0.64rem; }
             .update-notice-highlights-list li { font-size: 0.68rem; }
             .title-cava { gap: 1vw; margin-bottom: -0.3rem; }
@@ -1936,7 +1997,14 @@
                     <li data-translate="updateBannerBullet3">· Recomendaciones rápidas de alternativas en cada referencia.</li>
                 </ul>
             </div>
-            <button class="update-notice-btn" id="updateNoticeBtn" type="button" data-translate="updateBannerButton">Actualizar ahora</button>
+            <button class="update-notice-btn" id="updateNoticeBtn" type="button" aria-live="polite" aria-busy="false">
+                <span class="update-btn-label">Actualizar ahora</span>
+                <svg class="update-btn-loader" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle class="update-btn-loader-track" cx="12" cy="12" r="8"></circle>
+                    <circle class="update-btn-loader-arc" cx="12" cy="12" r="8"></circle>
+                    <circle class="update-btn-loader-dot" cx="19" cy="12" r="1.35"></circle>
+                </svg>
+            </button>
         </div>
         <div class="ref-count"><span id="totalRef">0</span> <span data-translate="refs">referencias disponibles</span></div>
         <div class="ref-count ref-count-located"><span id="locatedRef">0</span> <span data-translate="refsLocated">referencias localizadas</span></div>
@@ -4662,6 +4730,24 @@
             return APP_RELEASE_ID;
         }
 
+        function setUpdateNoticeButtonState(mode = 'idle') {
+            if (!updateNoticeButton) return;
+            const isLoading = mode === 'loading';
+            const t = getTranslationPack(currentLang);
+            const nextLabel = isLoading
+                ? (t.updateBannerApplying || 'Actualizando...')
+                : (t.updateBannerButton || 'Actualizar ahora');
+            const labelEl = updateNoticeButton.querySelector('.update-btn-label');
+            if (labelEl) {
+                labelEl.textContent = nextLabel;
+            } else {
+                updateNoticeButton.textContent = nextLabel;
+            }
+            updateNoticeButton.classList.toggle('is-loading', isLoading);
+            updateNoticeButton.disabled = isLoading;
+            updateNoticeButton.setAttribute('aria-busy', isLoading ? 'true' : 'false');
+        }
+
         function getUpdateNoticeUserId() {
             const namedUser = String(currentUserName || '').trim().toLowerCase();
             if (namedUser) return namedUser;
@@ -4791,11 +4877,7 @@
             if (!updateNoticeBanner) return;
             updateNoticeBanner.classList.remove('show');
             updateNoticeBanner.dataset.version = '';
-            if (updateNoticeButton) {
-                updateNoticeButton.disabled = false;
-                const t = getTranslationPack(currentLang);
-                updateNoticeButton.textContent = t.updateBannerButton || 'Actualizar ahora';
-            }
+            setUpdateNoticeButtonState('idle');
         }
 
         function showUpdateNotice(versionId) {
@@ -4808,11 +4890,7 @@
             markUpdateNoticeShown(versionId);
             updateNoticeBanner.dataset.version = versionId;
             updateNoticeBanner.classList.add('show');
-            if (updateNoticeButton) {
-                updateNoticeButton.disabled = false;
-                const t = getTranslationPack(currentLang);
-                updateNoticeButton.textContent = t.updateBannerButton || 'Actualizar ahora';
-            }
+            setUpdateNoticeButtonState('idle');
         }
 
         function reloadWithCacheBust(versionId) {
@@ -4827,11 +4905,7 @@
 
             manualUpdateFlowActive = true;
             markUpdateNoticeAcknowledged(versionId);
-            if (updateNoticeButton) {
-                const t = getTranslationPack(currentLang);
-                updateNoticeButton.disabled = true;
-                updateNoticeButton.textContent = t.updateBannerApplying || 'Actualizando...';
-            }
+            setUpdateNoticeButtonState('loading');
 
             try {
                 if ('serviceWorker' in navigator) {
@@ -5426,6 +5500,11 @@
                 adminButton.textContent = currentUserRole === 'user'
                     ? (t.report || 'Ventas')
                     : (t.admin || 'Admin');
+            }
+
+            if (typeof setUpdateNoticeButtonState === 'function') {
+                const isLoading = Boolean(updateNoticeButton?.classList.contains('is-loading'));
+                setUpdateNoticeButtonState(isLoading ? 'loading' : 'idle');
             }
 
             phraseQueue = [];
