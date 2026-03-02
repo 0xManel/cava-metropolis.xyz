@@ -2204,14 +2204,16 @@
         const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
         const SYNC_INTERVAL_MS = 30000;
         const SYNC_ENDPOINT = '/api/stock-sync';
-        const APP_RELEASE_ID = '2026-03-02-update-notice-v2';
+        const APP_RELEASE_ID = '2026-03-02-update-notice-v3';
         const VERSION_INFO_URL = '/version.json';
         const UPDATE_NOTICE_STORAGE_KEY = 'cava_update_ack_release_v1';
         const UPDATE_NOTICE_STATE_KEY = 'cava_update_notice_state_v1';
+        const UPDATE_NOTICE_SESSION_STATE_KEY = 'cava_update_notice_session_state_v1';
         const UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE = 3;
         let latestKnownRelease = APP_RELEASE_ID;
         let pendingSwRegistration = null;
         let pendingSwWorker = null;
+        let manualUpdateFlowActive = false;
         const updateNoticeSessionTracker = new Set();
         let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
         if (!syncClientId) {
@@ -2672,7 +2674,7 @@
                 updateBannerHighlightsTitle: "Novedades",
                 updateBannerBullet1: "· Nuevo sistema de vinos recomendados por referencia (hasta 3 alternativas).",
                 updateBannerBullet2: "· Recomendaciones priorizan precio similar para sugerencias más útiles.",
-                updateBannerBullet3: "· Aviso visible en los primeros 3 accesos por usuario en cada nueva actualización.",
+                updateBannerBullet3: "· Actualización manual por usuario + aviso en los primeros 3 accesos por release.",
                 updateBannerButton: "Actualizar ahora",
                 updateBannerApplying: "Actualizando...",
                 btnLabel: "🇪🇸 ES"
@@ -2707,7 +2709,7 @@
                 updateBannerHighlightsTitle: "What is new",
                 updateBannerBullet1: "· New recommended wines system per reference (up to 3 alternatives).",
                 updateBannerBullet2: "· Recommendations now prioritize closest price for better suggestions.",
-                updateBannerBullet3: "· Update notice is shown for the first 3 user sessions on each new release.",
+                updateBannerBullet3: "· Manual user update + notice shown for first 3 sessions per release.",
                 updateBannerButton: "Update now",
                 updateBannerApplying: "Updating...",
                 btnLabel: "🇬🇧 EN"
@@ -2742,7 +2744,7 @@
                 updateBannerHighlightsTitle: "Novidades",
                 updateBannerBullet1: "· Novo sistema de vinhos recomendados por referência (até 3 alternativas).",
                 updateBannerBullet2: "· Recomendações agora priorizam preço similar para melhor sugestão.",
-                updateBannerBullet3: "· Aviso visível nos 3 primeiros acessos por usuário em cada nova atualização.",
+                updateBannerBullet3: "· Atualização manual por usuário + aviso nos 3 primeiros acessos por release.",
                 updateBannerButton: "Atualizar agora",
                 updateBannerApplying: "Atualizando...",
                 btnLabel: "🇧🇷 PT"
@@ -4649,10 +4651,14 @@
         }
 
         function getLatestReleaseFromVersionPayload(payload) {
-            const versionCandidate = String(payload?.version || '').trim();
-            if (versionCandidate) return versionCandidate;
             const swCandidate = String(payload?.features?.service_worker || '').trim();
-            if (swCandidate) return swCandidate;
+            if (swCandidate) {
+                return swCandidate.startsWith('stock-cava-')
+                    ? swCandidate.slice('stock-cava-'.length)
+                    : swCandidate;
+            }
+            const versionCandidate = String(payload?.version || '').trim();
+            if (versionCandidate) return versionCandidate.toLowerCase();
             return APP_RELEASE_ID;
         }
 
@@ -4676,6 +4682,21 @@
         function writeUpdateNoticeStateStore(store) {
             const safeStore = (store && typeof store === 'object' && !Array.isArray(store)) ? store : {};
             localStorage.setItem(UPDATE_NOTICE_STATE_KEY, JSON.stringify(safeStore));
+        }
+
+        function readUpdateNoticeSessionStore() {
+            try {
+                const parsed = JSON.parse(sessionStorage.getItem(UPDATE_NOTICE_SESSION_STATE_KEY) || '{}');
+                if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+                return parsed;
+            } catch {
+                return {};
+            }
+        }
+
+        function writeUpdateNoticeSessionStore(store) {
+            const safeStore = (store && typeof store === 'object' && !Array.isArray(store)) ? store : {};
+            sessionStorage.setItem(UPDATE_NOTICE_SESSION_STATE_KEY, JSON.stringify(safeStore));
         }
 
         function getUpdateNoticeState(versionId) {
@@ -4708,8 +4729,11 @@
             if (!versionId) return;
             const userId = getUpdateNoticeUserId();
             const sessionKey = `${userId}::${versionId}`;
-            if (updateNoticeSessionTracker.has(sessionKey)) return;
+            const sessionStore = readUpdateNoticeSessionStore();
+            if (updateNoticeSessionTracker.has(sessionKey) || sessionStore[sessionKey]) return;
             updateNoticeSessionTracker.add(sessionKey);
+            sessionStore[sessionKey] = new Date().toISOString();
+            writeUpdateNoticeSessionStore(sessionStore);
 
             const currentState = getUpdateNoticeState(versionId);
             const nextCount = Math.min(UPDATE_NOTICE_MAX_SHOWS_PER_RELEASE, currentState.shownCount + 1);
@@ -4779,6 +4803,7 @@
             const versionId = String(updateNoticeBanner?.dataset?.version || latestKnownRelease || APP_RELEASE_ID).trim();
             if (!versionId) return;
 
+            manualUpdateFlowActive = true;
             markUpdateNoticeAcknowledged(versionId);
             if (updateNoticeButton) {
                 const t = getTranslationPack(currentLang);
@@ -4795,14 +4820,22 @@
                         const waitingWorker = registration.waiting || pendingSwWorker;
                         if (waitingWorker) {
                             waitingWorker.postMessage({ type: 'SKIP_WAITING' });
-                            setTimeout(() => reloadWithCacheBust(versionId), 1800);
+                            setTimeout(() => {
+                                if (manualUpdateFlowActive) {
+                                    reloadWithCacheBust(versionId);
+                                }
+                            }, 1800);
                             return;
                         }
                     }
                 }
             } catch {}
 
-            setTimeout(() => reloadWithCacheBust(versionId), 250);
+            setTimeout(() => {
+                if (manualUpdateFlowActive) {
+                    reloadWithCacheBust(versionId);
+                }
+            }, 250);
         }
 
         async function checkForAppUpdates() {
@@ -5551,9 +5584,10 @@
         if ('serviceWorker' in navigator) {
             let swRefreshing = false;
             navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (!manualUpdateFlowActive) return;
                 if (swRefreshing) return;
                 swRefreshing = true;
-                window.location.reload();
+                reloadWithCacheBust(latestKnownRelease || APP_RELEASE_ID);
             });
 
             navigator.serviceWorker

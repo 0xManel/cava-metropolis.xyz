@@ -1,4 +1,4 @@
-const SW_BUILD = '2026-03-02-update-notice-v2';
+const SW_BUILD = '2026-03-02-update-notice-v3';
 const CACHE = `stock-cava-${SW_BUILD}`;
 const ASSETS = ['/', '/index.html', '/login.html', '/admin.html', '/manifest.json'];
 
