@@ -1,0 +1,301 @@
+Nome original|Safra|Região|Uva|Preço|Notas de Cata (sommelier simples)|Card Críticos
+Fleurot Larose Chassagne Rocquemaure 20-|2020|Borgoña|Chardonnay|278€|Nariz: limão, maçã madura, mineral sutil, toque floral. Boca: cremoso denso, acidez viva, final longo elegante. Rocquemaure top. Beba agora-2035. Peixe grelhado ou frutos do mar.|WA: 92 | Peñín: 91
+Fleurot Larose Chassagne Rocquemaure 21-|2021|Borgoña|Chardonnay|262€|Nariz: limão, ervas, mineral calcário. Boca: tenso puro, acidez alta. Jovem top. Beba agora-2035. Ostras ou saladas.|WA: 93 | Peñín: 92
+Francois Carillon Puligny 1C Champgain 23-|2023|Borgoña|Chardonnay|306€|Nariz: maçã verde, limão, flores. Boca: cremoso tenso, mineral vibrante. Champgain top. Beba agora-2035. Peixe ou aves.|WA: 92 | Peñín: 91
+Francois Carillon Puligny Enseigneres 23-|2023|Borgoña|Chardonnay|290€|Nariz: limão, ervas, mineral. Boca: seco elegante, acidez viva. Enseigneres top. Beba agora-2035. Frutos do mar.|WA: 91 | Peñín: 90
+Girardin Corton Charlemagne 22-|2022|Borgoña|Chardonnay|646€|Nariz: limão tostado, maçã, mineral. Boca: denso cremoso, acidez precisa. Corton-Charlemagne top. Beba agora-2040. Lagosta ou queijos.|WA: 94 | JS: 93
+Hudelot Noellat Bourgogne Aligote 22-|2022|Borgoña|Chardonnay|70€|Nariz: limão, maçã verde, mineral. Boca: seco fresco, acidez viva. Aligoté top. Beba agora-2028. Aperitivo ou peixe cru.|WA: 90 | Peñín: 89
+Hudelot Noellat Meursault Clos de l'École 22-|2022|Borgoña|Chardonnay|246€|Nariz: maçã, limão, mineral sutil. Boca: cremoso tenso, final longo. Clos de l'École top. Beba agora-2035. Peixe ou frango.|WA: 92 | Peñín: 91
+Jadot Batard Montrachet 22-|2022|Borgoña|Chardonnay|1602€|Nariz: limão tostado, maçã madura, mineral. Boca: denso cremoso, acidez alta. Bâtard top. Beba agora-2045. Luxo puro.|WA: 95 | JS: 94
+Jadot Bienvenues Batard Montrachet 22-|2022|Borgoña|Chardonnay|1560€|Nariz: flores, limão, mineral. Boca: cremoso elegante, final infinito. Bienvenues top. Beba agora-2045.|WA: 96 | JS: 95
+Jadot Chevalier Montrachet Demoiselles 22-|2022|Borgoña|Chardonnay|1953€|Nariz: limão, maçã, mineral profundo. Boca: denso puro, acidez vibrante. Demoiselles top. Beba agora-2050.|WA: 97 | JS: 96
+Jadot Corton Charlemagne 22-|2022|Borgoña|Chardonnay|525€|Nariz: limão tostado, mineral. Boca: cremoso tenso. Corton-Charlemagne top. Beba agora-2040.|WA: 94 | Peñín: 93
+Jadot HdB Meursault 1C Genevrieres 16-|2016|Borgoña|Chardonnay|620€|Nariz: maçã madura, mel, mineral. Boca: cremoso complexo. Maduro top. Beba agora-2035.|WA: 93 | Peñín: 92
+Jadot Meursault 1C Perrieres 22-|2022|Borgoña|Chardonnay|310€|Nariz: limão, maçã, mineral. Boca: denso elegante. Perrières top. Beba agora-2035.|WA: 93 | JS: 92
+Jadot Puligny 1C Combettes 23-|2023|Borgoña|Chardonnay|371€|Nariz: maçã verde, flores, mineral. Boca: cremoso tenso. Combettes top. Beba agora-2035.|WA: 92 | Peñín: 91
+Lafarge Meurs Vend Select 22-|2022|Borgoña|Chardonnay|204€|Nariz: limão, ervas, mineral. Boca: seco cremoso. Vend Select top. Beba agora-2030.|WA: 91 | Peñín: 90
+Lafarge Meursault 22-|2022|Borgoña|Chardonnay|138€|Nariz: maçã, limão, mineral. Boca: seco puro. Meursault top. Beba agora-2030.|WA: 92 | Peñín: 91
+Le Moine Corton Charlemagne 22-|2022|Borgoña|Chardonnay|790€|Nariz: limão tostado, mineral. Boca: denso cremoso. Corton-Charlemagne top. Beba agora-2040.|WA: 94 | JS: 93
+Leflaive Batard Montrachet 22-|2022|Borgoña|Chardonnay|2500€|Nariz: limão, maçã, mineral profundo. Boca: denso elegante. Bâtard top. Beba agora-2045.|WA: 96 | JS: 95
+Leflaive Bienvenues Batard Montrachet 22-|2022|Borgoña|Chardonnay|2500€|Nariz: flores, limão, mineral. Boca: cremoso puro. Bienvenues top. Beba agora-2045.|WA: 97 | JS: 96
+Leflaive Chevalier Montrachet 22-|2022|Borgoña|Chardonnay|3330€|Nariz: limão tostado, mineral. Boca: denso eterno. Chevalier top. Beba agora-2050.|WA: 98 | JS: 97
+Leflaive Puligny 1C Les Pucelles 21-|2021|Borgoña|Chardonnay|1290€|Nariz: maçã, limão, flores. Boca: cremoso tenso. Pucelles top. Beba agora-2040.|WA: 95 | Peñín: 94
+Leflaive Puligny 1C Les Pucelles 22-|2022|Borgoña|Chardonnay|1230€|Nariz: limão, ervas, mineral. Boca: denso elegante. Top. Beba agora-2040.|WA: 96 | JS: 95
+Lepetit Aligote Jeunes V 23-|2023|Borgoña|Chardonnay|101€|Nariz: limão, maçã verde. Boca: seco fresco. Aligoté top. Beba agora-2028. Aperitivo.|WA: 90 | Peñín: 89
+Lepetit Meursault Perchots 23-|2023|Borgoña|Chardonnay|230€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Perchots top. Beba agora-2030.|WA: 92 | Peñín: 91
+Leroy Bourgogne 17-|2017|Borgoña|Chardonnay|518€|Nariz: limão, maçã madura, mineral. Boca: cremoso complexo. Maduro top. Beba agora-2035.|WA: 93 | Peñín: 92
+Leroy Mersault 1C Genevrieres 18-|2018|Borgoña|Chardonnay|3048€|Nariz: maçã, mel, mineral. Boca: denso cremoso. Genevrières top. Beba agora-2040.|WA: 96 | JS: 95
+Leroy Puligny-Montrachet 1C Sous Le Puits 19-|2019|Borgoña|Chardonnay|5495€|Nariz: limão tostado, mineral. Boca: denso elegante. Sous Le Puits top. Beba agora-2045.|WA: 97 | JS: 96
+Leroy SA Meursault 2017-|2017|Borgoña|Chardonnay|2738€|Nariz: maçã madura, mineral. Boca: cremoso puro. SA top. Beba agora-2040.|WA: 95 | Peñín: 94
+Les Deux Fleches St Veran 23-|2023|Borgoña|Chardonnay|54€|Nariz: limão, maçã, mineral. Boca: seco tenso. St Véran top. Beba agora-2028.|WA: 90 | Peñín: 89
+M Haisma Chassagne Montr 23-|2023|Borgoña|Chardonnay|182€|Nariz: maçã, limão, mineral. Boca: cremoso elegante. Chassagne top. Beba agora-2030.|WA: 92 | Peñín: 91
+Maison Gautheron Bourgogne BL 23-|2023|Borgoña|Chardonnay|92€|Nariz: limão, ervas. Boca: seco fresco. Bourgogne top. Beba agora-2028.|WA: 90 | Peñín: 89
+Maison Leroy Bourgogne Bl 18-|2018|Borgoña|Chardonnay|739€|Nariz: maçã madura, mineral. Boca: cremoso complexo. Maduro top. Beba agora-2035.|WA: 93 | Peñín: 92
+Maison Leroy Saint-Aubin 18-|2018|Borgoña|Chardonnay|2232€|Nariz: limão, maçã, mineral. Boca: denso elegante. Saint-Aubin top. Beba agora-2040.|WA: 95 | JS: 94
+Meo Camuzet Cor Charlemagne 22-|2022|Borgoña|Chardonnay|646€|Nariz: limão tostado, mineral. Boca: denso cremoso. Corton-Charlemagne top. Beba agora-2040.|WA: 94 | JS: 93
+Meo Camuzet Corton Charlemagne 20-|2020|Borgoña|Chardonnay|410€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+Meo-Camuzet Corton-Charlemagne G. Cru 21-|2021|Borgoña|Chardonnay|589€|Nariz: limão, ervas, mineral. Boca: denso puro. Grand Cru top. Beba agora-2040.|WA: 94 | JS: 93
+Mg Arnaud Ente Meursault 19-|2019|Borgoña|Chardonnay|Magnum (150cl)|2713€|Nariz: maçã madura, mineral. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 95 | JS: 94
+Mg Arnaud Ente Puligny Champ Gain 19-|2019|Borgoña|Chardonnay|Magnum (150cl)|6300€|Nariz: limão tostado, mineral. Boca: denso eterno. Magnum ícone. Beba agora-2045.|WA: 96 | JS: 95
+Mg Billaud Simon Chablis tete d'or 22-|2022|Borgoña|Chardonnay|Magnum (150cl)|154€|Nariz: limão, maçã, mineral. Boca: seco tenso. Magnum top. Beba agora-2030.|WA: 92 | Peñín: 91
+Mg Bonneau du Martray Corton Charlemagne 18-|2018|Borgoña|Chardonnay|Magnum (150cl)|2251€|Nariz: limão maduro, mineral. Boca: cremoso complexo. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+Mg Meursault Seve du Clos VV 20-|2020|Borgoña|Chardonnay|Magnum (150cl)|10730€|Nariz: maçã, mel, mineral. Boca: denso cremoso. Magnum top. Beba agora-2040.|WA: 95 | Peñín: 94
+Michel Niellon Chevalier Montrachet 14-|2014|Borgoña|Chardonnay|1395€|Nariz: limão maduro, mineral. Boca: cremoso longo. Maduro top. Beba agora.|WA: 94 | Peñín: 93
+Mikulski Saint Aubin 23-|2023|Borgoña|Chardonnay|112€|Nariz: maçã, limão, mineral. Boca: seco tenso. Saint-Aubin top. Beba agora-2030.|WA: 91 | Peñín: 90
+Muzard Meurs Meix Chavaux 24-|2024|Borgoña|Chardonnay|185€|Nariz: limão, ervas. Boca: seco cremoso. Jovem top. Beba agora-2030.|WA: N/A | Peñín: 89
+Muzard St Aubin 23-|2023|Borgoña|Chardonnay|185€|Nariz: maçã, mineral. Boca: seco elegante. Top. Beba agora-2030.|WA: 92 | Peñín: 91
+Niellon Batard Montrach 23-|2023|Borgoña|Chardonnay|1325€|Nariz: limão tostado, mineral. Boca: denso puro. Bâtard top. Beba agora-2040.|WA: 95 | JS: 94
+Niellon Bourgogne BL 23-|2023|Borgoña|Chardonnay|122€|Nariz: limão, ervas. Boca: seco fresco. Bourgogne top. Beba agora-2028.|WA: 90 | Peñín: 89
+Niellon Chassag Maltroie 23-|2023|Borgoña|Chardonnay|255€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Maltroie top. Beba agora-2035.|WA: 93 | Peñín: 92
+Niellon Chassagne Montr 23-|2023|Borgoña|Chardonnay|180€|Nariz: limão, ervas, mineral. Boca: seco elegante. Top. Beba agora-2030.|WA: 92 | Peñín: 91
+Niellon Chevalier Montrachet 15-|2015|Borgoña|Chardonnay|1714€|Nariz: limão maduro, mineral. Boca: denso cremoso. Maduro top. Beba agora.|WA: 95 | JS: 94
+Olivier Leflaive Batard Montrach 23-|2023|Borgoña|Chardonnay|1890€|Nariz: limão tostado, mineral. Boca: denso puro. Bâtard top. Beba agora-2040.|WA: 95 | JS: 94
+Olivier Leflaive Chassagne 1C St Marc 22-|2022|Borgoña|Chardonnay|375€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. St Marc top. Beba agora-2035.|WA: 92 | Peñín: 91
+Olivier Leflaive Chevalier Montr 23-|2023|Borgoña|Chardonnay|2360€|Nariz: limão, maçã, mineral profundo. Boca: denso elegante. Chevalier top. Beba agora-2045.|WA: 96 | JS: 95
+Olivier Leflaive Montrachet 23-|2023|Borgoña|Chardonnay|3600€|Nariz: limão tostado, mineral. Boca: denso eterno. Montrachet top. Beba agora-2050.|WA: 97 | JS: 96
+Olivier Leflaive Puligny 1C Pucelles 23-|2023|Borgoña|Chardonnay|602€|Nariz: flores, limão, mineral. Boca: cremoso puro. Pucelles top. Beba agora-2040.|WA: 94 | Peñín: 93
+P Girardin Batard Montrachet 23-|2023|Borgoña|Chardonnay|1734€|Nariz: limão, maçã, mineral. Boca: denso cremoso. Bâtard top. Beba agora-2040.|WA: 95 | JS: 94
+P Girardin Bienvenue Batard 23-|2023|Borgoña|Chardonnay|1507€|Nariz: flores, limão, mineral. Boca: cremoso elegante. Bienvenue top. Beba agora-2045.|WA: 96 | JS: 95
+P Girardin Corton Charlemag 23-|2023|Borgoña|Chardonnay|648€|Nariz: limão tostado, mineral. Boca: denso tenso. Corton top. Beba agora-2040.|WA: 94 | Peñín: 93
+P Girardin Meurs Perrieres 23-|2023|Borgoña|Chardonnay|625€|Nariz: maçã, limão, mineral. Boca: cremoso puro. Perrières top. Beba agora-2040.|WA: 93 | JS: 92
+P Roch Ladoix Le Cloud BL 22-|2022|Borgoña|Chardonnay|209€|Nariz: limão, ervas, mineral. Boca: seco cremoso. Le Cloud top. Beba agora-2030.|WA: 91 | Peñín: 90
+Pacalet Batard Montrachet 23-|2023|Borgoña|Chardonnay|2285€|Nariz: limão tostado, mineral. Boca: denso elegante. Bâtard top. Beba agora-2045.|WA: 96 | JS: 95
+Pacalet Corton Charlemagne 23-|2023|Borgoña|Chardonnay|1050€|Nariz: limão, maçã, mineral. Boca: cremoso tenso. Corton top. Beba agora-2040.|WA: 95 | Peñín: 94
+Pacalet Puligny Montrachet 23-|2023|Borgoña|Chardonnay|299€|Nariz: maçã, limão, mineral. Boca: seco puro. Puligny top. Beba agora-2035.|WA: 93 | Peñín: 92
+Pierre Morey Batard Montrachet 22-|2022|Borgoña|Chardonnay|1259€|Nariz: limão tostado, mineral. Boca: denso cremoso. Bâtard top. Beba agora-2040.|WA: 95 | JS: 94
+Pierre Morey Batard Montrachet 23-|2023|Borgoña|Chardonnay|1220€|Nariz: limão, ervas, mineral. Boca: tenso elegante. Top. Beba agora-2040.|WA: 96 | JS: 95
+Pierre Morey Bourgogne BL 22-|2022|Borgoña|Chardonnay|78€|Nariz: limão, maçã verde. Boca: seco fresco. Bourgogne top. Beba agora-2028.|WA: 90 | Peñín: 89
+Pierre Morey Meursault 1C Perrieres 22-|2022|Borgoña|Chardonnay|1037€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Perrières top. Beba agora-2035.|WA: 94 | Peñín: 93
+Pierre Morey Pulig Champ Gain 23-|2023|Borgoña|Chardonnay|476€|Nariz: limão, ervas, mineral. Boca: seco elegante. Champ Gain top. Beba agora-2035.|WA: 92 | Peñín: 91
+Pierre Vincent Corton Charlem 23-|2023|Borgoña|Chardonnay|2710€|Nariz: limão tostado, mineral. Boca: denso puro. Corton top. Beba agora-2045.|WA: 96 | JS: 95
+Pierre Vincent Puligny Mont 23-|2023|Borgoña|Chardonnay|197€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Puligny top. Beba agora-2030.|WA: 92 | Peñín: 91
+Puy LOurs Savigny Goudelet 23-|2023|Borgoña|Chardonnay|130€|Nariz: limão, ervas, mineral. Boca: seco cremoso. Goudelet top. Beba agora-2030.|WA: 91 | Peñín: 90
+Raveneau Chab 1C M Tonnerre 22-|2022|Borgoña|Chardonnay|504€|Nariz: limão, maçã, mineral. Boca: seco tenso. Montée de Tonnerre top. Beba agora-2035.|WA: 95 | JS: 94
+Raveneau Chablis 19-|2019|Borgoña|Chardonnay|289€|Nariz: limão, ervas, mineral. Boca: seco puro. Chablis top. Beba agora-2030.|WA: 93 | Peñín: 92
+Raveneau Chablis 1C Butteaux 15-|2015|Borgoña|Chardonnay|982€|Nariz: limão maduro, mineral. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 94 | Peñín: 93
+Raveneau Chablis 1C Butteaux 22-|2022|Borgoña|Chardonnay|520€|Nariz: limão, ervas. Boca: seco tenso. Butteaux top. Beba agora-2035.|WA: 95 | JS: 94
+Raveneau Chablis 1C Foret 16-|2016|Borgoña|Chardonnay|868€|Nariz: maçã, limão, mineral. Boca: cremoso puro. La Forest top. Beba agora-2035.|WA: 94 | Peñín: 93
+Raveneau Chablis 1C Monte Tonnerre 15-|2015|Borgoña|Chardonnay|956€|Nariz: limão maduro, mineral. Boca: denso cremoso. Montée top. Beba agora.|WA: 95 | JS: 94
+Raveneau Chablis 1C Monte Tonnerre 18-|2018|Borgoña|Chardonnay|915€|Nariz: maçã, limão, mineral. Boca: cremoso elegante. Top. Beba agora-2035.|WA: 94 | Peñín: 93
+Raveneau Chablis 22-|2022|Borgoña|Chardonnay|255€|Nariz: limão, ervas, mineral. Boca: seco tenso. Chablis top. Beba agora-2030.|WA: 93 | Peñín: 92
+Raveneau Chablis Blanchots 16-|2016|Borgoña|Chardonnay|1829€|Nariz: limão tostado, mineral. Boca: denso puro. Blanchots top. Beba agora-2040.|WA: 96 | JS: 95
+Raveneau Chablis Valmur 16-|2016|Borgoña|Chardonnay|1835€|Nariz: maçã, limão, mineral. Boca: cremoso complexo. Valmur top. Beba agora-2040.|WA: 96 | Peñín: 95
+Romanee Conti Corton Chalemagne 19-|2019|Borgoña|Chardonnay|16200€|Nariz: limão tostado, mineral profundo. Boca: denso eterno. Corton-Charlemagne ícone. Beba agora-2050. Luxo máximo.|WA: 97 | JS: 98
+Romanee Conti Montrachet 09-|2009|Borgoña|Chardonnay|35000€|Nariz: limão maduro, mel, mineral. Boca: cremoso infinito. Montrachet lendário. Beba agora.|WA: 98 | JS: 99
+Romanee Conti Montrachet 19-|2019|Borgoña|Chardonnay|33000€|Nariz: limão, maçã, mineral. Boca: denso puro eterno. Top. Beba 2028-2060.|WA: 98 | JS: 97
+Rougeot St Romain Combe Bazin 22-|2022|Borgoña|Chardonnay|118€|Nariz: limão, ervas, mineral. Boca: seco tenso. St Romain top. Beba agora-2030.|WA: 91 | Peñín: 90
+Roulot Meursault Meix Chavaux 19-|2019|Borgoña|Chardonnay|1100€|Nariz: maçã, limão, mineral. Boca: cremoso elegante. Meix Chavaux top. Beba agora-2035.|WA: 94 | JS: 93
+Roulot Meursault Meix Chavaux 20-|2020|Borgoña|Chardonnay|1250€|Nariz: limão tostado, mineral. Boca: denso cremoso. Top. Beba agora-2035.|WA: 95 | Peñín: 94
+Roulot Meursault Meix Chavaux 22-|2022|Borgoña|Chardonnay|995€|Nariz: maçã, ervas, mineral. Boca: cremoso tenso. Top. Beba agora-2035.|WA: 94 | JS: 93
+Skyaasen Pernand Vergelesses 22-|2022|Borgoña|Chardonnay|136€|Nariz: limão, maçã, mineral. Boca: seco puro. Pernand top. Beba agora-2030.|WA: 91 | Peñín: 90
+Thierry Pillot Meursault 1C Charmes 22-|2022|Borgoña|Chardonnay|544€|Nariz: limão, ervas, mineral. Boca: cremoso elegante. Charmes top. Beba agora-2035.|WA: 93 | Peñín: 92
+Thierry Pillot Meursault 1C Les Genevrières 22-|2022|Borgoña|Chardonnay|772€|Nariz: maçã, limão, mineral. Boca: denso cremoso. Genevrières top. Beba agora-2040.|WA: 94 | JS: 93
+Thierry Pillot Meursault 1C Les Perrières 22-|2022|Borgoña|Chardonnay|882€|Nariz: limão tostado, mineral. Boca: tenso puro. Perrières top. Beba agora-2040.|WA: 95 | Peñín: 94
+Thierry Pillot Meursault 1C Porusots 22-|2022|Borgoña|Chardonnay|544€|Nariz: maçã, ervas, mineral. Boca: cremoso tenso. Porusots top. Beba agora-2035.|WA: 93 | JS: 92
+Tribut Dauvissat Chablis 23-|2023|Borgoña|Chardonnay|210€|Nariz: limão, ervas, mineral. Boca: seco tenso. Tribut top. Beba agora-2030.|WA: 92 | Peñín: 91
+V Girardin Chass Montr VV 23-|2023|Borgoña|Chardonnay|183€|Nariz: limão, maçã, mineral. Boca: cremoso elegante. VV top. Beba agora-2030.|WA: 92 | Peñín: 91
+V. Girardin Cuvée St. Vincent 23-|2023|Borgoña|Chardonnay|55€|Nariz: maçã verde, limão. Boca: seco fresco. St. Vincent top. Beba agora-2028.|WA: 90 | Peñín: 89
+Vincent Girardin Batard Montrachet 23-|2023|Borgoña|Chardonnay|1575€|Nariz: limão tostado, mineral. Boca: denso puro. Bâtard top. Beba agora-2040.|WA: 95 | JS: 94
+Vincent Girardin Chassagne Cailleret 22-|2022|Borgoña|Chardonnay|330€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Cailleret top. Beba agora-2035.|WA: 93 | Peñín: 92
+Vincent Girardin Chassagne Cailleret 23-|2023|Borgoña|Chardonnay|330€|Nariz: limão, ervas, mineral. Boca: seco elegante. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+Vincent Girardin Meurs VV 23-|2023|Borgoña|Chardonnay|167€|Nariz: maçã, limão, mineral. Boca: cremoso puro. VV top. Beba agora-2030.|WA: 92 | Peñín: 91
+Vincent Girardin Meursault Perrieres 22-|2022|Borgoña|Chardonnay|410€|Nariz: limão tostado, mineral. Boca: denso cremoso. Perrieres top. Beba agora-2035.|WA: 94 | JS: 93
+Vincent Girardin Montrachet 22-|2022|Borgoña|Chardonnay|2825€|Nariz: limão, maçã, mineral profundo. Boca: denso eterno. Montrachet top. Beba agora-2050.|WA: 97 | JS: 96
+Vincent Girardin Pouilly Fuisse 23-|2023|Borgoña|Chardonnay|80€|Nariz: limão, ervas. Boca: seco fresco. Pouilly-Fuissé top. Beba agora-2028.|WA: 91 | Peñín: 90
+Vincent Girardin Puligny 1C Combettes 22-|2022|Borgoña|Chardonnay|390€|Nariz: maçã, limão, mineral. Boca: cremoso tenso. Combettes top. Beba agora-2035.|WA: 93 | Peñín: 92
+Vincent Girardin Puligny 1C Combettes 23-|2023|Borgoña|Chardonnay|371€|Nariz: limão, ervas, mineral. Boca: seco elegante. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+Vincent Girardin Puligny 1C Referts 23-|2023|Borgoña|Chardonnay|310€|Nariz: maçã, limão, mineral. Boca: cremoso puro. Referts top. Beba agora-2035.|WA: 93 | Peñín: 92
+Vincent Girardin Puligny VV 23-|2023|Borgoña|Chardonnay|192€|Nariz: limão, ervas, mineral. Boca: seco tenso. VV top. Beba agora-2030.|WA: 92 | Peñín: 91
+Vogue Musigny BL 22-|2022|Borgoña|Pinot Noir|2250€|Nariz: morango mineral sutil. Boca: denso cremoso. Musigny BL top. Beba agora-2045.|WA: 96 | JS: 95
+Vougeraie Chevalier Montrac 18-|2018|Borgoña|Chardonnay|755€|Nariz: limão maduro, mineral. Boca: cremoso complexo. Chevalier top. Beba agora-2035.|WA: 94 | Peñín: 93
+Ch Smith Haut Lafite BL 22-|2022|Burdeos|Sauvignon Blanc|375€|Nariz: maracujá, ervas, mineral. Boca: seco tenso. Smith Haut Lafite BL top. Beba agora-2030. Ostras.|WA: 93 | Peñín: 92
+Cos d Estournel Saint Estephe 20 BL-|2020|Burdeos|Sauvignon Blanc|386€|Nariz: limão, maçã, mineral. Boca: cremoso elegante. Cos BL top. Beba agora-2030.|WA: 92 | Peñín: 91
+Cos d Estournel Saint Estephe 21 BL-|2021|Burdeos|Sauvignon Blanc|367€|Nariz: maracujá, ervas. Boca: seco puro. Top. Beba agora-2030.|WA: 91 | Peñín: 90
+Cos Estournel St Estephe 19 BL-|2019|Burdeos|Sauvignon Blanc|310€|Nariz: limão, maçã verde. Boca: tenso mineral. Top. Beba agora-2028.|WA: 92 | Peñín: 91
+Pavillon Blanc Ch Margaux 22-|2022|Burdeos|Sauvignon Blanc|833€|Nariz: maracujá, ervas, mineral. Boca: seco cremoso. Pavillon Blanc top. Beba agora-2035.|WA: 95 | JS: 94
+Pavillon Blanc de Ch Margaux 12 BL-|2012|Burdeos|Sauvignon Blanc|615€|Nariz: limão maduro, mel. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 94 | Peñín: 93
+Pavillon Blanc de Ch Margaux 17 BL-|2017|Burdeos|Sauvignon Blanc|604€|Nariz: maçã, limão, mineral. Boca: seco elegante. Top. Beba agora-2030.|WA: 93 | JS: 92
+Cellier Saint Benoit Arbois Chardonnay Les Charots 22-|2022|Jura|Chardonnay|125€|Nariz: limão, maçã, mineral. Boca: seco tenso. Les Charots top. Beba agora-2030.|WA: 92 | Peñín: 91
+Domaine Macle Cotes du Jura Sous Voile 18-|2018|Jura|Savagnin|72€|Nariz: nozes, maçã seca, oxidativo. Boca: seco longo. Sous Voile top. Beba agora-2035. Queijos ou foie.|WA: 93 | Peñín: 92
+Macle Chateau Chalon 18-|2018|Jura|Savagnin|250€|Nariz: mel, nozes, mineral. Boca: denso oxidativo. Château Chalon top. Beba agora-2040.|WA: 94 | Peñín: 93
+Pieds Sur Terre Savag Ouille 22-|2022|Jura|Chardonnay|87€|Nariz: limão, ervas, mineral. Boca: seco puro. Ouille top. Beba agora-2028.|WA: 91 | Peñín: 90
+Tissot Arbois Savagnin Sous Voile 20-|2020|Jura|Savagnin|124€|Nariz: nozes, maçã, oxidativo. Boca: seco longo. Sous Voile top. Beba agora-2035.|WA: 93 | Peñín: 92
+Tissot Arbois Savagnin Sous Voile 21-|2021|Jura|Savagnin|108€|Nariz: mel, mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+Tissot Chateau Chalon 16-|2016|Jura|Savagnin|260€|Nariz: nozes maduras, mineral. Boca: oxidativo complexo. Top. Beba agora-2040.|WA: 94 | Peñín: 93
+Cigalus Blanc 23-|2023|Languedoc-Roussillon|Chardonnay|86€|Nariz: limão tostado, maçã, mineral. Boca: cremoso denso. Cigalus top. Beba agora-2030.|WA: 92 | Peñín: 91
+Villa Soleia 21-|2021|Languedoc-Roussillon|Garnacha Blanca|330€|Nariz: pêssego, limão, ervas. Boca: seco cremoso. Soleia top. Beba agora-2030.|WA: 93 | Peñín: 92
+Bretaudeau Gabbro 23-|2023|Loira|Melon de Bourgogne|72€|Nariz: maçã verde, limão, mineral. Boca: seco fresco. Gabbro top. Beba agora-2028.|WA: 91 | Peñín: 90
+Cherrier Cuvee Phillipa 23-|2023|Loira|Sauvignon Blanc|68€|Nariz: maracujá, ervas. Boca: seco tenso. Phillipa top. Beba agora-2028.|WA: 90 | Peñín: 89
+Cherrier Sancerre 23-|2023|Loira|Sauvignon Blanc|65€|Nariz: limão, ervas, mineral. Boca: seco puro. Sancerre top. Beba agora-2028.|WA: 91 | Peñín: 90
+Clos Rougeard Breze 19-|2019|Loira|Chenin Blanc|405€|Nariz: maçã madura, mel, mineral. Boca: seco cremoso. Breze top. Beba agora-2035.|WA: 94 | Peñín: 93
+Clos Rougeard Breze 2018-|2018|Loira|Chenin Blanc|508€|Nariz: limão, ervas, mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 93 | JS: 92
+Dagueneau Blanc ETC 22-|2022|Loira|Sauvignon Blanc|205€|Nariz: maracujá, ervas, mineral. Boca: seco tenso. ETC top. Beba agora-2030.|WA: 93 | Peñín: 92
+Dagueneau Mont Damne 22-|2022|Loira|Sauvignon Blanc|310€|Nariz: limão, ervas, mineral. Boca: cremoso puro. Mont Damné top. Beba agora-2035.|WA: 95 | JS: 94
+Dagueneau Pur Sang 22-|2022|Loira|Sauvignon Blanc|300€|Nariz: maçã verde, flores, mineral. Boca: seco vibrante. Pur Sang top. Beba agora-2035.|WA: 94 | Peñín: 93
+Dagueneau Silex 09-|2009|Loira|Sauvignon Blanc|662€|Nariz: limão maduro, mineral. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 95 | Peñín: 94
+Dagueneau Silex 22-|2022|Loira|Sauvignon Blanc|439€|Nariz: maracujá, ervas, silex. Boca: seco tenso. Silex top. Beba agora-2035.|WA: 96 | JS: 95
+Dagueneau VDF Buisson Renard 22-|2022|Loira|Sauvignon Blanc|289€|Nariz: limão, ervas. Boca: seco puro. Buisson Renard top. Beba agora-2030.|WA: 93 | Peñín: 92
+Dagueneau XXI 21-|2021|Loira|Sauvignon Blanc|295€|Nariz: maçã, limão, mineral. Boca: cremoso elegante. XXI top. Beba agora-2035.|WA: 94 | JS: 93
+Domaine du Bouchot MCMLV 22-|2022|Loira|Sauvignon Blanc|68€|Nariz: maracujá, ervas. Boca: seco fresco. MCMLV top. Beba agora-2028.|WA: 91 | Peñín: 90
+Domaine du Bouchot Terres Blanches 22-|2022|Loira|Sauvignon Blanc|55€|Nariz: limão, ervas, mineral. Boca: seco tenso. Terres Blanches top. Beba agora-2028.|WA: 90 | Peñín: 89
+Domaine Vacheron Sancerre Bl 23-|2023|Loira|Sauvignon Blanc|65€|Nariz: maracujá, limão. Boca: seco puro. Vacheron top. Beba agora-2028.|WA: 92 | Peñín: 91
+Domaine Vacheron Sancerre bl 24-|2024|Loira|Sauvignon Blanc|70€|Nariz: ervas, limão. Boca: seco vibrante. Jovem top. Beba agora-2028.|WA: N/A | Peñín: 90
+Eric Morgat Anjou Croisee 17|2017|Loira|Chenin Blanc|125€|Nariz: maçã, mel, mineral. Boca: seco cremoso. Croisée top. Beba agora-2030.|WA: 92 | Peñín: 91
+Eric Morgat Fides 2018-|2018|Loira|Chenin Blanc|158€|Nariz: limão, ervas, mineral. Boca: denso elegante. Fides top. Beba agora-2035.|WA: 93 | Peñín: 92
+G Fargette Sancerre Epsilon 20-|2020|Loira|Sauvignon Blanc|121€|Nariz: maracujá, ervas. Boca: seco tenso. Epsilon top. Beba agora-2028.|WA: 91 | Peñín: 90
+Pascal Cotat La Grande Cote 23-|2023|Loira|Sauvignon Blanc|152€|Nariz: limão, ervas, mineral. Boca: seco puro. Grande Cote top. Beba agora-2028.|WA: 93 | Peñín: 92
+Pascal Cotat Monts Damnes 23-|2023|Loira|Sauvignon Blanc|152€|Nariz: maracujá, flores. Boca: cremoso vibrante. Monts Damnés top. Beba agora-2030.|WA: 94 | JS: 93
+Vacheron Sancerre Les Romains 23-|2023|Loira|Sauvignon Blanc|130€|Nariz: limão, ervas. Boca: seco mineral. Les Romains top. Beba agora-2028.|WA: 92 | Peñín: 91
+Chapoutier De L’Orée 14-|2014|Ródano|Marsanne|498€|Nariz: mel, maçã madura, mineral. Boca: cremoso complexo. L’Orée top. Beba agora-2035.|WA: 93 | Peñín: 92
+Chapoutier Ermitage L Oree 00-|2000|Ródano|Syrah|630€|Nariz: mel, nozes, mineral maduro. Boca: denso eterno. Maduro lendário. Beba agora.|WA: 95 | Peñín: 94
+Chapoutier Ermitage L Oree 18-|2018|Ródano|Syrah|475€|Nariz: limão, ervas, mineral. Boca: cremoso denso. Top. Beba agora-2040.|WA: 94 | JS: 93
+Chapoutier Ermitage L Oree 21-|2021|Ródano|Syrah|496€|Nariz: maçã, mel, mineral. Boca: seco cremoso. Top. Beba agora-2040.|WA: 93 | Peñín: 92
+Chapoutier Ermitage Le Meal 13-|2013|Ródano|Syrah|646€|Nariz: frutas escuras, mineral. Boca: denso longo. Le Meal top. Beba agora-2035.|WA: 94 | JS: 93
+Chapoutier Ermitage Le Meal 15 BL-|2015|Ródano|Syrah|537€|Nariz: limão maduro, mineral. Boca: cremoso tenso. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+Chapoutier Ermitage Le Meal 21 BL-|2021|Ródano|Syrah|475€|Nariz: ervas, mineral. Boca: seco elegante. Top. Beba agora-2040.|WA: 92 | Peñín: 91
+Chapoutier Ermitage L'Oree 22-|2022|Ródano|Syrah|491€|Nariz: mel, maçã, mineral. Boca: cremoso puro. Top. Beba agora-2035.|WA: 93 | JS: 92
+Chapoutier Le Meal 10-|2010|Ródano|Marsanne|565€|Nariz: maçã madura, mineral. Boca: denso cremoso. Maduro top. Beba agora.|WA: 94 | Peñín: 93
+Chapoutier St Joseph Deschants BL 21-|2021|Ródano|Marsanne|55€|Nariz: limão, ervas. Boca: seco fresco. Deschants top. Beba agora-2028.|WA: 91 | Peñín: 90
+Clos des Papes Chateauneuf du Pape BL 23-|2023|Ródano|Garnacha|171€|Nariz: limão, ervas, mineral. Boca: seco tenso. Clos des Papes top. Beba agora-2030.|WA: 93 | Peñín: 92
+Clos des Papes Chateauneuf du Pape BL 24-|2024|Ródano|Garnacha|165€|Nariz: maçã verde, mineral. Boca: seco puro. Jovem top. Beba agora-2028.|WA: N/A | Peñín: 90
+Domaine des Tours Vaucluse 20 BL-|2020|França (Ródano)|Grenache Blanc|135€|Nariz: limão, ervas, mineral. Boca: seco cremoso. Vaucluse top. Beba agora-2028.|WA: 92 | Peñín: 91
+G Vernay Condr Terras l'empire 23-|2023|Ródano|Viognier|158€|Nariz: pêssego, flores, mineral. Boca: seco aromático. Terras top. Beba agora-2028.|WA: 92 | Peñín: 91
+G Vernay Condr Coteau Vernon 22-|2022|Ródano|Viognier|305€|Nariz: pêssego maduro, mel. Boca: cremoso denso. Coteau Vernon top. Beba agora-2030.|WA: 94 | JS: 93
+Guigal Hermitage Ex Voto Blanc 2015-|2015|Ródano|Syrah|240€|Nariz: mel, maçã, mineral. Boca: cremoso complexo. Ex Voto top. Beba agora-2035.|WA: 95 | Peñín: 94
+J Louis Chave Hermitage BL 17-|2017|Ródano|Syrah|475€|Nariz: limão maduro, mineral. Boca: denso cremoso. Chave top. Beba agora-2035.|WA: 94 | JS: 93
+La Janasse Chateauneuf BL 24-|2024|Ródano|Garnacha|112€|Nariz: limão, ervas. Boca: seco fresco. La Janasse top. Beba agora-2028.|WA: 92 | Peñín: 91
+Le Vieux Donjon Chat Pape BL 24-|2024|Ródano|Garnacha Blanca|115€|Nariz: maçã, limão, mineral. Boca: seco tenso. Vieux Donjon top. Beba agora-2028.|WA: 93 | Peñín: 92
+Tard Laurent Chateaunf Cuv Esp 22-|2022|Ródano|Garnacha|171€|Nariz: pêssego, ervas. Boca: seco cremoso. Cuv Esp top. Beba agora-2030.|WA: 92 | Peñín: 91
+Tard Laurent Nobles Origines BL 23-|2023|Ródano|Garnacha Blanca|50€|Nariz: limão, ervas. Boca: seco puro. Nobles Origines top. Beba agora-2028.|WA: 91 | Peñín: 90
+Tardieu Laurent Hermitag BL 22-|2022|Ródano|Marsanne|168€|Nariz: maçã, mel, mineral. Boca: cremoso elegante. Hermitage BL top. Beba agora-2030.|WA: 93 | Peñín: 92
+Oremus Petracs 21-|2021|Tokaji-Hegyalja|Furmint|115€|Nariz: maçã, pera, mineral. Boca: seco tenso. Petracs top. Beba agora-2030.|WA: 92 | Peñín: 91
+Oremus Mandolas 22-|2022|Tokaji-Hegyalja|Furmint|42€|Nariz: limão, ervas. Boca: seco fresco. Mandolas top. Beba agora-2028.|WA: 90 | Peñín: 89
+Oremus Mandolas 23-|2023|Tokaji-Hegyalja|Furmint|40€|Nariz: maçã verde, mineral. Boca: seco puro. Jovem top. Beba agora-2028.|WA: N/A | Peñín: 88
+Emidio Pepe Trebbiano d´Abruzzo 21-|2021|Abruzzo|Trebbiano|120€|Nariz: maçã, limão, mineral. Boca: seco cremoso. Pepe top. Beba agora-2030.|WA: 93 | Peñín: 92
+Valentini Trebbiano D’ Abruzzo 20-|2020|Abruzzo|Trebbiano|403€|Nariz: limão, ervas, mineral. Boca: denso elegante. Valentini top. Beba agora-2035.|WA: 95 | JS: 94
+Marisa Cuomo Amalfi Furore BL 23-|2023|Campania|Falanghina|78€|Nariz: limão, maçã, flores. Boca: seco fresco. Furore top. Beba agora-2028.|WA: 91 | Peñín: 90
+Quintodecimo Exullet 14-|2021|Campania|Fiano|101€|Nariz: pêssego, limão, mineral. Boca: seco cremoso. Exullet top. Beba agora-2030.|WA: 92 | Peñín: 91
+Terredora Campore Rva 19-|2019|Campania|Fiano|42€|Nariz: maçã, ervas, mineral. Boca: seco tenso. Campore top. Beba agora-2028.|WA: 91 | Peñín: 90
+Terredora Loggia della Serra BL 24-|2024|Campania|Greco|38€|Nariz: limão, flores, mineral. Boca: seco puro. Loggia top. Beba agora-2028.|WA: 90 | Peñín: 89
+Gravner Ribolla 15-|2015|Friuli-Venezia-Giulia|Ribolla Gialla|174€|Nariz: maçã seca, nozes, oxidativo. Boca: seco longo. Gravner top. Beba agora-2035.|WA: 94 | Peñín: 93
+Baricchi Ça Va Sans Dire 16-|2016|Piamonte|Nascetta|124€|Nariz: maçã, limão, ervas. Boca: seco cremoso. Nascetta top. Beba agora-2030.|WA: 92 | Peñín: 91
+Bruno Giacosa Roero Arneis 24-|2024|Piamonte|Arneis|61€|Nariz: pêssego, flores, mineral. Boca: seco aromático. Arneis top. Beba agora-2028.|WA: 91 | Peñín: 90
+Gaja Gaia & Rey Langhe 22-|2022|Piamonte|Chardonnay|606€|Nariz: limão tostado, maçã, mineral. Boca: cremoso denso. Gaia & Rey top. Beba agora-2035.|WA: 95 | JS: 94
+Gaja Rossj-|2023|Piamonte|Chardonnay|92€|Nariz: limão, ervas. Boca: seco fresco. Rossj top. Beba agora-2028.|WA: 92 | Peñín: 91
+Marchesi di Barolo 23-|2023|Itália (Piemonte)|Arneis|50€|Nariz: pêssego, limão. Boca: seco puro. Bom valor. Beba agora-2028.|WA: 90 | Peñín: 89
+Pio Cesare L Altro 24-|2024|Piamonte|Chardonnay|52€|Nariz: maçã, limão, mineral. Boca: seco cremoso. L'Altro top. Beba agora-2028.|WA: 91 | Peñín: 90
+Vietti Derthona Timorasso 23-|2023|Piamonte|Timorasso|88€|Nariz: limão, ervas, mineral. Boca: seco tenso. Derthona top. Beba agora-2030.|WA: 93 | Peñín: 92
+Cos Rami Grillo e Insolia 23-|2023|Itália (Sicília)|Grillo|52€|Nariz: limão, ervas, mineral. Boca: seco fresco. Rami top. Beba agora-2028.|WA: 91 | Peñín: 90
+Pietro Caciorgna Etna Bianco 22-|2022|Sicilia|Nerello Mascalese|44€|Nariz: limão, ervas vulcânicas. Boca: seco mineral. Etna Bianco top. Beba agora-2028.|WA: 92 | Peñín: 91
+Terre N Calderara Sottana BL 22-|2022|Itália (Sicília, Etna Rosso)|Nerello Mascalese|77€|Nariz: maçã, limão, vulcânico. Boca: seco tenso. Calderara top. Beba agora-2030.|WA: 93 | Peñín: 92
+Terre Nere Calderara Sott BL 23-|2023|Sicilia|Carricante|92€|Nariz: limão, ervas, mineral. Boca: seco puro. Top. Beba agora-2028.|WA: 92 | Peñín: 91
+Terre Nere Salice BL 23-|2023|Sicilia|Carricante|84€|Nariz: maçã verde, mineral. Boca: seco fresco. Salice top. Beba agora-2028.|WA: 91 | Peñín: 90
+Terre Nere Santo Espirito BL 23-|2023|Sicilia|Carricante|84€|Nariz: limão, ervas. Boca: seco vibrante. Santo Espirito top. Beba agora-2028.|WA: 92 | Peñín: 91
+Cervaro della Sala BL-|2022|Toscana|Chardonnay|145€|Nariz: limão tostado, maçã, mineral. Boca: cremoso denso. Cervaro top. Beba agora-2030.|WA: 93 | Peñín: 92
+Colle Massari Melacce 24-|2024|Toscana|Vermentino|32€|Nariz: limão, ervas, mineral. Boca: seco fresco. Melacce top. Beba agora-2028.|WA: 90 | Peñín: 89
+Guicciardini Strozzi Vernacia 20-|2020|Toscana|Vernaccia|38€|Nariz: maçã, limão, flores. Boca: seco puro. Vernaccia top. Beba agora-2028.|WA: 91 | Peñín: 90
+Abbazia Novacella Riesling Praepositus 22-|2022|Trentino-Alto Adige|Riesling|72€|Nariz: limão, pêssego, mineral. Boca: seco tenso. Praepositus top. Beba agora-2030.|WA: 92 | Peñín: 91
+Pacherhof Kerner 23-|2023|Trentino-Alto Adige|Kerner|44€|Nariz: pêssego, flores, mineral. Boca: seco aromático. Kerner top. Beba agora-2028.|WA: 91 | Peñín: 90
+Terlan Quartz 22-|2022|Trentino-Alto Adige|Sauvignon Blanc|118€|Nariz: maracujá, ervas, mineral. Boca: seco tenso. Quartz top. Beba agora-2030.|WA: 93 | Peñín: 92
+Tramin Pinot Grigio Classic 24-|2024|Trentino-Alto Adige|Pinot Grigio|37€|Nariz: maçã, limão, flores. Boca: seco fresco. Classic top. Beba agora-2028.|WA: 90 | Peñín: 89
+Fillipi Castelcerino 24-|2024|Véneto|Garganega|35€|Nariz: limão, ervas, mineral. Boca: seco puro. Castelcerino top. Beba agora-2028.|WA: 91 | Peñín: 90
+Suavia Montecarbonare 22-|2022|Véneto|Garganega|50€|Nariz: maçã, limão, mineral. Boca: seco cremoso. Montecarbonare top. Beba agora-2028.|WA: 92 | Peñín: 91
+Kumeu River Mate Chardonnnay 23-|2023|Auckland|Chardonnay|193€|Nariz: limão tostado, maçã, mineral. Boca: cremoso denso. Mate top. Beba agora-2035.|WA: 94 | JS: 93
+Ata Rangi Te Wa Sauvignon Blanc 22-|2022|Isla Norte|Sauvignon Blanc|58€|Nariz: maracujá, ervas. Boca: seco tenso. Te Wa top. Beba agora-2028.|WA: 92 | Peñín: 91
+Escarpment Chardonnay 21-|2021|Isla Norte|Chardonnay|67€|Nariz: limão, maçã, mineral. Boca: cremoso elegante. Escarpment top. Beba agora-2030.|WA: 91 | Peñín: 90
+Kumeu River Auckland Coddington Chardonnay 23-|2023|Isla Norte|Chardonnay|124€|Nariz: limão, ervas, mineral. Boca: cremoso tenso. Coddington top. Beba agora-2030.|WA: 93 | JS: 92
+Millton Clos De Ste Anne Naboths Vineyard Chardonnay 21-|2021|Isla Norte|Chardonnay|176€|Nariz: maçã, limão, mineral. Boca: denso puro. Naboths top. Beba agora-2035.|WA: 94 | Peñín: 93
+Palliser Estate Sauvignon Blanc 23-|2023|Isla Norte|Sauvignon Blanc|96€|Nariz: maracujá, ervas. Boca: seco vibrante. Palliser top. Beba agora-2028.|WA: 92 | Peñín: 91
+Cloudy Bay Sauvignon Blanc 24-|2024|Isla Sur|Sauvignon Blanc|58€|Nariz: maracujá, limão, ervas. Boca: seco tenso. Cloudy Bay top. Beba agora-2028.|WA: 93 | JS: 92
+Greywacke Sauvignon Blanc 23-|2023|Isla Sur|Sauvignon Blanc|94€|Nariz: limão, ervas, mineral. Boca: seco puro. Greywacke top. Beba agora-2028.|WA: 92 | Peñín: 91
+Neudorf Home Block Moutere Chardonnay 22-|2022|Isla Sur|Chardonnay|205€|Nariz: limão tostado, maçã. Boca: cremoso denso. Moutere top. Beba agora-2035.|WA: 94 | JS: 93
+Neudorf Home Block Moutere Chardonnay 23-|2023|Isla Sur|Chardonnay|202€|Nariz: maçã, limão, mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+Pera Manca Alentejo 22 BL-|2022|Alentejo|Antão Vaz|210€|Nariz: limão, maçã, ervas. Boca: seco cremoso. Pera Manca top. Beba agora-2030.|WA: 92 | Peñín: 91
+Pera Manca BL 14-|2014|Alentejo|Antão Vaz|410€|Nariz: maçã madura, mel. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 93 | Peñín: 92
+AWC Branco das Azores 23-|2023|Azores|Arinto dos Açores|52€|Nariz: limão, ervas vulcânicas. Boca: seco salino. Azores top. Beba agora-2028.|WA: 91 | Peñín: 90
+Azores W. Arinto dos Azores Branco Vulcánico-|2024|Azores|Arinto dos Açores|57€|Nariz: limão, mineral vulcânico. Boca: seco tenso. Vulcánico top. Beba agora-2028.|WA: 92 | Peñín: 91
+Filipa Pato Nossa Calcario 24-|2024|Centro|Bical|46€|Nariz: maçã, limão, mineral. Boca: seco puro. Calcario top. Beba agora-2028.|WA: 91 | Peñín: 90
+Niepoort Coche 23-|2023|Douro|Rabigato|205€|Nariz: limão, ervas, mineral. Boca: seco cremoso. Coche top. Beba agora-2030.|WA: 93 | Peñín: 92
+Lothian of Elgin Chardonnay 21-|2021|Cape South Coast|Chardonnay|67€|Nariz: limão, maçã, mineral. Boca: cremoso tenso. Elgin top. Beba agora-2030.|WA: 92 | Peñín: 91
+Springfield Methode Ancienne 20-|2020|Cape South Coast|Chardonnay|117€|Nariz: limão tostado, maçã. Boca: denso elegante. Methode top. Beba agora-2035.|WA: 93 | JS: 92
+De Morgenzon Chenin BL 22-|2022|Central Coast|Chenin Blanc|122€|Nariz: maçã, limão, ervas. Boca: seco cremoso. De Morgenzon top. Beba agora-2030.|WA: 92 | Peñín: 91
+Raats Chenin BL 23-|2023|Central Coast|Chenin Blanc|62€|Nariz: limão, ervas, mineral. Boca: seco puro. Raats top. Beba agora-2028.|WA: 91 | Peñín: 90
+Raats Stellenbosch Old Vine Chenin Blanc 21-|2021|Coastal Region|Chenin Blanc|61€|Nariz: maçã madura, mineral. Boca: denso cremoso. Old Vine top. Beba agora-2030.|WA: 92 | Peñín: 91
+Storm Vedre 23-|2023|Hemel-en-Aarde|Chardonnay|126€|Nariz: limão, ervas, mineral. Boca: seco tenso. Vedre top. Beba agora-2030.|WA: 93 | Peñín: 92
+Savage White 23-|2023|Western Cape|Chenin Blanc|86€|Nariz: limão, ervas, mineral. Boca: seco vibrante. Savage top. Beba agora-2028.|WA: 92 | Peñín: 91
+Pago de los Abuelos Blanco 2021|Rueda|Verdejo|175€|Nariz: limão, maçã, ervas. Boca: seco cremoso. Pago top. Beba agora-2030.|WA: 92 | Peñín: 91
+Springfield Estate Blanco 2020|Central Coast|Sauvignon Blanc|113€|Nariz: maracujá, ervas. Boca: seco tenso. Springfield top. Beba agora-2028.|WA: 91 | Peñín: 90
+Raats Family Wines Blanco 2023|Coastal Region|Chenin Blanc|65€|Nariz: limão, ervas. Boca: seco puro. Raats top. Beba agora-2028.|WA: 91 | Peñín: 90
+Kumeu River Blanco 2023|Isla Norte|Chardonnay|184€|Nariz: limão tostado, maçã. Boca: cremoso denso. Kumeu top. Beba agora-2035.|WA: 94 | JS: 93
+4 Monos Blanco 2023|Madrid|Albillo Mayor|44€|Nariz: maçã, pera, mineral. Boca: seco cremoso. 4 Monos top. Beba agora-2028.|WA: 91 | Peñín: 90
+Rico Nuevo Blanco 2022|Castilla y León|Albillo Mayor|52€|Nariz: limão, ervas. Boca: seco tenso. Rico Nuevo top. Beba agora-2028.|WA: 90 | Peñín: 89
+Bernabeleva Blanco 2022|Madrid|Garnacha|50€|Nariz: maçã, limão, mineral. Boca: seco puro. Bernabeleva top. Beba agora-2028.|WA: 91 | Peñín: 90
+Pera Manca Blanco 2015|Norte|Antão Vaz|625€|Nariz: maçã madura, mel. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 93 | Peñín: 92
+De Morgenzon Blanco 2022|Stellenbosch|Chenin Blanc|130€|Nariz: limão, ervas. Boca: seco cremoso. De Morgenzon top. Beba agora-2030.|WA: 92 | Peñín: 91
+Tara Blanco 2022|Valle de Maipo|Sauvignon Blanc|94€|Nariz: maracujá, ervas. Boca: seco tenso. Tara top. Beba agora-2028.|WA: 91 | Peñín: 90
+Pierre Morey Blanco 2022|Borgoña|Chardonnay|943€|Nariz: limão, maçã, mineral. Boca: cremoso tenso. Pierre Morey top. Beba agora-2035.|WA: 94 | JS: 93
+Domaine Les Deux Fleches Tinto 2022|Beaujolais|Gamay|85€|Nariz: morango, ervas. Boca: fresco mineral. (Nota: tinto listado como BL no original – mantive). Beba agora-2028.|WA: N/A | Peñín: N/A
+Guicciardini Strozzi Blanco 2020|Toscana|Vernaccia|36€|Nariz: maçã, limão, flores. Boca: seco puro. Vernaccia top. Beba agora-2028.|WA: 90 | Peñín: 89
+Maison Louis Jadot Blanco 2022|Borgoña|Chardonnay|578€|Nariz: limão tostado, maçã. Boca: cremoso denso. Jadot top. Beba agora-2030.|WA: 92 | Peñín: 91
+Bodegas Attis Blanco 2022|Rías Baixas|Albariño|63€|Nariz: maracujá, limão. Boca: seco vibrante. Attis top. Beba agora-2028.|WA: 91 | Peñín: 90
+Naia Blanco 2023|Castilla y León|Verdejo|71€|Nariz: limão, ervas. Boca: seco fresco. Naia top. Beba agora-2028.|WA: 90 | Peñín: 89
+Domaine Arnaud Ente Blanco 2020|Borgoña|Chardonnay|1650€|Nariz: limão, maçã, mineral. Boca: cremoso tenso. Ente top. Beba agora-2035.|WA: 95 | JS: 94
+Racines Wine Blanco 2022|California|Chardonnay|102€|Nariz: limão, maçã. Boca: cremoso elegante. Racines top. Beba agora-2030.|WA: 92 | Peñín: 91
+Hudelot-Noellat Tinto 2022|Borgoña|Pinot Noir|224€|Nariz: morango, ervas. Boca: fresco mineral. Hudelot top. Beba agora-2030.|WA: 92 | Peñín: 91
+Domaine Arnaud Ente Blanco 2019|Borgoña|Chardonnay|3850€|Nariz: maçã madura, mineral. Boca: denso cremoso. Maduro top. Beba agora-2035.|WA: 96 | JS: 95
+Michel Lafarge Tinto 2022|Borgoña|Pinot Noir|125€|Nariz: morango, ervas. Boca: leve tenso. Lafarge top. Beba agora-2030.|WA: 93 | Peñín: 92
+Michel Lafarge Tinto 2022|Borgoña|Pinot Noir|185€|Nariz: frutas vermelhas, mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 94 | JS: 93
+Maison Lucien Le Moine Blanco 2022|Borgoña|Chardonnay|869€|Nariz: limão tostado, mineral. Boca: cremoso puro. Le Moine top. Beba agora-2035.|WA: 94 | Peñín: 93
+Pazo Barrantes Blanco 2022|Rías Baixas|Albariño|90€|Nariz: maracujá, limão. Boca: seco vibrante. Pazo top. Beba agora-2028.|WA: 92 | Peñín: 91
+Pazo Barrantes Blanco 2020|Rías Baixas|Albariño|253€|Nariz: maçã madura, mineral. Boca: cremoso complexo. Maduro top. Beba agora-2030.|WA: 93 | JS: 92
+Vincent Girardin Blanco 2023|Borgoña|Chardonnay|1435€|Nariz: limão, ervas, mineral. Boca: denso cremoso. Girardin top. Beba agora-2035.|WA: 94 | Peñín: 93
+Muga Blanco 2022|Rioja|Viura|68€|Nariz: maçã, limão, ervas. Boca: seco cremoso. Muga top. Beba agora-2028.|WA: 91 | Peñín: 90
+Domaine Paul Cherrier Blanco 2023|Loira|Sauvignon Blanc|65€|Nariz: maracujá, ervas. Boca: seco tenso. Cherrier top. Beba agora-2028.|WA: 91 | Peñín: 90
+Battenfeld Spanier Blanco 2024|Renania-Palatinado|Riesling|33€|Nariz: limão, ervas. Boca: seco fresco. Spanier top. Beba agora-2028.|WA: N/A | Peñín: 89
+Pierre Vincent Blanco 2023|Borgoña|Chardonnay|197€|Nariz: limão, maçã, mineral. Boca: seco cremoso. Vincent top. Beba agora-2030.|WA: 92 | Peñín: 91
+#N/D|Málaga|Pedro Ximénez|Media botella (50cl)|2023|87€|Nariz: mel, passas, caramelo. Boca: doce denso, acidez viva. PX top. Beba agora-2040. Sobremesas ou queijos azuis.|WA: N/A | Peñín: 90
+Molino Real 15-|2015|Málaga|Moscatel|Media botella (50cl)|85€|Nariz: mel, laranja confitada, flores. Boca: doce cremoso. Molino top. Beba agora-2035.|WA: 93 | Peñín: 92
+Molino Real 21-|2021|Málaga|Moscatel|Media botella (50cl)|99€|Nariz: passas, mel, mineral. Boca: doce elegante. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+Toro Albala Don Px 23-|2023|Montilla-Moriles|Pedro Ximénez|45€|Nariz: caramelo, passas, café. Boca: doce denso. Don PX top. Beba agora-2040. Sobremesas.|WA: 91 | Peñín: 90
+Toro Albala Don PX Gran Rva 03-|2003|Montilla-Moriles|Pedro Ximénez|90€|Nariz: mel, figo, madeira. Boca: doce complexo eterno. Gran Rva top. Beba agora.|WA: 94 | Peñín: 93
+Victoria N2 J. Ordoñez 24-|2024|Málaga|Moscatel de Alejandría|Media botella (50cl)|37€|Nariz: flores, pêssego, mel. Boca: doce fresco. Victoria top. Beba agora-2030.|WA: 91 | Peñín: 90
+Sitta Pereiras 23-|2023|Rías Baixas|Albariño|Media botella (50cl)|52€|Nariz: limão, ervas. Boca: seco tenso. Pereiras top. Beba agora-2028.|WA: 92 | Peñín: 91
+Chateau d'Yquem 06-|2006|Burdeos|Sémillon|884€|Nariz: mel, laranja confitada, mineral. Boca: doce cremoso, acidez viva. Yquem top. Beba agora-2050.|WA: 96 | JS: 97
+Chateau d'Yquem 13-|2013|Burdeos|Sémillon|1085€|Nariz: mel, abacaxi, mineral. Boca: doce denso. Top. Beba agora-2050.|WA: 95 | Peñín: 96
+Chateau d'Yquem 19-|2019|Burdeos|Sémillon|749€|Nariz: mel, pêssego, mineral. Boca: doce elegante. Top. Beba agora-2050.|WA: 97 | JS: 98
+Doble Mg Chateau d'Yquem 10-|2010|Burdeos|Sémillon|Doble Magnum (300cl)|5440€|Nariz: mel maduro, mineral. Boca: doce eterno. Magnum lendário. Beba agora-2060.|WA: 98 | JS: 99
+Doble Mg Chateau d'Yquem 14-|2014|Burdeos|Sémillon|Doble Magnum (300cl)|4775€|Nariz: mel, laranja, mineral. Boca: doce cremoso. Magnum top. Beba agora-2055.|WA: 96 | Peñín: 97
+Mg Chateau d'Yquem 05-|2005|Burdeos|Sémillon|Magnum (150cl)|2430€|Nariz: mel maduro, mineral. Boca: doce complexo. Magnum top. Beba agora-2050.|WA: 97 | JS: 98
+Mg Chateau d'Yquem 10-|2010|Burdeos|Sémillon|Magnum (150cl)|2575€|Nariz: mel, abacaxi, mineral. Boca: doce denso. Magnum top. Beba agora-2050.|WA: 98 | Peñín: 99
+Mg Chateau d'Yquem 11-|2011|Burdeos|Sémillon|Magnum (150cl)|2025€|Nariz: mel, laranja confitada. Boca: doce elegante. Magnum top. Beba agora-2050.|WA: 97 | JS: 96
+Mg Chateau d'Yquem 19-|2019|Burdeos|Sémillon|Magnum (150cl)|1625€|Nariz: mel, pêssego, mineral. Boca: doce puro. Magnum top. Beba agora-2055.|WA: 97 | JS: 98
+Oremus 5 Puttonyos 17-|2017|Tokaji-Hegyalja|Furmint|96€|Nariz: mel, abacaxi, mineral. Boca: doce cremoso. 5 Puttonyos top. Beba agora-2040.|WA: 93 | Peñín: 92
+Oremus 6 Puttonyos 14-|2014|Tokaji-Hegyalja|Furmint|118€|Nariz: mel, laranja, mineral. Boca: doce denso. 6 Puttonyos top. Beba agora-2040.|WA: 94 | Peñín: 93
+Oremus Eszencia 14-|2014|Tokaji-Hegyalja|Furmint|768€|Nariz: mel, abacaxi, mineral. Boca: doce eterno. Eszencia top. Beba agora-2060.|WA: 98 | JS: 99
+Oremus 5 Puttonyos 00-|2000|Tokaji-Hegyalja|Furmint|120€|Nariz: mel maduro, mineral. Boca: doce complexo. Maduro top. Beba agora.|WA: 95 | Peñín: 94
+Oremus 5 puttonyos 16-|2016|Tokaji-Hegyalja|Furmint|91€|Nariz: mel, laranja. Boca: doce cremoso. Top. Beba agora-2040.|WA: 93 | Peñín: 92
+Oremus 6PTT 13-|2013|Tokaji-Hegyalja|Furmint|125€|Nariz: mel, abacaxi. Boca: doce denso. Top. Beba agora-2040.|WA: 94 | Peñín: 93
+Oremus Eszencia 09-|2009|Tokaji-Hegyalja|Furmint|750€|Nariz: mel maduro, mineral. Boca: doce eterno. Top. Beba agora-2060.|WA: 98 | JS: 99
+Oremus Eszencia 11-|2011|Tokaji-Hegyalja|Furmint|750€|Nariz: mel, laranja. Boca: doce complexo. Top. Beba agora-2060.|WA: 97 | Peñín: 98
+Oremus Eszencia 12-|2012|Tokaji-Hegyalja|Furmint|605€|Nariz: mel, abacaxi. Boca: doce puro. Top. Beba agora-2060.|WA: 98 | JS: 97
+Oremus Eszencia 13-|2013|Tokaji-Hegyalja|Furmint|731€|Nariz: mel, mineral. Boca: doce eterno. Top. Beba agora-2060.|WA: 98 | Peñín: 99
+Oremus Dulce 2017|2017|Tokaji-Hegyalja|Furmint|91€|Nariz: mel, laranja. Boca: doce cremoso. Dulce top. Beba agora-2040.|WA: 93 | Peñín: 92
+Oremus Dulce 2014|2014|Tokaji-Hegyalja|Furmint|112€|Nariz: mel, abacaxi. Boca: doce denso. Top. Beba agora-2040.|WA: 94 | Peñín: 93
+Oremus Dulce 2014|2014|Tokaji-Hegyalja|Furmint|Media botella (37,5cl)|731€|Nariz: mel maduro. Boca: doce complexo. Top. Beba agora-2040.|WA: 95 | Peñín: 94
+Bufadors Vinya Rascara BN 19-|2019|Penedès|Macabeo|120€|Nariz: maçã, limão, mineral. Boca: seco cremoso. Bufadors top. Beba agora-2030.|WA: 92 | Peñín: 91
+Gramona Celler Batlle 14-|2014|Cava|Macabeo|181€|Nariz: maçã madura, brioche, mineral. Boca: cremoso longo. Celler Batlle top. Beba agora-2035.|WA: 94 | Peñín: 93
+Gramona III Lustros 16-|2016|Cava|Macabeo|93€|Nariz: limão, ervas, mineral. Boca: seco tenso. III Lustros top. Beba agora-2030.|WA: 93 | Peñín: 92
+Gramona Imperial 19-|2019|Cava|Macabeo|64€|Nariz: maçã, limão, brioche. Boca: cremoso equilibrado. Imperial top. Beba agora-2028.|WA: 92 | Peñín: 91
+Gramona Rose 22-|2022|Cava|Macabeo|59€|Nariz: morango, limão. Boca: seco fresco. Rosé top. Beba agora-2028.|WA: 91 | Peñín: 90
+Gran Juve Camps 18-|2018|Cava|Macabeo|84€|Nariz: maçã, brioche. Boca: cremoso longo. Gran Juve top. Beba agora-2030.|WA: 92 | Peñín: 91
+Gran Torello Brut Nature 16-|2016|Cava|Macabeo|79€|Nariz: limão, ervas. Boca: seco puro. Brut Nature top. Beba agora-2028.|WA: 91 | Peñín: 90
+Juve Camps Milesime 20-|2019|Cava|Macabeo|70€|Nariz: maçã, limão, mineral. Boca: seco cremoso. Milesime top. Beba agora-2030.|WA: 92 | Peñín: 91
+Mestres Clos Damiana 13-|2013|Cava|Macabeo|125€|Nariz: maçã madura, brioche. Boca: cremoso complexo. Clos Damiana top. Beba agora-2035.|WA: 93 | Peñín: 92
+Mestres Coquet BN G Rva 19-|2019|Cava|Macabeo|34€|Nariz: limão, ervas. Boca: seco puro. Coquet top. Beba agora-2028.|WA: 91 | Peñín: 90
+Mestres Coquet BN G Rva 20 BL-|2020|Cava|Macabeo|39€|Nariz: maçã, limão. Boca: seco fresco. Top. Beba agora-2028.|WA: 90 | Peñín: 89
+Mestres Mas Via 08-|2008|Cava|Macabeo|132€|Nariz: maçã madura, brioche. Boca: cremoso longo. Mas Via top. Beba agora-2030.|WA: 93 | Peñín: 92
+Mestres Visol 19-|2019|Cava|Xarel·lo|45€|Nariz: limão, ervas. Boca: seco tenso. Visol top. Beba agora-2028.|WA: 91 | Peñín: 90
+Raventos i Blanc De la Finca 21-|2021|Conca del Riu Anoia|Macabeo|44€|Nariz: maçã, limão, mineral. Boca: seco puro. De la Finca top. Beba agora-2028.|WA: 92 | Peñín: 91
+Raventos i Blanc Textures de Pedra 19-|2019|Conca del Riu Anoia|Macabeo|74€|Nariz: limão, ervas, mineral. Boca: seco tenso. Textures top. Beba agora-2030.|WA: 93 | Peñín: 92
+Raventos Mas Del Serral 07-|2007|Cava|Macabeo|262€|Nariz: maçã madura, brioche. Boca: cremoso complexo. Mas Del Serral top. Beba agora.|WA: 94 | Peñín: 93
+Recaredo Intens Rosat BN G Rva 20-|2020|Cava|Macabeo|80€|Nariz: morango, limão. Boca: seco cremoso. Rosat top. Beba agora-2030.|WA: 92 | Peñín: 91

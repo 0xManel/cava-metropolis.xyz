@@ -1,0 +1,300 @@
+Mg Ch Margaux 09-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2009|5950€|POD016393|—
+Mg Ch Margaux 15-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2015|9560€|POD016394|—
+Mg Ch Margaux 19-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2019|3696€|POD010328|—
+Mg Ch Rauzan Segla Margaux 18-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2018|646€|POD016395|—
+Mg Cheval Blanc 16-|Burdeos|Merlot|Magnum (150cl)|2016|4934€|POD013565|—
+Mg Les Forts de Latour Pauillac 16-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2016|1240€|POD016396|—
+Mg Petrus Pomerol 11-|Burdeos|Merlot|Magnum (150cl)|2011|18532€|POD015838|—
+Mg Petrus Pomerol 14-|Burdeos|Merlot|Magnum (150cl)|2014|17916€|POD015837|—
+Mg. Ch Rocheyron 2018-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2018|514€|POD012376|—
+Pauillac Lafite Rothschild 2010-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|2500€|POD009452|—
+Pavillon Rouge 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|500€|POD011750|—
+Pavillon Rouge Ch Margaux 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|500€|POD017987|—
+Pavillon Rouge de Ch Margaux 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|505€|POD010930|—
+Pensees de Lafleur 22-|Burdeos|Merlot|Botella (75cl)|2022|536€|POD_TEMP_1053|—
+Petrus 06-|Burdeos|Merlot|Botella (75cl)|2006|8610€|POD004266|—
+Petrus 09-|Burdeos|Merlot|Botella (75cl)|2009|10650€|POD004268|—
+Petrus 10-|Burdeos|Merlot|Botella (75cl)|2010|11800€|POD004269|—
+Petrus 11-|Burdeos|Merlot|Botella (75cl)|2011|8577€|POD004270|—
+Petrus Pomerol 01-|Burdeos|Merlot|Botella (75cl)|2001|8978€|POD015832|—
+Petrus Pomerol 18-|Burdeos|Merlot|Botella (75cl)|2018|10333€|POD008787|—
+Petrus Pomerol 20-|Burdeos|Merlot|Botella (75cl)|2020|11129€|POD010677|—
+Petrus Pomerol 21-|Burdeos|Merlot|Botella (75cl)|2021|9214€|POD011853|—
+Petrus Pomerol 82-|Burdeos|Merlot|Botella (75cl)|1982|9200€|POD015780|—
+Petrus Pomerol 86-|Burdeos|Merlot|Botella (75cl)|1986|8290€|POD015835|—
+Vieux Ch Certan 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|960€|POD018002|—
+Vieux Ch Certan Pomerol 15-|Burdeos|Merlot|Botella (75cl)|2015|785€|POD016286|—
+Vieux Ch Certan Pomerol 19-|Burdeos|Merlot|Botella (75cl)|2019|682€|POD010107|—
+Vieux Château Certan 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|636€|POD015916|—
+Cellier Saint Benoit Arbois Ploussard Côte de Feule 22-|Jura|Ploussard|Botella (75cl)|2022|150€|POD016618|—
+Pieds Sur Terre Pinot Noir 22-|Jura|Pinot Noir|Botella (75cl)|2022|82€|POD019395|—
+Pieds Sur Terre Poulsard 23-|Jura|Poulsard|Botella (75cl)|2023|85€|POD019656|—
+Tissot Arbois Poulsard VV 23-|Jura|Poulsard|Botella (75cl)|2023|84€|POD017000|—
+Clos des Fees Petit Siberie 22-|Languedoc-Roussillon|Garnacha|Botella (75cl)|2022|475€|POD016246|—
+Clos des Fees VV 22-|Languedoc-Roussillon|Garnacha|Botella (75cl)|2022|66€|POD016245|—
+Domaine Grange des Peres 21-|Languedoc-Roussillon|Syrah|Botella (75cl)|2021|380€|POD017927|—
+Gérard Bertrand Clos D’Ora 21-|Languedoc-Roussillon|Garnacha|Botella (75cl)|2021|400€|POD017308|—
+Ch L Hospitalet 22-|Languedoc-Roussillon|Garnacha|Botella (75cl)|2022|91€|POD017888|—
+Antoine Sanzay Saumur Les Poyeux 20-|França (Loira)|Cabernet Franc|Botella (75cl)|2020|95€|POD019764|—
+Clos Rougeard Le Bourg 19-|Loira|Cabernet Franc|Botella (75cl)|2019|490€|POD018159|—
+Clos Rougeard Le Clos 19-|Loira|Cabernet Franc|Botella (75cl)|2019|250€|POD018157|—
+Clos Rougeard Les Poyeux 18-|Loira|Cabernet Franc|Botella (75cl)|2018|471€|POD011632|—
+Clos Rougeard Saumur Les Poyeux 19-|Loira|Cabernet Franc|Botella (75cl)|2019|410€|POD018158|—
+Closiers Les Closiers 23-|Loira|Cabernet Franc|Botella (75cl)|2023|69€|POD018161|—
+Closiers Les Coudraies 21-|Loira|Cabernet Franc|Botella (75cl)|2021|102€|POD018162|—
+Closiers Trezellieres 21-|Loira|Cabernet Franc|Botella (75cl)|2021|177€|POD018163|—
+Guiberteau Arboises 22-|Loira|Cabernet Franc|Botella (75cl)|2022|142€|POD019763|—
+3/8 La Janasse Chateauneuf 23-|Ródano|Garnacha|Media botella (37,5cl)|2023|64€|POD019291|—
+Chapoutier Croix de Bois 22-|Ródano|Garnacha|Botella (75cl)|2022|193€|POD017827|—
+Chapoutier Ermitage Le Pavillon 11-|Ródano|Syrah|Botella (75cl)|2011|495€|POD011826|—
+Chapoutier Ermitage L'Ermite Rg 07-|França (Ródano)|Syrah|Botella (75cl)|2007|447€|POD011828|—
+Chapoutier La Mordoree 22-|Ródano|Garnacha|Botella (75cl)|2022|320€|POD017825|—
+Chapoutier Le Meal TO 22-|Ródano|Syrah|Botella (75cl)|2022|558€|POD017824|—
+Chapoutier Le Pavillon 14-|Ródano|Syrah|Botella (75cl)|2014|834€|POD011777|—
+Chapoutier Les Granits TO 22-|França (Ródano Norte)|Syrah|Botella (75cl)|2022|150€|POD017826|—
+Chateau des Tours 19-|Ródano|Garnacha|Botella (75cl)|2019|220€|POD013983|—
+Chateau des Tours 20-|Ródano|Garnacha Blanca|Botella (75cl)|2020|255€|POD018469|—
+Chateau des Tours Cotes du Rhone 19-|França (Ródano)|Grenache|Botella (75cl)|2019|255€|POD011715|—
+Chateau Rayas Chateauneuf 12-|Ródano|Garnacha|Botella (75cl)|2012|2300€|POD016920|—
+Chateau Rayas TO 08-|Ródano|Garnacha|Botella (75cl)|2008|2300€|POD017931|—
+Chateau Rayas TO 09-|Ródano|Garnacha|Botella (75cl)|2009|2350€|POD018475|—
+Chateau Rayas TO 2010-|França (Ródano Sul)|Grenache|Botella (75cl)|2010|2268€|POD009898|—
+Chateau Rayas TO 2011-|Ródano|Garnacha|Botella (75cl)|2011|2713€|POD016879|—
+Clape Cornas 22-|Ródano|Syrah|Botella (75cl)|2022|257€|POD018164|—
+Clape Cotes Du Rhone 23-|Ródano|Syrah|Botella (75cl)|2023|85€|POD018165|—
+Clos des Papes Chateauneuf du Pape TO 22-|Ródano|Garnacha|Botella (75cl)|2022|207€|POD013318|—
+Domaine des Tours TO 07-|Ródano|Garnacha|Botella (75cl)|2007|278€|POD018474|—
+Domaine des Tours Vaucluse 20 TO-|Ródano|Garnacha|Botella (75cl)|2020|210€|POD013984|—
+G Vernay Cot Rot Blond Seign 22-|Ródano|Syrah|Botella (75cl)|2022|178€|POD019269|—
+G Vernay St Agathe Syrah 23-|Ródano|Syrah|Botella (75cl)|2023|77€|POD019266|—
+Gerin Champin Le Seigneur 22-|Ródano|Syrah|Botella (75cl)|2022|126€|POD018167|—
+Gerin Les Grandes Places 22-|Ródano|Syrah|Botella (75cl)|2022|277€|POD018168|—
+Guigal Cote Rotie La Mouline 2018-|Ródano|Syrah|Botella (75cl)|2018|738€|POD009885|—
+Guigal Cote Rotie La Turque 2018-|Ródano|Syrah|Botella (75cl)|2018|738€|POD009886|—
+Henri Bonneau Chneuf-du-Pape R des Celestins 16-|França (Ródano Sul)|Grenache|Botella (75cl)|2016|814€|POD016703|—
+Henri Bonneau VDF Rouliers-|Ródano|Garnacha|Botella (75cl)|NV|140€|POD015816|—
+Herve Souhaut La Souteronne 22-|Ródano|Syrah|Botella (75cl)|2022|45€|POD012541|—
+Herve Souhaut La Souteronne 23-|Ródano|Syrah|Botella (75cl)|2023|50€|POD019292|—
+Herve Souhaut St Joseph clos cessieux 22-|Ródano|Syrah|Botella (75cl)|2022|90€|POD012542|—
+Jaboulet Hermitage La Chapelle 19-|Ródano|Syrah|Botella (75cl)|2019|393€|POD009367|—
+La Janasse Chateauneuf 23-|Ródano|Garnacha|Botella (75cl)|2023|105€|POD019293|—
+Le Vieux Donjon Chateauneuf 23-|Ródano|Garnacha|Botella (75cl)|2023|110€|POD019325|—
+Mont Olivet Chateauneuf 23-|Ródano|Garnacha|Botella (75cl)|2023|91€|POD019250|—
+Mont Olivet Chateauneuf Papet 23-|Ródano|Garnacha|Botella (75cl)|2023|155€|POD019253|—
+Pierre Usseglio 07-|Ródano|Garnacha|Botella (75cl)|2007|840€|POD017556|—
+Pignan Chateauneuf 11-|Ródano|Garnacha|Botella (75cl)|2011|770€|POD017588|—
+Pignan Chateauneuf 13-|Ródano|Garnacha|Botella (75cl)|2013|990€|POD017812|—
+Tardieu Laurent Cote Rotie VV 22-|Ródano|Syrah|Botella (75cl)|2022|226€|POD017485|—
+B Giacosa Barbera Falletto 22-|Piamonte|Barbera|Botella (75cl)|2022|114€|POD018198|—
+B Giacosa Barolo Falleto 2019-|Piamonte|Nebbiolo|Botella (75cl)|2019|653€|POD011612|—
+Borgogno Rivata Barolo 21-|Piamonte|Nebbiolo|Botella (75cl)|2021|75€|POD018873|—
+Brovia Barolo Brea Vigna Ca Mia 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|220€|POD016866|—
+Brovia Barolo Rocche Castiglione 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|220€|POD016867|—
+Brovia Barolo Villero 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|220€|POD016868|—
+Bruno Giacosa Barbaresco Rabaja 2020-|Piamonte|Nebbiolo|Botella (75cl)|2020|653€|POD013348|—
+Bruno Giacosa Barolo 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|692€|POD012479|—
+Bruno Rocca Barbaresco Rabaja 21-|Piamonte|Nebbiolo|Botella (75cl)|2021|175€|POD016909|—
+Cascina delle Rose Langhe Nebbiolo 23-|Piamonte|Nebbiolo|Botella (75cl)|2023|74€|POD017280|—
+Cascina delle Rosse Barbera Alba 21-|Piamonte|Barbera|Botella (75cl)|2021|79€|POD015311|—
+Cascina Rose Bar Tre Stelle 22-|Piamonte|Barbera|Botella (75cl)|2022|170€|POD018408|—
+Cascina Rose Barb Marcorino 22-|Piamonte|Barbera|Botella (75cl)|2022|121€|POD018410|—
+Cascina Rose Barb Rio Sordo 22-|Itália (Piemonte)|Barbera|Botella (75cl)|2022|170€|POD018409|—
+Cascina Rose Elena Barbera 22-|Piamonte|Barbera|Botella (75cl)|2022|76€|POD018411|—
+Cascina Rose Langhe Nebb 24-|Piamonte|Nebbiolo|Botella (75cl)|2024|76€|POD018407|—
+Cavallotto Barolo Bricco Boschis 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|175€|POD012564|—
+Cavallotto Barolo Riserva San Giuseppe 18-|Piamonte|Nebbiolo|Botella (75cl)|2018|295€|POD012565|—
+Cavallotto Barolo Riserva Vignolo 18-|Piamonte|Nebbiolo|Botella (75cl)|2018|278€|POD012566|—
+Crissante Alessandria Barolo La Morra 21-|Itália (Piemonte, Barolo)|Nebbiolo|Botella (75cl)|2021|89€|POD018184|—
+Diego Conterno Barbera Ferrione 22-|Piamonte|Barbera|Botella (75cl)|2022|42€|POD017206|—
+Doble Mg Roagna Barolo Pira 06-|Piamonte|Nebbiolo|Doble Magnum (300cl)|2006|5714€|POD013364|—
+Ferdinando Principiano Langhe 24-|Piamonte|Nebbiolo|Botella (75cl)|2024|38€|POD019754|—
+Flavio Roddolo Barolo 14-|Piamonte|Nebbiolo|Botella (75cl)|2014|176€|POD017207|—
+G Mascarello Barolo Monprivato 19-|Piamonte|Nebbiolo|Botella (75cl)|2019|571€|POD013366|—
+Gaja Sperss 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|1005€|POD015862|—
+Giovanni Canonica 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|520€|POD017547|—
+Luisin Barbaresco Rabaja 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|124€|POD018074|—
+Luisin Barbera Maggiur 22-|Piamonte|Barbera|Botella (75cl)|2022|56€|POD018070|—
+Luisin Langhe Nebbiolo 22-|Piamonte|Nebbiolo|Botella (75cl)|2022|64€|POD018071|—
+Mascarello Barolo S Stefano 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|198€|POD019009|—
+Mascarello Barolo Villero 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|198€|POD019010|—
+Massolino Barbaresco Albesani 21-|Piamonte|Nebbiolo|Botella (75cl)|2021|168€|POD016865|—
+Massolino Barolo Parafada 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|181€|POD016862|—
+Massolino Barolo Vigna Rionda Rva 17-|Piamonte|Nebbiolo|Botella (75cl)|2017|365€|POD016861|—
+Mg Roagna Barbaresco Albesani 2018-|Piamonte|Nebbiolo|Magnum (150cl)|2018|592€|POD013351|—
+Mg Roagna Barbaresco Faset 18-|Piamonte|Nebbiolo|Magnum (150cl)|2018|592€|POD013353|—
+Mg Roagna Barbaresco Gallina 18-|Piamonte|Nebbiolo|Magnum (150cl)|2018|592€|POD013354|—
+Mg Roagna Barolo Pira VV 2018-|Piamonte|Nebbiolo|Magnum (150cl)|2018|1311€|POD013369|—
+Mg Roagna Barolo Roche Castiglione18-|Piamonte|Nebbiolo|Magnum (150cl)|2018|592€|POD013370|—
+P Scavino Barolo Rva Novantesimo 11-|Piamonte|Nebbiolo|Botella (75cl)|2011|504€|POD012016|—
+Paolo Scavino Barolo Rv Rocche Annunz 15-|Piamonte|Nebbiolo|Botella (75cl)|2015|425€|POD010562|—
+Pelissero Vanotu 16-|Piamonte|Nebbiolo|Botella (75cl)|2016|220€|POD014760|—
+Roagna Barb Crichet Paje 16-|Piamonte|Nebbiolo|Botella (75cl)|2016|1837€|POD018430|—
+Roagna Barbaresco Gallina 18 5L-|Piamonte|Nebbiolo|Jeroboam (500cl)|2018|2098€|POD013360|—
+Roagna Barolo Pira 06 5L-|Piamonte|Nebbiolo|Jeroboam (500cl)|2006|9403€|POD013371|—
+Scavino Barolo 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|107€|POD018440|—
+Scavino Barolo Bric Fiasc 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|240€|POD018439|—
+Scavino Barolo Monvigliero 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|192€|POD018441|—
+Trediberri B Rocche Annunziata 20-|Piamonte|Nebbiolo|Botella (75cl)|2021|103€|POD011998|—
+Trediberri Barolo Berri 21-|Piamonte|Nebbiolo|Botella (75cl)|2021|84€|POD018398|—
+Trediberri Langhe Nebbiolo 24-|Piamonte|Nebbiolo|Botella (75cl)|2024|40€|POD018438|—
+Vaira Aurelj Contracorrente 21-|Piamonte|Riesling|Botella (75cl)|2021|85€|POD018722|—
+Vietti Barbera d'Alba Scarrone 21-|Piamonte|Barbera|Botella (75cl)|2021|107€|POD011992|—
+Vietti Barolo Brunate 20-|Piamonte|Nebbiolo|Botella (75cl)|2020|471€|POD011994|—
+Firriato Soria 22-|Sicilia|Nero d'Avola|Botella (75cl)|2022|35€|POD019760|—
+Occhipinti Il Frapatto 23-|Sicilia|Frappato|Botella (75cl)|2023|70€|POD019447|—
+Pietro Caciorgna Etna Rosso Ciauria 22-|Itália (Sicília, Etna)|Nerello Mascalese|Botella (75cl)|2022|34€|POD012581|—
+Terre N Calderara Sottana TO 22-|Sicilia|Nerello Mascalese|Botella (75cl)|2022|112€|POD017655|—
+Terre Nere Bellacolonna 22-|Sicilia|Nerello Mascalese|Botella (75cl)|2022|79€|POD017653|—
+Terre Nere Moganazzi 22-|Itália (Sicília, Etna)|Nerello Mascalese|Botella (75cl)|2022|90€|POD017657|—
+Terre Nere Santo Espirito TO 23-|Sicilia|Nerello Mascalese|Botella (75cl)|2023|89€|POD018797|—
+Antinori Solaia 17-|Toscana|Cabernet Sauvignon|Botella (75cl)|2017|890€|POD012245|—
+Cerbaiona Brunello Di Montalcino 19-|Toscana|Sangiovese|Botella (75cl)|2019|367€|POD012367|—
+Cerbaiona Grammatica Rosso Tosc 20-|Toscana|Sangiovese|Botella (75cl)|2020|118€|POD011999|—
+Col D'Orcia Rosso Montalcino 23-|Toscana|Sangiovese|Botella (75cl)|2023|32€|POD019758|—
+Gianni Brunelli Rosso Montalcino 23-|Toscana|Sangiovese|Botella (75cl)|2023|83€|POD019756|—
+il Marroneto Brunello 20-|Toscana|Sangiovese|Botella (75cl)|2020|216€|POD018067|—
+Isole Olena Chianti Classico 22-|Toscana|Sangiovese|Botella (75cl)|2022|55€|POD019755|—
+Le Chiuse Rosso Montalcino 23-|Toscana|Sangiovese|Botella (75cl)|2023|160€|POD019757|—
+Le Ragnaie Lume Spento 20-|Toscana|Sangiovese Grosso|Botella (75cl)|2020|265€|POD017917|—
+Massetino 19-|Toscana|Cabernet Sauvignon|Botella (75cl)|2019|800€|POD016388|—
+Massetino 22-|Toscana|Cabernet Sauvignon|Botella (75cl)|2022|589€|POD012506|—
+Masseto 15-|Toscana|Cabernet Sauvignon|Botella (75cl)|2015|2500€|POD017809|—
+Masseto 19-|Toscana|Cabernet Sauvignon|Botella (75cl)|2019|1808€|POD014473|—
+Mg Ornellaia 18-|Toscana|Cabernet Sauvignon|Magnum (150cl)|2018|1044€|POD016905|—
+Mg Solaia 20-|Toscana|Cabernet Sauvignon|Magnum (150cl)|2020|1550€|POD016056|—
+Monteraponi Bragantino 19-|Toscana|Sangiovese|Botella (75cl)|2019|310€|POD011837|—
+Monteraponi Chianti Classico 21-|Toscana|Sangiovese|Botella (75cl)|2021|48€|POD012592|—
+Montevertine 19-|Toscana|Sangiovese|Botella (75cl)|2019|181€|POD014661|—
+Ornellaia 19-|Toscana|Cabernet Sauvignon|Botella (75cl)|2019|815€|POD014717|—
+Ornellaia 20-|Toscana|Cabernet Sauvignon|Botella (75cl)|2020|496€|POD009229|—
+Ornellaia 21-|Toscana|Cabernet Sauvignon|Botella (75cl)|2021|481€|POD012491|—
+Ragnaie B M Casanovina Montosoli 20-|Toscana|Sangiovese Grosso|Botella (75cl)|2020|265€|POD017916|—
+Ragnaie Brunello Montalcino 20-|Toscana|Sangiovese|Botella (75cl)|2020|180€|POD017915|—
+Ragnaie Rosso Di Montalcino 21-|Toscana|Sangiovese|Botella (75cl)|2021|63€|POD017913|—
+Sassicaia 06-|Toscana|Cabernet Sauvignon|Botella (75cl)|2006|893€|POD010080|—
+Sassicaia 16-|Toscana|Cabernet Sauvignon|Botella (75cl)|2016|1300€|POD007936|—
+Sassicaia 17-|Toscana|Cabernet Sauvignon|Botella (75cl)|2017|766€|POD012244|—
+Sassicaia 18-|Toscana|Cabernet Sauvignon|Botella (75cl)|2018|1650€|POD008804|—
+Sassicaia 21-|Toscana|Cabernet Sauvignon|Botella (75cl)|2021|735€|POD012028|—
+Solaia 18-|Toscana|Cabernet Sauvignon|Botella (75cl)|2018|1045€|POD009450|—
+Solaia 19-|Toscana|Cabernet Sauvignon|Botella (75cl)|2019|775€|POD010003|—
+Solaia 21-|Toscana|Cabernet Sauvignon|Botella (75cl)|2021|749€|POD012445|—
+Solaia Antinori 20-|Toscana|Cabernet Sauvignon|Botella (75cl)|2020|847€|POD011506|—
+Stella Brunello Bacia 19-|Toscana|Sangiovese|Botella (75cl)|2019|495€|POD017720|—
+Tenuta San Guido Guidalberto 23-|Toscana|Cabernet Sauvignon|Botella (75cl)|2023|112€|POD019759|—
+Tignanello 22-|Toscana|Sangiovese|Botella (75cl)|2022|295€|POD018490|—
+Allegrini Valpolicella Sup 23-|Véneto|Corvina|Botella (75cl)|2023|40€|POD018865|—
+Dal Forno Amarone Valpolicella 16-|Véneto|Corvina|Botella (75cl)|2016|550€|POD015811|—
+Dal Forno Romano Amarone Valpolicella 18-|Véneto|Corvina|Botella (75cl)|2018|595€|POD018180|—
+Dal Forno Romano Valpolicella Superio 18-|Véneto|Corvina|Botella (75cl)|2018|230€|POD018181|—
+Mg Dal Forno Amarone Valpolicella 13-|Véneto|Corvina|Magnum (150cl)|2013|1591€|POD015812|—
+Mg Quintarelli Valpolicella Sup 16-|Véneto|Corvina|Magnum (150cl)|2016|512€|POD012485|—
+Ata Rangi Pinot Noir 21-|Isla Norte|Pinot Noir|Botella (75cl)|2021|213€|POD018202|—
+Escarpment Pahi TO 20-|Isla Norte|Pinot Noir|Botella (75cl)|2020|104€|POD018222|—
+Savage Follow the Line 23-|Isla Norte|Chenin Blanc|Botella (75cl)|2023|83€|POD018076|—
+Pera Manca Bl 15-|Alentejo|Aragonez|Botella (75cl)|2015|625€|POD012272|—
+Antonio Madeira Vinhas Velhas 20 TO-|Centro|Baga|Botella (75cl)|2020|44€|POD013118|—
+Filipa Pato & William Wouters DNMC Baga 23-|Centro|Baga|Botella (75cl)|2023|35€|POD013111|—
+Niepoort Bairrada Poeirinho 22-|Centro|Baga|Botella (75cl)|2022|75€|POD019335|—
+Casa Ferreirinha Douro Rva Especial 14-|Douro|Touriga Nacional|Botella (75cl)|2014|500€|POD011809|—
+Monte Meao Vinha da Cantina 22-|Douro|Touriga Nacional|Botella (75cl)|2022|35€|POD016788|—
+Monte Meao Vinha dos Novo 22-|Douro|Touriga Nacional|Botella (75cl)|2022|35€|POD016789|—
+Niepoort Batuta 21-|Douro|Touriga Nacional|Botella (75cl)|2021|155€|POD014680|—
+Niepoort Douro Charme 22-|Douro|Touriga Nacional|Botella (75cl)|2022|160€|POD012649|—
+Quinta do Vale Meao Douro 22-|Douro|Touriga Nacional|Botella (75cl)|2022|233€|POD016808|—
+Xisto Cru-|Douro|Touriga Nacional|Botella (75cl)|2021|75€|POD015577|—
+Lothian of Elgin Pinot Noir 21-|Cape South Coast|Pinot Noir|Botella (75cl)|2021|67€|POD016746|—
+Paul Cluver Spioenkop 1900 Pinotage 20-|Cape South Coast|Pinotage|Botella (75cl)|2020|52€|POD016803|—
+R Kershaw Smuggler´s Boot 23-|Cape South Coast|Syrah|Botella (75cl)|2023|45€|POD019671|—
+Shannon Mount Bulet Merlot 20-|Central Coast|Merlot|Botella (75cl)|2020|148€|POD018201|—
+Rijk's Pinotage Touch 21-|Coastal Region|Pinotage|Botella (75cl)|2021|44€|POD016823|—
+Boekenhoutskloof Chocolate Block 22-|Franschhoek|Syrah|Botella (75cl)|2022|124€|POD016916|—
+Storm Ridge 22-|Hemel-en-Aarde|Pinot Noir|Botella (75cl)|2022|122€|POD018072|—
+Storm Ridge Pinot Noir 22-|Hemel-en-Aarde|Pinot Noir|Botella (75cl)|2022|134€|POD_TEMP_1054|—
+Savage Thief in the Night 23-|Western Cape|Syrah|Botella (75cl)|2023|88€|POD018075|—
+Savage Tinto 2023|Western Cape|Syrah|Botella (75cl)|2023|86€|POD_TEMP_1055|—
+Domaine Muzard Tinto 2023|Borgoña|Pinot Noir|Botella (75cl)|2023|105€|POD_TEMP_1056|—
+Ata Rangi Tinto 2021|Isla Norte|Pinot Noir|Botella (75cl)|2021|200€|POD_TEMP_1057|—
+Clos des Fées Tinto 2022|Languedoc-Roussillon|Garnacha|Botella (75cl)|2022|60€|POD_TEMP_1058|—
+La Grange des Pères Tinto 2021|Languedoc-Roussillon|Syrah|Botella (75cl)|2021|380€|POD_TEMP_1059|—
+Niepoort Tinto 2022|Douro|Touriga Nacional|Botella (75cl)|2022|75€|POD_TEMP_1060|—
+Artadi Tinto 2021|Rioja|Tempranillo|Magnum (150cl)|2021|341€|POD_TEMP_1061|—
+Artadi Tinto 2022|Rioja|Tempranillo|Magnum (150cl)|2022|424€|POD_TEMP_1062|—
+Artadi Tinto 2022|Rioja|Tempranillo|Magnum (150cl)|2022|424€|POD_TEMP_1063|—
+Domaine Pierre Damoy Tinto 2018|Borgoña|Pinot Noir|Botella (75cl)|2018|1715€|POD_TEMP_1064|—
+Château La Fleur-Petrus Tinto 2020|Burdeos|Merlot|Botella (75cl)|2020|580€|POD_TEMP_1065|—
+Tenutta Ornellaia Tinto 2021|Toscana|Cabernet Sauvignon|Botella (75cl)|2021|505€|POD_TEMP_1066|—
+Fratelli Cavallotto Tinto 2020|Piamonte|Nebbiolo|Botella (75cl)|2020|175€|POD_TEMP_1067|—
+Maison Louis Jadot Tinto 2021|Borgoña|Pinot Noir|Botella (75cl)|2021|182€|POD_TEMP_1068|—
+Maison Louis Jadot Tinto 2022|Borgoña|Pinot Noir|Botella (75cl)|2022|166€|POD_TEMP_1069|—
+Château Léoville-Poyferré Tinto 2009|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|525€|POD_TEMP_1070|—
+Racines Wine Tinto 2022|California|Pinot Noir|Botella (75cl)|2022|107€|POD_TEMP_1071|—
+The Standish Tinto 2022|South Australia|Shiraz|Botella (75cl)|2022|352€|POD_TEMP_1072|—
+Comtes Georges de Vogüé Tinto 2022|Borgoña|Pinot Noir|Botella (75cl)|2022|1812€|POD_TEMP_1073|—
+Comtes Georges de Vogüé Tinto 2022|Borgoña|Pinot Noir|Botella (75cl)|2022|1690€|POD_TEMP_1074|—
+Mauro Tinto 2023|Castilla y León|Tempranillo|Botella (75cl)|2023|71€|POD_TEMP_1075|—
+Marqués de Murrieta Tinto 2020|Rioja|Tempranillo|Botella (75cl)|2020|395€|POD_TEMP_1076|—
+4 Kilos Tinto 2023|Baleares|Callet|Botella (75cl)|2023|79€|POD_TEMP_1077|—
+Roumier Bonnes Mares 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|3550€|POD_TEMP_1078|—
+#N/D|South Australia|Shiraz|Botella (75cl)|2022|132€|POD_TEMP_1079|—
+Cuarto Lagar Tinto (en blanco)|Castilla y León|Tempranillo|Botella (75cl)|(en blanco)|77€|POD_TEMP_1080|—
+Dominio de Atauta Tinto (en blanco)|Castilla y León|Tempranillo|Botella (75cl)|(en blanco)|57€|POD_TEMP_1081|—
+Joan D´Anguera Tinto 2017|Montsant|Garnacha|Botella (75cl)|2017|98€|POD_TEMP_1082|—
+Pardas Blanco 2022|Penedès|Xarel·lo|Botella (75cl)|2022|56€|POD_TEMP_1083|—
+Pepe Raventós Espumoso 2012|Cava|Macabeo|Botella (75cl)|2012|250€|POD_TEMP_1084|—
+Opus One Tinto 2022|California|Cabernet Sauvignon|Botella (75cl)|2022|395€|POD_TEMP_1085|—
+Domaine Bart Tinto 2023|Borgoña|Pinot Noir|Botella (75cl)|2023|595€|POD_TEMP_1086|—
+Château Ausone Tinto 2022|Burdeos|Merlot|Botella (75cl)|2022|1890€|POD_TEMP_1087|—
+Château Figeac Tinto 2022|Burdeos|Cabernet Franc|Botella (75cl)|2022|850€|POD_TEMP_1088|—
+Château Haut-Brion Tinto 2022|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|1690€|POD_TEMP_1089|—
+Château Pavie Tinto 2022|Burdeos|Merlot|Botella (75cl)|2022|920€|POD_TEMP_1090|—
+Valentin Morel Blanco 2022|Jura|Chardonnay|Botella (75cl)|2022|82€|POD_TEMP_1091|—
+Gerin Tinto 2021|Ródano|Syrah|Botella (75cl)|2021|135€|POD_TEMP_1092|—
+Isabel Ferrando Tinto 2023|Murcia|Monastrell|Botella (75cl)|2023|180€|POD_TEMP_1093|—
+La Colombera  Blanco 2024|Piamonte|Arneis|Botella (75cl)|2024|41€|POD_TEMP_1094|—
+Col d´Orcia Tinto 2021|Toscana|Sangiovese|Botella (75cl)|2021|84€|POD_TEMP_1095|—
+Le Macchiole Tinto 2022|Itália (Toscana, Bolgheri)|Merlot|Botella (75cl)|2022|53€|POD_TEMP_1096|—
+[TEMP] Bouzeron 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0001|—
+[TEMP] Fourchaume 1er Cru 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0002|—
+[TEMP] Montmains 1er Cru 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0003|—
+[TEMP] Montée de Tonnerre 1er Cru 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0004|—
+[TEMP] Tête d’Or 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0005|—
+[TEMP] Tête d’Or (1.5L) 22-|Borgoña|Chardonnay|Magnum (150cl)|2022|—|POD_TEMP_BM2_0006|—
+[TEMP] Meursault Clos des Écoles 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0007|—
+[TEMP] Meursault Genevrières 1er Cru 16-|Borgoña|Chardonnay|Botella (75cl)|2016|—|POD_TEMP_BM2_0008|—
+[TEMP] Savigny-lès-Beaune Les Goudelettes 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0009|—
+[TEMP] Chassagne-Montrachet 1er Cru Morgeot 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0010|—
+[TEMP] Montrachet (Grand Cru) 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0011|—
+[TEMP] Blanchot (Grand Cru) 16-|Borgoña|Chardonnay|Botella (75cl)|2016|—|POD_TEMP_BM2_0012|—
+[TEMP] Butteaux 1er Cru 15-|Borgoña|Chardonnay|Botella (75cl)|2015|—|POD_TEMP_BM2_0013|—
+[TEMP] Montée de Tonnerre 1er Cru 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0014|—
+[TEMP] Valmur (Grand Cru) 16-|Borgoña|Chardonnay|Botella (75cl)|2016|—|POD_TEMP_BM2_0015|—
+[TEMP] Pernand-Vergelesses 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0016|—
+[TEMP] Meursault Genevrières 1er Cru 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0017|—
+[TEMP] Meursault Genevrières 1er Cru BL-|Borgoña|Chardonnay|Botella (75cl)|—|—|POD_TEMP_BM2_0018|—
+[TEMP] Chassagne-Montrachet 1er Cru Clos Saint-Marc 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0019|—
+[TEMP] Saint-Aubin 1er Cru Sur le Sentier du Clou 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0020|—
+[TEMP] Corton-Charlemagne (Grand Cru) 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0021|—
+[TEMP] Montrachet (Grand Cru) BL-|Borgoña|Chardonnay|Botella (75cl)|—|—|POD_TEMP_BM2_0022|—
+[TEMP] Puligny-Montrachet 1er Cru Champ Gain 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0023|—
+[TEMP] Montée de Tonnerre 1er Cru 15-|Borgoña|Chardonnay|Botella (75cl)|2015|—|POD_TEMP_BM2_0024|—
+[TEMP] Meursault Vieilles Vignes 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0025|—
+[TEMP] Montrachet (Grand Cru) 22-|Borgoña|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0026|—
+[TEMP] Puligny-Montrachet 1er Cru Les Referts 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0027|—
+[TEMP] Gevrey-Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0028|—
+[TEMP] Latricières-Chambertin (Grand Cru) 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0029|—
+[TEMP] Romanée-Saint-Vivant (Grand Cru) 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0030|—
+[TEMP] Nuits-Saint-Georges 1er Cru Clos de l’Arlot 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0031|—
+[TEMP] Nuits-Saint-Georges 1er Cru Clos des Forêts Saint Georges 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0032|—
+[TEMP] Grands-Échezeaux 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0033|—
+[TEMP] Romanée-Saint-Vivant 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0034|—
+[TEMP] Vosne-Romanée 1er Cru Les Petits Monts 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0035|—
+[TEMP] Côte de Nuits (entrada tal como figura) 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0036|—
+[TEMP] Chambolle-Musigny 1er Cru Les Amoureuses 15-|Borgoña|Pinot Noir|Botella (75cl)|2015|—|POD_TEMP_BM2_0037|—
+[TEMP] Bourgogne ‘Cuvée Jeunesse’ 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0038|—
+[TEMP] Nuits-Saint-Georges ‘Les Fleuries’ 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0039|—
+[TEMP] Les Follettes 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0040|—
+[TEMP] Savigny-lès-Beaune 1er Cru Les Serpentières 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0041|—
+[TEMP] Chambertin (Grand Cru) 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0042|—
+[TEMP] Chambertin Clos de Bèze (Grand Cru) 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0043|—
+[TEMP] Chapelle-Chambertin (Grand Cru) 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0044|—

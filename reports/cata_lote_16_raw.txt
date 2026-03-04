@@ -1,0 +1,150 @@
+601|Mg Mauro VS 21-|2021|Castilla y León|Tempranillo|Magnum (150cl)|300€|Nariz: cassis, ervas finas, mineral. Boca: denso cremoso, taninos suaves e polidos, final longo elegante. VS Magnum top. Beba agora-2040. Carne vermelha ou queijo curado.|WA: 94 | JS: 93 | Peñín: 93
+602|Mg Moncerbal 21-|2021|Bierzo|Mencía|Magnum (150cl)|465€|Nariz: morango mineral, ervas. Boca: denso puro, taninos firmes mas finos, acidez viva. Moncerbal Magnum top. Beba agora-2040. Pratos de carne.|WA: 95 | Peñín: 94
+603|Mg Moncerbal 22-|2022|Bierzo|Mencía|Magnum (150cl)|455€|Nariz: frutas vermelhas frescas, mineral sutil. Boca: tenso elegante, taninos vibrantes. Jovem top. Beba 2026-2045.|WA: 94-96 (estimado) | Peñín: 93
+604|Mg Pingus 21-|2021|Ribera del Duero|Tempranillo|Magnum (150cl)|4133€|Nariz: cassis violetas, mineral profundo. Boca: denso eterno, taninos sedosos, final infinito. Pingus Magnum ícone. Beba agora-2050. Luxo máximo.|WA: 98 | JS: 97 | Peñín: 98
+605|Mg Terreus 22-|2022|Castilla y León|Tempranillo|Magnum (150cl)|439€|Nariz: frutas escuras, ervas, mineral. Boca: cremoso taninos firmes. Terreus Magnum top. Beba agora-2040.|WA: 95 | Peñín: 94
+606|Mg Teso La Monja 19-|2019|Toro|Tinta de Toro|Magnum (150cl)|4542€|Nariz: cassis maduro, especiarias. Boca: denso cremoso eterno. Teso La Monja Magnum top. Beba agora-2045.|WA: 97 | JS: 96
+607|Mg Vega Sicilia Unico-|2012|Ribera del Duero|Tempranillo|Magnum (150cl)|2900€|Nariz: cassis mineral maduro. Boca: complexo eterno, taninos elegantes. Unico Magnum lendário. Beba agora-2050.|WA: 97 | Peñín: 96
+608|Mg. La Faraona 16-|2016|Bierzo|Mencía|Magnum (150cl)|4400€|Nariz: morango mineral maduro. Boca: denso puro eterno. Faraona Magnum top. Beba agora-2040.|WA: 98 | JS: 97
+609|Mg. Vega Sicilia Unico 12-|2012|Ribera del Duero|Tempranillo|Magnum (150cl)|3045€|Nariz: cassis, ervas maduras. Boca: cremoso longo. Unico Magnum top. Beba agora-2045.|WA: 97 | Peñín: 96
+610|Mg. Vega Sicilia Unico 2011-|2011|Ribera del Duero|Tempranillo|Magnum (150cl)|2273€|Nariz: cassis mineral. Boca: denso elegante eterno. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+611|Moncerbal 20-|2020|Bierzo|Mencía|220€|Nariz: morango, ervas, mineral. Boca: denso cremoso, taninos finos. Moncerbal top. Beba agora-2035.|WA: 94 | Peñín: 93
+612|Moncerbal 21-|2021|Bierzo|Mencía|216€|Nariz: frutas vermelhas frescas. Boca: tenso elegante. Top. Beba agora-2040.|WA: 95 | JS: 94
+613|Moncerbal 22-|2022|Bierzo|Mencía|202€|Nariz: morango mineral. Boca: puro vibrante. Jovem top. Beba 2026-2045.|WA: 94 | Peñín: 93
+614|Nebro 21-|2021|Ribera del Duero|Tempranillo|278€|Nariz: cassis, violetas. Boca: denso cremoso. Nebro top. Beba agora-2040.|WA: 95 | Peñín: 94
+615|Numanthia 20-|2020|Toro|Tinta de Toro|95€|Nariz: frutas escuras, especiarias. Boca: cremoso taninos suaves. Numanthia top. Beba agora-2035.|WA: 93 | JS: 92
+616|Oxer B Kuusu 23-|2023|Toro|Tinta de Toro|198€|Nariz: cassis, ervas. Boca: denso puro. Kuusu top. Beba agora-2040.|WA: 94 | Peñín: 93
+617|Peña Lobera 21-|2021|Ribera del Duero|Tempranillo|189€|Nariz: frutas vermelhas, mineral. Boca: fresco denso. Peña Lobera top. Beba agora-2035.|WA: 93 | Peñín: 92
+618|Peñas Aladas 18-|2018|Ribera del Duero|Tempranillo|393€|Nariz: cassis maduro, ervas. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 94 | JS: 93
+619|Peñas Aladas 19-|2019|Ribera del Duero|Tempranillo|475€|Nariz: frutas escuras, mineral. Boca: denso elegante. Top. Beba agora-2040.|WA: 95 | Peñín: 94
+620|Pesus 18-|2018|Ribera del Duero|Tempranillo|578€|Nariz: cassis mineral maduro. Boca: denso cremoso. Pesus top. Beba agora-2035.|WA: 95 | JS: 94
+621|Picaro del Aguila TO 22-|2022|Ribera del Duero|Tempranillo|72€|Nariz: morango, ervas. Boca: fresco mineral. Picaro TO top. Beba agora-2030.|WA: 92 | Peñín: 91
+622|Pingus 18-|2018|Ribera del Duero|Tempranillo|3617€|Nariz: cassis violetas mineral. Boca: denso eterno. Pingus top. Beba agora-2045.|WA: 98 | JS: 97
+623|Pingus 21-|2021|Ribera del Duero|Tempranillo|2046€|Nariz: frutas escuras, mineral. Boca: cremoso taninos firmes. Top. Beba agora-2045.|WA: 97 | Peñín: 96
+624|Pingus 22-|2022|Ribera del Duero|Tempranillo|2563€|Nariz: cassis, ervas. Boca: denso puro. Top. Beba agora-2050.|WA: 98 | JS: 97
+625|Pintia 17-|2017|Toro|Tinta de Toro|119€|Nariz: frutas escuras, especiarias. Boca: cremoso taninos suaves. Pintia top. Beba agora-2035.|WA: 93 | Peñín: 92
+626|Pintia 18-|2018|Toro|Tinta de Toro|114€|Nariz: cassis, ervas. Boca: denso elegante. Top. Beba agora-2035.|WA: 93 | JS: 92
+627|Pintia 20-|2020|Toro|Tinta de Toro|114€|Nariz: frutas vermelhas, mineral. Boca: cremoso equilibrado. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+628|Pradio 22-|2022|Ribeira Sacra|Mencía|41€|Nariz: morango, ervas. Boca: fresco mineral. Pradio top. Beba agora-2028.|WA: 91 | Peñín: 90
+629|PSI 22-|2022|Ribera del Duero|Tempranillo|78€|Nariz: frutas vermelhas, ervas. Boca: fresco puro. PSI top. Beba agora-2030.|WA: 92 | Peñín: 91
+630|Quite 23-|2023|Bierzo|Mencía|41€|Nariz: morango fresco. Boca: leve denso. Quite top. Beba agora-2028.|WA: 91 | Peñín: 90
+631|Raul Perez La Muria 23-|2023|Bierzo|Mencía|1040€|Nariz: morango mineral. Boca: denso cremoso. La Muria top. Beba agora-2040.|WA: 96 | JS: 95
+632|Raul Perez Ultreia de Valtuille 22-|2022|Bierzo|Mencía|160€|Nariz: frutas vermelhas, ervas. Boca: fresco mineral. Valtuille top. Beba agora-2030.|WA: 94 | Peñín: 93
+633|Raul Perez Ultreia Paluezas 21-|2021|Bierzo|Mencía|98€|Nariz: morango, mineral. Boca: denso puro. Paluezas top. Beba agora-2030.|WA: 93 | Peñín: 92
+634|Raul Perez Viariz La Muria 23-|2023|Bierzo|Mencía|310€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Viariz top. Beba agora-2035.|WA: 95 | JS: 94
+635|San Cobate Cucufate Altos del Viso 19-|2019|Ribera del Duero|Tempranillo|58€|Nariz: cassis, ervas. Boca: cremoso equilibrado. Altos del Viso top. Beba agora-2030.|WA: 91 | Peñín: 90
+636|San Cobate Cucufate Bancales Jalon 19-|2019|Ribera del Duero|Tempranillo|58€|Nariz: frutas escuras, mineral. Boca: denso puro. Bancales top. Beba agora-2030.|WA: 92 | Peñín: 91
+637|San Cobate Cucufate Monasterio 19-|2019|Ribera del Duero|Tempranillo|58€|Nariz: cassis mineral. Boca: cremoso taninos suaves. Monasterio top. Beba agora-2030.|WA: 91 | Peñín: 90
+638|San Cobate La Finca 21-|2021|Ribera del Duero|Tempranillo|48€|Nariz: frutas vermelhas, ervas. Boca: fresco mineral. La Finca top. Beba agora-2028.|WA: 90 | Peñín: 89
+639|San Roman-|2021|Toro|Tinta de Toro|66€|Nariz: frutas escuras, especiarias. Boca: denso cremoso. San Roman top. Beba agora-2035.|WA: 93 | Peñín: 92
+640|San Roman 21-|2021|Toro|Tinta de Toro|60€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Top. Beba agora-2035.|WA: 93 | JS: 92
+641|San Roman Garnacha 22-|2022|Toro|Garnacha|92€|Nariz: frutas vermelhas, ervas. Boca: fresco denso. Garnacha top. Beba agora-2030.|WA: 92 | Peñín: 91
+642|Sanchomartin 21-|2021|Ribera del Duero|Tempranillo|296€|Nariz: cassis mineral. Boca: denso elegante. Sanchomartin top. Beba agora-2040.|WA: 94 | Peñín: 93
+643|Sangarida El Morredero TO 22-|2022|Bierzo|Mencía|57€|Nariz: morango, mineral. Boca: fresco puro. Morredero top. Beba agora-2028.|WA: 91 | Peñín: 90
+644|Sangarida Pico Tuerto TO 21-|2021|Bierzo|Mencía|43€|Nariz: frutas vermelhas, ervas. Boca: leve mineral. Pico Tuerto top. Beba agora-2028.|WA: 90 | Peñín: 89
+645|Solano Viñas Viejas 22-|2022|Ribera del Duero|Tempranillo|61€|Nariz: cassis, ervas. Boca: cremoso equilibrado. Viñas Viejas top. Beba agora-2030.|WA: 92 | Peñín: 91
+646|Teso La Monja 19-|2019|Toro|Tinta de Toro|2082€|Nariz: frutas escuras, especiarias. Boca: denso cremoso eterno. Teso La Monja top. Beba agora-2045.|WA: 97 | JS: 96
+647|TM de Tr3smano 19-|2019|Ribera del Duero|Tempranillo|172€|Nariz: cassis mineral. Boca: denso elegante. TM top. Beba agora-2035.|WA: 93 | Peñín: 92
+648|Tr3smano vendimia 22-|2022|Ribera del Duero|Tempranillo|76€|Nariz: frutas vermelhas, ervas. Boca: fresco denso. Vendimia top. Beba agora-2030.|WA: 92 | Peñín: 91
+649|Ultreia Cova La Raposa 21-|2021|Bierzo|Mencía|110€|Nariz: morango, mineral. Boca: denso puro. Cova La Raposa top. Beba agora-2035.|WA: 94 | JS: 93
+650|Valbuena 5º año 20-|2020|Ribera del Duero|Tempranillo|310€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Valbuena top. Beba agora-2040.|WA: 95 | Peñín: 94
+651|Valduero 6 años 16-|2016|Ribera del Duero|Tempranillo|154€|Nariz: cassis maduro, mineral. Boca: denso cremoso. 6 años top. Beba agora-2035.|WA: 93 | Peñín: 92
+652|Valduero Una Cepa 20-|2020|Ribera del Duero|Tempranillo|79€|Nariz: frutas escuras, ervas. Boca: cremoso equilibrado. Una Cepa top. Beba agora-2035.|WA: 92 | Peñín: 91
+653|Valeyo 22-|2022|Ribera del Duero|Tempranillo|62€|Nariz: cassis, mineral. Boca: denso puro. Valeyo top. Beba agora-2030.|WA: 92 | Peñín: 91
+654|Vega Sicilia Unico 04-|2004|Ribera del Duero|Tempranillo|2170€|Nariz: cassis mineral maduro. Boca: complexo eterno. Unico top. Beba agora.|WA: 97 | Peñín: 96
+655|Vega Sicilia Unico 14-|2014|Ribera del Duero|Tempranillo|605€|Nariz: cassis, ervas. Boca: denso cremoso. Top. Beba agora-2040.|WA: 96 | JS: 95
+656|Vega Sicilia Unico 15-|2015|Ribera del Duero|Tempranillo|568€|Nariz: frutas escuras, mineral. Boca: cremoso taninos firmes. Top. Beba agora-2045.|WA: 96 | Peñín: 95
+657|Vega Sicilia Unico 1996-|1996|Ribera del Duero|Tempranillo|4082€|Nariz: cassis maduro, couro. Boca: eterno complexo. Lendário. Beba agora.|WA: 98 | Peñín: 97
+658|Vega Sicilia Unico 2009-|2009|Ribera del Duero|Tempranillo|1333€|Nariz: cassis mineral. Boca: denso elegante. Top. Beba agora-2045.|WA: 97 | JS: 96
+659|Veronica Ortega Roc 22-|2022|Bierzo|Mencía|83€|Nariz: morango, ervas. Boca: fresco mineral. Roc top. Beba agora-2028.|WA: 92 | Peñín: 91
+660|Veronica Ortega VO 23-|2023|Bierzo|Mencía|66€|Nariz: frutas vermelhas, mineral. Boca: denso puro. VO top. Beba agora-2028.|WA: 91 | Peñín: 90
+661|Viña Sastre Pago Santa Cruz 22-|2022|Ribera del Duero|Tempranillo|116€|Nariz: cassis, ervas. Boca: cremoso taninos suaves. Pago top. Beba agora-2035.|WA: 93 | Peñín: 92
+662|El Reflejo de Mikaela 22-|2022|Castilla-La Mancha|Bobal|35€|Nariz: frutas vermelhas, ervas. Boca: fresco mineral. Reflejo top. Beba agora-2028.|WA: 90 | Peñín: 89
+663|3/8 Finca Dofi 23-|2023|Priorat|Garnacha|105€|Nariz: frutas vermelhas, ervas. Boca: denso puro. Finca Dofi meia top. Beba agora-2035.|WA: 94 | Peñín: 93
+664|Clos Erasmus 12-|2012|Priorat|Garnacha|595€|Nariz: frutas escuras maduras, mineral. Boca: denso cremoso eterno. Maduro top. Beba agora.|WA: 96 | JS: 95
+665|Clos Martinet 22-|2022|Priorat|Garnacha|151€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Clos Martinet top. Beba agora-2035.|WA: 93 | Peñín: 92
+666|Clos Mogador 08-|2008|Priorat|Garnacha|413€|Nariz: frutas escuras maduras. Boca: complexo eterno. Maduro top. Beba agora.|WA: 95 | Peñín: 94
+667|Clos Mogador 14-|2014|Priorat|Garnacha|362€|Nariz: cassis mineral maduro. Boca: denso cremoso. Top. Beba agora-2035.|WA: 94 | JS: 93
+668|Clos Mogador 2010-|2010|Priorat|Garnacha|465€|Nariz: cassis, ervas maduras. Boca: cremoso longo. Top. Beba agora.|WA: 95 | Peñín: 94
+669|Clos Mogador 2013-|2013|Priorat|Garnacha|300€|Nariz: frutas escuras, mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 94 | JS: 93
+670|Dido Tinto 22-|2022|Montsant|Garnacha|45€|Nariz: morango, ervas. Boca: fresco mineral. Dido top. Beba agora-2028.|WA: 91 | Peñín: 90
+671|Dits del Terra Terroir al Limit 21-|2021|Priorat|Cariñena|155€|Nariz: frutas vermelhas, mineral. Boca: denso puro. Dits del Terra top. Beba agora-2035.|WA: 94 | Peñín: 93
+672|Doble Mg Finca Dofi 22-|2022|Priorat|Garnacha|Doble Magnum (300cl)|785€|Nariz: frutas vermelhas, ervas. Boca: denso eterno. Magnum top. Beba agora-2040.|WA: 95 | JS: 94
+673|Doble Mg Gratallops 22-|2022|Priorat|Garnacha|Doble Magnum (300cl)|482€|Nariz: cassis mineral. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 94 | Peñín: 93
+674|Doble Mg L´Ermita 22-|2022|Priorat|Garnacha|Doble Magnum (300cl)|8800€|Nariz: cassis violetas mineral. Boca: denso eterno. L’Ermita Magnum ícone. Beba agora-2050.|WA: 98 | JS: 97
+675|Doble Mg La Baixada 22-|2022|Priorat|Garnacha|Doble Magnum (300cl)|2046€|Nariz: frutas vermelhas, mineral. Boca: denso puro. Magnum top. Beba agora-2045.|WA: 96 | Peñín: 95
+676|Doble Mg Les Aubaguetes 22-|2022|Priorat|Garnacha|Doble Magnum (300cl)|3170€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Magnum top. Beba agora-2045.|WA: 97 | JS: 96
+677|Doble Mg. Gratallops 21-|2021|Priorat|Garnacha|Doble Magnum (300cl)|426€|Nariz: frutas escuras, mineral. Boca: denso elegante. Magnum top. Beba agora-2040.|WA: 94 | Peñín: 93
+678|Doix 22-|2022|Priorat|Cariñena|187€|Nariz: cassis, ervas. Boca: denso cremoso. Doix top. Beba agora-2035.|WA: 94 | JS: 93
+679|Finca Dofi 22-|2022|Priorat|Garnacha|196€|Nariz: frutas vermelhas, mineral. Boca: cremoso puro. Finca Dofi top. Beba agora-2035.|WA: 95 | Peñín: 94
+680|Gralton Coster Crivi Cariñena 19-|2019|Priorat|Cariñena|120€|Nariz: frutas escuras, ervas. Boca: denso elegante. Coster Crivi top. Beba agora-2035.|WA: 93 | Peñín: 92
+681|Gratallops 22-|2022|Priorat|Garnacha|119€|Nariz: cassis mineral. Boca: cremoso taninos suaves. Gratallops top. Beba agora-2035.|WA: 93 | JS: 92
+682|Jeroboam Finca Dofi 5L 22-|2022|Priorat|Garnacha|Jeroboam (500cl)|1147€|Nariz: frutas vermelhas, ervas. Boca: denso eterno. Jeroboam top. Beba agora-2040.|WA: 95 | Peñín: 94
+683|Jeroboam L´Ermita 5L 22-|2022|Priorat|Garnacha|Jeroboam (500cl)|12700€|Nariz: cassis violetas mineral. Boca: denso eterno. L’Ermita Jeroboam ícone. Beba agora-2050.|WA: 98 | JS: 97
+684|Jeroboam Les Aubaguetes 5L 22-|2022|Priorat|Garnacha|Jeroboam (500cl)|5350€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Jeroboam top. Beba agora-2045.|WA: 97 | Peñín: 96
+685|L Ermita 20-|2020|Priorat|Garnacha|2800€|Nariz: frutas vermelhas, mineral. Boca: denso cremoso. L’Ermita top. Beba agora-2040.|WA: 97 | JS: 96
+686|L´Ermita 22-|2022|Priorat|Garnacha|2015€|Nariz: cassis violetas. Boca: denso puro eterno. Top. Beba agora-2045.|WA: 98 | Peñín: 97
+687|La Baixada 21-|2021|Priorat|Garnacha|382€|Nariz: frutas vermelhas, ervas. Boca: cremoso taninos firmes. Baixada top. Beba agora-2035.|WA: 95 | JS: 94
+688|La Baixada 22-|2022|Priorat|Garnacha|382€|Nariz: cassis mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 95 | Peñín: 94
+689|LErmita 21-|2021|Priorat|Garnacha|2495€|Nariz: cassis, ervas. Boca: denso cremoso. Top. Beba agora-2045.|WA: 97 | JS: 96
+690|Les Aubaguetes 20-|2020|Priorat|Garnacha|801€|Nariz: frutas escuras, mineral. Boca: cremoso taninos firmes. Aubaguetes top. Beba agora-2040.|WA: 96 | Peñín: 95
+691|Les Aubaguetes 21-|2021|Priorat|Garnacha|791€|Nariz: cassis violetas. Boca: denso puro. Top. Beba agora-2045.|WA: 96 | JS: 95
+692|Les Aubaguetes 22-|2022|Priorat|Garnacha|692€|Nariz: frutas vermelhas, ervas. Boca: cremoso elegante. Top. Beba agora-2045.|WA: 96 | Peñín: 95
+693|Mg Finca Dofi 22-|2022|Priorat|Garnacha|Magnum (150cl)|326€|Nariz: frutas vermelhas, mineral. Boca: denso cremoso. Magnum top. Beba agora-2040.|WA: 95 | JS: 94
+694|Mg L Ermita 21-|2021|Priorat|Garnacha|Magnum (150cl)|5700€|Nariz: cassis violetas mineral. Boca: denso eterno. Magnum top. Beba agora-2050.|WA: 98 | Peñín: 97
+695|Mg L´Ermita 22-|2022|Priorat|Garnacha|Magnum (150cl)|4474€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Magnum top. Beba agora-2050.|WA: 98 | JS: 97
+696|Mg La Baixada 18-|2018|Priorat|Garnacha|Magnum (150cl)|700€|Nariz: frutas vermelhas maduras. Boca: denso cremoso. Magnum top. Beba agora-2035.|WA: 95 | Peñín: 94
+697|Mg La Baixada 21-|2021|Priorat|Garnacha|Magnum (150cl)|946€|Nariz: cassis mineral. Boca: denso puro. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+698|Mg La Baixada 22-|2022|Priorat|Garnacha|Magnum (150cl)|853€|Nariz: frutas escuras, ervas. Boca: cremoso elegante. Magnum top. Beba agora-2045.|WA: 96 | Peñín: 95
+699|Mg Les Aubaguetes 18-|2018|Priorat|Garnacha|Magnum (150cl)|1395€|Nariz: cassis maduro. Boca: denso cremoso. Magnum top. Beba agora-2040.|WA: 96 | JS: 95
+700|Mg Les Aubaguetes 21-|2021|Priorat|Garnacha|Magnum (150cl)|1591€|Nariz: frutas vermelhas, mineral. Boca: cremoso taninos firmes. Magnum top. Beba agora-2045.|WA: 97 | Peñín: 96
+701|Mg Les Aubaguetes 22-|2022|Priorat|Garnacha|Magnum (150cl)|1566€|Nariz: cassis violetas. Boca: denso puro eterno. Magnum top. Beba agora-2050.|WA: 97 | JS: 96
+702|Mg. L Ermita 15-|2015|Priorat|Garnacha|Magnum (150cl)|5000€|Nariz: cassis mineral maduro. Boca: denso eterno. Magnum lendário. Beba agora.|WA: 98 | Peñín: 97
+703|Mg. Les Aubaguetes 20-|2020|Priorat|Garnacha|Magnum (150cl)|1515€|Nariz: frutas escuras, ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 96 | JS: 95
+704|Murmuri Mas Doix 22-|2022|Priorat|Garnacha|209€|Nariz: cassis, ervas. Boca: denso cremoso. Murmuri top. Beba agora-2035.|WA: 93 | Peñín: 92
+705|Venus de la Figuera 20-|2020|Montsant|Garnacha|116€|Nariz: frutas vermelhas, mineral. Boca: fresco denso. Venus top. Beba agora-2030.|WA: 92 | Peñín: 91
+706|Vinya de la Gloria 20-|2017|Montsant|Garnacha|108€|Nariz: morango, ervas. Boca: cremoso equilibrado. Gloria top. Beba agora-2030.|WA: 91 | Peñín: 90
+707|Celler del Roure La Pebrella 23-|2023|Comunidad Valenciana|Mandó|68€|Nariz: morango, ervas. Boca: fresco mineral. Pebrella top. Beba agora-2028.|WA: 91 | Peñín: 90
+708|Finca El Terrerazo 22-|2022|Comunidad Valenciana|Bobal|48€|Nariz: frutas vermelhas, mineral. Boca: denso puro. Terrerazo top. Beba agora-2030.|WA: 92 | Peñín: 91
+709|Javi Revert Forada 23-|2023|Comunidad Valenciana|Bobal|120€|Nariz: cassis, ervas. Boca: cremoso taninos suaves. Forada top. Beba agora-2035.|WA: 93 | JS: 92
+710|Javi Revert Simeta 23-|2023|Comunidad Valenciana|Garnacha Tintorera|96€|Nariz: frutas escuras, especiarias. Boca: denso elegante. Simeta top. Beba agora-2030.|WA: 92 | Peñín: 91
+711|Quincha Corral 19-|2019|Comunidad Valenciana|Bobal|196€|Nariz: cassis mineral. Boca: denso cremoso. Corral top. Beba agora-2035.|WA: 93 | Peñín: 92
+712|Barbas de Gata 20-|2020|Extremadura|Tempranillo|45€|Nariz: frutas vermelhas, ervas. Boca: fresco mineral. Barbas top. Beba agora-2028.|WA: 90 | Peñín: 89
+713|Viña Del Hombre 17-|2017|Extremadura|Tempranillo|165€|Nariz: cassis, ervas. Boca: denso elegante. Del Hombre top. Beba agora-2030.|WA: 92 | Peñín: 91
+714|Viña La Forajida 17-|2017|Extremadura|Tempranillo|250€|Nariz: frutas escuras, mineral. Boca: cremoso taninos firmes. Forajida top. Beba agora-2035.|WA: 93 | JS: 92
+715|Algueira Risco Merenzao 20-|2020|Ribeira Sacra|Merenzao|90€|Nariz: morango, ervas. Boca: fresco denso. Risco top. Beba agora-2030.|WA: 92 | Peñín: 91
+716|As Caborcas 22-|2022|Valdeorras|Mencía|132€|Nariz: frutas vermelhas, mineral. Boca: denso puro. Caborcas top. Beba agora-2035.|WA: 93 | Peñín: 92
+717|Attis Caiño 18-|2018|Bierzo|Caiño Tinto|54€|Nariz: morango, ervas. Boca: fresco mineral. Caiño top. Beba agora-2028.|WA: 91 | Peñín: 90
+718|Attis Espadeiro 18-|2018|Bierzo|Espadeiro|54€|Nariz: frutas vermelhas, flores. Boca: leve puro. Espadeiro top. Beba agora-2028.|WA: 90 | Peñín: 89
+719|Dominio do Bibei 20-|2020|Ribeira Sacra|Mencía|100€|Nariz: morango, mineral. Boca: denso elegante. Bibei top. Beba agora-2030.|WA: 93 | Peñín: 92
+720|Dominio do Bibei 21-|2021|Ribeira Sacra|Mencía|105€|Nariz: frutas vermelhas, ervas. Boca: cremoso taninos firmes. Top. Beba agora-2035.|WA: 93 | JS: 92
+721|Dominio do Bibei Confidoncial 19-|2019|Ribeira Sacra|Mencía|65€|Nariz: cassis mineral. Boca: denso puro. Confidoncial top. Beba agora-2030.|WA: 92 | Peñín: 91
+722|Dominio do Bibei Lacima 20-|2020|Ribeira Sacra|Mencía|92€|Nariz: morango, ervas. Boca: fresco denso. Lacima top. Beba agora-2030.|WA: 93 | Peñín: 92
+723|Falcoeira A Capilla 22-|2022|Valdeorras|Mencía|102€|Nariz: frutas vermelhas, mineral. Boca: denso elegante. A Capilla top. Beba agora-2035.|WA: 93 | JS: 92
+724|Fedellos Bastarda 23-|2023|Ribeira Sacra|Merenzao|68€|Nariz: morango, ervas. Boca: fresco puro. Bastarda top. Beba agora-2028.|WA: 92 | Peñín: 91
+725|Goliardo Caiño 22-|2022|Bierzo|Caiño Tinto|59€|Nariz: morango, flores. Boca: leve mineral. Caiño top. Beba agora-2028.|WA: 91 | Peñín: 90
+726|Guimaro A Ponte 21-|2021|Ribeira Sacra|Mencía|56€|Nariz: frutas vermelhas, ervas. Boca: fresco denso. A Ponte top. Beba agora-2028.|WA: 92 | Peñín: 91
+727|La Lama|2021|Ribeira Sacra|Mencía|44€|Nariz: morango, mineral. Boca: denso puro. La Lama top. Beba agora-2030.|WA: 91 | Peñín: 90
+728|Monte Pio Malabesta 21-|2021|Ribeira Sacra|Mencía|40€|Nariz: frutas vermelhas, ervas. Boca: fresco equilibrado. Malabesta top. Beba agora-2028.|WA: 90 | Peñín: 89
+729|O Diviso 22-|2022|Valdeorras|Mencía|155€|Nariz: cassis, ervas. Boca: denso cremoso. Diviso top. Beba agora-2035.|WA: 93 | Peñín: 92
+730|Telmo Rodriguez Falcoeira A Capilla 21-|2021|Valdeorras|Mencía|116€|Nariz: morango mineral. Boca: denso elegante. A Capilla top. Beba agora-2035.|WA: 93 | JS: 92
+731|4 Monos Arroyo Animas 22-|2022|Madrid|Garnacha|70€|Nariz: frutas vermelhas, ervas. Boca: fresco mineral. Arroyo Animas top. Beba agora-2030.|WA: 92 | Peñín: 91
+732|4 Monos Cien Lanzas 22-|2022|Madrid|Garnacha|44€|Nariz: morango, mineral. Boca: leve puro. Cien Lanzas top. Beba agora-2028.|WA: 91 | Peñín: 90
+733|4 Monos Molino Quemado 22-|2022|Madrid|Garnacha|58€|Nariz: cassis, ervas. Boca: denso equilibrado. Molino Quemado top. Beba agora-2030.|WA: 92 | Peñín: 91
+734|Alto Horizonte Alto de la Cruz 22-|2022|Madrid|Garnacha|56€|Nariz: frutas vermelhas, mineral. Boca: fresco denso. Alto de la Cruz top. Beba agora-2028.|WA: 91 | Peñín: 90
+735|Alto Horizonte Cerro Brujo 22-|2022|Madrid|Garnacha|121€|Nariz: cassis, ervas. Boca: cremoso taninos firmes. Cerro Brujo top. Beba agora-2035.|WA: 93 | JS: 92
+736|Bernabeleva Arroyo Tortolas 23-|2023|Madrid|Garnacha|83€|Nariz: morango, ervas. Boca: fresco mineral. Arroyo Tortolas top. Beba agora-2028.|WA: 92 | Peñín: 91
+737|Bernabeleva Viña Bonita 22-|2022|Madrid|Garnacha|112€|Nariz: frutas vermelhas, mineral. Boca: denso puro. Viña Bonita top. Beba agora-2030.|WA: 93 | Peñín: 92
+738|Comando G 1C Peña La Mora 22-|2022|Madrid|Garnacha|160€|Nariz: cassis mineral. Boca: denso elegante. Peña La Mora top. Beba agora-2035.|WA: 94 | JS: 93
+739|Comando G La Breña 22-|2022|Madrid|Garnacha|165€|Nariz: frutas escuras, ervas. Boca: cremoso taninos firmes. La Breña top. Beba agora-2035.|WA: 94 | Peñín: 93
+740|Comando G Navatalgordo 23-|2023|Madrid|Garnacha|84€|Nariz: morango fresco. Boca: leve puro. Navatalgordo top. Beba agora-2028.|WA: 92 | Peñín: 91
+741|Comando G Rozas 23-|2023|Madrid|Garnacha|86€|Nariz: frutas vermelhas, mineral. Boca: fresco denso. Rozas top. Beba agora-2028.|WA: 92 | Peñín: 91
+742|Comando G Tumba Rey Moro 22-|2022|Madrid|Garnacha|399€|Nariz: cassis violetas. Boca: denso cremoso. Tumba Rey Moro top. Beba agora-2035.|WA: 95 | JS: 94
+743|Comando G Villanueva 23-|2023|Madrid|Garnacha|84€|Nariz: morango, ervas. Boca: fresco equilibrado. Villanueva top. Beba agora-2028.|WA: 92 | Peñín: 91
+744|El Hombre Bala 22-|2022|Madrid|Garnacha|43€|Nariz: frutas vermelhas, ervas. Boca: leve mineral. Hombre Bala top. Beba agora-2028.|WA: 91 | Peñín: 90
+745|La Quebra 21-|2021|Madrid|Garnacha|95€|Nariz: cassis, ervas. Boca: denso puro. Quebra top. Beba agora-2030.|WA: 92 | Peñín: 91
+746|Las Enebradas 19-|2019|Madrid|Garnacha|79€|Nariz: morango, mineral. Boca: fresco denso. Enebradas top. Beba agora-2028.|WA: 92 | Peñín: 91
+747|Mg Comando G Rumbo al Norte 20-|2020|Madrid|Garnacha|Magnum (150cl)|1860€|Nariz: cassis mineral. Boca: denso eterno. Rumbo al Norte Magnum top. Beba agora-2040.|WA: 96 | JS: 95
+748|Rico Nuevo Jiron De Niebla 20-|2020|Madrid|Garnacha|37€|Nariz: frutas vermelhas, ervas. Boca: fresco equilibrado. Jiron De Niebla top. Beba agora-2028.|WA: 90 | Peñín: 89
+749|Vereda de Tordigas 20-|2020|Madrid|Garnacha|24€|Nariz: morango fresco. Boca: leve puro. Vereda top. Beba agora-2028.|WA: 89 | Peñín: 88
+750|Casa Castillo Las Gravas 22-|2022|Murcia|Monastrell|102€|Nariz: frutas escuras, especiarias. Boca: denso cremoso. Las Gravas top. Beba agora-2035.|WA: 93 | Peñín: 92

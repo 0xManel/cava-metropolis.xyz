@@ -1,0 +1,2 @@
+Nome original|Safra|Região|Uva|Preço|Notas de Cata (sommelier simples)|Card Críticos
+Exemplo Vinho 1|2022|Rioja|Viura|45€|Nariz: ... Boca: ... Final: ...|JS: 92 | WA: 90 | TA: N/A | Peñín: 93

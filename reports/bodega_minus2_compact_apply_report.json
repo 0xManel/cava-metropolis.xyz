@@ -1,0 +1,1096 @@
+{
+  "timestamp_utc": "2026-02-26T06:54:40.738556+00:00",
+  "csv_rows_total": 172,
+  "csv_rows_with_pod": 172,
+  "csv_rows_without_pod": 0,
+  "unique_pods_in_csv_with_pod": 148,
+  "pods_missing_in_catalog": [],
+  "updated_pods_total": 148,
+  "updated_pods_changed": 85,
+  "remaining_location_mismatch_count": 0,
+  "remaining_units_mismatch_count": 0,
+  "rows_without_pod_preview": [],
+  "location_format_warnings": [],
+  "sample_changes_first_120": [
+    {
+      "pod": "POD015933",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "7·5·A",
+      "location_after": "7·5·A",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017044",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "7·4·IZQ",
+      "location_after": "7·4·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017045",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "7·4·DER",
+      "location_after": "7·4·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD011639",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "7·8·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017285",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "7·2·CEN",
+      "location_after": "7·2·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017294",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "7·5·C",
+      "location_after": "7·5·C",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD015942",
+      "changed": true,
+      "units_before": 6,
+      "units_after": 8,
+      "location_before": "7·5·B / 7·5·D",
+      "location_after": "7·1·IZQ / 7·8·DER / 7·4·CEN / 7·5·C",
+      "source_rows": 5
+    },
+    {
+      "pod": "POD015939",
+      "changed": true,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "7·5·E",
+      "location_after": "7·1·DER / 7·1·IZQ",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD016245",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "7·4·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017288",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "7·2·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019636",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "7·7·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD015932",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "8·6·DER / 8·7·CEN",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD017577",
+      "changed": true,
+      "units_before": 3,
+      "units_after": 2,
+      "location_before": "8·3·IZQ",
+      "location_after": "8·5·E",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017291",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "8·5·B",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017286",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "7·2·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017725",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "7·2·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017292",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "8·2·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018176",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "7·7·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018720",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "7·8·IZQ",
+      "location_after": "7·8·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD015938",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "7·8·DER",
+      "location_after": "7·8·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016878",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "8·7·DER",
+      "location_after": "8·7·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018431",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "7·8·CEN",
+      "location_after": "7·8·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD013291",
+      "changed": false,
+      "units_before": 4,
+      "units_after": 4,
+      "location_before": "7·2·DER",
+      "location_after": "7·2·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019657",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "7·7·CEN",
+      "location_after": "7·7·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017016",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "8·7·CEN",
+      "location_after": "8·7·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019372",
+      "changed": true,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": "",
+      "location_after": "7·7·IZQ / 4·2·IZQ",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD013049",
+      "changed": true,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": "",
+      "location_after": "8·4·DER / 8·5·D",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016634",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "8·5·E",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019251",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "8·3·CEN",
+      "location_after": "8·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019246",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "8·5·D",
+      "location_after": "8·5·D",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019290",
+      "changed": false,
+      "units_before": 5,
+      "units_after": 5,
+      "location_before": "8·2·IZQ / 8·5·A",
+      "location_after": "8·2·IZQ / 8·5·A",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012519",
+      "changed": false,
+      "units_before": 4,
+      "units_after": 4,
+      "location_before": "7·3·CEN",
+      "location_after": "7·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019409",
+      "changed": true,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": "",
+      "location_after": "8·1·CEN / 4·3·IZQ",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD017289",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "7·1·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019361",
+      "changed": true,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": "",
+      "location_after": "7·3·DER / 8·6·CEN",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD013303",
+      "changed": true,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": "",
+      "location_after": "8·5·E / 9·1·CEN",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD019351",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "8·8·IZQ",
+      "location_after": "8·8·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017406",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "4·7·IZQ",
+      "location_after": "4·7·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD015909",
+      "changed": true,
+      "units_before": null,
+      "units_after": 7,
+      "location_before": "",
+      "location_after": "4·6·CEN / 6·5·IZQ",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD017727",
+      "changed": true,
+      "units_before": 2,
+      "units_after": 12,
+      "location_before": "5·2·IZQ",
+      "location_after": "5·4·IZQ / 5·7·IZQ",
+      "source_rows": 3
+    },
+    {
+      "pod": "POD019302",
+      "changed": false,
+      "units_before": 4,
+      "units_after": 4,
+      "location_before": "4·7·CEN",
+      "location_after": "4·7·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019284",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "5·6·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019282",
+      "changed": true,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": "",
+      "location_after": "4·1·CEN / 4·3·DER",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD012515",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "4·1·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD010182",
+      "changed": true,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": "",
+      "location_after": "5·1·IZQ / 4·5·E",
+      "source_rows": 3
+    },
+    {
+      "pod": "POD013335",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "4·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012412",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "5·5·A",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018353",
+      "changed": true,
+      "units_before": 2,
+      "units_after": 3,
+      "location_before": "4·7·DER",
+      "location_after": "4·7·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018359",
+      "changed": true,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": "",
+      "location_after": "4·6·DER / 4·4·DER / 4·1·DER",
+      "source_rows": 3
+    },
+    {
+      "pod": "POD018161",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "4·4·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017374",
+      "changed": true,
+      "units_before": 2,
+      "units_after": 3,
+      "location_before": "4·3·DER",
+      "location_after": "4·1·DER / 4·5·C",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD015903",
+      "changed": true,
+      "units_before": 2,
+      "units_after": 3,
+      "location_before": "10·7·IZQ",
+      "location_after": "5·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD011380",
+      "changed": true,
+      "units_before": 3,
+      "units_after": 2,
+      "location_before": "7·5·D",
+      "location_after": "5·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018038",
+      "changed": true,
+      "units_before": null,
+      "units_after": 0,
+      "location_before": "",
+      "location_after": "5·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD009367",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "5·3·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD_TEMP_1051",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "5·7·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012516",
+      "changed": true,
+      "units_before": 3,
+      "units_after": 1,
+      "location_before": "7·8·IZQ",
+      "location_after": "4·6·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017137",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "5·5·D",
+      "location_after": "5·5·D",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD013307",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "5·4·DER",
+      "location_after": "5·4·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD013328",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "4·3·DER / 4·8·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016852",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "5·6·CEN",
+      "location_after": "5·6·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019094",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "5·6·CEN",
+      "location_after": "5·6·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016853",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "4·2·DER",
+      "location_after": "4·2·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019095",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "4·3·IZQ",
+      "location_after": "4·3·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017159",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "4·5·A",
+      "location_after": "4·5·A",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017786",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "5·5·C",
+      "location_after": "5·5·C",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017299",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "4·1·DER",
+      "location_after": "4·1·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017925",
+      "changed": true,
+      "units_before": 2,
+      "units_after": 6,
+      "location_before": "4·6·IZQ",
+      "location_after": "4·7·DER / 4·6·IZQ",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD019317",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "5·5·C / 5·6·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD015155",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "4·8·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017011",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "5·5·A",
+      "location_after": "5·5·A",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017018",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "5·5·C",
+      "location_after": "5·5·C",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD_TEMP_1021",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "4·7·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012269",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "5·1·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019369",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "5·3·DER",
+      "location_after": "5·3·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019214",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "5·1·DER",
+      "location_after": "5·1·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019223",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "4·8·DER / 5·1·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD010029",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "5·7·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017733",
+      "changed": false,
+      "units_before": 4,
+      "units_after": 4,
+      "location_before": "5·5·B",
+      "location_after": "5·5·B",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD010092",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "5·2·CEN",
+      "location_after": "5·2·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016345",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "5·6·IZQ",
+      "location_after": "5·6·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017472",
+      "changed": false,
+      "units_before": 5,
+      "units_after": 5,
+      "location_before": "4·1·IZQ / 4·5·B",
+      "location_after": "4·1·IZQ / 4·5·B",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017473",
+      "changed": false,
+      "units_before": 6,
+      "units_after": 6,
+      "location_before": "4·1·IZQ / 4·5·C",
+      "location_after": "4·1·IZQ / 4·5·C",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012539",
+      "changed": true,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": "",
+      "location_after": "4·2·CEN",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD019308",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "5·4·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018184",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·4·CEN",
+      "location_after": "9·4·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017654",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·8·IZQ",
+      "location_after": "9·8·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017657",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·8·IZQ",
+      "location_after": "9·8·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018873",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "9·2·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012564",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "9·2·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD014184",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "9·7·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD013366",
+      "changed": true,
+      "units_before": 3,
+      "units_after": 1,
+      "location_before": "9·5·E",
+      "location_after": "12·4·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012581",
+      "changed": false,
+      "units_before": 4,
+      "units_after": 4,
+      "location_before": "9·7·DER",
+      "location_after": "9·7·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018409",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·3·DER",
+      "location_after": "9·3·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD011992",
+      "changed": true,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·7·IZQ",
+      "location_after": "9·1·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD_TEMP_1096",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·8·CEN",
+      "location_after": "9·8·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD009229",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "11·3·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012491",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "11·4·DER / 11·4·CEN",
+      "source_rows": 2
+    },
+    {
+      "pod": "POD017490",
+      "changed": true,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": "",
+      "location_after": "6·3·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD_TEMP_1093",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "6·4·C",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019768",
+      "changed": true,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": "",
+      "location_after": "6·4·A",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019764",
+      "changed": false,
+      "units_before": 5,
+      "units_after": 5,
+      "location_before": "6·3·IZQ",
+      "location_after": "6·3·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD009898",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "6·4·E",
+      "location_after": "6·4·E",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD011715",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "6·1·DER",
+      "location_after": "6·1·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016430",
+      "changed": false,
+      "units_before": 5,
+      "units_after": 5,
+      "location_before": "6·1·IZQ",
+      "location_after": "6·1·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD016703",
+      "changed": false,
+      "units_before": 5,
+      "units_after": 5,
+      "location_before": "6·4·B",
+      "location_after": "6·4·B",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD011828",
+      "changed": false,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "6·4·D",
+      "location_after": "6·4·D",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017826",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "6·5·CEN",
+      "location_after": "6·5·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD010654",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "10·4·E",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD004085",
+      "changed": true,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": "",
+      "location_after": "10·1·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD012580",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "10·6·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD017981",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "10·4·B",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD010021",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "10·3·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019795",
+      "changed": true,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": "",
+      "location_after": "10·6·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD011185",
+      "changed": true,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": "",
+      "location_after": "10·5·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD015096",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "10·3·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD018439",
+      "changed": true,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "9·6·CEN",
+      "location_after": "10·7·CEN",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD_TEMP_1010",
+      "changed": true,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": "",
+      "location_after": "10·5·IZQ",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD019652",
+      "changed": false,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "10·7·DER",
+      "location_after": "10·7·DER",
+      "source_rows": 1
+    },
+    {
+      "pod": "POD013339",
+      "changed": false,
+      "units_before": 1,
+      "units_after": 1,
+      "location_before": "10·4·D",
+      "location_after": "10·4·D",
+      "source_rows": 1
+    }
+  ]
+}

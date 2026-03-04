@@ -1,0 +1,2020 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+    <title>STOCK Cava — Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #08080b;
+            --glass-bg: rgba(35, 35, 40, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.25);
+            --text-main: #FDFBF7;
+            --text-muted: #C8BEAE;
+            --gold-accent: #D4AF37;
+            --gold-light: #F3E5AB;
+            --field-bg: rgba(255, 255, 255, 0.1);
+            --field-border: rgba(255, 255, 255, 0.22);
+            --field-border-strong: rgba(255, 255, 255, 0.34);
+            --field-focus-ring: rgba(212, 175, 55, 0.28);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+            --transition-smooth: all 0.35s ease;
+            --ui-entry-duration: 700ms;
+            --ui-entry-delay: 120ms;
+            --ui-entry-ease: cubic-bezier(0.22, 0.78, 0.28, 1);
+        }
+
+        body.light-mode {
+            --bg-color: #FDFBF7;
+            --glass-bg: rgba(255, 255, 255, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.4);
+            --text-main: #1A1A1A;
+            --text-muted: #5B554A;
+            --gold-accent: #B8860B;
+            --gold-light: #D4AF37;
+            --field-bg: rgba(244, 239, 228, 0.95);
+            --field-border: rgba(131, 99, 24, 0.38);
+            --field-border-strong: rgba(131, 99, 24, 0.55);
+            --field-focus-ring: rgba(184, 134, 11, 0.26);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.42;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100dvh;
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 18px;
+        }
+
+        input, button, select, textarea {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #particleCanvas {
+            position: fixed;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .admin-wrap {
+            position: relative;
+            z-index: 2;
+            width: min(900px, 100%);
+            margin-top: 62px;
+        }
+
+        .admin-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 14px;
+            text-align: center;
+        }
+
+        .admin-title {
+            color: var(--gold-accent);
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.35rem, 3.2vw, 1.9rem);
+            letter-spacing: 0.01em;
+        }
+
+        .admin-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 18px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.24);
+        }
+
+        .admin-card + .admin-card {
+            margin-top: 12px;
+        }
+
+        .admin-subtitle {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        .admin-text {
+            width: 100%;
+            min-height: 280px;
+            border-radius: 12px;
+            border: 1px solid var(--field-border);
+            background: var(--field-bg);
+            color: var(--text-main);
+            padding: 14px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.94rem;
+            line-height: 1.6;
+            resize: vertical;
+            outline: none;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+        }
+
+        .admin-text:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .admin-text:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+
+        .admin-text:focus-visible {
+            outline: none;
+        }
+
+        .daily-report-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .report-scope-row {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(88px, 1fr));
+            gap: 8px;
+            width: 100%;
+            max-width: 430px;
+            margin: 0 auto;
+            justify-content: center;
+            justify-items: stretch;
+            align-items: center;
+        }
+
+        .scope-btn {
+            width: 100%;
+            height: 34px;
+            border-radius: 999px;
+            border: 1px solid var(--glass-border);
+            background: rgba(0,0,0,0.12);
+            color: var(--text-main);
+            padding: 0 10px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            transition: var(--transition-smooth);
+            text-transform: uppercase;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .scope-btn.active {
+            background: var(--gold-accent);
+            color: #111;
+            border-color: transparent;
+        }
+
+        .report-main {
+            display: block;
+        }
+
+        .report-actions {
+            display: none;
+        }
+
+        .report-footer {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .report-action-btn {
+            min-height: 34px;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: rgba(0,0,0,0.12);
+            color: var(--text-main);
+            padding: 0 10px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            transition: var(--transition-smooth);
+            width: 100%;
+            min-width: 0;
+            text-align: center;
+        }
+
+        .report-action-btn:hover {
+            transform: translateY(-1px);
+        }
+
+        .report-action-btn.danger {
+            border-color: rgba(255, 112, 112, 0.5);
+            color: #ffd4d4;
+            background: rgba(120, 20, 20, 0.28);
+        }
+
+        .report-action-btn.success {
+            border-color: rgba(126, 224, 154, 0.45);
+            color: #daffe4;
+            background: rgba(23, 90, 43, 0.33);
+        }
+
+        .copy-btn {
+            align-self: auto;
+            height: 34px;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: var(--gold-accent);
+            color: #111;
+            padding: 0 12px;
+            cursor: pointer;
+            font-size: 0.84rem;
+            font-weight: 600;
+            transition: var(--transition-smooth);
+            width: 100%;
+            min-width: 0;
+            text-align: center;
+        }
+        .report-footer::-webkit-scrollbar,
+        .admin-actions::-webkit-scrollbar { display: none; }
+
+        .copy-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+        }
+
+        .copy-btn.copied {
+            background: #b2e4a5;
+            color: #111;
+        }
+
+        .report-status {
+            min-height: 1rem;
+            font-size: 0.79rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .report-status.error { color: #ff9d9d; }
+        .report-status.success { color: #b9f0c5; }
+
+        .user-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 6px;
+        }
+
+        .user-list {
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            overflow: hidden;
+            max-height: 290px;
+            overflow-y: auto;
+            background: rgba(0,0,0,0.12);
+        }
+
+        .user-row {
+            display: grid;
+            grid-template-columns: 1.3fr 0.95fr 1fr;
+            gap: 8px;
+            padding: 9px 10px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+            font-size: 0.84rem;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .user-row.header {
+            position: sticky;
+            top: 0;
+            background: rgba(0,0,0,0.24);
+            font-weight: 700;
+            cursor: default;
+            z-index: 1;
+        }
+
+        .user-row.active {
+            background: rgba(212, 175, 55, 0.15);
+        }
+
+        .user-form {
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 10px;
+            background: rgba(0,0,0,0.12);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .um-field {
+            width: 100%;
+            height: 36px;
+            border-radius: 8px;
+            border: 1px solid var(--field-border);
+            background: var(--field-bg);
+            color: var(--text-main);
+            padding: 0 10px;
+            font-size: 0.88rem;
+            outline: none;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+        }
+
+        .um-field:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .um-field:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+
+        .um-field:focus-visible {
+            outline: none;
+        }
+
+        .admin-actions {
+            margin-top: 2px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 8px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+
+        .btn-admin {
+            height: 36px;
+            border-radius: 10px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            padding: 0 14px;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 600;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-admin.primary {
+            background: var(--gold-accent);
+            color: #111;
+            border: none;
+        }
+
+        .btn-admin:hover { transform: translateY(-1px); }
+
+        .um-status {
+            min-height: 1rem;
+            font-size: 0.79rem;
+            color: var(--text-muted);
+        }
+
+        .um-status.error { color: #ff7777; }
+        .um-status.success { color: #b2e4a5; }
+
+        .top-actions {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: flex-end;
+        }
+
+        .top-left-actions {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: flex-start;
+        }
+
+        @keyframes adminSlideFromLeft {
+            0% { opacity: 0; transform: translateX(-28px) scale(0.97); }
+            70% { opacity: 1; transform: translateX(1px) scale(1.002); }
+            100% { opacity: 1; transform: translateX(0) scale(1); }
+        }
+
+        @keyframes adminSlideFromRight {
+            0% { opacity: 0; transform: translateX(28px) scale(0.97); }
+            70% { opacity: 1; transform: translateX(-1px) scale(1.002); }
+            100% { opacity: 1; transform: translateX(0) scale(1); }
+        }
+
+        @keyframes adminRiseFromBottom {
+            0% { opacity: 0; transform: translateY(16px) scale(0.97); }
+            65% { opacity: 1; transform: translateY(-1px) scale(1.002); }
+            100% { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        @keyframes adminDropFromTop {
+            0% { opacity: 0; transform: translate(-50%, -26px) scale(0.97); }
+            70% { opacity: 1; transform: translate(-50%, 1px) scale(1.002); }
+            100% { opacity: 1; transform: translate(-50%, 0) scale(1); }
+        }
+
+        .action-btn {
+            width: 60px;
+            height: 30px;
+            border-radius: 15px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            cursor: pointer;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            backdrop-filter: blur(10px);
+            transition: var(--transition-smooth);
+        }
+
+        #logoutBtn {
+            animation: adminSlideFromLeft var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        #backBtn {
+            animation: adminSlideFromRight var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        .scope-btn,
+        .report-action-btn,
+        .copy-btn,
+        .btn-admin {
+            animation: adminRiseFromBottom var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        .admin-wrap,
+        .scope-btn,
+        .report-action-btn,
+        .copy-btn,
+        .btn-admin,
+        #logoutBtn,
+        #backBtn,
+        .session-user-card {
+            will-change: transform, opacity;
+        }
+
+        .action-btn:focus-visible,
+        .scope-btn:focus-visible,
+        .report-action-btn:focus-visible,
+        .copy-btn:focus-visible,
+        .btn-admin:focus-visible {
+            outline: none;
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), 0 0 16px rgba(212, 175, 55, 0.2);
+        }
+
+        .app-signature {
+            position: fixed;
+            left: 50%;
+            bottom: max(10px, env(safe-area-inset-bottom));
+            transform: translateX(-50%);
+            z-index: 1;
+            pointer-events: none;
+            user-select: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: clamp(0.62rem, 1.6vw, 0.78rem);
+            letter-spacing: 0.16em;
+            color: var(--text-muted);
+            opacity: 0.24;
+            text-transform: lowercase;
+            white-space: nowrap;
+            text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
+        }
+
+        .session-user-card {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 11;
+            width: max-content;
+            min-width: 0;
+            max-width: min(88vw, 420px);
+            padding: 8px 14px;
+            border-radius: 14px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass-bg);
+            color: var(--text-main);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 16px rgba(0,0,0,0.24);
+            pointer-events: none;
+            animation: adminDropFromTop var(--ui-entry-duration) var(--ui-entry-ease) var(--ui-entry-delay) both;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .scope-btn,
+            .report-action-btn,
+            .copy-btn,
+            .btn-admin,
+            .action-btn {
+                transition: none !important;
+            }
+            #logoutBtn,
+            #backBtn,
+            .scope-btn,
+            .report-action-btn,
+            .copy-btn,
+            .btn-admin,
+            .session-user-card {
+                animation: none !important;
+            }
+        }
+
+        @media (max-width: 820px) {
+            .user-grid { grid-template-columns: 1fr; }
+            .report-footer { gap: 7px; }
+            .top-left-actions { top: 15px; left: 15px; }
+            .top-actions { top: 15px; right: 15px; }
+            .session-user-card { top: 15px; }
+            .scope-btn,
+            .copy-btn,
+            .report-action-btn {
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 0.76rem;
+            }
+            .report-scope-row {
+                gap: 7px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        (() => {
+            const normalizeRole = (value) => {
+                const normalized = (value || '').trim().toLowerCase();
+                return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+            };
+            const normalizeScope = (value) => {
+                const normalized = (value || '').trim().toLowerCase();
+                return ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria', 'all'].includes(normalized) ? normalized : null;
+            };
+            const normalizeEstablishment = (value) => {
+                const normalized = (value || '').trim().toLowerCase();
+                return ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'].includes(normalized) ? normalized : null;
+            };
+            const authKeys = {
+                sessionFlag: 'cava_login_demo',
+                sessionUser: 'cava_login_user',
+                sessionEstablishment: 'cava_login_establishment',
+                sessionRole: 'cava_login_role',
+                sessionScope: 'cava_login_scope',
+                persistentFlag: 'cava_login_persistent_access',
+                persistentUser: 'cava_login_persistent_user',
+                persistentEstablishment: 'cava_login_persistent_establishment',
+                persistentRole: 'cava_login_persistent_role',
+                persistentScope: 'cava_login_persistent_scope'
+            };
+            const clearAuthState = () => {
+                sessionStorage.removeItem(authKeys.sessionFlag);
+                sessionStorage.removeItem(authKeys.sessionUser);
+                sessionStorage.removeItem(authKeys.sessionEstablishment);
+                sessionStorage.removeItem(authKeys.sessionRole);
+                sessionStorage.removeItem(authKeys.sessionScope);
+                localStorage.removeItem(authKeys.persistentFlag);
+                localStorage.removeItem(authKeys.persistentUser);
+                localStorage.removeItem(authKeys.persistentEstablishment);
+                localStorage.removeItem(authKeys.persistentRole);
+                localStorage.removeItem(authKeys.persistentScope);
+            };
+            const hasLocalSession = () => {
+                const sessionUser = String(sessionStorage.getItem(authKeys.sessionUser) || '').trim();
+                const sessionFlag = sessionStorage.getItem(authKeys.sessionFlag) === 'ok';
+                if (sessionFlag && sessionUser) return true;
+                const persistentFlag = localStorage.getItem(authKeys.persistentFlag) === '1';
+                const persistentUser = String(localStorage.getItem(authKeys.persistentUser) || '').trim();
+                return persistentFlag && Boolean(persistentUser);
+            };
+
+            try {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', '/api/auth-session', false);
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.send(null);
+                if (xhr.status !== 200) {
+                    const unauthorized = xhr.status === 401 || xhr.status === 403;
+                    if (unauthorized || !hasLocalSession()) {
+                        clearAuthState();
+                        window.location.replace('login.html');
+                    }
+                    return;
+                }
+
+                const payload = JSON.parse(xhr.responseText || '{}');
+                if (!payload?.ok || !payload?.user) {
+                    if (!hasLocalSession()) {
+                        clearAuthState();
+                        window.location.replace('login.html');
+                    }
+                    return;
+                }
+
+                const user = payload.user;
+                const username = String(user.username || '').trim();
+                const role = normalizeRole(user.role) || 'user';
+                const scope = normalizeScope(user.scope) || 'spa';
+                const savedEstablishment = normalizeEstablishment(localStorage.getItem(authKeys.persistentEstablishment)) || 'spa';
+                const establishment = scope === 'all'
+                    ? 'spa'
+                    : (normalizeEstablishment(scope) || savedEstablishment);
+
+                sessionStorage.setItem(authKeys.sessionFlag, 'ok');
+                sessionStorage.setItem(authKeys.sessionUser, username);
+                sessionStorage.setItem(authKeys.sessionEstablishment, establishment);
+                sessionStorage.setItem(authKeys.sessionRole, role);
+                sessionStorage.setItem(authKeys.sessionScope, scope);
+
+                if (localStorage.getItem(authKeys.persistentFlag) === '1') {
+                    localStorage.setItem(authKeys.persistentUser, username);
+                    localStorage.setItem(authKeys.persistentEstablishment, establishment);
+                    localStorage.setItem(authKeys.persistentRole, role);
+                    localStorage.setItem(authKeys.persistentScope, scope);
+                }
+
+            } catch {
+                if (hasLocalSession()) {
+                    return;
+                }
+                clearAuthState();
+                window.location.replace('login.html');
+            }
+        })();
+    </script>
+
+    <canvas id="particleCanvas"></canvas>
+    <div class="session-user-card" id="sessionUserCard">--</div>
+    <div class="top-left-actions">
+        <button class="action-btn" id="logoutBtn">Logout</button>
+    </div>
+
+    <div class="top-actions">
+        <button class="action-btn" id="backBtn">Volver</button>
+    </div>
+
+    <div class="admin-wrap">
+        <div class="admin-header">
+            <h1 class="admin-title" id="zoneTitle">Admin Zone</h1>
+        </div>
+
+        <div class="admin-card">
+            <div class="daily-report-wrapper">
+                <div class="report-scope-row" id="reportScopeRow">
+                    <button class="scope-btn active" data-scope="all">Todas</button>
+                    <button class="scope-btn" data-scope="bodega">BODEGA -2</button>
+                    <button class="scope-btn" data-scope="spa">SPA</button>
+                    <button class="scope-btn" data-scope="tasca_fina">Tasca</button>
+                    <button class="scope-btn" data-scope="victoria">Victoria</button>
+                    <button class="scope-btn" data-scope="galeria">Galeria</button>
+                </div>
+                <textarea id="dailyText" class="admin-text" readonly></textarea>
+                <div class="report-footer">
+                    <button id="copyBtn" class="copy-btn">Copiar</button>
+                    <button id="clearReportBtn" class="report-action-btn danger">Borrar</button>
+                    <button id="restoreReportBtn" class="report-action-btn success">Recuperar</button>
+                </div>
+                <div id="reportStatus" class="report-status"></div>
+            </div>
+        </div>
+
+        <div class="admin-card" id="userManagementCard">
+            <div class="admin-subtitle" style="margin-top:0; margin-bottom:8px;">Gestión de usuarios (solo adminmaster)</div>
+            <div class="user-grid">
+                <div class="user-list" id="userList">
+                    <div class="user-row header">
+                        <div>Usuario</div>
+                        <div>Rol</div>
+                        <div>Planta</div>
+                    </div>
+                    <div id="userListBody"></div>
+                </div>
+
+                <div class="user-form">
+                    <input id="umUsername" class="um-field" type="text" placeholder="Usuario">
+                    <input id="umPassword" class="um-field" type="password" placeholder="Password (dejar vacío para mantener)">
+                    <select id="umRole" class="um-field">
+                        <option value="user">user</option>
+                        <option value="admin">admin</option>
+                        <option value="adminmaster">adminmaster</option>
+                    </select>
+                    <select id="umScope" class="um-field">
+                        <option value="bodega">BODEGA -2</option>
+                        <option value="spa">spa</option>
+                        <option value="tasca_fina">tasca_fina</option>
+                        <option value="victoria">victoria</option>
+                        <option value="galeria">galeria</option>
+                        <option value="all">all</option>
+                    </select>
+                    <div class="admin-actions">
+                        <button class="btn-admin primary" id="umSaveBtn">Guardar</button>
+                        <button class="btn-admin" id="umDeleteBtn">Eliminar</button>
+                    </div>
+                    <div class="um-status" id="umStatus"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-signature" aria-hidden="true">stockcava@2026</div>
+
+    <script>
+        const normalizeRole = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+        };
+        const normalizeScope = (value) => {
+            const normalized = (value || '').trim().toLowerCase();
+            return ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria', 'all'].includes(normalized) ? normalized : null;
+        };
+        const normalizeUsername = (value) => (value || '').trim().toLowerCase();
+        const currentUser = sessionStorage.getItem('cava_login_user') || localStorage.getItem('cava_login_persistent_user') || '';
+        const storedRole = normalizeRole(sessionStorage.getItem('cava_login_role'))
+            || normalizeRole(localStorage.getItem('cava_login_persistent_role'));
+        const storedScope = normalizeScope(sessionStorage.getItem('cava_login_scope'))
+            || normalizeScope(localStorage.getItem('cava_login_persistent_scope'));
+        const role = storedRole || 'user';
+        const scope = storedScope || 'spa';
+        const isOwner = role === 'adminmaster';
+        const movementLogKey = 'cava_daily_movements_v1';
+        const movementArchiveKey = 'cava_movement_archive_v1';
+        const madridResetMarkerKey = 'cava_madrid_service_day_marker_v1';
+        const SYNC_ENDPOINT = '/api/stock-sync';
+        const SYNC_INTERVAL_MS = 30000;
+        const SYNC_REVISION_KEY = 'cava_sync_revision_v1';
+        const SYNC_CLIENT_KEY = 'cava_sync_client_id_v1';
+        const ADMIN_SYNC_PENDING_KEY = 'cava_admin_pending_mutations_v1';
+        const USERS_ENDPOINT = '/api/users';
+        const LOCAL_USER_REGISTRY_KEY = 'cava_user_registry_local_v1';
+        const OWNER_USERNAME = '0xmanel';
+        const OWNER_HASH_SHA256 = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+        const JIMMY_USERNAME = 'jimmy';
+        const JIMMY_HASH_SHA256 = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
+        const DAVI_USERNAME = 'davi';
+        const DAVI_HASH_SHA256 = '722e52e8c25f1b66712f4e12e71da24b92792bd674307bb56cbf509b6bd36618';
+        const PROTECTED_ADMINMASTER_USERNAMES = new Set([OWNER_USERNAME, JIMMY_USERNAME, DAVI_USERNAME]);
+        const textarea = document.getElementById('dailyText');
+        const zoneTitle = document.getElementById('zoneTitle');
+        const sessionUserCard = document.getElementById('sessionUserCard');
+        const reportScopeRow = document.getElementById('reportScopeRow');
+        const scopeButtons = Array.from(document.querySelectorAll('.scope-btn'));
+        const clearReportBtn = document.getElementById('clearReportBtn');
+        const restoreReportBtn = document.getElementById('restoreReportBtn');
+        const reportStatus = document.getElementById('reportStatus');
+        const userManagementCard = document.getElementById('userManagementCard');
+        const userListBody = document.getElementById('userListBody');
+        const umUsername = document.getElementById('umUsername');
+        const umPassword = document.getElementById('umPassword');
+        const umRole = document.getElementById('umRole');
+        const umScope = document.getElementById('umScope');
+        const umStatus = document.getElementById('umStatus');
+        const authKeys = {
+            sessionFlag: 'cava_login_demo',
+            sessionUser: 'cava_login_user',
+            sessionEstablishment: 'cava_login_establishment',
+            sessionRole: 'cava_login_role',
+            sessionScope: 'cava_login_scope',
+            persistentFlag: 'cava_login_persistent_access',
+            persistentUser: 'cava_login_persistent_user',
+            persistentEstablishment: 'cava_login_persistent_establishment',
+            persistentRole: 'cava_login_persistent_role',
+            persistentScope: 'cava_login_persistent_scope'
+        };
+        let selectedUser = null;
+        let userRegistryCache = [];
+        let usersDataSource = 'remote';
+        let syncTimer = null;
+        let syncInFlight = false;
+        let syncDisabled = false;
+        let reportViewScope = role === 'adminmaster' ? 'all' : scope;
+        let syncClientId = sessionStorage.getItem(SYNC_CLIENT_KEY);
+        if (!syncClientId) {
+            syncClientId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+            sessionStorage.setItem(SYNC_CLIENT_KEY, syncClientId);
+        }
+
+        if (zoneTitle) {
+            zoneTitle.textContent = role === 'adminmaster'
+                ? 'Adminmaster Zone'
+                : (role === 'admin' ? 'Admin Zone' : 'Ventas Zone');
+        }
+        if (sessionUserCard) {
+            const cardUser = (currentUser || '').trim() || 'No logado';
+            sessionUserCard.textContent = cardUser;
+        }
+
+        function setReportStatus(message, type = '') {
+            if (!reportStatus) return;
+            reportStatus.textContent = message || '';
+            reportStatus.className = 'report-status';
+            if (type) reportStatus.classList.add(type);
+        }
+
+        function parseJsonArray(rawValue) {
+            if (!rawValue) return [];
+            try {
+                const parsed = JSON.parse(rawValue);
+                return Array.isArray(parsed) ? parsed : [];
+            } catch {
+                return [];
+            }
+        }
+
+        function parseJsonObject(rawValue) {
+            if (!rawValue) return {};
+            try {
+                const parsed = JSON.parse(rawValue);
+                return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+            } catch {
+                return {};
+            }
+        }
+
+        function createMutationId() {
+            return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+        }
+
+        function readAdminPendingMutations() {
+            return parseJsonArray(localStorage.getItem(ADMIN_SYNC_PENDING_KEY));
+        }
+
+        function writeAdminPendingMutations(list) {
+            localStorage.setItem(ADMIN_SYNC_PENDING_KEY, JSON.stringify(Array.isArray(list) ? list : []));
+        }
+
+        function queueMovementLogReplace(nextStore, reason = 'manual') {
+            const queue = readAdminPendingMutations();
+            const sanitizedStore = isPlainObject(nextStore) ? nextStore : {};
+            const mutation = {
+                id: createMutationId(),
+                type: 'replace_movement_log',
+                payload: {
+                    movementLog: sanitizedStore,
+                    reason
+                }
+            };
+            const filtered = queue.filter((item) => item?.type !== 'replace_movement_log');
+            filtered.push(mutation);
+            writeAdminPendingMutations(filtered);
+        }
+
+        function readMovementArchive() {
+            return parseJsonArray(localStorage.getItem(movementArchiveKey));
+        }
+
+        function writeMovementArchive(list) {
+            const safeList = Array.isArray(list) ? list.slice(-120) : [];
+            localStorage.setItem(movementArchiveKey, JSON.stringify(safeList));
+        }
+
+        function isSha256Hex(value) {
+            return /^[a-f0-9]{64}$/i.test(String(value || '').trim());
+        }
+
+        function isProtectedAdminmasterUsername(value) {
+            return PROTECTED_ADMINMASTER_USERNAMES.has(normalizeUsername(value));
+        }
+
+        function getProtectedAdminmasterSeed(normalizedUsername) {
+            if (normalizedUsername === OWNER_USERNAME) {
+                return {
+                    username: '0xManel',
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: OWNER_HASH_SHA256
+                };
+            }
+            if (normalizedUsername === JIMMY_USERNAME) {
+                return {
+                    username: 'Jimmy',
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: JIMMY_HASH_SHA256
+                };
+            }
+            if (normalizedUsername === DAVI_USERNAME) {
+                return {
+                    username: 'Davi',
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: DAVI_HASH_SHA256
+                };
+            }
+            return null;
+        }
+
+        async function sha256Hex(value) {
+            const input = String(value || '');
+            if (window.crypto && window.crypto.subtle) {
+                const digest = await window.crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));
+                return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+            }
+            return '';
+        }
+
+        function ensureProtectedAdminmastersInUsers(list) {
+            const users = Array.isArray(list) ? list.filter(Boolean) : [];
+            [OWNER_USERNAME, JIMMY_USERNAME, DAVI_USERNAME].forEach((protectedUsername) => {
+                const idx = users.findIndex((entry) => normalizeUsername(entry.username) === protectedUsername);
+                const seed = getProtectedAdminmasterSeed(protectedUsername);
+                if (!seed) return;
+                const seededHash = isSha256Hex(users[idx]?.password_hash)
+                    ? String(users[idx].password_hash).toLowerCase()
+                    : seed.password_hash;
+                const normalizedSeed = { ...seed, password_hash: seededHash };
+                if (idx >= 0) {
+                    users[idx] = { ...users[idx], ...normalizedSeed };
+                } else {
+                    users.unshift(normalizedSeed);
+                }
+            });
+            return users;
+        }
+
+        function readLocalUserRegistry() {
+            try {
+                const raw = localStorage.getItem(LOCAL_USER_REGISTRY_KEY);
+                const parsed = raw ? JSON.parse(raw) : [];
+                const list = Array.isArray(parsed) ? parsed : [];
+                const sanitized = [];
+                const seen = new Set();
+                list.forEach((entry) => {
+                    if (!entry || typeof entry !== 'object') return;
+                    const username = String(entry.username || '').trim();
+                    const normalized = normalizeUsername(username);
+                    if (!normalized || seen.has(normalized)) return;
+                    seen.add(normalized);
+                    const roleValue = normalizeRole(entry.role) || 'user';
+                    const scopeValue = normalizeScope(entry.scope) || 'spa';
+                    const hash = String(entry.password_hash || entry.passwordHash || '').trim();
+                    const isProtected = isProtectedAdminmasterUsername(normalized);
+                    sanitized.push({
+                        username,
+                        role: isProtected ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                        scope: isProtected ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
+                        password_hash: isSha256Hex(hash) ? hash.toLowerCase() : ''
+                    });
+                });
+                return ensureProtectedAdminmastersInUsers(sanitized);
+            } catch {
+                return ensureProtectedAdminmastersInUsers([]);
+            }
+        }
+
+        function writeLocalUserRegistry(list) {
+            const safe = ensureProtectedAdminmastersInUsers(list).map((entry) => {
+                const normalized = normalizeUsername(entry.username);
+                const roleValue = normalizeRole(entry.role) || 'user';
+                const scopeValue = normalizeScope(entry.scope) || 'spa';
+                const isProtected = isProtectedAdminmasterUsername(normalized);
+                return {
+                username: String(entry.username || '').trim(),
+                role: isProtected ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                scope: isProtected ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
+                password_hash: isSha256Hex(entry.password_hash) ? String(entry.password_hash).toLowerCase() : ''
+                };
+            });
+            localStorage.setItem(LOCAL_USER_REGISTRY_KEY, JSON.stringify(safe));
+            return safe;
+        }
+
+        function getUserRegistry() {
+            return Array.isArray(userRegistryCache) ? userRegistryCache : [];
+        }
+
+        function saveUserRegistry(list) {
+            userRegistryCache = Array.isArray(list) ? list : [];
+            const existing = readLocalUserRegistry();
+            const merged = userRegistryCache.map((entry) => {
+                const key = normalizeUsername(entry.username);
+                const currentHash = String(entry.password_hash || '').trim();
+                if (isSha256Hex(currentHash)) return entry;
+                const existingEntry = existing.find((item) => normalizeUsername(item.username) === key);
+                if (!existingEntry || !isSha256Hex(existingEntry.password_hash)) return entry;
+                return { ...entry, password_hash: existingEntry.password_hash };
+            });
+            writeLocalUserRegistry(merged);
+        }
+
+        function mapRoleLabel(value) {
+            if (value === 'adminmaster') return 'adminmaster';
+            if (value === 'admin') return 'admin';
+            return 'user';
+        }
+
+        function setUmStatus(message, type = '') {
+            if (!umStatus) return;
+            umStatus.textContent = message;
+            umStatus.className = 'um-status';
+            if (type) umStatus.classList.add(type);
+        }
+
+        function mapUsersApiError(errorCode) {
+            const code = String(errorCode || '');
+            if (code === 'admin_scope_conflict') return 'Ya existe un admin asignado en esta planta.';
+            if (code === 'only_owner_adminmaster') return 'Solo 0xManel, Jimmy o Davi pueden ser adminmaster.';
+            if (code === 'password_required') return 'Password obligatorio para usuarios nuevos.';
+            if (code === 'cannot_delete_owner') return 'No se puede eliminar un adminmaster protegido.';
+            if (code === 'forbidden') return 'Permiso denegado.';
+            if (code === 'username_required') return 'Usuario obligatorio.';
+            return 'No fue posible guardar los cambios.';
+        }
+
+        async function requestUsersLocal(method = 'GET', payload = null) {
+            const users = readLocalUserRegistry();
+            if (method === 'GET') {
+                return { ok: true, users };
+            }
+
+            if (method === 'POST') {
+                const username = String(payload?.username || '').trim();
+                const normalized = normalizeUsername(username);
+                const roleInput = normalizeRole(payload?.role) || 'user';
+                const scopeInput = normalizeScope(payload?.scope) || 'spa';
+                const plainPassword = String(payload?.password || '').trim();
+
+                if (!normalized) throw new Error('username_required');
+
+                const isProtectedTarget = isProtectedAdminmasterUsername(normalized);
+                const roleValue = isProtectedTarget ? 'adminmaster' : (roleInput === 'adminmaster' ? 'admin' : roleInput);
+                const scopeValue = isProtectedTarget ? 'all' : (scopeInput === 'all' ? 'spa' : scopeInput);
+
+                if (!isProtectedTarget && roleInput === 'adminmaster') throw new Error('only_owner_adminmaster');
+
+                const existingIndex = users.findIndex((entry) => normalizeUsername(entry.username) === normalized);
+                if (roleValue === 'admin') {
+                    const conflict = users.find((entry, idx) => {
+                        if (idx === existingIndex) return false;
+                        return entry.role === 'admin' && entry.scope === scopeValue;
+                    });
+                    if (conflict) throw new Error('admin_scope_conflict');
+                }
+
+                let passwordHash = existingIndex >= 0 ? String(users[existingIndex].password_hash || '') : '';
+                if (plainPassword) {
+                    const hashed = await sha256Hex(plainPassword);
+                    passwordHash = isSha256Hex(hashed) ? hashed.toLowerCase() : '';
+                }
+                if (existingIndex < 0 && !passwordHash) throw new Error('password_required');
+
+                const nextEntry = {
+                    username,
+                    role: roleValue,
+                    scope: scopeValue,
+                    password_hash: passwordHash
+                };
+                if (existingIndex >= 0) users[existingIndex] = { ...users[existingIndex], ...nextEntry };
+                else users.push(nextEntry);
+
+                const saved = writeLocalUserRegistry(users);
+                return { ok: true, users: saved };
+            }
+
+            if (method === 'DELETE') {
+                const username = String(payload?.username || '').trim();
+                const normalized = normalizeUsername(username);
+                if (!normalized) throw new Error('username_required');
+                if (isProtectedAdminmasterUsername(normalized)) throw new Error('cannot_delete_owner');
+                const nextUsers = users.filter((entry) => normalizeUsername(entry.username) !== normalized);
+                const saved = writeLocalUserRegistry(nextUsers);
+                return { ok: true, users: saved };
+            }
+
+            throw new Error('method_not_allowed');
+        }
+
+        async function requestUsers(method = 'GET', payload = null) {
+            try {
+                const response = await fetch(USERS_ENDPOINT, {
+                    method,
+                    cache: 'no-store',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: payload ? JSON.stringify(payload) : undefined
+                });
+                const contentType = String(response.headers.get('content-type') || '').toLowerCase();
+                const isJson = contentType.includes('application/json');
+                const data = isJson ? await response.json().catch(() => ({})) : {};
+
+                if (response.ok && data?.ok === true) {
+                    usersDataSource = 'remote';
+                    return data;
+                }
+
+                const shouldFallbackLocal = response.status === 404
+                    || response.status === 405
+                    || response.status === 408
+                    || response.status === 501
+                    || response.status >= 500
+                    || !isJson;
+                if (shouldFallbackLocal) {
+                    usersDataSource = 'local';
+                    return await requestUsersLocal(method, payload);
+                }
+
+                throw new Error(data?.error || `request_failed_${response.status}`);
+            } catch (error) {
+                const code = String(error?.message || '');
+                const nonFallbackCodes = new Set([
+                    'forbidden',
+                    'unauthorized',
+                    'username_required',
+                    'password_required',
+                    'admin_scope_conflict',
+                    'only_owner_adminmaster',
+                    'cannot_delete_owner',
+                    'method_not_allowed'
+                ]);
+                if (code.startsWith('request_failed_') || nonFallbackCodes.has(code)) {
+                    throw error;
+                }
+                usersDataSource = 'local';
+                return await requestUsersLocal(method, payload);
+            }
+        }
+
+        async function refreshUserRegistry() {
+            const payload = await requestUsers('GET');
+            saveUserRegistry(payload.users || []);
+        }
+
+        function renderUserRegistry() {
+            if (!userListBody) return;
+            const users = getUserRegistry();
+            userListBody.innerHTML = '';
+
+            users.forEach((user) => {
+                const row = document.createElement('div');
+                row.className = 'user-row';
+                if (selectedUser && normalizeUsername(selectedUser) === normalizeUsername(user.username)) {
+                    row.classList.add('active');
+                }
+
+                row.innerHTML = `<div>${user.username}</div><div>${mapRoleLabel(user.role)}</div><div>${mapEstLabel(user.scope || 'spa')}</div>`;
+                row.addEventListener('click', () => {
+                    selectedUser = user.username;
+                    umUsername.value = user.username || '';
+                    umPassword.value = '';
+                    umRole.value = user.role || 'user';
+                    umScope.value = user.scope || 'spa';
+                    setUmStatus(`Editando ${user.username}`);
+                    renderUserRegistry();
+                });
+
+                userListBody.appendChild(row);
+            });
+        }
+
+        async function saveUser() {
+            if (!isOwner) {
+                setUmStatus('Solo adminmaster puede gestionar usuarios.', 'error');
+                return;
+            }
+            const username = umUsername.value.trim();
+            const password = umPassword.value.trim();
+            const normalizedTarget = normalizeUsername(username);
+            const roleValue = isProtectedAdminmasterUsername(normalizedTarget) ? 'adminmaster' : (normalizeRole(umRole.value) || 'user');
+            const scopeValue = roleValue === 'adminmaster' ? 'all' : (normalizeScope(umScope.value) || 'spa');
+
+            if (!username) {
+                setUmStatus('Usuario obligatorio.', 'error');
+                return;
+            }
+
+            if (roleValue !== 'adminmaster' && scopeValue === 'all') {
+                setUmStatus('Solo adminmaster puede tener scope "all".', 'error');
+                return;
+            }
+
+            if (!isProtectedAdminmasterUsername(normalizedTarget) && roleValue === 'adminmaster') {
+                setUmStatus('Solo 0xManel, Jimmy o Davi pueden ser adminmaster.', 'error');
+                return;
+            }
+            try {
+                const payload = await requestUsers('POST', {
+                    username,
+                    password,
+                    role: roleValue,
+                    scope: scopeValue
+                });
+                saveUserRegistry(payload.users || []);
+                selectedUser = username;
+                if (isProtectedAdminmasterUsername(normalizedTarget)) {
+                    umRole.value = 'adminmaster';
+                    umScope.value = 'all';
+                }
+                setUmStatus('Guardado con éxito.', 'success');
+                renderUserRegistry();
+            } catch (error) {
+                setUmStatus(mapUsersApiError(error?.message), 'error');
+            }
+        }
+
+        async function deleteUser() {
+            if (!isOwner) {
+                setUmStatus('Solo adminmaster puede gestionar usuarios.', 'error');
+                return;
+            }
+            const username = umUsername.value.trim();
+            if (!username) {
+                setUmStatus('Selecciona un usuario para eliminar.', 'error');
+                return;
+            }
+
+            if (isProtectedAdminmasterUsername(username)) {
+                setUmStatus('No se puede eliminar un adminmaster protegido.', 'error');
+                return;
+            }
+            try {
+                const payload = await requestUsers('DELETE', { username });
+                saveUserRegistry(payload.users || []);
+
+                selectedUser = null;
+                umUsername.value = '';
+                umPassword.value = '';
+                umRole.value = 'user';
+                umScope.value = 'spa';
+                setUmStatus('Usuario eliminado.', 'success');
+                renderUserRegistry();
+            } catch (error) {
+                setUmStatus(mapUsersApiError(error?.message), 'error');
+            }
+        }
+
+        function mapEstLabel(key) {
+            if (key === 'bodega') return 'BODEGA -2';
+            if (key === 'spa') return 'SPA';
+            if (key === 'tasca_fina') return 'TASCA FINA';
+            if (key === 'victoria') return 'VICTORIA';
+            if (key === 'galeria') return 'GALERIA';
+            return key || '—';
+        }
+
+        function getLocalDateKey(dateInput = new Date()) {
+            const date = new Date(dateInput);
+            if (Number.isNaN(date.getTime())) {
+                const fallback = new Date();
+                return `${fallback.getFullYear()}-${String(fallback.getMonth() + 1).padStart(2, '0')}-${String(fallback.getDate()).padStart(2, '0')}`;
+            }
+            return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+        }
+
+        function isPlainObject(value) {
+            return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+        }
+
+        function getMadridParts(dateInput = new Date()) {
+            const date = new Date(dateInput);
+            const formatter = new Intl.DateTimeFormat('en-GB', {
+                timeZone: 'Europe/Madrid',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            const parts = formatter.formatToParts(date);
+            const read = (type) => Number(parts.find((part) => part.type === type)?.value || '0');
+            return {
+                year: read('year'),
+                month: read('month'),
+                day: read('day'),
+                hour: read('hour'),
+                minute: read('minute')
+            };
+        }
+
+        function formatDayKey(year, month, day) {
+            return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        }
+
+        function shiftDayKey(dayKey, deltaDays) {
+            const [y, m, d] = String(dayKey).split('-').map((value) => Number(value));
+            if (!Number.isFinite(y) || !Number.isFinite(m) || !Number.isFinite(d)) return dayKey;
+            const base = new Date(Date.UTC(y, m - 1, d));
+            base.setUTCDate(base.getUTCDate() + deltaDays);
+            return `${base.getUTCFullYear()}-${String(base.getUTCMonth() + 1).padStart(2, '0')}-${String(base.getUTCDate()).padStart(2, '0')}`;
+        }
+
+        function getMadridServiceDayKey(dateInput = new Date()) {
+            const parts = getMadridParts(dateInput);
+            const baseKey = formatDayKey(parts.year, parts.month, parts.day);
+            if (parts.hour < 6) {
+                return shiftDayKey(baseKey, -1);
+            }
+            return baseKey;
+        }
+
+        function resolveEntryServiceDayKey(entry, fallbackDateKey = '') {
+            if (entry && typeof entry.serviceDayKey === 'string' && entry.serviceDayKey.trim()) {
+                return entry.serviceDayKey.trim();
+            }
+            if (entry && entry.at) {
+                return getMadridServiceDayKey(entry.at);
+            }
+            if (typeof fallbackDateKey === 'string' && fallbackDateKey.trim()) {
+                return fallbackDateKey.trim();
+            }
+            return getMadridServiceDayKey();
+        }
+
+        function getStorageDayKeyFromEntry(entry, fallbackDateKey = '') {
+            if (entry && typeof entry.storageDayKey === 'string' && entry.storageDayKey.trim()) {
+                return entry.storageDayKey.trim();
+            }
+            if (typeof fallbackDateKey === 'string' && fallbackDateKey.trim()) {
+                return fallbackDateKey.trim();
+            }
+            if (entry && entry.at) {
+                const date = new Date(entry.at);
+                if (!Number.isNaN(date.getTime())) {
+                    return date.toISOString().slice(0, 10);
+                }
+            }
+            return getLocalDateKey();
+        }
+
+        function readMovementLogStore() {
+            return parseJsonObject(localStorage.getItem(movementLogKey));
+        }
+
+        function writeMovementLogStore(store) {
+            localStorage.setItem(movementLogKey, JSON.stringify(isPlainObject(store) ? store : {}));
+        }
+
+        function flattenMovementEntries(store) {
+            const parsed = isPlainObject(store) ? store : {};
+            const rows = [];
+            Object.keys(parsed).forEach((dateKey) => {
+                const list = parsed[dateKey];
+                if (!Array.isArray(list)) return;
+                list.forEach((entry) => {
+                    if (!entry || typeof entry !== 'object') return;
+                    rows.push({
+                        entry,
+                        dateKey,
+                        serviceDayKey: resolveEntryServiceDayKey(entry, dateKey)
+                    });
+                });
+            });
+            return rows;
+        }
+
+        function cloneMovementStore(store) {
+            const out = {};
+            if (!isPlainObject(store)) return out;
+            Object.keys(store).forEach((dateKey) => {
+                const list = store[dateKey];
+                if (!Array.isArray(list)) return;
+                out[dateKey] = list.map((entry) => ({ ...entry }));
+            });
+            return out;
+        }
+
+        function getEffectiveReportScope() {
+            if (role === 'adminmaster') {
+                return reportViewScope || 'all';
+            }
+            return scope;
+        }
+
+        function updateScopeButtons() {
+            const activeScope = getEffectiveReportScope();
+            scopeButtons.forEach((button) => {
+                const btnScope = button.dataset.scope || '';
+                button.classList.toggle('active', btnScope === activeScope);
+            });
+        }
+
+        function archiveEntries(entries, reason, targetScope, serviceDayKey) {
+            if (!Array.isArray(entries) || entries.length === 0) return;
+            const archive = readMovementArchive();
+            archive.push({
+                id: createMutationId(),
+                createdAt: new Date().toISOString(),
+                reason: reason || 'manual',
+                scope: targetScope || 'all',
+                serviceDayKey: serviceDayKey || getMadridServiceDayKey(),
+                entries: entries.map((entry) => ({ ...entry }))
+            });
+            writeMovementArchive(archive);
+        }
+
+        function ensureDailyReset() {
+            const currentServiceDay = getMadridServiceDayKey();
+            const lastMarker = localStorage.getItem(madridResetMarkerKey) || '';
+            if (lastMarker === currentServiceDay) return;
+
+            const store = readMovementLogStore();
+            const rows = flattenMovementEntries(store);
+            if (rows.length === 0) {
+                localStorage.setItem(madridResetMarkerKey, currentServiceDay);
+                return;
+            }
+
+            const oldRows = rows.filter((row) => row.serviceDayKey !== currentServiceDay);
+            if (oldRows.length > 0) {
+                const nextStore = {};
+                rows.forEach((row) => {
+                    if (row.serviceDayKey !== currentServiceDay) return;
+                    if (!Array.isArray(nextStore[row.dateKey])) nextStore[row.dateKey] = [];
+                    nextStore[row.dateKey].push(row.entry);
+                });
+                archiveEntries(oldRows.map((row) => ({ ...row.entry, storageDayKey: row.dateKey, serviceDayKey: row.serviceDayKey })), 'auto_reset', 'all', lastMarker || currentServiceDay);
+                writeMovementLogStore(nextStore);
+                queueMovementLogReplace(nextStore, 'auto_reset');
+                void runRealtimeSyncCycle();
+            }
+
+            localStorage.setItem(madridResetMarkerKey, currentServiceDay);
+        }
+
+        function buildReport() {
+            const currentServiceDay = getMadridServiceDayKey();
+            const targetScope = getEffectiveReportScope();
+            const rows = flattenMovementEntries(readMovementLogStore());
+            const visibleEntries = rows
+                .filter((row) => row.serviceDayKey === currentServiceDay)
+                .map((row) => row.entry)
+                .filter((entry) => (targetScope === 'all' ? true : entry.establishment === targetScope));
+
+            if (visibleEntries.length === 0) {
+                return '';
+            }
+
+            function escapeRegExp(value) {
+                return String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            }
+
+            function normalizeSizeForReport(value) {
+                const raw = String(value || '').trim();
+                if (!raw) return '';
+                return raw
+                    .replace(/\b(botella|bottle|garrafa)\b/gi, 'Bot.')
+                    .replace(/\s+/g, ' ')
+                    .trim();
+            }
+
+            function normalizeWineForReport(value) {
+                const raw = String(value || '').replace(/\s+/g, ' ').trim();
+                if (!raw) return '—';
+                return raw.replace(/\s*[-–—]+\s*$/, '').trim() || '—';
+            }
+
+            function getFullYearToken(value) {
+                const raw = String(value || '').trim();
+                if (!raw) return '';
+                const digits = raw.replace(/[^\d]/g, '');
+                if (!digits) return '';
+                if (digits.length >= 4) return digits.slice(-4);
+                return '';
+            }
+
+            function getShortYearToken(value) {
+                const raw = String(value || '').trim();
+                if (!raw) return '';
+                const digits = raw.replace(/[^\d]/g, '');
+                if (!digits) return '';
+                return digits.slice(-2);
+            }
+
+            function wineHasYearToken(wine, token) {
+                if (!wine || !token) return false;
+                const escaped = escapeRegExp(token);
+                const pattern = new RegExp(`(?:^|[\\s\\-_/()\\[\\]])${escaped}(?=$|[\\s\\-_/()\\[\\]])`, 'i');
+                return pattern.test(wine);
+            }
+
+            const aggregatedByWine = new Map();
+            visibleEntries.forEach((entry) => {
+                const qtyRaw = Number(entry.qty);
+                const qtyNumber = Number.isFinite(qtyRaw) && qtyRaw > 0 ? Math.trunc(qtyRaw) : 1;
+                const wineName = normalizeWineForReport(entry.wine || '');
+                const fullYearToken = getFullYearToken(entry.year);
+                const shortYearToken = getShortYearToken(entry.year);
+                const sizeText = normalizeSizeForReport(entry.size || entry.format || '');
+                const podText = (entry.pod || '').toString().trim();
+                const sourceRaw = String(entry.source || '').trim().toLowerCase();
+                const sourceTag = sourceRaw === 'bodega' ? ' (bodega)' : '';
+                const shouldAppendYear = Boolean(shortYearToken)
+                    && !wineHasYearToken(wineName, shortYearToken)
+                    && !wineHasYearToken(wineName, fullYearToken);
+                const displayYear = shouldAppendYear ? shortYearToken : '';
+                const key = [
+                    sizeText.toLowerCase(),
+                    wineName.toLowerCase(),
+                    displayYear,
+                    podText.toLowerCase(),
+                    sourceRaw === 'bodega' ? 'bodega' : 'cava'
+                ].join('|');
+
+                const current = aggregatedByWine.get(key);
+                if (current) {
+                    current.qty += qtyNumber;
+                    return;
+                }
+
+                aggregatedByWine.set(key, {
+                    qty: qtyNumber,
+                    sizeText,
+                    wineName,
+                    displayYear,
+                    podText,
+                    sourceTag
+                });
+            });
+            const lines = [];
+            aggregatedByWine.forEach((item) => {
+                const qtyLabel = `${item.qty}x`;
+                const parts = [qtyLabel, item.sizeText, item.wineName, item.displayYear, item.podText].filter(Boolean);
+                lines.push(parts.join(' ') + item.sourceTag);
+            });
+            return lines.join('\n');
+        }
+
+        function renderReport() {
+            ensureDailyReset();
+            textarea.value = buildReport();
+            updateScopeButtons();
+        }
+
+        function mergeMovementStateWithPending(state, pendingMutations) {
+            const mergedStore = isPlainObject(state?.movementLog)
+                ? cloneMovementStore(state.movementLog)
+                : readMovementLogStore();
+            if (!Array.isArray(pendingMutations) || pendingMutations.length === 0) {
+                return mergedStore;
+            }
+
+            pendingMutations.forEach((mutation) => {
+                if (!mutation || mutation.type !== 'replace_movement_log') return;
+                const replacement = mutation.payload?.movementLog;
+                if (isPlainObject(replacement)) {
+                    Object.keys(mergedStore).forEach((key) => delete mergedStore[key]);
+                    const cloned = cloneMovementStore(replacement);
+                    Object.keys(cloned).forEach((key) => {
+                        mergedStore[key] = cloned[key];
+                    });
+                }
+            });
+            return mergedStore;
+        }
+
+        function applyRemoteState(state, pendingMutations = []) {
+            if (!isPlainObject(state)) return;
+            const mergedStore = mergeMovementStateWithPending(state, pendingMutations);
+            writeMovementLogStore(mergedStore);
+            renderReport();
+        }
+
+        async function runRealtimeSyncCycle() {
+            if (syncInFlight) return;
+            if (syncDisabled) return;
+            if (!navigator.onLine) return;
+            syncInFlight = true;
+            let shouldRunAgain = false;
+            try {
+                const pendingMutations = readAdminPendingMutations();
+                const knownRevision = Number(localStorage.getItem(SYNC_REVISION_KEY) || '0');
+                const response = await fetch(SYNC_ENDPOINT, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    cache: 'no-store',
+                    body: JSON.stringify({
+                        clientId: syncClientId,
+                        knownRevision,
+                        mutations: pendingMutations
+                    })
+                });
+                if (response.status === 404) {
+                    syncDisabled = true;
+                    return;
+                }
+                if (response.status === 401) {
+                    sessionStorage.removeItem(authKeys.sessionFlag);
+                    sessionStorage.removeItem(authKeys.sessionUser);
+                    sessionStorage.removeItem(authKeys.sessionEstablishment);
+                    sessionStorage.removeItem(authKeys.sessionRole);
+                    sessionStorage.removeItem(authKeys.sessionScope);
+                    localStorage.removeItem(authKeys.persistentFlag);
+                    localStorage.removeItem(authKeys.persistentUser);
+                    localStorage.removeItem(authKeys.persistentEstablishment);
+                    localStorage.removeItem(authKeys.persistentRole);
+                    localStorage.removeItem(authKeys.persistentScope);
+                    window.location.replace('login.html');
+                    return;
+                }
+                if (!response.ok) return;
+                const payload = await response.json();
+                if (!payload || payload.ok !== true) return;
+
+                const acknowledgedIds = Array.isArray(payload.acknowledgedMutationIds)
+                    ? payload.acknowledgedMutationIds.filter((id) => typeof id === 'string' && id)
+                    : [];
+                const rejectedIds = Array.isArray(payload.rejectedMutationIds)
+                    ? payload.rejectedMutationIds.filter((id) => typeof id === 'string' && id)
+                    : [];
+                let remainingQueue = pendingMutations;
+                if (acknowledgedIds.length > 0 || rejectedIds.length > 0) {
+                    const currentQueue = readAdminPendingMutations();
+                    const completedSet = new Set([...acknowledgedIds, ...rejectedIds]);
+                    remainingQueue = currentQueue.filter((mutation) => {
+                        const mutationId = typeof mutation?.id === 'string' ? mutation.id : '';
+                        return !completedSet.has(mutationId);
+                    });
+                    writeAdminPendingMutations(remainingQueue);
+                    shouldRunAgain = remainingQueue.length > 0;
+                }
+
+                const revisionValue = Number(payload.revision);
+                if (Number.isFinite(revisionValue) && revisionValue >= 0) {
+                    localStorage.setItem(SYNC_REVISION_KEY, String(revisionValue));
+                }
+
+                if (isPlainObject(payload.state)) {
+                    const shouldApply = acknowledgedIds.length > 0
+                        || payload.hasUpdate === true
+                        || (Number.isFinite(revisionValue) && revisionValue > knownRevision);
+                    if (shouldApply) {
+                        applyRemoteState(payload.state, remainingQueue);
+                    }
+                }
+            } catch {
+                return;
+            } finally {
+                syncInFlight = false;
+                if (shouldRunAgain && !syncDisabled) {
+                    window.setTimeout(() => {
+                        void runRealtimeSyncCycle();
+                    }, 120);
+                }
+            }
+        }
+
+        function startRealtimeSync() {
+            if (syncTimer) {
+                clearInterval(syncTimer);
+            }
+            void runRealtimeSyncCycle();
+            syncTimer = window.setInterval(() => {
+                void runRealtimeSyncCycle();
+            }, SYNC_INTERVAL_MS);
+        }
+
+        function entrySignature(entry) {
+            const at = entry?.at || '';
+            const pod = entry?.pod || '';
+            const est = entry?.establishment || '';
+            const source = entry?.source || '';
+            const qty = entry?.qty ?? '';
+            const wine = entry?.wine || '';
+            const year = entry?.year ?? '';
+            const size = entry?.size || entry?.format || '';
+            return `${at}|${pod}|${est}|${source}|${qty}|${wine}|${year}|${size}`;
+        }
+
+        function clearVisibleReport() {
+            if (role === 'user') {
+                setReportStatus('Solo lectura para usuario.', 'error');
+                return;
+            }
+            ensureDailyReset();
+            const currentServiceDay = getMadridServiceDayKey();
+            const targetScope = getEffectiveReportScope();
+            const store = readMovementLogStore();
+            const rows = flattenMovementEntries(store);
+            const removedRows = rows.filter((row) => {
+                if (row.serviceDayKey !== currentServiceDay) return false;
+                if (targetScope === 'all') return true;
+                return row.entry.establishment === targetScope;
+            });
+
+            if (removedRows.length === 0) {
+                setReportStatus('No hay registros para limpiar.', 'error');
+                return;
+            }
+
+            const nextStore = {};
+            rows.forEach((row) => {
+                const shouldRemove = removedRows.includes(row);
+                if (shouldRemove) return;
+                if (!Array.isArray(nextStore[row.dateKey])) nextStore[row.dateKey] = [];
+                nextStore[row.dateKey].push(row.entry);
+            });
+
+            const archivedEntries = removedRows.map((row) => ({ ...row.entry, storageDayKey: row.dateKey, serviceDayKey: row.serviceDayKey }));
+            archiveEntries(archivedEntries, 'manual_clear', targetScope, currentServiceDay);
+            writeMovementLogStore(nextStore);
+            queueMovementLogReplace(nextStore, 'manual_clear');
+            setReportStatus(`Lista limpa (${removedRows.length}).`, 'success');
+            renderReport();
+            void runRealtimeSyncCycle();
+        }
+
+        function recoverLastSnapshot() {
+            if (role !== 'adminmaster') {
+                setReportStatus('Solo adminmaster puede recuperar.', 'error');
+                return;
+            }
+            const targetScope = getEffectiveReportScope();
+            const currentServiceDay = getMadridServiceDayKey();
+            const archive = readMovementArchive();
+            let snapshotIndex = -1;
+
+            for (let i = archive.length - 1; i >= 0; i--) {
+                const snapshot = archive[i];
+                if (!snapshot || !Array.isArray(snapshot.entries)) continue;
+                if (snapshot.serviceDayKey !== currentServiceDay) continue;
+                if (targetScope !== 'all' && snapshot.scope !== targetScope) continue;
+                snapshotIndex = i;
+                break;
+            }
+
+            if (snapshotIndex < 0) {
+                setReportStatus('No hay respaldo para recuperar.', 'error');
+                return;
+            }
+
+            const snapshot = archive[snapshotIndex];
+            const store = readMovementLogStore();
+            const existingRows = flattenMovementEntries(store);
+            const seen = new Set(existingRows.map((row) => entrySignature(row.entry)));
+            let restoredCount = 0;
+
+            snapshot.entries.forEach((rawEntry) => {
+                const restoredEntry = rawEntry && typeof rawEntry === 'object' ? { ...rawEntry } : null;
+                if (!restoredEntry) return;
+                if (targetScope !== 'all' && restoredEntry.establishment !== targetScope) return;
+                const signature = entrySignature(restoredEntry);
+                if (seen.has(signature)) return;
+                seen.add(signature);
+                const dateKey = getStorageDayKeyFromEntry(restoredEntry, getLocalDateKey());
+                restoredEntry.serviceDayKey = resolveEntryServiceDayKey(restoredEntry, dateKey);
+                restoredEntry.storageDayKey = dateKey;
+                if (!Array.isArray(store[dateKey])) store[dateKey] = [];
+                store[dateKey].push(restoredEntry);
+                restoredCount += 1;
+            });
+
+            if (restoredCount === 0) {
+                setReportStatus('Respaldo ya aplicado.', 'error');
+                return;
+            }
+
+            archive.splice(snapshotIndex, 1);
+            writeMovementArchive(archive);
+            writeMovementLogStore(store);
+            queueMovementLogReplace(store, 'manual_restore');
+            setReportStatus(`Recuperado (${restoredCount}).`, 'success');
+            renderReport();
+            void runRealtimeSyncCycle();
+        }
+
+        function applyReportRoleLayout() {
+            if (role === 'adminmaster') {
+                if (reportScopeRow) reportScopeRow.style.display = 'grid';
+                if (restoreReportBtn) restoreReportBtn.style.display = 'block';
+                if (clearReportBtn) clearReportBtn.style.display = 'block';
+                return;
+            }
+
+            reportViewScope = scope;
+            if (reportScopeRow) reportScopeRow.style.display = 'none';
+            if (role === 'admin') {
+                if (restoreReportBtn) restoreReportBtn.style.display = 'none';
+                if (clearReportBtn) clearReportBtn.style.display = 'block';
+                return;
+            }
+
+            if (restoreReportBtn) restoreReportBtn.style.display = 'none';
+            if (clearReportBtn) clearReportBtn.style.display = 'none';
+        }
+
+        function copyReport() {
+            const copyBtn = document.getElementById('copyBtn');
+            navigator.clipboard.writeText(textarea.value).then(() => {
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '✓ Copiado';
+                copyBtn.classList.add('copied');
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            }).catch(() => {
+                alert('Error al copiar al portapapeles');
+            });
+        }
+
+        document.getElementById('copyBtn').addEventListener('click', copyReport);
+
+        if (clearReportBtn) {
+            clearReportBtn.addEventListener('click', clearVisibleReport);
+        }
+        if (restoreReportBtn) {
+            restoreReportBtn.addEventListener('click', recoverLastSnapshot);
+        }
+
+        scopeButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                if (role !== 'adminmaster') return;
+                const requestedScope = normalizeScope(button.dataset.scope || '');
+                if (!requestedScope) return;
+                reportViewScope = requestedScope;
+                setReportStatus('');
+                renderReport();
+            });
+        });
+
+        document.getElementById('backBtn').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        const logoutBtn = document.getElementById('logoutBtn');
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', async () => {
+                try {
+                    await fetch('/api/auth-logout', { method: 'POST', cache: 'no-store' });
+                } catch {}
+                sessionStorage.removeItem(authKeys.sessionFlag);
+                sessionStorage.removeItem(authKeys.sessionUser);
+                sessionStorage.removeItem(authKeys.sessionEstablishment);
+                sessionStorage.removeItem(authKeys.sessionRole);
+                sessionStorage.removeItem(authKeys.sessionScope);
+                localStorage.removeItem(authKeys.persistentFlag);
+                localStorage.removeItem(authKeys.persistentUser);
+                localStorage.removeItem(authKeys.persistentEstablishment);
+                localStorage.removeItem(authKeys.persistentRole);
+                localStorage.removeItem(authKeys.persistentScope);
+                window.location.replace('login.html');
+            });
+        }
+
+        if (isOwner) {
+            void refreshUserRegistry()
+                .then(() => {
+                    renderUserRegistry();
+                    if (usersDataSource === 'local') {
+                        setUmStatus('Modo local activo (sin API). Cambios guardados en este navegador.', 'success');
+                    }
+                })
+                .catch(() => {
+                    saveUserRegistry(readLocalUserRegistry());
+                    renderUserRegistry();
+                    setUmStatus('No fue posible cargar API. Modo local activo.', 'error');
+                });
+            umRole.value = 'user';
+            umScope.value = 'spa';
+            umRole.addEventListener('change', () => {
+                if (umRole.value !== 'adminmaster' && umScope.value === 'all') {
+                    umScope.value = 'spa';
+                }
+            });
+            document.getElementById('umSaveBtn').addEventListener('click', saveUser);
+            document.getElementById('umDeleteBtn').addEventListener('click', deleteUser);
+        } else if (userManagementCard) {
+            userManagementCard.style.display = 'none';
+        }
+
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.color = 'rgba(212, 175, 55, ' + (Math.random() * 0.5 + 0.2) + ')';
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.size > 0.2) this.size -= 0.01;
+            }
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < 100; i++) particles.push(new Particle());
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+                if (particles[i].size <= 0.2) {
+                    particles.splice(i, 1);
+                    particles.push(new Particle());
+                    i--;
+                }
+            }
+            requestAnimationFrame(animateParticles);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+        initParticles();
+        animateParticles();
+
+        window.addEventListener('storage', (event) => {
+            if (event.key === movementLogKey) {
+                renderReport();
+                return;
+            }
+            if (event.key === SYNC_REVISION_KEY) {
+                void runRealtimeSyncCycle();
+            }
+        });
+
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                renderReport();
+                void runRealtimeSyncCycle();
+            }
+        });
+
+        applyReportRoleLayout();
+        renderReport();
+        startRealtimeSync();
+
+        const SW_BUILD_ID = '2026-02-25-b986f476-v3';
+        if ('serviceWorker' in navigator) {
+            let swRefreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (swRefreshing) return;
+                swRefreshing = true;
+                window.location.reload();
+            });
+
+            navigator.serviceWorker
+                .register(`/sw.js?build=${encodeURIComponent(SW_BUILD_ID)}`, { updateViaCache: 'none' })
+                .then((registration) => {
+                    if (registration.waiting) {
+                        registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+                    }
+                    registration.addEventListener('updatefound', () => {
+                        const newWorker = registration.installing;
+                        if (!newWorker) return;
+                        newWorker.addEventListener('statechange', () => {
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                newWorker.postMessage({ type: 'SKIP_WAITING' });
+                            }
+                        });
+                    });
+                    registration.update().catch(() => {});
+                })
+                .catch(() => {});
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-03-01T17:14:20.772325+00:00",
+  "mode": "apply",
+  "manual_rows_total": 21,
+  "manual_qty_total": 41,
+  "matched_rows": 21,
+  "matched_unique_pods": 18,
+  "unmatched_rows": 0,
+  "updated_entries_count": 18,
+  "updated_entries": [
+    {
+      "pod": "POD012076",
+      "descripcion": "Bollinger RD 08-",
+      "bodega": "Bollinger",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 2,
+      "location_after_count": 2,
+      "location_after": "4·D·A / 4·D·D"
+    },
+    {
+      "pod": "POD004484",
+      "descripcion": "Gosset Grande Reserve-",
+      "bodega": "Gosset",
+      "rows_count": 2,
+      "qty_manual_total": 9,
+      "location_before_count": 3,
+      "location_after_count": 3,
+      "location_after": "4·E·D / 4·BASE / 5·BASE"
+    },
+    {
+      "pod": "POD002122",
+      "descripcion": "Ruinart Blanc de Blancs-",
+      "bodega": "Ruinart",
+      "rows_count": 2,
+      "qty_manual_total": 4,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·BASE"
+    },
+    {
+      "pod": "POD012899",
+      "descripcion": "Bollinger La Grande Annee 15-",
+      "bodega": "Bollinger",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·D·A"
+    },
+    {
+      "pod": "POD004085",
+      "descripcion": "Bereche et Fils Brut Reserve-",
+      "bodega": "Bereche et Fils",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 2,
+      "location_after_count": 2,
+      "location_after": "4·D·A / 5·D·D"
+    },
+    {
+      "pod": "POD014768",
+      "descripcion": "Belle Epoque 14-",
+      "bodega": "Perrier Jouët",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·D·D"
+    },
+    {
+      "pod": "POD013106",
+      "descripcion": "Mestres Coquet BN G Rva 19-",
+      "bodega": "Mestres",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·D·D"
+    },
+    {
+      "pod": "POD013971",
+      "descripcion": "Dom Perignon 15-",
+      "bodega": "Dom Perignon",
+      "rows_count": 1,
+      "qty_manual_total": 3,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·E·A"
+    },
+    {
+      "pod": "POD018461",
+      "descripcion": "Mestres Visol 19-",
+      "bodega": "Mestres",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·E·D"
+    },
+    {
+      "pod": "POD002035",
+      "descripcion": "Bollinger Special Cuvee Brut-",
+      "bodega": "Bollinger",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 2,
+      "location_after_count": 2,
+      "location_after": "4·E·D / 5·E·D"
+    },
+    {
+      "pod": "POD010182",
+      "descripcion": "Andre Heucq Heritage Meunier Brut Nature-",
+      "bodega": "André Heucq",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 2,
+      "location_after_count": 2,
+      "location_after": "4·E·D / 5·BASE"
+    },
+    {
+      "pod": "POD002086",
+      "descripcion": "Krug Grande Cuvée 172 edition",
+      "bodega": "Krug",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 3,
+      "location_after_count": 3,
+      "location_after": "4·F·A / 5·C·A / 5·C·D"
+    },
+    {
+      "pod": "POD_TEMP_1036",
+      "descripcion": "Leclerc-Briant Espumoso 2018",
+      "bodega": "Leclerc-Briant",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 2,
+      "location_after_count": 2,
+      "location_after": "4·F·A / 5·C·D"
+    },
+    {
+      "pod": "POD009915",
+      "descripcion": "Vouette et Sorbee Fidele BdN Brut Nature-",
+      "bodega": "Vouette et Sorbée",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "4·F·A"
+    },
+    {
+      "pod": "POD017665",
+      "descripcion": "L Briant Les Basses Prieres 18-",
+      "bodega": "Leclerc Briant",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·F·D"
+    },
+    {
+      "pod": "POD017662",
+      "descripcion": "Leclerc Briant Millesime 19-",
+      "bodega": "Leclerc-Briant",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·F·D"
+    },
+    {
+      "pod": "POD002123",
+      "descripcion": "Ruinart Rose-",
+      "bodega": "Ruinart",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·BASE"
+    },
+    {
+      "pod": "POD019637",
+      "descripcion": "Gran Torello Brut Nature 16-",
+      "bodega": "Torelló",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "4·BASE"
+    }
+  ],
+  "unmatched": [],
+  "paths": {
+    "db": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+    "source_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava4_manual_source.csv",
+    "report_json": "/Users/0xmanel/cava-metropolis/reports/spa_cava4_import_report.json",
+    "report_unmatched_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava4_import_unmatched.csv"
+  },
+  "thresholds": {
+    "SCORE_MIN": 0.78,
+    "MARGIN_MIN": 0.06,
+    "HARD_MIN": 0.9
+  },
+  "location_convention": "4·<BALDA>·A (atrás) | 4·<BALDA>·D (frente) | 4·BASE",
+  "unmatched_reasons": {}
+}

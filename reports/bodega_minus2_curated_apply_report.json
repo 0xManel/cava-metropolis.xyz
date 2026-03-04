@@ -1,0 +1,4449 @@
+{
+  "timestamp_utc": "2026-02-26T03:31:26.241195+00:00",
+  "mode": "dry_run",
+  "rows_in_csv": 172,
+  "rows_without_pod": [],
+  "unique_pods_from_csv": 148,
+  "updated_pods": 148,
+  "missing_pods_in_catalog": [],
+  "metadata_conflicts": [
+    {
+      "pod": "POD019409",
+      "tipo_values": [
+        "Blanco",
+        "Tinto"
+      ],
+      "uva_values": [
+        "Chardonnay",
+        "Pinot Noir"
+      ]
+    },
+    {
+      "pod": "POD015909",
+      "tipo_values": [
+        "Tinto"
+      ],
+      "uva_values": [
+        "Pinot Noir",
+        "Syrah (com Viognier possível)"
+      ]
+    }
+  ],
+  "sample_updates_first_120": [
+    {
+      "pod": "POD015933",
+      "descripcion": "Bonin Initiales BB 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 5 · A",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017044",
+      "descripcion": "Bonin Meursault Clos Cromin 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017045",
+      "descripcion": "Bonin Meursault Tillets 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD011639",
+      "descripcion": "De Villaine Bouzeron Aligote BL 22 -",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 8 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017285",
+      "descripcion": "Raveneau Chablis 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017294",
+      "descripcion": "Roulot Meursault Meix Chavaux 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 5 · C",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015942",
+      "descripcion": "Mg Meursault Seve du Clos VV 20-",
+      "rows_count": 5,
+      "units_before": 6,
+      "units_after": 8,
+      "location_before": "CAVA 7 · BALDA 5 · B / CAVA 7 · BALDA 5 · D",
+      "location_after": "CAVA 7 · BALDA 1 · IZQ / CAVA 7 · BALDA 4 · CEN / CAVA 7 · BALDA 5 · C / CAVA 7 · BALDA 8 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015939",
+      "descripcion": "Arnaud Ente Meursault 20-",
+      "rows_count": 2,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "CAVA 7 · BALDA 5 · E",
+      "location_after": "CAVA 7 · BALDA 1 · DER / CAVA 7 · BALDA 1 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016245",
+      "descripcion": "Clos des Fees VV 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 4 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Languedoc-Roussillon",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Garnacha",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cariñena",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017288",
+      "descripcion": "Raveneau Chablis 1C Foret 16-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019636",
+      "descripcion": "Celler del Roure La Pebrella 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · DER",
+      "pais_before": "España",
+      "pais_after": "França",
+      "region_before": "Comunidad Valenciana",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Mandó",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Garnacha Tintorera",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Monastrell",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015932",
+      "descripcion": "Leflaive Chevalier Montrachet 22-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 6 · DER / CAVA 8 · BALDA 7 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017577",
+      "descripcion": "Leflaive Batard Montrachet 22-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 2,
+      "location_before": "CAVA 8 · BALDA 3 · IZQ",
+      "location_after": "CAVA 8 · BALDA 5 · E",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017291",
+      "descripcion": "Raveneau Chablis Blanchots 16-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · B",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017286",
+      "descripcion": "Raveneau Chablis 1C Butteaux 15-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017725",
+      "descripcion": "Raveneau Chab 1C M Tonnerre 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017292",
+      "descripcion": "Raveneau Chablis Valmur 16-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 2 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018176",
+      "descripcion": "Si Tu Sais Pernand Belle Fils 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018720",
+      "descripcion": "Lepetit Meursault Perchots 23-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 7 · BALDA 6 · CEN",
+      "location_after": "CAVA 7 · BALDA 8 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015938",
+      "descripcion": "Arnaud Ente Bourgogne BL 20-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 1,
+      "location_before": "CAVA 7 · BALDA 8 · DER",
+      "location_after": "CAVA 7 · BALDA 8 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016878",
+      "descripcion": "Arnaud Ente Puligny 1C Champ Gain 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 7 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018431",
+      "descripcion": "Jadot Puligny 1C Combettes 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 8 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013291",
+      "descripcion": "Drouhin Beaune Clos de Mouches TO 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 2 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019657",
+      "descripcion": "Les Deux Fleches St Veran 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 7 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017016",
+      "descripcion": "Jadot Chevalier Montrachet Demoiselles 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 7 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019372",
+      "descripcion": "Muzard St Aubin 23-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · IZQ / CAVA 7 · BALDA 7 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013049",
+      "descripcion": "Meo-Camuzet Corton-Charlemagne G. Cru 21-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 4 · DER / CAVA 8 · BALDA 5 · D",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016634",
+      "descripcion": "D de la Vougeraie Chevalier Montrachet Grand Cru 14-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · E",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019251",
+      "descripcion": "Pacalet Batard Montrachet 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 3 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019246",
+      "descripcion": "Pacalet Corton Charlemagne 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · D",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019290",
+      "descripcion": "Pierre Morey Batard Montrachet 23-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 5,
+      "location_before": "CAVA 8 · BALDA 3 · IZQ",
+      "location_after": "CAVA 8 · BALDA 2 · IZQ / CAVA 8 · BALDA 5 · A",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012519",
+      "descripcion": "Pierre Morey Meursault 1C Perrieres 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 3 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019409",
+      "descripcion": "Pierre Morey Pulig Champ Gain 23-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · IZQ / CAVA 8 · BALDA 1 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017289",
+      "descripcion": "Raveneau Chablis 1C Monte Tonnerre 15-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 1 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019361",
+      "descripcion": "Vincent Girardin Puligny 1C Referts 23-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 7 · BALDA 3 · DER / CAVA 8 · BALDA 6 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013303",
+      "descripcion": "Vincent Girardin Montrachet 22-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 8 · BALDA 5 · E / CAVA 9 · BALDA 1 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "Estados Unidos",
+      "region_before": "Borgoña",
+      "region_after": "Estados Unidos",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019351",
+      "descripcion": "Vincent Girardin Batard Montrachet 23-",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "CAVA 8 · BALDA 3 · CEN",
+      "location_after": "CAVA 8 · BALDA 8 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017406",
+      "descripcion": "Lafarge Volnay Vend Select 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015909",
+      "descripcion": "Pascal Pernot Gevrey Chambertin 22-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 7,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 6 · CEN / CAVA 6 · BALDA 5 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "França (Ródano Norte)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017727",
+      "descripcion": "Prieure Roch Chamber Cl Beze 22-",
+      "rows_count": 3,
+      "units_before": 2,
+      "units_after": 12,
+      "location_before": "CAVA 5 · BALDA 2 · IZQ",
+      "location_after": "CAVA 5 · BALDA 4 · IZQ / CAVA 5 · BALDA 7 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019302",
+      "descripcion": "Dom des Perdrix Bourgogne TO 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019284",
+      "descripcion": "Dom L'Arlot Romanee S Vivant 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019282",
+      "descripcion": "Domaine de L´Arlot Vosne 1C Suchots 23-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · CEN / CAVA 4 · BALDA 3 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012515",
+      "descripcion": "Domaine de L´Arlot NSG Clos Forets 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD010182",
+      "descripcion": "Andre Heucq Heritage Meunier Brut Nature-",
+      "rows_count": 3,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 5 · E / CAVA 5 · BALDA 1 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Champagne",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "ESP",
+        "nombre": "Espumoso"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Pinot Meunier",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013335",
+      "descripcion": "Magnien Cote de Nuits Thurot 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012412",
+      "descripcion": "Mugnier Musigny 15-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · A",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018353",
+      "descripcion": "Grivot Bourgogne TO 22-",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 3,
+      "location_before": "CAVA 4 · BALDA 7 · DER",
+      "location_after": "CAVA 4 · BALDA 7 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018359",
+      "descripcion": "Grivot Vosne Les Suchots 22-",
+      "rows_count": 3,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · DER / CAVA 4 · BALDA 4 · DER / CAVA 4 · BALDA 6 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018161",
+      "descripcion": "Closiers Les Closiers 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 4 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Loira",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017374",
+      "descripcion": "Vogue Chambolle 1er Cru 22-",
+      "rows_count": 2,
+      "units_before": 2,
+      "units_after": 3,
+      "location_before": "CAVA 4 · BALDA 3 · DER",
+      "location_after": "CAVA 4 · BALDA 1 · DER / CAVA 4 · BALDA 5 · C",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015903",
+      "descripcion": "Valentini Trebbiano D’ Abruzzo 20-",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 3,
+      "location_before": "CAVA 10 · BALDA 7 · IZQ",
+      "location_after": "CAVA 5 · BALDA 3 · CEN",
+      "pais_before": "Italia",
+      "pais_after": "França",
+      "region_before": "Abruzzo",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Trebbiano",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD011380",
+      "descripcion": "Arnaud Ente Meursault Clos de Ambres 19-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 2,
+      "location_before": "CAVA 7 · BALDA 5 · D",
+      "location_after": "CAVA 5 · BALDA 3 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018038",
+      "descripcion": "San Cobate Cucufate Monasterio 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 0,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · CEN",
+      "pais_before": "España",
+      "pais_after": "França",
+      "region_before": "Ribera del Duero",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Tempranillo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD009367",
+      "descripcion": "Jaboulet Hermitage La Chapelle 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD_TEMP_1051",
+      "descripcion": "Clos Fourtet Saint Emilion GC Classe 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 7 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Burdeos",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012516",
+      "descripcion": "Pierre Morey Bourgogne BL 22-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 1,
+      "location_before": "CAVA 7 · BALDA 8 · IZQ",
+      "location_after": "CAVA 4 · BALDA 6 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017137",
+      "descripcion": "Rousseau Clos des Ruchottes GC 10-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · D",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013307",
+      "descripcion": "Ch Briailles Pernand ile Verg BL 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 4 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013328",
+      "descripcion": "Domaine de L´Arlot Vosne 1C Suchots 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · DER / CAVA 4 · BALDA 8 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016852",
+      "descripcion": "Dujac Charmes Chambertin 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019094",
+      "descripcion": "Dujac Charmes Chambertin 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016853",
+      "descripcion": "Dujac Gevrey 1C Cru Aux Combottes 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019095",
+      "descripcion": "Dujac Gevrey 1C Cru Aux Combottes 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 3 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017159",
+      "descripcion": "Fourrier Gevrey 1C Combe Aux Moines 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 5 · A",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017786",
+      "descripcion": "Roumier Bonnes Mares 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · C",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017299",
+      "descripcion": "Roumier MSD 1C Clos Bussiere 13-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017925",
+      "descripcion": "Lignier Gevrey Regnard 22 -",
+      "rows_count": 2,
+      "units_before": 2,
+      "units_after": 6,
+      "location_before": "CAVA 4 · BALDA 6 · IZQ",
+      "location_after": "CAVA 4 · BALDA 6 · IZQ / CAVA 4 · BALDA 7 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019317",
+      "descripcion": "JJ Confuron Romanee St Vivant 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · C / CAVA 5 · BALDA 6 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015155",
+      "descripcion": "Fourrier Vosne 1C Malconsorts 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 8 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017011",
+      "descripcion": "Jadot Bienvenues Batard Montrachet 22-",
+      "rows_count": 1,
+      "units_before": 2,
+      "units_after": 2,
+      "location_before": "CAVA 8 · BALDA 5 · B",
+      "location_after": "CAVA 5 · BALDA 5 · A",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017018",
+      "descripcion": "Jadot Echezeaux 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · C",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD_TEMP_1021",
+      "descripcion": "Michel Lafarge Tinto 2022",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 7 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012269",
+      "descripcion": "Mg Michel Noellat Echezeaux 16-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019369",
+      "descripcion": "Pacalet Clos de Vougeot 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 3 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019214",
+      "descripcion": "Pacalet Nuits St Georges 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 1 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019223",
+      "descripcion": "Pacalet Vosne Romanee 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 8 · DER / CAVA 5 · BALDA 1 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD010029",
+      "descripcion": "Perrot Minot Chambertin Clos de Beze 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 7 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017733",
+      "descripcion": "P Roch SLB Dessus Gollardes 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 5 · B",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD010092",
+      "descripcion": "Prieure Roch NSG Clos Corvees 20-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 2 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016345",
+      "descripcion": "D´Eugenie Clos Vougeot 21-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 6 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017472",
+      "descripcion": "D Lambrays MSD Baulet 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · IZQ / CAVA 4 · BALDA 5 · B",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña (Côte de Nuits)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017473",
+      "descripcion": "D Lambrays MSD Clos Sorbe 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 1 · IZQ / CAVA 4 · BALDA 5 · C",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña (Côte de Nuits)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012539",
+      "descripcion": "Domaine Perdrix NSG 1C Aux Perdrix 22-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 4 · BALDA 2 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019308",
+      "descripcion": "Domaine Perdrix Echezeaux 23-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 5 · BALDA 4 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "Borgoña",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018184",
+      "descripcion": "Crissante Alessandria Barolo La Morra 21-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 4 · CEN",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Piemonte, Barolo)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017654",
+      "descripcion": "Terre N Calderara Sottana BL 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 8 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Sicilia",
+      "region_after": "Itália (Sicília, Etna Rosso)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Carricante",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nerello Mascalese",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017657",
+      "descripcion": "Terre Nere Moganazzi 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 8 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Sicilia",
+      "region_after": "Itália (Sicília, Etna)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nerello Mascalese",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nerello Mascalese",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018873",
+      "descripcion": "Borgogno Rivata Barolo 21-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 2 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Piemonte, Langhe)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012564",
+      "descripcion": "Cavallotto Barolo Bricco Boschis 20-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 2 · CEN",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Piemonte, Barbaresco)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD014184",
+      "descripcion": "Gaja Rossj-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 7 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Piemonte)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Sauvignon Blanc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013366",
+      "descripcion": "G Mascarello Barolo Monprivato 19-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 1,
+      "location_before": "CAVA 9 · BALDA 5 · E",
+      "location_after": "CAVA 12 · BALDA 4 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Toscana)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Sangiovese",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012581",
+      "descripcion": "Pietro Caciorgna Etna Rosso Ciauria 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 7 · DER",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Sicilia",
+      "region_after": "Itália (Sicília, Etna)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nerello Mascalese",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Nerello Mascalese",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018409",
+      "descripcion": "Cascina Rose Barb Rio Sordo 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 3 · DER",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Piemonte)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Barbera",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Barbera",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD011992",
+      "descripcion": "Vietti Barbera d'Alba Scarrone 21-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 9 · BALDA 7 · IZQ",
+      "location_after": "CAVA 9 · BALDA 1 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Piemonte)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Barbera",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Barbera",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD_TEMP_1096",
+      "descripcion": "Le Macchiole Tinto 2022",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 9 · BALDA 8 · CEN",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Toscana",
+      "region_after": "Itália (Toscana, Bolgheri)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD009229",
+      "descripcion": "Ornellaia 20-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 11 · BALDA 3 · DER",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Toscana",
+      "region_after": "Itália (Toscana)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012491",
+      "descripcion": "Ornellaia 21-",
+      "rows_count": 2,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 11 · BALDA 4 · CEN / CAVA 11 · BALDA 4 · DER",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Toscana",
+      "region_after": "Itália (Toscana)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017490",
+      "descripcion": "Domaine De La Cote Estate 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 6,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 3 · DER",
+      "pais_before": "Estados Unidos",
+      "pais_after": "França",
+      "region_before": "California",
+      "region_after": "França (Loira)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Sauvignon Blanc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD_TEMP_1093",
+      "descripcion": "Isabel Ferrando Tinto 2023",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · C",
+      "pais_before": "España",
+      "pais_after": "França",
+      "region_before": "Murcia",
+      "region_after": "França (Ródano Sul)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Monastrell",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Grenache",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019768",
+      "descripcion": "A Mendoza Tempr Grano a Gran 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · A",
+      "pais_before": "España",
+      "pais_after": "França",
+      "region_before": "Rioja",
+      "region_after": "França (Ródano Norte)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Tempranillo",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Garnacha",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Graciano",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019764",
+      "descripcion": "Antoine Sanzay Saumur Les Poyeux 20-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 3 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Loira",
+      "region_after": "França (Loira)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD009898",
+      "descripcion": "Chateau Rayas TO 2010-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · E",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "França (Ródano Sul)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Garnacha",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Grenache",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD011715",
+      "descripcion": "Chateau des Tours Cotes du Rhone 19-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 6 · BALDA 1 · CEN",
+      "location_after": "CAVA 6 · BALDA 1 · DER",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "França (Ródano)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Garnacha",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Mourvèdre",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Grenache",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Mourvèdre",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016430",
+      "descripcion": "Domaine des Tours Vaucluse 20 BL-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 1 · IZQ",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "França (Ródano)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Garnacha Blanca",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Clairette",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Bourboulenc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Grenache Blanc",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Clairette",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Bourboulenc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD016703",
+      "descripcion": "Henri Bonneau Chneuf-du-Pape R des Celestins 16-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 5,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 4 · B",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "França (Ródano Sul)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Garnacha",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Grenache",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD011828",
+      "descripcion": "Chapoutier Ermitage L'Ermite Rg 07-",
+      "rows_count": 1,
+      "units_before": 1,
+      "units_after": 3,
+      "location_before": "CAVA 6 · BALDA 5 · CEN",
+      "location_after": "CAVA 6 · BALDA 4 · D",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "França (Ródano)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Grenache",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017826",
+      "descripcion": "Chapoutier Les Granits TO 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 2,
+      "location_before": null,
+      "location_after": "CAVA 6 · BALDA 5 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Ródano",
+      "region_after": "França (Ródano Norte)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "uvas_before": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Syrah",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD010654",
+      "descripcion": "Ch Cheval Blanc Saint Emilion 20-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · E",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Burdeos",
+      "region_after": "França (Borgoña, Pouilly-Fuissé)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Merlot",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Franc",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD004085",
+      "descripcion": "Bereche et Fils Brut Reserve-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 1 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Champagne",
+      "region_after": "França (Alsácia)",
+      "tipo_before": {
+        "codigo": "ESP",
+        "nombre": "Espumoso"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Pinot Noir",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Pinot Meunier",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Provável Sylvaner",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Riesling blend",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD012580",
+      "descripcion": "Pietro Caciorgna Etna Bianco 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 6 · IZQ",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Sicilia",
+      "region_after": "Itália (Sicília)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nerello Mascalese",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Carricante",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD017981",
+      "descripcion": "Ch Smith Haut Lafite BL 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · B",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Burdeos",
+      "region_after": "França (Bordeaux)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Sauvignon Blanc",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Sémillon",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Sauvignon Blanc",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Sémillon",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD010021",
+      "descripcion": "Eric Morgat Fides 2018-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 3 · CEN",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Loira",
+      "region_after": "França",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chenin Blanc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chenin Blanc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019795",
+      "descripcion": "Fillipi Castelcerino 24-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 6 · CEN",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Véneto",
+      "region_after": "Itália (Vêneto)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Garganega",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Garganega",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD011185",
+      "descripcion": "Zuccardi Piedra Infinita 19-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 4,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 5 · DER",
+      "pais_before": "Argentina",
+      "pais_after": "França",
+      "region_before": "Mendoza",
+      "region_after": "França (Ródano Norte)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Malbec",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Marsanne",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Roussanne",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD015096",
+      "descripcion": "Viña La Forajida 17-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 3 · IZQ",
+      "pais_before": "España",
+      "pais_after": "França",
+      "region_before": "Extremadura",
+      "region_after": "França (Loira)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Tempranillo",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Garnacha",
+          "pct": null,
+          "confianza": "alta"
+        },
+        {
+          "nome": "Cabernet Sauvignon",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chenin Blanc",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD018439",
+      "descripcion": "Scavino Barolo Bric Fiasc 20-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 3,
+      "location_before": "CAVA 9 · BALDA 6 · CEN",
+      "location_after": "CAVA 10 · BALDA 7 · CEN",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Piamonte",
+      "region_after": "Itália (Campânia)",
+      "tipo_before": {
+        "codigo": "TO",
+        "nombre": "Tinto"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Nebbiolo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Fiano",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD_TEMP_1010",
+      "descripcion": "Tara Blanco 2022",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 3,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 5 · IZQ",
+      "pais_before": null,
+      "pais_after": "França",
+      "region_before": "Valle de Maipo",
+      "region_after": "França (Ródano Norte)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Sauvignon Blanc",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Marsanne",
+          "pct": null,
+          "confianza": "estimada"
+        },
+        {
+          "nome": "Roussanne",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD019652",
+      "descripcion": "Cos Rami Grillo e Insolia 23-",
+      "rows_count": 1,
+      "units_before": 3,
+      "units_after": 2,
+      "location_before": "CAVA 10 · BALDA 7 · IZQ",
+      "location_after": "CAVA 10 · BALDA 7 · DER",
+      "pais_before": "Italia",
+      "pais_after": "Itália",
+      "region_before": "Sicilia",
+      "region_after": "Itália (Sicília)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Grillo",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Grillo",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    },
+    {
+      "pod": "POD013339",
+      "descripcion": "Chateau Fuisse Pouilly Fuisse 22-",
+      "rows_count": 1,
+      "units_before": null,
+      "units_after": 1,
+      "location_before": null,
+      "location_after": "CAVA 10 · BALDA 4 · D",
+      "pais_before": "Francia",
+      "pais_after": "França",
+      "region_before": "Borgoña",
+      "region_after": "França (Borgoña)",
+      "tipo_before": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "tipo_after": {
+        "codigo": "BL",
+        "nombre": "Blanco"
+      },
+      "uvas_before": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "alta"
+        }
+      ],
+      "uvas_after": [
+        {
+          "nome": "Chardonnay",
+          "pct": null,
+          "confianza": "estimada"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "generated_at": "2026-03-01T18:13:07.295980+00:00",
+  "mode": "apply",
+  "manual_rows_total": 57,
+  "manual_qty_total": 57,
+  "matched_rows": 49,
+  "matched_unique_pods": 34,
+  "unmatched_rows": 8,
+  "updated_entries_count": 34,
+  "updated_entries": [
+    {
+      "pod": "POD019735",
+      "descripcion": "Finca la Emperatriz 18-",
+      "bodega": "La Emperatriz",
+      "rows_count": 4,
+      "qty_manual_total": 4,
+      "location_before_count": 1,
+      "location_after_count": 4,
+      "location_after": "1·F·A / 1·F·D / 1·H·D / 1·I·D"
+    },
+    {
+      "pod": "POD018632",
+      "descripcion": "Corimbo 22-",
+      "bodega": "La Horra",
+      "rows_count": 4,
+      "qty_manual_total": 4,
+      "location_before_count": 1,
+      "location_after_count": 4,
+      "location_after": "1·G·D / 1·H·A / 1·H·D / 1·I·D"
+    },
+    {
+      "pod": "POD018770",
+      "descripcion": "904 Gran Rva 16",
+      "bodega": "La Rioja Alta",
+      "rows_count": 3,
+      "qty_manual_total": 3,
+      "location_before_count": 1,
+      "location_after_count": 3,
+      "location_after": "1·D·D / 1·F·D / 1·G·A"
+    },
+    {
+      "pod": "POD016574",
+      "descripcion": "Bosque Matasnos Et Blanca 22-",
+      "bodega": "Bosque de Matasnos",
+      "rows_count": 3,
+      "qty_manual_total": 3,
+      "location_before_count": 1,
+      "location_after_count": 3,
+      "location_after": "1·G·D / 1·H·A / 1·BASE"
+    },
+    {
+      "pod": "POD013547",
+      "descripcion": "Pintia 17-",
+      "bodega": "Pintia",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "1·D·D / 1·I·A"
+    },
+    {
+      "pod": "POD013749",
+      "descripcion": "Bideona Samaniego 20-",
+      "bodega": "Bideona",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 2,
+      "location_after": "1·F·A / 1·F·D"
+    },
+    {
+      "pod": "POD017118",
+      "descripcion": "Corimbo I 18-",
+      "bodega": "La Horra",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "1·G·D / 1·H·A"
+    },
+    {
+      "pod": "POD017679",
+      "descripcion": "Viña Ardanza Rva 19-",
+      "bodega": "La Rioja Alta",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "1·H·D / 1·I·D"
+    },
+    {
+      "pod": "POD017713",
+      "descripcion": "Marques de Murrieta Rva 21-",
+      "bodega": "Marqués de Murrieta",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "1·H·D / 1·I·D"
+    },
+    {
+      "pod": "POD015976",
+      "descripcion": "La Baixada 22-",
+      "bodega": "Álvaro Palacios",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·A·D"
+    },
+    {
+      "pod": "POD018766",
+      "descripcion": "Mas Doix Salanques 22-",
+      "bodega": "Mas Doix",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·A·D"
+    },
+    {
+      "pod": "POD012960",
+      "descripcion": "Les Terrases 22-",
+      "bodega": "Álvaro Palacios",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·A·D"
+    },
+    {
+      "pod": "POD018084",
+      "descripcion": "Casa Castillo Las Gravas 22-",
+      "bodega": "Casa Castillo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·B·D"
+    },
+    {
+      "pod": "POD019624",
+      "descripcion": "La Tendida 22-",
+      "bodega": "Casa Castillo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·B·D"
+    },
+    {
+      "pod": "POD016962",
+      "descripcion": "Pintia 20-",
+      "bodega": "Pintia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "1·D·A / 1·D·D"
+    },
+    {
+      "pod": "POD015343",
+      "descripcion": "Hispania Territorio Luthier TO 21-",
+      "bodega": "Territorio Luthier",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·E·D"
+    },
+    {
+      "pod": "POD_TEMP_1040",
+      "descripcion": "Domino Aguila Rva 20-",
+      "bodega": "Dominio del Águila",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·E·A"
+    },
+    {
+      "pod": "POD015918",
+      "descripcion": "Dominio del Soto Camino Gumiel 21-",
+      "bodega": "Dominio del Soto",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·E·A"
+    },
+    {
+      "pod": "POD016105",
+      "descripcion": "Mauro VS 22-",
+      "bodega": "Bodegas Mauro",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·E·A"
+    },
+    {
+      "pod": "POD016957",
+      "descripcion": "Macan Clasico 21-",
+      "bodega": "Benjamin de Rothschild & Vega Sicilia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·F·A"
+    },
+    {
+      "pod": "POD014428",
+      "descripcion": "Macan 20-",
+      "bodega": "Benjamin de Rothschild & Vega Sicilia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·F·A"
+    },
+    {
+      "pod": "POD012811",
+      "descripcion": "Abadia Retuerta Seleccion Especial-",
+      "bodega": "Abadía Retuerta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·G·D"
+    },
+    {
+      "pod": "POD016966",
+      "descripcion": "Vega Sicilia Unico 15-",
+      "bodega": "Vega Sicilia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·G·A"
+    },
+    {
+      "pod": "POD016964",
+      "descripcion": "Valbuena 5º año 20-",
+      "bodega": "Vega Sicilia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·G·A"
+    },
+    {
+      "pod": "POD018922",
+      "descripcion": "Abadia Retuerta Sel Especial 21-",
+      "bodega": "Abadía Retuerta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·G·A"
+    },
+    {
+      "pod": "POD013769",
+      "descripcion": "Bosque de Matasnos Ed Limitada 19-",
+      "bodega": "Bosque de Matasnos",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·G·A"
+    },
+    {
+      "pod": "POD015674",
+      "descripcion": "Roda Reserva 22-",
+      "bodega": "Roda",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·H·A"
+    },
+    {
+      "pod": "POD015579",
+      "descripcion": "Malleolus Valderramiro 20-",
+      "bodega": "Emilio Moro",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·I·A"
+    },
+    {
+      "pod": "POD019082",
+      "descripcion": "Sanchomartin 21-",
+      "bodega": "Emilio Moro",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "1·I·A"
+    },
+    {
+      "pod": "POD016340",
+      "descripcion": "Dominio do Bibei Lacima 20-",
+      "bodega": "Dominio do Bibei",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·BASE"
+    },
+    {
+      "pod": "POD016562",
+      "descripcion": "Sangarida Pico Tuerto TO 21-",
+      "bodega": "Sangarida",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·BASE"
+    },
+    {
+      "pod": "POD018202",
+      "descripcion": "Ata Rangi Pinot Noir 21-",
+      "bodega": "Ata Rangi",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·BASE"
+    },
+    {
+      "pod": "POD016113",
+      "descripcion": "San Roman Garnacha 22-",
+      "bodega": "San Román",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·BASE"
+    },
+    {
+      "pod": "POD018201",
+      "descripcion": "Shannon Mount Bulet Merlot 20-",
+      "bodega": "Shannon Vineyards",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "1·BASE"
+    }
+  ],
+  "unmatched": [
+    {
+      "wine_text": "Picarana Dominio del Aguila",
+      "year": 2022,
+      "qty": 1,
+      "location": "1·E·D",
+      "best_score": 0.6052,
+      "best_margin": 0.0796,
+      "best_pod": "POD014777",
+      "best_desc": "Picaro del Aguila TO 22-",
+      "best_bodega": "Picaro del Aguila",
+      "best_year": 2022
+    },
+    {
+      "wine_text": "Suzanne Bodegas Bhilar",
+      "year": 2020,
+      "qty": 1,
+      "location": "1·F·D",
+      "best_score": 0.3045,
+      "best_margin": 0.0043,
+      "best_pod": "POD016263",
+      "best_desc": "Mg Cartago 19-",
+      "best_bodega": "Bodegas Mauro",
+      "best_year": 2019
+    },
+    {
+      "wine_text": "Suzanne Bodegas Bhilar",
+      "year": 2020,
+      "qty": 1,
+      "location": "1·F·A",
+      "best_score": 0.3045,
+      "best_margin": 0.0043,
+      "best_pod": "POD016263",
+      "best_desc": "Mg Cartago 19-",
+      "best_bodega": "Bodegas Mauro",
+      "best_year": 2019
+    },
+    {
+      "wine_text": "Hacienda del Marques Reserva",
+      "year": 2020,
+      "qty": 1,
+      "location": "1·G·D",
+      "best_score": 0.5119,
+      "best_margin": 0.0076,
+      "best_pod": "POD014241",
+      "best_desc": "Hacienda Monasterio Rva 20-",
+      "best_bodega": "Hacienda Monasterio",
+      "best_year": 2020
+    },
+    {
+      "wine_text": "Hacienda del Marques Reserva",
+      "year": 2020,
+      "qty": 1,
+      "location": "1·G·A",
+      "best_score": 0.5119,
+      "best_margin": 0.0076,
+      "best_pod": "POD014241",
+      "best_desc": "Hacienda Monasterio Rva 20-",
+      "best_bodega": "Hacienda Monasterio",
+      "best_year": 2020
+    },
+    {
+      "wine_text": "Bodegas Lan Reserva",
+      "year": 2021,
+      "qty": 1,
+      "location": "1·H·D",
+      "best_score": 0.4582,
+      "best_margin": 0.0141,
+      "best_pod": "POD016112",
+      "best_desc": "Mg Mauro VS 21-",
+      "best_bodega": "Bodegas Mauro",
+      "best_year": 2021
+    },
+    {
+      "wine_text": "Bodegas Lan Reserva",
+      "year": 2021,
+      "qty": 1,
+      "location": "1·I·D",
+      "best_score": 0.4582,
+      "best_margin": 0.0141,
+      "best_pod": "POD016112",
+      "best_desc": "Mg Mauro VS 21-",
+      "best_bodega": "Bodegas Mauro",
+      "best_year": 2021
+    },
+    {
+      "wine_text": "Malleolus Emilio Moro",
+      "year": 2021,
+      "qty": 1,
+      "location": "1·I·A",
+      "best_score": 0.6574,
+      "best_margin": 0.1717,
+      "best_pod": "POD015579",
+      "best_desc": "Malleolus Valderramiro 20-",
+      "best_bodega": "Emilio Moro",
+      "best_year": 2020
+    }
+  ],
+  "paths": {
+    "db": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+    "source_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava1_manual_source.csv",
+    "report_json": "/Users/0xmanel/cava-metropolis/reports/spa_cava1_import_report.json",
+    "report_unmatched_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava1_import_unmatched.csv"
+  },
+  "thresholds": {
+    "SCORE_MIN": 0.78,
+    "MARGIN_MIN": 0.06,
+    "HARD_MIN": 0.9
+  },
+  "location_convention": "1·<BALDA>·A (atrás) | 1·<BALDA>·D (frente) | 1·BASE",
+  "unmatched_reasons": {
+    "low_confidence_or_ambiguous": 8
+  }
+}

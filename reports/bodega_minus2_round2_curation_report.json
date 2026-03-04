@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-02-26T03:24:08.411394+00:00",
+  "input_rows": 172,
+  "config_entries": 73,
+  "updated_rows": 73,
+  "matched_entries": 73,
+  "missing_entries": [],
+  "output_csv": "/Users/0xmanel/cava-metropolis/reports/bodega_minus2_dossier_one_by_one_curated_v2.csv",
+  "output_data_csv": "/Users/0xmanel/cava-metropolis/data/vinhos_para_analise_bodega_minus2_curado_v2.csv"
+}

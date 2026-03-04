@@ -1,0 +1,65 @@
+[TEMP] Charmes-Chambertin (Grand Cru) 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0045|—
+[TEMP] Morey-Saint-Denis ‘La Rue de Vergy’ 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0046|—
+[TEMP] Meursault BL-|Borgoña|Chardonnay|Botella (75cl)|—|—|POD_TEMP_BM2_0047|—
+[TEMP] Chambolle-Musigny 1er Cru Les Amoureuses TO-|Borgoña|Pinot Noir|Botella (75cl)|—|—|POD_TEMP_BM2_0048|—
+[TEMP] Vosne-Romanée 1er Cru Les Suchots 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0049|—
+[TEMP] Vosne-Romanée 1er Cru Les Suchots 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0050|—
+[TEMP] Bourgogne 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0051|—
+[TEMP] Chambolle-Musigny 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0052|—
+[TEMP] Nuits-Saint-Georges ‘Les Charmois’ 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0053|—
+[TEMP] Romanée-Saint-Vivant (Grand Cru) 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0054|—
+[TEMP] Vosne-Romanée 1er Cru Les Suchots 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0055|—
+[TEMP] Vosne-Romanée 1er Cru Malconsorts 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0056|—
+[TEMP] Santenay ‘Maladière’ 23-|Borgoña|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0057|—
+[TEMP] Bourgogne 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0058|—
+[TEMP] Clos de Vougeot 15-|Borgoña|Pinot Noir|Botella (75cl)|2015|—|POD_TEMP_BM2_0059|—
+[TEMP] Vosne-Romanée 1er Cru Les Chaumes 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0060|—
+[TEMP] Chambertin Clos de Bèze (Grand Cru) 18-|Borgoña|Pinot Noir|Botella (75cl)|2018|—|POD_TEMP_BM2_0061|—
+[TEMP] Volnay 1er Cru Pitures 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0062|—
+[TEMP] Latricières-Chambertin (Grand Cru) 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|—|POD_TEMP_BM2_0063|—
+[TEMP] Vin de France 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0064|—
+[TEMP] Nuits-Saint-Georges 1er Cru Aux Perdrix 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0065|—
+[TEMP] Nuits-Saint-Georges 1er Cru Aux Perdrix 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0066|—
+[TEMP] Échezeaux (Grand Cru) 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|—|POD_TEMP_BM2_0067|—
+[TEMP] Langhe Nebbiolo ‘Rivata’ 23-|Itália (Piemonte, Langhe)|Nebbiolo|Botella (75cl)|2023|—|POD_TEMP_BM2_0068|—
+[TEMP] Barbaresco ‘Rabajà’ 20-|Itália (Piemonte, Barbaresco)|Nebbiolo|Botella (75cl)|2020|—|POD_TEMP_BM2_0069|—
+[TEMP] Arulej ‘Controcorrente’ 23-|Itália (Piemonte)|Nebbiolo|Botella (75cl)|2023|—|POD_TEMP_BM2_0070|—
+[TEMP] Brunello di Montalcino 19-|Itália (Toscana)|Sangiovese|Botella (75cl)|2019|—|POD_TEMP_BM2_0071|—
+[TEMP] Barbera d’Alba 22-|Itália (Piemonte)|Barbera|Botella (75cl)|2022|—|POD_TEMP_BM2_0072|—
+[TEMP] Bolgheri 19-|Itália (Toscana)|Cabernet Sauvignon|Botella (75cl)|2019|—|POD_TEMP_BM2_0073|—
+[TEMP] Bolgheri 21-|Itália (Toscana)|Cabernet Sauvignon|Botella (75cl)|2021|—|POD_TEMP_BM2_0074|—
+[TEMP] Bolgheri 22-|Itália (Toscana)|Cabernet Sauvignon|Botella (75cl)|2022|—|POD_TEMP_BM2_0075|—
+[TEMP] Sancerre ‘Silex’ 22-|França (Loira)|Sauvignon Blanc|Botella (75cl)|2022|—|POD_TEMP_BM2_0076|—
+[TEMP] Châteauneuf-du-Pape 23-|França (Ródano Sul)|Grenache|Botella (75cl)|2023|—|POD_TEMP_BM2_0077|—
+[TEMP] Côte-Rôtie ‘Champin le Seigneur’ 22-|França (Ródano Norte)|Syrah|Botella (75cl)|2022|—|POD_TEMP_BM2_0078|—
+[TEMP] Côte-Rôtie ‘Les Grandes Places’ 22-|França (Ródano Norte)|Syrah|Botella (75cl)|2022|—|POD_TEMP_BM2_0079|—
+[TEMP] Blanc 20-|França (Borgoña, Pouilly-Fuissé)|Chardonnay|Botella (75cl)|2020|—|POD_TEMP_BM2_0080|—
+[TEMP] L’Oeillet (Le Litre) BL-|França (Alsácia)|Provável Sylvaner|Botella (75cl)|—|—|POD_TEMP_BM2_0081|—
+[TEMP] Guardoilvento 22-|Itália (Sicília)|Carricante|Botella (75cl)|2022|—|POD_TEMP_BM2_0082|—
+[TEMP] Blanc 22-|França (Bordeaux)|Sauvignon Blanc|Botella (75cl)|2022|—|POD_TEMP_BM2_0083|—
+[TEMP] Blanc 18-|França|Chenin Blanc|Botella (75cl)|2018|—|POD_TEMP_BM2_0084|—
+[TEMP] Foglio 1 23-|Itália (Vêneto)|Garganega|Botella (75cl)|2023|—|POD_TEMP_BM2_0085|—
+[TEMP] Hermitage Blanc 17-|França (Ródano Norte)|Marsanne|Botella (75cl)|2017|—|POD_TEMP_BM2_0086|—
+[TEMP] Blanc 17-|França (Loira)|Chenin Blanc|Botella (75cl)|2017|—|POD_TEMP_BM2_0087|—
+[TEMP] Fiano di Avellino ‘Campore Riserva’ 19-|Itália (Campânia)|Fiano|Botella (75cl)|2019|—|POD_TEMP_BM2_0088|—
+[TEMP] Hermitage Blanc 22-|França (Ródano Norte)|Marsanne|Botella (75cl)|2022|—|POD_TEMP_BM2_0089|—
+[TEMP] Calderara Sottana (Blanc) 23-|Itália (Sicília, Etna Bianco)|Carricante|Botella (75cl)|2023|—|POD_TEMP_BM2_0090|—
+[TEMP] Pinot Noir 22-|Estados Unidos (Oregon)|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0091|—
+[TEMP] Chardonnay 21-|Estados Unidos (California)|Chardonnay|Botella (75cl)|2021|—|POD_TEMP_BM2_0092|—
+[TEMP] Chardonnay – Sonoma County 22-|Estados Unidos (California)|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0093|—
+[TEMP] Chardonnay 23-|Estados Unidos|Chardonnay|Botella (75cl)|2023|—|POD_TEMP_BM2_0094|—
+[TEMP] Chardonnay 22-|Estados Unidos|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0095|—
+[TEMP] Pinot Noir 22-|Estados Unidos|Pinot Noir|Botella (75cl)|2022|—|POD_TEMP_BM2_0096|—
+[TEMP] TD-9 Cabernet Sauvignon – Napa Valley 21-|Estados Unidos (California, Napa)|Cabernet Sauvignon|Botella (75cl)|2021|—|POD_TEMP_BM2_0097|—
+[TEMP] Testa dei Cherubini Grenache 24-|Estados Unidos (California)|Grenache|Botella (75cl)|2024|—|POD_TEMP_BM2_0098|—
+[TEMP] 1900 – Pinotage 20-|África do Sul|Pinotage|Botella (75cl)|2020|—|POD_TEMP_BM2_0099|—
+[TEMP] Chardonnay 22-|Estados Unidos/África do Sul|Chardonnay|Botella (75cl)|2022|—|POD_TEMP_BM2_0100|—
+[TEMP] Napa Valley 15-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2015|—|POD_TEMP_BM2_0101|—
+[TEMP] Napa Valley 16-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2016|—|POD_TEMP_BM2_0102|—
+[TEMP] Napa Valley 18-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2018|—|POD_TEMP_BM2_0103|—
+[TEMP] Napa Valley 19-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2019|—|POD_TEMP_BM2_0104|—
+[TEMP] La Rinconada Vineyard – Lompoc, CA 19-|Estados Unidos (California)|Pinot Noir|Botella (75cl)|2019|—|POD_TEMP_BM2_0105|—
+[TEMP] La Rinconada Vineyard – Lompoc, CA 20-|Estados Unidos (California)|Pinot Noir|Botella (75cl)|2020|—|POD_TEMP_BM2_0106|—
+[TEMP] Cabernet Sauvignon – Oakville, Napa Valley 19-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2019|—|POD_TEMP_BM2_0107|—
+[TEMP] Cabernet Sauvignon – Oakville, Napa Valley 21-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2021|—|POD_TEMP_BM2_0108|—
+[TEMP] Mount Bullet – South Africa 20-|África do Sul|Merlot|Botella (75cl)|2020|—|POD_TEMP_BM2_0109|—

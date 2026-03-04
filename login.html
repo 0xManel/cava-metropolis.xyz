@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - STOCK Cava</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #08080b;
+            --glass-bg: rgba(35, 35, 40, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.25);
+            --text-main: #FDFBF7;
+            --text-muted: #C8BEAE;
+            --gold-accent: #D4AF37;
+            --gold-light: #F3E5AB;
+            --field-bg: rgba(255, 255, 255, 0.1);
+            --field-border: rgba(255, 255, 255, 0.22);
+            --field-border-strong: rgba(255, 255, 255, 0.34);
+            --field-focus-ring: rgba(212, 175, 55, 0.3);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+            --transition-smooth: all 0.4s ease;
+            --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        body.light-mode {
+            --bg-color: #FDFBF7;
+            --glass-bg: rgba(255, 255, 255, 0.8);
+            --glass-border: rgba(212, 175, 55, 0.4);
+            --text-main: #1A1A1A;
+            --text-muted: #5B554A;
+            --gold-accent: #B8860B;
+            --gold-light: #D4AF37;
+            --field-bg: rgba(244, 239, 228, 0.95);
+            --field-border: rgba(131, 99, 24, 0.38);
+            --field-border-strong: rgba(131, 99, 24, 0.55);
+            --field-focus-ring: rgba(184, 134, 11, 0.26);
+            --field-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            transition: background-color 0.8s ease, color 0.8s ease;
+            line-height: 1.4;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        input, button, select, textarea {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        @keyframes fadeSlideUp {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeSlideDown {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes neonPulse {
+            0%, 100% {
+                box-shadow:
+                    0 0 10px rgba(212, 175, 55, 0.35),
+                    0 0 24px rgba(212, 175, 55, 0.28),
+                    0 0 44px rgba(184, 134, 11, 0.18);
+            }
+            50% {
+                box-shadow:
+                    0 0 14px rgba(243, 229, 171, 0.45),
+                    0 0 34px rgba(212, 175, 55, 0.4),
+                    0 0 58px rgba(184, 134, 11, 0.3);
+            }
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px; right: 20px;
+            width: 80px; height: 40px;
+            border-radius: 20px;
+            background: transparent;
+            border: 1px solid var(--glass-border);
+            cursor: pointer;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            overflow: hidden;
+            padding: 0;
+            transition: all 0.3s ease;
+            animation: fadeSlideDown 0.55s ease-out 0.08s both;
+        }
+
+        .top-left-actions {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .theme-toggle:hover {
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+            transform: scale(1.05);
+        }
+
+        #toggleCanvas { width: 100%; height: 100%; display: block; }
+
+        .lang-container {
+            position: relative;
+            z-index: 1;
+            font-family: 'Montserrat', sans-serif;
+            animation: fadeSlideDown 0.55s ease-out both;
+        }
+
+        .lang-btn {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            width: 80px; height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: center; gap: 4px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .lang-btn:hover {
+            border-color: var(--gold-accent);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 120%; left: 0;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            overflow: hidden;
+            opacity: 0; visibility: hidden;
+            transform: translateY(-10px);
+            transition: var(--transition-smooth);
+            backdrop-filter: blur(15px);
+            min-width: 100px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .lang-container:hover .lang-dropdown {
+            opacity: 1; visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: flex; align-items: center; gap: 10px;
+            padding: 12px 20px;
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+            cursor: pointer;
+        }
+
+        .lang-option:hover { background: rgba(212, 175, 55, 0.1); }
+
+        .login-container {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2.45rem 1.65rem;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            text-align: center;
+            width: 90%;
+            max-width: 382px;
+            animation: fadeSlideUp 0.8s ease-out both;
+            z-index: 10;
+            will-change: transform, opacity;
+        }
+
+        .theme-toggle,
+        .lang-container {
+            will-change: transform, opacity;
+        }
+
+        .brand {
+            margin-bottom: 1.2rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .brand-logo-wrap {
+            position: relative;
+            width: 140px;
+            height: 140px;
+            border-radius: 31px;
+            padding: 8px;
+            isolation: isolate;
+            animation: neonPulse 2.2s ease-in-out infinite;
+        }
+
+        .brand-logo-wrap::before {
+            content: '';
+            position: absolute;
+            inset: -6px;
+            border-radius: 34px;
+            background: conic-gradient(
+                from 0deg,
+                rgba(212, 175, 55, 0.08),
+                rgba(243, 229, 171, 0.5),
+                rgba(212, 175, 55, 0.15),
+                rgba(184, 134, 11, 0.45),
+                rgba(212, 175, 55, 0.08)
+            );
+            padding: 2px;
+            z-index: -1;
+            -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+            -webkit-mask-composite: xor;
+            mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+            mask-composite: exclude;
+        }
+
+        .brand-logo-wrap::after {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border-radius: 33px;
+            border: 1px solid rgba(243, 229, 171, 0.28);
+            box-shadow:
+                0 0 16px rgba(212, 175, 55, 0.35),
+                0 0 30px rgba(212, 175, 55, 0.2);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .brand-logo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 23px;
+            border: 1px solid rgba(212, 175, 55, 0.45);
+            background: rgba(8, 8, 11, 0.65);
+        }
+
+        .login-subtitle {
+            color: var(--text-muted);
+            font-size: 0.96rem;
+            line-height: 1.35;
+            margin-bottom: 1.4rem;
+        }
+
+        .input-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: var(--field-bg);
+            border: 1px solid var(--field-border);
+            border-radius: 10px;
+            color: var(--text-main);
+            font-size: 1.02rem;
+            line-height: 1.3;
+            outline: none;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+        }
+
+        .input-group input:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .input-group input::placeholder {
+            color: var(--text-muted);
+            opacity: 0.95;
+        }
+
+        .input-group input:focus {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+        }
+
+        .input-group input:focus-visible {
+            outline: none;
+        }
+
+        .establishment-picker {
+            margin-bottom: 1.2rem;
+            text-align: left;
+        }
+
+        .establishment-toggle {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: var(--field-bg);
+            border: 1px solid var(--field-border);
+            border-radius: 10px;
+            color: var(--text-main);
+            font-size: 1.02rem;
+            text-align: left;
+            cursor: pointer;
+            box-shadow: var(--field-shadow);
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .establishment-toggle:hover {
+            border-color: var(--field-border-strong);
+        }
+
+        .establishment-toggle:focus,
+        .establishment-toggle.active {
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), var(--field-shadow);
+            outline: none;
+        }
+
+        .establishment-arrow {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            transition: transform 0.25s ease;
+        }
+
+        .establishment-toggle.active .establishment-arrow {
+            transform: rotate(180deg);
+        }
+
+        .establishment-options {
+            margin-top: 0.45rem;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 10px;
+            background: rgba(20, 20, 24, 0.95);
+            overflow: hidden;
+        }
+
+        .establishment-option {
+            width: 100%;
+            border: none;
+            background: transparent;
+            color: var(--text-main);
+            padding: 0.75rem 1rem;
+            text-align: left;
+            cursor: pointer;
+            transition: background 0.2s ease;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.98rem;
+        }
+
+        .establishment-option:hover {
+            background: rgba(212, 175, 55, 0.16);
+        }
+
+        .login-button {
+            background: var(--gold-accent);
+            color: var(--bg-color);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-bounce);
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .login-button:hover {
+            background: var(--gold-light);
+            transform: translateY(-3px);
+        }
+
+        .login-button:active {
+            transform: translateY(0);
+        }
+
+        .remember-access {
+            margin: 0.6rem 0 0.2rem;
+            text-align: left;
+        }
+
+        .remember-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .remember-label input {
+            width: 16px;
+            height: 16px;
+            accent-color: var(--gold-accent);
+            cursor: pointer;
+        }
+
+        .login-feedback {
+            min-height: 1.2rem;
+            margin-top: 0.85rem;
+            font-size: 0.9rem;
+            line-height: 1.35;
+            color: var(--text-muted);
+        }
+
+        .login-feedback.error {
+            color: #ff7f7f;
+        }
+
+        .login-feedback.success {
+            color: #57C25B;
+        }
+
+        .theme-toggle:focus-visible,
+        .lang-btn:focus-visible,
+        .login-button:focus-visible,
+        .establishment-toggle:focus-visible,
+        .establishment-option:focus-visible {
+            outline: none;
+            border-color: var(--gold-accent);
+            box-shadow: 0 0 0 3px var(--field-focus-ring), 0 0 16px rgba(212, 175, 55, 0.22);
+        }
+
+        #particleCanvas {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .app-signature {
+            position: fixed;
+            left: 50%;
+            bottom: max(10px, env(safe-area-inset-bottom));
+            transform: translateX(-50%);
+            z-index: 1;
+            pointer-events: none;
+            user-select: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: clamp(0.62rem, 1.6vw, 0.78rem);
+            letter-spacing: 0.16em;
+            color: var(--text-muted);
+            opacity: 0.24;
+            text-transform: lowercase;
+            white-space: nowrap;
+            text-shadow: 0 0 14px rgba(212, 175, 55, 0.12);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .theme-toggle,
+            .lang-container,
+            .login-container,
+            .brand-logo-wrap {
+                animation: none !important;
+            }
+            .theme-toggle,
+            .lang-btn,
+            .lang-option,
+            .establishment-toggle,
+            .establishment-arrow,
+            .establishment-option,
+            .login-button,
+            .input-group input {
+                transition: none !important;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .theme-toggle { top: 15px; right: 15px; }
+            .top-left-actions { top: 15px; left: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    <div class="top-left-actions">
+        <div class="lang-container">
+            <button class="lang-btn" id="currentLangBtn">ES</button>
+            <div class="lang-dropdown">
+                <div class="lang-option" onclick="setLanguage('es')"><span>🇪🇸</span> Español</div>
+                <div class="lang-option" onclick="setLanguage('en')"><span>🇬🇧</span> English</div>
+                <div class="lang-option" onclick="setLanguage('pt')"><span>🇧🇷</span> Português</div>
+            </div>
+        </div>
+    </div>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+        <canvas id="toggleCanvas"></canvas>
+    </button>
+
+    <div class="login-container">
+        <div class="brand" aria-label="Marca">
+            <div class="brand-logo-wrap">
+                <img class="brand-logo" src="imgs/icon-512.png" alt="Stock Cava" width="140" height="140">
+            </div>
+        </div>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username" data-translate="userLabel">Usuario</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password" data-translate="passLabel">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="remember-access">
+                <label class="remember-label" for="rememberAccess">
+                    <input type="checkbox" id="rememberAccess" name="rememberAccess">
+                    <span data-translate="rememberLabel">Mantener acceso en este dispositivo</span>
+                </label>
+            </div>
+            <button type="submit" class="login-button" data-translate="loginBtn">Iniciar sesión</button>
+            <p id="loginFeedback" class="login-feedback"></p>
+        </form>
+    </div>
+
+    <div class="app-signature" aria-hidden="true">stockcava@2026</div>
+
+    <script>
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.color = 'rgba(212, 175, 55, ' + (Math.random() * 0.5 + 0.2) + ')';
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                if (this.size > 0.2) this.size -= 0.01;
+            }
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            particles = [];
+            for (let i = 0; i < 100; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+
+                if (particles[i].size <= 0.2) {
+                    particles.splice(i, 1);
+                    particles.push(new Particle());
+                    i--;
+                }
+            }
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+        init();
+        animate();
+
+        const translations = {
+            es: {
+                btnLabel: 'ES',
+                subtitle: 'Prueba local antes de la integración con la búsqueda',
+                userLabel: 'Usuario',
+                passLabel: 'Contraseña',
+                establishmentPlaceholder: 'Restaurante',
+                rememberLabel: 'Mantener acceso en este dispositivo',
+                loginBtn: 'Entrar',
+                feedbackMissingCredentials: 'Completa usuario y contraseña para continuar.',
+                feedbackMissingEstablishment: 'Selecciona un restaurante para continuar.',
+                feedbackInvalidCredentials: 'Usuario o contraseña inválidos. Solicita registro al Admin Master.',
+                feedbackTooManyAttempts: 'Demasiados intentos. Espera unos minutos y vuelve a probar.',
+                feedbackApiUnavailable: 'API de autenticación no disponible en este entorno.',
+                feedbackServerError: 'No fue posible conectar con el servidor de login.',
+                feedbackSuccess: 'Login realizado. Redirigiendo…'
+            },
+            en: {
+                btnLabel: 'EN',
+                subtitle: 'Local preview before integrating with search',
+                userLabel: 'Username',
+                passLabel: 'Password',
+                establishmentPlaceholder: 'Restaurant',
+                rememberLabel: 'Keep me signed in on this device',
+                loginBtn: 'Enter',
+                feedbackMissingCredentials: 'Fill in username and password to continue.',
+                feedbackMissingEstablishment: 'Select a restaurant to continue.',
+                feedbackInvalidCredentials: 'Invalid username or password. Ask Admin Master to register your account.',
+                feedbackTooManyAttempts: 'Too many attempts. Wait a few minutes and try again.',
+                feedbackApiUnavailable: 'Authentication API is not available in this environment.',
+                feedbackServerError: 'Could not connect to the login server.',
+                feedbackSuccess: 'Login successful. Redirecting…'
+            },
+            pt: {
+                btnLabel: 'PT',
+                subtitle: 'Prova local antes da integração com a busca',
+                userLabel: 'Usuário',
+                passLabel: 'Senha',
+                establishmentPlaceholder: 'Restaurante',
+                rememberLabel: 'Manter acesso neste dispositivo',
+                loginBtn: 'Entrar',
+                feedbackMissingCredentials: 'Preenche usuário e senha para continuar.',
+                feedbackMissingEstablishment: 'Seleciona um restaurante para continuar.',
+                feedbackInvalidCredentials: 'Usuário ou senha inválidos. Solicita cadastro ao Admin Master.',
+                feedbackTooManyAttempts: 'Muitas tentativas. Aguarda alguns minutos e tenta novamente.',
+                feedbackApiUnavailable: 'API de autenticação não disponível neste ambiente.',
+                feedbackServerError: 'Não foi possível conectar ao servidor de login.',
+                feedbackSuccess: 'Login efetuado. A redirecionar…'
+            }
+        };
+        const SUPPORTED_LANGS = Object.freeze(['es', 'en', 'pt']);
+
+        function normalizeLangCode(lang) {
+            return SUPPORTED_LANGS.includes(lang) ? lang : 'es';
+        }
+
+        function getTranslationPack(lang) {
+            return translations[normalizeLangCode(lang)] || translations.es;
+        }
+
+        let currentLang = 'es';
+
+        function setLanguage(lang) {
+            const safeLang = normalizeLangCode(lang);
+            currentLang = safeLang;
+            const t = getTranslationPack(safeLang);
+            document.documentElement.lang = safeLang;
+            document.getElementById('currentLangBtn').textContent = t.btnLabel;
+
+            document.querySelectorAll('[data-translate]').forEach((element) => {
+                const key = element.getAttribute('data-translate');
+                const fallbackText = getTranslationPack('es')[key];
+                const text = t[key] ?? fallbackText;
+                if (text) element.textContent = text;
+            });
+
+            const currentEstablishmentValue = document.getElementById('establishmentValue');
+            const currentEstablishmentLabel = document.getElementById('establishmentLabel');
+            if (currentEstablishmentValue && currentEstablishmentLabel && !currentEstablishmentValue.value) {
+                currentEstablishmentLabel.textContent = t.establishmentPlaceholder;
+            }
+
+            localStorage.setItem('cava_login_lang', safeLang);
+        }
+
+        window.setLanguage = setLanguage;
+
+        // Always start in Spanish by default; user may switch language from selector.
+        setLanguage('es');
+
+        const themeToggle = document.getElementById('themeToggle');
+        const toggleCanvas = document.getElementById('toggleCanvas');
+        const tCtx = toggleCanvas.getContext('2d');
+        toggleCanvas.width = 80;
+        toggleCanvas.height = 40;
+
+        let isDark = true;
+        let toggleProgress = 1;
+        const lerp = (a, b, t) => a + (b - a) * t;
+
+        function drawToggle() {
+            const w = toggleCanvas.width, h = toggleCanvas.height;
+            tCtx.clearRect(0, 0, w, h);
+
+            const r = lerp(96, 30, toggleProgress);
+            const g = lerp(165, 27, toggleProgress);
+            const b = lerp(250, 75, toggleProgress);
+            tCtx.fillStyle = `rgb(${r},${g},${b})`;
+            tCtx.beginPath();
+            tCtx.roundRect(0, 0, w, h, 20);
+            tCtx.fill();
+
+            if (toggleProgress > 0.1) {
+                tCtx.fillStyle = `rgba(255,255,255,${toggleProgress})`;
+                [{x:20,y:10},{x:40,y:30},{x:15,y:30},{x:50,y:10}].forEach(s => {
+                    tCtx.beginPath(); tCtx.arc(s.x, s.y, 1.5, 0, Math.PI*2); tCtx.fill();
+                });
+            }
+
+            const cloudOp = Math.max(0, 1 - toggleProgress * 2);
+            if (cloudOp > 0) {
+                tCtx.fillStyle = `rgba(255,255,255,${cloudOp * 0.8})`;
+                tCtx.beginPath();
+                tCtx.arc(50,30,8,0,Math.PI*2); tCtx.arc(60,35,10,0,Math.PI*2); tCtx.arc(70,30,8,0,Math.PI*2);
+                tCtx.fill();
+            }
+
+            const cx = lerp(20, w-20, toggleProgress), cy = h/2, rad = 14;
+            const ar = lerp(251,226,toggleProgress), ag = lerp(191,232,toggleProgress), ab = lerp(36,240,toggleProgress);
+            tCtx.fillStyle = `rgb(${ar},${ag},${ab})`;
+            tCtx.shadowBlur = 10;
+            tCtx.shadowColor = `rgba(${ar},${ag},${ab},0.5)`;
+            tCtx.beginPath(); tCtx.arc(cx, cy, rad, 0, Math.PI*2); tCtx.fill();
+            tCtx.shadowBlur = 0;
+
+            if (toggleProgress > 0.1) {
+                const maskOff = lerp(rad*2, 6, toggleProgress);
+                tCtx.fillStyle = `rgb(${r},${g},${b})`;
+                tCtx.beginPath(); tCtx.arc(cx - maskOff, cy - 2, rad, 0, Math.PI*2); tCtx.fill();
+            }
+
+            const rayOp = Math.max(0, 1 - toggleProgress * 3);
+            if (rayOp > 0) {
+                tCtx.strokeStyle = `rgba(251,191,36,${rayOp})`;
+                tCtx.lineWidth = 2; tCtx.lineCap = 'round';
+                for (let i = 0; i < 6; i++) {
+                    const angle = (i * Math.PI * 2) / 6 + (toggleProgress * 2);
+                    tCtx.beginPath();
+                    tCtx.moveTo(cx + Math.cos(angle)*(rad+3), cy + Math.sin(angle)*(rad+3));
+                    tCtx.lineTo(cx + Math.cos(angle)*(rad+7), cy + Math.sin(angle)*(rad+7));
+                    tCtx.stroke();
+                }
+            }
+
+            const target = isDark ? 1 : 0;
+            if (Math.abs(toggleProgress - target) > 0.001) {
+                toggleProgress += (target - toggleProgress) * 0.1;
+                requestAnimationFrame(drawToggle);
+            }
+        }
+
+        themeToggle.addEventListener('click', () => {
+            isDark = !isDark;
+            document.body.classList.toggle('light-mode');
+            drawToggle();
+        });
+
+        drawToggle();
+
+        const loginForm = document.getElementById('loginForm');
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        const rememberAccessInput = document.getElementById('rememberAccess');
+        const loginFeedback = document.getElementById('loginFeedback');
+
+        const persistentAccessKey = 'cava_login_persistent_access';
+        const persistentUserKey = 'cava_login_persistent_user';
+        const persistentEstablishmentKey = 'cava_login_persistent_establishment';
+        const persistentRoleKey = 'cava_login_persistent_role';
+        const persistentScopeKey = 'cava_login_persistent_scope';
+
+        const sessionAuthFlagKey = 'cava_login_demo';
+        const sessionUserKey = 'cava_login_user';
+        const sessionEstablishmentKey = 'cava_login_establishment';
+        const sessionRoleKey = 'cava_login_role';
+        const sessionScopeKey = 'cava_login_scope';
+        const EST_KEYS = ['bodega', 'spa', 'tasca_fina', 'victoria', 'galeria'];
+        const AUTH_LOGIN_ENDPOINT = '/api/auth-login';
+        const AUTH_SESSION_ENDPOINT = '/api/auth-session';
+        const LOCAL_USER_REGISTRY_KEYS = ['cava_user_registry_local_v1', 'cava_user_registry_v1'];
+        const OWNER_USER = '0xManel';
+        const OWNER_HASH_SHA256 = 'de08d7ca5a74474bc5b8b70c94220cfaab7277f7fc249944cfaf16a70126255b';
+        const OWNER_FALLBACK_PASSWORD = 'Tqne1501';
+        const JIMMY_USER = 'Jimmy';
+        const JIMMY_HASH_SHA256 = 'e131ff474c6f65ccfb7e0b99ec24dfbd65a66ec337140b0e5b3b1acb771c7b50';
+        const DAVI_USER = 'Davi';
+        const DAVI_HASH_SHA256 = '722e52e8c25f1b66712f4e12e71da24b92792bd674307bb56cbf509b6bd36618';
+        const PROTECTED_ADMINMASTER_USERNAMES = new Set([
+            normalizeUsername(OWNER_USER),
+            normalizeUsername(JIMMY_USER),
+            normalizeUsername(DAVI_USER)
+        ]);
+
+        function isSha256Hex(value) {
+            return /^[a-f0-9]{64}$/i.test(String(value || '').trim());
+        }
+
+        async function sha256Hex(value) {
+            const input = String(value || '');
+            if (window.crypto && window.crypto.subtle) {
+                const digest = await window.crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));
+                return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+            }
+            return '';
+        }
+
+        function normalizeUsername(value) {
+            return String(value || '').trim().toLowerCase();
+        }
+
+        function isProtectedAdminmasterUsername(value) {
+            return PROTECTED_ADMINMASTER_USERNAMES.has(normalizeUsername(value));
+        }
+
+        function getProtectedAdminmasterSeed(normalizedUsername) {
+            if (normalizedUsername === normalizeUsername(OWNER_USER)) {
+                return {
+                    username: OWNER_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: OWNER_HASH_SHA256
+                };
+            }
+            if (normalizedUsername === normalizeUsername(JIMMY_USER)) {
+                return {
+                    username: JIMMY_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: JIMMY_HASH_SHA256
+                };
+            }
+            if (normalizedUsername === normalizeUsername(DAVI_USER)) {
+                return {
+                    username: DAVI_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: DAVI_HASH_SHA256
+                };
+            }
+            return null;
+        }
+
+        function getLocalUsersRaw() {
+            for (const key of LOCAL_USER_REGISTRY_KEYS) {
+                try {
+                    const raw = localStorage.getItem(key);
+                    if (!raw) continue;
+                    const parsed = JSON.parse(raw);
+                    if (Array.isArray(parsed)) return parsed;
+                } catch {}
+            }
+            return [];
+        }
+
+        function ensureProtectedAdminmastersInLocalUsers(list) {
+            const users = Array.isArray(list) ? list.filter(Boolean) : [];
+            [normalizeUsername(OWNER_USER), normalizeUsername(JIMMY_USER), normalizeUsername(DAVI_USER)].forEach((protectedUsername) => {
+                const idx = users.findIndex((entry) => normalizeUsername(entry.username) === protectedUsername);
+                const seed = getProtectedAdminmasterSeed(protectedUsername);
+                if (!seed) return;
+                const seededHash = isSha256Hex(users[idx]?.password_hash)
+                    ? String(users[idx].password_hash).toLowerCase()
+                    : seed.password_hash;
+                const normalizedSeed = { ...seed, password_hash: seededHash };
+                if (idx >= 0) {
+                    users[idx] = { ...users[idx], ...normalizedSeed };
+                } else {
+                    users.unshift(normalizedSeed);
+                }
+            });
+            return users;
+        }
+
+        function readLocalUsers() {
+            const rawList = getLocalUsersRaw();
+            const sanitized = [];
+            const seen = new Set();
+            rawList.forEach((entry) => {
+                if (!entry || typeof entry !== 'object') return;
+                const username = String(entry.username || '').trim();
+                const normalized = normalizeUsername(username);
+                if (!normalized || seen.has(normalized)) return;
+                seen.add(normalized);
+                const role = normalizeRole(entry.role) || 'user';
+                const scope = normalizeScope(entry.scope) || 'spa';
+                const hash = String(entry.password_hash || entry.passwordHash || '').trim();
+                const legacyPassword = String(entry.password || '').trim();
+                const isProtected = isProtectedAdminmasterUsername(normalized);
+                sanitized.push({
+                    username: username || normalized,
+                    role: isProtected ? 'adminmaster' : (role === 'adminmaster' ? 'admin' : role),
+                    scope: isProtected ? 'all' : (scope === 'all' ? 'spa' : scope),
+                    password_hash: isSha256Hex(hash) ? hash.toLowerCase() : '',
+                    password: legacyPassword || ''
+                });
+            });
+            return ensureProtectedAdminmastersInLocalUsers(sanitized);
+        }
+
+        function writeLocalUsers(list) {
+            const safe = ensureProtectedAdminmastersInLocalUsers(list).map((entry) => {
+                const normalized = normalizeUsername(entry.username);
+                const roleValue = normalizeRole(entry.role) || 'user';
+                const scopeValue = normalizeScope(entry.scope) || 'spa';
+                const isProtected = isProtectedAdminmasterUsername(normalized);
+                return {
+                    username: String(entry.username || '').trim(),
+                    role: isProtected ? 'adminmaster' : (roleValue === 'adminmaster' ? 'admin' : roleValue),
+                    scope: isProtected ? 'all' : (scopeValue === 'all' ? 'spa' : scopeValue),
+                    password_hash: isSha256Hex(entry.password_hash) ? String(entry.password_hash).toLowerCase() : ''
+                };
+            });
+            localStorage.setItem(LOCAL_USER_REGISTRY_KEYS[0], JSON.stringify(safe));
+        }
+
+        function setFeedback(message, type = '') {
+            loginFeedback.textContent = message;
+            loginFeedback.className = 'login-feedback';
+            if (type) {
+                loginFeedback.classList.add(type);
+            }
+        }
+
+        function resolveLoginErrorMessage(errorCode) {
+            if (errorCode === 'too_many_attempts') return translations[currentLang].feedbackTooManyAttempts;
+            if (errorCode === 'origin_forbidden') return translations[currentLang].feedbackServerError;
+            if (errorCode === 'missing_session_secret') return translations[currentLang].feedbackServerError;
+            if (errorCode === 'method_not_allowed') return translations[currentLang].feedbackServerError;
+            return translations[currentLang].feedbackInvalidCredentials;
+        }
+
+        function normalizeEstablishment(value) {
+            const normalized = (value || '').trim().toLowerCase();
+            return EST_KEYS.includes(normalized) ? normalized : null;
+        }
+
+        function normalizeScope(value) {
+            const normalized = (value || '').trim().toLowerCase();
+            return EST_KEYS.includes(normalized) || normalized === 'all' ? normalized : null;
+        }
+
+        function normalizeRole(value) {
+            const normalized = (value || '').trim().toLowerCase();
+            return ['user', 'admin', 'adminmaster'].includes(normalized) ? normalized : null;
+        }
+
+        function applyServerUserSession(user) {
+            const username = String(user?.username || '').trim();
+            const role = normalizeRole(user?.role) || 'user';
+            const scope = normalizeScope(user?.scope) || 'spa';
+            const establishment = scope === 'all'
+                ? 'todos'
+                : (EST_KEYS.includes(scope) ? scope : 'spa');
+
+            sessionStorage.setItem(sessionAuthFlagKey, 'ok');
+            sessionStorage.setItem(sessionUserKey, username);
+            sessionStorage.setItem(sessionEstablishmentKey, establishment);
+            sessionStorage.setItem(sessionRoleKey, role);
+            sessionStorage.setItem(sessionScopeKey, scope);
+
+            if (localStorage.getItem(persistentAccessKey) === '1') {
+                localStorage.setItem(persistentUserKey, username);
+                localStorage.setItem(persistentEstablishmentKey, establishment);
+                localStorage.setItem(persistentRoleKey, role);
+                localStorage.setItem(persistentScopeKey, scope);
+            }
+        }
+
+        function setRememberAccessPreference(remember) {
+            if (remember) {
+                localStorage.setItem(persistentAccessKey, '1');
+                return;
+            }
+            localStorage.removeItem(persistentAccessKey);
+            localStorage.removeItem(persistentUserKey);
+            localStorage.removeItem(persistentEstablishmentKey);
+            localStorage.removeItem(persistentRoleKey);
+            localStorage.removeItem(persistentScopeKey);
+        }
+
+        function hasAnyLocalSession() {
+            const hasSessionUser = sessionStorage.getItem(sessionAuthFlagKey) === 'ok'
+                && Boolean(String(sessionStorage.getItem(sessionUserKey) || '').trim());
+            const hasPersistent = localStorage.getItem(persistentAccessKey) === '1'
+                && Boolean(String(localStorage.getItem(persistentUserKey) || '').trim());
+            return hasSessionUser || hasPersistent;
+        }
+
+        async function cacheUserInLocalRegistry(user, password) {
+            const username = String(user?.username || '').trim();
+            if (!username || !password) return;
+            const passwordHash = await sha256Hex(password);
+            if (!isSha256Hex(passwordHash)) return;
+
+            const normalizedTarget = normalizeUsername(username);
+            const users = readLocalUsers();
+            const role = normalizeRole(user?.role) || 'user';
+            const scope = normalizeScope(user?.scope) || 'spa';
+            const nextEntry = {
+                username,
+                role: isProtectedAdminmasterUsername(normalizedTarget) ? 'adminmaster' : role,
+                scope: isProtectedAdminmasterUsername(normalizedTarget) ? 'all' : scope,
+                password_hash: passwordHash
+            };
+            const index = users.findIndex((entry) => normalizeUsername(entry.username) === normalizedTarget);
+            if (index >= 0) {
+                users[index] = { ...users[index], ...nextEntry };
+            } else {
+                users.push(nextEntry);
+            }
+            writeLocalUsers(users);
+        }
+
+        async function verifyLocalPassword(user, password) {
+            const hashedInput = await sha256Hex(password);
+            if (isSha256Hex(user?.password_hash) && hashedInput) {
+                if (String(user.password_hash).toLowerCase() === hashedInput.toLowerCase()) {
+                    return { ok: true, hashedInput };
+                }
+            }
+
+            const legacy = String(user?.password || '').trim();
+            if (legacy) {
+                if (legacy === password) return { ok: true, hashedInput };
+                if (isSha256Hex(legacy) && hashedInput && legacy.toLowerCase() === hashedInput.toLowerCase()) {
+                    return { ok: true, hashedInput };
+                }
+            }
+
+            return { ok: false, hashedInput };
+        }
+
+        async function tryLocalLogin(username, password, preferredEstablishment = null) {
+            const normalizedInput = normalizeUsername(username);
+            const users = readLocalUsers();
+            let user = users.find((entry) => normalizeUsername(entry.username) === normalizedInput) || null;
+
+            if (!user && normalizedInput === normalizeUsername(OWNER_USER) && password === OWNER_FALLBACK_PASSWORD) {
+                const hashed = await sha256Hex(password);
+                user = {
+                    username: OWNER_USER,
+                    role: 'adminmaster',
+                    scope: 'all',
+                    password_hash: isSha256Hex(hashed) ? hashed.toLowerCase() : OWNER_HASH_SHA256
+                };
+                users.unshift(user);
+                writeLocalUsers(users);
+            }
+
+            if (!user) return null;
+
+            const check = await verifyLocalPassword(user, password);
+            if (!check.ok) return null;
+
+            if (!isSha256Hex(user.password_hash) && isSha256Hex(check.hashedInput)) {
+                user.password_hash = check.hashedInput.toLowerCase();
+                const index = users.findIndex((entry) => normalizeUsername(entry.username) === normalizedInput);
+                if (index >= 0) {
+                    users[index] = { ...users[index], password_hash: user.password_hash };
+                    writeLocalUsers(users);
+                }
+            }
+
+            return {
+                username: String(user.username || username).trim(),
+                role: normalizeRole(user.role) || 'user',
+                scope: normalizeScope(user.scope) || 'spa',
+                preferredEstablishment: normalizeEstablishment(preferredEstablishment) || 'spa'
+            };
+        }
+
+        function applyLocalUserSession(localUser) {
+            if (!localUser) return;
+            const username = String(localUser.username || '').trim();
+            const role = normalizeRole(localUser.role) || 'user';
+            const scope = normalizeScope(localUser.scope) || 'spa';
+            const establishment = scope === 'all'
+                ? (normalizeEstablishment(localUser.preferredEstablishment) || 'spa')
+                : (EST_KEYS.includes(scope) ? scope : (normalizeEstablishment(localUser.preferredEstablishment) || 'spa'));
+
+            sessionStorage.setItem(sessionAuthFlagKey, 'ok');
+            sessionStorage.setItem(sessionUserKey, username);
+            sessionStorage.setItem(sessionEstablishmentKey, establishment);
+            sessionStorage.setItem(sessionRoleKey, role);
+            sessionStorage.setItem(sessionScopeKey, scope);
+
+            if (localStorage.getItem(persistentAccessKey) === '1') {
+                localStorage.setItem(persistentUserKey, username);
+                localStorage.setItem(persistentEstablishmentKey, establishment);
+                localStorage.setItem(persistentRoleKey, role);
+                localStorage.setItem(persistentScopeKey, scope);
+            }
+        }
+
+        async function syncSessionFromServer() {
+            try {
+                const response = await fetch(AUTH_SESSION_ENDPOINT, {
+                    method: 'GET',
+                    cache: 'no-store',
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (!response.ok) {
+                    if (response.status === 401) return false;
+                    return hasAnyLocalSession();
+                }
+                const payload = await response.json();
+                if (!payload?.ok || !payload?.user) return hasAnyLocalSession();
+                applyServerUserSession(payload.user);
+                return true;
+            } catch {
+                return hasAnyLocalSession();
+            }
+        }
+
+        rememberAccessInput.checked = localStorage.getItem(persistentAccessKey) === '1';
+
+
+        loginForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const username = usernameInput.value.trim();
+            const password = passwordInput.value;
+
+            if (!username || !password) {
+                setFeedback(translations[currentLang].feedbackMissingCredentials, 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch(AUTH_LOGIN_ENDPOINT, {
+                    method: 'POST',
+                    cache: 'no-store',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username,
+                        password,
+                        remember: rememberAccessInput.checked
+                    })
+                });
+
+                const contentType = String(response.headers.get('content-type') || '').toLowerCase();
+                const isJson = contentType.includes('application/json');
+                const payload = isJson ? await response.json().catch(() => ({})) : {};
+
+                if (response.ok && payload?.ok && payload?.user) {
+                    setRememberAccessPreference(rememberAccessInput.checked);
+                    applyServerUserSession(payload.user);
+                    await cacheUserInLocalRegistry(payload.user, password);
+                    setFeedback(translations[currentLang].feedbackSuccess, 'success');
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 600);
+                    return;
+                }
+
+                const shouldTryLocalFallback = response.status === 404
+                    || response.status === 405
+                    || response.status === 408
+                    || response.status === 501
+                    || response.status >= 500
+                    || !isJson;
+
+                if (shouldTryLocalFallback) {
+                    const localUser = await tryLocalLogin(username, password);
+                    if (localUser) {
+                        setRememberAccessPreference(rememberAccessInput.checked);
+                        applyLocalUserSession(localUser);
+                        setFeedback(translations[currentLang].feedbackSuccess, 'success');
+                        setTimeout(() => {
+                            window.location.href = 'index.html';
+                        }, 600);
+                        return;
+                    }
+                }
+
+                setFeedback(resolveLoginErrorMessage(payload?.error), 'error');
+            } catch {
+                const localUser = await tryLocalLogin(username, password);
+                if (localUser) {
+                    setRememberAccessPreference(rememberAccessInput.checked);
+                    applyLocalUserSession(localUser);
+                    setFeedback(translations[currentLang].feedbackSuccess, 'success');
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 600);
+                    return;
+                }
+                setFeedback(translations[currentLang].feedbackServerError, 'error');
+                return;
+            }
+        });
+
+        void (async () => {
+            const hasSession = await syncSessionFromServer();
+            if (hasSession) {
+                window.location.href = 'index.html';
+            }
+        })();
+
+        const SW_BUILD_ID = '2026-02-25-b986f476-v3';
+        if ('serviceWorker' in navigator) {
+            let swRefreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (swRefreshing) return;
+                swRefreshing = true;
+                window.location.reload();
+            });
+
+            navigator.serviceWorker
+                .register(`/sw.js?build=${encodeURIComponent(SW_BUILD_ID)}`, { updateViaCache: 'none' })
+                .then((registration) => {
+                    if (registration.waiting) {
+                        registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+                    }
+                    registration.addEventListener('updatefound', () => {
+                        const newWorker = registration.installing;
+                        if (!newWorker) return;
+                        newWorker.addEventListener('statechange', () => {
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                newWorker.postMessage({ type: 'SKIP_WAITING' });
+                            }
+                        });
+                    });
+                    registration.update().catch(() => {});
+                })
+                .catch(() => {});
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+Prieure Roch Le Clos Goillote 17-|Borgoña|Pinot Noir|Botella (75cl)|2017|4175€|POD017551|—
+Prieure Roch Le Clos Goillote 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|4650€|POD017552|—
+Prieure Roch Le Clos Goillote 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|2360€|POD017731|—
+Prieure Roch NSG Clos Corvees 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|1090€|POD010092|—
+Prieure Roch VDF Le Cloud TO 23-|Borgoña|Pinot Noir|Botella (75cl)|2022|210€|POD017735|—
+Puy LOurs Savigny Folettes 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|140€|POD018210|—
+Rebourseau Cham Clos de Beze 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|825€|POD018768|—
+Rebourseau Chambertin 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|940€|POD018764|—
+Rebourseau Gevrey 1C Fonteny 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|210€|POD018774|—
+Rebourseau Gevrey Chambertin 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|116€|POD018776|—
+Romanee Conti 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|25000€|POD010608|—
+Romanee Conti Echezeaux 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|8800€|POD010611|—
+Romanee Conti Vosne 1C Duvault Blochet 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|4500€|POD010612|—
+Romanee Conti Vosne 1C Petits Monts 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|9500€|POD010613|—
+Rossignol Trapet Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1250€|POD016242|—
+Rossignol Trapet Chapelle Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|743€|POD016241|—
+Rossignol Trapet Gevrey Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|132€|POD016239|—
+Rossignol Trapet Latricieres Cham GC 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|574€|POD011278|—
+Rossignol Trapet Latricieres Chamb 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|682€|POD010156|—
+Rossignol Trapet Latricieres Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|703€|POD016240|—
+Roty Gevrey Champs Chenys 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|140€|POD017901|—
+Rougeot Volnay 1C Santenots 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|205€|POD016560|—
+Roumier Bonnes Mares 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|3550€|POD017786|—
+Roumier Chambolle 1C Les Cras 15-|Borgoña|Pinot Noir|Botella (75cl)|2015|2150€|POD017785|—
+Roumier MSD 1C Clos Bussiere 13-|Borgoña|Pinot Noir|Botella (75cl)|2013|1140€|POD017299|—
+Rousseau Chambe Clos de Beze 05-|Borgoña|Pinot Noir|Botella (75cl)|2005|8750€|POD017548|—
+Rousseau Chambertin 17-|Borgoña|Pinot Noir|Botella (75cl)|2017|7655€|POD017557|—
+Rousseau Chambertin Clos de Beze 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|6750€|POD016415|—
+Rousseau Chambertin GC 04-|Borgoña|Pinot Noir|Botella (75cl)|2004|3360€|POD017151|—
+Rousseau Chambertin GC 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|3500€|POD017150|—
+Rousseau Chambertin-Clos de Beze GC 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|2260€|POD017147|—
+Rousseau Charmes Chambertin 08-|Borgoña|Pinot Noir|Botella (75cl)|2008|1550€|POD017791|—
+Rousseau Charmes-Chambertin GC 05-|Borgoña|Pinot Noir|Botella (75cl)|2005|2100€|POD017145|—
+Rousseau Clos de la Roche 16-|Borgoña|Pinot Noir|Botella (75cl)|2016|1880€|POD017300|—
+Rousseau Clos de la Roche GC 10-|Borgoña|Pinot Noir|Botella (75cl)|2010|1840€|POD017139|—
+Rousseau Clos des Ruchottes GC 10-|Borgoña|Pinot Noir|Botella (75cl)|2010|1575€|POD017137|—
+Rousseau Gevrey 1C Clos St Jacques 08-|Borgoña|Pinot Noir|Botella (75cl)|2008|3150€|POD017793|—
+Rousseau Gevrey Chambertin 08-|Borgoña|Pinot Noir|Botella (75cl)|2008|1335€|POD017788|—
+Rousseau Gevrey Cl St Jacques 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|3348€|POD016416|—
+Rousseau Ruchottes Chambertin 08-|Borgoña|Pinot Noir|Botella (75cl)|2008|2292€|POD017792|—
+Si Tu Sais Pernand Belle Fils 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|208€|POD018176|—
+Sylvain Cathiard 1C Aux Malconsorts 99-|Borgoña|Pinot Noir|Botella (75cl)|1999|1575€|POD017305|—
+Terres de Phileandre SLB Serpentieres 1C 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|110€|POD013338|—
+Thibault Liger Belair Clos Vougeot 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|445€|POD011406|—
+Trapet Chambertin GC 05-|Borgoña|Pinot Noir|Botella (75cl)|2005|2150€|POD017042|—
+Trapet Chambertin GC 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1925€|POD016839|—
+Trapet Chambertin GC 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|1890€|POD016840|—
+Trapet Chambertin GC 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|1890€|POD017357|—
+Trapet Chambertin GC 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1912€|POD017034|—
+Trapet Chapelle Chambertin GC 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1337€|POD017037|—
+Trapet Gevrey Chambertin 1er cru En Ergot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|375€|POD017038|—
+Trapet Latricieres Chambertin GC 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1256€|POD017036|—
+Villaine Rul Champscloux R-|Borgoña|Pinot Noir|Botella (75cl)|2021|163€|POD011642|—
+Vincent Girardin Gevrey Chambertin VV 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|179€|POD013304|—
+Vogue Bonnes Mares 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1725€|POD017375|—
+Vogue Chambolle 1er Cru 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1033€|POD017374|—
+Vogue Chambolle Amoureuses 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1690€|POD017376|—
+Vogue Chambolle Musigny 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|682€|POD017373|—
+Vogue Musigny 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|2190€|POD017377|—
+Vogue Musigny Grand Cru 2021-|Borgoña|Pinot Noir|Botella (75cl)|2021|1610€|POD013434|—
+Alter Ego 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|230€|POD017971|—
+Aromes de Pavie 22-|Burdeos|Merlot|Botella (75cl)|2022|220€|POD017966|—
+Carruades de Lafite 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|725€|POD017988|—
+Ch Angelus 22-|Burdeos|Merlot|Botella (75cl)|2022|1100€|POD018006|—
+Ch Angelus Elisabeth Bouchet GC 16-|Burdeos|Merlot|Botella (75cl)|2016|6375€|POD016288|—
+Ch Angelus Elisabeth Bouchet GC 18-|Burdeos|Merlot|Botella (75cl)|2018|2925€|POD016290|—
+Ch Angelus Elisabeth Bouchet GC 19-|Burdeos|Merlot|Botella (75cl)|2019|2450€|POD016291|—
+Ch Angelus Elisabeth Bouchet GC 20-|Burdeos|Merlot|Botella (75cl)|2020|2665€|POD016287|—
+Ch Angelus Saint Emilion 18-|Burdeos|Merlot|Botella (75cl)|2018|840€|POD008772|—
+Ch Angelus Saint Emilion 19-|Burdeos|Merlot|Botella (75cl)|2019|756€|POD010103|—
+Ch Angelus Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|687€|POD010651|—
+Ch Angelus Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|909€|POD011794|—
+Ch Ausone 09-|Burdeos|Merlot|Botella (75cl)|2009|2688€|POD009601|—
+Ch Ausone 10-|Burdeos|Merlot|Botella (75cl)|2010|3000€|POD009602|—
+Ch Ausone Saint Emilion 19-|Burdeos|Merlot|Botella (75cl)|2019|1763€|POD010104|—
+Ch Ausone Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|1824€|POD010652|—
+Ch Ausone Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|1545€|POD011854|—
+Ch Belair Monange Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|388€|POD010683|—
+Ch Belair Monange Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|357€|POD016847|—
+Ch Calon Segur Saint Estephe 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|446€|POD016357|—
+Ch Canon Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|235€|POD011145|—
+Ch Cantenac Brown 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|150€|POD017960|—
+Ch Carbonnieux 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|91€|POD017953|—
+Ch Cheval Blanc 22-|Burdeos|Merlot|Botella (75cl)|2022|1650€|POD018010|—
+Ch Cheval Blanc Saint Emilion 09-|Burdeos|Merlot|Botella (75cl)|2009|2900€|POD009604|—
+Ch Cheval Blanc Saint Emilion 16-|Burdeos|Merlot|Botella (75cl)|2016|2000€|POD007532|—
+Ch Cheval Blanc Saint Emilion 19-|Burdeos|Merlot|Botella (75cl)|2019|1650€|POD009465|—
+Ch Cheval Blanc Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|1415€|POD010654|—
+Ch Cheval Blanc Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|1168€|POD012438|—
+Ch Cheval Blanc Saint Emilion 82-|Burdeos|Merlot|Botella (75cl)|1982|3405€|POD015777|—
+Ch Cheval Blanc St Emilion 11-|Burdeos|Merlot|Botella (75cl)|2011|1365€|POD012179|—
+Ch Comtesse de Lalande 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|560€|POD017834|—
+Ch Du Glana Saint Julien 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|70€|POD016421|—
+Ch Ducru Beaucaillou 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|605€|POD017992|—
+Ch Ducru Beaucaillou 86-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1986|680€|POD016360|—
+Ch Ducru Beaucaillou Saint Julien 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|1050€|POD016361|—
+Ch Ducru Beaucaillou Saint Julien 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|441€|POD008747|—
+Ch Ducru Beaucaillou Saint Julien 90-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1990|690€|POD017143|—
+Ch Figeac Saint Emilion 09-|Burdeos|Merlot|Botella (75cl)|2009|651€|POD010904|—
+Ch Figeac Saint Emilion 10-|Burdeos|Merlot|Botella (75cl)|2010|605€|POD011069|—
+Ch Figeac Saint Emilion 19-|Burdeos|Merlot|Botella (75cl)|2019|506€|POD010102|—
+Ch Figeac Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|625€|POD010659|—
+Ch Figeac Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|496€|POD011796|—
+Ch Figeac Saint Emilion 82-|Burdeos|Merlot|Botella (75cl)|1982|1755€|POD015781|—
+Ch Haut Bailly 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|390€|POD017990|—
+Ch Haut Bailly II 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|107€|POD017954|—
+Ch Haut Bailly Pessac Leognan 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|280€|POD011822|—
+Ch Haut Bailly Pessac Leognan 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|294€|POD009286|—
+Ch Haut Brion Pessac Leognan 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|1428€|POD010109|—
+Ch Haut Brion Pessac Leognan 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|1344€|POD010663|—
+Ch Haut Brion Pessac Leognan 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|2100€|POD011802|—
+Ch Hosanna Pomerol 18-|Burdeos|Merlot|Botella (75cl)|2018|326€|POD008656|—
+Ch Hosanna Pomerol 21-|Burdeos|Merlot|Botella (75cl)|2021|320€|POD011859|—
+Ch La Conseillante 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|695€|POD017996|—
+Ch La Conseillante Pomerol 19-|Burdeos|Merlot|Botella (75cl)|2019|532€|POD009464|—
+Ch La Conseillante Pomerol 20-|Burdeos|Merlot|Botella (75cl)|2020|612€|POD010664|—
+Ch La Conseillante Pomerol 21-|Burdeos|Merlot|Botella (75cl)|2021|408€|POD011798|—
+Ch La Fleur Petrus 19-|Burdeos|Merlot|Botella (75cl)|2019|630€|POD012183|—
+Ch La Fleur Petrus Pomerol 20-|Burdeos|Merlot|Botella (75cl)|2020|580€|POD010684|—
+Ch La Gaffeliere 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|220€|POD017969|—
+Ch La Mission Haut Brion 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|835€|POD018001|—
+Ch Lafite Rothschild 03-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2003|2395€|POD016363|—
+Ch Lafite Rothschild 2000-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2000|3700€|POD011720|—
+Ch Lafite Rothschild 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|1950€|POD018017|—
+Ch Lafite Rothschild 90-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1990|2800€|POD016364|—
+Ch Lafite Rothschild Pauillac 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|1890€|POD006607|—
+Ch Lafite Rothschild Pauillac 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|1732€|POD008457|—
+Ch Lafite Rothschild Pauillac 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|1801€|POD008653|—
+Ch Lafite Rothschild Pauillac 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|1653€|POD010118|—
+Ch Lafite Rothschild Pauillac 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|1628€|POD010667|—
+Ch Lafite Rothschild Pauillac 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|1396€|POD012441|—
+Ch Lafite Rothschild Pauillac 82-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1982|10990€|POD015778|—
+Ch Lafleur Pomerol 20-|Burdeos|Merlot|Botella (75cl)|2020|3480€|POD010661|—
+Ch Lafleur Pomerol 21-|Burdeos|Merlot|Botella (75cl)|2021|2150€|POD011857|—
+Ch Lafleur Pomerol 22-|Burdeos|Merlot|Botella (75cl)|2022|487€|POD017832|—
+Ch Lascombes 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|210€|POD017967|—
+Ch Latour Pauillac 00-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2000|3300€|POD007535|—
+Ch Latour Pauillac 03-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2003|2240€|POD017182|—
+Ch Latour Pauillac 05-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2005|2300€|POD009598|—
+Ch Latour Pauillac 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|3000€|POD009599|—
+Ch Latour Pauillac 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|3350€|POD009600|—
+Ch Latour Pauillac 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|1339€|POD012303|—
+Ch Latour Pauillac 82-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1982|5635€|POD015782|—
+Ch Latour Pauillac Les Forts 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|453€|POD012304|—
+Ch Le Bon Pasteur 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|152€|POD017962|—
+Ch Leoville Barton Saint Julien 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|215€|POD010113|—
+Ch Leoville Barton Saint Julien 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|208€|POD010671|—
+Ch Leoville Las Cases 11-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2011|410€|POD011460|—
+Ch Leoville Las Cases 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|890€|POD017997|—
+Ch Leoville Las Cases Saint Julien 05-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2005|650€|POD010601|—
+Ch Leoville Les Cases Saint Julien 00-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2000|525€|POD017184|—
+Ch Leoville Les Cases Saint Julien 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|706€|POD016368|—
+Ch Leoville Les Cases Saint Julien 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|675€|POD009453|—
+Ch Leoville Les Cases Saint Julien 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|562€|POD010114|—
+Ch Leoville Les Cases Saint Julien 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|630€|POD010672|—
+Ch Leoville Les Cases Saint Julien 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|554€|POD011795|—
+Ch Leoville Les Cases Saint Julien 96-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1996|576€|POD017186|—
+Ch Leoville Poyferre Saint Julien 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|525€|POD016299|—
+Ch Leoville Poyferre Saint Julien 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|159€|POD010112|—
+Ch Leoville Poyferre Saint Julien 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|276€|POD010673|—
+Ch Les Carmes Haut Brion 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|342€|POD016369|—
+Ch Les Carmes Haut Brion 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|430€|POD017979|—
+Ch L'Evangile 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|660€|POD017995|—
+Ch Lynch Bages 18 -|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|344€|POD013846|—
+Ch Margaux 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|1785€|POD010111|—
+Ch Margaux 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|1674€|POD010675|—
+Ch Margaux 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|1240€|POD011789|—
+Ch Margaux 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|1600€|POD018012|—
+Ch Margaux 82-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1982|2950€|POD015779|—
+Ch Marquis D´Alesme 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|129€|POD017956|—
+Ch Montrose 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|580€|POD017986|—
+Ch Montrose St Estephe 05-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2005|400€|POD017174|—
+Ch Montrose St Estephe 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|382€|POD012184|—
+Ch Montrose St Estephe 96-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1996|390€|POD017171|—
+Ch Mouton Rothschild 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|1700€|POD018013|—
+Ch Mouton Rothschild Pauillac 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|1800€|POD007530|—
+Ch Mouton Rothschild Pauillac 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|1066€|POD010117|—
+Ch Mouton Rothschild Pauillac 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|1544€|POD010676|—
+Ch Mouton Rothschild Pauillac 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|1292€|POD011856|—
+Ch Mouton Rothschild Pauillac 82-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1982|2375€|POD015776|—
+Ch Nenin 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|182€|POD017964|—
+Ch Palmer 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|766€|POD011142|—
+Ch Palmer 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|935€|POD018003|—
+Ch Palmer Margaux 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|878€|POD008746|—
+Ch Palmer Margaux 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|583€|POD010110|—
+Ch Palmer Margaux 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|756€|POD011793|—
+Ch Pape Clement 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|210€|POD017968|—
+Ch Pavie 03-|Burdeos|Merlot|Botella (75cl)|2003|731€|POD016058|—
+Ch Pavie 10-|Burdeos|Merlot|Botella (75cl)|2010|850€|POD011719|—
+Ch Pavie 12-|Burdeos|Merlot|Botella (75cl)|2012|739€|POD011548|—
+Ch Pavie 16-|Burdeos|Merlot|Botella (75cl)|2016|904€|POD016373|—
+Ch Pavie Saint Emilion 00-|Burdeos|Merlot|Botella (75cl)|2000|1050€|POD016422|—
+Ch Pavie Saint Emilion 05-|Burdeos|Merlot|Botella (75cl)|2005|1010€|POD016434|—
+Ch Pavie Saint Emilion 15-|Burdeos|Merlot|Botella (75cl)|2015|775€|POD011549|—
+Ch Pavie Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|781€|POD010665|—
+Ch Pavie Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|721€|POD011858|—
+Ch Peby Faugueres Saint Emilion 18-|Burdeos|Merlot|Botella (75cl)|2018|220€|POD008532|—
+Ch Peby Faugueres Saint Emilion 21-|Burdeos|Merlot|Botella (75cl)|2021|248€|POD012443|—
+Ch Phelan Segur 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|140€|POD017958|—
+Ch Pichon Baron 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|440€|POD017984|—
+Ch Pichon Baron Longueville Pauillac 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|372€|POD009470|—
+Ch Pichon Baron Longueville Pauillac 20|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|326€|POD010678|—
+Ch Pichon Baron Longueville Pauillac 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|336€|POD013030|—
+Ch Pichon Comtesse Lalande Pauillac 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|331€|POD009469|—
+Ch Pichon Comtesse Lalande Pauillac 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|491€|POD010655|—
+Ch Pichon Comtesse Lalande Pauillac 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|465€|POD011790|—
+Ch Pontet Canet 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|325€|POD017975|—
+Ch Pontet Canet Pauillac 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|465€|POD016374|—
+Ch Pontet Canet Pauillac 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|455€|POD008773|—
+Ch Rauzan Segla 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|424€|POD010931|—
+Ch Rauzan Segla 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|393€|POD010932|—
+Ch Rauzan Segla 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|300€|POD017974|—
+Ch Rocheyron 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|210€|POD012352|—
+Ch Rocheyron Saint Emilion 20-|Burdeos|Merlot|Botella (75cl)|2020|240€|POD009932|—
+Ch Smith Haut Lafite 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|830€|POD016919|—
+Ch Smith Haut Lafite TO 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|371€|POD017980|—
+Ch Talbot Saint Julien 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|145€|POD016284|—
+Ch Troplong Mondot 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|320€|POD017978|—
+Ch Trotanoy Pomerol 21-|Burdeos|Merlot|Botella (75cl)|2021|588€|POD016850|—
+Ch Valandraud 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|294€|POD016378|—
+Ch. Angelus 1ºCru 10-|Burdeos|Merlot|Botella (75cl)|2010|1200€|POD004213|—
+Ch. Angelus 1ºCru 17-|Burdeos|Merlot|Botella (75cl)|2017|735€|POD008405|—
+Ch. Ausone 2017-|Burdeos|Merlot|Botella (75cl)|2017|1470€|POD008401|—
+Ch. Belair-Monangue 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|336€|POD008511|—
+Ch. Belair-Monangue 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|304€|POD008780|—
+Ch. Cheval Blanc 1ºCru. 14-|Burdeos|Merlot|Botella (75cl)|2014|1860€|POD004220|—
+Ch. Cheval Blanc 1ºCru. 15-|Burdeos|Merlot|Botella (75cl)|2015|1963€|POD006618|—
+Ch. Cheval Blanc 1ºCru. 17-|Burdeos|Merlot|Botella (75cl)|2017|1575€|POD008400|—
+Ch. Cheval Blanc 1ºCru. 18-|Burdeos|Merlot|Botella (75cl)|2018|1300€|POD008654|—
+Ch. Cheval Blanc 1ºCru. 19-|Burdeos|Merlot|Botella (75cl)|2019|1500€|POD_TEMP_1048|—
+Ch. Cheval Blanc 1ºCru. 98-|Burdeos|Merlot|Botella (75cl)|1998|3265€|POD016515|—
+Ch. Haut Brion 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|2273€|POD006645|—
+Ch. Haut Brion 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|1250€|POD008582|—
+Ch. La Conseillante 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|436€|POD008748|—
+Ch. Lafite Rothschild 12-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2012|1764€|POD011132|—
+Ch. Latour 96-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1996|3100€|POD009345|—
+Ch. Latour 99-|Burdeos|Cabernet Sauvignon|Botella (75cl)|1999|3000€|POD009344|—
+Ch. Margaux 1ºCru. 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|3100€|POD006614|—
+Ch. Margaux 1ºCru. 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|1700€|POD016293|—
+Ch. Margaux 1ºCru. 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|1260€|POD008402|—
+Ch. Mouton Rothschild 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|2730€|POD006647|—
+Ch. Mouton Rothschild 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|1950€|POD006648|—
+Ch. Mouton Rothschild 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|1750€|POD004263|—
+Ch. Mouton Rothschild 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|1134€|POD008399|—
+Ch. Palmer 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|930€|POD008154|—
+Ch. Palmer 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|698€|POD008382|—
+Ch. Pavie 14-|Burdeos|Merlot|Botella (75cl)|2014|682€|POD013849|—
+Ch. Pavie 17-|Burdeos|Merlot|Botella (75cl)|2017|762€|POD013850|—
+Ch. Pavie 18-|Burdeos|Merlot|Botella (75cl)|2018|819€|POD013851|—
+Ch. Pavie 20-|Burdeos|Merlot|Botella (75cl)|2020|710€|POD_TEMP_1049|—
+Ch. Pavie 21-|Burdeos|Merlot|Botella (75cl)|2021|650€|POD_TEMP_1050|—
+Ch. Potensac 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|78€|POD017952|—
+Ch. Trotanoy 16-|Burdeos|Merlot|Botella (75cl)|2016|504€|POD007939|—
+Ch. Trotanoy 18-|Burdeos|Merlot|Botella (75cl)|2018|682€|POD008788|—
+Clos du Clocher Pomerol 19-|Burdeos|Merlot|Botella (75cl)|2019|162€|POD010105|—
+Clos Du Clocher Pomerol 21-|Burdeos|Merlot|Botella (75cl)|2021|126€|POD012440|—
+Clos Fourtet 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|310€|POD016383|—
+Clos Fourtet 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|261€|POD016285|—
+Clos Fourtet Saint Emilion GC Classe 19-|Burdeos|Merlot|Botella (75cl)|2019|287€|POD_TEMP_1051|—
+Cos D´Estournel Saint Estephe 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|439€|POD011855|—
+Cos D'Estournel 10-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2010|650€|POD007220|—
+Cos D'Estournel 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|472€|POD008383|—
+Cos d'Estournel Saint Estephe 09-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2009|785€|POD011819|—
+Cos d'Estournel Saint Estephe 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|475€|POD010119|—
+Cos d'Estournel Saint Estephe 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|522€|POD010656|—
+Cos D'Estournel TO 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|598€|POD017993|—
+D. Chevalier 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|165€|POD006617|—
+Doble Mg Cheval Blanc 09-|Burdeos|Merlot|Doble Magnum (300cl)|2009|16675€|POD013564|—
+Domaine de Chevalier TO 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|210€|POD017965|—
+La Clarence de Haut-Brion 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|290€|POD008777|—
+La Clarence de Haut-Brion 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|455€|POD017837|—
+La Croix Ducru Beaucaillou 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|129€|POD017957|—
+La Mision Haut Brion 13-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2013|1102€|POD002407|—
+La Mision Haut Brion 14-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2014|1137€|POD004309|—
+La Mision Haut Brion 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|1030€|POD007209|—
+La Mision Haut Brion 17-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2017|945€|POD008353|—
+La Mision Haut Brion Pessac Leognan 18-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2018|750€|POD008745|—
+La Mision Haut Brion Pessac Leognan 20-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2020|730€|POD010666|—
+La Mision Haut Brion Pessac Leognan 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|788€|POD011791|—
+Le Carillon d´Angelus 22-|Burdeos|Merlot|Botella (75cl)|2022|310€|POD017976|—
+Le Clarence de Haut Brion 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|501€|POD_TEMP_1052|—
+Le Clarence de Haut Brion Pessac 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|289€|POD009474|—
+Le Clarence de Haut Brion Pessac 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|426€|POD011803|—
+Le Petit Mouton 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|590€|POD017989|—
+Le Pin 19-|Burdeos|Merlot|Botella (75cl)|2019|9900€|POD013257|—
+Le Pin 20-|Burdeos|Merlot|Botella (75cl)|2020|10230€|POD013258|—
+Le Pin 2018-|Burdeos|Merlot|Botella (75cl)|2018|5400€|POD008655|—
+Le Pin 21-|Burdeos|Merlot|Botella (75cl)|2021|10450€|POD013259|—
+Les Carmes Haut Brion Pessac Leognan 19-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2019|224€|POD010108|—
+Les Carmes Haut Brion Pessac Leognan 21-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|178€|POD012439|—
+Les Forts de Latour Pauillac 00-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2000|500€|POD017157|—
+Les Forts de Latour Pauillac 15-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2015|578€|POD016294|—
+Les Forts de Latour Pauillac 16-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2016|569€|POD009826|—
+Les Pagodes de Cos Saint Estephe-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2021|143€|POD011800|—
+Les Pagodes de Cos Saint Estephe 22-|Burdeos|Cabernet Sauvignon|Botella (75cl)|2022|145€|POD017959|—
+Mg Ch Angelus Elisabeth Bouchet GC 18-|Burdeos|Merlot|Magnum (150cl)|2018|6375€|POD016289|—
+Mg Ch Lafite Rothschild Pauillac 19-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2019|190€|POD010326|—
+Mg Ch Lafite Rothschild Pauillac 20-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2020|190€|POD011137|—
+Mg Ch Leoville Les Cases Saint Julien 09-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2009|1680€|POD016391|—
+Mg Ch Lynch Bages 10-|Burdeos|Cabernet Sauvignon|Magnum (150cl)|2010|1188€|POD009446|—

@@ -1,0 +1,12 @@
+{
+  "input_file": "reports/cata_lote_21.txt",
+  "catalog_file": "data/bodega_webapp.json",
+  "rows_input": 61,
+  "matched": 61,
+  "updated": 1,
+  "unmatched": 0,
+  "touched_pods_count": 1,
+  "touched_pods_preview": [
+    "POD_TEMP_BM2_0030"
+  ]
+}

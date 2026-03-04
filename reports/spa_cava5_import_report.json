@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-03-01T16:57:18.965778+00:00",
+  "mode": "apply",
+  "manual_rows_total": 35,
+  "manual_qty_total": 53,
+  "matched_rows": 33,
+  "matched_unique_pods": 29,
+  "unmatched_rows": 2,
+  "updated_entries_count": 29,
+  "updated_entries": [
+    {
+      "pod": "POD002086",
+      "descripcion": "Krug Grande Cuvée 172 edition",
+      "bodega": "Krug",
+      "rows_count": 3,
+      "qty_manual_total": 3,
+      "location_before_count": 2,
+      "location_after_count": 2,
+      "location_after": "5·C·A / 5·C·D"
+    },
+    {
+      "pod": "POD013155",
+      "descripcion": "Larmandier-Bernier Longitude BdB-",
+      "bodega": "Larmandier-Bernier",
+      "rows_count": 2,
+      "qty_manual_total": 3,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "5·B·A / 5·B·D"
+    },
+    {
+      "pod": "POD010183",
+      "descripcion": "Andre Heucq H60 Meunier Brut Nature-",
+      "bodega": "André Heucq",
+      "rows_count": 2,
+      "qty_manual_total": 3,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·D·A"
+    },
+    {
+      "pod": "POD018554",
+      "descripcion": "Louis Roederer Cristal 16-",
+      "bodega": "Louis Roederer",
+      "rows_count": 1,
+      "qty_manual_total": 3,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·A·A"
+    },
+    {
+      "pod": "POD012837",
+      "descripcion": "Louis Roederer Collection -",
+      "bodega": "Louis Roederer",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·A·A"
+    },
+    {
+      "pod": "POD012107",
+      "descripcion": "L. Roederer Cristal Rose 14-",
+      "bodega": "Louis Roederer",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·A·D"
+    },
+    {
+      "pod": "POD018727",
+      "descripcion": "Famille Moutard Les Perrieres-",
+      "bodega": "Famille Moutard",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·A·D"
+    },
+    {
+      "pod": "POD019694",
+      "descripcion": "Pol Roger S Winston Churchill 18-",
+      "bodega": "Pol Roger",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·A·D"
+    },
+    {
+      "pod": "POD008371",
+      "descripcion": "Jacques Lassaigne Colline Inspiree BdB-",
+      "bodega": "Jacques Lassaigne",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·A·D"
+    },
+    {
+      "pod": "POD013154",
+      "descripcion": "Laherte Frères Ultradition-",
+      "bodega": "Laherte Freres",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·C·A"
+    },
+    {
+      "pod": "POD016735",
+      "descripcion": "Laherte Frères Petit Meslier-",
+      "bodega": "Laherte Frères",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·C·A"
+    },
+    {
+      "pod": "POD004851",
+      "descripcion": "Jacques Selosse V.O.-",
+      "bodega": "Jacques Selosse",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·C·D"
+    },
+    {
+      "pod": "POD017666",
+      "descripcion": "L Briant Trois Clochers 18-",
+      "bodega": "Leclerc Briant",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·C·D"
+    },
+    {
+      "pod": "POD_TEMP_1036",
+      "descripcion": "Leclerc-Briant Espumoso 2018",
+      "bodega": "Leclerc-Briant",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·C·D"
+    },
+    {
+      "pod": "POD017053",
+      "descripcion": "Benoit Lahaye Blanc de Noirs-",
+      "bodega": "Benoit Lahaye",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·D·A"
+    },
+    {
+      "pod": "POD013145",
+      "descripcion": "Jacquesson 747 Extra-Brut-",
+      "bodega": "Jacquesson",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·D·D"
+    },
+    {
+      "pod": "POD019077",
+      "descripcion": "Bereche et Fils Rive Gauche 21-",
+      "bodega": "Bereche et Fils",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "5·D·D"
+    },
+    {
+      "pod": "POD004085",
+      "descripcion": "Bereche et Fils Brut Reserve-",
+      "bodega": "Bereche et Fils",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·D·D"
+    },
+    {
+      "pod": "POD019070",
+      "descripcion": "Lassaigne Clos St Sophie Rose 20-",
+      "bodega": "Jacques Lassaigne",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "5·E·A"
+    },
+    {
+      "pod": "POD002035",
+      "descripcion": "Bollinger Special Cuvee Brut-",
+      "bodega": "Bollinger",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·E·D"
+    },
+    {
+      "pod": "POD019002",
+      "descripcion": "Pierre Peters L'Esprit GC 20-",
+      "bodega": "Pierre Peters",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·E·D"
+    },
+    {
+      "pod": "POD002128",
+      "descripcion": "Jacques Selosse Rose-",
+      "bodega": "Jacques Selosse",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·F·A"
+    },
+    {
+      "pod": "POD013979",
+      "descripcion": "Dom Ruinart Rosé 09-",
+      "bodega": "Ruinart",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·F·D"
+    },
+    {
+      "pod": "POD002088",
+      "descripcion": "Krug Rose-",
+      "bodega": "Krug",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·F·D"
+    },
+    {
+      "pod": "POD002032",
+      "descripcion": "Billecart Salmon Rose-",
+      "bodega": "Billecart-Salmon",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·F·D"
+    },
+    {
+      "pod": "POD004484",
+      "descripcion": "Gosset Grande Reserve-",
+      "bodega": "Gosset",
+      "rows_count": 1,
+      "qty_manual_total": 7,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·BASE"
+    },
+    {
+      "pod": "POD002031",
+      "descripcion": "Billecart Salmon Brut Reserve-",
+      "bodega": "Billecart-Salmon",
+      "rows_count": 1,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·BASE"
+    },
+    {
+      "pod": "POD017361",
+      "descripcion": "Raventos i Blanc De la Finca 21-",
+      "bodega": "Raventós i Blanc",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "5·BASE"
+    },
+    {
+      "pod": "POD010182",
+      "descripcion": "Andre Heucq Heritage Meunier Brut Nature-",
+      "bodega": "André Heucq",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "5·BASE"
+    }
+  ],
+  "unmatched": [
+    {
+      "wine_text": "Tarlant",
+      "year": null,
+      "qty": 1,
+      "location": "5·B·A",
+      "best_score": 0.3339,
+      "best_margin": 0.0,
+      "best_pod": "POD014977",
+      "best_desc": "Terlan Quartz 22-",
+      "best_bodega": "Terlan",
+      "best_year": 2022
+    },
+    {
+      "wine_text": "Christophe Mignon",
+      "year": null,
+      "qty": 1,
+      "location": "5·F·D",
+      "best_score": 0.32,
+      "best_margin": 0.0139,
+      "best_pod": "POD012352",
+      "best_desc": "Ch Rocheyron 21-",
+      "best_bodega": "Château Rocheyron",
+      "best_year": 2021
+    }
+  ],
+  "paths": {
+    "db": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+    "source_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava5_manual_source.csv",
+    "report_json": "/Users/0xmanel/cava-metropolis/reports/spa_cava5_import_report.json",
+    "report_unmatched_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava5_import_unmatched.csv"
+  },
+  "thresholds": {
+    "SCORE_MIN": 0.78,
+    "MARGIN_MIN": 0.06,
+    "HARD_MIN": 0.9
+  },
+  "location_convention": "5·<BALDA>·A (atrás) | 5·<BALDA>·D (frente) | 5·BASE",
+  "unmatched_reasons": {
+    "low_confidence_or_ambiguous": 2
+  }
+}

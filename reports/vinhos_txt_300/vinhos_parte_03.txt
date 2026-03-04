@@ -1,0 +1,300 @@
+Recaredo Serral del Vell Brut 18-|Cava|Macabeo|Botella (75cl)|2018|93€|POD012794|—
+Recaredo Terrers 20-|Cava|Macabeo|Botella (75cl)|2020|62€|POD018655|—
+Recaredo Turo D'en Mota 11-|Cava|Macabeo|Botella (75cl)|2011|217€|POD017758|—
+Torello 225 Brut 18-|Cava|Macabeo|Botella (75cl)|2018|54€|POD013635|—
+Izar Leku 19-|Getariako Txakolina|Hondarribi Zuri|Botella (75cl)|2019|63€|POD019668|—
+Racines Sparkling Grand Reserve NV|California|Chardonnay|Botella (75cl)|NV|139€|POD016401|—
+#N/D|Champagne|Pinot Noir|Botella (75cl)|NV|135€|POD018988|—
+#N/D|Champagne|Pinot Noir|Botella (75cl)|2005|242€|POD019063|—
+Agrapart 7 Crus-|Champagne|Pinot Noir|Botella (75cl)|NV|119€|POD013028|—
+Andre Heucq H60 Meunier Brut Nature-|Champagne|Pinot Noir|Botella (75cl)|2016|312€|POD010183|—
+Andre Heucq Heritage Meunier Brut Nature-|Champagne|Pinot Noir|Botella (75cl)|NV|90€|POD010182|—
+Belle Epoque 14-|Champagne|Pinot Noir|Botella (75cl)|2014|331€|POD014768|—
+Benoit Lahaye Blanc de Noirs-|Champagne|Pinot Noir|Botella (75cl)|NV|129€|POD017053|—
+Benoit Lahaye Brut Nature-|Champagne|Pinot Noir|Botella (75cl)|NV|100€|POD010150|—
+Bereche et Fils Brut Reserve-|Champagne|Pinot Noir|Botella (75cl)|NV|118€|POD004085|—
+Bereche et Fils Rive Gauche 21-|Champagne|Pinot Noir|Botella (75cl)|2021|185€|POD019077|—
+Billecart Salmon Brut Reserve-|Champagne|Pinot Noir|Botella (75cl)|NV|98€|POD002031|—
+Billecart Salmon Rose-|Champagne|Pinot Noir|Botella (75cl)|NV|134€|POD002032|—
+Bollinger La Grande Annee 15-|Champagne|Pinot Noir|Botella (75cl)|2015|434€|POD012899|—
+Bollinger RD 08-|Champagne|Pinot Noir|Botella (75cl)|2008|605€|POD012076|—
+Bollinger Special Cuvee Brut-|Champagne|Pinot Noir|Botella (75cl)|NV|124€|POD002035|—
+Clandestin Sembables Austral 22-|Champagne|Pinot Noir|Botella (75cl)|2022|132€|POD019073|—
+Doble Mg Pol Roger S Winston Churchill 13-|Champagne|Pinot Noir|Doble Magnum (300cl)|2013|3150€|POD013388|—
+Dom Perignon 15-|Champagne|Pinot Noir|Botella (75cl)|2015|398€|POD013971|—
+Dom Perignon P2 04-|Champagne|Pinot Noir|Botella (75cl)|2004|1200€|POD009978|—
+Dom Perignon Rose 09-|Champagne|Pinot Noir|Botella (75cl)|2009|754€|POD013977|—
+Dom Ruinart Rosé 09-|Champagne|Pinot Noir|Botella (75cl)|2009|651€|POD013979|—
+Doquet Le Mesnil 12-|Champagne|Pinot Noir|Botella (75cl)|2012|279€|POD019066|—
+Egly Ouriet Brut-|Champagne|Chardonnay|Botella (75cl)|NV|186€|POD009795|—
+Famille Moutard Les Perrieres-|Champagne|Pinot Noir|Botella (75cl)|NV|152€|POD018727|—
+Fleury Cuvee Robert 13-|Champagne|Pinot Noir|Botella (75cl)|2013|181€|POD012310|—
+George Laval Les Chenes 1C Brut Nature 20-|Champagne|Pinot Noir|Botella (75cl)|2020|506€|POD015841|—
+George Laval Les Hautes Chevres BdN 19-|Champagne|Pinot Noir|Botella (75cl)|2019|517€|POD015840|—
+Gosset Celebris 12 Extra Brut-|Champagne|Pinot Noir|Botella (75cl)|2012|464€|POD018335|—
+Gosset Grand Rose-|Champagne|Pinot Noir|Botella (75cl)|NV|173€|POD008951|—
+Gosset Grande Reserve-|Champagne|Pinot Noir|Botella (75cl)|NV|133€|POD004484|—
+Hure Freres Invitation-|Champagne|Pinot Noir|Botella (75cl)|NV|86€|POD019645|—
+Jacques Lassaigne Colline Inspiree BdB-|Champagne|Pinot Noir|Botella (75cl)|NV|245€|POD008371|—
+Jacques Lassaigne Vignes Montgueux BdB-|Champagne|Pinot Noir|Botella (75cl)|NV|145€|POD002077|—
+Jacques Selosse Les Carelles-|Champagne|Chardonnay|Botella (75cl)|NV|982€|POD019001|—
+Jacques Selosse Millesime 12-|Champagne|Chardonnay|Botella (75cl)|2012|1375€|POD019075|—
+Jacques Selosse Rose-|Champagne|Chardonnay|Botella (75cl)|NV|1302€|POD002128|—
+Jacques Selosse V.O.-|Champagne|Chardonnay|Botella (75cl)|NV|734€|POD004851|—
+Jacquesson 747 Extra-Brut-|Champagne|Pinot Noir|Botella (75cl)|NV|142€|POD013145|—
+Jaques Selosse Substance BdB-|Champagne|Chardonnay|Botella (75cl)|NV|1025€|POD002079|—
+Krug Grande Cuvée 172 edition|Champagne|Pinot Noir|Botella (75cl)|NV|465€|POD002086|—
+Krug Rose-|Champagne|Pinot Noir|Botella (75cl)|NV|827€|POD002088|—
+L Briant Blanc de Meunier 16-|Champagne|Pinot Noir|Botella (75cl)|2016|270€|POD017664|—
+L Briant Les Basses Prieres 18-|Champagne|Pinot Noir|Botella (75cl)|2018|300€|POD017665|—
+L Briant Les Monts Ferres 18-|Champagne|Pinot Noir|Botella (75cl)|2018|362€|POD017667|—
+L Briant Trois Clochers 18-|Champagne|Pinot Noir|Botella (75cl)|2018|310€|POD017666|—
+L. Roederer Cristal Rose 14-|Champagne|Pinot Noir|Botella (75cl)|2014|1023€|POD012107|—
+Laherte BdN Brut Nature-|Champagne|Pinot Noir|Botella (75cl)|NV|93€|POD011308|—
+Laherte Frères Petit Meslier-|Champagne|Pinot Noir|Botella (75cl)|NV|207€|POD016735|—
+Laherte Frères Ultradition-|Champagne|Pinot Noir|Botella (75cl)|NV|68€|POD013154|—
+Laherte Rose Meunier-|Champagne|Pinot Noir|Botella (75cl)|NV|98€|POD011307|—
+Larmandier Bernier Chemins Avize 16-|Champagne|Pinot Noir|Botella (75cl)|2016|258€|POD015842|—
+Larmandier Bernier VV du Levant BdB 13-|Champagne|Pinot Noir|Botella (75cl)|2013|330€|POD012120|—
+Larmandier Bernier VV du Levant BdB 14-|Champagne|Pinot Noir|Botella (75cl)|2014|418€|POD012122|—
+Larmandier-Bernier Longitude BdB-|Champagne|Pinot Noir|Botella (75cl)|NV|127€|POD013155|—
+Lassaigne Clos St Sophie Rose 20-|Champagne|Pinot Noir|Botella (75cl)|NV|370€|POD019070|—
+Lassaigne Millesime 10-|Champagne|Pinot Noir|Botella (75cl)|2010|398€|POD016067|—
+Leclerc Briant Millesime 19-|Champagne|Pinot Noir|Botella (75cl)|2019|171€|POD017662|—
+Louis Roederer Collection -|Champagne|Pinot Noir|Botella (75cl)|NV|119€|POD012837|—
+Louis Roederer Cristal 16-|Champagne|Pinot Noir|Botella (75cl)|2016|572€|POD018554|—
+Mg Pol Roger S Winston Churchill 15-|Champagne|Pinot Noir|Magnum (150cl)|2015|979€|POD013390|—
+Mg Salon BdB 13-|Champagne|Pinot Noir|Magnum (150cl)|2013|3625€|POD015611|—
+Pascal Doquet Anthocyanes 1C Rose-|Champagne|Pinot Noir|Botella (75cl)|NV|109€|POD007215|—
+Philipponnat Clos des Goisses 15 Extra Brut-|Champagne|Pinot Noir|Botella (75cl)|2015|570€|POD016804|—
+Pierre Peters Les Chetillons BdB 17 Brut-|Champagne|Pinot Noir|Botella (75cl)|2017|283€|POD019004|—
+Pierre Peters L'Esprit GC 20-|Champagne|Pinot Noir|Botella (75cl)|2020|161€|POD019002|—
+Pol Roger Brut Reserve-|Champagne|Pinot Noir|Botella (75cl)|NV|120€|POD019720|—
+Pol Roger S Winston Churchill 15-|Champagne|Pinot Noir|Botella (75cl)|2015|497€|POD013393|—
+Pol Roger S Winston Churchill 18-|Champagne|Pinot Noir|Botella (75cl)|2018|491€|POD019694|—
+Ruinart Blanc de Blancs-|Champagne|Chardonnay|Botella (75cl)|NV|145€|POD002122|—
+Ruinart Rose-|Champagne|Pinot Noir|Botella (75cl)|NV|145€|POD002123|—
+Salon Blanc de Blancs 13-|Champagne|Chardonnay|Botella (75cl)|2013|1653€|POD011007|—
+Suenen C+C BdB-|Champagne|Pinot Noir|Botella (75cl)|NV|173€|POD008864|—
+Taittinger Comtes de Champagne 13-|Champagne|Pinot Noir|Botella (75cl)|2013|550€|POD015878|—
+Taittinger Comtes de Champagne 14-|Champagne|Pinot Noir|Botella (75cl)|2014|500€|POD018863|—
+Ulysse Collin Les Maillons 20-|Champagne|Pinot Noir|Botella (75cl)|2020|309€|POD018621|—
+Vouette et Sorbee Fidele BdN Brut Nature-|Champagne|Pinot Noir|Botella (75cl)|NV|181€|POD009915|—
+Mestres Espumoso 2013|Cava|Macabeo|Botella (75cl)|2013|138€|POD_TEMP_1034|—
+Jacques Selosse Espumoso 2011|Champagne|Chardonnay|Botella (75cl)|2011|1250€|POD_TEMP_1035|—
+Leclerc-Briant Espumoso 2018|Champagne|Pinot Noir|Botella (75cl)|2018|330€|POD_TEMP_1036|—
+Arroyuelo Fino en Rama-|Jerez|Palomino|Botella (75cl)|NV|47€|POD019781|—
+Emilio Hidalgo Amontillado Fino Tresillo-|Jerez|Palomino|Botella (75cl)|NV|109€|POD016047|—
+Emilio Hidalgo Fino La Panesa-|Jerez|Palomino|Botella (75cl)|NV|62€|POD016043|—
+Emilio Hidalgo Oloroso Villapanes-|Jerez|Palomino|Botella (75cl)|NV|60€|POD016046|—
+Emilio Hidalgo Palo Cortado M. Rodil-|Jerez|Palomino|Botella (75cl)|NV|79€|POD016049|—
+La Riva Manzanilla Miraflores-|Jerez|Palomino|Botella (75cl)|(en blanco)|37€|POD019677|—
+Maruja Manzanilla en rama-|Jerez|Palomino|Botella (75cl)|NV|50€|POD019780|—
+Santa Petronila Amontillado-|Jerez|Palomino|Media botella (37,5cl)|NV|63€|POD010891|—
+Santa Petronila Flor Macharnudo-|Jerez|Palomino|Media botella (50cl)|NV|32€|POD010889|—
+Tradicion Amontillado-|Jerez|Palomino|Botella (75cl)|NV|109€|POD002172|—
+Tradicion Fino-|Jerez|Palomino|Botella (75cl)|NV|60€|POD000400|—
+Tradicion Oloroso-|Jerez|Palomino|Botella (75cl)|NV|104€|POD002175|—
+Tradicion Palo Cortado 30-|Jerez|Palomino|Botella (75cl)|NV|169€|POD001012|—
+Viña Corrales Fino Saca-|Jerez|Palomino|Botella (75cl)|NV|70€|POD008480|—
+Wellington Palo Cortado VOS-|Manzanilla|Palomino|Botella (75cl)|NV|109€|POD019782|—
+Fondillon Brotons 64-|Comunidad Valenciana|Monastrell|Botella (75cl)|1964|120€|POD009234|—
+Recondita Armonia 1987-|Comunidad Valenciana|Monastrell|Botella (75cl)|1987|145€|POD009398|—
+Graham´s Tawny 10 años-|Douro|Touriga Nacional|Botella (75cl)|NV|68€|POD019785|—
+Graham´s Tawny 20 años-|Douro|Touriga Nacional|Botella (75cl)|NV|139€|POD019786|—
+Graham´s Tawny 40 años-|Douro|Touriga Nacional|Botella (75cl)|NV|299€|POD019787|—
+Graham's LBV 17-|Douro|Touriga Nacional|Botella (75cl)|NV|37€|POD015337|—
+Niepoort 20-|Douro|Touriga Nacional|Botella (75cl)|NV|150€|POD014686|—
+Niepoort Vintage 22-|Douro|Touriga Nacional|Botella (75cl)|2022|155€|POD013279|—
+Niepport LBV-|Douro|Touriga Nacional|Botella (75cl)|2020|44€|POD014685|—
+Noval Colheita 1997 Old Tawny Port-|Douro|Touriga Nacional|Botella (75cl)|1997|245€|POD019783|—
+Noval Tawny 10-|Douro|Touriga Nacional|Botella (75cl)|NV|57€|POD002559|—
+Noval Vintage Port 2008-|Douro|Touriga Nacional|Botella (75cl)|2008|179€|POD019784|—
+Quinta da Corte Tawny 20 años-|Douro|Touriga Nacional|Botella (75cl)|NV|92€|POD019775|—
+Quinta das Carvalhas 07-|Douro|Touriga Nacional|Botella (75cl)|2007|94€|POD019670|—
+Quinta do Infantado Tawny 10 Years Old-|Douro|Touriga Nacional|Botella (75cl)|NV|62€|POD013219|—
+Van Zellers 30-|Douro|Touriga Nacional|Botella (75cl)|NV|151€|POD002178|—
+Van Zellers Porto Tawny 10-|Douro|Touriga Nacional|Botella (75cl)|NV|57€|POD002176|—
+Abadía Retuerta Clarete 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|79€|POD017936|—
+Dominio del Aguila Peñas Aladas clarete 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|386€|POD014007|—
+Le Rose Antidoto 23-|Ribera del Duero|Tempranillo|Botella (75cl)|2023|114€|POD018962|—
+Palito V Clarete 24-|Ribera del Duero|Tempranillo|Botella (75cl)|2024|30€|POD019724|—
+Picaro del Aguila Clarete RO 23-|Ribera del Duero|Tempranillo|Botella (75cl)|2023|76€|POD016972|—
+Territorio Luthier Clarete 2020-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|62€|POD014990|—
+Dido La solucio rosa 23-|Montsant|Garnacha|Botella (75cl)|2023|44€|POD018552|—
+Alba Rose 24-|Baleares|Callet|Botella (75cl)|2024|44€|POD019750|—
+Chivite 125 Ros. 23-|Navarra|Garnacha|Botella (75cl)|2023|64€|POD018614|—
+Unzu de Julian Chivite 24-|Navarra|Garnacha|Botella (75cl)|2024|32€|POD019732|—
+Flor de Muga Rosado 24-|Rioja|Garnacha|Botella (75cl)|2024|67€|POD018644|—
+Marques de Murrieta Ros 23-|Rioja|Garnacha|Botella (75cl)|2023|70€|POD012772|—
+Oxer B Otto 24-|Rioja|Garnacha|Botella (75cl)|2024|79€|POD018759|—
+Sierra Cantabria XF Rosado 24-|Rioja|Garnacha|Botella (75cl)|2024|41€|POD017192|—
+G Bertrand Clos du Temple 23-|Languedoc-Roussillon|Garnacha|Botella (75cl)|2023|397€|POD018173|—
+Source of Joy 24-|Languedoc-Roussillon|Garnacha|Botella (75cl)|2024|42€|POD019733|—
+Ch. Esclans Garrus 21-|Provenza|Garnacha|Botella (75cl)|2021|196€|POD015314|—
+Ch. Esclans Provence Whispering Angel 24-|Provenza|Garnacha|Botella (75cl)|2024|52€|POD017306|—
+Ch. Romassan Bandol Rosé 23-|Provenza|Mourvèdre|Botella (75cl)|2023|97€|POD016970|—
+Chateau Peyrassol RO 24-|Provenza|Garnacha|Botella (75cl)|2024|52€|POD017633|—
+Domaine Tempier Bandol Rose 24-|Provenza|Mourvèdre|Botella (75cl)|2024|58€|POD018231|—
+Miraval Provence-|Provenza|Cinsault|Botella (75cl)|2024|52€|POD016928|—
+Ott Ch de Selle Provence Rose 24-|Provenza|Garnacha|Botella (75cl)|2024|85€|POD018029|—
+Pibarnon Bandol RO 2024-|Provenza|Mourvèdre|Botella (75cl)|2024|58€|POD018637|—
+Calafuria 23-|Puglia|Negroamaro|Botella (75cl)|2023|48€|POD013785|—
+Domino del Águila Rosado 2020|—|Tempranillo|Botella (75cl)|2020|386€|POD_TEMP_1037|—
+Twardowski Ardoise 21-|Mosela|Pinot Noir|Botella (75cl)|2021|209€|POD018213|—
+Bira Rosso D´Uco 23-|Mendoza|Malbec|Botella (75cl)|2023|42€|POD019628|—
+Bressia Conjuro 16-|Mendoza|Cabernet Sauvignon|Botella (75cl)|2016|145€|POD019629|—
+Catena Zapata Nicasia 22-|Mendoza|Malbec|Botella (75cl)|2022|176€|POD018941|—
+El Enemigo Cabernet Franc 21-|Mendoza|Cabernet Franc|Botella (75cl)|2021|59€|POD018567|—
+Gran Enemigo Gualtallary 20-|Mendoza|Cabernet Franc|Botella (75cl)|2020|258€|POD015922|—
+Per Se Inseparable 22-|Mendoza|Malbec|Botella (75cl)|2022|104€|POD018146|—
+Per Se Lubileus 22-|Mendoza|Malbec|Botella (75cl)|2022|506€|POD018148|—
+Perse La Craie 22-|Mendoza|Chardonnay|Botella (75cl)|2022|549€|POD018149|—
+PerSe Volare Del Camino 22-|Mendoza|Malbec|Botella (75cl)|2022|338€|POD018147|—
+Riccitelli C Franc Montaña 21-|Mendoza|Cabernet Franc|Botella (75cl)|2021|82€|POD018154|—
+Vuelo Andino Blend Alado 20-|Mendoza|Malbec|Botella (75cl)|2020|71€|POD019631|—
+Y La Nave Va 20-|Mendoza|Malbec|Botella (75cl)|2020|76€|POD018153|—
+Zuccardi Concreto 23-|Mendoza|Malbec|Botella (75cl)|2023|105€|POD018510|—
+Zuccardi Las Cerrilladas Malbec 19-|Mendoza|Malbec|Botella (75cl)|2019|255€|POD011158|—
+Zuccardi Piedra Infinita 19-|Mendoza|Malbec|Botella (75cl)|2019|310€|POD011185|—
+Zuccardi Piedra Infinita Gravascal 19-|Mendoza|Malbec|Botella (75cl)|2019|501€|POD011157|—
+Zuccardi Piedra Infinita Supercal 20-|Mendoza|Malbec|Botella (75cl)|2020|640€|POD018092|—
+Zuccardi Poligonos S Pablo 22-|Mendoza|Malbec|Botella (75cl)|2022|65€|POD018093|—
+A Lisa 24-|Patagonia|Malbec|Botella (75cl)|2024|55€|POD019632|—
+Riccitelli Patagonia Malbec 22-|Patagonia|Malbec|Botella (75cl)|2022|104€|POD018155|—
+John Duval Entity 21-|South Australia|Shiraz|Botella (75cl)|2021|96€|POD016726|—
+Penfolds Bin 180 Cab Shiraz 21-|South Australia|Cabernet Sauvignon|Botella (75cl)|2021|1360€|POD017647|—
+Penfolds Bin 707 22-|South Australia|Cabernet Sauvignon|Botella (75cl)|2022|859€|POD012451|—
+Penfolds Bin 707 Cabernet 18-|South Australia|Cabernet Sauvignon|Botella (75cl)|2018|820€|POD017648|—
+Penfolds Grange 18-|South Australia|Shiraz|Botella (75cl)|2018|1300€|POD017643|—
+Penfolds RWT Bin 798 22-|South Australia|Shiraz|Botella (75cl)|2022|248€|POD012464|—
+Penfolds St Henri 21-|South Australia|Shiraz|Botella (75cl)|2021|184€|POD012461|—
+Penfolds Superblend B 18-|South Australia|Garnacha|Botella (75cl)|2018|1080€|POD017646|—
+The Standish The Relic 22-|South Australia|Shiraz|Botella (75cl)|2022|446€|POD016832|—
+The Standish The Schubert Theorem 21-|South Australia|Shiraz|Botella (75cl)|2021|446€|POD016833|—
+The Standish The Standish 22-|South Australia|Shiraz|Botella (75cl)|2022|370€|POD016834|—
+Timo Mayer Bloody Hill 23-|South Australia|Syrah|Botella (75cl)|2023|80€|POD018536|—
+Timo Mayer Close Planted 23-|South Australia|Pinot Noir|Botella (75cl)|2023|157€|POD018534|—
+Timo Mayer The Doktor 23-|South Australia|Pinot Noir|Botella (75cl)|2023|150€|POD018535|—
+Torbreck Runrig 20-|South Australia|Shiraz|Botella (75cl)|2020|472€|POD018216|—
+Torbreck Runrig 21-|South Australia|Shiraz|Botella (75cl)|2021|465€|POD018217|—
+Torbreck The Laird 18-|South Australia|Shiraz|Botella (75cl)|2018|1228€|POD018221|—
+Torbreck The Struie 23-|South Australia|Shiraz|Botella (75cl)|2023|112€|POD018212|—
+Bass Phillip Estate Pinot Noir 21-|Victoria|Pinot Noir|Botella (75cl)|2021|81€|POD015810|—
+Almaviva 20-|Valle Central|Cabernet Sauvignon|Botella (75cl)|2020|345€|POD016351|—
+Almaviva 21-|Valle Central|Cabernet Sauvignon|Botella (75cl)|2021|375€|POD016352|—
+Alas de Frontonio La Tejera 22-|Aragón|Garnacha|Botella (75cl)|2022|138€|POD018822|—
+El Jardín de las Iguales|Aragón|Garnacha|Botella (75cl)|2022|304€|POD_TEMP_1038|—
+Frontonio Telescópico 22-|Aragón|Garnacha|Botella (75cl)|2022|44€|POD019623|—
+Psicodelico 22-|Aragón|Garnacha|Botella (75cl)|2022|91€|POD019622|—
+4 kilos 23-|Baleares|Callet|Botella (75cl)|2023|87€|POD019177|—
+Son Agulló 22-|Baleares|Callet|Botella (75cl)|2022|92€|POD019734|—
+3/8 Alabaster 23-|Toro|Tinta de Toro|Media botella (37,5cl)|2023|162€|POD017859|—
+A Retuerta Cuvée Palomar 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|81€|POD018042|—
+A Retuerta Pago Negralada 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|138€|POD018041|—
+A Retuerta X Aniversario 06-|Ribera del Duero|Tempranillo|Botella (75cl)|2006|501€|POD017937|—
+Aalto PS 06-|Ribera del Duero|Tempranillo|Botella (75cl)|2006|785€|POD016261|—
+Abadía Retuerta Garnacha 22-|Castilla y León|Garnacha|Botella (75cl)|2022|103€|POD017935|—
+Abadía Retuerta Pago Garduña 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|171€|POD015645|—
+Abadía Retuerta Pago Valdebellón 20-|Castilla y León|Cabernet Sauvignon|Botella (75cl)|2020|150€|POD016582|—
+Abadía Retuerta Petit Verdot 20-|Castilla y León|Petit Verdot|Botella (75cl)|2020|215€|POD015880|—
+Abadia Retuerta Sel Especial 21-|Ribera del Duero|Tempranillo|Media botella (37,5cl)|2020|36€|POD018922|—
+Abadia Retuerta Seleccion Especial-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|52€|POD012811|—
+Alabaster-|Toro|Tinta de Toro|Botella (75cl)|2022|319€|POD015259|—
+Alabaster 22-|Toro|Tinta de Toro|Botella (75cl)|2022|290€|POD_TEMP_1039|—
+Alion 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|140€|POD016961|—
+Alonso del Yerro 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|43€|POD017253|—
+Alvar de Dios Aciano 21-|Toro|Tinta de Toro|Botella (75cl)|2021|35€|POD019640|—
+Arrocal Casablanca 23-|Ribera del Duero|Tempranillo|Botella (75cl)|2023|85€|POD019695|—
+Arrocal Paraje Colmenares 23-|Ribera del Duero|Tempranillo|Botella (75cl)|2023|48€|POD017351|—
+Aurelio Garcia La Guia 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|150€|POD013712|—
+Ausas Interpretacion 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|93€|POD018249|—
+Bendito Destino Camino Destino 24-|Ribera del Duero|Tempranillo|Botella (75cl)|2024|53€|POD019773|—
+Bendito Destino Hontanares 23-|Ribera del Duero|Tempranillo|Botella (75cl)|2023|265€|POD019774|—
+Bosque de Matasnos Ed Limitada 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|74€|POD013769|—
+Bosque Matasnos Et Blanca 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|59€|POD016574|—
+Canta La Perdiz 18-|Ribera del Duero|Tempranillo|Botella (75cl)|2018|687€|POD018089|—
+Canta La Perdiz 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|620€|POD010587|—
+Carmelo Rodero TSM 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|152€|POD013798|—
+Casa Lebai Matadiablos 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|62€|POD019697|—
+Cepa 21 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|48€|POD017815|—
+Cepa 21 Malabrigo 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|72€|POD018082|—
+Cesar Marquez Sufreiral 23-|Bierzo|Mencía|Botella (75cl)|2023|83€|POD017708|—
+Cesar Marquez Valtuille 23-|Bierzo|Mencía|Botella (75cl)|2023|37€|POD017743|—
+Conde San Cristobal 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|41€|POD017140|—
+Corimbo 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|41€|POD018632|—
+Corimbo I 18-|Ribera del Duero|Tempranillo|Botella (75cl)|2018|67€|POD017118|—
+Corullon 22-|Bierzo|Mencía|Botella (75cl)|2022|85€|POD015987|—
+Corullon 23-|Bierzo|Mencía|Botella (75cl)|2023|90€|POD018980|—
+Cuesta de las Liebres 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|403€|POD015868|—
+Cuesta Las Liebres 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|408€|POD014733|—
+Doble Mg Alabaster 22-|Toro|Tinta de Toro|Doble Magnum (300cl)|2022|1287€|POD015261|—
+Doble Mg Alion 20-|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|2020|591€|POD013525|—
+Doble Mg Corullon 22-|Bierzo|Mencía|Doble Magnum (300cl)|2022|398€|POD015989|—
+Doble Mg Dominio de Es 22-|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|2022|610€|POD016015|—
+Doble Mg La Faraona 22-|Bierzo|Mencía|Doble Magnum (300cl)|2022|9569€|POD015998|—
+Doble Mg Las Lamas 22-|Bierzo|Mencía|Doble Magnum (300cl)|2022|951€|POD015995|—
+Doble Mg Valbuena 5º año 19-|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|2019|2015€|POD013531|—
+Doble Mg Vega Sicilia Unico 11-|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|2011|5063€|POD013534|—
+Doble Mg Victorino 22-|Toro|Tinta de Toro|Doble Magnum (300cl)|2022|342€|POD015257|—
+Doble Mg. Alion 19-|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|2019|723€|POD013957|—
+Dominio Aguila BL-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|198€|POD012203|—
+Dominio de Anza El Rapolao 24-|Bierzo|Mencía|Botella (75cl)|2024|105€|POD019658|—
+Dominio de Anza Parcelas 23-|Bierzo|Mencía|Botella (75cl)|2023|48€|POD019647|—
+Dominio de Anza Parcelas 24-|Bierzo|Mencía|Botella (75cl)|2024|44€|POD019753|—
+Dominio de Anza Valdehorta 24-|Bierzo|Mencía|Botella (75cl)|2024|126€|POD019660|—
+Dominio De Calogia 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|119€|POD011499|—
+Dominio de Calogía Cuvée S 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|238€|POD012329|—
+Dominio de Calogía Doble M 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|58€|POD013497|—
+Dominio de de Es La Mata 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|710€|POD016018|—
+Dominio de Es Carravilla 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|591€|POD016016|—
+Dominio de Es La Diva 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|1364€|POD016020|—
+Dominio del Soto Camino Gumiel 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|67€|POD015918|—
+Dominio del Soto Cr. 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|37€|POD012850|—
+Domino Aguila Rva 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|180€|POD_TEMP_1040|—
+Domino Atauta 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|89€|POD015491|—
+El Picon de Barroso 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|185€|POD016304|—
+Figuero Viñas Viejas 23-|Ribera del Duero|Tempranillo|Botella (75cl)|2023|60€|POD018033|—
+Finca Villacreces 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|63€|POD015818|—
+Flor De Pingus 11-|Ribera del Duero|Tempranillo|Botella (75cl)|2011|568€|POD014151|—
+Flor De Pingus 12-|Ribera del Duero|Tempranillo|Botella (75cl)|2012|527€|POD014152|—
+Flor De Pingus 16-|Ribera del Duero|Tempranillo|Botella (75cl)|2016|486€|POD011477|—
+Flor de Pingus 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|274€|POD017479|—
+Garmon 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|74€|POD012936|—
+Hacienda Monasterio Rva 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|145€|POD014241|—
+Hispania Territorio Luthier TO 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|62€|POD015343|—
+Jeroboam Corullon 5L 22-|Bierzo|Mencía|Jeroboam (500cl)|2022|460€|POD015990|—
+La Diva 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|1033€|POD009751|—
+La Diva 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|1452€|POD011332|—
+La Faraona 16-|Bierzo|Mencía|Botella (75cl)|2016|1819€|POD014321|—
+La Faraona 18-|Bierzo|Mencía|Botella (75cl)|2018|2687€|POD014323|—
+La Faraona 22-|Bierzo|Mencía|Botella (75cl)|2022|2170€|POD015996|—
+La Faraona 23-|Bierzo|Mencía|Botella (75cl)|2023|2552€|POD019545|—
+La Fortuna 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|49€|POD019749|—
+La Galbana 20-|Bierzo|Mencía|Botella (75cl)|2020|70€|POD014490|—
+La Mata-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|781€|POD_TEMP_1041|—
+La Mata 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|734€|POD009753|—
+La Vizcaína El Rapolao 23-|Bierzo|Mencía|Botella (75cl)|2023|48€|POD019683|—
+Las Lamas-|Bierzo|Mencía|Botella (75cl)|2022|176€|POD015993|—
+Las Lamas 20-|Bierzo|Mencía|Botella (75cl)|2020|210€|POD014372|—
+Las Lamas 21-|Bierzo|Mencía|Botella (75cl)|2021|262€|POD014373|—
+Las Lamas 22-|Bierzo|Mencía|Botella (75cl)|2022|160€|POD_TEMP_1042|—
+Malleolus Valderramiro 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|214€|POD015579|—
+Maria Alonso del Yerro 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|109€|POD017763|—
+Massuria 20-|Bierzo|Mencía|Botella (75cl)|2020|60€|POD017301|—
+Mauro 23-|Castilla y León|Tempranillo|Botella (75cl)|2023|73€|POD018233|—
+Mauro VS 22-|Castilla y León|Tempranillo|Botella (75cl)|2022|157€|POD016105|—
+Mg Aalto PS 13-|Ribera del Duero|Tempranillo|Magnum (150cl)|2013|934€|POD016257|—
+Mg Alabaster 22-|Toro|Tinta de Toro|Magnum (150cl)|2022|692€|POD015260|—
+Mg Alion 20-|Ribera del Duero|Tempranillo|Magnum (150cl)|2020|336€|POD013524|—
+Mg Cartago 19-|Castilla y León|Tempranillo|Magnum (150cl)|2019|362€|POD016263|—
+Mg Cuesta Las Liebres 18-|Ribera del Duero|Tempranillo|Magnum (150cl)|2018|723€|POD014522|—
+Mg Dominio de de Es La Mata 22-|Ribera del Duero|Tempranillo|Magnum (150cl)|2022|1523€|POD016019|—
+Mg Dominio de Es 21-|Ribera del Duero|Tempranillo|Magnum (150cl)|2021|305€|POD011330|—
+Mg Dominio de Es 22-|Ribera del Duero|Tempranillo|Magnum (150cl)|2022|300€|POD016014|—
+Mg Dominio de Es Carravilla 22-|Ribera del Duero|Tempranillo|Magnum (150cl)|2022|1182€|POD016017|—
+Mg Dominio de Es La Diva 22-|Ribera del Duero|Tempranillo|Magnum (150cl)|2022|2728€|POD016021|—
+Mg La Faraona 22-|Bierzo|Mencía|Magnum (150cl)|2022|4753€|POD015997|—
+Mg La Mata 21-|Ribera del Duero|Tempranillo|Magnum (150cl)|2021|1953€|POD009752|—
+Mg Las Lamas 21-|Bierzo|Mencía|Magnum (150cl)|2021|465€|POD011335|—
+Mg Las Lamas 22-|Bierzo|Mencía|Magnum (150cl)|2022|455€|POD015994|—

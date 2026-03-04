@@ -1,0 +1,196 @@
+================================================================================
+  LOG DIARIO DEL PROYECTO - CAVA METROPOLIS
+  Actualizado: 2026-03-04
+================================================================================
+
+DESCRIPCION DEL PROYECTO
+-------------------------
+Cava Metropolis es una PWA (Progressive Web App) de gestion de carta/adega
+multi-restaurante. Gestiona el catalogo de vinos de tres establecimientos:
+SPA, Tasca Fina y Victoria, con BODEGA como catalogo corporativo principal.
+
+Stack: HTML + CSS + JavaScript vanilla | JSON estatico | Vercel (deploy automatico)
+URL en produccion: Vercel (auto-deploy en cada push a main)
+
+ESTABLECIMIENTOS
+----------------
+1. BODEGA  — 2056 vinos con precio medio (100% cobertura) — CATALOGO PRINCIPAL
+2. SPA     — 1080 vinos (52.5%)
+3. TASCA FINA — 1311 vinos (63.8%)
+4. VICTORIA   — 1195 vinos (58.1%)
+5. GALERIA    — 0 vinos (futuro)
+
+================================================================================
+  2026-02-25 — DIA FUNDACIONAL (27 commits)
+================================================================================
+
+El dia mas intenso del proyecto. Cambios masivos en toda la base.
+
+DATOS:
+  - Limpieza masiva de calidad: corrección de uvas, regiones, tipos inconsistentes
+  - Estructura de proporciones de uvas implementada (2056 vinos)
+  - 97 registros incompletos generados con POD + descripcion
+
+AUTH & ROLES:
+  - Jimmy añadido como adminmaster protegido
+  - API de autenticacion endurecida
+  - Login sin selector de restaurante (scope inferido por usuario)
+
+ESTABLECIMIENTOS:
+  - Expansion de 3 a 5 scopes: bodega, spa, tasca_fina, victoria, galeria
+  - BODEGA como catalogo corporativo primario con precio aproximado
+
+INFRAESTRUCTURA:
+  - Sync en tiempo real con Vercel API
+  - Service worker ajustado multiples veces
+
+Commits relevantes:
+  03eb421 - fix: Final region & grape corrections - 0 generic regions remaining
+  28228c3 - feat: Implementar estrutura com proporções de uvas
+  e3ced60 - feat: realtime stock sync (30s) with vercel api
+  adaea1a - feat: add BODEGA establishment as primary catalog with approximate pricing
+  90d2da4 - feat: add GALERIA establishment + remove restaurant picker from login
+  759076d - feat: allow Jimmy as protected adminmaster
+
+================================================================================
+  2026-02-26 — LOCALIZACIONES + NOTAS DE CATA (50+ commits)
+================================================================================
+
+Dia muy largo, incluyendo madrugada.
+
+LOCALIZACIONES:
+  - Formato compacto "cava.balda.posicion" implementado
+  - Importacion de localizaciones BODEGA -2 con mapeo de PODs
+  - Importacion de localizaciones Victoria planta 1
+  - Mascara de input: tecla espacio inserta punto separador
+
+NOTAS DE CATA:
+  - Reimportacion en lote desde reports/cata_lote_*.txt
+  - 190 vinos sin nota → 0 (cobertura total)
+  - Pipeline i18n con normalizacion NFC + lexico PT→ES/EN
+  - Formato de modal: "· Nariz: ..." y "· Boca: ..."
+  - Cards de criticos con nombres completos de premios
+
+OTROS:
+  - Davi añadido como adminmaster
+  - Script de integridad de datos pre-deploy (check_user_data_integrity.py)
+  - Logs automaticos diarios via .githooks/post-commit
+
+Commits relevantes:
+  442d23e - feat(cata): complete missing tasting notes and expand modal guidance
+  195b069 - feat(cata): format tasting summary into bullet nariz/boca blocks
+  08c4c9a - feat: add Davi as protected adminmaster account
+  e2849e9 - feat: apply BODEGA -2 locations with safe temporary POD mapping
+  a743fa2 - feat(victoria): import plant-1 locations safely with compact format
+
+================================================================================
+  2026-02-27 — TASCA FINA (6 commits)
+================================================================================
+
+Sesion corta y concreta.
+
+  - Importacion de localizaciones Tasca Fina desde PDF (264 PODs actualizados)
+  - Eliminado fallback SPA/Bodega en visualizacion Tasca
+  - Victoria: localizacion legible en display, compacta en edicion
+
+Commits relevantes:
+  b3c330e - feat(tasca): import locations from tasca fina pdf safely
+  f5ba553 - fix(tasca): show only tasca locations in search and modal
+
+================================================================================
+  2026-03-01 — PWA + MEJORAS UI (15 commits)
+================================================================================
+
+  - PWA Update Banner: notificacion in-app con one-click refresh
+    y auto-cierre a los 5 segundos
+  - Busqueda SPA priorizada por localizacion + consolidacion cava1
+  - Eliminacion de duplicados en cata details (nose/palate/quick guide)
+  - Modal de alternativas con priorizacion por precio mas cercano
+
+Commits relevantes:
+  4751494 - feat(pwa): show in-app update banner with one-click refresh
+  ed340b3 - feat(spa): priorizar busca por localizacion y consolidar cava1
+  3809754 - fix(ui): remove duplicate key points when cata repeats nose and palate
+  f3b8a5f - feat(app): add modal alternatives and release update notes
+
+================================================================================
+  2026-03-02 — AUTH + UPDATE FLOW (14 commits)
+================================================================================
+
+  - Diego añadido como adminmaster protegido
+  - Yeray01 añadido como admin de SPA
+  - Update PWA refinado: primera recarga automatica por release, siguientes manuales
+  - Loader SVG animado en boton de actualizacion
+  - Release notes mostradas en primeras 3 sesiones de usuario
+
+Commits relevantes:
+  f85f563 - feat(auth): add Diego as protected adminmaster
+  da40622 - feat(auth): seed Yeray01 as spa admin
+  0785f60 - feat(update): force first reload per release then keep next updates manual
+  4d7527c - feat(update-notice): show release notes for first 3 user sessions
+
+================================================================================
+  2026-03-03 — ALTERNATIVAS + LOGIN UI (14 commits)
+================================================================================
+
+  - Edu añadido como adminmaster
+  - Sistema de recomendaciones/alternativas mejorado:
+      * Misma uva primero
+      * Preferencia precio <=100€ con proximidad de precio
+      * Priorizacion por localizacion + D.O. + clima
+  - Login: banner de preview eliminado, logo ampliado con efecto branded
+  - Frente pendiente: aplicacion curadoria BODEGA -2
+
+Commits relevantes:
+  181dfad - feat(auth): add Edu as protected adminmaster
+  451a1e6 - feat(alternatives): enforce same-grape first with <=100€ close-price preference
+  7c3688d - feat(recommendations): prioritize grape do region climate similarity
+  599e10e - feat(login): remove preview banner and enlarge branded logo effect
+
+================================================================================
+  ESTADO ACTUAL DEL PROYECTO (2026-03-04)
+================================================================================
+
+COMPLETADO:
+  ✅ Catalogo BODEGA activo con precios aproximados
+  ✅ Localizaciones importadas: SPA, Tasca Fina, Victoria, BODEGA -2
+  ✅ Notas de cata: 100% cobertura (0 faltantes)
+  ✅ PWA con banner de actualizacion y service worker
+  ✅ Auth multi-rol: adminmaster (0xManel, Jimmy, Davi, Diego, Edu) + admins por casa
+  ✅ Sync en tiempo real para todos los establecimientos
+  ✅ Sistema de recomendaciones/alternativas con priorizacion inteligente
+  ✅ Logs automaticos diarios via git hooks
+
+PENDIENTE:
+  ⏳ Aplicar curadoria BODEGA -2 al catalogo principal
+     Script: scripts/apply_bodega_minus2_curated_to_catalog.py
+     Flujo: dry-run → revisar reporte → apply → validar visualmente
+
+================================================================================
+  ARCHIVOS PRINCIPALES
+================================================================================
+
+  index.html            — Catalogo principal, busqueda, modal de detalle
+  login.html            — Autenticacion y registro de usuarios
+  admin.html            — Panel admin, reportes diarios, gestion de usuarios
+  data/bodega_webapp.json — Base de datos principal (2056 vinos)
+  sw.js                 — Service Worker (estrategia network-first)
+  api/                  — Funciones Vercel (auth, stock-sync, users, wines)
+  scripts/              — Scripts Python de importacion y mantenimiento
+  reports/              — Reportes de importaciones y auditorias
+  logs/                 — Logs diarios (este archivo es el resumen general)
+
+================================================================================
+  WORKFLOW DE DEPLOY
+================================================================================
+
+  1. Editar archivos
+  2. git add <archivo>
+  3. git commit -m "tipo(scope): descripcion"
+  4. git push origin main
+  → Vercel detecta el push y hace deploy automatico
+
+  Para forzar refresh en navegadores:
+  → Cambiar version en sw.js (ej: 'stock-cava-2026-03-04-...')
+
+================================================================================

@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-03-01T17:57:15.864709+00:00",
+  "mode": "apply",
+  "manual_rows_total": 41,
+  "manual_qty_total": 41,
+  "matched_rows": 40,
+  "matched_unique_pods": 31,
+  "unmatched_rows": 1,
+  "updated_entries_count": 31,
+  "updated_entries": [
+    {
+      "pod": "POD013541",
+      "descripcion": "Oremus Mandolas 22-",
+      "bodega": "Oremus",
+      "rows_count": 3,
+      "qty_manual_total": 3,
+      "location_before_count": 0,
+      "location_after_count": 2,
+      "location_after": "2·E·D / 2·BASE"
+    },
+    {
+      "pod": "POD018997",
+      "descripcion": "As Sortes 24-",
+      "bodega": "Rafael Palacios",
+      "rows_count": 3,
+      "qty_manual_total": 3,
+      "location_before_count": 0,
+      "location_after_count": 2,
+      "location_after": "2·H·D / 2·BASE"
+    },
+    {
+      "pod": "POD016307",
+      "descripcion": "Mas Doix Salix 23-",
+      "bodega": "Mas Doix",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·A·D"
+    },
+    {
+      "pod": "POD018620",
+      "descripcion": "Remelluri Blanco 22-",
+      "bodega": "Remelluri",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 2,
+      "location_after": "2·B·A / 2·B·D"
+    },
+    {
+      "pod": "POD015771",
+      "descripcion": "Roda I Blanco 21-",
+      "bodega": "Roda",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 2,
+      "location_after": "2·B·A / 2·B·D"
+    },
+    {
+      "pod": "POD015910",
+      "descripcion": "Jose Pariente La Medina 23-",
+      "bodega": "José Pariente",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·D·D"
+    },
+    {
+      "pod": "POD016481",
+      "descripcion": "Belondrade y Lurton 23-",
+      "bodega": "Belondrade",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·F·D"
+    },
+    {
+      "pod": "POD019721",
+      "descripcion": "Credo Capficat 19-",
+      "bodega": "Celler Credo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·A·D"
+    },
+    {
+      "pod": "POD012985",
+      "descripcion": "Electio 22-",
+      "bodega": "Parés Baltà",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·A·D"
+    },
+    {
+      "pod": "POD018590",
+      "descripcion": "Terroir al Limit Pedra de Guix 22-",
+      "bodega": "Terroir al Limit",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·A·A"
+    },
+    {
+      "pod": "POD018339",
+      "descripcion": "Capellania Rva 20-",
+      "bodega": "Marqués de Murrieta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·C·D"
+    },
+    {
+      "pod": "POD012203",
+      "descripcion": "Dominio Aguila BL-",
+      "bodega": "Dominio del Águila",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·D·D"
+    },
+    {
+      "pod": "POD018123",
+      "descripcion": "Ossian Capitel 22-",
+      "bodega": "Ossian",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·D·D"
+    },
+    {
+      "pod": "POD019641",
+      "descripcion": "Alvar de Dios Las Vidres 20-",
+      "bodega": "Alvar de Dios",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·E·D"
+    },
+    {
+      "pod": "POD016116",
+      "descripcion": "San Roman Malvasia 22-",
+      "bodega": "San Román",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·E·A"
+    },
+    {
+      "pod": "POD015923",
+      "descripcion": "Abadía Retuerta Le Domaine 23-",
+      "bodega": "Abadía Retuerta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·G·A"
+    },
+    {
+      "pod": "POD018377",
+      "descripcion": "Dominio do Bibei Lalume 23-",
+      "bodega": "Dominio do Bibei",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 2,
+      "location_after": "2·G·D / 3·E·D"
+    },
+    {
+      "pod": "POD018588",
+      "descripcion": "Nisia Las Suertes 24-",
+      "bodega": "Nisia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·G·D"
+    },
+    {
+      "pod": "POD018643",
+      "descripcion": "Flor de Muga Bl 22-",
+      "bodega": "Mauro",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·G·D"
+    },
+    {
+      "pod": "POD018907",
+      "descripcion": "Mauro Godello 24-",
+      "bodega": "Mauro",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·H·A"
+    },
+    {
+      "pod": "POD012358",
+      "descripcion": "Sorte O Soro 22-",
+      "bodega": "Rafael Palacios",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·H·A"
+    },
+    {
+      "pod": "POD017705",
+      "descripcion": "Cesar Marquez La Salvación 23-",
+      "bodega": "César Márquez",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·H·D"
+    },
+    {
+      "pod": "POD018578",
+      "descripcion": "Avancia Godello 24-",
+      "bodega": "Avancia",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·H·D"
+    },
+    {
+      "pod": "POD018753",
+      "descripcion": "Attis Mar 24-",
+      "bodega": "Attis",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·I·A"
+    },
+    {
+      "pod": "POD017626",
+      "descripcion": "Pazo Señorans Selección 15-",
+      "bodega": "Pazo de Señorans",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·I·A"
+    },
+    {
+      "pod": "POD017771",
+      "descripcion": "Attis Lias Finas 24-",
+      "bodega": "Attis",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·I·D"
+    },
+    {
+      "pod": "POD016566",
+      "descripcion": "Attis Coribante 22-",
+      "bodega": "Attis",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·I·D"
+    },
+    {
+      "pod": "POD015306",
+      "descripcion": "Attis Embaixador 22-",
+      "bodega": "Attis",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·BASE"
+    },
+    {
+      "pod": "POD018268",
+      "descripcion": "Menade La Mision 23-",
+      "bodega": "Menade",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·BASE"
+    },
+    {
+      "pod": "POD018333",
+      "descripcion": "La Comtesse 20-",
+      "bodega": "Marqués de Murrieta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·BASE"
+    },
+    {
+      "pod": "POD019397",
+      "descripcion": "Battenfeld Spanier Eisquell 24-",
+      "bodega": "Batenfeld-Spanier",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "2·BASE"
+    }
+  ],
+  "unmatched": [
+    {
+      "wine_text": "Jose Pariente Albarino",
+      "year": 2020,
+      "qty": 1,
+      "location": "2·BASE",
+      "best_score": 0.434,
+      "best_margin": 0.0075,
+      "best_pod": "POD_TEMP_1017",
+      "best_desc": "Domaine Arnaud Ente Blanco 2020",
+      "best_bodega": "Domaine Arnaud Ente",
+      "best_year": 2020
+    }
+  ],
+  "paths": {
+    "db": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+    "source_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava2_manual_source.csv",
+    "report_json": "/Users/0xmanel/cava-metropolis/reports/spa_cava2_import_report.json",
+    "report_unmatched_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava2_import_unmatched.csv"
+  },
+  "thresholds": {
+    "SCORE_MIN": 0.78,
+    "MARGIN_MIN": 0.06,
+    "HARD_MIN": 0.9
+  },
+  "location_convention": "2·<BALDA>·A (atrás) | 2·<BALDA>·D (frente) | 2·BASE",
+  "unmatched_reasons": {
+    "low_confidence_or_ambiguous": 1
+  }
+}

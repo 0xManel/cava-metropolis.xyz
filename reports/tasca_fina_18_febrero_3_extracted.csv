@@ -1,0 +1,309 @@
+page,y,name,ano,qty,pos,compact_loc
+4,747.5,Andre Heucq,NV,1,CAV 2 - 10 DER,2·10·DER
+4,733.0,Bereche et Fils Brut Reserve,NV,2,CAV 2 - 11 CEN,2·11·CEN
+4,718.5,Billecart Salmon Le Reserve,NV,2,CAV 2 - 11 DER,2·11·DER
+4,704.0,Bollinger Special Cuvée,NV,2,CAV 2 - 10 DER,2·10·DER
+4,689.5,Comtes de Champagne,2014,1,CAV 2 - EXP DER,2·EXP·DER
+4,675.0,Dom Perignon Rosé,2009,1,CAV 2 - EXP IZQ,2·EXP·IZQ
+4,660.5,Krug Rosé 28éme Edition,,1,CAV 2 - EXP IZQ,2·EXP·IZQ
+4,646.0,Laherte Frèrers Blanc de Noirs Brut Nature,,2,CAV 2 - 3 DER,2·3·DER
+4,631.5,Laherte Frèrers Rose de Meunier Extra Brut,,1,CAV 2 - 11 DER,2·11·DER
+4,617.0,Laherte Freres Ultradition,,2,CAV 2 - 3 DER,2·3·DER
+4,602.5,Louis Roederer Collection 246,,2,CAV 2 - 11 CEN,2·11·CEN
+4,587.5,Louis Roederer Cristal Rosé,2014,1,CAV 2 - EXP CEN,2·EXP·CEN
+4,573.0,Ruinart Blanc de Blancs Brut,NV,8,CAV 2 - SUELO IZQ,2·SUELO·IZQ
+4,558.5,Ruinart Blanc de Blancs Brut Magnum,NV,1,CAV 2 - SUELO DER,2·SUELO·DER
+4,544.0,Ruinart Rosé,NV,4,CAV 2 - SUELO CEN,2·SUELO·CEN
+4,515.0,Gramona III Lustros,2017,2,CAV 2 - 10 IZQ,2·10·IZQ
+4,500.5,Gramona Imperial Brut,2020,4,CAV 2 - 3 CEN,2·3·CEN
+4,486.0,Gramona Roent Rosé,2022,2,CAV 2 - 11 IZQ,2·11·IZQ
+4,457.0,Mestres Coquet Brut Nature Gran Rva,2019,4,CAV 2 - 3 IZQ,2·3·IZQ
+4,442.0,Raventós i Blanc De la Finca,2022,2,CAV 2 - 10 CEN,2·10·CEN
+4,426.5,Raventós i Blanc Textures de Pedra,2020,2,CAV 2 - 10 CEN,2·10·CEN
+4,411.5,Recaredo Intens Rosat,2022,2,CAV 2 - 11 IZQ,2·11·IZQ
+4,396.0,Recaredo Terrers,2020,2,CAV 2 - 10 IZQ,2·10·IZQ
+4,381.0,Torelló 225,2018,2,CAV 2 - SUELO DER,2·SUELO·DER
+4,350.5,4 Monos Albillo real,2023,2,CAV 2 - 5 IZQ,2·5·IZQ
+4,335.0,A pedreira,2024,2,CAV 4 - 1 DER,4·1·DER
+4,320.0,Abadia da Cova Lola,2024,1,CAV 4 - 3 DER,4·3·DER
+4,304.5,Abadía da Cova Pedras Líquidas,2023,1,CAV 4 - 3 DER,4·3·DER
+4,289.5,Abadia Retuerta Le Domaine,2018,2,CAV 4 - 2 DER,4·2·DER
+4,274.0,Abel Mendoza Viura,2024,2,CAV 3 - 3 IZQ,3·3·IZQ
+4,259.0,Arenas de Santyuste,2023,2,CAV 3 - 2 IZQ,3·2·IZQ
+4,243.5,As Sortes,2024,2,CAV 4 -3 IZQ,4·3·IZQ
+4,228.5,Attis Atalante,2023,1,CAV 4 - 1 DER,4·1·DER
+4,213.0,Attis Lias Finas,2024,4,CAV 2 - 4 CEN,2·4·CEN
+4,198.0,Attis Mar,2024,2,CAV 4 - 1 CEN,4·1·CEN
+4,167.5,Avancia,2024,2,CAV 4 - 3 CEN,4·3·CEN
+4,152.0,Barco del Corneta,2023,2,CAV 3 - 2 DER,3·2·DER
+4,137.0,Belondrade y Lurton,2023,1,CAV 3 - 2 CEN,3·2·CEN
+4,121.5,Brissat Pesseroles Mas Martinet,2021,2,CAV 4 - ATICO,4·ATICO
+4,91.0,Cantalapiedra Chiviritero,2023,2,CAV 3 - 2 IZQ,3·2·IZQ
+4,76.0,Chivite 125 blanco,2023,1,CAV 2 - 10 DER,2·10·DER
+4,60.5,Do Ferreiro Cepas Vellas,2024,2,CAV 4 - 1 CEN,4·1·CEN
+23,760.5,Dominio del Aguila Viñas Viejas,2020,3,CAV 4 - 2 DER,4·2·DER
+23,745.5,Doniene Gorrondona,2023,2,CAV 4 - 0 CEN,4·0·CEN
+23,730.0,El Cerrico,2021,2,CAV 2 - 6 DER,2·6·DER
+23,715.0,Electio,2022,2,CAV 3 - 1 DER,3·1·DER
+23,684.5,Finca Calvestra,2024,2,CAV 3 - 1 IZQ,3·1·IZQ
+23,669.0,Flor de Albihar Rico Nuevo,2021,2,CAV 2 - 5 IZQ,2·5·IZQ
+23,654.0,Flor de Muga Blanco,2022,2,CAV 3 - 3 CEN,3·3·CEN
+23,638.5,Guímaro Cepas Vellas,2024,2,CAV 2 - 5 DER,2·5·DER
+23,623.5,Hombre bala Albillo,2023,2,CAV 2 - 5 CEN,2·5·CEN
+23,608.0,Joaquín Rebolledo Trasdairelas,2024,2,CAV 2 - 6 IZQ,2·6·IZQ
+23,593.0,José Pariente La Medina,2024,1,CAV 3 - 2 CEN,3·2·CEN
+23,577.5,Kalamity,2023,2,CAV 3 - 3 DER,3·3·DER
+23,562.5,La caña navia,2024,2,CAV 4 - 1 IZQ,4·1·IZQ
+23,547.0,La del vivo,2023,2,CAV 3 - 3 DER,3·3·DER
+23,532.0,La llorona,2024,2,CAV 4 - 3 CEN,4·3·CEN
+23,516.5,La Salvación,2023,2,CAV 4 - 3 IZQ,4·3·IZQ
+23,501.5,Lalume Dominio de Bibei,2023,2,CAV 2 - 5 DER,2·5·DER
+23,486.0,Lapola Dominio do Bibei,2023,2,CAV 4 - 1 IZQ,4·1·IZQ
+23,471.0,Leirana O Pradiño,2022,1,CAV 4 - 1 DER,4·1·DER
+23,455.5,Louro,2024,2,CAV 4 - 3 CEN,4·3·CEN
+23,440.5,Malcorta,2024,2,CAV 3 - 2 DER,3·2·DER
+23,425.0,Mauro Godello,2024,1,CAV 4 - 0 CEN,4·0·CEN
+23,410.0,Menade Verdejo,2025,4,CAV 2 - 4 IZQ,2·4·IZQ
+23,394.5,Motor Blanco,2023,2,CAV 3 - 1 CEN,3·1·CEN
+23,379.5,Nisia Las Suertes,2024,2,CAV 3 - 1 CEN,3·1·CEN
+23,364.0,O Equilibrio,2024,2,CAV 4 - 1 IZQ,4·1·IZQ
+23,349.0,O Luar Do Sil,2024,2,CAV 4 - 3 DER,4·3·DER
+23,318.5,Ossian Capitel,2022,1,CAV 3 - 2 CEN,3·2·CEN
+23,303.5,Otro cuento,2023,2,CAV 4 - 2 CEN,4·2·CEN
+23,288.0,Pago de los abuelos Teiró,2022,1,CAV 4 - 0 DER,4·0·DER
+23,273.0,Pazo Señorans,2015,1,CAV 4 - 1 DER,4·1·DER
+23,257.5,Qué bonito cacareaba,2023,1,CAV 4 - 0 DER,4·0·DER
+23,242.5,Remelluri blanco,2022,1,CAV 3 - 0 DER,3·0·DER
+23,227.0,Remirez de Ganuza blanco,2016,2,CAV 3 - 3 CEN,3·3·CEN
+23,212.0,San Roman Malvasía,2022,2,CAV 2 - 6 CEN,2·6·CEN
+23,196.5,Sin nombre,2022,1,CAV 4 - 0 CEN,4·0·CEN
+23,181.5,Sorte O soro,2022,2,CAV 4 - 3 IZQ,4·3·IZQ
+23,166.0,Terroir al límit Pedra de Guix,2022,1,CAV 2 - 6 CEN,2·6·CEN
+23,151.0,Trascuevas,2023,2,CAV 3 - 3 IZQ,3·3·IZQ
+23,120.5,Ultreia Godello,2023,4,CAV 2 - 4 DER,2·4·DER
+23,105.0,Valtuillle,2023,2,CAV 1 - 12 CEN,1·12·CEN
+23,90.0,Vidonia,2024,2,CAV 4 - 0 IZQ,4·0·IZQ
+23,74.5,Viña Tondonia,2013,2,CAV 3 - 3 DER,3·3·DER
+23,59.5,Xesteiriña,2024,2,CAV 2 - 5 DER,2·5·DER
+25,760.5,Batenfeld-Spanier Eisquell,2024,2,CAV 2 - 7 CEN,2·7·CEN
+25,745.5,Bruno Colin Batard-Montrachet GC,2022,1,CAV 3 - 0 DER,3·0·DER
+25,730.0,Carrillon Puligny Montrachet 1C Les Folatieres,2023,1,CAV 3 - 0 CEN,3·0·CEN
+25,715.0,Cloudy Bay,2024,2,CAV 2 - 8 IZQ,2·8·IZQ
+25,699.5,Coche-Dury Corton-Charlemagne GC,2016,1,CAV 3 - 0 DER,3·0·DER
+25,669.0,DeMorgenzon Reserve Chenin,2023,1,CAV 3 - 0 DER,3·0·DER
+25,638.5,DRC Montrachet,2019,1,CAV 2 - EXP CEN,2·EXP·CEN
+25,623.5,Evening Land Salem,2021,2,CAV 2 - 7 IZQ,2·7·IZQ
+25,608.0,Evening Land Seven Springs,2022,1,CAV 3 - 0 CEN,3·0·CEN
+25,593.0,Kühling - Gillot Oppenheim,2020,1,CAV 3 - 0 IZQ,3·0·IZQ
+25,577.5,Mandolás Oremus,2023,2,CAV 2 - 6 IZQ,2·6·IZQ
+25,562.5,Michel Lafarge Meursault,2022,2,CAV 3 - 0 CEN,3·0·CEN
+25,547.0,Pio Cesare,2024,2,CAV 2 - 7 IZQ,2·7·IZQ
+25,532.0,Raats Chenin Blanc,2023,2,CAV 2 - 7 DER,2·7·DER
+25,516.5,Sancerre Domaine Vacheron,2024,2,CAV 2 - 6 CEN,2·6·CEN
+25,501.5,Tardieu Laurent Nobles Origines,,2,CAV 2 - 7 CEN,2·7·CEN
+25,486.0,Tramin,2024,2,CAV 2 - 7 CEN,2·7·CEN
+25,471.0,Vincent Girardin Bourgogne blanc Cuvée Saint Vincent,2023,4,CAV 2 - 6 DER,2·6·DER
+25,455.5,Win 0%,,2,CAV 2 -1 IZQ,2·1·IZQ
+25,425.0,Chivite 125 Rosado,2024,2,CAV 2 - 9 DER,2·9·DER
+25,410.0,Dido La Soució Rosa,2023,2,CAV 2 - 9 CEN,2·9·CEN
+25,394.5,Flor de Muga Rosado,2024,3,CAV 2 - 9 DER,2·9·DER
+25,379.5,Marqués de Murrieta Primer Rose,2024,2,CAV 2 - 9 DER,2·9·DER
+25,364.0,Palito V Clarete,2024,2,CAV 2 - 9 CEN,2·9·CEN
+25,349.0,Pícaro del Águila Clarete,2023,2,CAV 2 - 9 DER,2·9·DER
+25,334.0,Territorio Luthier Clarete,2020,2,CAV 2 - 9 IZQ,2·9·IZQ
+25,318.5,XF de Sierra Cantabria,2024,2,CAV 2 - 10 DER,2·10·DER
+25,288.0,Calafuria,2023,2,CAV 2 - 8 IZQ,2·8·IZQ
+25,273.0,Miraval,2024,2,CAV 2 - 8 DER,2·8·DER
+25,257.5,Peyrassol,2024,2,CAV 2 - 8 CEN,2·8·CEN
+25,242.5,Source of joy,2024,1,CAV 2 - 8 CEN,2·8·CEN
+25,227.0,Whispering Angel,2024,3,CAV 2 - 8 DER,2·8·DER
+32,761.5,4 Kilos,2023,2,CAV 4 - 4B IZQ,4·4B·IZQ
+32,746.5,4 monos Cien Lanzas,2022,2,CAV 3 - 6 IZQ,3·6·IZQ
+32,732.0,Abadia Retuerta cuvee Palomar,2021,2,CAV 4 - 2 DER,4·2·DER
+32,717.5,Abadia Retuerta Selección Especial,2021,2,CAV 4 - 9 DER,4·9·DER
+32,703.0,Aciano,2021,2,CAV 4 - 9 IZQ,4·9·IZQ
+32,688.5,Alion,2021,2,CAV 3 - SUELO IZQ,3·SUELO·IZQ
+32,674.0,Alonso del Yerro,2021,4,CAV 1 - 4 CEN,1·4·CEN
+32,659.5,Alto de la Cruz,2022,2,CAV 3 - 6 IZQ,3·6·IZQ
+32,645.0,Anza,2023,2,CAV 3 - 10 DER,3·10·DER
+32,630.5,Anza Carramonte,2022,1,CAVA 3 - 6 CEN,3·6·CEN
+32,616.0,Anza la Canoca,2022,1,CAVA 3 - 6 CEN,3·6·CEN
+32,601.5,Arrocal Paraje Colmenares,2023,2,CAV 4 - 8 IZQ,4·8·IZQ
+32,587.0,Artadi La Poza de Ballesteros,2020,1,CAV 3 - 5 IZQ,3·5·IZQ
+32,572.5,Artadi La Poza de Ballesteros,2020,1,CAV 3 - 5 IZQ,3·5·IZQ
+32,558.0,Artadi La Poza de Ballesteros,2020,1,CAV 3 - 5 IZQ,3·5·IZQ
+32,543.5,Ausàs,2022,2,CAV 4 - 8 DER,4·8·DER
+32,529.0,Bideona Laguardia,2018,2,CAV 3 - 10 IZQ,3·10·IZQ
+32,514.5,Bideona Samaniego,2020,2,CAV 3 - 10 IZQ,3·10·IZQ
+32,500.0,Bosque de Matasnos Edición Limitada,2022,2,CAV 4 - 6 IZQ,4·6·IZQ
+32,485.5,Bosque Matasnos Et Blanca,2022,4,CAV 1 - 4 DER,1·4·DER
+32,471.0,Casa Lebai Matadiablos,2022,2,CAV 4 - 7 CEN,4·7·CEN
+32,456.5,Castillo de Ygay,2005,1,CAV 3 - 5 DER,3·5·DER
+32,413.0,Cerrón La Servil,2023,2,CAV 4 - 10 IZQ,4·10·IZQ
+32,398.0,César Márquez Valtuille,2023,2,CAV 1 - 11 CEN,1·11·CEN
+32,383.5,Clos Martinet,2022,1,CAV 1 - 10 CEN,1·10·CEN
+32,369.0,Comando G Navatalgordo,2023,2,CAV 1 - 6 DER,1·6·DER
+32,354.5,Conde de San Cristóbal,2022,2,CAV 4 - 9 CEN,4·9·CEN
+32,340.0,Contino Reserva,2021,2,CAV 3 - 6 CEN,3·6·CEN
+32,325.5,Corimbo,2022,2,CAV 4 - 6 DER,4·6·DER
+32,311.0,Corimbo I,2018,2,CAV 1 - 5 IZQ,1·5·IZQ
+32,296.5,Corullón,2022,2,CAV 1 - 11 IZQ,1·11·IZQ
+32,282.0,Costumbres,2023,2,CAV 3 - 10 DER,3·10·DER
+32,267.5,Dido,2022,2,CAV 3 - 6 CEN,3·6·CEN
+32,253.0,Dominio de Anza Selección de Parcelas,2023,2,CAV 1 - 6 IZQ,1·6·IZQ
+32,238.5,Dominio de Atauta,,2,CAV 4 - 7 CEN,4·7·CEN
+32,224.0,Dominio de Calogía,2021,2,CAV 4 - SUELO IZQ,4·SUELO·IZQ
+32,209.5,Dominio de Calogía Doble M,2020,2,CAV 4 - 6 CEN,4·6·CEN
+32,195.0,Dominio del Soto,2020,2,CAV 4 - 8 CEN,4·8·CEN
+32,166.0,El Reflejo de Mikaela,2021,2,CAV 1 - 6 IZQ,1·6·IZQ
+32,151.5,Figuero Viñas Viejas,2021,2,CAV 4 - 7 IZQ,4·7·IZQ
+32,137.0,Finca de los locos,2023,2,CAV 3 - 9 IZQ,3·9·IZQ
+32,122.5,Finca Dofí,,1,CAV 1 - 10 IZQ,1·10·IZQ
+32,108.0,Finca El Terrerazo,2022,2,CAV 4 - 10 CEN,4·10·CEN
+32,93.5,Finca Villacreces,2021,3,CAV 1 - 4 IZQ,1·4·IZQ
+32,78.5,Flor de Pingus,2012,1,CAV 4 - EXP B DER,4·EXP·B_DER
+32,64.0,Flor de Pingus,2022,2,CAV 4 - EXP B IZQ,4·EXP·B_IZQ
+34,761.5,Gratallops,2022,2,CAV 1 - 10 IZQ,1·10·IZQ
+34,746.5,Guardaviñas,2023,2,CAV 3 - 8 DER,3·8·DER
+34,717.5,Hacienda Monasterio,2020,2,CAV 4 - 8 CEN,4·8·CEN
+34,688.5,Hispania Territorio Luthier,2021,2,CAV 4 - 8 IZQ,4·8·IZQ
+34,674.0,Hombre Bala,2022,2,CAV 1 - 7 IZQ,1·7·IZQ
+34,659.5,Izadi Selección Reserva,2020,2,CAV 3 - 6 DER,3·6·DER
+34,645.0,Jirón de Niebla,2020,2,CAV 3 - SUELO CEN,3·SUELO·CEN
+34,630.5,La Baixada,2021,1,CAV 1 - 10 IZQ,1·10·IZQ
+34,616.0,La condenada,2023,1,CAV 3 - 4B DER,3·4B·DER
+34,587.0,La Faraona,2022,1,CAV 1 - 10 DER,1·10·DER
+34,572.5,La Muria,2023,2,CAV 1 - EXP DER,1·EXP·DER
+34,558.0,La Nieta,2022,1,CAV 3 - 5 DER,3·5·DER
+34,543.5,La Quebrá,2021,1,CAV 1 - 12 DER,1·12·DER
+34,529.0,La Rioja Alta 890 GR,2010,1,CAV 3 - EXP B IZQ,3·EXP·B_IZQ
+34,514.5,La Rioja Alta 904 GR,2016,2,CAV 3 - 4B CEN,3·4B·CEN
+34,500.0,La Tendida,2022,2,CAV 1 - SUELO IZQ,1·SUELO·IZQ
+34,485.5,La vizcaína El Rapolao,2023,2,CAV 1 - 11 DER,1·11·DER
+34,471.0,Lalama Dominio do Bibei,2021,2,CAV 1 - 5 CEN,1·5·CEN
+34,442.0,Las Beatas,2022,1,CAV 3 - 4B CEN,3·4B·CEN
+34,427.5,Las Beatas,2022,1,CAV 3 - 4B CEN,3·4B·CEN
+34,413.0,Las lamas,2021,2,CAV 1 - 10 DER,1·10·DER
+34,398.0,l'Ermita,2022,1,CAV 1 - 10 CEN,1·10·CEN
+34,383.5,Les Aubaguetes,2021,1,CAV 1 - 10 CEN,1·10·CEN
+34,369.0,Lindes de Remelluri Salinillas de Buradón,2021,2,CAV 3 - 9 DER,3·9·DER
+34,354.5,Lindes de Remelluri San Vicente,2021,2,CAV 3 - 9 DER,3·9·DER
+34,340.0,Macán Clásico,2021,2,CAV 3 - 6 DER,3·6·DER
+34,325.5,Malabrigo,2022,2,CAV 4 - 6 CEN,4·6·CEN
+34,311.0,Malleolus de Sanchomartín,2021,1,CAV 4 - SUELO DER,4·SUELO·DER
+34,296.5,Malleolus de Valderramiro,2020,1,CAV 3 - SUELO IZQ,3·SUELO·IZQ
+34,282.0,Malpuesto,,2,CAV 3 - 4B DER,3·4B·DER
+34,267.5,Maria Alonso del Yerro,2021,2,CAV 4 - 6 IZQ,4·6·IZQ
+34,253.0,María Remirez de Ganuza,2019,1,CAV 3 - 5 CEN,3·5·CEN
+34,238.5,Marques de Murrieta Reserva,2021,4,CAV 1 - 3 IZQ,1·3·IZQ
+34,224.0,Marqués de Vargas Reserva,2020,2,CAV 3 - 10 CEN,3·10·CEN
+34,209.5,Mas Doix Salanques,2022,2,CAV 1 - 6 CEN,1·6·CEN
+34,195.0,Massuria,2020,2,CAV 1 - 12 CEN,1·12·CEN
+34,180.5,Matas Altas,2024,2,CAV 1 - 5 CEN,1·5·CEN
+34,166.0,Mauro,2023,2,CAV 4 - 10 IZQ,4·10·IZQ
+34,151.5,Miguel Merino Viñas Jóvenes,2022,2,CAV 3 - 8 CEN,3·8·CEN
+34,137.0,Moncerbal,2021,1,CAV 1 - 10 IZQ,1·10·IZQ
+34,122.5,Moncerbal,2022,1,CAV 1 - 10 DER,1·10·DER
+34,108.0,Monte Pío Malabesta,2021,2,CAV 4 - 10 CEN,4·10·CEN
+34,93.5,Muga Selección Especial,2021,2,CAV 3 - 8 CEN,3·8·CEN
+34,78.5,Numanthia,2020,2,CAV 1 - 6 IZQ,1·6·IZQ
+34,64.0,Orben,2021,2,CAV 3 - 7 IZQ,3·7·IZQ
+36,746.5,Paydos,2019,2,CAV 4 - 9 IZQ,4·9·IZQ
+36,732.0,Peñas aladas,2019,1,CAV 4 -8 DER,4·8·DER
+36,717.5,Pícaro del águila,2022,2,CAV 4 - 6 DER,4·6·DER
+36,703.0,Pingus,2021,1,CAV 4 - EXP B IZQ,4·EXP·B_IZQ
+36,688.5,Pintia,2020,2,CAV 3 - SUELO DER,3·SUELO·DER
+36,674.0,Prado Enea,2016,1,CAV 3 - EXP B DER,3·EXP·B_DER
+36,659.5,PSI,2022,2,CAV 4 - 7 IZQ,4·7·IZQ
+36,645.0,Quiñón de Valmira,2021,1,CAV 3 - EXP B DER,3·EXP·B_DER
+36,630.5,Remelluri Reserva,2017,2,CAV 3 - 9 CEN,3·9·CEN
+36,616.0,Remirez de Ganuza GR,1994,1,CAV 3 - 4B IZQ,3·4B·IZQ
+36,601.5,Remirez de Ganuza GR,1994,1,CAV 3 - 4B IZQ,3·4B·IZQ
+36,587.0,Remirez de Ganuza GR,1994,1,CAV 3 - 4B IZQ,3·4B·IZQ
+36,572.5,Remirez de Ganuza GR,1994,1,CAV 3 - 4B IZQ,3·4B·IZQ
+36,558.0,Remirez de Ganuza Reserva,2018,2,CAV 3 - 7 CEN,3·7·CEN
+36,543.5,Remirez de Ganuza Trasnocho,2019,2,CAV 3 - 7 DER,3·7·DER
+36,529.0,Remirez de Ganuza Viña Coqueta,2015,2,CAV 3 - 7 DER,3·7·DER
+36,514.5,ROC,2023,2,CAV 1 - 11 DER,1·11·DER
+36,500.0,Roda I Reserva,2020,2,CAV 1 - 3 CEN,1·3·CEN
+36,485.5,Roda Reserva,2021,2,CAV 3 - 8 IZQ,3·8·IZQ
+36,471.0,San Cobate La Finca,2021,3,CAV 1 - 3 DER,1·3·DER
+36,456.5,San Cucufate Altos del Viso,2019,1,CAV 4 - 7 DER,4·7·DER
+36,442.0,San Cucufate Bancales,2019,1,CAV 4 - 7 DER,4·7·DER
+36,427.5,San Cucufate Monasterio,2019,1,CAV 4 - 7 DER,4·7·DER
+36,413.0,San Roman,2022,2,CAV 4 - 9 CEN,4·9·CEN
+36,398.0,San Roman Garnacha,2022,2,CAV 4 - 9 DER,4·9·DER
+36,383.5,Sangarida Pico Tuerto,2022,2,CAV 1 - 11 CEN,1·11·CEN
+36,369.0,Seoane Novelle Mencia,2022,2,CAV 1 - 11 CEN,1·11·CEN
+36,354.5,Sierra Cantabria Col Privada,2022,2,CAV 3 - 8 IZQ,3·8·IZQ
+36,340.0,Son Agulló,2022,2,CAV 4 - 4B IZQ,4·4B·IZQ
+36,325.5,Suañé,2019,2,CAV 3 - 10 CEN,3·10·CEN
+36,311.0,Suelos,2021,2,CAV 3 - 8 DER,3·8·DER
+36,296.5,Suzzane,2023,2,CAV 3 - 9 IZQ,3·9·IZQ
+36,282.0,Telescópico,2022,2,CAV 1 - 5 DER,1·5·DER
+36,267.5,Tr3smano,2021,2,CAV 4 - 7 CEN,4·7·CEN
+36,253.0,V.O.,2022,2,CAV 1 - 12 IZQ,1·12·IZQ
+36,238.5,Valbuena 5to año,2020,2,CAV 3 - SUELO IZQ,3·SUELO·IZQ
+36,224.0,Valenciso Reserva,2019,2,CAV 3 - 9 CEN,3·9·CEN
+36,195.0,Vega Sicilia Unico,2015,2,CAV 1 - EXP DER,1·EXP·DER
+36,180.5,Venus de la figuera,2020,1,CAV 1 - 12 DER,1·12·DER
+36,166.0,Vereda de Tórdigas Rico Nuevo,2020,2,CAV 1 - 6 DER,1·6·DER
+36,151.5,Viariz,2023,2,CAV 1 - SUELO IZQ,1·SUELO·IZQ
+36,137.0,Viña Ardanza Reserva,2019,2,CAV 3 - 7 IZQ,3·7·IZQ
+36,122.5,Viña Tondonia,2012,2,CAV 3 - 7 CEN,3·7·CEN
+36,108.0,Viña Tondonia GR,2004,2,CAV 3 - EXP B CEN,3·EXP·B_CEN
+38,760.5,Allegrini Valpolicella Classico Superiore,2023,2,CAV 1 - 8 IZQ,1·8·IZQ
+38,745.5,Armand Rousseau Clos de Bèze GC,2014,1,CAV 3 - 4A IZQ,3·4A·IZQ
+38,730.0,Armand Rousseau G. Chambertin 1cru St Jacques,2020,1,CAV 1 - EXP CEN,1·EXP·CEN
+38,715.0,Chateau Rayas,2011,1,CAV 3 - 4A DER,3·4A·DER
+38,699.5,Domaine De Montille Bourgogne,2023,2,CAV 1 - 7 CEN,1·7·CEN
+38,684.5,Domaine Ponsot Clos de la Roché GC VV,2023,1,CAV 1 - EXP CEN,1·EXP·CEN
+38,669.0,DRC Echézeaux,2019,1,CAV 3 - 4A CEN,3·4A·CEN
+38,654.0,DRC Grands Échézeaux,2019,1,CAV 3 - 4A CEN,3·4A·CEN
+38,638.5,DRC Romanée Saint Vivant GC,2011,1,CAV 3 - 4A CEN,3·4A·CEN
+38,623.5,DRC Vosne-Romanée 1er Cru,2019,1,CAV 3 - 4A CEN,3·4A·CEN
+38,608.0,Emmanuel Rouget Cros Parantoux 1er Cru,2019,1,CAV 3 - 4A IZQ,3·4A·IZQ
+38,593.0,Ferdinando Principiano Langhe,2023,2,CAV 1 - 7 DER,1·7·DER
+38,577.5,Frederic Mugnier Musigny GC,2014,1,CAV 3 - 4A IZQ,3·4A·IZQ
+38,562.5,Herve Souhaut Souteronne 23,,2,CAV 1 - 7 DER,1·7·DER
+38,547.0,Jean Grivot Richebourg GC,2022,1,CAV 1 - EXP IZQ,1·EXP·IZQ
+38,532.0,Mark Haisma Bourgogne,2023,1,CAV 3 - 4A DER,3·4A·DER
+38,516.5,Mark Haisma Chambolle - Musigny,2023,1,CAV 3 - 4A DER,3·4A·DER
+38,501.5,Mark Haisma Pommard,2023,1,CAV 3 - 4A DER,3·4A·DER
+38,486.0,Marquis D´Alesme,,2,CAV 1 - 7 CEN,1·7·CEN
+38,471.0,Poeirinho,2022,2,CAV 1 - 8 IZQ,1·8·IZQ
+38,455.5,Polígonos San Pablo,2022,2,CAV 1 - 8 DER,1·8·DER
+38,440.5,Potensac,,2,CAV 1 - 7 IZQ,1·7·IZQ
+38,425.0,Richard Kershaw Smugler´s Boot,,2,CAV 1 - 8 CEN,1·8·CEN
+38,410.0,Savage Follow the Line,2023,2,CAV 1 - 8 CEN,1·8·CEN
+38,394.5,Sylvain Cathiard Aux Malconsorts 1er Cru,1999,1,CAV 3 - 4A IZQ,3·4A·IZQ
+40,760.5,Emilio Hidalgo Fino La Panesa,,2,JAMONES,JAM
+40,745.5,La Riva Manzanilla Fina Miraflores,NV,2,JAMONES,JAM
+40,730.0,Santa Petronila Fino Flor de Macharnudo,,2,CAV 2 - 1 DER,2·1·DER
+40,699.5,Viña Corrales,2023,2,JAMONES,JAM
+40,669.0,Emilio Hidalgo Amontillado Fino Tresillo,,1,JAMONES,JAM
+40,654.0,Santa Petronila Amontillado en Rama,NV,2,CAV 2 - 1 DER,2·1·DER
+40,638.5,Tradición Amontillado VORS,,2,JAMONES,JAM
+40,608.0,Emilio Hidalgo Oloroso Villapanes,,1,JAMONES,JAM
+40,593.0,Tradición Oloroso VORS,,2,JAMONES,JAM
+40,562.5,Emilio Hidalgo Palo Cortado Marqués de Rodil,,2,JAMONES,JAM
+40,547.0,Tradición Palo Cortado VORS,,2,JAMONES,JAM
+40,516.5,Niepoort Vintage,2022,1,JAMONES,JAM
+40,440.5,Quinta da Corte Tawny 20 años,NV,1,JAMONES,JAM
+40,410.0,Van Zellers Tawny 10 años,NV,1,JAMONES,JAM
+40,394.5,Van Zellers Tawny 30 años,,1,JAMONES,JAM
+40,364.0,Attis Sitta Pereiras,2023,3,CAV 2 - EXP INT IZQ,2·EXP·INT
+40,349.0,Molino real 50Cl,2015,1,CAV 2 - EXP INT DER,2·EXP·INT
+40,334.0,Oremus Tokaji 5 Puttonyos,2017,1,JAM / CAV 2 - 1 CEN,2·1·CEN
+40,318.5,Toro Albalá Don PX,2023,1,JAMONES,JAM
+40,303.5,Toro Albalá Don PX Gran Reserva,2003,1,JAMONES,JAM
+40,273.0,Finca Dofí 37'5cl,2023,2,CAV 1 - EXP IZQ,1·EXP·IZQ
+40,257.5,La nieta 37'5cl,2023,2,CAV 1 - EXP CEN,1·EXP·CEN
+40,242.5,Roda I 50Cl,2017,2,CAV 1 - EXP IZQ,1·EXP·IZQ
+40,227.0,Sitta Pereiras 50Cl,2023,3,CAV 3 - 2 CEN,3·2·CEN
+40,196.5,Alabaster MAGNUM,2022,1,CAV 4 - SUELO CEN,4·SUELO·CEN
+40,181.5,Artadi la poza de Ballesteros MAGNUM,2022,1,CAV 4 - SUELO IZQ,4·SUELO·IZQ
+40,166.0,Cartago MAGNUM,2019,1,CAV 4 - SUELO CEN,4·SUELO·CEN
+40,151.0,Finca Dofí MAGNUM,2022,1,CAV 4 - SUELO IZQ,4·SUELO·IZQ
+40,135.5,Las Lamas MAGNUM,2021,1,CAV 4 - SUELO DER,4·SUELO·DER
+40,120.5,Viña Ardanza MAGNUM,2019,1,CAV 4 - SUELO DER,4·SUELO·DER

@@ -1,0 +1,10 @@
+{
+  "input_file": "reports/cata_lote_09.txt",
+  "catalog_file": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+  "rows_input": 301,
+  "matched": 301,
+  "updated": 0,
+  "unmatched": 0,
+  "touched_pods_count": 0,
+  "touched_pods_preview": []
+}

@@ -1,0 +1,12 @@
+{
+  "input_file": "reports/cata_lote_13_fix.txt",
+  "catalog_file": "data/bodega_webapp.json",
+  "rows_input": 1,
+  "matched": 1,
+  "updated": 1,
+  "unmatched": 0,
+  "touched_pods_count": 1,
+  "touched_pods_preview": [
+    "POD016652"
+  ]
+}

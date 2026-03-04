@@ -1,0 +1,300 @@
+Mg Mauro VS 21-|Castilla y León|Tempranillo|Magnum (150cl)|2021|300€|POD016112|—
+Mg Moncerbal 21-|Bierzo|Mencía|Magnum (150cl)|2021|465€|POD011334|—
+Mg Moncerbal 22-|Bierzo|Mencía|Magnum (150cl)|2022|455€|POD015992|—
+Mg Pingus 21-|Ribera del Duero|Tempranillo|Magnum (150cl)|2021|4133€|POD011367|—
+Mg Terreus 22-|Castilla y León|Tempranillo|Magnum (150cl)|2022|439€|POD016114|—
+Mg Teso La Monja 19-|Toro|Tinta de Toro|Magnum (150cl)|2019|4542€|POD015263|—
+Mg Vega Sicilia Unico-|Ribera del Duero|Tempranillo|Magnum (150cl)|2012|2900€|POD013533|—
+Mg. La Faraona 16-|Bierzo|Mencía|Magnum (150cl)|2016|4400€|POD014560|—
+Mg. Vega Sicilia Unico 12-|Ribera del Duero|Tempranillo|Magnum (150cl)|2012|3045€|POD_TEMP_1043|—
+Mg. Vega Sicilia Unico 2011-|Ribera del Duero|Tempranillo|Magnum (150cl)|2011|2273€|POD014624|—
+Moncerbal 20-|Bierzo|Mencía|Botella (75cl)|2020|220€|POD014656|—
+Moncerbal 21-|Bierzo|Mencía|Botella (75cl)|2021|216€|POD015371|—
+Moncerbal 22-|Bierzo|Mencía|Botella (75cl)|2022|202€|POD015991|—
+Nebro 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|278€|POD015819|—
+Numanthia 20-|Toro|Tinta de Toro|Botella (75cl)|2020|95€|POD018961|—
+Oxer B Kuusu 23-|Toro|Tinta de Toro|Botella (75cl)|2023|198€|POD018763|—
+Peña Lobera 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|189€|POD014245|—
+Peñas Aladas 18-|Ribera del Duero|Tempranillo|Botella (75cl)|2018|393€|POD011466|—
+Peñas Aladas 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|475€|POD018091|—
+Pesus 18-|Ribera del Duero|Tempranillo|Botella (75cl)|2018|578€|POD015108|—
+Picaro del Aguila TO 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|72€|POD014777|—
+Pingus 18-|Ribera del Duero|Tempranillo|Botella (75cl)|2018|3617€|POD008521|—
+Pingus 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|2046€|POD011366|—
+Pingus 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|2563€|POD017478|—
+Pintia 17-|Toro|Tinta de Toro|Botella (75cl)|2017|119€|POD013547|—
+Pintia 18-|Toro|Tinta de Toro|Botella (75cl)|2018|114€|POD013548|—
+Pintia 20-|Toro|Tinta de Toro|Botella (75cl)|2020|114€|POD016962|—
+Pradio 22-|Ribeira Sacra|Mencía|Botella (75cl)|2022|41€|POD018743|—
+PSI 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|78€|POD016022|—
+Quite 23-|Bierzo|Mencía|Botella (75cl)|2023|41€|POD018319|—
+Raul Perez La Muria 23-|Bierzo|Mencía|Botella (75cl)|2023|1040€|POD019144|—
+Raul Perez Ultreia de Valtuille 22-|Bierzo|Mencía|Botella (75cl)|2022|160€|POD018238|—
+Raul Perez Ultreia Paluezas 21-|Bierzo|Mencía|Botella (75cl)|2021|98€|POD010554|—
+Raul Perez Viariz La Muria 23-|Bierzo|Mencía|Botella (75cl)|2023|310€|POD019145|—
+San Cobate Cucufate Altos del Viso 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|58€|POD018039|—
+San Cobate Cucufate Bancales Jalon 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|58€|POD018040|—
+San Cobate Cucufate Monasterio 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|58€|POD018038|—
+San Cobate La Finca 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|48€|POD018037|—
+San Roman-|Toro|Tinta de Toro|Botella (75cl)|2021|66€|POD012906|—
+San Roman 21-|Toro|Tinta de Toro|Botella (75cl)|2021|60€|POD_TEMP_1044|—
+San Roman Garnacha 22-|Toro|Garnacha|Botella (75cl)|2022|92€|POD016113|—
+Sanchomartin 21-|Ribera del Duero|Tempranillo|Botella (75cl)|2021|296€|POD019082|—
+Sangarida El Morredero TO 22-|Bierzo|Mencía|Botella (75cl)|2022|57€|POD016570|—
+Sangarida Pico Tuerto TO 21-|Bierzo|Mencía|Botella (75cl)|2021|43€|POD016562|—
+Solano Viñas Viejas 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|61€|POD018826|—
+Teso La Monja 19-|Toro|Tinta de Toro|Botella (75cl)|2019|2082€|POD015262|—
+TM de Tr3smano 19-|Ribera del Duero|Tempranillo|Botella (75cl)|2019|172€|POD019797|—
+Tr3smano vendimia 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|76€|POD016536|—
+Ultreia Cova La Raposa 21-|Bierzo|Mencía|Botella (75cl)|2021|110€|POD019681|—
+Valbuena 5º año 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|310€|POD016964|—
+Valduero 6 años 16-|Ribera del Duero|Tempranillo|Botella (75cl)|2016|154€|POD015067|—
+Valduero Una Cepa 20-|Ribera del Duero|Tempranillo|Botella (75cl)|2020|79€|POD018859|—
+Valeyo 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|62€|POD016117|—
+Vega Sicilia Unico 04-|Ribera del Duero|Tempranillo|Botella (75cl)|2004|2170€|POD004405|—
+Vega Sicilia Unico 14-|Ribera del Duero|Tempranillo|Botella (75cl)|2014|605€|POD011804|—
+Vega Sicilia Unico 15-|Ribera del Duero|Tempranillo|Botella (75cl)|2015|568€|POD016966|—
+Vega Sicilia Unico 1996-|Ribera del Duero|Tempranillo|Botella (75cl)|1996|4082€|POD004400|—
+Vega Sicilia Unico 2009-|Ribera del Duero|Tempranillo|Botella (75cl)|2009|1333€|POD007480|—
+Veronica Ortega Roc 22-|Bierzo|Mencía|Botella (75cl)|2022|83€|POD019444|—
+Veronica Ortega VO 23-|Bierzo|Mencía|Botella (75cl)|2023|66€|POD019446|—
+Viña Sastre Pago Santa Cruz 22-|Ribera del Duero|Tempranillo|Botella (75cl)|2022|116€|POD017304|—
+El Reflejo de Mikaela 22-|Castilla-La Mancha|Bobal|Botella (75cl)|2022|35€|POD019752|—
+3/8 Finca Dofi 23-|Priorat|Garnacha|Media botella (37,5cl)|2023|105€|POD019520|—
+Clos Erasmus 12-|Priorat|Garnacha|Botella (75cl)|2012|595€|POD015464|—
+Clos Martinet 22-|Priorat|Garnacha|Botella (75cl)|2022|151€|POD015749|—
+Clos Mogador 08-|Priorat|Garnacha|Botella (75cl)|2008|413€|POD010263|—
+Clos Mogador 14-|Priorat|Garnacha|Botella (75cl)|2014|362€|POD010268|—
+Clos Mogador 2010-|Priorat|Garnacha|Botella (75cl)|2010|465€|POD010264|—
+Clos Mogador 2013-|Priorat|Garnacha|Botella (75cl)|2013|300€|POD010267|—
+Dido Tinto 22-|Montsant|Garnacha|Botella (75cl)|2022|45€|POD013954|—
+Dits del Terra Terroir al Limit 21-|Priorat|Cariñena|Botella (75cl)|2021|155€|POD001707|—
+Doble Mg Finca Dofi 22-|Priorat|Garnacha|Doble Magnum (300cl)|2022|785€|POD015974|—
+Doble Mg Gratallops 22-|Priorat|Garnacha|Doble Magnum (300cl)|2022|482€|POD015971|—
+Doble Mg L´Ermita 22-|Priorat|Garnacha|Doble Magnum (300cl)|2022|8800€|POD015985|—
+Doble Mg La Baixada 22-|Priorat|Garnacha|Doble Magnum (300cl)|2022|2046€|POD015978|—
+Doble Mg Les Aubaguetes 22-|Priorat|Garnacha|Doble Magnum (300cl)|2022|3170€|POD015981|—
+Doble Mg. Gratallops 21-|Priorat|Garnacha|Doble Magnum (300cl)|2021|426€|POD008432|—
+Doix 22-|Priorat|Cariñena|Botella (75cl)|2022|187€|POD018544|—
+Finca Dofi 22-|Priorat|Garnacha|Botella (75cl)|2022|196€|POD015972|—
+Gralton Coster Crivi Cariñena 19-|Priorat|Cariñena|Botella (75cl)|2019|120€|POD011604|—
+Gratallops 22-|Priorat|Garnacha|Botella (75cl)|2022|119€|POD015969|—
+Jeroboam Finca Dofi 5L 22-|Priorat|Garnacha|Jeroboam (500cl)|2022|1147€|POD015975|—
+Jeroboam L´Ermita 5L 22-|Priorat|Garnacha|Jeroboam (500cl)|2022|12700€|POD015986|—
+Jeroboam Les Aubaguetes 5L 22-|Priorat|Garnacha|Jeroboam (500cl)|2022|5350€|POD015982|—
+L Ermita 20-|Priorat|Garnacha|Botella (75cl)|2020|2800€|POD009755|—
+L´Ermita 22-|Priorat|Garnacha|Botella (75cl)|2022|2015€|POD015983|—
+La Baixada 21-|Priorat|Garnacha|Botella (75cl)|2021|382€|POD011324|—
+La Baixada 22-|Priorat|Garnacha|Botella (75cl)|2022|382€|POD015976|—
+LErmita 21-|Priorat|Garnacha|Botella (75cl)|2021|2495€|POD011328|—
+Les Aubaguetes 20-|Priorat|Garnacha|Botella (75cl)|2020|801€|POD013046|—
+Les Aubaguetes 21-|Priorat|Garnacha|Botella (75cl)|2021|791€|POD011326|—
+Les Aubaguetes 22-|Priorat|Garnacha|Botella (75cl)|2022|692€|POD015979|—
+Les Manyes 22-|Priorat|Garnacha|Botella (75cl)|2022|496€|POD019737|—
+Les Terrases 22-|Priorat|Garnacha|Botella (75cl)|2022|72€|POD012960|—
+Mas den Gil Clos Fonta 19-|Priorat|Garnacha|Botella (75cl)|2019|124€|POD019643|—
+Mas den Gil Maçanella 21-|Priorat|Garnacha|Botella (75cl)|2021|280€|POD019644|—
+Mas Doix 1902 Tossal D En Bou 2021-|Priorat|Cariñena|Botella (75cl)|2021|770€|POD011511|—
+Mas Doix 1903 Coma de Cases 22-|Priorat|Cariñena|Botella (75cl)|2021|715€|POD019675|—
+Mas Doix Salanques 21-|Priorat|Garnacha|Botella (75cl)|2021|90€|POD011510|—
+Mas Doix Salanques 22-|Priorat|Garnacha|Botella (75cl)|2022|85€|POD018766|—
+Mg Finca Dofi 22-|Priorat|Garnacha|Magnum (150cl)|2022|326€|POD015973|—
+Mg L Ermita 21-|Priorat|Garnacha|Magnum (150cl)|2021|5700€|POD011329|—
+Mg L´Ermita 22-|Priorat|Garnacha|Magnum (150cl)|2022|4474€|POD015984|—
+Mg La Baixada 18-|Priorat|Garnacha|Magnum (150cl)|2018|700€|POD014558|—
+Mg La Baixada 21-|Priorat|Garnacha|Magnum (150cl)|2021|946€|POD011325|—
+Mg La Baixada 22-|Priorat|Garnacha|Magnum (150cl)|2022|853€|POD015977|—
+Mg Les Aubaguetes 18-|Priorat|Garnacha|Magnum (150cl)|2018|1395€|POD014574|—
+Mg Les Aubaguetes 21-|Priorat|Garnacha|Magnum (150cl)|2021|1591€|POD011327|—
+Mg Les Aubaguetes 22-|Priorat|Garnacha|Magnum (150cl)|2022|1566€|POD015980|—
+Mg. L Ermita 15-|Priorat|Garnacha|Magnum (150cl)|2015|5000€|POD003727|—
+Mg. Les Aubaguetes 20-|Priorat|Garnacha|Magnum (150cl)|2020|1515€|POD012371|—
+Murmuri Mas Doix 22-|Priorat|Garnacha|Botella (75cl)|2022|209€|POD012989|—
+Venus de la Figuera 20-|Montsant|Garnacha|Botella (75cl)|2020|116€|POD017258|—
+Vinya de la Gloria 20-|Montsant|Garnacha|Botella (75cl)|2017|98€|NO HAY|—
+Vinya de la Gloria 20-|Montsant|Garnacha|Botella (75cl)|2017|108€|POD019441|—
+Celler del Roure La Pebrella 23-|Comunidad Valenciana|Mandó|Botella (75cl)|2023|68€|POD019636|—
+Finca El Terrerazo 22-|Comunidad Valenciana|Bobal|Botella (75cl)|2022|48€|POD016186|—
+Javi Revert Forada 23-|Comunidad Valenciana|Bobal|Botella (75cl)|2023|120€|POD018063|—
+Javi Revert Simeta 23-|Comunidad Valenciana|Garnacha Tintorera|Botella (75cl)|2023|96€|POD018062|—
+Quincha Corral 19-|Comunidad Valenciana|Bobal|Botella (75cl)|2019|196€|POD014813|—
+Barbas de Gata 20-|Extremadura|Tempranillo|Botella (75cl)|2020|45€|POD017303|—
+Viña Del Hombre 17-|Extremadura|Tempranillo|Botella (75cl)|2017|165€|POD008914|—
+Viña La Forajida 17-|Extremadura|Tempranillo|Botella (75cl)|2017|250€|POD015096|—
+Algueira Risco Merenzao 20-|Ribeira Sacra|Merenzao|Botella (75cl)|2020|90€|POD017519|—
+As Caborcas 22-|Valdeorras|Mencía|Botella (75cl)|2022|132€|POD018450|—
+Attis Caiño 18-|Bierzo|Caiño Tinto|Botella (75cl)|2018|54€|POD016564|—
+Attis Espadeiro 18-|Bierzo|Espadeiro|Botella (75cl)|2018|54€|POD011907|—
+Dominio do Bibei 20-|Ribeira Sacra|Mencía|Botella (75cl)|2020|100€|POD016342|—
+Dominio do Bibei 21-|Ribeira Sacra|Mencía|Botella (75cl)|2021|105€|POD016437|—
+Dominio do Bibei Confidoncial 19-|Ribeira Sacra|Mencía|Botella (75cl)|2019|65€|POD016344|—
+Dominio do Bibei Lacima 20-|Ribeira Sacra|Mencía|Botella (75cl)|2020|92€|POD016340|—
+Falcoeira A Capilla 22-|Valdeorras|Mencía|Botella (75cl)|2022|102€|POD018448|—
+Fedellos Bastarda 23-|Ribeira Sacra|Merenzao|Botella (75cl)|2023|68€|POD019662|—
+Goliardo Caiño 22-|Bierzo|Caiño Tinto|Botella (75cl)|2022|59€|POD019761|—
+Guimaro A Ponte 21-|Ribeira Sacra|Mencía|Botella (75cl)|2021|56€|POD015541|—
+La Lama|Ribeira Sacra|Mencía|Botella (75cl)|2021|44€|POD001798|—
+Monte Pio Malabesta 21-|Ribeira Sacra|Mencía|Botella (75cl)|2021|40€|POD016869|—
+O Diviso 22-|Valdeorras|Mencía|Botella (75cl)|2022|155€|POD018451|—
+Telmo Rodriguez Falcoeira A Capilla 21-|Valdeorras|Mencía|Botella (75cl)|2021|116€|POD012034|—
+4 Monos Arroyo Animas 22-|Madrid|Garnacha|Botella (75cl)|2022|70€|POD019691|—
+4 Monos Cien Lanzas 22-|Madrid|Garnacha|Botella (75cl)|2022|44€|POD017841|—
+4 Monos Molino Quemado 22-|Madrid|Garnacha|Botella (75cl)|2022|58€|POD019693|—
+Alto Horizonte Alto de la Cruz 22-|Madrid|Garnacha|Botella (75cl)|2022|56€|POD019582|—
+Alto Horizonte Cerro Brujo 22-|Madrid|Garnacha|Botella (75cl)|2022|121€|POD019057|—
+Bernabeleva Arroyo Tortolas 23-|Madrid|Garnacha|Botella (75cl)|2023|83€|POD019727|—
+Bernabeleva Viña Bonita 22-|Madrid|Garnacha|Botella (75cl)|2022|112€|POD013746|—
+Comando G 1C Peña La Mora 22-|Madrid|Garnacha|Botella (75cl)|2022|160€|POD015730|—
+Comando G La Breña 22-|Madrid|Garnacha|Botella (75cl)|2022|165€|POD015731|—
+Comando G Navatalgordo 23-|Madrid|Garnacha|Botella (75cl)|2023|84€|POD015729|—
+Comando G Rozas 23-|Madrid|Garnacha|Botella (75cl)|2023|86€|POD015318|—
+Comando G Tumba Rey Moro 22-|Madrid|Garnacha|Botella (75cl)|2022|399€|POD018054|—
+Comando G Villanueva 23-|Madrid|Garnacha|Botella (75cl)|2023|84€|POD015728|—
+El Hombre Bala 22-|Madrid|Garnacha|Botella (75cl)|2022|43€|POD014053|—
+La Quebra 21-|Madrid|Garnacha|Botella (75cl)|2021|95€|POD017564|—
+Las Enebradas 19-|Madrid|Garnacha|Botella (75cl)|2019|79€|POD014366|—
+Mg Comando G Rumbo al Norte 20-|Madrid|Garnacha|Magnum (150cl)|2020|1860€|POD014517|—
+Rico Nuevo Jiron De Niebla 20-|Madrid|Garnacha|Botella (75cl)|2020|37€|POD011910|—
+Vereda de Tordigas 20-|Madrid|Garnacha|Botella (75cl)|2020|24€|POD017568|—
+Casa Castillo Las Gravas 22-|Murcia|Monastrell|Botella (75cl)|2022|102€|POD018084|—
+Casa Castillo Pie Franco 22-|Murcia|Monastrell|Botella (75cl)|2022|262€|POD019625|—
+Cerron La Calera del Escaramujo 23-|Murcia|Monastrell|Botella (75cl)|2023|174€|POD017911|—
+Cerron La Servil 23-|Murcia|Monastrell|Botella (75cl)|2023|61€|POD017906|—
+La Tendida 22-|Murcia|Monastrell|Botella (75cl)|2022|30€|POD019624|—
+Matas Altas TO 23-|Murcia|Monastrell|Botella (75cl)|2023|40€|POD017907|—
+Matas Altas TO 24-|Murcia|Monastrell|Botella (75cl)|2024|38€|POD019478|—
+Artadi El Carretil 22-|Rioja Alavesa|Tempranillo|Botella (75cl)|2022|270€|POD016008|—
+Artadi El Pison 20-|Rioja Alavesa|Tempranillo|Botella (75cl)|2020|580€|POD013042|—
+Artadi El Pison 21-|Rioja Alavesa|Tempranillo|Botella (75cl)|2021|580€|POD013043|—
+Artadi La Poza de Ballesteros-|Rioja Alavesa|Tempranillo|Botella (75cl)|2020|184€|POD013688|—
+Artadi La Poza de Ballesteros 22-|Rioja Alavesa|Tempranillo|Botella (75cl)|2022|184€|POD016006|—
+Artadi Viña El Pison 22-|Rioja Alavesa|Tempranillo|Botella (75cl)|2022|468€|POD016010|—
+Doble Mg Artadi Viña El Pison 22-|Rioja Alavesa|Tempranillo|Doble Magnum (300cl)|2022|2395€|POD016012|—
+La Poza de Ballesteros 21-|Rioja Alavesa|Tempranillo|Botella (75cl)|2021|184€|POD012339|—
+Mg Artadi El Carretil 22-|Rioja Alavesa|Tempranillo|Magnum (150cl)|2022|610€|POD016009|—
+Mg Artadi El Pison 21-|Rioja Alavesa|Tempranillo|Magnum (150cl)|2021|1100€|POD011338|—
+Mg Artadi La Poza de Ballesteros 22-|Rioja Alavesa|Tempranillo|Magnum (150cl)|2022|385€|POD016007|—
+Mg Artadi San Lazaro 21-|Rioja Alavesa|Tempranillo|Magnum (150cl)|2021|310€|POD011337|—
+Mg Artadi San Lazaro 22-|Rioja Alavesa|Tempranillo|Magnum (150cl)|2022|385€|POD016005|—
+Mg Artadi Viña El Pison 22-|Rioja Alavesa|Tempranillo|Magnum (150cl)|2022|1055€|POD016011|—
+1/2 Murrieta Rva 21-|Rioja|Tempranillo|Media botella (37,5cl)|2021|35€|POD018323|—
+1/2 Roda I Reserva 17-|Rioja|Tempranillo|Media botella (50cl)|2016|59€|POD019025|—
+3/8 Amancio 22-|Rioja|Tempranillo|Media botella (37,5cl)|2022|105€|POD019114|—
+3/8 Finca El Bosque 23-|Rioja|Tempranillo|Media botella (37,5cl)|2023|104€|POD019109|—
+3/8 La Nieta 23-|Rioja|Tempranillo|Media botella (37,5cl)|2023|140€|POD019107|—
+890 G Rva 01-|Rioja|Tempranillo|Botella (75cl)|2001|640€|POD009773|—
+890 G Rva 04-|Rioja|Tempranillo|Botella (75cl)|2004|625€|POD009779|—
+890 G Rva 05-|Rioja|Tempranillo|Botella (75cl)|2005|625€|POD016579|—
+890 G Rva 95-|Rioja|Tempranillo|Botella (75cl)|1995|700€|POD009777|—
+890 G Rva 98-|Rioja|Tempranillo|Botella (75cl)|1998|680€|POD009782|—
+890 GR 11-|Rioja|Tempranillo|Botella (75cl)|2011|357€|POD018946|—
+904 G Rva 05-|Rioja|Tempranillo|Botella (75cl)|2005|325€|POD009840|—
+904 G Rva 09-|Rioja|Tempranillo|Botella (75cl)|2009|230€|POD009780|—
+904 G Rva 10-|Rioja|Tempranillo|Botella (75cl)|2010|270€|POD009781|—
+904 GR 01-|Rioja|Tempranillo|Botella (75cl)|2001|350€|POD009772|—
+904 Gran Rva 16|Rioja|Tempranillo|Botella (75cl)|2016|134€|POD018770|—
+A Mendoza Graci Grano a Gran 22-|Rioja|Tempranillo|Botella (75cl)|2022|88€|POD019769|—
+A Mendoza Tempr Grano a Gran 22-|Rioja|Tempranillo|Botella (75cl)|2022|88€|POD019768|—
+A&P Suañe Tinto 19-|Rioja|Tempranillo|Botella (75cl)|2019|65€|POD017523|—
+Abel Mendoza Guardaviñas 23-|Rioja|Tempranillo|Botella (75cl)|2023|52€|POD019767|—
+Abel Mendoza Suelos 21-|Rioja|Tempranillo|Botella (75cl)|2021|32€|POD019770|—
+Anza Carramonte 22-|Rioja|Tempranillo|Botella (75cl)|2022|132€|POD019666|—
+Anza Rioja 23-|Rioja|Tempranillo|Botella (75cl)|2023|48€|POD019663|—
+Aro 21-|Rioja|Tempranillo|Botella (75cl)|2021|488€|POD013010|—
+Aro Muga 19-|Rioja|Tempranillo|Botella (75cl)|2019|488€|POD013676|—
+Artuke El Escolladero 22-|Rioja|Tempranillo|Botella (75cl)|2022|152€|POD019771|—
+Artuke La Condenada 22-|Rioja|Tempranillo|Botella (75cl)|2022|185€|POD016411|—
+Baron de Chirel 19-|Rioja|Tempranillo|Botella (75cl)|2019|196€|POD013720|—
+Barrio Pastores 23-|Rioja|Tempranillo|Botella (75cl)|2023|53€|POD019385|—
+Baynos 21-|Rioja|Tempranillo|Botella (75cl)|2021|121€|POD016101|—
+Bideona Cofrades 21-|Rioja|Tempranillo|Botella (75cl)|2021|147€|POD017067|—
+Bideona Laguardia 18-|Rioja|Tempranillo|Botella (75cl)|2018|68€|POD018488|—
+Bideona Samaniego 20-|Rioja|Tempranillo|Botella (75cl)|2020|62€|POD013749|—
+Castillo de Ygay 09-|Rioja|Tempranillo|Botella (75cl)|2009|997€|POD009660|—
+Castillo de Ygay 2005-|Rioja|Tempranillo|Botella (75cl)|2005|1137€|POD009662|—
+Castillo de Ygay 2010-|Rioja|Tempranillo|Botella (75cl)|2010|1736€|POD009659|—
+Contador 22-|Rioja|Tempranillo|Botella (75cl)|2022|403€|POD016103|—
+Contador Las Paulejas 20-|Rioja|Tempranillo|Botella (75cl)|2020|1292€|POD016145|—
+Contino Graciano 20-|Rioja|Graciano|Botella (75cl)|2020|123€|POD016179|—
+Contino Rva 21-|Rioja|Tempranillo|Botella (75cl)|2021|70€|POD018634|—
+Contino Viña del Olivo 22-|Rioja|Tempranillo|Botella (75cl)|2022|185€|POD017669|—
+Costumbres TO 23-|Rioja|Tempranillo|Botella (75cl)|2023|37€|POD019384|—
+Cuentaviñas El Tiznado 22-|Rioja|Tempranillo|Botella (75cl)|2022|281€|POD013283|—
+Cuentaviñas Los Yelsones 22-|Rioja|Tempranillo|Botella (75cl)|2022|281€|POD013282|—
+Cuentaviñas Septeno 22-|Rioja|Tempranillo|Botella (75cl)|2022|143€|POD013281|—
+Dalmau 20-|Rioja|Tempranillo|Botella (75cl)|2020|376€|POD018264|—
+Doble Mg Amancio 17-|Rioja|Tempranillo|Doble Magnum (300cl)|2017|910€|POD013037|—
+Doble Mg Amancio 20-|Rioja|Tempranillo|Doble Magnum (300cl)|2020|910€|POD013958|—
+Doble Mg Amancio 21-|Rioja|Tempranillo|Doble Magnum (300cl)|2021|910€|POD015273|—
+Doble Mg Castillo de Ygay 12-|Rioja|Tempranillo|Doble Magnum (300cl)|2012|3190€|POD011521|—
+Doble Mg El Puntido 20-|Rioja|Tempranillo|Doble Magnum (300cl)|2020|408€|POD013960|—
+Doble Mg El Puntido 21-|Rioja|Tempranillo|Doble Magnum (300cl)|2021|399€|POD015266|—
+Doble Mg Finca El Bosque 18-|Rioja|Tempranillo|Doble Magnum (300cl)|2018|990€|POD013039|—
+Doble Mg Finca El Bosque 21-|Rioja|Tempranillo|Doble Magnum (300cl)|2021|870€|POD013962|—
+Doble Mg La Nieta 22-|Rioja|Tempranillo|Doble Magnum (300cl)|2022|997€|POD015269|—
+Doble Mg Quiñon de Valmira 22-|Rioja|Tempranillo|Doble Magnum (300cl)|2022|3360€|POD016249|—
+Doble Mg Remirez de Ganuza G. Rva 95-|Rioja|Tempranillo|Doble Magnum (300cl)|1995|2067€|POD016651|—
+Doble Mg Remirez de Ganuza Rva 16-|Rioja|Tempranillo|Doble Magnum (300cl)|2016|367€|POD016652|—
+El Corner del Puntido 22-|Rioja|Tempranillo|Botella (75cl)|2022|154€|POD015280|—
+El Corner del Puntido 23-|Rioja|Tempranillo|Botella (75cl)|2023|178€|POD018570|—
+El Puntido 22-|Rioja|Tempranillo|Botella (75cl)|2022|80€|POD019116|—
+El Velado 22-|Rioja|Tempranillo|Botella (75cl)|2022|179€|POD018446|—
+Exopto El Espinal 22-|Rioja|Tempranillo|Botella (75cl)|2022|68€|POD019736|—
+Exopto La Mimbrera 18-|Rioja|Tempranillo|Botella (75cl)|2018|126€|POD014108|—
+Finca de los Locos 23-|Rioja|Tempranillo|Botella (75cl)|2023|138€|POD013696|—
+Finca el Bosque 06-|Rioja|Tempranillo|Botella (75cl)|2006|455€|POD016683|—
+Finca el Bosque 09-|Rioja|Tempranillo|Botella (75cl)|2009|385€|POD016686|—
+Finca el Bosque 12-|Rioja|Tempranillo|Botella (75cl)|2012|329€|POD016687|—
+Finca el Bosque 16-|Rioja|Tempranillo|Botella (75cl)|2016|273€|POD016688|—
+Finca el Bosque 17-|Rioja|Tempranillo|Botella (75cl)|2017|280€|POD016689|—
+Finca El Bosque 22-|Rioja|Tempranillo|Botella (75cl)|2022|217€|POD015275|—
+Finca la Emperatriz 18-|Rioja|Tempranillo|Botella (75cl)|2018|81€|POD019735|—
+Galtzada 22-|Rioja|Tempranillo|Botella (75cl)|2022|116€|POD017068|—
+Imperial Gran Reserva 18-|Rioja|Tempranillo|Botella (75cl)|2018|132€|POD019100|—
+Imperial Rva 19-|Rioja|Tempranillo|Botella (75cl)|2019|57€|POD012746|—
+Izadi Seleccion Reserva 20-|Rioja|Tempranillo|Botella (75cl)|2020|30€|POD018633|—
+La Cueva de Contador 22-|Rioja|Tempranillo|Botella (75cl)|2022|147€|POD016104|—
+La Nieta 22-|Rioja|Tempranillo|Botella (75cl)|2022|300€|POD013255|—
+La Rioja Alta 890 GR 10-|Rioja|Tempranillo|Botella (75cl)|2010|351€|POD001610|—
+Lanzaga Rioja La Estrada 21-|Rioja|Tempranillo|Botella (75cl)|2021|207€|POD017736|—
+Las Beatas 2021-|Rioja|Tempranillo|Botella (75cl)|2021|592€|POD012038|—
+Lindes Remelluri Buradón 20-|Rioja|Tempranillo|Botella (75cl)|2020|50€|POD019686|—
+Lindes Remelluri San Vicente 21-|Rioja|Tempranillo|Botella (75cl)|2021|39€|POD019685|—
+Macan 20-|Rioja|Tempranillo|Botella (75cl)|2020|119€|POD014428|—
+Macan Clasico 21-|Rioja|Tempranillo|Botella (75cl)|2021|70€|POD016957|—
+Maria Remirez de Ganuza 19-|Rioja|Tempranillo|Botella (75cl)|2019|310€|POD017641|—
+Marques de Murrieta Rva 21-|Rioja|Tempranillo|Botella (75cl)|2021|63€|POD017713|—
+Marques de Vargas Pradolagar 17-|Rioja|Tempranillo|Botella (75cl)|2017|210€|POD014461|—
+Marques de Vargas Rva 19-|Rioja|Tempranillo|Botella (75cl)|2019|42€|POD012803|—
+Marques de Vargas Rva 20-|Rioja|Tempranillo|Botella (75cl)|2020|40€|POD018981|—
+Marques de Vargas Rva Privada 17-|Rioja|Tempranillo|Botella (75cl)|2017|105€|POD014463|—
+Mg 890 G Rva 10-|Rioja|Tempranillo|Magnum (150cl)|2010|814€|POD003782|—
+Mg 904 G Rva 04-|Rioja|Tempranillo|Magnum (150cl)|2004|610€|POD009682|—
+Mg 904 G Rva 97-|Rioja|Tempranillo|Magnum (150cl)|1997|827€|POD009680|—
+Mg Amancio 21-|Rioja|Tempranillo|Magnum (150cl)|2021|372€|POD015272|—
+Mg Baynos 20-|Rioja|Tempranillo|Magnum (150cl)|2020|300€|POD016106|—
+Mg Castillo de Ygay 12-|Rioja|Tempranillo|Magnum (150cl)|2012|1146€|POD011520|—
+Mg Contador 22-|Rioja|Tempranillo|Magnum (150cl)|2022|1319€|POD016109|—
+Mg Contador 3 Parcelas 20-|Rioja|Tempranillo|Magnum (150cl)|2020|1650€|POD016146|—
+Mg Cueva del Contador 25 Aniversario 20|Rioja|Tempranillo|Magnum (150cl)|2020|376€|POD015735|—
+Mg Dalmau 19-|Rioja|Tempranillo|Magnum (150cl)|2019|558€|POD011192|—
+Mg La Nieta 22-|Rioja|Tempranillo|Magnum (150cl)|2022|625€|POD015268|—
+Mg Quiñon de Valmira 21-|Rioja|Tempranillo|Magnum (150cl)|2021|1270€|POD011170|—
+Mg Quiñon de Valmira 22-|Rioja|Tempranillo|Magnum (150cl)|2022|1596€|POD016248|—
+Mg Remirez de Ganuza G Rva 01-|Rioja|Tempranillo|Magnum (150cl)|2001|1912€|POD016779|—
+Mg Remirez de Ganuza G Rva 10-|Rioja|Tempranillo|Magnum (150cl)|2010|904€|POD016780|—
+Mg Roda Cirsion 19-|Rioja|Tempranillo|Magnum (150cl)|2019|630€|POD002578|—
+Mg Torremuga 16-|Rioja|Tempranillo|Magnum (150cl)|2016|320€|POD016262|—
+Mg Viña Ardanza Rva 05-|Rioja|Tempranillo|Magnum (150cl)|2005|450€|POD009684|—
+Miguel Merino La Insula 22-|Rioja|Tempranillo|Botella (75cl)|2022|134€|POD017202|—
+Miguel Merino La Loma 22-|Rioja|Tempranillo|Botella (75cl)|2022|128€|POD017201|—
+Miguel Merino La Quinta Cruz 22-|Rioja|Tempranillo|Botella (75cl)|2022|88€|POD017200|—
+Miguel Merino Viñas Jovenes 22-|Rioja|Tempranillo|Botella (75cl)|2022|40€|POD017199|—
+Muga Selección Esp 20-|Rioja|Tempranillo|Botella (75cl)|2020|76€|POD012738|—
+Nace La Sierra 23-|Rioja|Tempranillo|Botella (75cl)|2023|105€|POD019746|—
+Olivier Riviere Las Viñas de Eusebio 19-|Rioja|Tempranillo|Botella (75cl)|2019|116€|POD008837|—
+Orben 21-|Rioja|Tempranillo|Botella (75cl)|2021|38€|POD018032|—
+Orben Malpuesto 21-|Rioja|Tempranillo|Botella (75cl)|2021|68€|POD014704|—
+Oxer B Tartalo 23-|Rioja|Tempranillo|Botella (75cl)|2023|180€|POD018758|—
+Oxer B. Suzzane 23-|Rioja|Tempranillo|Botella (75cl)|2023|79€|POD017148|—
+Oxer Kalamity TO 23-|Rioja|Tempranillo|Botella (75cl)|2023|227€|POD018755|—

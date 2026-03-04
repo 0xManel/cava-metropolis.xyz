@@ -1,0 +1,395 @@
+{
+  "generated_at": "2026-03-01T17:41:08.277933+00:00",
+  "mode": "apply",
+  "manual_rows_total": 38,
+  "manual_qty_total": 38,
+  "matched_rows": 35,
+  "matched_unique_pods": 33,
+  "unmatched_rows": 3,
+  "updated_entries_count": 33,
+  "updated_entries": [
+    {
+      "pod": "POD019375",
+      "descripcion": "Cherrier Sancerre 23-",
+      "bodega": "Domaine Cherrier",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 0,
+      "location_after_count": 2,
+      "location_after": "3·A·D / 3·BASE"
+    },
+    {
+      "pod": "POD017306",
+      "descripcion": "Ch. Esclans Provence Whispering Angel 24-",
+      "bodega": "Château D´Esclans",
+      "rows_count": 2,
+      "qty_manual_total": 2,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·G·D"
+    },
+    {
+      "pod": "POD015864",
+      "descripcion": "Springfield Methode Ancienne 20-",
+      "bodega": "Springfield Estate",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·A·D"
+    },
+    {
+      "pod": "POD016970",
+      "descripcion": "Ch. Romassan Bandol Rosé 23-",
+      "bodega": "Domaine Ott",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·A·D"
+    },
+    {
+      "pod": "POD019733",
+      "descripcion": "Source of Joy 24-",
+      "bodega": "Gerard Bertrand",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·B·D"
+    },
+    {
+      "pod": "POD012988",
+      "descripcion": "Doniene Gorrondona TxakolI 23-",
+      "bodega": "Doniene Gorrondona",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·C·D"
+    },
+    {
+      "pod": "POD018207",
+      "descripcion": "Raats Chenin BL 23-",
+      "bodega": "Raats",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·C·D"
+    },
+    {
+      "pod": "POD019638",
+      "descripcion": "Flor de Albihar 22-",
+      "bodega": "Rico Nuevo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·D·D"
+    },
+    {
+      "pod": "POD019778",
+      "descripcion": "Cantocuerdas 22-",
+      "bodega": "Bernabeleva",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·D·D"
+    },
+    {
+      "pod": "POD019465",
+      "descripcion": "Ponce Albilla BL 24-",
+      "bodega": "Ponce",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "3·D·D"
+    },
+    {
+      "pod": "POD019729",
+      "descripcion": "Puro Rofe Morro La Virgen 23-",
+      "bodega": "Puro Rofe",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·E·D"
+    },
+    {
+      "pod": "POD018377",
+      "descripcion": "Dominio do Bibei Lalume 23-",
+      "bodega": "Dominio do Bibei",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·E·D"
+    },
+    {
+      "pod": "POD019470",
+      "descripcion": "Suertes del Marques Vidonia 24-",
+      "bodega": "Suertes del Marqués",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·E·A"
+    },
+    {
+      "pod": "POD018412",
+      "descripcion": "Joaquin Rebolledo Trasdairelas BL 24-",
+      "bodega": "Joaquín Rebolledo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·F·D"
+    },
+    {
+      "pod": "POD018331",
+      "descripcion": "Pazo Barrantes 22-",
+      "bodega": "Marqués de Murrieta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·F·D"
+    },
+    {
+      "pod": "POD018568",
+      "descripcion": "Chivite 125 FB 23",
+      "bodega": "Chivite",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·G·D"
+    },
+    {
+      "pod": "POD014007",
+      "descripcion": "Dominio del Aguila Peñas Aladas clarete 20-",
+      "bodega": "Dominio del Águila",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·G·D"
+    },
+    {
+      "pod": "POD019726",
+      "descripcion": "4 Kilos Motor BL 24-",
+      "bodega": "4 Kilos",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·G·D"
+    },
+    {
+      "pod": "POD018644",
+      "descripcion": "Flor de Muga Rosado 24-",
+      "bodega": "Muga",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·H·D"
+    },
+    {
+      "pod": "POD018073",
+      "descripcion": "Storm Vedre 23-",
+      "bodega": "Storm",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·H·D"
+    },
+    {
+      "pod": "POD019722",
+      "descripcion": "Credo Ratpenat 21-",
+      "bodega": "Celler Credo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·H·A"
+    },
+    {
+      "pod": "POD019763",
+      "descripcion": "Guiberteau Arboises 22-",
+      "bodega": "Domaine Guiberteau",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·H·A"
+    },
+    {
+      "pod": "POD018291",
+      "descripcion": "Savage White 23-",
+      "bodega": "Savage",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·H·A"
+    },
+    {
+      "pod": "POD012772",
+      "descripcion": "Marques de Murrieta Ros 23-",
+      "bodega": "Marqués de Murrieta",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 0,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD018206",
+      "descripcion": "De Morgenzon Chenin BL 22-",
+      "bodega": "De Morgenzon",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD017633",
+      "descripcion": "Chateau Peyrassol RO 24-",
+      "bodega": "Château Peyrassol",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD016046",
+      "descripcion": "Emilio Hidalgo Oloroso Villapanes-",
+      "bodega": "Emilio Hidalgo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD016043",
+      "descripcion": "Emilio Hidalgo Fino La Panesa-",
+      "bodega": "Emilio Hidalgo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD016047",
+      "descripcion": "Emilio Hidalgo Amontillado Fino Tresillo-",
+      "bodega": "Emilio Hidalgo",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD016733",
+      "descripcion": "Kumeu River Mate Chardonnnay 23-",
+      "bodega": "Kumeu River",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD013279",
+      "descripcion": "Niepoort Vintage 22-",
+      "bodega": "Niepoort",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD019785",
+      "descripcion": "Graham´s Tawny 10 años-",
+      "bodega": "Graham´s",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    },
+    {
+      "pod": "POD019615",
+      "descripcion": "Toro Albala Don Px 23-",
+      "bodega": "Toro Albalá",
+      "rows_count": 1,
+      "qty_manual_total": 1,
+      "location_before_count": 1,
+      "location_after_count": 1,
+      "location_after": "3·BASE"
+    }
+  ],
+  "unmatched": [
+    {
+      "wine_text": "Dialectica de los Opuestos",
+      "year": null,
+      "qty": 1,
+      "location": "3·C·D",
+      "best_score": 0.3813,
+      "best_margin": 0.0494,
+      "best_pod": "POD013696",
+      "best_desc": "Finca de los Locos 23-",
+      "best_bodega": "Artuke",
+      "best_year": 2023
+    },
+    {
+      "wine_text": "Bermejo Malvasia Blanco",
+      "year": 2024,
+      "qty": 1,
+      "location": "3·E·D",
+      "best_score": 0.5457,
+      "best_margin": 0.0418,
+      "best_pod": "POD019473",
+      "best_desc": "Tameran Malvasía 24-",
+      "best_bodega": "Tamerán",
+      "best_year": 2024
+    },
+    {
+      "wine_text": "Primer Blanc Marques de Murrieta",
+      "year": 2024,
+      "qty": 1,
+      "location": "3·G·D",
+      "best_score": 0.5493,
+      "best_margin": 0.0768,
+      "best_pod": "POD012772",
+      "best_desc": "Marques de Murrieta Ros 23-",
+      "best_bodega": "Marqués de Murrieta",
+      "best_year": 2023
+    }
+  ],
+  "paths": {
+    "db": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+    "source_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava3_manual_source.csv",
+    "report_json": "/Users/0xmanel/cava-metropolis/reports/spa_cava3_import_report.json",
+    "report_unmatched_csv": "/Users/0xmanel/cava-metropolis/reports/spa_cava3_import_unmatched.csv"
+  },
+  "thresholds": {
+    "SCORE_MIN": 0.78,
+    "MARGIN_MIN": 0.06,
+    "HARD_MIN": 0.9
+  },
+  "location_convention": "3·<BALDA>·A (atrás) | 3·<BALDA>·D (frente) | 3·BASE",
+  "unmatched_reasons": {
+    "low_confidence_or_ambiguous": 3
+  }
+}

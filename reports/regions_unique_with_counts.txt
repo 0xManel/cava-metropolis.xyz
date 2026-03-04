@@ -1,0 +1,84 @@
+Total unique regions: 82
+
+Abruzzo | 2
+Alentejo | 3
+Alsacia | 4
+Aragón | 7
+Atacama | 1
+Auckland | 1
+Azores | 2
+Baleares | 5
+Beaujolais | 4
+Bierzo | 52
+Bizkaiko Txakolina | 2
+Borgoña | 450
+Burdeos | 290
+California | 87
+Campania | 4
+Canarias | 13
+Cape South Coast | 5
+Castilla y León | 17
+Castilla-La Mancha | 3
+Cava | 20
+Central Coast | 4
+Centro | 4
+Champagne | 78
+Coastal Region | 3
+Comunidad Valenciana | 10
+Conca de Barberà | 1
+Conca del Riu Anoia | 2
+Costers del Segre | 2
+Douro | 24
+Extremadura | 4
+Franschhoek | 1
+Friuli-Venezia-Giulia | 1
+Getariako Txakolina | 1
+Hemel-en-Aarde | 3
+Hesse | 1
+Isla Norte | 10
+Isla Sur | 4
+Jerez | 16
+Jura | 12
+Languedoc-Roussillon | 11
+Loira | 32
+Madrid | 29
+Manzanilla | 1
+Mendoza | 22
+Montilla-Moriles | 2
+Montsant | 11
+Mosela | 1
+Murcia | 9
+Málaga | 4
+Navarra | 5
+Norte | 1
+Oregón | 6
+Patagonia | 3
+Penedès | 7
+Piamonte | 64
+Priorat | 55
+Provenza | 8
+Puglia | 1
+Renania-Palatinado | 15
+Ribeira Sacra | 19
+Ribeiro | 5
+Ribera del Duero | 108
+Rioja | 193
+Rioja Alavesa | 14
+Rueda | 28
+Rías Baixas | 30
+Ródano | 65
+Sicilia | 13
+Somontano | 1
+South Australia | 21
+Stellenbosch | 1
+Tokaji-Hegyalja | 16
+Toro | 18
+Toscana | 43
+Traiguén | 1
+Trentino-Alto Adige | 4
+Valdeorras | 20
+Valle Central | 2
+Valle de Maipo | 1
+Victoria | 1
+Véneto | 8
+Western Cape | 3

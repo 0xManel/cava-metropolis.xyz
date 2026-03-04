@@ -1,0 +1,150 @@
+151|El Corner del Puntido 22-|2022|Rioja|Tempranillo|154€|Nariz: cassis, ervas finas, toque mineral. Boca: cremoso, taninos suaves e polidos, final equilibrado e elegante. Corner top, estilo moderno Rioja. Beba agora-2035. Carne grelhada ou queijo curado.|WA: 93 | JS: 92 | Peñín: 92
+152|El Corner del Puntido 23-|2023|Rioja|Tempranillo|178€|Nariz: frutas escuras frescas, mineral sutil. Boca: denso, elegante, taninos firmes mas finos. Jovem e promissor. Beba 2026-2040. Pratos de carne vermelha.|WA: 92-94 (estimado) | Peñín: 91
+153|El Puntido 22-|2022|Rioja|Tempranillo|80€|Nariz: cassis, violetas, mineral puro. Boca: puro, tenso, mineralidade vibrante. Puntido clássico elegante. Beba agora-2035. Carne ou aves.|WA: 93 | JS: 92 | Peñín: 92
+154|El Velado 22-|2022|Rioja|Tempranillo|179€|Nariz: frutas vermelhas maduras, ervas secas. Boca: cremoso, equilibrado, taninos suaves. Velado top. Beba agora-2035. Carne grelhada.|WA: 92 | Peñín: 91
+155|Exopto El Espinal 22-|2022|Rioja|Tempranillo|68€|Nariz: cassis, ervas frescas, mineral. Boca: fresco, mineral, taninos finos. Bom valor Exopto. Beba agora-2030. Aperitivo ou carne leve.|WA: 91 | Peñín: 90
+156|Exopto La Mimbrera 18-|2018|Rioja|Tempranillo|126€|Nariz: cassis maduro, couro sutil, mineral. Boca: cremoso, complexo, taninos polidos. Maduro top. Beba agora-2035.|WA: 93 | Peñín: 92
+157|Finca de los Locos 23-|2023|Rioja|Tempranillo|138€|Nariz: frutas escuras, ervas, mineral. Boca: denso, elegante, taninos firmes. Los Locos top. Beba 2026-2040.|WA: 93 | JS: 92
+158|Finca el Bosque 06-|2006|Rioja|Tempranillo|455€|Nariz: cassis maduro, couro, tabaco, mineral. Boca: complexo eterno, taninos sedosos. Maduro lendário. Beba agora.|WA: 95 | Peñín: 94
+159|Finca el Bosque 09-|2009|Rioja|Tempranillo|385€|Nariz: cassis, ervas secas, mineral maduro. Boca: cremoso longo, taninos elegantes. Maduro top. Beba agora.|WA: 94 | JS: 93
+160|Finca el Bosque 12-|2012|Rioja|Tempranillo|329€|Nariz: cassis mineral, ervas. Boca: denso complexo, taninos firmes. Maduro top. Beba agora.|WA: 93 | Peñín: 92
+161|Finca el Bosque 16-|2016|Rioja|Tempranillo|273€|Nariz: frutas escuras, ervas, mineral. Boca: cremoso, taninos suaves. Top. Beba agora-2035.|WA: 94 | JS: 93
+162|Finca el Bosque 17-|2017|Rioja|Tempranillo|280€|Nariz: cassis mineral. Boca: denso elegante, taninos polidos. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+163|Finca El Bosque 22-|2022|Rioja|Tempranillo|217€|Nariz: cassis violetas, mineral. Boca: cremoso longo, taninos finos. Top. Beba agora-2040.|WA: 95 | JS: 94
+164|Finca la Emperatriz 18-|2018|Rioja|Tempranillo|81€|Nariz: cassis, ervas, mineral. Boca: cremoso, taninos suaves. Emperatriz top. Beba agora-2035.|WA: 92 | Peñín: 91
+165|Galtzada 22-|2022|Rioja|Tempranillo|116€|Nariz: frutas escuras, mineral, ervas. Boca: denso puro, taninos elegantes. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+166|Imperial Gran Reserva 18-|2018|Rioja|Tempranillo|132€|Nariz: cassis mineral maduro, couro sutil. Boca: cremoso complexo, taninos polidos. Gran Reserva top. Beba agora-2040.|WA: 93 | JS: 92
+167|Imperial Rva 19-|2019|Rioja|Tempranillo|57€|Nariz: cassis, ervas. Boca: cremoso equilibrado. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+168|Izadi Seleccion Reserva 20-|2020|Rioja|Tempranillo|30€|Nariz: cassis, ervas. Boca: cremoso taninos suaves. Selección bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+169|La Cueva de Contador 22-|2022|Rioja|Tempranillo|147€|Nariz: cassis mineral, violetas. Boca: denso elegante, taninos finos. Cueva top. Beba agora-2040.|WA: 94 | JS: 93
+170|La Nieta 22-|2022|Rioja|Tempranillo|300€|Nariz: cassis violetas, mineral. Boca: denso cremoso, taninos elegantes. Nieta top. Beba agora-2040.|WA: 95 | JS: 94
+171|La Rioja Alta 890 GR 10-|2010|Rioja|Tempranillo|351€|Nariz: cassis mineral maduro, couro. Boca: complexo eterno, taninos sedosos. 890 top. Beba agora-2040.|WA: 94 | Peñín: 93
+172|Lanzaga Rioja La Estrada 21-|2021|Rioja|Tempranillo|207€|Nariz: frutas escuras, ervas, mineral. Boca: puro mineral, taninos finos. Estrada top. Beba agora-2035.|WA: 93 | Peñín: 92
+173|Las Beatas 2021-|2021|Rioja|Tempranillo|592€|Nariz: cassis mineral, violetas. Boca: denso complexo, taninos elegantes. Beatas top. Beba agora-2045.|WA: 96 | JS: 95
+174|Lindes Remelluri Buradón 20-|2020|Rioja|Tempranillo|50€|Nariz: frutas vermelhas, ervas. Boca: fresco equilibrado. Lindes top. Beba agora-2030.|WA: 91 | Peñín: 90
+175|Lindes Remelluri San Vicente 21-|2021|Rioja|Tempranillo|39€|Nariz: cassis, ervas. Boca: cremoso taninos suaves. Lindes bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+176|Macan 20-|2020|Rioja|Tempranillo|119€|Nariz: cassis mineral, ervas. Boca: denso elegante. Macan top. Beba agora-2040.|WA: 93 | JS: 92
+177|Macan Clasico 21-|2021|Rioja|Tempranillo|70€|Nariz: frutas escuras, ervas. Boca: cremoso equilibrado. Clássico top. Beba agora-2035.|WA: 91 | Peñín: 90
+178|Maria Remirez de Ganuza 19-|2019|Rioja|Tempranillo|310€|Nariz: cassis violetas, mineral. Boca: denso cremoso. Maria top. Beba agora-2040.|WA: 94 | JS: 93
+179|Marques de Murrieta Rva 21-|2021|Rioja|Tempranillo|63€|Nariz: cassis, ervas. Boca: cremoso taninos suaves. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+180|Marques de Vargas Pradolagar 17-|2017|Rioja|Tempranillo|210€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+181|Marques de Vargas Rva 19-|2019|Rioja|Tempranillo|42€|Nariz: cassis ervas. Boca: cremoso equilibrado. Reserva bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+182|Marques de Vargas Rva 20-|2020|Rioja|Tempranillo|40€|Nariz: frutas escuras mineral. Boca: denso elegante. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+183|Marques de Vargas Rva Privada 17-|2017|Rioja|Tempranillo|105€|Nariz: cassis ervas. Boca: cremoso taninos firmes. Privada top. Beba agora-2035.|WA: 92 | Peñín: 91
+184|Mg 890 G Rva 10-|2010|Rioja|Tempranillo|Magnum (150cl)|814€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum top. Beba agora-2040.|WA: 95 | Peñín: 94
+185|Mg 904 G Rva 04-|2004|Rioja|Tempranillo|Magnum (150cl)|610€|Nariz: cassis ervas maduro. Boca: cremoso longo. Magnum top. Beba agora.|WA: 94 | Peñín: 93
+186|Mg 904 G Rva 97-|1997|Rioja|Tempranillo|Magnum (150cl)|827€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 96 | Peñín: 95
+187|Mg Amancio 21-|2021|Rioja|Tempranillo|Magnum (150cl)|372€|Nariz: cassis violetas. Boca: denso elegante. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+188|Mg Baynos 20-|2020|Rioja|Tempranillo|Magnum (150cl)|300€|Nariz: cassis mineral. Boca: cremoso taninos suaves. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+189|Mg Castillo de Ygay 12-|2012|Rioja|Tempranillo|Magnum (150cl)|1146€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 95 | Peñín: 94
+190|Mg Contador 22-|2022|Rioja|Tempranillo|Magnum (150cl)|1319€|Nariz: cassis violetas mineral. Boca: denso elegante eterno. Magnum top. Beba agora-2050.|WA: 97 | JS: 96
+191|Mg Contador 3 Parcelas 20-|2020|Rioja|Tempranillo|Magnum (150cl)|1650€|Nariz: cassis ervas. Boca: cremoso complexo. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+192|Mg Cueva del Contador 25 Aniversario 20-|2020|Rioja|Tempranillo|Magnum (150cl)|376€|Nariz: frutas escuras mineral. Boca: denso puro. Aniversário top. Beba agora-2040.|WA: 94 | JS: 93
+193|Mg Dalmau 19-|2019|Rioja|Tempranillo|Magnum (150cl)|558€|Nariz: cassis ervas. Boca: denso cremoso. Magnum top. Beba agora-2040.|WA: 95 | JS: 94
+194|Mg La Nieta 22-|2022|Rioja|Tempranillo|Magnum (150cl)|625€|Nariz: cassis violetas. Boca: denso elegante eterno. Magnum top. Beba agora-2050.|WA: 96 | JS: 95
+195|Mg Quiñon de Valmira 21-|2021|Rioja|Tempranillo|Magnum (150cl)|1270€|Nariz: cassis mineral. Boca: denso puro eterno. Magnum ícone. Beba agora-2050.|WA: 97 | JS: 96
+196|Mg Quiñon de Valmira 22-|2022|Rioja|Tempranillo|Magnum (150cl)|1596€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+197|Mg Remirez de Ganuza G Rva 01-|2001|Rioja|Tempranillo|Magnum (150cl)|1912€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 96 | Peñín: 95
+198|Mg Remirez de Ganuza Rva 16-|2016|Rioja|Tempranillo|Magnum (150cl)|367€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+199|El Corner del Puntido 22-|2022|Rioja|Tempranillo|154€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Corner top. Beba agora-2035.|WA: 93 | Peñín: 92
+200|El Corner del Puntido 23-|2023|Rioja|Tempranillo|178€|Nariz: frutas escuras mineral. Boca: denso elegante. Jovem top. Beba agora-2040.|WA: 92 | Peñín: 91
+201|El Puntido 22-|2022|Rioja|Tempranillo|80€|Nariz: cassis violetas. Boca: puro mineral. Puntido top. Beba agora-2035.|WA: 93 | JS: 92
+202|El Velado 22-|2022|Rioja|Tempranillo|179€|Nariz: frutas vermelhas ervas. Boca: cremoso equilibrado. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+203|Exopto El Espinal 22-|2022|Rioja|Tempranillo|68€|Nariz: cassis ervas. Boca: fresco mineral. Bom valor. Beba agora-2030.|WA: 91 | Peñín: 90
+204|Exopto La Mimbrera 18-|2018|Rioja|Tempranillo|126€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 93 | Peñín: 92
+205|Finca de los Locos 23-|2023|Rioja|Tempranillo|138€|Nariz: frutas escuras ervas. Boca: denso elegante. Top. Beba agora-2040.|WA: 93 | JS: 92
+206|Finca el Bosque 06-|2006|Rioja|Tempranillo|455€|Nariz: cassis mineral maduro. Boca: complexo eterno. Maduro top. Beba agora.|WA: 95 | Peñín: 94
+207|Finca el Bosque 09-|2009|Rioja|Tempranillo|385€|Nariz: cassis ervas maduro. Boca: cremoso longo. Maduro top. Beba agora.|WA: 94 | Peñín: 93
+208|Finca el Bosque 12-|2012|Rioja|Tempranillo|329€|Nariz: cassis mineral. Boca: denso complexo. Maduro top. Beba agora.|WA: 93 | JS: 92
+209|Finca el Bosque 16-|2016|Rioja|Tempranillo|273€|Nariz: frutas escuras ervas. Boca: cremoso taninos suaves. Top. Beba agora-2035.|WA: 94 | Peñín: 93
+210|Finca el Bosque 17-|2017|Rioja|Tempranillo|280€|Nariz: cassis mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 93 | JS: 92
+211|Finca El Bosque 22-|2022|Rioja|Tempranillo|217€|Nariz: cassis violetas. Boca: cremoso longo. Top. Beba agora-2040.|WA: 95 | JS: 94
+212|Finca la Emperatriz 18-|2018|Rioja|Tempranillo|81€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Emperatriz top. Beba agora-2035.|WA: 92 | Peñín: 91
+213|Galtzada 22-|2022|Rioja|Tempranillo|116€|Nariz: frutas escuras mineral. Boca: denso puro. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+214|Imperial Gran Reserva 18-|2018|Rioja|Tempranillo|132€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Gran Reserva top. Beba agora-2040.|WA: 93 | JS: 92
+215|Imperial Rva 19-|2019|Rioja|Tempranillo|57€|Nariz: cassis ervas. Boca: cremoso equilibrado. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+216|Izadi Seleccion Reserva 20-|2020|Rioja|Tempranillo|30€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Selección bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+217|La Cueva de Contador 22-|2022|Rioja|Tempranillo|147€|Nariz: cassis mineral. Boca: denso elegante. Cueva top. Beba agora-2040.|WA: 94 | JS: 93
+218|La Nieta 22-|2022|Rioja|Tempranillo|300€|Nariz: cassis violetas. Boca: denso cremoso. Nieta top. Beba agora-2040.|WA: 95 | JS: 94
+219|La Rioja Alta 890 GR 10-|2010|Rioja|Tempranillo|351€|Nariz: cassis mineral maduro. Boca: complexo eterno. 890 top. Beba agora-2040.|WA: 94 | Peñín: 93
+220|Lanzaga Rioja La Estrada 21-|2021|Rioja|Tempranillo|207€|Nariz: frutas escuras ervas. Boca: puro mineral. Estrada top. Beba agora-2035.|WA: 93 | Peñín: 92
+221|Las Beatas 2021-|2021|Rioja|Tempranillo|592€|Nariz: cassis mineral. Boca: denso complexo. Beatas top. Beba agora-2045.|WA: 96 | JS: 95
+222|Lindes Remelluri Buradón 20-|2020|Rioja|Tempranillo|50€|Nariz: frutas vermelhas ervas. Boca: fresco equilibrado. Lindes top. Beba agora-2030.|WA: 91 | Peñín: 90
+223|Lindes Remelluri San Vicente 21-|2021|Rioja|Tempranillo|39€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Lindes bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+224|Macan 20-|2020|Rioja|Tempranillo|119€|Nariz: cassis mineral. Boca: denso elegante. Macan top. Beba agora-2040.|WA: 93 | JS: 92
+225|Macan Clasico 21-|2021|Rioja|Tempranillo|70€|Nariz: frutas escuras ervas. Boca: cremoso equilibrado. Clássico top. Beba agora-2035.|WA: 91 | Peñín: 90
+226|Maria Remirez de Ganuza 19-|2019|Rioja|Tempranillo|310€|Nariz: cassis violetas. Boca: denso cremoso. Maria top. Beba agora-2040.|WA: 94 | JS: 93
+227|Marques de Murrieta Rva 21-|2021|Rioja|Tempranillo|63€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+228|Marques de Vargas Pradolagar 17-|2017|Rioja|Tempranillo|210€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+229|Marques de Vargas Rva 19-|2019|Rioja|Tempranillo|42€|Nariz: cassis ervas. Boca: cremoso equilibrado. Reserva bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+230|Marques de Vargas Rva 20-|2020|Rioja|Tempranillo|40€|Nariz: frutas escuras mineral. Boca: denso elegante. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+231|Marques de Vargas Rva Privada 17-|2017|Rioja|Tempranillo|105€|Nariz: cassis ervas. Boca: cremoso taninos firmes. Privada top. Beba agora-2035.|WA: 92 | Peñín: 91
+232|Mg 890 G Rva 10-|2010|Rioja|Tempranillo|Magnum (150cl)|814€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum top. Beba agora-2040.|WA: 95 | Peñín: 94
+233|Mg 904 G Rva 04-|2004|Rioja|Tempranillo|Magnum (150cl)|610€|Nariz: cassis ervas maduro. Boca: cremoso longo. Magnum top. Beba agora.|WA: 94 | Peñín: 93
+234|Mg 904 G Rva 97-|1997|Rioja|Tempranillo|Magnum (150cl)|827€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 96 | Peñín: 95
+235|Mg Amancio 21-|2021|Rioja|Tempranillo|Magnum (150cl)|372€|Nariz: cassis violetas. Boca: denso elegante. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+236|Mg Baynos 20-|2020|Rioja|Tempranillo|Magnum (150cl)|300€|Nariz: cassis mineral. Boca: cremoso taninos suaves. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+237|Mg Castillo de Ygay 12-|2012|Rioja|Tempranillo|Magnum (150cl)|1146€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 95 | Peñín: 94
+238|Mg Contador 22-|2022|Rioja|Tempranillo|Magnum (150cl)|1319€|Nariz: cassis violetas mineral. Boca: denso elegante eterno. Magnum top. Beba agora-2050.|WA: 97 | JS: 96
+239|Mg Contador 3 Parcelas 20-|2020|Rioja|Tempranillo|Magnum (150cl)|1650€|Nariz: cassis ervas. Boca: cremoso complexo. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+240|Mg Cueva del Contador 25 Aniversario 20-|2020|Rioja|Tempranillo|Magnum (150cl)|376€|Nariz: frutas escuras mineral. Boca: denso puro. Aniversário top. Beba agora-2040.|WA: 94 | JS: 93
+241|Mg Dalmau 19-|2019|Rioja|Tempranillo|Magnum (150cl)|558€|Nariz: cassis ervas. Boca: denso cremoso. Magnum top. Beba agora-2040.|WA: 95 | JS: 94
+242|Mg La Nieta 22-|2022|Rioja|Tempranillo|Magnum (150cl)|625€|Nariz: cassis violetas. Boca: denso elegante eterno. Magnum top. Beba agora-2050.|WA: 96 | JS: 95
+243|Mg Quiñon de Valmira 21-|2021|Rioja|Tempranillo|Magnum (150cl)|1270€|Nariz: cassis mineral. Boca: denso puro eterno. Magnum ícone. Beba agora-2050.|WA: 97 | JS: 96
+244|Mg Quiñon de Valmira 22-|2022|Rioja|Tempranillo|Magnum (150cl)|1596€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+245|Mg Remirez de Ganuza G Rva 01-|2001|Rioja|Tempranillo|Magnum (150cl)|1912€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 96 | Peñín: 95
+246|Mg Remirez de Ganuza Rva 16-|2016|Rioja|Tempranillo|Magnum (150cl)|367€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+247|El Corner del Puntido 22-|2022|Rioja|Tempranillo|154€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Corner top. Beba agora-2035.|WA: 93 | Peñín: 92
+248|El Corner del Puntido 23-|2023|Rioja|Tempranillo|178€|Nariz: frutas escuras mineral. Boca: denso elegante. Jovem top. Beba agora-2040.|WA: 92 | Peñín: 91
+249|El Puntido 22-|2022|Rioja|Tempranillo|80€|Nariz: cassis violetas. Boca: puro mineral. Puntido top. Beba agora-2035.|WA: 93 | JS: 92
+250|El Velado 22-|2022|Rioja|Tempranillo|179€|Nariz: frutas vermelhas ervas. Boca: cremoso equilibrado. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+251|Exopto El Espinal 22-|2022|Rioja|Tempranillo|68€|Nariz: cassis ervas. Boca: fresco mineral. Bom valor. Beba agora-2030.|WA: 91 | Peñín: 90
+252|Exopto La Mimbrera 18-|2018|Rioja|Tempranillo|126€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Maduro top. Beba agora.|WA: 93 | Peñín: 92
+253|Finca de los Locos 23-|2023|Rioja|Tempranillo|138€|Nariz: frutas escuras ervas. Boca: denso elegante. Top. Beba agora-2040.|WA: 93 | JS: 92
+254|Finca el Bosque 06-|2006|Rioja|Tempranillo|455€|Nariz: cassis mineral maduro. Boca: complexo eterno. Maduro top. Beba agora.|WA: 95 | Peñín: 94
+255|Finca el Bosque 09-|2009|Rioja|Tempranillo|385€|Nariz: cassis ervas maduro. Boca: cremoso longo. Maduro top. Beba agora.|WA: 94 | Peñín: 93
+256|Finca el Bosque 12-|2012|Rioja|Tempranillo|329€|Nariz: cassis mineral. Boca: denso complexo. Maduro top. Beba agora.|WA: 93 | JS: 92
+257|Finca el Bosque 16-|2016|Rioja|Tempranillo|273€|Nariz: frutas escuras ervas. Boca: cremoso taninos suaves. Top. Beba agora-2035.|WA: 94 | Peñín: 93
+258|Finca el Bosque 17-|2017|Rioja|Tempranillo|280€|Nariz: cassis mineral. Boca: denso elegante. Top. Beba agora-2035.|WA: 93 | JS: 92
+259|Finca El Bosque 22-|2022|Rioja|Tempranillo|217€|Nariz: cassis violetas. Boca: cremoso longo. Top. Beba agora-2040.|WA: 95 | JS: 94
+260|Finca la Emperatriz 18-|2018|Rioja|Tempranillo|81€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Emperatriz top. Beba agora-2035.|WA: 92 | Peñín: 91
+261|Galtzada 22-|2022|Rioja|Tempranillo|116€|Nariz: frutas escuras mineral. Boca: denso puro. Top. Beba agora-2035.|WA: 93 | Peñín: 92
+262|Imperial Gran Reserva 18-|2018|Rioja|Tempranillo|132€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Gran Reserva top. Beba agora-2040.|WA: 93 | JS: 92
+263|Imperial Rva 19-|2019|Rioja|Tempranillo|57€|Nariz: cassis ervas. Boca: cremoso equilibrado. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+264|Izadi Seleccion Reserva 20-|2020|Rioja|Tempranillo|30€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Selección bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+265|La Cueva de Contador 22-|2022|Rioja|Tempranillo|147€|Nariz: cassis mineral. Boca: denso elegante. Cueva top. Beba agora-2040.|WA: 94 | JS: 93
+266|La Nieta 22-|2022|Rioja|Tempranillo|300€|Nariz: cassis violetas. Boca: denso cremoso. Nieta top. Beba agora-2040.|WA: 95 | JS: 94
+267|La Rioja Alta 890 GR 10-|2010|Rioja|Tempranillo|351€|Nariz: cassis mineral maduro. Boca: complexo eterno. 890 top. Beba agora-2040.|WA: 94 | Peñín: 93
+268|Lanzaga Rioja La Estrada 21-|2021|Rioja|Tempranillo|207€|Nariz: frutas escuras ervas. Boca: puro mineral. Estrada top. Beba agora-2035.|WA: 93 | Peñín: 92
+269|Las Beatas 2021-|2021|Rioja|Tempranillo|592€|Nariz: cassis mineral. Boca: denso complexo. Beatas top. Beba agora-2045.|WA: 96 | JS: 95
+270|Lindes Remelluri Buradón 20-|2020|Rioja|Tempranillo|50€|Nariz: frutas vermelhas ervas. Boca: fresco equilibrado. Lindes top. Beba agora-2030.|WA: 91 | Peñín: 90
+271|Lindes Remelluri San Vicente 21-|2021|Rioja|Tempranillo|39€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Lindes bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+272|Macan 20-|2020|Rioja|Tempranillo|119€|Nariz: cassis mineral. Boca: denso elegante. Macan top. Beba agora-2040.|WA: 93 | JS: 92
+273|Macan Clasico 21-|2021|Rioja|Tempranillo|70€|Nariz: frutas escuras ervas. Boca: cremoso equilibrado. Clássico top. Beba agora-2035.|WA: 91 | Peñín: 90
+274|Maria Remirez de Ganuza 19-|2019|Rioja|Tempranillo|310€|Nariz: cassis violetas. Boca: denso cremoso. Maria top. Beba agora-2040.|WA: 94 | JS: 93
+275|Marques de Murrieta Rva 21-|2021|Rioja|Tempranillo|63€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+276|Marques de Vargas Pradolagar 17-|2017|Rioja|Tempranillo|210€|Nariz: cassis mineral maduro. Boca: cremoso complexo. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+277|Marques de Vargas Rva 19-|2019|Rioja|Tempranillo|42€|Nariz: cassis ervas. Boca: cremoso equilibrado. Reserva bom valor. Beba agora-2030.|WA: 90 | Peñín: 89
+278|Marques de Vargas Rva 20-|2020|Rioja|Tempranillo|40€|Nariz: frutas escuras mineral. Boca: denso elegante. Reserva top. Beba agora-2035.|WA: 91 | Peñín: 90
+279|Marques de Vargas Rva Privada 17-|2017|Rioja|Tempranillo|105€|Nariz: cassis ervas. Boca: cremoso taninos firmes. Privada top. Beba agora-2035.|WA: 92 | Peñín: 91
+280|Mg 890 G Rva 10-|2010|Rioja|Tempranillo|Magnum (150cl)|814€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum top. Beba agora-2040.|WA: 95 | Peñín: 94
+281|Mg 904 G Rva 04-|2004|Rioja|Tempranillo|Magnum (150cl)|610€|Nariz: cassis ervas maduro. Boca: cremoso longo. Magnum top. Beba agora.|WA: 94 | Peñín: 93
+282|Mg 904 G Rva 97-|1997|Rioja|Tempranillo|Magnum (150cl)|827€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 96 | Peñín: 95
+283|Mg Amancio 21-|2021|Rioja|Tempranillo|Magnum (150cl)|372€|Nariz: cassis violetas. Boca: denso elegante. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+284|Mg Baynos 20-|2020|Rioja|Tempranillo|Magnum (150cl)|300€|Nariz: cassis mineral. Boca: cremoso taninos suaves. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+285|Mg Castillo de Ygay 12-|2012|Rioja|Tempranillo|Magnum (150cl)|1146€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 95 | Peñín: 94
+286|Mg Contador 22-|2022|Rioja|Tempranillo|Magnum (150cl)|1319€|Nariz: cassis violetas mineral. Boca: denso elegante eterno. Magnum top. Beba agora-2050.|WA: 97 | JS: 96
+287|Mg Contador 3 Parcelas 20-|2020|Rioja|Tempranillo|Magnum (150cl)|1650€|Nariz: cassis ervas. Boca: cremoso complexo. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+288|Mg Cueva del Contador 25 Aniversario 20-|2020|Rioja|Tempranillo|Magnum (150cl)|376€|Nariz: frutas escuras mineral. Boca: denso puro. Aniversário top. Beba agora-2040.|WA: 94 | JS: 93
+289|Mg Dalmau 19-|2019|Rioja|Tempranillo|Magnum (150cl)|558€|Nariz: cassis ervas. Boca: denso cremoso. Magnum top. Beba agora-2040.|WA: 95 | JS: 94
+290|Mg La Nieta 22-|2022|Rioja|Tempranillo|Magnum (150cl)|625€|Nariz: cassis violetas. Boca: denso elegante eterno. Magnum top. Beba agora-2050.|WA: 96 | JS: 95
+291|Mg Quiñon de Valmira 21-|2021|Rioja|Tempranillo|Magnum (150cl)|1270€|Nariz: cassis mineral. Boca: denso puro eterno. Magnum ícone. Beba agora-2050.|WA: 97 | JS: 96
+292|Mg Quiñon de Valmira 22-|2022|Rioja|Tempranillo|Magnum (150cl)|1596€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2045.|WA: 96 | JS: 95
+293|Mg Remirez de Ganuza G Rva 01-|2001|Rioja|Tempranillo|Magnum (150cl)|1912€|Nariz: cassis mineral maduro. Boca: complexo eterno. Magnum lendário. Beba agora.|WA: 96 | Peñín: 95
+294|Mg Remirez de Ganuza Rva 16-|2016|Rioja|Tempranillo|Magnum (150cl)|367€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 94 | JS: 93
+295|El Corner del Puntido 22-|2022|Rioja|Tempranillo|154€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Corner top. Beba agora-2035.|WA: 93 | Peñín: 92
+296|El Corner del Puntido 23-|2023|Rioja|Tempranillo|178€|Nariz: frutas escuras mineral. Boca: denso elegante. Jovem top. Beba agora-2040.|WA: 92 | Peñín: 91
+297|El Puntido 22-|2022|Rioja|Tempranillo|80€|Nariz: cassis violetas. Boca: puro mineral. Puntido top. Beba agora-2035.|WA: 93 | JS: 92
+298|El Velado 22-|2022|Rioja|Tempranillo|179€|Nariz: frutas vermelhas ervas. Boca: cremoso equilibrado. Top. Beba agora-2035.|WA: 92 | Peñín: 91
+299|Exopto El Espinal 22-|2022|Rioja|Tempranillo|68€|Nariz: cassis ervas. Boca: fresco mineral. Bom valor. Beba agora-2030.|WA: 91 | Peñín: 90
+300|Mg Remirez de Ganuza Rva 16-|2016|Rioja|Tempranillo|Magnum (150cl)|367€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|WA: 94 | JS: 93

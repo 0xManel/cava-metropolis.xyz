@@ -1,0 +1,300 @@
+Prado Enea 16-|Rioja|Tempranillo|Botella (75cl)|2016|125€|POD001893|—
+Quiñon de Valmira 20-|Rioja|Tempranillo|Botella (75cl)|2020|672€|POD013053|—
+Quiñon de Valmira 21-|Rioja|Tempranillo|Botella (75cl)|2021|770€|POD011169|—
+Quiñon de Valmira 22-|Rioja|Tempranillo|Botella (75cl)|2022|825€|POD016247|—
+Remelluri Reserva 17 TO-|Rioja|Tempranillo|Botella (75cl)|2017|58€|POD018619|—
+Remelluri Rioja Gran Rva 16-|Rioja|Tempranillo|Botella (75cl)|2016|122€|POD012302|—
+Remirez de Ganuza G Rva 01 5L-|Rioja|Tempranillo|Jeroboam (500cl)|2001|7440€|POD016813|—
+Remirez De Ganuza G Rva 04-|Rioja|Tempranillo|Botella (75cl)|2004|1808€|POD010353|—
+Remirez de Ganuza G Rva 05-|Rioja|Tempranillo|Botella (75cl)|2005|439€|POD010354|—
+Remirez de Ganuza G Rva 10-|Rioja|Tempranillo|Botella (75cl)|2010|491€|POD010356|—
+Remirez de Ganuza G Rva 12-|Rioja|Tempranillo|Botella (75cl)|2012|320€|POD016815|—
+Remirez De Ganuza G Rva 15-|Rioja|Tempranillo|Botella (75cl)|2015|227€|POD001903|—
+Remirez de Ganuza G Rva 94-|Rioja|Tempranillo|Botella (75cl)|1994|512€|POD010351|—
+Remirez de Ganuza Rva 08-|Rioja|Tempranillo|Botella (75cl)|2008|210€|POD016816|—
+Remirez de Ganuza Rva 14-|Rioja|Tempranillo|Botella (75cl)|2014|132€|POD016818|—
+Remirez de Ganuza Rva 17-|Rioja|Tempranillo|Botella (75cl)|2017|103€|POD017640|—
+Remirez de Ganuza Rva 18-|Rioja|Tempranillo|Botella (75cl)|2018|84€|POD019484|—
+Remirez de Ganuza Trasnocho 12-|Rioja|Tempranillo|Botella (75cl)|2012|375€|POD016819|—
+Remirez de Ganuza Viña Coqueta 15-|Rioja|Tempranillo|Botella (75cl)|2015|57€|POD016820|—
+Roda Cirsion 19-|Rioja|Tempranillo|Botella (75cl)|2019|382€|POD014870|—
+Roda I Rva 19-|Rioja|Tempranillo|Botella (75cl)|2019|88€|POD012926|—
+Roda I Rva 20-|Rioja|Tempranillo|Botella (75cl)|2020|92€|POD019024|—
+Roda Reserva 22-|Rioja|Tempranillo|Botella (75cl)|2022|52€|POD015674|—
+Sierra cantabria Col Privada 22-|Rioja|Tempranillo|Botella (75cl)|2022|92€|POD015270|—
+Sierra Cantabria Mágico 19-|Rioja|Tempranillo|Botella (75cl)|2019|1109€|POD013048|—
+Sierra Cantabria Magico 20-|Rioja|Tempranillo|Botella (75cl)|2020|1124€|POD014927|—
+Sierra Cantabria Magico 22-|Rioja|Tempranillo|Botella (75cl)|2022|842€|POD015278|—
+Tabuerniga-|Rioja|Tempranillo|Botella (75cl)|2020|176€|POD014972|—
+Tabuerniga 22-|Rioja|Tempranillo|Botella (75cl)|2022|188€|POD018445|—
+Telmo Rodríguez Las Beatas 20-|Rioja|Tempranillo|Botella (75cl)|2020|443€|POD014969|—
+Telmo Rodriguez Tabuerniga 20-|Rioja|Tempranillo|Botella (75cl)|2020|160€|POD_TEMP_1045|—
+Trasnocho Rva 10-|Rioja|Tempranillo|Botella (75cl)|2010|375€|POD010357|—
+Trasnocho Rva 18-|Rioja|Tempranillo|Botella (75cl)|2018|156€|POD016924|—
+Trasnocho Rva 19-|Rioja|Tempranillo|Botella (75cl)|2019|115€|POD019080|—
+Valenciso-|Rioja|Tempranillo|Botella (75cl)|2019|48€|POD016940|—
+Valenciso 10 Años Despues 15-|Rioja|Tempranillo|Botella (75cl)|2015|121€|POD018583|—
+Viña Ardanza 04-|Rioja|Tempranillo|Botella (75cl)|2004|207€|POD016843|—
+Viña Ardanza 05-|Rioja|Tempranillo|Botella (75cl)|2005|207€|POD016844|—
+Viña Ardanza Rva 19-|Rioja|Tempranillo|Botella (75cl)|2019|52€|POD017679|—
+Viña Ardanza Rva 94-|Rioja|Tempranillo|Botella (75cl)|1994|310€|POD009776|—
+Viña Tondonia G Rva 04-|Rioja|Tempranillo|Botella (75cl)|2004|400€|POD018686|—
+Viña Tondonia Rva 04-|Rioja|Tempranillo|Botella (75cl)|2004|462€|POD010945|—
+Viña Tondonia Rva 12-|Rioja|Tempranillo|Botella (75cl)|2012|75€|POD012819|—
+Chapoutier Ermitage L'Ermite Rg 04-|Ródano|Syrah|Botella (75cl)|2004|506€|POD011827|—
+Andremily Syrah 20-|California|Syrah|Botella (75cl)|2020|499€|POD016545|—
+Bond Pluribus 19-|California|Cabernet Sauvignon|Botella (75cl)|2019|1345€|POD011420|—
+Bond Quella 19-|California|Cabernet Sauvignon|Botella (75cl)|2019|1400€|POD011421|—
+Cayuse Impulsivo 20-|California|Tempranillo|Botella (75cl)|2020|357€|POD016171|—
+Ceritas Elliott Pinot Noir 22-|California|Pinot Noir|Botella (75cl)|2022|305€|POD018347|—
+Ceritas Peter Martin Ray 21-|California|Pinot Noir|Botella (75cl)|2021|360€|POD018345|—
+Dalla Valle Maya 18-|California|Cabernet Franc|Botella (75cl)|2018|1300€|POD016882|—
+Domaine De La Cote Estate 22-|California|Pinot Noir|Botella (75cl)|2022|147€|POD017490|—
+Eisele Vineyard Altagracia 21-|California|Cabernet Sauvignon|Botella (75cl)|2021|403€|POD019314|—
+Harlan Estate 19-|California|Cabernet Sauvignon|Botella (75cl)|2019|3300€|POD010951|—
+Harlan Estate 20-|California|Cabernet Sauvignon|Botella (75cl)|2020|3350€|POD016264|—
+Kistler Sonoma Coast TO 22-|California|Pinot Noir|Botella (75cl)|2022|175€|POD017496|—
+Kongsgaard Syrah 20-|Estados Unidos (California)|Syrah|Botella (75cl)|2020|658€|POD018349|—
+Kongsgaard Syrah 22-|Estados Unidos (California)|Syrah|Botella (75cl)|2022|617€|POD018350|—
+La Joie 13-|California|Cabernet Sauvignon|Botella (75cl)|2013|700€|POD017553|—
+Lokoya 12-|California|Cabernet Sauvignon|Botella (75cl)|2012|1280€|POD017558|—
+Maya 21-|California|Cabernet Franc|Botella (75cl)|2021|1165€|POD017546|—
+Mg Screaming Eagle 20-|California|Cabernet Sauvignon|Magnum (150cl)|2020|15200€|POD015785|—
+Opus One 19-|California|Cabernet Sauvignon|Botella (75cl)|2019|820€|POD009742|—
+Opus One 21-|California|Cabernet Sauvignon|Botella (75cl)|2021|745€|POD012447|—
+Opus One Overture 18-|California|Cabernet Sauvignon|Botella (75cl)|2018|370€|POD017710|—
+Promontory 16-|California|Cabernet Sauvignon|Botella (75cl)|2016|2142€|POD017813|—
+Promontory 18-|California|Cabernet Sauvignon|Botella (75cl)|2018|2150€|POD018702|—
+Promontory 19-|California|Cabernet Sauvignon|Botella (75cl)|2019|2300€|POD018703|—
+Racines La Rinconada Pinot Noir 19-|California|Pinot Noir|Botella (75cl)|2019|231€|POD016492|—
+Racines La Rinconada Pinot Noir 22-|California|Pinot Noir|Botella (75cl)|2022|228€|POD016493|—
+Racines Santa Rita Hills Pinot Noir 20-|California|Pinot Noir|Botella (75cl)|2020|132€|POD016494|—
+Racines Santa Rita Hills Pinot Noir 22-|California|Pinot Noir|Botella (75cl)|2022|97€|POD016400|—
+Sandhi Santa Rita Hills TO 22-|California|Pinot Noir|Botella (75cl)|2022|113€|POD017499|—
+Screaming Eagle 07-|California|Cabernet Sauvignon|Botella (75cl)|2007|9575€|POD017795|—
+Screaming Eagle 11-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2011|9675€|POD015792|—
+Screaming Eagle 12-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2012|8000€|POD015791|—
+Screaming Eagle 13-|Estados Unidos (California)|Cabernet Sauvignon blend|Botella (75cl)|2013|10500€|POD015790|—
+Screaming Eagle 18-|California|Cabernet Sauvignon|Botella (75cl)|2018|10425€|POD015789|—
+Screaming Eagle 19-|California|Cabernet Sauvignon|Botella (75cl)|2019|10425€|POD015788|—
+Screaming Eagle 20-|California|Cabernet Sauvignon|Botella (75cl)|2020|7600€|POD015784|—
+Screaming Eagle 21-|California|Cabernet Sauvignon|Botella (75cl)|2021|7875€|POD015783|—
+Screaming Eagle The Flight 20-|California|Cabernet Sauvignon|Botella (75cl)|2020|2390€|POD015786|—
+Shafer TD-9 21-|California|Merlot|Botella (75cl)|2021|175€|POD017503|—
+Sine Qua Non 11 Confessions Grenache 19-|California|Garnacha|Botella (75cl)|2019|1765€|POD016898|—
+Sine Qua Non 11 Confessions Grenache 20-|California|Garnacha|Botella (75cl)|2020|910€|POD019322|—
+Sine Qua Non 11 Confessions Syrah 17-|California|Syrah|Botella (75cl)|2017|1109€|POD012436|—
+Sine Qua Non 11 Confessions Syrah 19-|California|Syrah|Botella (75cl)|2019|1765€|POD016899|—
+Sine Qua Non 17th Nail Cranium Syrah 05-|California|Syrah|Botella (75cl)|2005|3550€|POD017245|—
+Sine Qua Non Atlantis Syrah 05-|California|Syrah|Botella (75cl)|2005|1890€|POD017241|—
+Sine Qua Non Capo dei Putti Syrah 14-|California|Syrah|Botella (75cl)|2014|1386€|POD012433|—
+Sine Qua Non Chemin Vers l'Heresie Gr 15-|California|Garnacha|Botella (75cl)|2015|1500€|POD016892|—
+Sine Qua Non Cumulus Next of Kyn 17-|California|Garnacha|Botella (75cl)|2017|1109€|POD012430|—
+Sine Qua Non Dark Blossom Grenache 11-|California|Garnacha|Botella (75cl)|2011|1575€|POD016893|—
+Sine Qua Non Dirt Vernacular Grenache 16-|California|Garnacha|Botella (75cl)|2016|1360€|POD016888|—
+Sine Qua Non Distenta I Grenache 19-|California|Garnacha|Botella (75cl)|2019|1370€|POD016885|—
+Sine Qua Non Distenta I Syrah 19-|California|Syrah|Botella (75cl)|2019|1210€|POD016884|—
+Sine Qua Non Distenta III Syr 21-|California|Syrah|Botella (75cl)|2021|645€|POD017504|—
+Sine Qua Non Gorgeous Victim Grenache 17-|California|Garnacha|Botella (75cl)|2017|1375€|POD016886|—
+Sine Qua Non Jusqu A los Grenache 13-|California|Garnacha|Botella (75cl)|2013|1386€|POD017244|—
+Sine Qua Non Le Suplement Syrah 13-|California|Syrah|Botella (75cl)|2013|1386€|POD017243|—
+Sine Qua Non Male Syrah 13-|Estados Unidos (California)|Syrah|Botella (75cl)|2013|1465€|POD016890|—
+Sine Qua Non Pajarito del amor Grenache 16-|California|Garnacha|Botella (75cl)|2016|1018€|POD012431|—
+Sine Qua Non Patine Grenache 11-|California|Garnacha|Botella (75cl)|2011|1000€|POD012428|—
+Sine Qua Non Patine Syrah 11-|California|Syrah|Botella (75cl)|2011|1000€|POD012429|—
+Sine Qua Non Pictures Grenache 07-|California|Garnacha|Botella (75cl)|2007|1640€|POD016894|—
+Sine Qua Non Rattrapante 12-|California|Syrah|Botella (75cl)|2012|1520€|POD017933|—
+Sine Qua Non Short in the Dark 06-|California|Syrah|Botella (75cl)|2006|2268€|POD017242|—
+Sine Qua Non Stock Syrah 12-|Estados Unidos (California)|Syrah|Botella (75cl)|2012|1440€|POD016887|—
+Sine Qua Non Stockholm Syndrome Syrah 10-|California|Syrah|Botella (75cl)|2010|2772€|POD017246|—
+Sine Qua Non Subir Syrah 16-|California|Syrah|Botella (75cl)|2016|889€|POD012432|—
+Sine Qua Non Testa Querubini Grenache 14-|California|Garnacha|Botella (75cl)|2014|1386€|POD012434|—
+Sine Qua Non Touche 12-|California|Garnacha|Botella (75cl)|2012|1520€|POD017932|—
+Promontory 15-|California|Cabernet Sauvignon|Botella (75cl)|2015|1750€|POD016544|—
+Beaux Freres Pinot Noir 22-|Oregón|Pinot Noir|Botella (75cl)|2022|395€|POD019206|—
+Evening Land Seven Springs TO 22-|Oregón|Pinot Noir|Botella (75cl)|2022|85€|POD014103|—
+Deux Fleches Fleurie 23-|Beaujolais|Gamay|Botella (75cl)|2023|45€|POD019378|—
+Lafarge Vial Fleurie 23-|Beaujolais|Gamay|Botella (75cl)|2023|86€|POD017415|—
+Lafarge Vial Fleurie Palais 23-|Beaujolais|Gamay|Botella (75cl)|2023|100€|POD017417|—
+Anne Gros Clos Vougeot GC Le Grand Maupertui 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|770€|POD016594|—
+Anne Gros Richebourg GC 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1925€|POD016598|—
+Armand Rousseau Gevrey Chambertin 05-|Borgoña|Pinot Noir|Botella (75cl)|2005|1335€|POD017789|—
+Arnaud Ente Bourgogne TO 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|326€|POD016875|—
+Arnaud Ente Volnay 1C Santenot Milieu 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|880€|POD016876|—
+Arnoux Lachaux Latricieres Chambertin 11-|Borgoña|Pinot Noir|Botella (75cl)|2011|1300€|POD011483|—
+Ch. Briailles Corton-Bressandes G. Cru. 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|326€|POD009827|—
+Chandon Briailles 1C Les Vergelesses 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|194€|POD011163|—
+Chandon Briailles 1C Vergelesses 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|194€|POD012532|—
+Charlopin Chambertin 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|1088€|POD013386|—
+Cherisey Meurs Genelotte TO 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|320€|POD017380|—
+Cherisey Meursault 1C La Genelotte TO 19-|Borgoña|Chardonnay|Botella (75cl)|2019|320€|POD009416|—
+Clos de Tart Morey St Denis 2022-|Borgoña|Pinot Noir|Botella (75cl)|2022|289€|POD017651|—
+Comte Vogue Bonnes Mares Gc 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|1813€|POD011864|—
+Comte Vogue Chambolle-Musigny 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|686€|POD011865|—
+D Arlot Cos De Forest 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|218€|POD013032|—
+D De Montille Volnay 1C Champans 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|222€|POD011698|—
+D De Montille Volnay 1C Champans 15-|Borgoña|Pinot Noir|Botella (75cl)|2015|240€|POD011699|—
+D des Perdrix NSG 1C Perdrix 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|242€|POD019305|—
+D des Perdrix Vosne Romanee 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|188€|POD019303|—
+D Lambrays MSD Baulet 22-|Borgoña (Côte de Nuits)|Pinot Noir|Botella (75cl)|2022|305€|POD017472|—
+D Lambrays MSD Clos Sorbe 22-|Borgoña (Côte de Nuits)|Pinot Noir|Botella (75cl)|2022|403€|POD017473|—
+D Ponsot Clos de la Roche VV 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|980€|POD019762|—
+D. Romanee Conti Grands Echezeaux 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|9350€|POD006128|—
+D. Romanèe Saint Vivant G.Cru. 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|9800€|POD005328|—
+D´Eugenie Clos Vougeot 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|1014€|POD016345|—
+Damoy Chambertin Clos de Beze 18-|Borgoña|Pinot Noir|Botella (75cl)|2023|1559€|POD010541|—
+David Duband Echezeaux 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|540€|POD013327|—
+De Montille Bourgogne Pinot Noir 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|72€|POD019156|—
+De Montille Corton Clos du Roi 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|506€|POD016407|—
+De Montille Volnay 1C Champans 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|328€|POD011700|—
+De Montille Volnay Les Taillepieds 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|415€|POD016410|—
+De Villaine Chalonnnais Fortune 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|82€|POD011641|—
+Denis Mortet Clos De La Roche GC 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1113€|POD016645|—
+Dom des Perdrix Bourgogne TO 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|78€|POD019302|—
+Dom L'Arlot NSG 1C Clos Arlot 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|250€|POD019274|—
+Dom L'Arlot Romanee S Vivant 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|1575€|POD019284|—
+Domaine de L´Arlot NSG Clos Forets 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|236€|POD012515|—
+Domaine de L´Arlot Vosne 1C Suchots 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|436€|POD013328|—
+Domaine de L´Arlot Vosne 1C Suchots 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|420€|POD019282|—
+Domaine Perdrix Echezeaux 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|530€|POD019308|—
+Domaine Perdrix NSG 1C Aux Perdrix 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|188€|POD012539|—
+DRC Echezeaux GC 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|9500€|POD016670|—
+DRC Grands Echezeaux GC 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|12750€|POD010610|—
+DRC La Tache 13-|Borgoña|Pinot Noir|Botella (75cl)|2013|20000€|POD016671|—
+DRC Romane St Vivant GC 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|9100€|POD010609|—
+DRC Romanée-St-Vivant 09-|Borgoña|Pinot Noir|Botella (75cl)|2009|10500€|POD016677|—
+DRC Romanée-St-Vivant 11-|Borgoña|Pinot Noir|Botella (75cl)|2011|8500€|POD016678|—
+DRC Romanée-St-Vivant 12-|Borgoña|Pinot Noir|Botella (75cl)|2012|8100€|POD016679|—
+Drouhin Beaune Clos de Mouches TO 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|307€|POD013291|—
+Duband Charmes Chambertin 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|550€|POD011165|—
+Dujac Charmes Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|873€|POD016852|—
+Dujac Charmes Chambertin 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|793€|POD019094|—
+Dujac Gevrey 1C Cru Aux Combottes 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|610€|POD016853|—
+Dujac Gevrey 1C Cru Aux Combottes 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|580€|POD019095|—
+Duroche Clos De Vougeot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|785€|POD017423|—
+Emm Rouget VR Cros Parantoux 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|4500€|POD018701|—
+Fleurot Larose Bourgogne TO 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|48€|POD011387|—
+Fleurot Larose Santenay 1C Passe Temps 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|118€|POD011390|—
+Forge De Tart Morey S Denis 1C 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|594€|POD011638|—
+Fourrier Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|2331€|POD015153|—
+Fourrier Chambolle-Musigny 1C Les Amoureuses 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1351€|POD016693|—
+Fourrier Gevrey 1C Combe Aux Moines 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|436€|POD017159|—
+Fourrier Gevrey 1C les Perrieres TO 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|410€|POD012521|—
+Fourrier Latricieres Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1240€|POD015154|—
+Fourrier Vosne 1C Malconsorts 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1239€|POD015155|—
+Grivot Bourgogne TO 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|130€|POD018353|—
+Grivot Chambolle Comb Orveau 22--|Borgoña|Pinot Noir|Botella (75cl)|2022|273€|POD018354|—
+Grivot Clos de Vougeot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|911€|POD018355|—
+Grivot Echezeaux 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1137€|POD018356|—
+Grivot Richebourg 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|4185€|POD018357|—
+Grivot Vosne 1C Aux Brulees 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|648€|POD018358|—
+Grivot Vosne Les Suchots 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|794€|POD018359|—
+Henri Boillot Volnay Fremiets 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|151€|POD017584|—
+Hubert Lignier Chambolle-Musigny 1C Les Baudes 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|512€|POD016705|—
+Hubert Lignier Clos De La Roche GC 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1113€|POD016710|—
+Hudelot Noellat Bourgogne Rouge 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|104€|POD016720|—
+Hudelot Noellat Chambolle-Musigny 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|242€|POD016721|—
+Jadot Bonnes Mares 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1390€|POD017013|—
+Jadot Chambertin Clos de Beze 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1557€|POD017014|—
+Jadot Clos Saint Denis 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1028€|POD017017|—
+Jadot Echezeaux 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|788€|POD017018|—
+Jadot Volnay 1C Clos de la Barre 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|173€|POD014266|—
+Jadot Volnay 1C Clos de la Barre 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|158€|POD015245|—
+JJ Confuron Bour Jeunesse TO 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|66€|POD019301|—
+JJ Confuron Clos Vougeot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|430€|POD012509|—
+JJ Confuron Clos Vougeot 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|470€|POD019315|—
+JJ Confuron NSG Fleurieres 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|125€|POD019304|—
+JJ Confuron Romanee St Vivant 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|1465€|POD019317|—
+Lafarge Volnay Vend Select 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|163€|POD017406|—
+Le Moine Bonnes Mares 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1200€|POD017454|—
+Le Moine Chambolle 1C Baudes 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|594€|POD017465|—
+Le Moine Chambolle Hauts Doix 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|510€|POD017459|—
+Le Moine Charmes Chambert GC 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|792€|POD017457|—
+Le Moine Latricieres Chamber 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|792€|POD017468|—
+Lepetit Pommard 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|168€|POD018721|—
+Leroy Savigny Les Beaune 2018-|Borgoña|Pinot Noir|Botella (75cl)|2018|1320€|POD010381|—
+Liger-Belair Richebourg 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|2205€|POD013473|—
+Lignier Charmes Chambertin 21|Borgoña|Pinot Noir|Botella (75cl)|2021|610€|POD012450|—
+Lignier Clos Vougeot 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|630€|POD012453|—
+Lignier Gevrey Regnard 22 -|Borgoña|Pinot Noir|Botella (75cl)|2022|159€|POD017925|—
+M Haisma Bourgogne TO 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|74€|POD018716|—
+M Haisma Chambolle Musigny 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|216€|POD018717|—
+M Haisma Pommard 1C Arvelets 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|185€|POD018177|—
+Magnien Corton Lolieres 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|220€|POD012538|—
+Magnien Cote de Nuits Thurot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|85€|POD013335|—
+Magnien Gevrey 1C Estournelles 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|220€|POD014432|—
+Magnien Gevrey 1C Estournelles St Jacques 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|216€|POD010686|—
+Magnien Gevrey 1C Estournelles St Jacques 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|204€|POD012639|—
+Magnien Gevrey 1C Lavaux St Jacques 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|220€|POD012537|—
+Magnien Gevrey Chambertin 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|125€|POD019273|—
+Magnien Ruchottes Chambertin 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|537€|POD009592|—
+Magnien Ruchottes Chambertin 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|515€|POD019281|—
+Maison Leroy Bourgogne Rouge 18-|Borgoña|Pinot Noir|Botella (75cl)|2018|560€|POD016757|—
+Maison Leroy Chambolle-Musigny 17-|Borgoña|Pinot Noir|Botella (75cl)|2017|5395€|POD016758|—
+Maison Leroy Meursault 1C Les Fremiers 17-|Borgoña|Chardonnay|Botella (75cl)|2017|4000€|POD016759|—
+Maison Leroy Nuits-Saint-Georges 17-|Borgoña|Pinot Noir|Botella (75cl)|2017|4016€|POD016760|—
+Meo Camuzet Bourgogne Hemisphere Sud 20|Borgoña|Pinot Noir|Botella (75cl)|2020|90€|POD010559|—
+Meo Camuzet Chambolle 1C Feusselottes 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|315€|POD011440|—
+Meo Camuzet Clos Vougeot 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|570€|POD009425|—
+Meo Camuzet Clos Vougeot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|540€|POD017396|—
+Meo Camuzet Hemisphere Nord 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|90€|POD017388|—
+Meo Camuzet NSG 1C Aux Murgers 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|363€|POD011592|—
+Meo Camuzet NSG 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|176€|POD013050|—
+Meo Camuzet NSG Aux Murgers 21-|Borgoña|Pinot Noir|Botella (75cl)|2022|330€|POD017394|—
+Meo Camuzet NSG Aux Murgers 22-|Borgoña|Pinot Noir|Botella (75cl)|2021|330€|POD_TEMP_1046|—
+Meo Camuzet NSG Aux Murgers 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|363€|POD_TEMP_1047|—
+Meo Camuzet Richebourg 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|2350€|POD011443|—
+Meo Camuzet Richebourg 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|2550€|POD017401|—
+Meo Camuzet Vosne Rom 1C Beaux Monts 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|394€|POD010560|—
+Meo Camuzet VR Beaux Monts 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|388€|POD013051|—
+Meo-Camuzet Chambolle Mus Feusselottes 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|310€|POD009426|—
+Meo-Camuzet Clos Vougeot 15-|Borgoña|Pinot Noir|Botella (75cl)|2015|756€|POD006101|—
+Meo-Camuzet Les Perrieres 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|543€|POD011593|—
+Meo-Camuzet Vosne-R Aux Brulees 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|990€|POD013495|—
+Mg Duroche Gev Combe Moines 22-|Borgoña|Pinot Noir|Magnum (150cl)|2022|1001€|POD017420|—
+Mg Michel Noellat Echezeaux 16-|Borgoña|Pinot Noir|Magnum (150cl)|2016|1870€|POD012269|—
+Michel Noellat Chambolle Musigny 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|210€|POD012270|—
+Michel Noellat Echezeaux 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|744€|POD012267|—
+Morey Blanc Voln 1C Pitures 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|195€|POD019331|—
+Mugn Gibourg Vosne Rom 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|302€|POD017372|—
+Mugnier Chambolle 1C Amoureuses 18-|Borgoña|Pinot Noir|Botella (75cl)|2018|3300€|POD012410|—
+Mugnier Chambolle 1C Amoureuses 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|5100€|POD012409|—
+Mugnier Chambolle 1C Amoureuses 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|4000€|POD012408|—
+Mugnier Chambolle 1C Les Fuees 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1602€|POD012405|—
+Mugnier Chambolle 1C Les Fuees 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|1300€|POD012404|—
+Mugnier Chambolle 1C Les Fuees 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|1150€|POD012403|—
+Mugnier Musigny 13-|Borgoña|Pinot Noir|Botella (75cl)|2013|3400€|POD012414|—
+Mugnier Musigny 14-|Borgoña|Pinot Noir|Botella (75cl)|2014|3080€|POD012413|—
+Mugnier Musigny 15-|Borgoña|Pinot Noir|Botella (75cl)|2015|6160€|POD012412|—
+Mugnier Musigny 16-|Borgoña|Pinot Noir|Botella (75cl)|2016|4300€|POD012411|—
+P Roch SLB Dessus Gollardes 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|275€|POD017733|—
+P. Charlopin Bel Air 16-|Borgoña|Pinot Noir|Botella (75cl)|2016|270€|POD007357|—
+Pacalet Charmes Chambertin 23|Borgoña|Pinot Noir|Botella (75cl)|2023|1150€|POD019381|—
+Pacalet Clos de Vougeot 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|995€|POD019369|—
+Pacalet Echezeaux 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|1080€|POD012514|—
+Pacalet Echezeaux 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|1050€|POD019244|—
+Pacalet Nuits St Georges 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|228€|POD019214|—
+Pacalet Pommard 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|242€|POD012513|—
+Pacalet Vosne Romanee 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|354€|POD019223|—
+Pascal Pernot Gevrey Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|120€|POD015909|—
+Perrot Minot Chambertin Clos de Beze 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|2600€|POD010029|—
+Perrot Minot Chapelle Chambertin 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1350€|POD010027|—
+Perrot Minot Charmes Chambertin 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|1350€|POD010028|—
+Perrot Minot MSD Rue de Vergy 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|325€|POD010025|—
+Perrot Minot Vosne Rom 1C Champs Perdrix 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|714€|POD010026|—
+Perrot-Minot Chambertin 18-|Borgoña|Pinot Noir|Botella (75cl)|2018|3640€|POD010383|—
+Perrot-Minot Chambertin 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|3870€|POD010544|—
+Perrot-Minot Chambertin 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|3605€|POD013384|—
+Perrot-Minot Chambertin 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|3654€|POD011860|—
+Perrot-Minot Morey-StD Rue de Vergy 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|399€|POD013431|—
+Perrot-Minot Morey-StD Rue de Vergy 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|487€|POD013432|—
+Pierre Vincent Voln 1C Roncer 23-|Borgoña|Pinot Noir|Botella (75cl)|2023|405€|POD019407|—
+Ponsot Chapelle Chambertin 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|882€|POD019634|—
+Ponsot Clos La Roche Cuvee VV 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|1484€|POD013406|—
+Prieure Roch Chamber Cl Beze 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|2360€|POD017727|—
+Prieure Roch Clos de Vougeot 19-|Borgoña|Pinot Noir|Botella (75cl)|2019|2180€|POD009876|—
+Prieure Roch Clos de Vougeot 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|1240€|POD010090|—
+Prieure Roch Clos Varoilles 20-|Borgoña|Pinot Noir|Botella (75cl)|2020|1208€|POD010091|—
+Prieure Roch Clos Vougeot 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|884€|POD017730|—
+Prieure Roch G Ch 1C Clos Varoilles 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|730€|POD017728|—
+Prieure Roch Gevrey 1C VV 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|730€|POD017729|—

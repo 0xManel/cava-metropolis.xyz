@@ -1,0 +1,51 @@
+{
+  "plantas": [
+    {
+      "id": "suprema",
+      "numero": -2,
+      "nome": "Cava Suprema",
+      "emoji": "🏛️",
+      "cor": "planta-suprema",
+      "descricao": "Sección Premium y Exclusiva",
+      "ativa": true,
+      "arquivo_dados": "vinhos-suprema.json"
+    },
+    {
+      "id": "-1",
+      "numero": -1,
+      "nome": "Planta -1",
+      "emoji": "📍",
+      "cor": "planta-minus1",
+      "descricao": "Planta Subterránea",
+      "ativa": true,
+      "arquivo_dados": "vinhos.json"
+    },
+    {
+      "id": "1",
+      "numero": 1,
+      "nome": "Planta 1",
+      "emoji": "📍",
+      "cor": "planta-1",
+      "descricao": "Planta Baja / Ground Floor",
+      "ativa": true,
+      "arquivo_dados": "vinhos-p1.json"
+    },
+    {
+      "id": "2",
+      "numero": 2,
+      "nome": "Planta 2",
+      "emoji": "📍",
+      "cor": "planta-2",
+      "descricao": "Primera Planta",
+      "ativa": true,
+      "arquivo_dados": "vinhos-p2.json"
+    }
+  ],
+  "secao_todo": {
+    "id": "todo",
+    "nome": "Todas las plantas",
+    "emoji": "🌐",
+    "cor": "planta-todo",
+    "descricao": "Vista general de toda la bodega"
+  }
+}

@@ -1,0 +1,216 @@
+orden,item_id,wine_text,year,qty,location,best_score,best_margin,best_pod,best_desc,best_bodega,best_year
+9,I0005,Grand Cru Montrachet 2022 Vincent Girardin,2022,1,A·2,0.707,0.069,POD013303,Vincent Girardin Montrachet 22-,Vincent Girardin,2022
+10,I0006,Grand Cru Puligny- Montrachet Les Combettes 2022 Vincent Girardin,2022,1,A·2,0.5359,0.0017,POD013303,Vincent Girardin Montrachet 22-,Vincent Girardin,2022
+11,I0007,Grand Cru Batard- Montrachet 2023 Vincent Girardin,2023,1,A·2,0.8005,0.0087,POD019351,Vincent Girardin Batard Montrachet 23-,Vincent Girardin,2023
+12,I0008,Ventoleiro Ribeiro 2023,2023,7,A·2,0.6814,0.171,POD019150,Ventoleiro Blanco 23-,A Barouta,2023
+15,I0010,Murmuri 2024 Priorat,2024,6,A·3,0.5379,0.0777,POD019613,Murmuri Mas Doix 24-,Mas Doix,2024
+17,I0012,Francois Carillon 1611 Puligny- Montrachet 2023 Millesime 2023,2023,2,A·3,0.6662,0.0164,POD018625,Francois Carillon Puligny Enseigneres 23-,François Carillon,2023
+19,I0013,Fiano Di Avellino CampoRe Reserva Terredora Dipaolo,,2,A·4,0.5773,0.2573,POD_TEMP_BM2_0088,[TEMP] Fiano di Avellino ‘Campore Riserva’ 19-,T. Di Paolo,2019
+20,I0014,Deschants Saint-Joseph M. Chapoutier 2023,2023,3,A·4,0.4955,0.0036,POD_TEMP_BM2_0039,[TEMP] Nuits-Saint-Georges ‘Les Fleuries’ 23-,Jean Grivot,2023
+21,I0015,Oremus Furmint 2024 Mandolas,2024,3,A·4,0.5643,0.1376,POD016538,Oremus Mandolas 23-,Oremus,2023
+24,I0017,Racines Sta. Rita Hills Bentrock Vineyard 2022,2022,2,A·5,0.7082,0.0227,POD016399,Racines Santa Rita Hills Chardonnay 22-,Racines,2022
+25,I0018,Methode Ancienne 2020 Chardonnay Sout África,2020,5,A·5,0.5541,0.1038,POD015864,Springfield Methode Ancienne 20-,Springfield Estate,2020
+27,I0019,Tara Atacama 2022 Chile,2022,3,A·6,0.6215,0.1189,POD_TEMP_1010,Tara Blanco 2022,Tara,2022
+28,I0020,Rascara 2019 Brut Nature Bufadors Corpinat,2019,2,A·6,0.4614,0.0787,POD019220,Bufadors Vinya Rascara BN 19-,Bufadors,2019
+31,I0022,Mestres Visol Cava,,5,A·7,0.6606,0.2317,POD018461,Mestres Visol 19-,Mestres,2019
+36,I0026,Juve&Camps Cava Finca Can Rius,,1,A·8,0.4044,0.0011,POD018591,Gran Juve Camps 18-,Juvé & Camps,2018
+37,I0027,Gramona III Lustros Font De Jui 2017,2017,1,A·8,0.6375,0.179,POD016992,Gramona III Lustros 16-,Gramona,2016
+38,I0028,Gramona Celler Battle 2015 Corpinat,2015,2,A·8,0.5881,0.1418,POD014213,Gramona Celler Batlle 14-,Gramona,2014
+45,I0032,R de Ruinart Brut,,1,B·1,0.4848,0.0459,POD002123,Ruinart Rose-,Ruinart,
+47,I0034,Turo D’ En Mota 2011 de Recadero,2011,1,B·1,0.6068,0.2048,POD017758,Recaredo Turo D'en Mota 11-,Recaredo,2011
+48,I0035,Recadero Serral Del Vell Brut Nature 2018 Corpinat,2018,1,B·1,0.727,0.291,POD012794,Recaredo Serral del Vell Brut 18-,Recaredo,2018
+49,I0036,Bollinger R.D. Extra Brut 2008,2008,2,B·1,0.6427,0.1627,POD012076,Bollinger RD 08-,Bollinger,2008
+50,I0037,Más del Serral 2010,2010,1,B·1,0.552,0.062,POD009659,Castillo de Ygay 2010-,Marqués de Murrieta,2010
+51,I0038,Benoit Lahaye Grand Cru Champagne,,1,B·1,0.5262,0.02,POD010150,Benoit Lahaye Brut Nature-,Benoit Lahaye,
+53,I0040,Dom Perignon Vintage 2006 Plenitude 2,2006,2,B·1,0.3838,0.0239,POD004266,Petrus 06-,Pétrus,2006
+54,I0041,Más del Serral 2011,2011,1,B·1,0.499,0.04,POD015633,Oremus Eszencia 11-,Oremus,2011
+57,I0043,Dom Perignon Vintage 2006 Plenitude 2,2006,2,B·2,0.3838,0.0239,POD004266,Petrus 06-,Pétrus,2006
+60,I0046,Krug Grande Cuvee 173Eme Edition Brut,,1,B·2,0.7175,0.3754,POD002086,Krug Grande Cuvée 172 edition,Krug,
+61,I0047,Gosset Gran Reserva Brut,,2,B·2,0.556,0.0273,POD004484,Gosset Grande Reserve-,Gosset,
+65,I0051,Mestres Coquet Cava,,1,B·2,0.5684,0.0436,POD013106,Mestres Coquet BN G Rva 19-,Mestres,2019
+71,I0056,La Otea Pue Franco 2023,2023,2,B·3,0.5273,0.0064,POD016462,Puro Rofe Blanco 23-,Puro Rofe,2023
+77,I0061,Racines Sta. Rita Hills Grand Reseve,,1,B·4,0.5741,0.0,POD016398,Racines Santa Rita Hills Chardonnay 20-,Racines Wine,2020
+85,I0067,Abadía Retuerta “ Le Domaine “ 2018,2018,3,B·6,0.5132,0.023,POD018041,A Retuerta Pago Negralada 19-,Abadía Retuerta,2019
+89,I0070,Champagne Georges Laval Les Hautes Chevres 2012 Brut Nature,2012,1,B·7,0.3899,0.0144,POD015464,Clos Erasmus 12-,Clos Erasmus,2012
+90,I0071,Champagne Fleury Brut Nature 2013,2013,1,B·7,0.5281,0.0992,POD012310,Fleury Cuvee Robert 13-,Fleury,2013
+91,I0072,Attis Embaixador Albariño 2023,2023,4,B·7,0.6408,0.0757,POD015306,Attis Embaixador 22-,Attis,2022
+93,I0073,Gramona III Lustros 2017 Font de Jui Corpinat,2017,2,B·8,0.5612,0.1907,POD016992,Gramona III Lustros 16-,Gramona,2016
+94,I0074,Juve&Camps Gran Reserva Finca Can Rius Milesime,,2,B·8,0.4972,0.0279,POD018286,Juve Camps Milesime 20-,Juve & Camps,2019
+97,I0076,Gosset Grand Rose Champagne,,1,B·9,0.6791,0.1799,POD008951,Gosset Grand Rose-,Gosset,
+98,I0077,Ruinart Rose Magnum,,1,B·9,0.68,0.1358,POD002123,Ruinart Rose-,Ruinart,
+102,I0079,La Comtesse Albariño 2020,2020,2,C·1,0.6651,0.1362,POD018333,La Comtesse 20-,Marqués de Murrieta,2020
+103,I0080,La Pola 2023,2023,2,C·1,0.5668,0.0175,POD019545,La Faraona 23-,Descendientes de J. Palacios,2023
+104,I0081,El Hombre Bala 2023 Albillo Real,2023,3,C·1,0.6827,0.076,POD014054,El Hombre Bala 23-,Uvas Felices,2023
+110,I0085,Penfolds Yattarna 2/2023 Chardonnay,2023,1,C·2,0.6109,0.1244,POD012449,Penfolds Yattarna 22-,Penfolds,2022
+111,I0086,Laurel 2023 Priorat,2023,2,C·2,0.4634,0.0134,POD_TEMP_1075,Mauro Tinto 2023,Mauro,2023
+113,I0088,Cepas Vellas Albariño Rías Baixas 2024,2024,3,C·2,0.5574,0.0188,POD019458,Guimaro Cepas Vellas 24-,Guímaro,2024
+114,I0089,Pazo Señorans Albariño 2015 Selección de Añadas Rías Baixas,2015,3,C·2,0.6235,0.2589,POD017626,Pazo Señorans Selección 15-,Pazo de Señorans,2015
+115,I0090,Sesenta e Nova Arrobas 2023,2023,2,C·2,0.4957,0.003,POD016563,Sitta Pereiras 23-,Attis,2023
+116,I0091,Nas Dunas 2022 Albariño,2022,3,C·2,0.6443,0.1853,POD019086,Fulcro Nas Dunas 22-,Fulcro,2022
+117,I0091,Nas Dunas 2022 Albariño,2022,3,C·2,0.6443,0.1853,POD019086,Fulcro Nas Dunas 22-,Fulcro,2022
+122,I0095,Pazo de San Mauro Albariño,,4,C·4,0.6326,0.2423,POD018100,Pazo San Mauro 24-,Pazo de San Mauro,2024
+123,I0096,Viña Tondonia Reserva 2013 Blanco,2013,1,C·4,0.6684,0.0838,POD015112,Viña Tondonia RV BL 13-,López de Heredia,2013
+124,I0097,Goliardo A Telleira Albariño Rías Baixas 2024,2024,5,C·4,0.6472,0.1328,POD019158,Goliardo A Telleira 24-,Forjas del Salnés,2024
+128,I0100,La Medina JP 2024,2024,4,C·5,0.5429,0.0225,POD_TEMP_1094,La Colombera Blanco 2024,La Colombera,2024
+129,I0101,Praespositvs Riesling 2022 Italia,2022,1,C·5,0.4652,0.0091,POD_TEMP_1083,Pardas Blanco 2022,Pardas,2022
+132,I0103,Avancia Nobleza Godello 2024,2024,1,C·6,0.8052,0.0,POD018578,Avancia Godello 24-,Avancia,2024
+134,I0105,Abadía Retuerta Le Domaine 2018,2018,1,C·6,0.5132,0.023,POD018041,A Retuerta Pago Negralada 19-,Abadía Retuerta,2019
+138,I0108,Sangraría La Guiana Godello 2022,2022,3,C·7,0.7061,0.1221,POD017772,Sangarida La Guiana BL 22-,Sangarida,2022
+139,I0109,Tormenta 2023 Godello Calcáreo Veronica Ortega,2023,3,C·7,0.5753,0.0409,POD018816,Verónica Ortega Tormenta 23-,Verónica Ortega,2023
+141,I0110,Las Vidres 2020 Alvar De Dios / Doña Blanca,2020,4,C·8,0.6032,0.1588,POD019641,Alvar de Dios Las Vidres 20-,Alvar de Dios,2020
+144,I0113,El Val 2023 Bierzo César Márquez,2023,1,C·8,0.6584,0.0838,POD017709,Cesar Marquez El Val 23-,César Márquez,2023
+145,I0114,Chateau Peyeassol 2024 Rose,2024,1,C·8,0.6412,0.1512,POD017633,Chateau Peyrassol RO 24-,Château Peyrassol,2024
+146,I0115,Peñas Aladas Clarete 2020 Ribera del Duero,2020,1,C·8,0.6295,0.1627,POD014007,Dominio del Aguila Peñas Aladas clarete 20-,Dominio del Águila,2020
+148,I0116,Territorio Luthier Clarete de guarda 2020 Ribera del Duero,2020,2,C·9,0.7433,0.2859,POD014990,Territorio Luthier Clarete 2020-,Territorio Luthier,2020
+149,I0117,Peñas Aladas Clarete 2020 Ribera del Duero,2020,2,C·9,0.6295,0.1627,POD014007,Dominio del Aguila Peñas Aladas clarete 20-,Dominio del Águila,2020
+153,I0120,Clos du Temple 2033 Languedoc Cabrieres,2033,2,C·9,0.2021,0.2021,POD019070,Lassaigne Clos St Sophie Rose 20-,Jacques Lassaigne,
+155,I0121,Bollinger Rose Brut,,2,C·10,0.5685,0.0709,POD002035,Bollinger Special Cuvee Brut-,Bollinger,
+156,I0122,Petit Matasnos 2021 Blanco Magnum,2021,1,C·10,0.477,0.0336,POD_TEMP_1001,Pago de los Abuelos Blanco 2021,Pago de los Abuelos,2021
+157,I0123,"Chablis Tete d’Or 2022 , Billaud Simon Magnum",2022,1,C·10,0.6421,0.0254,POD013309,Mg Billaud Simon Chablis tete d'or 22-,Billaud-Simon,2022
+158,I0124,"Chateau Peyrassol 2019, Cotes de Provence Magnum",2019,1,C·10,0.5126,0.0996,POD011715,Chateau des Tours Cotes du Rhone 19-,Château des Tours,2019
+161,I0125,Garrus Chateau D’ Esclans / Cotes de Provence Rose 2023,2023,1,D·1,0.5025,0.0059,POD017306,Ch. Esclans Provence Whispering Angel 24-,Château D´Esclans,2024
+162,I0126,Vino de paraje San Pablo /Valle de Uco Fósil Zuccardi 2022,2022,2,D·1,0.4721,0.0008,POD015280,El Corner del Puntido 22-,Viñedos de Páganos,2022
+163,I0127,Castillo Ygay Rioja Gran Reserva Especial 1986,1986,2,D·1,0.5218,0.1866,POD005077,Castillo de Ygay 86 BL-,Marqués de Murrieta,1986
+166,I0129,Capellania 2020 Marqués de Murrieta Rioja,2020,3,D·1,0.6742,0.0341,POD_TEMP_1076,Marqués de Murrieta Tinto 2020,Marqués de Murrieta,2020
+168,I0130,Chablis Premier Cru “ Montee de Tonnerre” 2020,2020,1,D·2,0.6967,0.2251,POD017075,Dauvissat Chablis 1C Montee Tonnerre 20-,Vincent Dauvissat,2020
+169,I0131,Les Romanos 2023 Sancerre,2023,1,D·2,0.5431,0.0131,POD019375,Cherrier Sancerre 23-,Domaine Cherrier,2023
+170,I0132,Corton- Charlemagne 2019 ( Cote- D’OR),2019,1,D·2,0.5624,0.0468,POD010614,Romanee Conti Corton Chalemagne 19-,Domaine de la Romanée-Conti,2019
+172,I0134,Dominio del Águila Albillo Viñas Viejas 2020,2020,1,D·2,0.6784,0.0466,POD014013,Dominio del Águila Viñas Viejas BL 19,Dominio del Águila,2019
+173,I0135,Mais Doix Salix 2024. Priorat,2024,2,D·2,0.5666,0.026,POD016307,Mas Doix Salix 23-,Mas Doix,2023
+174,I0136,A’VIA Treixadura 2022 Ribeiro,2022,1,D·2,0.4835,0.015,POD015306,Attis Embaixador 22-,Attis,2022
+175,I0137,La Misiom de Ménade 2023,2023,4,D·2,0.586,0.0954,POD018268,Menade La Mision 23-,Menade,2023
+176,I0138,Bourgogne Chardonnay 2022 Domaine de Montille,2022,1,D·2,0.5256,0.0138,POD016404,De Montille Bourgogne Blanc 22-,Domaine de Montille,2022
+177,I0139,"Mersault Perrieres, Premier Cru 2022 Domaine Louis Jadot",2022,1,D·2,0.5761,0.0826,POD017019,Jadot Meursault 1C Perrieres 22-,Louis Jadot,2022
+178,I0140,Pedra de Guix Terroir Al Límit Soc. Lda. Priorat 2022,2022,1,D·2,0.6943,0.0704,POD018590,Terroir al Limit Pedra de Guix 22-,Terroir al Limit,2022
+181,I0142,Capficat 2019 Xarello Celer Credo,2019,2,D·3,0.5414,0.1115,POD019721,Credo Capficat 19-,Celler Credo,2019
+182,I0143,Chablis 2019,2019,1,D·3,0.69,0.1525,POD017285,Raveneau Chablis 19-,François Raveneau,2019
+183,I0144,Les Romains 2023 Sancerre,2023,2,D·3,0.6746,0.1039,POD018376,Vacheron Sancerre Les Romains 23-,Domaine Vacheron,2023
+184,I0145,Chablis Premier Cru 2022 Montmains Bessin- Tremblay,2022,1,D·3,0.5868,0.0225,POD017225,Bessin Tremblay Chablis 1C Montmains 22-,Bessin-Tremblay,2022
+185,I0146,Tete De Cuvee Chateau -Fuisse,,1,D·3,0.3735,0.0035,POD_TEMP_BM2_0038,[TEMP] Bourgogne ‘Cuvée Jeunesse’ 23-,Jean Grivot,2023
+187,I0147,Castelcerino 2024 Filippi,2024,2,D·4,0.6275,0.1644,POD019795,Fillipi Castelcerino 24-,Fillipi,2024
+189,I0149,Battenfeld Spanierd 2020 Riesling,2020,1,D·4,0.619,0.1744,POD019396,Battenfeld Spanier Molsheim 20-,Battenfeld Spanier,2020
+190,I0150,Clos Des Papes Paul avril 2023,2023,1,D·4,0.6297,0.089,POD013317,Clos des Papes Chateauneuf du Pape BL 23-,Clos des Papes,2023
+191,I0151,Praepositvs Riesling 2022,2022,1,D·4,0.526,0.0063,POD_TEMP_1083,Pardas Blanco 2022,Pardas,2022
+192,I0152,Joseph Drouhin Chassagne-Montrachet Premier Cru Morgeot,,1,D·4,0.596,0.0894,POD_TEMP_BM2_0010,[TEMP] Chassagne-Montrachet 1er Cru Morgeot 22-,Marquis de Laguiche,2022
+193,I0153,Sohieferterrassen 2019,2019,1,D·4,0.5562,0.0596,POD019791,Heymann-Löwenstein Schieferterrassen 19-,Heymann-Löwenstein,2019
+199,I0157,Chablis 2023 Domaine TRIBUT,2023,1,D·5,0.5696,0.0858,POD018615,Tribut Dauvissat Chablis 23-,Vincent Dauvissat,2023
+200,I0158,Borgogne Cuvee Saint -Vincent Chardonnay 2023,2023,2,D·5,0.6086,0.0838,POD018401,V. Girardin Cuvée St. Vincent 23-,Vincent Girardin,2023
+201,I0159,Temerán Malvasía Volcánica 2024,2024,1,D·5,0.6664,0.1697,POD019473,Tameran Malvasía 24-,Tamerán,2024
+206,I0163,Bourgogne Chardonnay 2022 Domaine de Montille,2022,1,D·6,0.5256,0.0138,POD016404,De Montille Bourgogne Blanc 22-,Domaine de Montille,2022
+207,I0164,"Tenuta delle Terre Nere, Etna Bianco 2022",2022,1,D·6,0.6332,0.0008,POD017653,Terre Nere Bellacolonna 22-,Terre Nere,2022
+209,I0166,Calafuria Salento IGT 2023,2023,1,D·6,0.6116,0.0873,POD013785,Calafuria 23-,Tormaresca,2023
+210,I0167,Mandolas Petracs 2021 Furmint,2021,2,D·6,0.5704,0.0241,POD016969,Oremus Petracs 21-,Oremus,2021
+212,I0168,Primer Rose 2024 Marqués de Murrieta,2024,2,D·7,0.5057,0.0289,POD012772,Marques de Murrieta Ros 23-,Marqués de Murrieta,2023
+213,I0169,Ott Chateau De Selle 2024 Cru Classe,2024,4,D·7,0.6468,0.2036,POD018029,Ott Ch de Selle Provence Rose 24-,Domaine Ott,2024
+214,I0170,Les Pieds sur Terre Cotes du Jura Savagnin,,1,D·7,0.4937,0.0018,(en blanco),Pieds Sur Terre Savag Ouille 22-,Valentin Morel,2022
+215,I0171,Kumeu River Chardonnay 2023,2023,4,D·7,0.8031,0.0111,POD016733,Kumeu River Mate Chardonnnay 23-,Kumeu River,2023
+217,I0172,Chateau Peyrassol 2024 Cotes de Provence,2024,1,D·8,0.6137,0.0355,POD017633,Chateau Peyrassol RO 24-,Château Peyrassol,2024
+218,I0173,Chivite Coleccion 125 Gran Vino 2023,2023,2,D·8,0.6597,0.0126,POD018614,Chivite 125 Ros. 23-,Chivite,2023
+219,I0174,Le Rose de Antidoto 2023 Ribera del Duero,2023,1,D·8,0.6827,0.2324,POD018962,Le Rose Antidoto 23-,Antídoto,2023
+220,I0175,Primer Rose 2024 Rioja Marqués de Murrieta,2024,3,D·8,0.4615,0.0165,POD012772,Marques de Murrieta Ros 23-,Marqués de Murrieta,2023
+221,I0176,Clos du Temple 2023 Languedoc,2023,1,D·8,0.6384,0.1872,POD018173,G Bertrand Clos du Temple 23-,Gerard Bertrand,2023
+223,I0178,Territorio Luthier Clarete de Guarda,,1,D·8,0.6997,0.1804,POD014990,Territorio Luthier Clarete 2020-,Territorio Luthier,2020
+225,I0179,Vietti Colli Tortonesi Timorasso 2023 Derthona,2023,2,D·9,0.7151,0.27,POD019459,Vietti Derthona Timorasso 23-,Vietti,2023
+226,I0180,Cervaro della Sala 2023 Antinori,2023,1,D·9,0.676,0.1822,POD013819,Cervaro della Sala BL-,Antinori,2022
+227,I0181,Pacher Hof 2023 Kerner,2023,1,D·9,0.7039,0.2402,POD019792,Pacherhof Kerner 23-,Pacherhof,2023
+230,I0184,Roero Arneis Marchesi Barolo 2023,2023,2,D·9,0.7033,0.1889,POD019793,Marchesi di Barolo 23-,Marchesi di Barolo,2023
+231,I0185,Ornellaia 2022 Bolgheri Bianco,2022,2,D·9,0.6966,0.1643,POD_TEMP_BM2_0075,[TEMP] Bolgheri 22-,Ornellaia,2022
+233,I0186,Salón Blanc de Blancs 2013 Le Mesnil Brut Magnum,2013,1,D·10,0.7033,0.3055,POD011007,Salon Blanc de Blancs 13-,Salon,2013
+234,I0187,Whispering Angel rose Magnum,,1,D·10,0.3896,0.0296,POD017306,Ch. Esclans Provence Whispering Angel 24-,Château D´Esclans,2024
+235,I0188,Remirez de Ganuza Olagar 2015 Magnum,2015,1,D·10,0.7383,0.0298,POD016778,Mg Remirez de Ganuza Bl GR Olagar 15-,Remírez de Ganuza,2015
+236,I0189,Ruinart Rose Magnum,,2,D·10,0.68,0.1358,POD002123,Ruinart Rose-,Ruinart,
+239,I0190,Chambolle -Musigny Premier Cru 2022,2022,1,E·1,0.6728,0.007,POD_TEMP_BM2_0052,[TEMP] Chambolle-Musigny 22-,Hubert Lignier,2022
+241,I0192,Monopole Volnay Clos De La Barre Premier Cru 2022 Louis Jadot,2022,1,E·1,0.6821,0.1346,POD015245,Jadot Volnay 1C Clos de la Barre 22-,Louis Jadot,2022
+243,I0194,Vosne Romanee 1er Cru “Aux Brulees” 2022,2022,1,E·1,0.6995,0.0109,POD_TEMP_BM2_0049,[TEMP] Vosne-Romanée 1er Cru Les Suchots 22-,D. de l’Arlot,2022
+244,I0195,Les Terrasses 2022 Priorat,2022,1,E·1,0.6165,0.1411,POD012960,Les Terrases 22-,Álvaro Palacios,2022
+245,I0196,San Román 2022,2022,1,E·1,0.7951,0.0,POD016116,San Roman Malvasia 22-,San Román,2022
+247,I0198,Lacima 2020 Ribera Sacra,2020,1,E·1,0.4432,0.025,POD016340,Dominio do Bibei Lacima 20-,Dominio do Bibei,2020
+248,I0199,San Cucufate 2019,2019,1,E·1,0.712,0.049,POD018038,San Cobate Cucufate Monasterio 19-,San Cobate,2019
+251,I0202,Tempranillo Grano a Grano Abel Mendoza 2022 Rioja,2022,1,E·1,0.5988,0.0155,POD019768,A Mendoza Tempr Grano a Gran 22-,Abel Mendoza,2022
+253,I0203,Chambertin Grand Cru 2022 Domaine Rossignol- Trapet,2022,1,E·2,0.6975,0.0572,POD016242,Rossignol Trapet Chambertin 22-,Rossignol-Trapet,2022
+254,I0204,Clos de Vougeot Grand Cru 2022,2022,2,E·2,0.7686,0.0228,POD017423,Duroche Clos De Vougeot 22-,Duroché,2022
+256,I0206,Chambolle- Musigny Domaine Comte Georges de Vogue 2022,2022,1,E·2,0.6994,0.058,POD017377,Vogue Musigny 22-,Comte Georges de Vögué,2022
+257,I0207,Grebrey- Chambertin 2023 Domaine Henri Rebourseau,2023,1,E·2,0.6672,0.0419,POD018764,Rebourseau Chambertin 23-,Henri Rebourseau,2023
+258,I0208,Echezeaux Grand Cru Philippe Pacatel 2022,2022,1,E·2,0.5888,0.0769,POD012514,Pacalet Echezeaux 22-,Philippe Pacalet,2022
+262,I0212,Mauro cosecha 2023,2023,5,E·2,0.7076,0.0861,POD_TEMP_1075,Mauro Tinto 2023,Mauro,2023
+265,I0215,San Cucufate 2019,2019,2,E·2,0.712,0.049,POD018038,San Cobate Cucufate Monasterio 19-,San Cobate,2019
+266,I0216,Bodegas Cerrón Matas Altas 2024 Monastrell,2024,1,E·2,0.6917,0.0275,POD019478,Matas Altas TO 24-,Cerrón,2024
+270,I0219,Vinos de Pueblo Polígonos Valle del Uco,,1,E·3,0.3421,0.0,POD015280,El Corner del Puntido 22-,Viñedos de Páganos,2022
+271,I0220,San Román 2022,2022,2,E·3,0.7951,0.0,POD016116,San Roman Malvasia 22-,San Román,2022
+277,I0226,Chateau Belair Monange 2018 Premier Grand Cru Saint Emilion,2018,1,E·3,0.5993,0.0493,POD008772,Ch Angelus Saint Emilion 18-,Château Angélus,2018
+281,I0230,Les Terrasses 2022 Priorat,2022,1,E·3,0.6165,0.1411,POD012960,Les Terrases 22-,Álvaro Palacios,2022
+282,I0231,Chateu Les Carmes Haut-Brion 2021,2021,1,E·3,0.7466,0.0432,POD017979,Ch Les Carmes Haut Brion 22-,Château Les Carmes Haut-Brion,2022
+284,I0232,Chateau Catenac Brown 2022 Margaux,2022,3,E·5,0.642,0.0855,POD017960,Ch Cantenac Brown 22-,Château Cantenac-Brown,2022
+285,I0233,Carillon d’ Ángelus Saint Emilion 2022,2022,3,E·5,0.7169,0.0439,POD017976,Le Carillon d´Angelus 22-,Château Angélus,2022
+286,I0234,Rioja Alta Gran Reserva 904 2001,2001,2,E·5,0.7052,0.0011,POD009773,890 G Rva 01-,La Rioja Alta,2001
+288,I0236,La Forge de Tart 2021,2021,1,E·5,0.6699,0.0866,POD011638,Forge De Tart Morey S Denis 1C 21-,Clos de Tart,2021
+290,I0237,1900 Battle of Spioenkop Pinotage 2020,1900,3,E·6,,,,,,
+291,I0238,La Nieta 2022 Rioja xq Falcoeira a Capilla Valdeorras 2022,2022,3,E·6,0.6229,0.17,POD018448,Falcoeira A Capilla 22-,Ladeiras do Xil,2022
+292,I0238,La Nieta 2022 Rioja xq Falcoeira a Capilla Valdeorras 2022,2022,3,E·6,0.6229,0.17,POD018448,Falcoeira A Capilla 22-,Ladeiras do Xil,2022
+301,I0246,Carillon d’ Ángelus Saint -Emilion 2022,2022,1,E·7,0.7169,0.0439,POD017976,Le Carillon d´Angelus 22-,Château Angélus,2022
+302,I0247,Contador 2020,2020,1,E·7,0.6886,0.0397,POD016145,Contador Las Paulejas 20-,Contador,2020
+304,I0248,Corullon Vino de Villa 20223,2022,1,E·8,0.5297,0.0377,POD015987,Corullon 22-,Descendientes de J. Palacios,2022
+307,I0250,Moncerbal Corullon 2020,2020,1,E·8,0.6451,0.1393,POD014656,Moncerbal 20-,Descendientes de J. Palacios,2020
+309,I0252,La Baixada Gratallops Priorat 2021,2021,2,E·8,0.5487,0.0077,POD011324,La Baixada 21-,Álvaro Palacios,2021
+310,I0253,L’ Ermita Priorat 2022,2022,1,E·8,0.6462,0.0508,POD015983,L´Ermita 22-,Álvaro Palacios,2022
+314,I0256,Roda reserva 2021,2021,4,E·9,0.7213,0.0552,POD015674,Roda Reserva 22-,Roda,2022
+317,I0258,Quinta da Corte Douro 2013 Magnum,2013,1,E·10,0.4164,0.0008,POD015878,Taittinger Comtes de Champagne 13-,Taittinger,2013
+318,I0259,Dominio de Es Soria La Diva 2022 Magnum,2022,1,E·10,0.7624,0.0429,POD016020,Dominio de Es La Diva 22-,Dominio de Es,2022
+319,I0260,Viña el Pison 2022 Magnum,2022,1,E·10,0.7033,0.0457,POD016010,Artadi Viña El Pison 22-,Artadi,2022
+320,I0261,Ángelus 2018 Magnum,2018,1,E·10,0.49,0.0147,POD008521,Pingus 18-,Domaine Pingus,2018
+321,I0262,La Baixada Gratallops 2022 Priorat Magnum,2022,1,E·10,0.5091,0.0142,POD015969,Gratallops 22-,Álvaro Palacios,2022
+324,I0263,Kalamity Rioja 2023,2023,1,F·1,0.6663,0.0363,POD019663,Anza Rioja 23-,Dominio de Anza,2023
+326,I0265,La Faraona El Ferro Corullon 2022,2022,1,F·1,0.5561,0.0322,POD015996,La Faraona 22-,Descendientes de J. Palacios,2022
+327,I0266,Racines Sta. Rita Hills 2022,2022,1,F·1,0.7669,0.0167,POD016399,Racines Santa Rita Hills Chardonnay 22-,Racines,2022
+329,I0268,El Puntido 2022 Rioja,2022,1,F·1,0.6941,0.1302,POD019116,El Puntido 22-,Viñedos de Páganos,2022
+330,I0269,Abadía Retuerta PV 2020,2020,2,F·1,0.7508,0.023,POD015880,Abadía Retuerta Petit Verdot 20-,Abadía Retuerta,2020
+334,I0273,Viña Coqueta Remirez de Ganuza,,2,F·1,0.6446,0.1017,POD016820,Remirez de Ganuza Viña Coqueta 15-,Remirez de Ganuza,2015
+335,I0274,Bravía Barolo 2020,2020,1,F·1,0.6806,0.0177,POD018440,Scavino Barolo 20-,Paolo Scavino,2020
+341,I0279,Terreus 2023 Vino de la Tierra Castilla y León,2023,2,F·2,0.4188,0.008,POD018790,Terre Nere Calderara Sott BL 23-,Terre Nere,2023
+345,I0282,Torbreck Barossa Valley 2021 Runrig,2021,1,F·2,0.6416,0.15,POD018217,Torbreck Runrig 21-,Torbreck,2021
+348,I0285,Contino Reserva cosecha 2021,2021,2,F·2,0.6333,0.1229,POD018634,Contino Rva 21-,Viñedos del Contino,2021
+349,I0286,Chateau Haut-Bailly Grand Cru Classe 2010,2010,1,F·2,0.52,0.0007,POD009898,Chateau Rayas TO 2010-,Château Rayas,2010
+350,I0287,La Nieta 2021,2021,2,F·2,0.7083,0.0012,POD013255,La Nieta 22-,Viñedos de Páganos,2022
+352,I0289,Rosso D’Uco Valle de Uco 2023,2023,1,F·2,0.6379,0.1384,POD019628,Bira Rosso D´Uco 23-,Bira,2023
+354,I0291,La Quebra 2021 Gredos,2021,1,F·2,0.6709,0.1315,POD017564,La Quebra 21-,Rico Nuevo,2021
+355,I0292,El Puntido 2022 Rioja,2022,1,F·2,0.6941,0.1302,POD019116,El Puntido 22-,Viñedos de Páganos,2022
+356,I0293,Más Doix Tossal D’ En Bou 2022 Priorat,2022,1,F·2,0.7157,0.1211,POD011511,Mas Doix 1902 Tossal D En Bou 2021-,Mas Doix,2021
+360,I0296,"Las Beatas 1,9 ha 2022 Rioja",2022,1,F·3,0.5037,0.0306,POD012038,Las Beatas 2021-,Telmo Rodríguez,2021
+368,I0303,Pintia Toro 2020,2020,3,F·4,0.7164,0.2013,POD016962,Pintia 20-,Pintia,2020
+369,I0304,Pintia Toro 2017,2017,1,F·4,0.7164,0.1992,POD013547,Pintia 17-,Pintia,2017
+375,I0308,Malleolus de SanchoMartin,,2,F·5,0.472,0.0746,POD019082,Sanchomartin 21-,Emilio Moro,2021
+376,I0309,Quiñon de Vallirana 2021,2021,1,F·5,0.7412,0.0449,POD011169,Quiñon de Valmira 21-,Palacios Remondo,2021
+381,I0314,"Finca Dofi Gratallops 2023 Priorat 37,5 cl",2023,1,F·5,0.5032,0.0477,POD019520,3/8 Finca Dofi 23-,Álvaro Palacios,2023
+383,I0315,Viña Tondonia Rioja 2012 Reserva 2012,2012,2,F·6,0.6876,0.2046,POD012819,Viña Tondonia Rva 12-,López de Heredia,2012
+384,I0316,"Bodega Lanzaga La Estrada 0,64ha 2022",2022,1,F·6,0.5196,0.0218,POD017736,Lanzaga Rioja La Estrada 21-,Telmo Rodríguez,2021
+385,I0317,"Tabuerniga 2,7 ha 2022 Rioja",2022,2,F·6,0.5989,0.1189,POD018445,Tabuerniga 22-,Telmo Rodríguez,2022
+390,I0322,"Las Beatas 1,9 ha 2022 Rioja",2022,1,F·6,0.5037,0.0306,POD012038,Las Beatas 2021-,Telmo Rodríguez,2021
+393,I0324,San Cucufate 2019,2019,1,F·7,0.712,0.049,POD018038,San Cobate Cucufate Monasterio 19-,San Cobate,2019
+396,I0327,Les Pieds sur Terre Cotes du Jura 2023,2023,2,F·7,0.6797,0.094,POD019656,Pieds Sur Terre Poulsard 23-,Valentin Morel,2023
+403,I0333,Saint Clair Pioneer Block 2023 Pinot Noir,2023,2,F·8,0.5237,0.0682,POD019156,De Montille Bourgogne Pinot Noir 23-,Domaine de Montille,2023
+405,I0335,Son Agulló Mantonegro 2022 Mallorca,2022,1,F·8,0.5883,0.125,POD019734,Son Agulló 22-,Can Verdura,2022
+409,I0337,Venus de la Figuera 2020 Garnacha Montsant,2020,2,F·9,0.6948,0.263,POD017258,Venus de la Figuera 20-,Venus La Universal,2020
+413,I0341,Abadía Retuerta,,1,F·9,0.6727,0.0191,POD015923,Abadía Retuerta Le Domaine 23-,Abadía Retuerta,2023
+414,I0342,Domaine des Perdix 2022 Nuits -Saint-Georges Premier Cru,2022,1,F·9,0.6451,0.0435,POD_TEMP_BM2_0065,[TEMP] Nuits-Saint-Georges 1er Cru Aux Perdrix 22-,des Perdrix,2022
+415,I0343,Domaine des Perdix 2023 Nuits- Saint- Georges Premier Cru,2023,1,F·9,0.6451,0.0435,POD_TEMP_BM2_0066,[TEMP] Nuits-Saint-Georges 1er Cru Aux Perdrix 23-,des Perdrix,2023
+418,I0345,Ángelus 2018 Magnum,2018,1,F·10,0.49,0.0147,POD008521,Pingus 18-,Domaine Pingus,2018
+419,I0346,Terreus 2022 Cima de la Cueva Baja Magnum,2022,1,F·10,0.4176,0.0068,POD016104,La Cueva de Contador 22-,Contador,2022
+421,I0348,Castillo Ygay Rioja Marqués de Murrieta Gran Reserva 2005,2005,3,F·10,0.6793,0.1948,POD009662,Castillo de Ygay 2005-,Marqués de Murrieta,2005
+422,I0349,Castillo Ygay Rioja Marqués de Murrieta Gran Reserva 2010,2010,2,F·10,0.6793,0.1545,POD009659,Castillo de Ygay 2010-,Marqués de Murrieta,2010
+423,I0350,Castillo Ygay Rioja Marqués de Murrieta Gran Reserva 2012,2012,1,F·10,0.6644,0.0362,POD011520,Mg Castillo de Ygay 12-,Marqués de Murrieta,2012
+424,I0351,Amancio 2021 Magnun Rioja,2021,1,F·10,0.5213,0.0528,POD015272,Mg Amancio 21-,Sierra Cantabria,2021
+730,I0499,Joseph Drouhin Beaune 1er Cru Clos de Mouches 2022,2022,1,X·1·IZQ,0.8319,0.0006,POD013287,Drouhin Beaune 1C Clos de Mouches BL 22-,Joseph Drouhin,2022
+731,I0500,Château Mouton-Rothschild 1er Grand Cru Classé 1982,1982,1,X·1·IZQ,0.6869,0.1329,POD015776,Ch Mouton Rothschild Pauillac 82-,Château Mouton-Rothschild,1982
+732,I0501,Henri Magnien Gevrey-Chambertin 1er Cru Lavaux Saint Jacques 2022,2022,1,X·1·IZQ,0.7474,0.0754,POD012537,Magnien Gevrey 1C Lavaux St Jacques 22-,Henri Magnien,2022
+743,I0510,Château Figeac 1er Grand Cru Classé A 2020,2020,1,X·3·IZQ,0.5721,0.0404,POD010659,Ch Figeac Saint Emilion 20-,Château Figeac,2020
+744,I0511,Château Figeac 1er Grand Cru Classé A 2021,2021,1,X·3·IZQ,0.5317,0.0151,POD_TEMP_1050,Ch. Pavie 21-,Château Pavie,2021
+747,I0512,Château Mouton-Rothschild 1er Grand Cru Classé 2017,2017,1,X·4·IZQ·L1,0.6915,0.1376,POD008399,Ch. Mouton Rothschild 17-,Château Mouton-Rothschild,2017
+748,I0513,Château Cheval Blanc 1er Grand Cru Classé A 2016,2016,1,X·4·IZQ·L1,0.7078,0.0576,POD013565,Mg Cheval Blanc 16-,Château Cheval Blanc,2016
+749,I0514,Château Cheval Blanc 1er Grand Cru Classé A 1982,1982,1,X·4·IZQ·L1,0.6502,0.2141,POD015777,Ch Cheval Blanc Saint Emilion 82-,Château Cheval Blanc,1982
+750,I0514,Château Cheval Blanc 1er Grand Cru Classé A 1982,1982,1,X·4·IZQ·L1,0.6502,0.2141,POD015777,Ch Cheval Blanc Saint Emilion 82-,Château Cheval Blanc,1982
+752,I0515,Château Mouton-Rothschild 1er Grand Cru Classé 2009,2009,1,X·4·IZQ·L2,0.6915,0.1618,POD006647,Ch. Mouton Rothschild 09-,Château Mouton-Rothschild,2009
+753,I0516,Château Mouton-Rothschild 1er Grand Cru Classé 2021,2021,1,X·4·IZQ·L2,0.6869,0.1329,POD011856,Ch Mouton Rothschild Pauillac 21-,Château Mouton-Rothschild,2021
+754,I0517,Château Lafleur 2021,2021,1,X·4·IZQ·L2,0.69,0.138,POD011857,Ch Lafleur Pomerol 21-,Château Lafleur,2021
+757,I0519,Château Mouton-Rothschild 1er Grand Cru Classé 2020,2020,1,X·4·IZQ·L3,0.6869,0.1329,POD010676,Ch Mouton Rothschild Pauillac 20-,Château Mouton-Rothschild,2020
+768,I0528,Domaine de la Romanée-Conti Romanée-Saint Vivant Grand Cru 2019,2019,1,X·4·IZQ·L5,0.7885,0.0114,POD010609,DRC Romane St Vivant GC 19-,Domaine de la Romanée-Conti,2019
+769,I0529,Cos d´Estournel 2019,2019,1,X·4·IZQ·L5,0.7319,0.0165,POD010119,Cos d'Estournel Saint Estephe 19-,Cos d´Estournel,2019

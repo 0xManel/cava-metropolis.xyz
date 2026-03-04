@@ -1,0 +1,2506 @@
+{
+  "timestamp_utc": "2026-02-26T02:45:11.975596+00:00",
+  "mode": "apply",
+  "csv_rows_total_non_tasca": 422,
+  "csv_source_files_non_tasca": [
+    "222 borgoña_blancos.pdf",
+    "222 borgoña_tintos.pdf",
+    "italia.pdf",
+    "resto_francia.pdf",
+    "resto_francia_italia_blancos.pdf",
+    "usa_y_sudafrica_TO.pdf"
+  ],
+  "matched_rows": 235,
+  "matched_unique_pods": 221,
+  "unmatched_rows": 187,
+  "updates_applied": 221,
+  "top_unmatched_producers": [
+    [
+      "Arnaud Ente",
+      13
+    ],
+    [
+      "Pacalet",
+      11
+    ],
+    [
+      "Jean Grivot",
+      7
+    ],
+    [
+      "Pierre Morey",
+      6
+    ],
+    [
+      "Raveneau",
+      6
+    ],
+    [
+      "Vincent Girardin",
+      5
+    ],
+    [
+      "Marquis de Laguiche",
+      5
+    ],
+    [
+      "Racines",
+      5
+    ],
+    [
+      "Screaming Eagle",
+      5
+    ],
+    [
+      "D. de l’Arlot",
+      5
+    ],
+    [
+      "Prieuré Roch",
+      5
+    ],
+    [
+      "M. Chapoutier",
+      4
+    ],
+    [
+      "Promontory",
+      4
+    ],
+    [
+      "des Lambrays",
+      4
+    ],
+    [
+      "des Perdrix",
+      4
+    ],
+    [
+      "Dujac",
+      4
+    ],
+    [
+      "Tenuta delle Terre Nere",
+      3
+    ],
+    [
+      "Ornellaia",
+      3
+    ],
+    [
+      "Louis Jadot",
+      3
+    ],
+    [
+      "Sine Qua Non",
+      3
+    ],
+    [
+      "Isabel Ferrando (Saint Préfert)",
+      3
+    ],
+    [
+      "DRC",
+      3
+    ],
+    [
+      "Hubert Lignier",
+      3
+    ],
+    [
+      "Caciorgna",
+      2
+    ],
+    [
+      "Falletto",
+      2
+    ]
+  ],
+  "preview_first_100": [
+    {
+      "pod": "POD008804",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 12 · BALDA 2 · CEN",
+      "avg_score": 0.87
+    },
+    {
+      "pod": "POD009450",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 12 · BALDA 3 · IZQ",
+      "avg_score": 0.91
+    },
+    {
+      "pod": "POD010003",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 12 · BALDA 3 · IZQ",
+      "avg_score": 0.98
+    },
+    {
+      "pod": "POD010015",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 8 · DER",
+      "avg_score": 0.9376
+    },
+    {
+      "pod": "POD010016",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 1 · IZQ",
+      "avg_score": 0.8183
+    },
+    {
+      "pod": "POD010090",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 5 · BALDA 2 · IZQ",
+      "avg_score": 0.9135
+    },
+    {
+      "pod": "POD010381",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 4 · BALDA 5 · E",
+      "avg_score": 0.9647
+    },
+    {
+      "pod": "POD010686",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 4 · BALDA 5 · B",
+      "avg_score": 0.87
+    },
+    {
+      "pod": "POD011244",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 8 · BALDA 5 · C",
+      "avg_score": 0.8215
+    },
+    {
+      "pod": "POD011380",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 7 · BALDA 5 · D",
+      "avg_score": 0.9575
+    },
+    {
+      "pod": "POD011395",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 8 · IZQ",
+      "avg_score": 0.9376
+    },
+    {
+      "pod": "POD011396",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 2 · CEN",
+      "avg_score": 0.8183
+    },
+    {
+      "pod": "POD011635",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 6 · BALDA 6 · CEN",
+      "avg_score": 0.806
+    },
+    {
+      "pod": "POD011698",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 2 · IZQ",
+      "avg_score": 0.7236
+    },
+    {
+      "pod": "POD011699",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 3 · IZQ",
+      "avg_score": 0.7236
+    },
+    {
+      "pod": "POD011715",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 6 · BALDA 1 · CEN",
+      "avg_score": 0.8771
+    },
+    {
+      "pod": "POD011824",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 10 · BALDA 5 · IZQ",
+      "avg_score": 0.8914
+    },
+    {
+      "pod": "POD011826",
+      "rows_count": 2,
+      "qty_total": 3,
+      "localizacion": "CAVA 6 · BALDA 5 · DER / CAVA 6 · BALDA 6 · DER",
+      "avg_score": 0.8565
+    },
+    {
+      "pod": "POD011827",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 6 · BALDA 5 · DER",
+      "avg_score": 0.876
+    },
+    {
+      "pod": "POD011828",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 6 · BALDA 5 · CEN",
+      "avg_score": 0.876
+    },
+    {
+      "pod": "POD011837",
+      "rows_count": 1,
+      "qty_total": 8,
+      "localizacion": "CAVA 11 · BALDA 3 · IZQ",
+      "avg_score": 0.8071
+    },
+    {
+      "pod": "POD011992",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 7 · IZQ",
+      "avg_score": 0.9
+    },
+    {
+      "pod": "POD011994",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 7 · IZQ",
+      "avg_score": 0.9516
+    },
+    {
+      "pod": "POD011999",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 9 · BALDA 8 · DER",
+      "avg_score": 0.8231
+    },
+    {
+      "pod": "POD012028",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 12 · BALDA 2 · DER",
+      "avg_score": 0.87
+    },
+    {
+      "pod": "POD012244",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 12 · BALDA 2 · IZQ",
+      "avg_score": 0.87
+    },
+    {
+      "pod": "POD012267",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 5 · BALDA 6 · CEN",
+      "avg_score": 0.7657
+    },
+    {
+      "pod": "POD012270",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 6 · CEN",
+      "avg_score": 0.9142
+    },
+    {
+      "pod": "POD012367",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 8 · DER",
+      "avg_score": 0.9674
+    },
+    {
+      "pod": "POD012403",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 5 · BALDA 1 · CEN",
+      "avg_score": 0.7772
+    },
+    {
+      "pod": "POD012404",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 5 · BALDA 1 · CEN",
+      "avg_score": 0.7772
+    },
+    {
+      "pod": "POD012429",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 6 · BALDA 2",
+      "avg_score": 0.7717
+    },
+    {
+      "pod": "POD012431",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 6 · BALDA 2",
+      "avg_score": 0.8526
+    },
+    {
+      "pod": "POD012432",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 7 · BALDA 1 · CEN",
+      "avg_score": 0.8805
+    },
+    {
+      "pod": "POD012433",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 5 · BALDA 2",
+      "avg_score": 0.8132
+    },
+    {
+      "pod": "POD012436",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 5 · BALDA 1",
+      "avg_score": 0.8011
+    },
+    {
+      "pod": "POD012445",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 12 · BALDA 3 · DER",
+      "avg_score": 0.98
+    },
+    {
+      "pod": "POD012453",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 5 · BALDA 5 · C",
+      "avg_score": 0.8137
+    },
+    {
+      "pod": "POD012462",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 8 · BALDA 7 · IZQ",
+      "avg_score": 0.8108
+    },
+    {
+      "pod": "POD012473",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 10 · BALDA 7 · IZQ",
+      "avg_score": 0.8815
+    },
+    {
+      "pod": "POD012506",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 11 · BALDA 2 · CEN",
+      "avg_score": 0.8367
+    },
+    {
+      "pod": "POD012514",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 5 · BALDA 2 · DER",
+      "avg_score": 0.735
+    },
+    {
+      "pod": "POD012516",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 7 · BALDA 8 · IZQ",
+      "avg_score": 0.7852
+    },
+    {
+      "pod": "POD012524",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 7 · BALDA 6 · IZQ",
+      "avg_score": 0.8271
+    },
+    {
+      "pod": "POD012532",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 3 · DER",
+      "avg_score": 0.82
+    },
+    {
+      "pod": "POD012537",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 4 · BALDA 1 · DER",
+      "avg_score": 0.8589
+    },
+    {
+      "pod": "POD012538",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 5 · BALDA 6 · DER",
+      "avg_score": 0.7843
+    },
+    {
+      "pod": "POD012565",
+      "rows_count": 1,
+      "qty_total": 6,
+      "localizacion": "CAVA 9 · BALDA 4 · IZQ",
+      "avg_score": 0.7646
+    },
+    {
+      "pod": "POD012659",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 1 · CEN",
+      "avg_score": 0.8048
+    },
+    {
+      "pod": "POD012715",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 4 · DER",
+      "avg_score": 0.8648
+    },
+    {
+      "pod": "POD013287",
+      "rows_count": 1,
+      "qty_total": 4,
+      "localizacion": "CAVA 4 · BALDA 4 · IZQ",
+      "avg_score": 0.8001
+    },
+    {
+      "pod": "POD013304",
+      "rows_count": 1,
+      "qty_total": 4,
+      "localizacion": "CAVA 4 · BALDA 4 · CEN",
+      "avg_score": 0.8166
+    },
+    {
+      "pod": "POD013317",
+      "rows_count": 1,
+      "qty_total": 4,
+      "localizacion": "CAVA 10 · BALDA 4 · B",
+      "avg_score": 0.8746
+    },
+    {
+      "pod": "POD013318",
+      "rows_count": 1,
+      "qty_total": 0,
+      "localizacion": "CAVA 6 · BALDA 4 · A",
+      "avg_score": 0.9098
+    },
+    {
+      "pod": "POD013341",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 10 · BALDA 4 · D",
+      "avg_score": 0.84
+    },
+    {
+      "pod": "POD013366",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 5 · E",
+      "avg_score": 0.926
+    },
+    {
+      "pod": "POD013434",
+      "rows_count": 2,
+      "qty_total": 3,
+      "localizacion": "CAVA 5 · BALDA 5 · C / CAVA 8 · BALDA 5 · A",
+      "avg_score": 0.8207
+    },
+    {
+      "pod": "POD014266",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 2 · IZQ",
+      "avg_score": 0.9245
+    },
+    {
+      "pod": "POD014760",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 6 · IZQ",
+      "avg_score": 0.795
+    },
+    {
+      "pod": "POD015244",
+      "rows_count": 1,
+      "qty_total": 6,
+      "localizacion": "CAVA 8 · BALDA 4 · IZQ",
+      "avg_score": 0.8809
+    },
+    {
+      "pod": "POD015245",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 3 · DER",
+      "avg_score": 0.9245
+    },
+    {
+      "pod": "POD015311",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 3 · IZQ",
+      "avg_score": 0.765
+    },
+    {
+      "pod": "POD015786",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 3",
+      "avg_score": 0.735
+    },
+    {
+      "pod": "POD015787",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 4 · BALDA 2",
+      "avg_score": 0.7796
+    },
+    {
+      "pod": "POD015903",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 10 · BALDA 7 · IZQ",
+      "avg_score": 0.894
+    },
+    {
+      "pod": "POD015938",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 7 · BALDA 8 · DER",
+      "avg_score": 0.733
+    },
+    {
+      "pod": "POD015939",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 7 · BALDA 5 · E",
+      "avg_score": 0.8655
+    },
+    {
+      "pod": "POD015942",
+      "rows_count": 2,
+      "qty_total": 6,
+      "localizacion": "CAVA 7 · BALDA 5 · B / CAVA 7 · BALDA 5 · D",
+      "avg_score": 0.775
+    },
+    {
+      "pod": "POD015947",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 1 · DER",
+      "avg_score": 0.8537
+    },
+    {
+      "pod": "POD016056",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 12 · BALDA 3 · CEN",
+      "avg_score": 0.92
+    },
+    {
+      "pod": "POD016388",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 11 · BALDA 2 · IZQ",
+      "avg_score": 0.8803
+    },
+    {
+      "pod": "POD016399",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 8 · BALDA 3 · DER",
+      "avg_score": 0.7825
+    },
+    {
+      "pod": "POD016407",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 5 · BALDA 4 · DER",
+      "avg_score": 0.7383
+    },
+    {
+      "pod": "POD016410",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 5 · D",
+      "avg_score": 0.7535
+    },
+    {
+      "pod": "POD016414",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 10 · BALDA 5 · IZQ",
+      "avg_score": 0.8155
+    },
+    {
+      "pod": "POD016429",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 10 · BALDA 4 · E",
+      "avg_score": 0.8825
+    },
+    {
+      "pod": "POD016555",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 7 · BALDA 7 · IZQ",
+      "avg_score": 0.7376
+    },
+    {
+      "pod": "POD016560",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 2 · IZQ",
+      "avg_score": 0.7339
+    },
+    {
+      "pod": "POD016594",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 5 · BALDA 6 · IZQ",
+      "avg_score": 0.8144
+    },
+    {
+      "pod": "POD016693",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 5 · A",
+      "avg_score": 0.761
+    },
+    {
+      "pod": "POD016705",
+      "rows_count": 3,
+      "qty_total": 3,
+      "localizacion": "CAVA 5 · BALDA 5 · A",
+      "avg_score": 0.8166
+    },
+    {
+      "pod": "POD016759",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 4 · BALDA 5 · E",
+      "avg_score": 0.8178
+    },
+    {
+      "pod": "POD016823",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 10 · BALDA 2 · CEN",
+      "avg_score": 0.845
+    },
+    {
+      "pod": "POD016835",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 7 · BALDA 3 · IZQ",
+      "avg_score": 0.8271
+    },
+    {
+      "pod": "POD016836",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 7 · BALDA 4 · DER",
+      "avg_score": 0.834
+    },
+    {
+      "pod": "POD016838",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 7 · BALDA 6 · CEN",
+      "avg_score": 0.8231
+    },
+    {
+      "pod": "POD016862",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 5 · A",
+      "avg_score": 0.7843
+    },
+    {
+      "pod": "POD016865",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 9 · BALDA 5 · A",
+      "avg_score": 0.9553
+    },
+    {
+      "pod": "POD016866",
+      "rows_count": 1,
+      "qty_total": 6,
+      "localizacion": "CAVA 9 · BALDA 1 · DER",
+      "avg_score": 0.84
+    },
+    {
+      "pod": "POD016868",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 9 · BALDA 2 · IZQ",
+      "avg_score": 0.9516
+    },
+    {
+      "pod": "POD016874",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 7 · BALDA 5 · E",
+      "avg_score": 0.8655
+    },
+    {
+      "pod": "POD016875",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 4 · BALDA 7 · DER",
+      "avg_score": 0.733
+    },
+    {
+      "pod": "POD016876",
+      "rows_count": 1,
+      "qty_total": 3,
+      "localizacion": "CAVA 4 · BALDA 6 · IZQ",
+      "avg_score": 0.7465
+    },
+    {
+      "pod": "POD016877",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 7 · BALDA 5 · C",
+      "avg_score": 0.879
+    },
+    {
+      "pod": "POD016880",
+      "rows_count": 1,
+      "qty_total": 1,
+      "localizacion": "CAVA 4 · BALDA 5 · E",
+      "avg_score": 0.85
+    },
+    {
+      "pod": "POD016884",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 5 · BALDA 4",
+      "avg_score": 0.8293
+    },
+    {
+      "pod": "POD016885",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 5 · BALDA 3",
+      "avg_score": 0.8469
+    },
+    {
+      "pod": "POD016886",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 6 · BALDA 1",
+      "avg_score": 0.8776
+    },
+    {
+      "pod": "POD016887",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 6 · BALDA 4",
+      "avg_score": 0.7904
+    },
+    {
+      "pod": "POD016888",
+      "rows_count": 1,
+      "qty_total": 2,
+      "localizacion": "CAVA 5 · BALDA 3",
+      "avg_score": 0.87
+    }
+  ],
+  "unmatched_first_200": [
+    {
+      "source_file": "italia.pdf",
+      "producer": "Borgogno",
+      "item": "Langhe Nebbiolo ‘Rivata’",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Caciorgna",
+      "item": "Etna Rosso ‘Ciauria’",
+      "ano": "2024",
+      "qty": "4",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Cascina delle Rose",
+      "item": "Barbera d’Alba ‘Donna Elena’",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Crissante",
+      "item": "Barolo (La Morra)",
+      "ano": "2021",
+      "qty": "3",
+      "posicion": "Balda 4 · Centro",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Falletto",
+      "item": "Barbaresco ‘Rabajà’",
+      "ano": "2020",
+      "qty": "3",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Falletto",
+      "item": "Barbera d’Alba",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "G.D. Vajra",
+      "item": "Arulej ‘Controcorrente’",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Le Macchiole",
+      "item": "Bolgheri Rosso",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 8 · Centro",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 8 · Izquierda",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Moganazzi",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 8 · Izquierda",
+      "location_group": "PA – Cava 9"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Podere San Giuseppe (Bacia)",
+      "item": "Brunello di Montalcino",
+      "ano": "2019",
+      "qty": "1",
+      "posicion": "Balda 4 · Izquierda",
+      "location_group": "TO – Cava 12"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "TO – Cava 11"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano": "2021",
+      "qty": "1",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "TO – Cava 11"
+    },
+    {
+      "source_file": "italia.pdf",
+      "producer": "Ornellaia",
+      "item": "Bolgheri",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 4 · Centro",
+      "location_group": "TO – Cava 11"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Brand et Fils",
+      "item": "L’Oeillet (Le Litre)",
+      "ano": "—",
+      "qty": "4",
+      "posicion": "Balda 1 · Centro",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Caciorgna",
+      "item": "Guardoilvento",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 6 · Izquierda",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Fuissé",
+      "item": "Tête de Cuvée",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 4 · D",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Fuissé",
+      "item": "Blanc",
+      "ano": "2020",
+      "qty": "1",
+      "posicion": "Balda 4 · E",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Château Smith Haut Lafitte",
+      "item": "Blanc",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 4 · B",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "COS",
+      "item": "Pithos Bianco",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Fides (Crimorgat)",
+      "item": "Blanc",
+      "ano": "2018",
+      "qty": "3",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Filippi",
+      "item": "Foglio 1",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Guicciardini Strozzi",
+      "item": "Hermitage Blanc",
+      "ano": "2017",
+      "qty": "4",
+      "posicion": "Balda 5 · Derecha",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "La Croisée des Chenins",
+      "item": "Blanc",
+      "ano": "2017",
+      "qty": "3",
+      "posicion": "Balda 3 · Izquierda",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Hermitage ‘De l’Orée’",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 4 · A",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Hermitage ‘De l’Orée’",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 5 · Centro",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Marchesi di Barolo",
+      "item": "Roero Arneis",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "T. Di Paolo",
+      "item": "Fiano di Avellino ‘Campore Riserva’",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 7 · Centro",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Taittinger",
+      "item": "Hermitage Blanc",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 5 · Izquierda",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Tenuta delle Terre Nere",
+      "item": "Calderara Sottana (Blanc)",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "resto_francia_italia_blancos.pdf",
+      "producer": "Trimbach",
+      "item": "Riesling",
+      "ano": "2017",
+      "qty": "1",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 10"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Antoine LePetit",
+      "item": "Bourgogne Aligoté",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 8 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Bourgogne (1.5L)",
+      "ano": "2020",
+      "qty": "1",
+      "posicion": "Balda 8 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Initiales BB",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 5 · A",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Clos du Cromin",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 4 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 4 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano": "—",
+      "qty": "2",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault Les Tillets",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Montmains 1er Cru",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Fourchaume 1er Cru",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Tête d’Or",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Tête d’Or (1.5L)",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 8 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Meursault",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 5 · E",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Domaine de Villaine",
+      "item": "Bouzeron",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 8 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "François Carillon",
+      "item": "Bourgogne Côte d’Or",
+      "ano": "—",
+      "qty": "2",
+      "posicion": "Balda 8 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Hospices de Beaune",
+      "item": "Meursault Genevrières 1er Cru",
+      "ano": "2016",
+      "qty": "3",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Hospices de Beaune",
+      "item": "Meursault Clos des Écoles",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 4 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "J. Drouhin",
+      "item": "Clos des Mouches",
+      "ano": "—",
+      "qty": "4",
+      "posicion": "Balda 2 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Le Puy de l’Ours",
+      "item": "Savigny-lès-Beaune Les Goudelettes",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Les Deux Flèches",
+      "item": "Saint-Véran ‘En Messie’",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Lucien Muzard",
+      "item": "Saint-Aubin 1er Cru Sur le Sentier du Clou",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Meursault Perrières 1er Cru",
+      "ano": "2022",
+      "qty": "4",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Butteaux 1er Cru",
+      "ano": "2015",
+      "qty": "1",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Chablis",
+      "ano": "2019",
+      "qty": "1",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano": "2015",
+      "qty": "2",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Montée de Tonnerre 1er Cru",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Roulot",
+      "item": "Meix Chavaux",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Si tu Sais",
+      "item": "Pernand-Vergelesses",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Meursault Vieilles Vignes",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 7"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Arnaud Ente",
+      "item": "Puligny-Montrachet 1er Cru Champ Gain",
+      "ano": "2019",
+      "qty": "1",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Bruno Colin",
+      "item": "Chassagne-Montrachet 1er Cru La Maltroie",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Domaine Leflaive",
+      "item": "Chassagne-Montrachet 1er Cru Clos Saint-Marc",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 7 · Centro",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Louis Jadot",
+      "item": "Puligny-Montrachet 1er Cru Les Combettes",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Centro",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Chassagne-Montrachet 1er Cru Morgeot",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 6 · Derecha",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Montrachet (Grand Cru)",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 5 · E",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Montrachet (Grand Cru)",
+      "ano": "—",
+      "qty": "2",
+      "posicion": "Balda 5 · E",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Corton-Charlemagne (Grand Cru)",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Marquis de Laguiche",
+      "item": "Corton-Charlemagne (Grand Cru)",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 5 · D",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pacalet",
+      "item": "Bâtard-Montrachet (Grand Cru)",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pacalet",
+      "item": "Corton-Charlemagne (Grand Cru)",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 5 · D",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Bâtard-Montrachet (Grand Cru)",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Bâtard-Montrachet (Grand Cru)",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 5 · A",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Puligny-Montrachet 1er Cru Champ Gain",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 1 · Centro",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Blanchot (Grand Cru)",
+      "ano": "2016",
+      "qty": "2",
+      "posicion": "Balda 5 · B",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Raveneau",
+      "item": "Valmur (Grand Cru)",
+      "ano": "2016",
+      "qty": "3",
+      "posicion": "Balda 2 · Derecha",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Montrachet (Grand Cru)",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 5 · E",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet 1er Cru Les Combettes",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet 1er Cru Les Referts",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "222 borgoña_blancos.pdf",
+      "producer": "Vincent Girardin",
+      "item": "Puligny-Montrachet Vieilles Vignes",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 8 · Izquierda",
+      "location_group": "PA – Cava 8"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Kongsgaard",
+      "item": "Syrah – Napa Valley",
+      "ano": "2020",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 2"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Kongsgaard",
+      "item": "Syrah – Napa Valley",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 2"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": "2015",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": "2016",
+      "qty": "2",
+      "posicion": "Balda 4",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": "2018",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Promontory",
+      "item": "Napa Valley",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 2",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano": "2020",
+      "qty": "1",
+      "posicion": "Balda 2",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "La Rinconada Vineyard – Lompoc, CA",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 2",
+      "location_group": "TO – Cava 3"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": "2011",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 4"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": "2012",
+      "qty": "2",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 4"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": "2013",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 4"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 2",
+      "location_group": "TO – Cava 4"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Screaming Eagle",
+      "item": "Cabernet Sauvignon – Oakville, Napa Valley",
+      "ano": "2021",
+      "qty": "3",
+      "posicion": "Balda 3",
+      "location_group": "TO – Cava 4"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Shafer",
+      "item": "TD-9 Cabernet Sauvignon – Napa Valley",
+      "ano": "2021",
+      "qty": "3",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 5"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Syrah – California",
+      "ano": "2013",
+      "qty": "2",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 6"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Shannon",
+      "item": "Mount Bullet – South Africa",
+      "ano": "2020",
+      "qty": "6",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "TO – Cava 10"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Spioenkop",
+      "item": "1900 – Pinotage",
+      "ano": "2020",
+      "qty": "5",
+      "posicion": "Balda 1",
+      "location_group": "TO – Cava 10"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Salem Wine Co.",
+      "item": "Chardonnay",
+      "ano": "2021",
+      "qty": "3",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "TO – Cava 9"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Seven Springs",
+      "item": "Chardonnay",
+      "ano": "2022",
+      "qty": "5",
+      "posicion": "Balda 1 · Centro",
+      "location_group": "TO – Cava 9"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Summum",
+      "item": "Chardonnay",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "TO – Cava 9"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Ceritas",
+      "item": "Chardonnay – Sonoma County",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "TO – Cava 8"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "La Source",
+      "item": "Chardonnay",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "TO – Cava 8"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "Bentrock – Sta. Rita Hills Chardonnay",
+      "ano": "2019",
+      "qty": "5",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "TO – Cava 8"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Racines",
+      "item": "Sta. Rita Hills Cuvée Chardonnay",
+      "ano": "2020",
+      "qty": "6",
+      "posicion": "Balda 3 · Izquierda",
+      "location_group": "TO – Cava 8"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Besson Frères",
+      "item": "Pinot Noir",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "TO – Cava 7"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Seven Springs",
+      "item": "Pinot Noir",
+      "ano": "2022",
+      "qty": "5",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "TO – Cava 7"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Testa dei Cherubini Grenache",
+      "ano": "2024",
+      "qty": "1",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "TO – Cava 7"
+    },
+    {
+      "source_file": "usa_y_sudafrica_TO.pdf",
+      "producer": "Sine Qua Non",
+      "item": "Touché Syrah",
+      "ano": "2012",
+      "qty": "2",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "TO – Cava 7"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Antoine Sanzay",
+      "item": "Saumur-Champigny ‘Les Poyeux’",
+      "ano": "2022",
+      "qty": "5",
+      "posicion": "Balda 3 · Izquierda",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château des Tours",
+      "item": "Vin de Pays de Vaucluse",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château des Tours",
+      "item": "Vin de Pays de Vaucluse",
+      "ano": "2020",
+      "qty": "5",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château Rayas",
+      "item": "Châteauneuf-du-Pape",
+      "ano": "2010",
+      "qty": "1",
+      "posicion": "Balda 4 · E",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Château Rayas",
+      "item": "Châteauneuf-du-Pape",
+      "ano": "2012",
+      "qty": "1",
+      "posicion": "Balda 4 · E",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Domaine Delaporte",
+      "item": "Sancerre ‘Silex’",
+      "ano": "2022",
+      "qty": "6",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Henri Bonneau",
+      "item": "Châteauneuf-du-Pape ‘Cuvée Marie Beurrier’",
+      "ano": "2016",
+      "qty": "5",
+      "posicion": "Balda 4 · B",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Châteauneuf-du-Pape",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 4 · C",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Champin le Seigneur’",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 5 · Izquierda",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "Isabel Ferrando (Saint Préfert)",
+      "item": "Côte-Rôtie ‘Les Grandes Places’",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 4 · A",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Châteauneuf-du-Pape ‘Barbe Rac’",
+      "ano": "2008",
+      "qty": "3",
+      "posicion": "Balda 4 · D",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "resto_francia.pdf",
+      "producer": "M. Chapoutier",
+      "item": "Côte-Rôtie ‘Vieilles Vignes’",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 5 · Centro",
+      "location_group": "PA – Cava 6"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Comtes de Vogüé",
+      "item": "Chambolle-Musigny 1er Cru",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Comtes Georges de Vogüé",
+      "item": "Chambolle-Musigny 1er Cru Les Amoureuses",
+      "ano": "—",
+      "qty": "1",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Nuits-Saint-Georges 1er Cru Clos de l’Arlot",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 1 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Nuits-Saint-Georges 1er Cru Clos des Forêts Saint Georges",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 1 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 8 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. de l’Arlot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Baulet",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Baulet",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 5 · B",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Sorbè",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Lambrays",
+      "item": "Morey-Saint-Denis 1er Cru Clos Sorbè",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Bourgogne",
+      "ano": "2023",
+      "qty": "4",
+      "posicion": "Balda 7 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Nuits-Saint-Georges 1er Cru Aux Perdrix",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "DRC",
+      "item": "Vosne-Romanée 1er Cru Les Petits Monts",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 5 · E",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Gevrey-Chambertin 1er Cru Aux Combottes",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 2 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Gevrey-Chambertin 1er Cru Aux Combottes",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 3 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Fourrier",
+      "item": "Gevrey-Chambertin 1er Cru Combe Aux Moines",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 5 · A",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "G. Roumier",
+      "item": "Morey-Saint-Denis 1er Cru Clos de la Bussière",
+      "ano": "2013",
+      "qty": "2",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Henri Magnien / François Thurot",
+      "item": "Côte de Nuits (entrada tal como figura)",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Hubert Lignier",
+      "item": "Bourgogne",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Hubert Lignier",
+      "item": "Chambolle-Musigny",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 6 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Nuits-Saint-Georges ‘Les Charmois’",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Vosne-Romanée 1er Cru Les Suchots",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Bourgogne ‘Cuvée Jeunesse’",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 7 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Nuits-Saint-Georges ‘Les Fleuries’",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 6 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Vosne-Romanée 1er Cru Malconsorts",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 8 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Le Puy de l’Ours",
+      "item": "Les Follettes",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Les Terres de Philéandre",
+      "item": "Savigny-lès-Beaune 1er Cru Les Serpentières",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Lucien Muzard",
+      "item": "Santenay ‘Maladière’",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 2 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Michel Lafarge",
+      "item": "Bourgogne",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Michel Lafarge",
+      "item": "Volnay",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Vosne-Romanée 1er Cru Les Chaumes",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 8 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pernot",
+      "item": "Gevrey-Chambertin",
+      "ano": "2022",
+      "qty": "4",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Meursault",
+      "ano": "—",
+      "qty": "1",
+      "posicion": "Balda 6 · Derecha",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pierre Morey",
+      "item": "Volnay 1er Cru Pitures",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 3 · Izquierda",
+      "location_group": "PA – Cava 4"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Armand Rousseau",
+      "item": "Ruchottes-Chambertin Clos des Ruchottes (Grand Cru)",
+      "ano": "—",
+      "qty": "2",
+      "posicion": "Balda 5 · D",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Chandon de Briailles",
+      "item": "Corton Clos du Roi (Grand Cru)",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "D. L’Arlot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 6 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "de Eugénie",
+      "item": "Clos de Vougeot (Grand Cru)",
+      "ano": "2021",
+      "qty": "2",
+      "posicion": "Balda 6 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "des Perdrix",
+      "item": "Échezeaux (Grand Cru)",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 4 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "DRC",
+      "item": "Grands-Échezeaux",
+      "ano": "2019",
+      "qty": "1",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "DRC",
+      "item": "Romanée-Saint-Vivant",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 1 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Dujac",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "G. Roumier",
+      "item": "Bonnes-Mares (Grand Cru)",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Hubert Lignier",
+      "item": "Chambolle-Musigny 1er Cru Les Amoureuses",
+      "ano": "2015",
+      "qty": "1",
+      "posicion": "Balda 5 · A",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Jean Grivot",
+      "item": "Romanée-Saint-Vivant (Grand Cru)",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 6 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Louis Jadot",
+      "item": "Bonnes-Mares (Grand Cru)",
+      "ano": "2022",
+      "qty": "2",
+      "posicion": "Balda 5 · A",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Louis Jadot",
+      "item": "Échezeaux (Grand Cru)",
+      "ano": "2022",
+      "qty": "1",
+      "posicion": "Balda 5 · C",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Michel Noëllat",
+      "item": "Clos de Vougeot",
+      "ano": "2015",
+      "qty": "2",
+      "posicion": "Balda 1 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Clos de Vougeot (Grand Cru)",
+      "ano": "2023",
+      "qty": "2",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Nuits-Saint-Georges",
+      "ano": "2023",
+      "qty": "3",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Vosne-Romanée 1er Cru Les Chaumes",
+      "ano": "2023",
+      "qty": "1",
+      "posicion": "Balda 1 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Chambertin (Grand Cru)",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Chambertin Clos de Bèze (Grand Cru)",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Chapelle-Chambertin (Grand Cru)",
+      "ano": "2019",
+      "qty": "—",
+      "posicion": "Balda 3 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Charmes-Chambertin (Grand Cru)",
+      "ano": "2019",
+      "qty": "2",
+      "posicion": "Balda 3 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pacalet",
+      "item": "Morey-Saint-Denis ‘La Rue de Vergy’",
+      "ano": "2019",
+      "qty": "3",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Pierre Damoy",
+      "item": "Chambertin Clos de Bèze (Grand Cru)",
+      "ano": "2018",
+      "qty": "1",
+      "posicion": "Balda 7 · Derecha",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Vin de France",
+      "ano": "2022",
+      "qty": "3",
+      "posicion": "Balda 7 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Vosne-Romanée",
+      "ano": "2020",
+      "qty": "1",
+      "posicion": "Balda 2 · Centro",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Chambertin (Grand Cru)",
+      "ano": "2022",
+      "qty": "4",
+      "posicion": "Balda 5 · B",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano": "2021",
+      "qty": "5",
+      "posicion": "Balda 4 · Izquierda",
+      "location_group": "PA – Cava 5"
+    },
+    {
+      "source_file": "222 borgoña_tintos.pdf",
+      "producer": "Prieuré Roch",
+      "item": "Latricières-Chambertin (Grand Cru)",
+      "ano": "2022",
+      "qty": "4",
+      "posicion": "Balda 4 · Izquierda",
+      "location_group": "PA – Cava 5"
+    }
+  ]
+}

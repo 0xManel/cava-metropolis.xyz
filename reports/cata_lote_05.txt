@@ -1,0 +1,297 @@
+Nome original|Safra|Região|Uva|Preço|Notas de Cata (sommelier simples)|Card Críticos
+Recaredo Serral del Vell Brut 18-|2018|Cava|Macabeo|93€|Nariz: brioche, maçã madura, ervas secas, mineral. Boca: cremoso fino, acidez viva, bolha integrada, final longo seco. Cava clássico e elegante. Beba agora-2030. Aperitivo ou frutos do mar.|JS: N/A | WA: N/A | TA: N/A | Peñín: 94 (similar Recaredo)
+Recaredo Terrers 20-|2020|Cava|Macabeo|62€|Nariz: maçã verde, flores, mineral calcário. Boca: tenso puro, acidez alta, seco mineral. Cava terroir puro. Beba agora-2028. Peixe grelhado.|JS: N/A | WA: N/A | TA: N/A | Peñín: 92
+Recaredo Turo D'en Mota 11-|2011|Cava|Macabeo|217€|Nariz: brioche, maçã madura, mel, mineral profundo. Boca: cremoso denso, acidez viva, bolha fina, final eterno. Ícone Cava maduro. Beba agora-2035. Lagosta ou queijos.|JS: N/A | WA: N/A | TA: N/A | Peñín: 96 (similar safra)
+Torello 225 Brut 18-|2018|Cava|Macabeo|54€|Nariz: tostado, maçã, ervas. Boca: seco cremoso, acidez boa. Cava bom valor. Beba agora-2028. Aperitivo.|JS: N/A | WA: N/A | TA: N/A | Peñín: 90
+Izar Leku 19-|2019|Getariako Txakolina|Hondarribi Zuri|63€|Nariz: maçã verde, limão, sal marinho. Boca: seco tenso, acidez altíssima, salino. Txakoli clássico. Beba agora-2028. Ostras ou peixe cru.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Racines Sparkling Grand Reserve NV|NV|California|Chardonnay|139€|Nariz: maçã verde, limão, brioche sutil. Boca: cremoso fino, acidez viva, bolha integrada. Sparkling CA elegante. Beba agora-2028. Aperitivo.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+#N/D|NV|Champagne|Pinot Noir|135€|Nariz: frutas vermelhas, brioche, mineral. Boca: cremoso equilibrado, bolha fina. Champagne clássico. Beba agora-2030. Aperitivo ou salmão.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+#N/D|2005|Champagne|Pinot Noir|242€|Nariz: brioche maçã madura, mel. Boca: cremoso complexo, acidez viva. Maduro delicioso. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Agrapart 7 Crus-|NV|Champagne|Pinot Noir|119€|Nariz: maçã limão, flores. Boca: puro mineral, acidez alta. Blanc de Blancs top. Beba agora-2030. Ostras.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Andre Heucq H60 Meunier Brut Nature-|2016|Champagne|Pinot Noir|312€|Nariz: frutas vermelhas, brioche. Boca: seco tenso, mineral. Meunier puro. Beba agora-2030. Aves.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Andre Heucq Heritage Meunier Brut Nature-|NV|Champagne|Pinot Noir|90€|Nariz: morango maçã. Boca: fresco mineral. Meunier acessível. Beba agora-2028. Aperitivo.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Belle Epoque 14-|2014|Champagne|Pinot Noir|331€|Nariz: brioche, maçã, flores. Boca: cremoso elegante, bolha fina. Perrier-Jouët top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Benoit Lahaye Blanc de Noirs-|NV|Champagne|Pinot Noir|129€|Nariz: frutas vermelhas, mineral. Boca: seco tenso, puro. BdN clássico. Beba agora-2030. Peixe.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Benoit Lahaye Brut Nature-|NV|Champagne|Pinot Noir|100€|Nariz: maçã vermelha, ervas. Boca: seco mineral, acidez viva. Brut Nature top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bereche et Fils Brut Reserve-|NV|Champagne|Pinot Noir|118€|Nariz: brioche, maçã. Boca: equilibrado cremoso. Reserva clássica. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bereche et Fils Rive Gauche 21-|2021|Champagne|Pinot Noir|185€|Nariz: limão mineral. Boca: tenso puro. Rive Gauche elegante. Beba 2026-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Billecart Salmon Brut Reserve-|NV|Champagne|Pinot Noir|98€|Nariz: maçã flores, brioche sutil. Boca: cremoso fino, acidez viva. Clássico top. Beba agora-2030. Aperitivo.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Billecart Salmon Rose-|NV|Champagne|Pinot Noir|134€|Nariz: morango framboesa. Boca: fresco cremoso. Rosé elegante. Beba agora-2028. Salmão.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bollinger La Grande Annee 15-|2015|Champagne|Pinot Noir|434€|Nariz: brioche, maçã, mineral. Boca: denso cremoso, acidez viva. Vintage top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bollinger RD 08-|2008|Champagne|Pinot Noir|605€|Nariz: brioche maçã madura, mel. Boca: complexo longo. RD maduro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bollinger Special Cuvee Brut-|NV|Champagne|Pinot Noir|124€|Nariz: brioche, maçã, nozes. Boca: cremoso equilibrado. Clássico Bollinger. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Clandestin Sembables Austral 22-|2022|Champagne|Pinot Noir|132€|Nariz: maçã mineral. Boca: tenso puro. Natural elegante. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Pol Roger S Winston Churchill 13-|2013|Champagne|Pinot Noir|Doble Magnum (300cl)|3150€|Nariz: brioche maçã madura. Boca: denso cremoso longo. Magnum lendário. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dom Perignon 15-|2015|Champagne|Pinot Noir|398€|Nariz: brioche, maçã, mineral. Boca: cremoso tenso, acidez viva. Vintage top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dom Perignon P2 04-|2004|Champagne|Pinot Noir|1200€|Nariz: brioche mel maçã madura. Boca: complexo eterno. P2 maduro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dom Perignon Rose 09-|2009|Champagne|Pinot Noir|754€|Nariz: morango brioche. Boca: cremoso elegante. Rosé top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dom Ruinart Rosé 09-|2009|Champagne|Pinot Noir|651€|Nariz: framboesa brioche. Boca: cremoso longo. Rosé maduro. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doquet Le Mesnil 12-|2012|Champagne|Pinot Noir|279€|Nariz: maçã mineral. Boca: tenso puro. BdB top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Egly Ouriet Brut-|NV|Champagne|Chardonnay|186€|Nariz: maçã flores mineral. Boca: cremoso puro. Egly clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Famille Moutard Les Perrieres-|NV|Champagne|Pinot Noir|152€|Nariz: maçã limão mineral. Boca: tenso elegante. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Fleury Cuvee Robert 13-|2013|Champagne|Pinot Noir|181€|Nariz: brioche maçã. Boca: cremoso equilibrado. Vintage bom. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+George Laval Les Chenes 1C Brut Nature 20-|2020|Champagne|Pinot Noir|506€|Nariz: maçã mineral. Boca: seco puro. Natural top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+George Laval Les Hautes Chevres BdN 19-|2019|Champagne|Pinot Noir|517€|Nariz: limão flores. Boca: tenso elegante. BdN refinado. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Gosset Celebris 12 Extra Brut-|2012|Champagne|Pinot Noir|464€|Nariz: brioche maçã mineral. Boca: cremoso seco. Extra Brut top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Gosset Grand Rose-|NV|Champagne|Pinot Noir|173€|Nariz: morango brioche. Boca: cremoso elegante. Rosé clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Gosset Grande Reserve-|NV|Champagne|Pinot Noir|133€|Nariz: maçã brioche. Boca: equilibrado cremoso. Reserva top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Hure Freres Invitation-|NV|Champagne|Pinot Noir|86€|Nariz: maçã flores. Boca: fresco puro. Bom valor. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Lassaigne Colline Inspiree BdB-|NV|Champagne|Pinot Noir|245€|Nariz: limão mineral. Boca: tenso puro. BdB top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Lassaigne Vignes Montgueux BdB-|NV|Champagne|Pinot Noir|145€|Nariz: maçã flores. Boca: cremoso elegante. Montgueux clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Selosse Les Carelles-|NV|Champagne|Chardonnay|982€|Nariz: maçã mineral oxidativo. Boca: complexo puro. Selosse natural. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Selosse Millesime 12-|2012|Champagne|Chardonnay|1375€|Nariz: maçã madura mineral. Boca: denso eterno. Vintage Selosse. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Selosse Rose-|NV|Champagne|Chardonnay|1302€|Nariz: morango maçã oxidativo. Boca: complexo puro. Rosé Selosse. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Selosse V.O.-|NV|Champagne|Chardonnay|734€|Nariz: maçã mel oxidativo. Boca: denso longo. V.O. top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacquesson 747 Extra-Brut-|NV|Champagne|Pinot Noir|142€|Nariz: maçã mineral. Boca: seco tenso. Extra Brut clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jaques Selosse Substance BdB-|NV|Champagne|Chardonnay|1025€|Nariz: maçã mineral oxidativo. Boca: complexo cremoso. Substance top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Krug Grande Cuvée 172 edition|NV|Champagne|Pinot Noir|465€|Nariz: brioche maçã madura, nozes. Boca: cremoso denso, acidez viva. Ícone Krug. Beba agora-2040.|JS: N/A | WA: 97+ (similar GC) | TA: N/A | Peñín: N/A
+Krug Rose-|NV|Champagne|Pinot Noir|827€|Nariz: morango brioche. Boca: cremoso elegante. Rosé Krug. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+L Briant Blanc de Meunier 16-|2016|Champagne|Pinot Noir|270€|Nariz: frutas vermelhas mineral. Boca: tenso puro. BdM top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+L Briant Les Basses Prieres 18-|2018|Champagne|Pinot Noir|300€|Nariz: maçã mineral. Boca: cremoso elegante. Parcela top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+L Briant Les Monts Ferres 18-|2018|Champagne|Pinot Noir|362€|Nariz: limão flores. Boca: denso mineral. Parcela refinada. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+L Briant Trois Clochers 18-|2018|Champagne|Pinot Noir|310€|Nariz: maçã mineral. Boca: tenso puro. Parcela top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+L. Roederer Cristal Rose 14-|2014|Champagne|Pinot Noir|1023€|Nariz: morango brioche. Boca: cremoso denso. Cristal Rosé top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Laherte BdN Brut Nature-|NV|Champagne|Pinot Noir|93€|Nariz: maçã limão mineral. Boca: seco tenso. BdN natural. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Laherte Frères Petit Meslier-|NV|Champagne|Pinot Noir|207€|Nariz: maçã ervas. Boca: puro mineral. Variedade rara. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Laherte Frères Ultradition-|NV|Champagne|Pinot Noir|68€|Nariz: maçã flores. Boca: cremoso equilibrado. Ultradition top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Laherte Rose Meunier-|NV|Champagne|Pinot Noir|98€|Nariz: morango maçã. Boca: fresco cremoso. Rosé Meunier. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Larmandier Bernier Chemins Avize 16-|2016|Champagne|Pinot Noir|258€|Nariz: maçã mineral. Boca: tenso puro. Avize top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Larmandier Bernier VV du Levant BdB 13-|2013|Champagne|Pinot Noir|330€|Nariz: limão mineral maduro. Boca: cremoso complexo. VV maduro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Larmandier Bernier VV du Levant BdB 14-|2014|Champagne|Pinot Noir|418€|Nariz: maçã mineral. Boca: denso elegante. VV top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Larmandier-Bernier Longitude BdB-|NV|Champagne|Pinot Noir|127€|Nariz: maçã limão. Boca: puro mineral. Longitude clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Lassaigne Clos St Sophie Rose 20-|NV|Champagne|Pinot Noir|370€|Nariz: morango mineral. Boca: seco elegante. Rosé top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Lassaigne Millesime 10-|2010|Champagne|Pinot Noir|398€|Nariz: brioche maçã madura. Boca: complexo longo. Vintage maduro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Leclerc Briant Millesime 19-|2019|Champagne|Pinot Noir|171€|Nariz: maçã mineral. Boca: cremoso tenso. Vintage top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Louis Roederer Collection -|NV|Champagne|Pinot Noir|119€|Nariz: maçã brioche. Boca: equilibrado cremoso. Collection clássica. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Louis Roederer Cristal 16-|2016|Champagne|Pinot Noir|572€|Nariz: brioche maçã mineral. Boca: denso elegante. Cristal top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Pol Roger S Winston Churchill 15-|2015|Champagne|Pinot Noir|Magnum (150cl)|979€|Nariz: brioche maçã madura. Boca: denso cremoso longo. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Salon BdB 13-|2013|Champagne|Pinot Noir|Magnum (150cl)|3625€|Nariz: limão mineral maduro. Boca: cremoso eterno. Magnum ícone. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pascal Doquet Anthocyanes 1C Rose-|NV|Champagne|Pinot Noir|109€|Nariz: morango mineral. Boca: seco elegante. Rosé top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Philipponnat Clos des Goisses 15 Extra Brut-|2015|Champagne|Pinot Noir|570€|Nariz: brioche maçã mineral. Boca: denso seco. Clos top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pierre Peters Les Chetillons BdB 17 Brut-|2017|Champagne|Pinot Noir|283€|Nariz: maçã mineral. Boca: cremoso tenso. Chetillons top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pierre Peters L'Esprit GC 20-|2020|Champagne|Pinot Noir|161€|Nariz: limão maçã. Boca: puro mineral. Esprit bom. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pol Roger Brut Reserve-|NV|Champagne|Pinot Noir|120€|Nariz: maçã brioche. Boca: cremoso equilibrado. Brut clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pol Roger S Winston Churchill 15-|2015|Champagne|Pinot Noir|497€|Nariz: brioche maçã mineral. Boca: denso elegante. Vintage top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pol Roger S Winston Churchill 18-|2018|Champagne|Pinot Noir|491€|Nariz: maçã brioche. Boca: cremoso longo. Vintage recente. Beba 2026-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ruinart Blanc de Blancs-|NV|Champagne|Chardonnay|145€|Nariz: limão maçã mineral. Boca: cremoso puro. BdB clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ruinart Rose-|NV|Champagne|Pinot Noir|145€|Nariz: morango limão. Boca: fresco cremoso. Rosé elegante. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Salon Blanc de Blancs 13-|2013|Champagne|Chardonnay|1653€|Nariz: limão maçã mineral. Boca: tenso puro eterno. Ícone Salon. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Suenen C+C BdB-|NV|Champagne|Pinot Noir|173€|Nariz: maçã mineral. Boca: puro tenso. Suenen top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Taittinger Comtes de Champagne 13-|2013|Champagne|Pinot Noir|550€|Nariz: brioche maçã mineral. Boca: cremoso denso. Comtes top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Taittinger Comtes de Champagne 14-|2014|Champagne|Pinot Noir|500€|Nariz: limão tostado. Boca: elegante longo. Vintage refinado. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ulysse Collin Les Maillons 20-|2020|Champagne|Pinot Noir|309€|Nariz: maçã mineral. Boca: tenso puro. Collin top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Vouette et Sorbee Fidele BdN Brut Nature-|NV|Champagne|Pinot Noir|181€|Nariz: maçã limão mineral. Boca: seco tenso. Natural top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mestres Espumoso 2013|Cava|Macabeo|138€|Nariz: brioche maçã madura. Boca: cremoso denso. Espumoso top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jacques Selosse Espumoso 2011|Champagne|Chardonnay|1250€|Nariz: maçã mineral oxidativo. Boca: complexo eterno. Selosse espumoso. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Leclerc-Briant Espumoso 2018|Champagne|Pinot Noir|330€|Nariz: brioche maçã. Boca: cremoso tenso. Espumoso top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Arroyuelo Fino en Rama-|NV|Jerez|Palomino|47€|Nariz: maçã amêndoa, salino. Boca: seco fino, mineral. Fino en rama puro. Beba agora. Aperitivo ou jamón.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Emilio Hidalgo Amontillado Fino Tresillo-|NV|Jerez|Palomino|109€|Nariz: amêndoa maçã seca, sal. Boca: seco oxidativo, longo. Amontillado top. Beba agora-2030. Queijos ou jamón.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Emilio Hidalgo Fino La Panesa-|NV|Jerez|Palomino|62€|Nariz: maçã salina, flores. Boca: seco fino, mineral. Fino clássico. Beba agora. Aperitivo.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Emilio Hidalgo Oloroso Villapanes-|NV|Jerez|Palomino|60€|Nariz: nozes, figo seco, madeira. Boca: seco rico, longo. Oloroso top. Beba agora-2030. Queijos curados.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Emilio Hidalgo Palo Cortado M. Rodil-|NV|Jerez|Palomino|79€|Nariz: nozes caramelo seco. Boca: seco complexo, longo. Palo Cortado top. Beba agora-2030. Queijos fortes.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Riva Manzanilla Miraflores-|NV|Jerez|Palomino|37€|Nariz: maçã sal marinho, ervas. Boca: seco fino salino. Manzanilla pura. Beba agora. Mariscos.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Maruja Manzanilla en rama-|NV|Jerez|Palomino|50€|Nariz: maçã salina, flores. Boca: seco mineral puro. En rama top. Beba agora. Ostras.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Santa Petronila Amontillado-|NV|Jerez|Palomino|63€|Nariz: amêndoa maçã seca. Boca: seco oxidativo. Amontillado bom. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Santa Petronila Flor Macharnudo-|NV|Jerez|Palomino|32€|Nariz: maçã mineral. Boca: seco fino. Macharnudo puro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Tradicion Amontillado-|NV|Jerez|Palomino|109€|Nariz: nozes maçã seca. Boca: seco longo. Amontillado clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Tradicion Fino-|NV|Jerez|Palomino|60€|Nariz: maçã salina. Boca: seco fino. Fino top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Tradicion Oloroso-|NV|Jerez|Palomino|104€|Nariz: nozes figo seco. Boca: rico seco. Oloroso clássico. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Tradicion Palo Cortado 30-|NV|Jerez|Palomino|169€|Nariz: nozes caramelo seco. Boca: complexo longo. Palo Cortado top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Viña Corrales Fino Saca-|NV|Jerez|Palomino|70€|Nariz: maçã salina. Boca: seco puro. Fino top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Wellington Palo Cortado VOS-|NV|Manzanilla|Palomino|109€|Nariz: nozes maçã seca. Boca: seco oxidativo longo. VOS top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Fondillon Brotons 64-|1964|Comunidad Valenciana|Monastrell|120€|Nariz: figo seco, nozes, madeira antiga. Boca: doce seco complexo eterno. Fondillón lendário. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Recondita Armonia 1987-|1987|Comunidad Valenciana|Monastrell|145€|Nariz: figo mel madeira. Boca: doce rico eterno. Maduro top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Graham´s Tawny 10 anos-|NV|Douro|Touriga Nacional|68€|Nariz: caramelo nozes frutas secas. Boca: doce equilibrado, final longo. Tawny 10 clássico. Beba agora. Queijo ou chocolate.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Graham´s Tawny 20 anos-|NV|Douro|Touriga Nacional|139€|Nariz: caramelo figo mel. Boca: rico cremoso. Tawny 20 top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Graham´s Tawny 40 anos-|NV|Douro|Touriga Nacional|299€|Nariz: caramelo nozes madeira. Boca: doce complexo eterno. Tawny 40 lendário. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Graham's LBV 17-|NV|Douro|Touriga Nacional|37€|Nariz: frutas escuras especiarias. Boca: doce encorpado. LBV bom valor. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Niepoort 20-|NV|Douro|Touriga Nacional|150€|Nariz: caramelo figo mel. Boca: rico cremoso. Tawny 20 top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Niepoort Vintage 22-|2022|Douro|Touriga Nacional|155€|Nariz: frutas escuras chocolate. Boca: taninos firmes, doce longo. Vintage top. Beba 2030-2060.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Niepport LBV-|2020|Douro|Touriga Nacional|44€|Nariz: frutas especiarias. Boca: encorpado doce. LBV bom. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Noval Colheita 1997 Old Tawny Port-|1997|Douro|Touriga Nacional|245€|Nariz: caramelo figo madeira. Boca: doce complexo. Colheita madura. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Noval Tawny 10-|NV|Douro|Touriga Nacional|57€|Nariz: caramelo nozes. Boca: equilibrado doce. Tawny 10 clássico. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Noval Vintage Port 2008-|2008|Douro|Touriga Nacional|179€|Nariz: frutas escuras chocolate. Boca: taninos firmes doce. Vintage bom. Beba 2028-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Quinta da Corte Tawny 20 anos-|NV|Douro|Touriga Nacional|92€|Nariz: caramelo figo. Boca: rico cremoso. Tawny 20 top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Quinta das Carvalhas 07-|2007|Douro|Touriga Nacional|94€|Nariz: frutas secas especiarias. Boca: doce encorpado. Vintage bom. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Quinta do Infantado Tawny 10 Years Old-|NV|Douro|Touriga Nacional|62€|Nariz: caramelo nozes. Boca: equilibrado doce. Tawny bom. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Van Zellers 30-|NV|Douro|Touriga Nacional|151€|Nariz: caramelo figo madeira. Boca: doce complexo eterno. Tawny 30 top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Van Zellers Porto Tawny 10-|NV|Douro|Touriga Nacional|57€|Nariz: caramelo nozes. Boca: doce equilibrado. Tawny 10 clássico. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Abadía Retuerta Clarete 21-|2021|Ribera del Duero|Tempranillo|79€|Nariz: morango cereja, ervas. Boca: fresco leve, acidez viva. Clarete elegante. Beba agora-2028. Saladas ou peixe.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio del Aguila Peñas Aladas clarete 20-|2020|Ribera del Duero|Tempranillo|386€|Nariz: frutas vermelhas flores. Boca: puro mineral. Clarete top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Le Rose Antidoto 23-|2023|Ribera del Duero|Tempranillo|114€|Nariz: morango ervas. Boca: fresco leve. Rosé top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Palito V Clarete 24-|2024|Ribera del Duero|Tempranillo|30€|Nariz: cereja morango. Boca: vibrante fresco. Clarete jovem. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Picaro del Aguila Clarete RO 23-|2023|Ribera del Duero|Tempranillo|76€|Nariz: frutas vermelhas flores. Boca: puro fresco. Clarete elegante. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Territorio Luthier Clarete 2020-|2020|Ribera del Duero|Tempranillo|62€|Nariz: morango ervas. Boca: fresco mineral. Clarete top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dido La solucio rosa 23-|2023|Montsant|Garnacha|44€|Nariz: morango flores. Boca: fresco leve. Rosé puro. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alba Rose 24-|2024|Baleares|Callet|44€|Nariz: morango cereja. Boca: fresco mineral. Rosé Baleares. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Chivite 125 Ros. 23-|2023|Navarra|Garnacha|64€|Nariz: morango flores. Boca: cremoso fresco. Rosé top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Unzu de Julian Chivite 24-|2024|Navarra|Garnacha|32€|Nariz: cereja morango. Boca: leve fresco. Rosé bom valor. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Flor de Muga Rosado 24-|2024|Rioja|Garnacha|67€|Nariz: morango flores. Boca: cremoso elegante. Rosé Rioja top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Marques de Murrieta Ros 23-|2023|Rioja|Garnacha|70€|Nariz: morango cereja. Boca: fresco equilibrado. Rosé clássico. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Oxer B Otto 24-|2024|Rioja|Garnacha|79€|Nariz: frutas vermelhas ervas. Boca: puro fresco. Rosé top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Sierra Cantabria XF Rosado 24-|2024|Rioja|Garnacha|41€|Nariz: morango flores. Boca: leve mineral. Rosé bom valor. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+G Bertrand Clos du Temple 23-|2023|Languedoc-Roussillon|Garnacha|397€|Nariz: morango flores mineral. Boca: cremoso elegante. Rosé top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Source of Joy 24-|2024|Languedoc-Roussillon|Garnacha|42€|Nariz: cereja morango. Boca: fresco puro. Rosé bom. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ch. Esclans Garrus 21-|2021|Provenza|Garnacha|196€|Nariz: morango flores. Boca: cremoso mineral. Garrus top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ch. Esclans Provence Whispering Angel 24-|2024|Provenza|Garnacha|52€|Nariz: morango limão. Boca: fresco leve. Rosé clássico. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ch. Romassan Bandol Rosé 23-|2023|Provenza|Mourvèdre|97€|Nariz: morango ervas. Boca: denso mineral. Bandol top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Chateau Peyrassol RO 24-|2024|Provenza|Garnacha|52€|Nariz: morango flores. Boca: fresco elegante. Provenza puro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Domaine Tempier Bandol Rose 24-|2024|Provenza|Mourvèdre|58€|Nariz: morango ervas mineral. Boca: denso fresco. Tempier top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Miraval Provence-|2024|Provenza|Cinsault|52€|Nariz: morango limão. Boca: leve fresco. Miraval clássico. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ott Ch de Selle Provence Rose 24-|2024|Provenza|Garnacha|85€|Nariz: morango flores. Boca: cremoso mineral. Ott top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Pibarnon Bandol RO 2024-|2024|Provenza|Mourvèdre|58€|Nariz: morango ervas. Boca: denso elegante. Bandol puro. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Calafuria 23-|2023|Puglia|Negroamaro|48€|Nariz: morango cereja. Boca: fresco leve. Rosé Puglia. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Domino del Águila Rosado 2020-|2020|Ribera del Duero|Tempranillo|386€|Nariz: morango ervas. Boca: fresco mineral. Clarete top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Twardowski Ardoise 21-|2021|Mosela|Pinot Noir|209€|Nariz: morango cereja mineral. Boca: leve tenso. Pinot Noir alemão. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bira Rosso D´Uco 23-|2023|Mendoza|Malbec|42€|Nariz: frutas vermelhas especiarias. Boca: fresco leve. Rosé Malbec. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bressia Conjuro 16-|2016|Mendoza|Cabernet Sauvignon|145€|Nariz: cassis ervas. Boca: denso complexo. Maduro top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Catena Zapata Nicasia 22-|2022|Mendoza|Malbec|176€|Nariz: frutas escuras violetas. Boca: denso mineral. Malbec top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+El Enemigo Cabernet Franc 21-|2021|Mendoza|Cabernet Franc|59€|Nariz: pimentão frutas vermelhas. Boca: fresco mineral. CF top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Gran Enemigo Gualtallary 20-|2020|Mendoza|Cabernet Franc|258€|Nariz: cassis ervas mineral. Boca: denso elegante. Ícone. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Per Se Inseparable 22-|2022|Mendoza|Malbec|104€|Nariz: frutas escuras violetas. Boca: cremoso mineral. Malbec top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Per Se Lubileus 22-|2022|Mendoza|Malbec|506€|Nariz: cassis mineral. Boca: denso complexo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Perse La Craie 22-|2022|Mendoza|Chardonnay|549€|Nariz: limão maçã mineral. Boca: cremoso tenso. Branco top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+PerSe Volare Del Camino 22-|2022|Mendoza|Malbec|338€|Nariz: frutas escuras violetas. Boca: denso mineral. Malbec top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Riccitelli C Franc Montaña 21-|2021|Mendoza|Cabernet Franc|82€|Nariz: pimentão frutas vermelhas. Boca: fresco elegante. CF top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Vuelo Andino Blend Alado 20-|2020|Mendoza|Malbec|71€|Nariz: frutas escuras especiarias. Boca: equilibrado mineral. Blend top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Y La Nave Va 20-|2020|Mendoza|Malbec|76€|Nariz: cassis violetas. Boca: denso fresco. Malbec top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Zuccardi Concreto 23-|2023|Mendoza|Malbec|105€|Nariz: frutas escuras mineral. Boca: puro tenso. Concreto top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Zuccardi Las Cerrilladas Malbec 19-|2019|Mendoza|Malbec|255€|Nariz: cassis violetas mineral. Boca: denso complexo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Zuccardi Piedra Infinita 19-|2019|Mendoza|Malbec|310€|Nariz: frutas escuras mineral calcário. Boca: tenso elegante. Ícone. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Zuccardi Piedra Infinita Gravascal 19-|2019|Mendoza|Malbec|501€|Nariz: cassis mineral. Boca: denso puro. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Zuccardi Piedra Infinita Supercal 20-|2020|Mendoza|Malbec|640€|Nariz: frutas escuras calcário. Boca: tenso mineral. Ícone. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Zuccardi Poligonos S Pablo 22-|2022|Mendoza|Malbec|65€|Nariz: cassis violetas. Boca: fresco mineral. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+A Lisa 24-|2024|Patagonia|Malbec|55€|Nariz: frutas vermelhas ervas. Boca: fresco leve. Malbec Patagonia. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Riccitelli Patagonia Malbec 22-|2022|Patagonia|Malbec|104€|Nariz: cassis mineral. Boca: denso elegante. Patagonia top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+John Duval Entity 21-|2021|South Australia|Shiraz|96€|Nariz: frutas escuras especiarias. Boca: denso cremoso. Shiraz top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds Bin 180 Cab Shiraz 21-|2021|South Australia|Cabernet Sauvignon|1360€|Nariz: cassis chocolate. Boca: denso mineral. Blend top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds Bin 707 22-|2022|South Australia|Cabernet Sauvignon|859€|Nariz: cassis ervas. Boca: taninos firmes longo. Cab top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds Bin 707 Cabernet 18-|2018|South Australia|Cabernet Sauvignon|820€|Nariz: cassis mineral. Boca: denso complexo. Maduro top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds Grange 18-|2018|South Australia|Shiraz|1300€|Nariz: frutas escuras especiarias. Boca: denso cremoso eterno. Ícone Grange. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds RWT Bin 798 22-|2022|South Australia|Shiraz|248€|Nariz: frutas escuras carvalho. Boca: cremoso mineral. RWT top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds St Henri 21-|2021|South Australia|Shiraz|184€|Nariz: frutas escuras ervas. Boca: puro taninos suaves. St Henri clássico. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Penfolds Superblend B 18-|2018|South Australia|Garnacha|1080€|Nariz: frutas vermelhas especiarias. Boca: denso elegante. Superblend top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+The Standish The Relic 22-|2022|South Australia|Shiraz|446€|Nariz: frutas escuras mineral. Boca: denso puro. Shiraz top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+The Standish The Schubert Theorem 21-|2021|South Australia|Shiraz|446€|Nariz: especiarias frutas escuras. Boca: cremoso mineral. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+The Standish The Standish 22-|2022|South Australia|Shiraz|370€|Nariz: frutas escuras carvalho. Boca: denso elegante. Ícone. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Timo Mayer Bloody Hill 23-|2023|South Australia|Syrah|80€|Nariz: frutas escuras pimenta. Boca: fresco mineral. Syrah top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Timo Mayer Close Planted 23-|2023|South Australia|Pinot Noir|157€|Nariz: morango ervas. Boca: leve tenso. Pinot top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Timo Mayer The Doktor 23-|2023|South Australia|Pinot Noir|150€|Nariz: cereja mineral. Boca: puro elegante. Pinot top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Torbreck Runrig 20-|2020|South Australia|Shiraz|472€|Nariz: frutas escuras especiarias. Boca: denso cremoso. Runrig top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Torbreck Runrig 21-|2021|South Australia|Shiraz|465€|Nariz: cassis pimenta. Boca: taninos firmes longo. Top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Torbreck The Laird 18-|2018|South Australia|Shiraz|1228€|Nariz: frutas escuras chocolate. Boca: denso eterno. Ícone Laird. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Torbreck The Struie 23-|2023|South Australia|Shiraz|112€|Nariz: frutas escuras ervas. Boca: fresco denso. Bom valor. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bass Phillip Estate Pinot Noir 21-|2021|Victoria|Pinot Noir|81€|Nariz: morango cereja mineral. Boca: leve tenso. Pinot AU top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Almaviva 20-|2020|Valle Central|Cabernet Sauvignon|345€|Nariz: cassis ervas. Boca: denso taninos firmes. Blend top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Almaviva 21-|2021|Valle Central|Cabernet Sauvignon|375€|Nariz: cassis chocolate. Boca: cremoso elegante. Top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alas de Frontonio La Tejera 22-|2022|Aragón|Garnacha|138€|Nariz: frutas vermelhas ervas. Boca: puro mineral. Garnacha top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+El Jardín de las Iguales|2022|Aragón|Garnacha|304€|Nariz: morango flores. Boca: denso elegante. Garnacha pura. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Frontonio Telescópico 22-|2022|Aragón|Garnacha|44€|Nariz: frutas vermelhas especiarias. Boca: fresco mineral. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Psicodelico 22-|2022|Aragón|Garnacha|91€|Nariz: morango ervas. Boca: denso puro. Garnacha top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+4 kilos 23-|2023|Baleares|Callet|87€|Nariz: frutas vermelhas ervas. Boca: fresco mineral. Callet top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Son Agulló 22-|2022|Baleares|Callet|92€|Nariz: morango flores. Boca: leve tenso. Baleares puro. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+3/8 Alabaster 23-|2023|Toro|Tinta de Toro|162€|Nariz: frutas escuras especiarias. Boca: denso mineral. Toro top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+A Retuerta Cuvée Palomar 21-|2021|Ribera del Duero|Tempranillo|81€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Blend top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+A Retuerta Pago Garduña 20-|2020|Ribera del Duero|Tempranillo|171€|Nariz: frutas escuras mineral. Boca: denso elegante. Pago top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+A Retuerta Pago Valdebellón 20-|2020|Castilla y León|Cabernet Sauvignon|150€|Nariz: cassis ervas. Boca: taninos firmes. Cab top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+A Retuerta Petit Verdot 20-|2020|Castilla y León|Petit Verdot|215€|Nariz: cassis violeta. Boca: denso especiado. PV top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Abadia Retuerta Sel Especial 21-|2020|Ribera del Duero|Tempranillo|36€|Nariz: frutas escuras ervas. Boca: cremoso equilibrado. Especial bom. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Abadia Retuerta Seleccion Especial-|2020|Ribera del Duero|Tempranillo|52€|Nariz: cassis mineral. Boca: denso elegante. Selección top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alabaster-|2022|Toro|Tinta de Toro|319€|Nariz: frutas escuras especiarias. Boca: denso mineral. Toro top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alabaster 22-|2022|Toro|Tinta de Toro|290€|Nariz: cassis pimenta. Boca: taninos firmes longo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alion 21-|2021|Ribera del Duero|Tempranillo|140€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Vega Sicilia top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alonso del Yerro 20-|2020|Ribera del Duero|Tempranillo|43€|Nariz: frutas vermelhas ervas. Boca: fresco equilibrado. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Alvar de Dios Aciano 21-|2021|Toro|Tinta de Toro|35€|Nariz: frutas escuras mineral. Boca: puro taninos suaves. Bom valor Toro. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Arrocal Casablanca 23-|2023|Ribera del Duero|Tempranillo|85€|Nariz: cassis ervas. Boca: denso elegante. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Arrocal Paraje Colmenares 23-|2023|Ribera del Duero|Tempranillo|48€|Nariz: frutas escuras mineral. Boca: puro fresco. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Aurelio Garcia La Guia 22-|2022|Ribera del Duero|Tempranillo|150€|Nariz: cassis violetas. Boca: denso mineral. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Ausas Interpretacion 22-|2022|Ribera del Duero|Tempranillo|93€|Nariz: frutas escuras ervas. Boca: cremoso taninos firmes. Interpretacion top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bendito Destino Camino Destino 24-|2024|Ribera del Duero|Tempranillo|53€|Nariz: frutas vermelhas ervas. Boca: fresco mineral. Jovem top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bendito Destino Hontanares 23-|2023|Ribera del Duero|Tempranillo|265€|Nariz: cassis mineral. Boca: denso elegante. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bosque de Matasnos Ed Limitada 19-|2019|Ribera del Duero|Tempranillo|74€|Nariz: frutas escuras especiarias. Boca: denso complexo. Edición top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Bosque Matasnos Et Blanca 22-|2022|Ribera del Duero|Tempranillo|59€|Nariz: frutas vermelhas ervas. Boca: fresco leve. Blanca top. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Canta La Perdiz 18-|2018|Ribera del Duero|Tempranillo|687€|Nariz: cassis ervas. Boca: denso mineral. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Canta La Perdiz 19-|2019|Ribera del Duero|Tempranillo|620€|Nariz: frutas escuras mineral. Boca: cremoso longo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Carmelo Rodero TSM 21-|2021|Ribera del Duero|Tempranillo|152€|Nariz: cassis violetas. Boca: denso elegante. TSM top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Casa Lebai Matadiablos 22-|2022|Ribera del Duero|Tempranillo|62€|Nariz: frutas vermelhas ervas. Boca: fresco mineral. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Cepa 21 22-|2022|Ribera del Duero|Tempranillo|48€|Nariz: cassis ervas. Boca: puro taninos suaves. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Cepa 21 Malabrigo 22-|2022|Ribera del Duero|Tempranillo|72€|Nariz: frutas escuras mineral. Boca: denso elegante. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Cesar Marquez Sufreiral 23-|2023|Bierzo|Mencía|83€|Nariz: frutas vermelhas ervas. Boca: fresco mineral. Mencía top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Cesar Marquez Valtuille 23-|2023|Bierzo|Mencía|37€|Nariz: cereja flores. Boca: leve puro. Bom valor. Beba agora-2028.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Conde San Cristobal 22-|2022|Ribera del Duero|Tempranillo|41€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Corimbo 22-|2022|Ribera del Duero|Tempranillo|41€|Nariz: frutas escuras especiarias. Boca: denso equilibrado. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Corimbo I 18-|2018|Ribera del Duero|Tempranillo|67€|Nariz: cassis mineral. Boca: cremoso complexo. Maduro top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Corullon 22-|2022|Bierzo|Mencía|85€|Nariz: frutas vermelhas flores. Boca: puro mineral. Corullon top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Corullon 23-|2023|Bierzo|Mencía|90€|Nariz: cereja ervas. Boca: tenso elegante. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Cuesta de las Liebres 20-|2020|Ribera del Duero|Tempranillo|403€|Nariz: cassis mineral. Boca: denso longo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Cuesta Las Liebres 19-|2019|Ribera del Duero|Tempranillo|408€|Nariz: frutas escuras ervas. Boca: cremoso taninos firmes. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Alabaster 22-|2022|Toro|Tinta de Toro|Doble Magnum (300cl)|1287€|Nariz: frutas escuras especiarias. Boca: denso mineral eterno. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Alion 20-|2020|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|591€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Corullon 22-|2022|Bierzo|Mencía|Doble Magnum (300cl)|398€|Nariz: frutas vermelhas mineral. Boca: puro denso. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Dominio de Es 22-|2022|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|610€|Nariz: cassis mineral. Boca: denso elegante. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg La Faraona 22-|2022|Bierzo|Mencía|Doble Magnum (300cl)|9569€|Nariz: frutas vermelhas ervas mineral. Boca: denso puro eterno. Magnum ícone. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Las Lamas 22-|2022|Bierzo|Mencía|Doble Magnum (300cl)|951€|Nariz: frutas vermelhas mineral. Boca: cremoso longo. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Valbuena 5º año 19-|2019|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|2015€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Vega Sicilia Unico 11-|2011|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|5063€|Nariz: cassis mineral maduro. Boca: denso eterno. Magnum lendário. Beba agora-2060.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg Victorino 22-|2022|Toro|Tinta de Toro|Doble Magnum (300cl)|342€|Nariz: frutas escuras especiarias. Boca: denso mineral. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Doble Mg. Alion 19-|2019|Ribera del Duero|Tempranillo|Doble Magnum (300cl)|723€|Nariz: cassis ervas maduro. Boca: cremoso longo. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio Aguila BL-|2020|Ribera del Duero|Tempranillo|198€|Nariz: cassis mineral. Boca: denso elegante. Blanco top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Anza El Rapolao 24-|2024|Bierzo|Mencía|105€|Nariz: frutas vermelhas ervas. Boca: puro mineral. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Anza Parcelas 23-|2023|Bierzo|Mencía|48€|Nariz: cereja flores. Boca: fresco mineral. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Anza Parcelas 24-|2024|Bierzo|Mencía|44€|Nariz: frutas vermelhas mineral. Boca: tenso puro. Jovem top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Anza Valdehorta 24-|2024|Bierzo|Mencía|126€|Nariz: cereja ervas. Boca: denso elegante. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio De Calogia 21-|2021|Ribera del Duero|Tempranillo|119€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Calogía Cuvée S 20-|2020|Ribera del Duero|Tempranillo|238€|Nariz: frutas escuras mineral. Boca: denso complexo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Calogía Doble M 20-|2020|Ribera del Duero|Tempranillo|58€|Nariz: cassis mineral. Boca: cremoso elegante. Bom valor. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de de Es La Mata 22-|2022|Ribera del Duero|Tempranillo|710€|Nariz: cassis ervas mineral. Boca: denso puro. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Es Carravilla 22-|2022|Ribera del Duero|Tempranillo|591€|Nariz: frutas escuras mineral. Boca: cremoso longo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio de Es La Diva 22-|2022|Ribera del Duero|Tempranillo|1364€|Nariz: cassis violetas. Boca: denso elegante. Ícone. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio del Soto Camino Gumiel 21-|2021|Ribera del Duero|Tempranillo|67€|Nariz: frutas vermelhas ervas. Boca: fresco mineral. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Dominio del Soto Cr. 20-|2020|Ribera del Duero|Tempranillo|37€|Nariz: cassis ervas. Boca: puro taninos suaves. Bom valor. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Domino Aguila Rva 20-|2020|Ribera del Duero|Tempranillo|180€|Nariz: cassis mineral. Boca: denso complexo. Reserva top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Domino Atauta 21-|2021|Ribera del Duero|Tempranillo|89€|Nariz: frutas escuras ervas. Boca: cremoso elegante. Atauta top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+El Picon de Barroso 21-|2021|Ribera del Duero|Tempranillo|185€|Nariz: cassis mineral. Boca: denso puro. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Figuero Viñas Viejas 23-|2023|Ribera del Duero|Tempranillo|60€|Nariz: frutas escuras violetas. Boca: cremoso mineral. Viejas top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Finca Villacreces 20-|2020|Ribera del Duero|Tempranillo|63€|Nariz: cassis ervas. Boca: denso equilibrado. Bom valor. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Flor De Pingus 11-|2011|Ribera del Duero|Tempranillo|568€|Nariz: cassis mineral maduro. Boca: denso complexo. Maduro top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Flor De Pingus 12-|2012|Ribera del Duero|Tempranillo|527€|Nariz: frutas escuras ervas. Boca: cremoso longo. Maduro top. Beba agora.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Flor De Pingus 16-|2016|Ribera del Duero|Tempranillo|486€|Nariz: cassis violetas. Boca: denso elegante. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Flor de Pingus 22-|2022|Ribera del Duero|Tempranillo|274€|Nariz: frutas escuras mineral. Boca: cremoso taninos suaves. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Garmon 21-|2021|Ribera del Duero|Tempranillo|74€|Nariz: cassis ervas. Boca: denso cremoso. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Hacienda Monasterio Rva 20-|2020|Ribera del Duero|Tempranillo|145€|Nariz: cassis mineral. Boca: cremoso taninos firmes. Reserva top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Hispania Territorio Luthier TO 21-|2021|Ribera del Duero|Tempranillo|62€|Nariz: frutas escuras ervas. Boca: puro mineral. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Jeroboam Corullon 5L 22-|2022|Bierzo|Mencía|Jeroboam (500cl)|460€|Nariz: frutas vermelhas mineral. Boca: denso puro eterno. Jeroboam top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Diva 20-|2020|Ribera del Duero|Tempranillo|1033€|Nariz: cassis violetas mineral. Boca: denso elegante. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Diva 21-|2021|Ribera del Duero|Tempranillo|1452€|Nariz: frutas escuras ervas. Boca: cremoso longo. Top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Faraona 16-|2016|Bierzo|Mencía|1819€|Nariz: frutas vermelhas mineral. Boca: denso puro. Ícone. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Faraona 18-|2018|Bierzo|Mencía|2687€|Nariz: cassis ervas. Boca: cremoso complexo. Top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Faraona 22-|2022|Bierzo|Mencía|2170€|Nariz: frutas vermelhas mineral. Boca: denso elegante. Ícone. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Faraona 23-|2023|Bierzo|Mencía|2552€|Nariz: cereja ervas. Boca: tenso puro. Jovem ícone. Beba 2027-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Fortuna 22-|2022|Ribera del Duero|Tempranillo|49€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Bom valor. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Galbana 20-|2020|Bierzo|Mencía|70€|Nariz: frutas vermelhas flores. Boca: puro mineral. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Mata-|2022|Ribera del Duero|Tempranillo|781€|Nariz: cassis mineral. Boca: denso elegante. Top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Mata 21-|2021|Ribera del Duero|Tempranillo|734€|Nariz: frutas escuras ervas. Boca: cremoso longo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+La Vizcaína El Rapolao 23-|2023|Bierzo|Mencía|48€|Nariz: cereja flores. Boca: fresco mineral. Top. Beba agora-2030.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Las Lamas-|2022|Bierzo|Mencía|176€|Nariz: frutas vermelhas mineral. Boca: denso puro. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Las Lamas 20-|2020|Bierzo|Mencía|210€|Nariz: cassis ervas. Boca: cremoso complexo. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Las Lamas 21-|2021|Bierzo|Mencía|262€|Nariz: frutas vermelhas mineral. Boca: denso elegante. Top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Las Lamas 22-|2022|Bierzo|Mencía|160€|Nariz: cereja ervas. Boca: puro tenso. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Malleolus Valderramiro 20-|2020|Ribera del Duero|Tempranillo|214€|Nariz: cassis violetas. Boca: denso cremoso. Top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Maria Alonso del Yerro 21-|2021|Ribera del Duero|Tempranillo|109€|Nariz: frutas escuras ervas. Boca: cremoso elegante. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Massuria 20-|2020|Bierzo|Mencía|60€|Nariz: cereja flores. Boca: puro mineral. Top. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mauro 23-|2023|Castilla y León|Tempranillo|73€|Nariz: cassis ervas. Boca: cremoso taninos suaves. Mauro clássico. Beba agora-2035.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mauro VS 22-|2022|Castilla y León|Tempranillo|157€|Nariz: frutas escuras mineral. Boca: denso complexo. VS top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Aalto PS 13-|2013|Ribera del Duero|Tempranillo|Magnum (150cl)|934€|Nariz: cassis mineral maduro. Boca: denso eterno. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Alabaster 22-|2022|Toro|Tinta de Toro|Magnum (150cl)|692€|Nariz: frutas escuras especiarias. Boca: denso mineral eterno. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Alion 20-|2020|Ribera del Duero|Tempranillo|Magnum (150cl)|336€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Cartago 19-|2019|Castilla y León|Tempranillo|Magnum (150cl)|362€|Nariz: cassis mineral. Boca: denso elegante. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Cuesta Las Liebres 18-|2018|Ribera del Duero|Tempranillo|Magnum (150cl)|723€|Nariz: cassis ervas maduro. Boca: cremoso complexo. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Dominio de de Es La Mata 22-|2022|Ribera del Duero|Tempranillo|Magnum (150cl)|1523€|Nariz: cassis mineral. Boca: denso puro eterno. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Dominio de Es 21-|2021|Ribera del Duero|Tempranillo|Magnum (150cl)|305€|Nariz: frutas escuras ervas. Boca: cremoso longo. Magnum top. Beba agora-2040.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Dominio de Es 22-|2022|Ribera del Duero|Tempranillo|Magnum (150cl)|300€|Nariz: cassis mineral. Boca: denso elegante. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Dominio de Es Carravilla 22-|2022|Ribera del Duero|Tempranillo|Magnum (150cl)|1182€|Nariz: frutas escuras mineral. Boca: cremoso complexo. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Dominio de Es La Diva 22-|2022|Ribera del Duero|Tempranillo|Magnum (150cl)|2728€|Nariz: cassis violetas. Boca: denso elegante eterno. Magnum ícone. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg La Faraona 22-|2022|Bierzo|Mencía|Magnum (150cl)|4753€|Nariz: frutas vermelhas mineral. Boca: denso puro eterno. Magnum ícone. Beba agora-2050.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg La Mata 21-|2021|Ribera del Duero|Tempranillo|Magnum (150cl)|1953€|Nariz: cassis ervas. Boca: cremoso longo. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Las Lamas 21-|2021|Bierzo|Mencía|Magnum (150cl)|465€|Nariz: frutas vermelhas mineral. Boca: denso elegante. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A
+Mg Las Lamas 22-|2022|Bierzo|Mencía|Magnum (150cl)|455€|Nariz: cereja ervas. Boca: puro tenso. Magnum top. Beba agora-2045.|JS: N/A | WA: N/A | TA: N/A | Peñín: N/A

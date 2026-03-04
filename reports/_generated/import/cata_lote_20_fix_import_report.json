@@ -1,0 +1,13 @@
+{
+  "input_file": "reports/cata_lote_20_fix.txt",
+  "catalog_file": "/Users/0xmanel/cava-metropolis/data/bodega_webapp.json",
+  "rows_input": 2,
+  "matched": 2,
+  "updated": 2,
+  "unmatched": 0,
+  "touched_pods_count": 2,
+  "touched_pods_preview": [
+    "POD019754",
+    "POD_TEMP_BM2_0041"
+  ]
+}

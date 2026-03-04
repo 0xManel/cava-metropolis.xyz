@@ -1,0 +1,130 @@
+Total unique grapes: 128
+
+Airén | 1
+Albariño | 36
+Albillo Mayor | 21
+Antão Vaz | 3
+Aragonez | 1
+Arinto | 5
+Arinto dos Açores | 2
+Arneis | 2
+Baga | 3
+Barbera | 9
+Biancolella | 1
+Bical | 2
+Bobal | 4
+Bourboulenc | 2
+Brancellao | 11
+Cabernet Franc | 337
+Cabernet Sauvignon | 318
+Caiño Blanco | 4
+Caiño Tinto | 2
+Callet | 4
+Canaiolo | 2
+Cariñena | 55
+Carménère | 2
+Carricante | 4
+Chardonnay | 323
+Chenin Blanc | 11
+Cinsault | 13
+Clairette | 4
+Colorino | 1
+Cortese | 1
+Corvina | 6
+Diego | 1
+Doña Blanca | 5
+Espadeiro | 1
+Falanghina | 1
+Fiano | 2
+Fogoneu | 2
+Frappato | 1
+Furmint | 16
+Gamay | 4
+Garganega | 2
+Garnacha | 312
+Garnacha Blanca | 25
+Garnacha Tintorera | 3
+Godello | 34
+Gouveio | 1
+Graciano | 164
+Grechetto | 1
+Greco | 1
+Grillo | 1
+Hondarribi Zuri | 3
+Hárslevelű | 16
+Kerner | 1
+Listán Blanco | 9
+Loureiro | 3
+Macabeo | 36
+Malbec | 21
+Malvasia Riojana | 1
+Malvasía | 10
+Mandó | 1
+Mantonegro | 4
+Maria Gomes | 1
+Marmajuelo | 6
+Marsanne | 6
+Mazuelo | 5
+Melon de Bourgogne | 1
+Mencía | 56
+Merenzao | 2
+Merlot | 325
+Merseguera | 4
+Molinara | 6
+Monastrell | 11
+Moscatel | 3
+Moscatel de Alejandría | 1
+Mourvèdre | 30
+Muscadelle | 9
+Nascetta | 1
+Nebbiolo | 47
+Negroamaro | 1
+Nerello Mascalese | 7
+Nero d'Avola | 1
+Palomino | 17
+Parellada | 23
+Pedro Ximénez | 8
+Petit Verdot | 16
+Pinot Grigio | 1
+Pinot Meunier | 76
+Pinot Noir | 353
+Pinotage | 2
+Ploussard | 1
+Poulsard | 2
+Prensal | 1
+Rabigato | 1
+Ribolla Gialla | 1
+Riesling | 23
+Rolle | 2
+Rondinella | 6
+Roussanne | 6
+Sangiovese | 21
+Sangiovese Grosso | 2
+Sauvignon Blanc | 51
+Savagnin | 7
+Shiraz | 15
+Syrah | 101
+Sárga Muskotály | 13
+Sémillon | 18
+Tempranillo | 306
+Tempranillo Blanco | 1
+Tibouren | 1
+Timorasso | 1
+Tinta Amarela | 3
+Tinta Barroca | 3
+Tinta de Toro | 16
+Torrontés | 7
+Touriga Franca | 23
+Touriga Nacional | 46
+Trebbiano | 2
+Treixadura | 11
+Trincadeira | 1
+Verdejo | 28
+Verdelho | 2
+Vermentino | 3
+Vernaccia | 2
+Vijariego Blanco | 2
+Viognier | 19
+Viosinho | 1
+Viura | 22
+Xarel·lo | 25

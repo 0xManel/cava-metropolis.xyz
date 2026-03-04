@@ -1,0 +1,300 @@
+Robert Weil Kiedrich Spätlese 19-|Hesse|Riesling|Botella (75cl)|2019|105€|POD016918|—
+Basserman Jordan Pfalz Forster 17-|Renania-Palatinado|Riesling|Botella (75cl)|2017|50€|POD012415|—
+Basserman Jordan Pfalz Ziegler 17-|Renania-Palatinado|Riesling|Botella (75cl)|2017|45€|POD012420|—
+Battenfeld Spanier Eisquell 24-|Renania-Palatinado|Riesling|Botella (75cl)|2024|33€|POD019397|—
+Battenfeld Spanier Molsheim 20-|Renania-Palatinado|Riesling|Botella (75cl)|2020|54€|POD019396|—
+Christmann Pfalz Konigsbach 16-|Renania-Palatinado|Riesling|Botella (75cl)|2016|42€|POD012417|—
+Donnhoff Nahe Kahlenberg 18-|Renania-Palatinado|Riesling|Botella (75cl)|2018|61€|POD012421|—
+Egon Müller Scharz. Kabinett 22-|Renania-Palatinado|Riesling|Botella (75cl)|2022|320€|POD014041|—
+Grans Fassian Laurentiuslay 14-|Renania-Palatinado|Riesling|Botella (75cl)|2014|85€|POD020054|—
+Heymann-Löwenstein Schieferterrassen 19-|Renania-Palatinado|Riesling|Botella (75cl)|2019|68€|POD019791|—
+Kuhling Gillot Hipping 20-|Renania-Palatinado|Riesling|Botella (75cl)|2020|144€|POD008938|—
+Kühling Gillot Oppenheim 20-|Renania-Palatinado|Riesling|Botella (75cl)|2020|54€|POD019653|—
+Matthias Knebel Rotten GG 22-|Renania-Palatinado|Riesling|Botella (75cl)|2022|114€|POD016985|—
+Odinstal Muschelkalk 22-|Renania-Palatinado|Riesling|Botella (75cl)|2022|118€|POD018726|—
+Peter Jacob Khun Rheingau Quarzit 20-|Renania-Palatinado|Riesling|Botella (75cl)|2020|52€|POD012418|—
+Escala Humana Credo 22-|Mendoza|Chardonnay|Botella (75cl)|2022|126€|POD019649|—
+Lagrima Canela 20-|Mendoza|Torrontés|Botella (75cl)|2020|70€|POD019796|—
+Michelini Montesco Agua Roca 23-|Mendoza|Chardonnay|Botella (75cl)|2023|72€|POD018152|—
+Zuccardi Fosil Chardonnay 22-|Mendoza|Chardonnay|Botella (75cl)|2022|165€|POD011159|—
+Riccitelli Patagon Semillon 24-|Patagonia|Sémillon|Botella (75cl)|2024|106€|POD018545|—
+Penfolds Yattarna 22-|South Australia|Chardonnay|Botella (75cl)|2022|270€|POD012449|—
+Tara Sauvignon Blanc 22-|Atacama|Sauvignon Blanc|Botella (75cl)|2022|91€|POD018204|—
+Baettig Los Parientes 23-|Traiguén|Riesling|Botella (75cl)|2023|94€|POD019731|—
+Atlántida Blanco 19-|Jerez|Palomino|Botella (75cl)|2019|48€|POD008709|—
+Socaire BL 23-|Jerez|Palomino|Botella (75cl)|2023|37€|POD018965|—
+El Jardin de las Iguales BL 21-|Aragón|Garnacha Blanca|Botella (75cl)|2021|279€|POD017594|—
+Elastico 22-|Aragón|Garnacha Blanca|Botella (75cl)|2022|80€|POD019621|—
+Fábregas Garnacha BL 21-|Somontano|Garnacha|Botella (75cl)|2021|29€|POD016871|—
+Frontonio La Loma & Los Santos Bl 22-|Aragón|Garnacha Blanca|Botella (75cl)|2022|100€|POD017674|—
+4 Kilos Motor BL 24-|Baleares|Prensal|Botella (75cl)|2024|39€|POD019726|—
+Envinate Benje BL 24-|Canarias|Listán Blanco|Botella (75cl)|2024|47€|POD018856|—
+Envinate Benje TO 24-|Canarias|Listán Blanco|Botella (75cl)|2024|44€|POD019489|—
+Envinate Palo Blanco 24-|Canarias|Listán Blanco|Botella (75cl)|2024|79€|POD018862|—
+Jable de Tao 23-|Canarias|Listán Blanco|Botella (75cl)|2023|84€|POD019772|—
+Puro Rofe Blanco 23-|Canarias|Listán Blanco|Botella (75cl)|2023|62€|POD016462|—
+Puro Rofe Morro La Virgen 23-|Canarias|Listán Blanco|Botella (75cl)|2023|103€|POD019729|—
+Puro Rofe Tinasoria 23-|Canarias|Diego|Botella (75cl)|2023|108€|POD019728|—
+Suertes del Marques El Trenzado 24-|Canarias|Listán Blanco|Botella (75cl)|2024|50€|POD018556|—
+Suertes del Marques Vidonia 24-|Canarias|Listán Blanco|Botella (75cl)|2024|78€|POD019470|—
+Tameran Malvasía 24-|Canarias|Malvasía|Botella (75cl)|2024|72€|POD019473|—
+Tameran Marmajuelo 24-|Canarias|Marmajuelo|Botella (75cl)|2024|72€|POD019472|—
+Tameran Vijariego 24-|Canarias|Vijariego Blanco|Botella (75cl)|2024|79€|POD019471|—
+Victoria Torres Sin Título 23 BL-|Canarias|Listán Blanco|Botella (75cl)|2023|78€|POD019442|—
+Abadía Retuerta Le Domaine 23-|Castilla y León|Verdejo|Botella (75cl)|2023|88€|POD015923|—
+Alvar de Dios Las Vidres 20-|Castilla y León|Doña Blanca|Botella (75cl)|2020|96€|POD019641|—
+Alvar de Dios Vaguera 22-|Castilla y León|Doña Blanca|Botella (75cl)|2022|52€|POD019642|—
+Arenas de SantYuste 23-|Rueda|Verdejo|Botella (75cl)|2023|42€|POD019439|—
+Barco del Corneta 23-|Rueda|Verdejo|Botella (75cl)|2023|50€|POD017755|—
+Belondrade Les Parcelles 19-|Rueda|Verdejo|Botella (75cl)|2019|541€|POD012663|—
+Belondrade y Lurton 23-|Rueda|Verdejo|Botella (75cl)|2023|92€|POD016481|—
+Cantalapiedra Chiviritero 23-|Rueda|Verdejo|Botella (75cl)|2023|46€|POD018854|—
+Cantalapiedra Otea 23-|Rueda|Verdejo|Botella (75cl)|2023|160€|POD019457|—
+Cesar Marquez El Val 22-|Rueda|Verdejo|Botella (75cl)|2022|250€|POD013822|—
+Cesar Marquez El Val 23-|Rueda|Verdejo|Botella (75cl)|2023|225€|POD017709|—
+Cesar Marquez La Salvación 23-|Rueda|Verdejo|Botella (75cl)|2023|68€|POD017705|—
+Cuarto Lagar 21-|Rueda|Albillo Mayor|Botella (75cl)|2021|85€|POD019725|—
+Dominio del Águila Viñas Viejas BL 19|Rueda|Verdejo|Botella (75cl)|2019|189€|POD014013|—
+El Transistor 24-|Rueda|Verdejo|Botella (75cl)|2024|51€|POD018383|—
+Esmeralda García En Blanco 22-|Rueda|Verdejo|Botella (75cl)|2022|54€|POD019438|—
+Jose Pariente 25 Años Barrica-|Rueda|Verdejo|Botella (75cl)|2000|131€|POD019708|—
+Jose Pariente La Medina 23-|Rueda|Verdejo|Botella (75cl)|2023|74€|POD015910|—
+La Vizcaina la del Vivo 23-|Bierzo|Godello|Botella (75cl)|2023|50€|POD017277|—
+Las Comas 22-|Rueda|Verdejo|Botella (75cl)|2022|73€|POD019707|—
+Mauro Godello 24-|Castilla y León|Godello|Botella (75cl)|2024|88€|POD018907|—
+Menade La Mision 23-|Rueda|Verdejo|Botella (75cl)|2023|46€|POD018268|—
+Menade Verdejo 24-|Rueda|Verdejo|Botella (75cl)|2024|32€|POD017052|—
+Menade Verdejo 25-|Rueda|Verdejo|Botella (75cl)|2025|30€|POD019427|—
+Nisia Las Suertes 24-|Rueda|Verdejo|Botella (75cl)|2024|48€|POD018588|—
+Ossian 22-|Rueda|Verdejo|Botella (75cl)|2022|79€|POD016482|—
+Ossian Capitel 22-|Rueda|Verdejo|Botella (75cl)|2022|184€|POD018123|—
+Otro Cuento 23-|Rueda|Verdejo|Botella (75cl)|2023|39€|POD019661|—
+Raul Perez Ultreia La Claudina 23-|Bierzo|Godello|Botella (75cl)|2023|92€|POD019164|—
+San Roman Malvasia 22-|Toro|Malvasía|Botella (75cl)|2022|75€|POD016116|—
+Sangarida La Guiana BL 22-|Bierzo|Godello|Botella (75cl)|2022|60€|POD017772|—
+Sangarida La Yegua 22-|Bierzo|Godello|Botella (75cl)|2022|45€|POD017773|—
+Sanz Malcorta 24-|Rueda|Verdejo|Botella (75cl)|2024|48€|POD018500|—
+Sin Nombre 22-|Rueda|Verdejo|Botella (75cl)|2022|48€|POD018393|—
+Teiro 22-|Rueda|Verdejo|Botella (75cl)|2022|175€|POD014734|—
+Territorio Luthier 2021-|Rueda|Albillo Mayor|Botella (75cl)|2021|68€|POD017677|—
+Ultreia Godello 23-|Bierzo|Godello|Botella (75cl)|2023|35€|POD019464|—
+Veronica Ortega Llorona 23-|Bierzo|Godello|Botella (75cl)|2023|51€|POD019443|—
+Verónica Ortega Tormenta 23-|Bierzo|Godello|Botella (75cl)|2023|67€|POD018816|—
+Las Tinadas 20-|Castilla-La Mancha|Airén|Botella (75cl)|2020|30€|POD019765|—
+Ponce Albilla BL 24-|Castilla-La Mancha|Albillo Mayor|Botella (75cl)|2024|92€|POD019465|—
+Abadia del Poblet BL 21-|Conca de Barberà|Chardonnay|Botella (75cl)|2021|35€|POD018127|—
+Can Sumoi Xarello 24-|Penedès|Xarel·lo|Botella (75cl)|2024|32€|POD018904|—
+Castel D´Encus Taleia-|Costers del Segre|Sauvignon Blanc|Botella (75cl)|2021|50€|POD015872|—
+Castell Remei G R 18-|Costers del Segre|Macabeo|Botella (75cl)|2018|100€|POD015450|—
+Clos Erasmus Laurel Bl 23-|Montsant|Garnacha Blanca|Botella (75cl)|2023|90€|POD016310|—
+Credo Capficat 19-|Penedès|Macabeo|Botella (75cl)|2019|74€|POD019721|—
+Credo Ratpenat 21-|Penedès|Garnacha Blanca|Botella (75cl)|2021|50€|POD019722|—
+Dido Bl. 22-|Montsant|Garnacha Blanca|Botella (75cl)|2022|44€|POD012820|—
+Electio 22-|Penedès|Garnacha Blanca|Botella (75cl)|2022|85€|POD012985|—
+Finca l'Argata BL 22-|Montsant|Garnacha Blanca|Botella (75cl)|2022|136€|POD019440|—
+Les Sorts Bl. 23-|Montsant|Garnacha Blanca|Botella (75cl)|2023|50€|POD016923|—
+Mas d´en Gil Coma Blanca 19-|Priorat|Garnacha Blanca|Botella (75cl)|2019|88€|POD019777|—
+Mas Doix Salix 23-|Priorat|Macabeo|Botella (75cl)|2023|90€|POD016307|—
+Mas Martinet Cami Pesseroles Brissat 21-|Priorat|Garnacha Blanca|Botella (75cl)|2021|77€|POD017027|—
+Milmanda F.B.-|Penedès|Chardonnay|Botella (75cl)|2021|116€|POD014644|—
+Murmuri Mas Doix 23-|Priorat|Macabeo|Botella (75cl)|2023|53€|POD016505|—
+Murmuri Mas Doix 24-|Priorat|Macabeo|Botella (75cl)|2024|53€|POD019613|—
+Terroir al Limit Pedra de Guix 22-|Priorat|Garnacha Blanca|Botella (75cl)|2022|149€|POD018590|—
+Venus La Cartoixa 21-|Montsant|Garnacha Blanca|Botella (75cl)|2021|119€|POD018877|—
+Finca Calvestra 22-|Comunidad Valenciana|Merseguera|Botella (75cl)|2022|42€|POD007711|—
+Javi Revert Micalet 24-|Comunidad Valenciana|Merseguera|Botella (75cl)|2024|78€|POD018064|—
+Luca Bernasconi Temide 22-|Comunidad Valenciana|Merseguera|Botella (75cl)|2022|38€|POD019650|—
+Alunado Chardonay 23-|Extremadura|Chardonnay|Botella (75cl)|2023|50€|POD013276|—
+A da Cova Pedras Líquidas 22-|Ribeira Sacra|Godello|Botella (75cl)|2022|78€|POD012953|—
+A Teixa Luis Anxo Rodríguez 21-|Ribeira Sacra|Godello|Botella (75cl)|2021|58€|POD016497|—
+Abadia Da Cova Loia BL 24-|Ribeira Sacra|Godello|Botella (75cl)|2024|40€|POD018553|—
+Albamar 69 Arrobas 22-|Rías Baixas|Albariño|Botella (75cl)|2022|65€|POD013185|—
+Alma de Mar 22-|Rías Baixas|Albariño|Botella (75cl)|2022|58€|POD013184|—
+Areas de Arra 20-|Rías Baixas|Albariño|Botella (75cl)|2020|200€|POD019463|—
+Arman Finca Misenhora 23-|Ribeiro|Treixadura|Botella (75cl)|2023|54€|POD018494|—
+As Sortes 23-|Valdeorras|Godello|Botella (75cl)|2023|105€|POD015846|—
+As Sortes 24-|Valdeorras|Godello|Botella (75cl)|2024|110€|POD018997|—
+Attis Atalante Caiño BL 23-|Valdeorras|Caiño Blanco|Botella (75cl)|2023|56€|POD016565|—
+Attis Coribante 22-|Rías Baixas|Loureiro|Botella (75cl)|2022|72€|POD016566|—
+Attis Embaixador 22-|Rías Baixas|Albariño|Botella (75cl)|2022|60€|POD015306|—
+Attis Lias Finas 24-|Rías Baixas|Albariño|Botella (75cl)|2024|37€|POD017771|—
+Attis Mar 24-|Rías Baixas|Albariño|Botella (75cl)|2024|155€|POD018753|—
+Attis Nana Old Vines 23-|Rías Baixas|Albariño|Botella (75cl)|2023|58€|POD018301|—
+Augalevada Areas de Rei 23-|Ribeiro|Treixadura|Botella (75cl)|2023|44€|POD019665|—
+Avancia Godello 24-|Valdeorras|Godello|Botella (75cl)|2024|61€|POD018578|—
+Avancia Nobleza 24-|Valdeorras|Godello|Botella (75cl)|2024|92€|POD019160|—
+Branco de Sta Cruz 22-|Ribeira Sacra|Treixadura|Botella (75cl)|2022|75€|POD017756|—
+Do Ferreiro Cepas Vellas 24-|Rías Baixas|Albariño|Botella (75cl)|2024|79€|POD018878|—
+Dominio do Bibei Lalume 23-|Ribeira Sacra|Godello|Botella (75cl)|2023|35€|POD018377|—
+Dominio do Bibei Lapola 22-|Ribeira Sacra|Godello|Botella (75cl)|2022|53€|POD018101|—
+Dominio do Bibei Lapola 23-|Ribeira Sacra|Godello|Botella (75cl)|2023|48€|POD019143|—
+Emilio Rojo 22-|Ribeiro|Treixadura|Botella (75cl)|2022|120€|POD018921|—
+Eulogio Pomares Parcela Aios 22-|Rías Baixas|Albariño|Botella (75cl)|2022|120€|POD012368|—
+Falcoeira Branco 22-|Valdeorras|Treixadura|Botella (75cl)|2022|188€|POD018449|—
+Fedellos Testoiro 24-|Ribeira Sacra|Godello|Botella (75cl)|2024|56€|POD019664|—
+Fulcro Finca Pedreira 24-|Rías Baixas|Albariño|Botella (75cl)|2024|38€|POD017871|—
+Fulcro Nas Dunas 22-|Rías Baixas|Albariño|Botella (75cl)|2022|145€|POD019086|—
+Fulcro O Equilibrio 23-|Rías Baixas|Albariño|Botella (75cl)|2023|51€|POD019085|—
+Goliardo A Telleira 23-|Valdeorras|Caiño Blanco|Botella (75cl)|2023|75€|POD017033|—
+Goliardo A Telleira 24-|Valdeorras|Caiño Blanco|Botella (75cl)|2024|68€|POD019158|—
+Gomariz Finca O Figueiral 20-|Ribeiro|Treixadura|Botella (75cl)|2020|58€|POD017057|—
+Guimaro Cepas Vellas 24-|Ribeira Sacra|Godello|Botella (75cl)|2024|48€|POD019458|—
+Joaquin Rebolledo Trasdairelas BL 24-|Valdeorras|Godello|Botella (75cl)|2024|45€|POD018412|—
+La Caña Navia 24-|Rías Baixas|Albariño|Botella (75cl)|2024|60€|POD018497|—
+La Comtesse 20-|Rías Baixas|Albariño|Botella (75cl)|2020|230€|POD018333|—
+Leirana O Pradiño 22-|Rías Baixas|Albariño|Botella (75cl)|2022|125€|POD018382|—
+Louro 24-|Valdeorras|Godello|Botella (75cl)|2024|46€|POD018026|—
+Mg. Attis Mar 21-|Rías Baixas|Albariño|Magnum (150cl)|2021|320€|POD008791|—
+Monte Alto Fillaboa 22-|Rías Baixas|Albariño|Botella (75cl)|2022|46€|POD016099|—
+O Luar do Sil 24-|Valdeorras|Godello|Botella (75cl)|2024|30€|POD017538|—
+O Luar Do Sil V Corgomo 22-|Valdeorras|Godello|Botella (75cl)|2022|84€|POD012742|—
+O Morto A Via 22-|Ribeiro|Treixadura|Botella (75cl)|2022|56€|POD019667|—
+Pazo Barrantes 22-|Rías Baixas|Albariño|Botella (75cl)|2022|82€|POD018331|—
+Pazo da Sinsela 21-|Rías Baixas|Albariño|Botella (75cl)|2021|68€|POD019461|—
+Pazo da Sinsela San Clemente 21-|Rías Baixas|Albariño|Botella (75cl)|2021|220€|POD019462|—
+Pazo San Mauro 24-|Rías Baixas|Albariño|Botella (75cl)|2024|35€|POD018100|—
+Pazo Señorans Selección 15-|Rías Baixas|Albariño|Botella (75cl)|2015|109€|POD017626|—
+Pezas da Portela 23-|Valdeorras|Godello|Botella (75cl)|2023|84€|POD016926|—
+Sitta Ancestros 16-|Rías Baixas|Albariño|Botella (75cl)|2016|192€|POD016572|—
+Sorte Antiga 22-|Valdeorras|Godello|Botella (75cl)|2022|390€|POD012359|—
+Sorte O Soro 21-|Valdeorras|Godello|Botella (75cl)|2021|700€|POD010576|—
+Sorte O Soro 22-|Valdeorras|Godello|Botella (75cl)|2022|723€|POD012358|—
+Ventoleiro Blanco 23-|Rías Baixas|Albariño|Botella (75cl)|2023|66€|POD019150|—
+Xesteiriña 23-|Rías Baixas|Albariño|Botella (75cl)|2023|61€|POD017212|—
+4 Monos Albillo Real 23-|Madrid|Albillo Mayor|Botella (75cl)|2023|40€|POD019466|—
+Cantocuerdas 22-|Madrid|Albillo Mayor|Botella (75cl)|2022|45€|POD019778|—
+Comando G camino del Pilar 21-|Madrid|Albillo Mayor|Botella (75cl)|2021|150€|POD018115|—
+Comando G El Tamboril BL 22-|Madrid|Albillo Mayor|Botella (75cl)|2022|450€|POD018836|—
+Comando G El Tamboril BL 23-|Madrid|Albillo Mayor|Botella (75cl)|2023|395€|POD018842|—
+El Hombre Bala 23-|Madrid|Albillo Mayor|Botella (75cl)|2023|48€|POD014054|—
+Flor de Albihar 21-|Madrid|Albillo Mayor|Botella (75cl)|2021|45€|POD017593|—
+Flor de Albihar 22-|Madrid|Albillo Mayor|Botella (75cl)|2022|47€|POD019638|—
+Cerron El Cerrico 23-|Murcia|Merseguera|Botella (75cl)|2023|98€|POD017912|—
+Chivite 125 FB 23|Navarra|Chardonnay|Botella (75cl)|2023|130€|POD018568|—
+Jirafas 22-|Navarra|Garnacha Blanca|Botella (75cl)|2022|68€|POD019659|—
+Viña Zorzal Señora de las Alturas BL 23-|Navarra|Garnacha Blanca|Botella (75cl)|2023|62€|POD019723|—
+Doniene Gorrondona TxakolI 23-|Bizkaiko Txakolina|Hondarribi Zuri|Botella (75cl)|2023|32€|POD012988|—
+Oxer B Marko Terleguiz 23-|Bizkaiko Txakolina|Hondarribi Zuri|Botella (75cl)|2023|90€|POD018757|—
+Abel Mendoza V5 24-|Rioja|Viura|Botella (75cl)|2024|58€|POD019789|—
+Abel Mendoza Viura 24-|Rioja|Viura|Botella (75cl)|2024|48€|POD019766|—
+Capellania Rva 20-|Rioja|Viura|Botella (75cl)|2020|134€|POD018339|—
+Castillo de Ygay 86 BL-|Rioja|Viura|Botella (75cl)|1986|2397€|POD005077|—
+Costumbres BL 23-|Rioja|Viura|Botella (75cl)|2023|40€|POD019745|—
+Cuentaviñas Arriscado BL 22-|Rioja|Viura|Botella (75cl)|2022|90€|POD012651|—
+Finca Emperatriz 19 Bl-|Rioja|Viura|Botella (75cl)|2019|81€|POD017575|—
+Flor de Muga Bl 22-|Rioja|Viura|Botella (75cl)|2021|65€|POD018643|—
+Mg Baynos BL 21-|Rioja|Viura|Magnum (150cl)|2021|300€|POD016107|—
+Mg Remirez de Ganuza Bl GR Olagar 15-|Rioja|Viura|Magnum (150cl)|2015|305€|POD016778|—
+Olagar BL Gran Rva 18-|Rioja|Viura|Botella (75cl)|2018|129€|POD018513|—
+Oxer Kalamity BL 23-|Rioja|Viura|Botella (75cl)|2023|206€|POD018756|—
+Placet 22-|Rioja|Viura|Botella (75cl)|2022|51€|POD008838|—
+Que Bonito Cacareaba 23-|Rioja|Viura|Botella (75cl)|2023|98€|POD016949|—
+Remelluri Blanco 22-|Rioja|Viura|Botella (75cl)|2022|124€|POD018620|—
+Remirez de Ganuza BL FB 16-|Rioja|Viura|Botella (75cl)|2016|123€|POD003990|—
+Roda I Blanco 21-|Rioja|Viura|Botella (75cl)|2021|121€|POD015771|—
+Sierra Cantabria Gran Vino BL 10-|Rioja|Viura|Botella (75cl)|2010|853€|POD012656|—
+Trascuevas 23-|Rioja|Viura|Botella (75cl)|2023|70€|POD017869|—
+Viña Tondonia RV BL 13-|Rioja|Viura|Botella (75cl)|2013|115€|POD015112|—
+Ceritas Charles Heintz Chard 22-|California|Chardonnay|Botella (75cl)|2022|255€|POD018346|—
+Eisele Vineyard Sauvignon BL 21-|California|Sauvignon Blanc|Botella (75cl)|2021|218€|POD012659|—
+Kistler Les Noisetiers BL 22-|California|Chardonnay|Botella (75cl)|2022|175€|POD017494|—
+Kongsgaard Chardonnay 20-|California|Chardonnay|Botella (75cl)|2020|435€|POD017555|—
+Kongsgaard Chardonnay 22-|California|Chardonnay|Botella (75cl)|2022|397€|POD018348|—
+Mayacamas Chardonnay 22-|California|Chardonnay|Botella (75cl)|2022|209€|POD018351|—
+Racines Bentrock Vineyard Chardonnay 19-|Estados Unidos (California)|Chardonnay|Botella (75cl)|2019|190€|POD016490|—
+Racines Bentrock Vineyard Chardonnay 22-|California|Chardonnay|Botella (75cl)|2022|200€|POD016397|—
+Racines Santa Rita Hills Chardonnay 20-|California|Chardonnay|Botella (75cl)|2020|124€|POD016398|—
+Racines Santa Rita Hills Chardonnay 22-|Estados Unidos (California)|Chardonnay|Botella (75cl)|2022|97€|POD016399|—
+Racines Wenzlau Chardonnay 22-|California|Chardonnay|Botella (75cl)|2022|184€|POD016403|—
+Sandhi Santa Rita Hills BL 22-|California|Chardonnay|Botella (75cl)|2022|75€|POD017498|—
+Screaming Eagle Sauvignon Blanc 20-|California|Sauvignon Blanc|Botella (75cl)|2020|6750€|POD015787|—
+Sine Qua Non Distenta BL 21-|California|Roussanne|Botella (75cl)|2021|731€|POD017790|—
+Evening Land La Source BL 22-|Oregón|Chardonnay|Botella (75cl)|2022|177€|POD017491|—
+Evening Land Salem BL 22-|Oregón|Chardonnay|Botella (75cl)|2022|59€|POD017492|—
+Evening Land Seven Springs BL 22-|Oregón|Chardonnay|Botella (75cl)|2022|85€|POD014102|—
+Evening Land Summum BL 22-|Oregón|Chardonnay|Botella (75cl)|2022|189€|POD017493|—
+Schieferkopf, Lieu-dits Fels 16-|Alsacia|Riesling|Botella (75cl)|2016|58€|POD015678|—
+Trimbach Clos Saint Hune 18-|Alsacia|Riesling|Botella (75cl)|2018|648€|POD017256|—
+Trimbach Cuvée Fréderic Émile 17-|França (Alsácia)|Riesling|Botella (75cl)|2017|174€|POD012872|—
+Philippe Brand Blanco CVC|Alsacia|Riesling|Botella (75cl)|CVC|50€|POD_TEMP_1000|—
+Arnaud Ente Bourgogne BL 20-|Borgoña|Chardonnay|Botella (75cl)|2020|858€|POD015938|—
+Arnaud Ente Meursault 16-|Borgoña|Chardonnay|Botella (75cl)|2016|1230€|POD016874|—
+Arnaud Ente Meursault 20-|Borgoña|Chardonnay|Botella (75cl)|2020|1550€|POD015939|—
+Arnaud Ente Meursault Clos de Ambres 19-|Borgoña|Chardonnay|Botella (75cl)|2019|1950€|POD011380|—
+Arnaud Ente Meursault Petit Charron 19-|Borgoña|Chardonnay|Botella (75cl)|2019|3500€|POD016877|—
+Arnaud Ente Puligny 1C Champ Gain 19-|Borgoña|Chardonnay|Botella (75cl)|2019|3800€|POD016878|—
+Benoit Ente Puligny 1C Clos de la Trufiere 22-|Borgoña|Chardonnay|Botella (75cl)|2022|842€|POD015947|—
+Benoit Ente Puligny 1C Clos Truffiere 20-|Borgoña|Chardonnay|Botella (75cl)|2020|825€|POD010016|—
+Benoit Ente Puligny 1C Clos Truffiere 21-|Borgoña|Chardonnay|Botella (75cl)|2021|700€|POD011396|—
+Benoit Ente Puligny Montrachet 20-|Borgoña|Chardonnay|Botella (75cl)|2020|260€|POD010015|—
+Benoit Ente Puligny Montrachet 21-|Borgoña|Chardonnay|Botella (75cl)|2021|434€|POD011395|—
+Bessin Tremblay Chablis 1C Foret 22-|Borgoña|Chardonnay|Botella (75cl)|2022|97€|POD017224|—
+Bessin Tremblay Chablis 1C Fourchaume 22-|Borgoña|Chardonnay|Botella (75cl)|2022|97€|POD012444|—
+Bessin Tremblay Chablis 1C Fourchaume 23-|Borgoña|Chardonnay|Botella (75cl)|2023|108€|POD018777|—
+Bessin Tremblay Chablis 1C Montmains 22-|Borgoña|Chardonnay|Botella (75cl)|2022|92€|POD017225|—
+Bessin Tremblay Chablis Valmur 22-|Borgoña|Chardonnay|Botella (75cl)|2022|165€|POD012446|—
+Bessin Tremblay Chablis Valmur 23-|Borgoña|Chardonnay|Botella (75cl)|2023|174€|POD018779|—
+Billaud Simon Chablis 1C Fourchaume 22-|Borgoña|Chardonnay|Botella (75cl)|2022|102€|POD013313|—
+Billaud Simon Chablis 1C Montee Tonnerre 22-|Borgoña|Chardonnay|Botella (75cl)|2022|118€|POD012534|—
+Billaud Simon Chablis 23-|Borgoña|Chardonnay|Botella (75cl)|2023|68€|POD019207|—
+Billaud Simon Chablis Blanchots 22-|Borgoña|Chardonnay|Botella (75cl)|2022|231€|POD012535|—
+Billaud Simon Chablis Tete d´or 22-|Borgoña|Chardonnay|Botella (75cl)|2022|79€|POD012612|—
+Billaud Simon Chablis Vaudesir 22-|Borgoña|Chardonnay|Botella (75cl)|2022|236€|POD013311|—
+Bonin Initiales BB 22-|Borgoña|Chardonnay|Botella (75cl)|2022|510€|POD015933|—
+Bonin Meursault 1C Genevrieres 20-|Borgoña|Chardonnay|Botella (75cl)|2020|1285€|POD010019|—
+Bonin Meursault 1C Genevrieres 21-|Borgoña|Chardonnay|Botella (75cl)|2021|1050€|POD011385|—
+Bonin Meursault 1C Genevrieres 22-|Borgoña|Chardonnay|Botella (75cl)|2022|1550€|POD017046|—
+Bonin Meursault Clos Cromin 22-|Borgoña|Chardonnay|Botella (75cl)|2022|1040€|POD017044|—
+Bonin Meursault La Rencontre 22-|Borgoña|Chardonnay|Botella (75cl)|2022|506€|POD017043|—
+Bonin Meursault Tillets 22-|Borgoña|Chardonnay|Botella (75cl)|2022|1040€|POD017045|—
+Bonneau du Martray Corton Charlemagne 20-|Borgoña|Chardonnay|Botella (75cl)|2020|1103€|POD011244|—
+Bruno Colin Batard Montrachet 22-|Borgoña|Chardonnay|Botella (75cl)|2022|1520€|POD017227|—
+Bruno Colin Chass 1C En Remilly 23-|Borgoña|Chardonnay|Botella (75cl)|2023|325€|POD018785|—
+Bruno Colin Chass 1C Maltroie 23-|Borgoña|Chardonnay|Botella (75cl)|2023|260€|POD018783|—
+Bruno Colin Chass 1C Morgeot 23-|Borgoña|Chardonnay|Botella (75cl)|2023|260€|POD018784|—
+Bruno Colin Chassagne 1C Morgeot 22-|Borgoña|Chardonnay|Botella (75cl)|2022|262€|POD012462|—
+Bruno Colin Chassagne Mont 23-|Borgoña|Chardonnay|Botella (75cl)|2023|179€|POD018781|—
+Bruno Colin Chevalier Montrachet 23-|Borgoña|Chardonnay|Botella (75cl)|2023|2275€|POD018787|—
+Bruno Colin Corton Charlemagne 23-|Borgoña|Chardonnay|Botella (75cl)|2023|775€|POD018786|—
+Bruno Colin Puligny 1C Truffiere 23-|Borgoña|Chardonnay|Botella (75cl)|2023|408€|POD018782|—
+Ch Briailles Pernand ile Verg BL 22-|Borgoña|Pinot Noir|Botella (75cl)|2022|268€|POD013307|—
+Ch Fuisse Pouilly 1C Clos 23-|Borgoña|Chardonnay|Botella (75cl)|2023|155€|POD019235|—
+Chartron Batard Montrachet 22-|Borgoña|Chardonnay|Botella (75cl)|2022|850€|POD012397|—
+Chateau Chamirey 1C La Mission 22-|Borgoña|Chardonnay|Botella (75cl)|2022|136€|POD013341|—
+Chateau Fuisse Pouilly Fuisse 22-|França (Borgoña)|Chardonnay|Botella (75cl)|2022|94€|POD013339|—
+Cherisey Meurs Bois Blagny 22-|Borgoña|Chardonnay|Botella (75cl)|2022|247€|POD017379|—
+Cherisey Meurs Genelotte BL 21-|Borgoña|Chardonnay|Botella (75cl)|2021|320€|POD017381|—
+Cherisey Meursault 1C La Genelotte 19-|Borgoña|Chardonnay|Botella (75cl)|2019|368€|POD009414|—
+Cherisey Meursault 1C La Genelotte 20-|Borgoña|Chardonnay|Botella (75cl)|2020|352€|POD010547|—
+Cherisey Puligny 1C Chalumaux 20-|Borgoña|Chardonnay|Botella (75cl)|2020|341€|POD010548|—
+Coche Dury Aligote 14-|Borgoña|Chardonnay|Botella (75cl)|2014|655€|POD018473|—
+Coche Dury Corton Charlemagne 16-|Borgoña|Chardonnay|Botella (75cl)|2016|10125€|POD016413|—
+Coche Dury Meursault 17-|Borgoña|Chardonnay|Botella (75cl)|2017|2016€|POD015951|—
+Coche Dury Meursault 19-|Borgoña|Chardonnay|Botella (75cl)|2019|2016€|POD018059|—
+Coche Dury Meursault 22-|Borgoña|Chardonnay|Botella (75cl)|2022|1638€|POD018060|—
+Comte Vogue Musigny BL 21-|Borgoña|Pinot Noir|Botella (75cl)|2021|2233€|POD013433|—
+D de la Vougeraie Chevalier Montrachet Grand Cru 14-|Borgoña|Chardonnay|Botella (75cl)|2014|1150€|POD016634|—
+Dauvissat Chablis 1C La Forest 21-|Borgoña|Chardonnay|Botella (75cl)|2021|320€|POD017094|—
+Dauvissat Chablis 1C Montee Tonnerre 20-|Borgoña|Chardonnay|Botella (75cl)|2020|483€|POD017075|—
+Dauvissat Chablis 1C Vaillons 19-|Borgoña|Chardonnay|Botella (75cl)|2019|317€|POD017093|—
+Dauvissat Chablis 1C Vaillons 23-|Borgoña|Chardonnay|Botella (75cl)|2023|365€|POD018479|—
+Dauvissat Chablis 23-|Borgoña|Chardonnay|Botella (75cl)|2023|210€|POD018476|—
+Dauvissat Chablis Le Clos 23-|Borgoña|Chardonnay|Botella (75cl)|2023|710€|POD018477|—
+Dauvissat Chablis Les Preuses 23-|Borgoña|Chardonnay|Botella (75cl)|2023|760€|POD018478|—
+De Montille Bourgogne Blanc 22-|Borgoña|Chardonnay|Botella (75cl)|2022|68€|POD016404|—
+De Montille Pulig 1C Cailleret 23-|Borgoña|Chardonnay|Botella (75cl)|2023|398€|POD019090|—
+De Montille Puligny Montrachet 23-|Borgoña|Chardonnay|Botella (75cl)|2023|178€|POD019088|—
+De Villaine Bouzeron Aligote BL 22 -|Borgoña|Chardonnay|Botella (75cl)|2022|72€|POD011639|—
+Drouhin Beaune 1C Clos de Mouches BL 22-|Borgoña|Chardonnay|Botella (75cl)|2022|368€|POD013287|—
+Drouhin Beaune 1C Clos des Mouches BL 20-|Borgoña|Chardonnay|Botella (75cl)|2020|368€|POD009581|—
+Drouhin Chassagne 1C Morgeot Laguiche 22-|Borgoña|Chardonnay|Botella (75cl)|2022|346€|POD013286|—
+Drouhin Montrachet Marquis Laguiche 21-|Borgoña|Chardonnay|Botella (75cl)|2021|1938€|POD015497|—
+Drouhin Montrachet Marquis Laguiche 22-|Borgoña|Chardonnay|Botella (75cl)|2022|1938€|POD013288|—
+F Carillon Bourg Vieux Clos 23-|Borgoña|Chardonnay|Botella (75cl)|2023|80€|POD019342|—
+F Carillon Puligny 1C Folatieres 23-|Borgoña|Chardonnay|Botella (75cl)|2023|371€|POD019241|—
+F Carillon Puligny 1C Perrieres 23-|Borgoña|Chardonnay|Botella (75cl)|2023|375€|POD019243|—
+F Carillon Puligny 1C Vieux Chateau 23-|Borgoña|Chardonnay|Botella (75cl)|2023|205€|POD019234|—
+F Carillon Puligny Aubues 23-|Borgoña|Chardonnay|Botella (75cl)|2023|209€|POD019236|—
+F Carillon S Aub Murg Dent Ch 23-|Borgoña|Chardonnay|Botella (75cl)|2023|177€|POD019346|—
+Fleurot Larose Chassag Ab Morgeot BL 21-|Borgoña|Chardonnay|Botella (75cl)|2021|266€|POD017895|—
+Fleurot Larose Chassagne Rocquemaure 18-|Borgoña|Chardonnay|Botella (75cl)|2018|297€|POD017894|—
